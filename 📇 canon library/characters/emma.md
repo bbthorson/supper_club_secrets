@@ -8,19 +8,23 @@ A grounded and creative chef with a bubbly, optimistic energy, who is learning t
 *   Her enthusiasm is infectious, and she often uses humor to lighten the mood.
 *   Quick to offer encouragement and support to her friends.
 *   Initially skeptical of mysteries, preferring to focus on facts, but is open to new possibilities.
+*   When stressed or emotional, she drops her polished 'chef' persona and reverts to the blunt, direct colloquialisms of her Western Pennsylvania upbringing.
 
 ## Background
+*   Originally from Western Pennsylvania, a background that sometimes clashes with the Brooklyn food scene.
 *   Her passion for cooking began with Ina Garten's *Barefoot Contessa Cookbook* and her grandmother's buttery baking.
 *   She trained in French cuisine and worked at a French bistro.
 *   She dreams of opening a restaurant that combines French techniques with Southern comfort food.
 *   She is currently facing financial challenges after leaving her job, relying on freelance writing and her OnlyFans income.
+*   Her confidence was shaken by a past professional failure where she had executive authority to change a long-standing dish; when patrons reacted poorly, it made her more anxious and risk-averse about changing things that are already working.
 
 ## Skills
 *   Culinary expertise.
 *   Connections in the food industry.
 
 ## Relationships
-*   **Olivia and Elijah:** Closest with them, bonding over shared experiences and upbringing.
+*   **Olivia:** Admires Olivia's ability to converse with anyone, a skill Emma feels she lacks, especially with people outside of her comfort zone like tech professionals.
+*   **Elijah:** While they are close, she is secretly frustrated by his pragmatic pessimism, wishing he were more of a risk-taker.
 *   **Oliver:** Maintains a healthy emotional distance due to her friendship with Olivia.
 *   **Jasper:** Rarely takes him seriously.
 *   **Noah:** Relies on him for help with technology.

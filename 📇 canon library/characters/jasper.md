@@ -7,6 +7,8 @@ The wildcard of the group, a free spirit with a mysterious job and a love for ch
 *   A free spirit who enjoys pushing boundaries and challenging expectations.
 *   Loves to cause chaos and stir the pot, but genuinely cares about his friends and wants them to be happy.
 *   Believes societal rules and norms are not truly enforced.
+*   His conspiracy-mindedness is a form of play, not a genuine belief system. He's a provocateur, not a prophet.
+*   A very physical storyteller, using gesticulations and connecting wildly unrelated things with breathless energy.
 
 ## Background
 *   Comes across as a trust fund kid with hippie parents.
@@ -26,6 +28,9 @@ The wildcard of the group, a free spirit with a mysterious job and a love for ch
 
 ## Character Arc
 *   To find his place in the group and learn the value of discretion, balancing his free-spirited nature with the needs of his friends.
+
+## Secrets
+*   His chaotic persona is a rebellion against his greatest fear: being trapped by his stuffy, conventional, and boring extended family at a formal dinner.
 
 ## Notes
 *   Often complicates investigations by being too forthcoming with information.

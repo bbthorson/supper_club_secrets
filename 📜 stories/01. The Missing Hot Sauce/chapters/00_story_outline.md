@@ -4,7 +4,7 @@
 * Have **Jasper** provide an unexpected breakthrough in Act 2, but also cause a setback in Act 3.
 * Show **Olivia** gathering crucial information through her social connections in Act 2 and 3.
 
-## Meal (Act) 1 - The Setup
+## Meal 1 - The Setup
 ### Opening Image
 * A crisp October Sunday in Brooklyn.
 * **Emma** is headed to the farmers market early. It’s mostly deserted outside.
