@@ -15,12 +15,11 @@ A fastidious and bookish introvert, married to Olivia, with a fascination for ur
 *   He is organized and responsible, handling the household tasks like paying bills.
 
 ## Skills
-*   Deep understanding of city regulations.
+*   Deep understanding of city regulations and proficiency with navigating bureaucratic databases.
 *   Spotting irregularities in permits and development plans.
-*   Proficiency with navigating bureaucratic databases like the Department of Buildings' website.
 
 ## Relationships
-*   **Olivia:** Deeply in love with his wife, Olivia. He relies on her social energy to navigate social situations and tends to avoid building relationships independently.
+*   **Olivia:** Deeply in love with his wife, Olivia. He relies on her social energy, but in private, she is his most trusted collaborator, encouraging him to explore the narrative possibilities within his data.
 
 ## Character Arc
 *   To learn to apply his niche knowledge to real-world problems, think more creatively, and see beyond the obvious.
