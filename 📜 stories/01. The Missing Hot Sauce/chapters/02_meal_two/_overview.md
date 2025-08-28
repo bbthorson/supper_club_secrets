@@ -1,24 +1,12 @@
-## Meal 2 - Confrontation
-### Breaking into Act 2
-* We start with a montage of characters deciding what they’re going to make and “researching” their various conspiracies:
-    * **Emma:** Uses her food industry connections, subtly probing suppliers and local chefs for any unusual activity related to hot sauce distribution or Hank.
-    * **Elijah:** Conducts a deep financial analysis of the restaurant mogul's public records, looking for unusual investments or shell corporations.
-    * **Noah:** Scours the dark web, sets up digital alerts for keywords, and looks for any online presence of Hank that might have been scrubbed.
-    * **Jasper:** Calls his network of eccentric contacts, pursuing outlandish leads that might unexpectedly yield a kernel of truth.
-    * **Oliver:** Dives into city zoning laws and permits, looking for irregularities in new business registrations in Williamsburg.
-    * **Olivia:** Continues her social rounds, gathering neighborhood gossip from shop owners, baristas, and dog walkers, piecing together a timeline of Hank's last known movements.
+# Meal 2: Confrontation
 
-### B Story
-> I think I want to have **Emma** filming risque content for an OnlyFans - nothing raunchy, but like selling feet pics - which the restaurant mogul will use against her later. I need to come back to this, but I think **Emma** needs to be particularly exposed, likely economically, before they confront the villain.
+## Key Events
+* **Breaking into Act 2:** The week begins with a montage of the friends "researching" their wild theories. Initially, the mood is playful, an excuse to get together and not talk about work. Each friend, however, independently discovers a small, fishy detail, though nothing that seems truly alarming on its own.
+* **Fun and Games:** The group gathers for the second supper club. As they share their findings, the collective evidence starts to paint a more serious picture. The initial playful mood gradually transforms into a genuine investment in solving the quandary, as they become more convinced that something unscrupulous has happened.
+* **Midpoint:** The investigation takes a serious turn when the group pools their information. The combination of Emma's market intel, Olivia's gossip, Oliver's zoning research, and Noah's patent search leads them to a single restaurant mogul. The mood shifts from curiosity to excitement as they realize they've stumbled onto a real conspiracy.
+* **Breakthrough & Setback:** Fueled by a desire to get justice for Hank, the group gets hyped up. In the excitement, Jasper, driven by his bias for action, makes a call to a contact to confirm their suspicions. It's a well-intentioned but careless move that inadvertently tips off the mogul that he's being investigated.
 
-### Fun and Games
-* Information gathering - they all come to **Emma’s** and start showing off their dishes and sharing intel
-* Red herrings and false leads
-* Character dynamics and conflicts emerge
-
-### Midpoint
-* **Elijah** starts to pull certain threads together based on all their fun, unserious discovery work.
-* This should likely be a combination of **Emma’s** farmer’s market intel and **Olivia’s** neighborhood gossip.
-* **Oliver** borrows **Noah’s** computer to look up zoning records and discovers a new shop set to open in downtown Williamsburg by the restaurant owner.
-* **Noah** then finds a bunch of recently filed patents around hot sauce attached to the restaurant owner.
-* **Jasper** calls somebody he knows in commercial real estate and confirms their suspicions. This tips off the restaurant mogul.
+## Group Dynamics in this Act
+* **Elijah and Oliver** work together, showcasing their analytical skills.
+* **Olivia** proves to be a crucial asset, gathering important information through her social network.
+* **Jasper's** unpredictable nature leads to both a major breakthrough and a significant complication.

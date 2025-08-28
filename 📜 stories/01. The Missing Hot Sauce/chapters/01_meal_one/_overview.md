@@ -1,32 +1,9 @@
-## Meal 1 - The Setup
-### Opening Image
-* A crisp October Sunday in Brooklyn.
-* **Emma** is headed to the farmers market early. It’s mostly deserted outside.
-* She’s going to make a meal for friends as she works to separate herself from the food service industry.
+# Meal 1: The Setup
 
-### Theme Stated
-* When **Emma** arrives at the farmer’s market, the traditionally jovial hot sauce vendor isn’t around. She asks other vendors and all they know is that he gave up his spot mid-week, which was incredibly rare and they haven’t heard from him since.
-
-### Set-up
-* Everyone but **Elijah** shows up to **Emma's**. They’re catching up and we’re learning about their personalities through dialogue.
-* The group notices that **Emma** is particularly distant. They ask her about it and she says she’s a little disappointed that she wasn’t able to get the ingredients she wanted and that the hot sauce vendor was nowhere to be found.
-
-### Catalyst
-* **Olivia** texts a shop owner during dinner and learns that they aren’t selling the hot sauce either and that the maker was acting really weird when he came in to take his product back.
-* While drinking wine, they start to playfully speculate about why he stopped selling this hot sauce that **Emma** loved so much.
-
-### Debate
-* **Oliver**, **Emma**, **Olivia**, **Jasper**, and **Noah** all come up with wild conspiracies as to what might have happened for **Elijah** to judge. They’re all having a fun, ridiculous time.
-* **Oliver** reluctantly suggests the hot sauce maker was kidnapped by a secret business partner. He has little interest in baseless conjecture.
-* **Emma** playfully suggests that it’s “Big Hot Sauce”, or corporations trying to crush competition. She talks about Big Hot Sauce in exaggerated terms, making it seem wildly unlikely, even though she’s closest to being correct.
-* **Olivia** suggests that the vendor has a much more successful life and he no longer has to work.
-* **Jasper** suggests it’s aliens. And the CIA. and the Russians. He just goes all over until the group makes him sit down.
-* **Noah** is annoyed that **Jasper** threw in the CIA because he’d already been talking about that. He thinks that the CIA is trying to destabilize the hot sauce market to drive down the demand for peppers internationally.
-* **Elijah** decides he just can’t make a decision because they were so outlandish.
-* **Jasper** suggests that they should all take next week to investigate their ideas and have a potluck the following Sunday to reconvene and see if they can figure it out. 
-* **Jasper** suggests they draw numbers from a hat again and get the following responsibilities:
-    * **Olivia** chimes up before hand and says she and **Oliver** will do the entree because it’s the most work and there are two of them.
-    * **Elijah** draws a salad or second course. The group pokes fun at him to not make something bland.
-    * **Emma** draws dessert. She’s relieved that she has something much smaller and easier.
-    * **Noah** draws wine.
-    * **Jasper** draws appetizers. **Noah** immediately objects and says he’ll do an appetizer and **Jasper** can buy more cheap wine with fancy labels. **Jasper** agrees.
+## Key Events
+* **Opening Image:** The story opens on a crisp October Sunday in Brooklyn. Emma, recently separated from the food service industry, heads to the farmers market to get ingredients for a meal she is cooking for her friends. The gathering is a routine, but welcome, break for the friends who don't see each other much during the week.
+* **Theme Stated:** At the market, Emma discovers that her favorite hot sauce vendor, Hank, is missing. Confused and a little shaken by this unexpected disruption to her plans, she learns from other vendors that he gave up his spot mid-week without explanation, which was highly unusual.
+* **Set-up:** The supper club gathers at Emma's apartment. The group notices she is distant, and she explains her frustration about the missing hot sauce vendor which has thrown off her menu.
+* **Catalyst:** During dinner, Olivia texts a local shop owner and learns that the vendor had been acting strangely and had taken all of his product back. This sparks a joking intrigue among the friends, who are not yet a mystery-solving team. Emma, Jasper, and Olivia are the most engaged by the puzzle.
+* **Debate:** The group begins to playfully speculate, daring each other to come up with wilder theories. This escalates accidentally, with each friend pushing the game a little further without expecting it to lead anywhere meaningful.
+* **The Plan:** Having arrived last and being the most sober, Elijah is assigned his usual role as the group's judge. Amused, he eggs them on, but ultimately can't pick a winning theory. This leads Jasper to suggest they all investigate their ideas and reconvene the following week with a potluck dinner to share their "findings".
