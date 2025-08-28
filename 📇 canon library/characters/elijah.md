@@ -20,6 +20,7 @@ The rigid analyst with a pragmatic approach and a quietly empathetic nature.
 ## Skills
 *   Financial analysis.
 *   Attention to detail.
+*   He uses financial modeling not just for work, but as a way to understand and contextualize the world around him.
 
 ## Relationships
 *   **Emma:** Bonds with her over their shared, quiet empathy.

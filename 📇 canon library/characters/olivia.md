@@ -17,6 +17,7 @@ A social butterfly and entrepreneur who effortlessly gathers neighborhood gossip
 ## Skills
 *   Networking and information gathering from locals.
 *   A natural conversationalist who effortlessly gathers gossip and intel.
+*   Has a specific talent for calibrating her reactions (like her "perfect calibration of concern and intrigue") to encourage people to share more information.
 
 ## Relationships
 *   **Oliver:** Married to him and considers him her anchor. However, his dependence on her for social interaction sometimes makes her anxious.

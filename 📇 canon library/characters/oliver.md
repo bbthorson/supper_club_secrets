@@ -17,6 +17,7 @@ A fastidious and bookish introvert, married to Olivia, with a fascination for ur
 ## Skills
 *   Deep understanding of city regulations.
 *   Spotting irregularities in permits and development plans.
+*   Proficiency with navigating bureaucratic databases like the Department of Buildings' website.
 
 ## Relationships
 *   **Olivia:** Deeply in love with his wife, Olivia. He relies on her social energy to navigate social situations and tends to avoid building relationships independently.

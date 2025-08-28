@@ -5,6 +5,7 @@ An idealistic and sometimes naive techie who believes technology can solve any p
 
 ## Personality
 *   A strong believer in tech utopianism, convinced that technology and automation are the ultimate solutions.
+*   His first instinct is to dismiss problems that don't have a clean, immediate digital solution.
 *   Naive and easily swayed by new ideas, except when they come from Jasper.
 *   Pedantically minimalist, obsessed with owning only one type and color of t-shirt.
 *   When trying to persuade others, he tends to lead with technical jargon before resorting to oversimplified logic if he isn't being understood.
