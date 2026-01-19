@@ -24,16 +24,23 @@ These rules, copied from `README.md`, are central to our workflow.
 
 ## 4. Character Voices
 
-_(This is a critical section to expand. For now, using the examples we discussed.)_
+For comprehensive voice guidance, see **[02_character_voice_guide.md](file:///Users/bradthorson/Code/supper_club_secrets/world%20building/02_character_voice_guide.md)**.
 
-*   **Jasper:** Talks in enthusiastic, breathless run-on sentences. Often connects unrelated conspiracy theories.
-    *   *Example: "It's so obvious, the guy didn't just disappear, he was probably abducted by the same aliens that are definitely running the deep state out of a pizza parlor in Queens."*
-*   **Oliver:** Speaks precisely and with a touch of academic dryness. He is skeptical and prefers facts over speculation.
-    *   *Example: "While your theory is certainly colorful, there is no data to support it."*
-*   **Emma:** TBD
-*   **Noah:** TBD
-*   **Olivia:** TBD
-*   **Elijah:** TBD
+Each character has **three registers** (Public, Private, Under Pressure) and a built-in **contradiction** that creates depth. Quick reference:
+
+| Character | Public Mode | Under Pressure | Key Contradiction |
+|-----------|-------------|----------------|-------------------|
+| **Emma** | Chef persona, professional | Western PA dialect breaks through | Preaches risk-taking but is risk-averse |
+| **Elijah** | Guarded, economical | Cold precision OR rare vulnerability | Pragmatist who dreams of pastoral escape |
+| **Noah** | Tech jargon, confident | Retreats to logic OR frustrated by human mess | Minimalist who collects rare sneakers |
+| **Oliver** | Quiet, defers to Olivia | Shuts down OR unexpected knowledge bombs | Shy in person, prolific online |
+| **Olivia** | Dramatic storyteller | Manic hosting OR anxiety about Oliver | Effortless social but fears being needed > loved |
+| **Jasper** | Chaos agent, breathless | *Goes quiet* (the reversal) | Rebel terrified of conventionality |
+
+**Key principles:**
+- Let contradictions surface gradually across scenes, not all at once
+- Silence and deflection are characterization tools
+- Characters should speak differently in Book 3 than Book 1
 
 ## 5. Formatting
 
