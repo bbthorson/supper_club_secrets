@@ -64,5 +64,13 @@ He's not sure how he ended up with a group of friends who solve neighborhood mys
 
 ### Book 1: The Missing Hot Sauce
 - Works at an investment bank in Manhattan
-- Arrives late to the first dinner (coming from work)
-- Analyzes the cease and desist letter for Emma
+- Arrives late to the first dinner (coming from work on a Sunday — filing a report)
+- Serves as the group's "judge" for their theory competition (Meal 1)
+- Builds a financial model during his lunch break showing artisanal hot sauce could be valued low-to-mid six figures (Ch. 8)
+- Texts the group: "That's serious money" — the message that convinces Noah to take the investigation seriously
+- Draws second course (fennel-citrus salad) for Meal 2 potluck; group begs him not to make bland quinoa
+- Analyzes the cease and desist letter — declares it "toothless" but acknowledges the intimidation is real (Ch. 13)
+- Calls Emma's OnlyFans "a market inefficiency monetized with minimal overhead costs" — dry validation (Ch. 13)
+- Partners with Oliver to build the evidence press kit for the swarm strategy (Ch. 15)
+- Described as "expensive enough at compartmentalizing" his stress that no one can tell (Ch. 16)
+- Growth: Begins to take calculated risks with the group rather than staying on the sidelines

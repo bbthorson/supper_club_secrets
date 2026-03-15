@@ -13,7 +13,7 @@ The wildcard of the group, a free spirit with a mysterious job and a love for ch
 ## Background
 
 ### Childhood & Family
-Jasper comes from old money—not Rockefeller-level, but close enough. His great-great-grandfather made a fortune in [industry TBD—railroads? textiles? banking?], and while the family no longer uses that original surname, the money and the expectations remain.
+Jasper comes from old money—not Rockefeller-level, but close enough. His great-great-grandfather made a fortune in textiles — the kind of generational wealth that quietly compounds behind trust funds and family offices. While the family no longer uses that original surname, the money and the expectations remain.
 
 Jasper grew up in a world of formal dinners, summer estates, boarding school applications, and the unspoken assumption that he would become Someone Respectable. His extended family is a gallery of lawyers, bankers, and politicians—people who wear their success like armor and discuss net worth over brunch.
 
@@ -72,7 +72,19 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 *Details revealed in stories that should remain consistent:*
 
 ### Book 1: The Missing Hot Sauce
-- Works at the 311 call center
-- Joined the group about two years before the story begins
-- Tips off the restaurant mogul by calling "someone in commercial real estate"
-- Tracks down Hank and brings him to the final dinner
+- Works at the NYC 311 call center
+- Joined the group about two years before the story begins (helped Oliver with a zoning issue)
+- Arrives first to Meal 1, claims daylight savings confusion (Ch. 2)
+- Brings cheap wine with fancy labels — Noah calls him out; becomes a running joke
+- Proposes the investigation and the potluck reconvene idea (Ch. 5)
+- Swaps dish assignments with Noah: takes wine, Noah takes appetizers
+- Calls Brenda Chen (old acquaintance in commercial real estate) with the LLC number, names Emma as investigator (Ch. 9)
+- Brenda tips off the mogul — Jasper inadvertently causes the C&D
+- Confesses to the group; admits he's always felt like "the liability" (Ch. 14)
+- Noah lashes out; Jasper is genuinely hurt — "I don't know any other way to be useful"
+- Assigned redemption mission: find Hank (Ch. 15)
+- Tracks Hank through the Fish Pepper connection — twenty phone calls to nurseries, drives three hours to Meadowlight Collective (Ch. 17)
+- Finds Hank in a greenhouse, tells him the whole story, invites him to dinner
+- Brings Hank to the final dinner — the real victory (Ch. 18)
+- Drives an "ancient Subaru"
+- Growth: His chaos pointed in the right direction for once; begins learning when strategic quiet is more valuable than manic energy

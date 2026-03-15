@@ -7,6 +7,3 @@ Thumbs.db
 # Temp files
 *.tmp
 *~
-
-# firebase
-firebase-debug.log

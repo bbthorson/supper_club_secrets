@@ -14,7 +14,7 @@ A fastidious and bookish introvert, married to Olivia, with a fascination for ur
 ### Childhood & Family
 Oliver's need for order is innate, not reactive. As a child, he color-coded his closet, organized his books by genre and then alphabetically, and preferred games with clear, delineated rules—foursquare over tag, chess over pretend.
 
-He grew up in a stable, unremarkable suburb (location TBD—potentially New Jersey or Connecticut). His parents were supportive and slightly baffled by their quiet, meticulous son. They assumed he'd grow out of it. He didn't.
+He grew up in a stable, unremarkable suburb in northern New Jersey — close enough to New York to feel its pull, far enough to be completely disconnected from its energy. His parents were supportive and slightly baffled by their quiet, meticulous son. They assumed he'd grow out of it. He didn't.
 
 He was never bullied, exactly, but he was overlooked. The kid who studied in the library. The one who corrected the teacher once and then regretted it for the rest of the semester. Social situations exhausted him. He learned early that silence was safer than trying to fit in.
 
@@ -70,6 +70,15 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 *Details revealed in stories that should remain consistent:*
 
 ### Book 1: The Missing Hot Sauce
-- Works as a research analyst in urban planning
-- Discovers the commercial permit for "Hank's Heritage Hot Sauce Kitchen"
-- Uses Noah's computer to access zoning records
+- Works as a research analyst at a small urban planning consultancy
+- Reluctantly participates in the theory competition (draws #1, suggests kidnapping by business partner) — Olivia mouths "thank you, babe" when he contributes (Ch. 4)
+- Spends a full day at the NY Public Library Rose Main Reading Room researching permits; has a regular desk there (Ch. 6)
+- Discovers anonymous LLC #2847 filed for a waterfront restaurant two days after Hank disappeared — the foundational clue (Ch. 6)
+- Shows Olivia his findings at home; she recognizes it as "a real lead" (Ch. 7)
+- Partners with Elijah to build the evidence press kit (Ch. 15)
+- Stands up and rallies the group after Jasper's confession and Noah's attack — the longest speech he's ever given (Ch. 14)
+- Reveals his experience moderating online communities: "The playbook is always the same"
+- Creates the meticulously sourced talking points document that becomes the food critic's script (Ch. 16)
+- Elijah asks: "Did you just solve a PR crisis with a Wikipedia editing strategy?" (Ch. 16)
+- Brings 18th-century French monastery potato gratin to the final dinner (Ch. 18)
+- Growth: Emerges from his shell under pressure; the group sees a glimpse of his confident online persona

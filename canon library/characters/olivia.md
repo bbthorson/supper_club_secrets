@@ -70,5 +70,15 @@ She met Emma about four years ago at the McCarren Park farmers market. Emma was 
 
 ### Book 1: The Missing Hot Sauce
 - Knows shop owners throughout Williamsburg
-- Texts contacts during dinner to gather intel
-- Met Emma at the farmers market four years ago
+- Texts a boutique owner during Meal 1 dinner and gets first external confirmation that something is wrong with Hank (Ch. 3)
+- Produces the hat with numbers for the theory competition — "the most predictable, unpredictable person" (Ch. 3)
+- Volunteers herself and Oliver for the Meal 2 entree: "It's the most work and there are two of us"
+- Visits Marcus at The Gilded Fern for intel; learns Hank was "jittery" and "looked like a man running from something" (Ch. 8)
+- Presents her romantic theory (Hank swept away by a wealthy socialite) with full theatrical flair (Ch. 4)
+- First person Emma calls after Elijah when the C&D arrives — drops everything, rallies the group (Ch. 12–13)
+- Fierce and protective: "It's your body, it's your kitchen" re: Emma's OnlyFans
+- Orders Thai food for the emergency dinner with zero tolerance for debate (Ch. 13)
+- Identifies local bloggers and neighborhood tastemakers for the swarm strategy (Ch. 15–16)
+- Brings beet-and-goat-cheese tart to the final dinner; Marcus gave her a discount on the goat cheese (Ch. 18)
+- Met Emma at the farmers market ~4 years before Book 1 (asking about heirloom tomatoes)
+- Growth: Begins channeling her social energy toward focused investigation rather than surface networking

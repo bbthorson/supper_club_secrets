@@ -72,4 +72,13 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 ### Book 1: The Missing Hot Sauce
 - Lives walking distance from McCarren Park
 - Left Bistro Lavande three weeks before the story begins
-- Knew Hank the hot sauce vendor as a regular customer
+- Knew Hank the hot sauce vendor as a regular customer; planned her menu around his sauce and the story behind it
+- Hosts all four meals in Book 1
+- Western PA dialect surfaces under stress during Meal 1 ("the kitchen just needs lookin' at")
+- Her "Big Hot Sauce" theory — played for laughs — turns out to be essentially correct
+- Receives cease and desist with handwritten threat referencing Kinky Kitchen (Ch. 12)
+- Confesses about OnlyFans to the group; receives universal support (Ch. 13)
+- Identifies key food influencers for the swarm strategy, including weaponizing industry pettiness (Chs. 15–16)
+- OnlyFans becomes public after the story goes viral; response is overwhelmingly supportive (Ch. 18)
+- Agrees to rotate hosting duties going forward
+- Growth: Moves from defensive secrecy to openness; discovers her instincts were right all along
