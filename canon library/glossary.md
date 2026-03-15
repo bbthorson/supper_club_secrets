@@ -46,7 +46,7 @@ See [locations_registry.md](locations_registry.md) for full details.
 
 | Term | Usage |
 |------|-------|
-| **Fish Pepper** | A rare heirloom pepper variety with distinctive green-and-white striped skin. Historically significant in African-American culinary history along the Chesapeake Bay. The secret ingredient in Hank's hot sauce, grown from seeds his great-great-grandmother brought from Virginia to Philadelphia in the 1920s. |
+| **Fish Pepper** | A rare heirloom pepper variety with distinctive green-and-white striped skin. Historically significant in African-American culinary history along the Chesapeake Bay. The secret ingredient in Hank's hot sauce, grown from seeds his great-grandmother brought from Virginia to Philadelphia in the 1920s. |
 | **Coq au Vin Incident** | The event that ended Emma's career at Bistro Lavande — she updated their unchanged-since-1987 coq au vin, regulars complained, head chef publicly berated her. |
 | **The 2nd Avenue Pizza Debacle** | A traumatic group memory involving a 45-minute topping argument and six pizzas, three of which went uneaten. Referenced as justification for never doing group pizza orders again. |
 

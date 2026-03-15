@@ -10,7 +10,6 @@
 ### Elijah & Oliver (The Analysts)
 *   These two bond over their shared analytical and detail-oriented approaches. They are the most grounded and logical members of the group, often working together to sort facts from speculation.
 *   While both are pragmatists, Oliver's realism is innate and historical, while Elijah's is a learned survival strategy, which can lead to slightly different conclusions.
-*   These two bond over their shared analytical and detail-oriented approaches. They are the most grounded and logical members of the group, often working together to sort facts from speculation. While both are pragmatists, Oliver's realism is innate, while Elijah's is a learned survival strategy, which can lead to slightly different conclusions.
 
 ### Jasper & The Group (The Chaos Agent)
 *   The group views Jasper as a source of unconventional ideas, but his primary function is as a "chaos agent." His conspiracy theories are a form of play for him, a game of provocation that he uses to liven things up.

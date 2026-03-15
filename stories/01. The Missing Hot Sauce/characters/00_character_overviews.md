@@ -9,7 +9,7 @@ This file provides a quick reference for all non-core characters in "The Case of
 ### Hank → [hank.md](hank.md)
 * **Role:** The missing hot sauce vendor — central figure of the mystery
 * **First Appearance:** Chapter 1 (by absence); Chapter 17 (in person)
-* **Key Detail:** His great-great-grandmother brought Fish Pepper seeds from Virginia to Philadelphia in the 1920s. The recipe is four generations old.
+* **Key Detail:** His great-grandmother brought Fish Pepper seeds from Virginia to Philadelphia in the 1920s. The recipe is four generations old.
 
 ### Brenda Chen → [brenda_chen.md](brenda_chen.md)
 * **Role:** Jasper's commercial real estate contact who inadvertently tips off the mogul

@@ -15,7 +15,7 @@ A no-nonsense honey vendor at the McCarren Park farmers market who provides Emma
 Dorothy sells honey at the McCarren Park farmers market. Her hand-painted sign, rows of golden honey jars, and weathered hands suggest someone who's been doing this for a long time — a real artisan, not a weekend hobbyist. Her stall neighbors Hank's (or what used to be Hank's).
 
 ### Her Relationship with Hank
-Dorothy and Hank had the kind of bond that forms between adjacent market vendors over years of shared early mornings and slow Sundays. He'd tell her his family stories; she'd listen. She knew about his great-great-grandmother, the Fish Peppers, the migration from Virginia to Philadelphia in the 1920s. "He really loved that story. Loved telling it."
+Dorothy and Hank had the kind of bond that forms between adjacent market vendors over years of shared early mornings and slow Sundays. He'd tell her his family stories; she'd listen. She knew about his great-grandmother, the Fish Peppers, the migration from Virginia to Philadelphia in the 1920s. "He really loved that story. Loved telling it."
 
 ### The Last Encounter
 Before he disappeared, Hank came to Dorothy with a small, unlabeled bottle of deep red hot sauce. He was scared — "kept looking over his shoulder like he was waiting for someone." He told her his great-grandmother "would've wanted her peppers shared" and asked her to keep the bottle "just in case."

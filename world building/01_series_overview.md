@@ -46,7 +46,7 @@ Each book is structured around **four dinner gatherings** (meals), mapping to a 
 - **Book 1:** All meals at Emma's apartment (establishing the tradition)
 - **Books 2+:** Rotate hosts—one character hosts per book, or rotate per meal
 
-For detailed writing guidance, see [04_writing_guide.md](file:///Users/bradthorson/Code/supper_club_secrets/world%20building/04_writing_guide.md).
+For detailed writing guidance, see [04_writing_guide.md](04_writing_guide.md).
 
 ---
 

@@ -24,7 +24,7 @@ These rules, copied from `README.md`, are central to our workflow.
 
 ## 4. Character Voices
 
-For comprehensive voice guidance, see **[02_character_voice_guide.md](file:///Users/bradthorson/Code/supper_club_secrets/world%20building/02_character_voice_guide.md)**.
+For comprehensive voice guidance, see **[02_character_voice_guide.md](../world%20building/02_character_voice_guide.md)**.
 
 Each character has **three registers** (Public, Private, Under Pressure) and a built-in **contradiction** that creates depth. Quick reference:
 
