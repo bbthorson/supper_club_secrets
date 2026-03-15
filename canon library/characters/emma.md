@@ -1,4 +1,4 @@
-# Emma
+# Emma Hartley
 
 ## Overview
 A grounded and creative chef with a bubbly, optimistic energy, who is learning to trust her intuition.

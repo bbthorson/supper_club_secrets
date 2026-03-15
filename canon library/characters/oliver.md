@@ -81,4 +81,9 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 - Creates the meticulously sourced talking points document that becomes the food critic's script (Ch. 16)
 - Elijah asks: "Did you just solve a PR crisis with a Wikipedia editing strategy?" (Ch. 16)
 - Brings 18th-century French monastery potato gratin to the final dinner (Ch. 18)
+- Has a childhood memory of a bookshelf his father built — associated with the feeling that knowledge has a physical home (Ch. 6)
+- Reflects on Olivia as his "anchor" while at the library — wonders whether that's a compliment or a limitation (Ch. 6)
+- Habit of pushing his glasses up when thinking or processing new information (multiple chapters)
+- Paces during his crisis speech in Ch. 14 and his rebuttal strategy in Ch. 16 — something none of them had ever seen him do
+- Reveals he's "talked strangers down from panic attacks" and "managed crises that would make this look like a parking ticket" through his online moderator experience (Ch. 14)
 - Growth: Emerges from his shell under pressure; the group sees a glimpse of his confident online persona

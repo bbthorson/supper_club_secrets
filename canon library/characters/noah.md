@@ -78,4 +78,9 @@ Noah is the least connected to the neighborhood. He orders everything online. He
 - Creates VPNs, anonymous accounts, and digital infrastructure for the swarm strategy (Ch. 15–16)
 - Builds real-time sentiment tracking graphs during the campaign (Ch. 16)
 - Brings bakery bread to the final dinner: "Some things are better when they aren't optimized" (Ch. 18)
+- His apartment described: minimalist, air purifier humming, East River view, everything optimized — except the closet (Ch. 9)
+- Sneakers become increasingly visible throughout the story: different pair each dinner, forest green with grey accents at final meal (Ch. 18)
+- Brings real butter in a dish (not whipped) to the final dinner — a concession to analog that costs him something (Ch. 18)
+- Uses a food metaphor to explain distributed systems, surprising everyone — "Don't get used to it" (Ch. 16)
+- Apologizes to Jasper at the final dinner: "That wasn't true. And what I said—about your chaos being exhausting—I was scared and I took it out on you." (Ch. 18)
 - Growth: Learns to value human intuition and messy, analog problem-solving alongside tech

@@ -19,8 +19,8 @@ A quick-reference dictionary of terms, facts, and recurring elements that must r
 
 | Name | Role | Key Trait |
 |------|------|-----------|
-| **Emma** | Chef, primary POV (Book 1) | Intuitive, Western PA roots |
-| **Elijah** | Analyst | Pragmatic, dry wit |
+| **Emma Hartley** | Chef, primary POV (Book 1) | Intuitive, Western PA roots |
+| **Elijah Miller** | Analyst | Pragmatic, dry wit |
 | **Noah** | Engineer | Tech utopian, minimalist (secretly collects sneakers) |
 | **Oliver** | Researcher | Quiet, zoning/urban development expert, secretly prolific online |
 | **Olivia** | Networker | Social butterfly, strategic gossip |

@@ -1,4 +1,4 @@
-# Elijah
+# Elijah Miller
 
 ## Overview
 The rigid analyst with a pragmatic approach and a quietly empathetic nature.
@@ -73,4 +73,8 @@ He's not sure how he ended up with a group of friends who solve neighborhood mys
 - Calls Emma's OnlyFans "a market inefficiency monetized with minimal overhead costs" — dry validation (Ch. 13)
 - Partners with Oliver to build the evidence press kit for the swarm strategy (Ch. 15)
 - Described as "expensive enough at compartmentalizing" his stress that no one can tell (Ch. 16)
+- His mother texts him during the investigation about his sister's car situation — a reminder that family obligations never pause (Ch. 8)
+- References "E. Miller Financial Consulting" as what he'd call his hypothetical firm — surname established as Miller (Ch. 13)
+- Builds financial model during lunch break; rediscovers curiosity he hasn't felt since freshman econ at UPenn (Ch. 8)
+- Adds pomegranate seeds and toasted pistachios to his fennel salad for the final dinner; buries quinoa under "actual flavor" — strategic, not a concession (Ch. 18)
 - Growth: Begins to take calculated risks with the group rather than staying on the sidelines
