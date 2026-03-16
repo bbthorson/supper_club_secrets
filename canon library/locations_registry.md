@@ -61,7 +61,7 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 **Owner:** Marcus
 **Details:**
 - Sells artisanal soaps, hand-poured candles, and curated locally made pantry items
-- Air smells of lavender and bergamot
+- Air smells of lavender, bergamot, and cedar
 - Carries Olivia's candles and (formerly) Hank's hot sauce
 - Linen tea towels, glass jars of fig jam — polished Williamsburg aesthetic
 - Marcus and Olivia are on texting terms through their business relationship
@@ -99,11 +99,11 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 |----------|------|-------|
 | McCarren Park Market | Farmers market | Where Hank disappeared from |
 | The Gilded Fern | Boutique, Bedford Ave | Marcus's shop; intel source for Olivia |
-| Sofia's Cheese Shop | Cheese shop | Emma learns about Hank's "deal" |
+| Sofia's Cheese Shop | Cheese shop | Emma learns about Hank's "deal." Sensory anchor: sharp cheddar, funky blue, fresh mozzarella, yeasty bread. |
 | NY Public Library, Rose Main Reading Room | Research location | Where Oliver finds LLC #2847. Vast, cathedral-like, iconic green reading lamps. Oliver has a regular desk. |
 | Elijah's Midtown Office | Glass-walled conference room, 40th floor | Where Elijah builds his financial model during lunch |
-| Noah's Apartment | Minimalist home office | Grey sofa, orderly, sparse. Sneaker collection hidden in back of closet. |
-| Jasper's Apartment | Chaotic home | Mismatched furniture, stacks of books on esoteric subjects |
+| Noah's Apartment | Minimalist home office | Air purifier humming, East River view, grey sofa, orderly, sparse. Sneaker collection hidden in back of closet. |
+| Jasper's Apartment | Chaotic home | Looks like "a thrift store and a bookstore had a fight." Organized vinyl collection. Bushwick. |
 | Waterfront Property (Williamsburg) | Vacant commercial space | The mogul's planned restaurant via LLC #2847. Projected Dec. 1 opening. Now on indefinite hold. |
 | Meadowlight Collective | Intentional community, ~2 hrs west of Philadelphia | Cluster of weathered buildings around central farmhouse. Gardens, greenhouse where Hank tends Fish Peppers. Hand-painted sign on dirt driveway. |
 

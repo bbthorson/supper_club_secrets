@@ -87,4 +87,10 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Finds Hank in a greenhouse, tells him the whole story, invites him to dinner
 - Brings Hank to the final dinner — the real victory (Ch. 18)
 - Drives an "ancient Subaru"
+- His apartment described: looks like "a thrift store and a bookstore had a fight" — surprisingly nice Bushwick place with organized vinyl collection (Ch. 9)
+- Wears a wrinkled flannel during the confession scene — not his usual performative chaos, just genuinely disheveled (Ch. 14)
+- Nearly hits the overhead lamp while gesturing during the theory competition (Ch. 4) — physical comedy beat
+- Phone call montage to find Hank: calls nurseries in Baltimore, a seed collective in Delaware, tracks the Fish Pepper connection to Meadowlight (Ch. 17)
+- Meadowlight greenhouse scene: finds Hank among the pepper plants, tells him the full truth including his own mistakes (Ch. 17)
+- Drives home at sunset with Hank; they talk about family recipes the whole way (Ch. 17)
 - Growth: His chaos pointed in the right direction for once; begins learning when strategic quiet is more valuable than manic energy

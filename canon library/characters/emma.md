@@ -81,4 +81,10 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 - Identifies key food influencers for the swarm strategy, including weaponizing industry pettiness (Chs. 15–16)
 - OnlyFans becomes public after the story goes viral; response is overwhelmingly supportive (Ch. 18)
 - Agrees to rotate hosting duties going forward
+- Railroad apartment layout; furniture includes a loveseat from a Greenpoint stoop, bulk folding chairs, and a milk crate Elijah sits on (Ch. 2)
+- Cooks barefoot on kitchen tile — a sensory detail that connects to both her comfort and her OnlyFans persona
+- Uses "this needs fixed" (Western PA) when the C&D arrives — grandmother's phrase for when things break (Ch. 12)
+- Savings described as "the financial equivalent of closing your eyes on a roller coaster" (Ch. 1)
+- Her chef's knife was a culinary school graduation gift to herself (Ch. 1)
+- Makes butternut squash soup throughout the story — the dish that was supposed to have Hank's hot sauce; finally completed with the sauce in the last chapter (Ch. 18)
 - Growth: Moves from defensive secrecy to openness; discovers her instincts were right all along

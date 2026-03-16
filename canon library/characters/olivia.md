@@ -81,4 +81,8 @@ She met Emma about four years ago at the McCarren Park farmers market. Emma was 
 - Identifies local bloggers and neighborhood tastemakers for the swarm strategy (Ch. 15–16)
 - Brings beet-and-goat-cheese tart to the final dinner; Marcus gave her a discount on the goat cheese (Ch. 18)
 - Met Emma at the farmers market ~4 years before Book 1 (asking about heirloom tomatoes)
+- Builds a color-coded spreadsheet with Elijah organizing swarm targets by reach, reliability, and likelihood of publishing (Ch. 16)
+- Her candles are a consistent presence at Emma's apartment — they burn down over the course of the crisis (Chs. 13–14)
+- Screenshotted the mogul's non-apology statement and texted it to the group with a single word: "Confusion." (Ch. 18)
+- Stress-organizes Emma's spice rack three different ways during the campaign wait (by cuisine, color, then alphabetically) (Ch. 16)
 - Growth: Begins channeling her social energy toward focused investigation rather than surface networking
