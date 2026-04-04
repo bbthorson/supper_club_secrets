@@ -69,7 +69,7 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 
 *Details revealed in stories that should remain consistent:*
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 - Works as a research analyst at a small urban planning consultancy
 - Reluctantly participates in the theory competition (draws #1, suggests kidnapping by business partner) — Olivia mouths "thank you, babe" when he contributes (Ch. 4)
 - Spends a full day at the NY Public Library Rose Main Reading Room researching permits; has a regular desk there (Ch. 6)

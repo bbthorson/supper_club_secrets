@@ -34,8 +34,8 @@ See [locations_registry.md](locations_registry.md) for full details.
 
 | Location | Type | Notes |
 |----------|------|-------|
-| **Emma's apartment** | Gathering space | Railroad apartment near McCarren Park |
-| **McCarren Park Farmers Market** | Setting | Sundays, seasonal |
+| **Emma's apartment** | Gathering space | Railroad apartment near McGolrick Park |
+| **McGolrick Park Farmers Market** | Setting | Sundays, seasonal |
 | **The Gilded Fern** | Boutique, Bedford Ave | Marcus's shop; Olivia's candles, formerly Hank's sauce |
 | **The Coffee Hole** | Coffee shop | Olivia's gossip hub; where she reconnected with Elijah |
 | **Sofia's Cheese Shop** | Cheese shop | 20-year neighborhood fixture; Emma's regular stop |
@@ -58,7 +58,7 @@ See [locations_registry.md](locations_registry.md) for full details.
 |------|--------|
 | **Setting era** | Modern day (contemporary to publication) |
 | **Neighborhood vibe** | Gentrified but with local community pockets |
-| **Market day** | Sunday mornings at McCarren Park |
+| **Market day** | Sunday mornings at McGolrick Park (Down to Earth Farmers Market, 9am–2pm, year-round) |
 | **Local business ecosystem** | Small artisan shops, boutiques, and food vendors form a tight informal network. Information travels fast through people like Olivia and Marcus. |
 
 ---
@@ -67,13 +67,13 @@ See [locations_registry.md](locations_registry.md) for full details.
 
 These facts must remain consistent:
 
-1. Emma lives walking distance from McCarren Park
+1. Emma lives walking distance from McGolrick Park
 2. The supper club existed before Book 1 begins (they're not strangers)
 3. Oliver and Olivia are married (~7 years as of Book 1, married at 25)
 4. Jasper works at the NYC 311 call center (intentionally low-ambition job given his old money background)
 5. Each character has a secret (see character files)
 6. Elijah is the first in his family to go to college (UPenn)
-7. Emma and Olivia met ~4 years before Book 1 at the McCarren Park farmers market
+7. Emma and Olivia met ~4 years before Book 1 at the McGolrick Park farmers market
 8. Olivia reconnected with Elijah ~3 years before Book 1 at The Coffee Hole (they knew each other in high school in the Philadelphia suburbs)
 9. Oliver met Noah through work-adjacent connections; Jasper joined the group ~2 years before Book 1 after helping Oliver with a zoning issue
 10. Emma's Western PA dialect surfaces under stress ("yinz," "redd up," "needs washed")
@@ -82,11 +82,11 @@ These facts must remain consistent:
 
 ## Story-Specific Terms
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 
 | Term | Definition |
 |------|------------|
-| **Hank** | The missing hot sauce vendor at McCarren Park. Mid-fifties, kind eyes, calloused hands. |
+| **Hank** | The missing hot sauce vendor at McGolrick Park. Mid-fifties, kind eyes, calloused hands. |
 | **Big Hot Sauce** | Emma's joke term for corporate hot sauce interests. Turns out to be essentially correct. |
 | **LLC #2847** | The anonymous corporate entity behind the mogul's waterfront restaurant filing. Filed Oct. 18 — two days after Hank gave up his stall. |
 | **Kinky Kitchen** | Emma's anonymous OnlyFans account — barefoot cooking content. Her most reliable income after leaving Bistro Lavande. Discovered and used as leverage by the mogul. |
@@ -94,8 +94,8 @@ These facts must remain consistent:
 | **The Swarm** | The group's strategy for exposing the mogul — distributing the story anonymously to hundreds of small outlets rather than one big one. Noah's metaphor: "You can't kill a swarm of mosquitos with a cannonball." |
 | **Brenda Chen** | Jasper's contact at Apex Realty (commercial real estate). Inadvertently tipped off the mogul about the investigation. |
 | **Marcus** | Owner of The Gilded Fern. Olivia's neighborhood intel source. Not to be confused with Brenda Chen. |
-| **Dorothy** | Honey vendor at McCarren Park. Silver-streaked hair, weathered hands. Gives Emma a bottle of Hank's sauce she'd been saving "just in case." (Ch. 7) |
-| **Ruth** | Longtime produce vendor at McCarren Park. Tells Emma about a nor'easter twenty years ago that couldn't shut the market down — but Hank's absence did. (Ch. 1) |
+| **Dorothy** | Honey vendor at McGolrick Park. Silver-streaked hair, weathered hands. Gives Emma a bottle of Hank's sauce she'd been saving "just in case." (Ch. 7) |
+| **Ruth** | Longtime produce vendor at McGolrick Park. Tells Emma about a nor'easter twenty years ago that couldn't shut the market down — but Hank's absence did. (Ch. 1) |
 | **Sofia** | Owner of Sofia's Cheese Shop, a 20-year neighborhood fixture. Her nephew Paolo works at a waterfront restaurant and mentioned "big changes" — intelligence that feeds the investigation. (Ch. 8) |
 | **The Rebuttal Framework** | Oliver's meticulously sourced talking-points document used to counter the conservative commentator's pushback. Sent to all outlets; became the food critic's script. (Ch. 16) |
 | **Bistro Lavande** | Aging French restaurant in the West Village where Emma worked for four years. Site of the Coq au Vin Incident. (Background) |

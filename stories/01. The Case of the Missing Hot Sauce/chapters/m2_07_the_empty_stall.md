@@ -1,6 +1,6 @@
 ### Chapter Seven - The Empty Stall
 
-Saturday morning, Emma found herself back at the McCarren Park Greenmarket. She wasn't sure why. She had no shopping list, no recipe to test, no article deadline that required seasonal ingredients. She'd told herself she was going for the exercise, for the fresh air, for the routine of it—but those were lies she was telling with diminishing conviction. She was going because she needed to see.
+Saturday morning, Emma found herself back at the McGolrick Park Greenmarket. She wasn't sure why. She had no shopping list, no recipe to test, no article deadline that required seasonal ingredients. She'd told herself she was going for the exercise, for the fresh air, for the routine of it—but those were lies she was telling with diminishing conviction. She was going because she needed to see.
 
 The walk from her apartment took seven minutes. She'd done it enough times that her feet knew the route by muscle memory—right on North 12th, left on Bedford, straight through to the park entrance where the white tents started. The October air had a bite to it this morning, sharper than last week, with that metallic edge that said winter was closer than the calendar admitted. She'd thrown on a jacket she should have washed and the knit hat Olivia had given her last Christmas, the one with the pom-pom she kept meaning to cut off but secretly liked.
 

@@ -1,7 +1,7 @@
 # Dorothy
 
 ## Overview
-A no-nonsense honey vendor at the McCarren Park farmers market who provides Emma with a crucial piece of physical evidence — a bottle of Hank's heritage hot sauce — and emotional context about his state of mind before he disappeared.
+A no-nonsense honey vendor at the McGolrick Park farmers market who provides Emma with a crucial piece of physical evidence — a bottle of Hank's heritage hot sauce — and emotional context about his state of mind before he disappeared.
 
 ## Personality
 * Weathered and direct — in her sixties, with calloused hands and a no-nonsense demeanor that contrasts with Hank's theatrical warmth
@@ -12,7 +12,7 @@ A no-nonsense honey vendor at the McCarren Park farmers market who provides Emma
 ## Background
 
 ### The Market
-Dorothy sells honey at the McCarren Park farmers market. Her hand-painted sign, rows of golden honey jars, and weathered hands suggest someone who's been doing this for a long time — a real artisan, not a weekend hobbyist. Her stall neighbors Hank's (or what used to be Hank's).
+Dorothy sells honey at the McGolrick Park farmers market. Her hand-painted sign, rows of golden honey jars, and weathered hands suggest someone who's been doing this for a long time — a real artisan, not a weekend hobbyist. Her stall neighbors Hank's (or what used to be Hank's).
 
 ### Her Relationship with Hank
 Dorothy and Hank had the kind of bond that forms between adjacent market vendors over years of shared early mornings and slow Sundays. He'd tell her his family stories; she'd listen. She knew about his great-grandmother, the Fish Peppers, the migration from Virginia to Philadelphia in the 1920s. "He really loved that story. Loved telling it."

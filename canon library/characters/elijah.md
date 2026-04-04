@@ -62,7 +62,7 @@ He's not sure how he ended up with a group of friends who solve neighborhood mys
 
 *Details revealed in stories that should remain consistent:*
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 - Works at an investment bank in Manhattan
 - Arrives late to the first dinner (coming from work on a Sunday — filing a report)
 - Serves as the group's "judge" for their theory competition (Meal 1)

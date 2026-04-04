@@ -1,7 +1,7 @@
 # Hank
 
 ## Overview
-A charismatic hot sauce artisan and storyteller whose family recipe and theatrical personality make him a beloved fixture of the McCarren Park farmers market — and the central figure of the group's first mystery.
+A charismatic hot sauce artisan and storyteller whose family recipe and theatrical personality make him a beloved fixture of the McGolrick Park farmers market — and the central figure of the group's first mystery.
 
 ## Personality
 * Theatrical and warm — turns every customer interaction into a performance, complete with origin stories and dramatic flourishes
@@ -19,7 +19,7 @@ Hank's great-grandmother migrated north from Virginia in the 1920s, settling in 
 She grew them in a tiny plot behind her row house. The peppers, and the sauce she made from them, became a family tradition — passed down through four generations. Hank inherited both the seeds and the recipe, and with them, a sense of purpose.
 
 ### The Hot Sauce Business
-Hank built his brand the old-fashioned way: one bottle at a time, sold face-to-face. He secured a stall at the McCarren Park farmers market and became a fixture there for three years, never missing a single market day. His pitch was part carnival barker, part family historian — he'd tell customers about his great-grandmother, the Fish Pepper, the "secret family recipe," and make every bottle feel like a piece of living history.
+Hank built his brand the old-fashioned way: one bottle at a time, sold face-to-face. He secured a stall at the McGolrick Park farmers market and became a fixture there for three years, never missing a single market day. His pitch was part carnival barker, part family historian — he'd tell customers about his great-grandmother, the Fish Pepper, the "secret family recipe," and make every bottle feel like a piece of living history.
 
 His hot sauce also appeared on shelves at local boutiques and specialty shops in Williamsburg, including The Gilded Fern. The business wasn't making him rich, but it was honest work rooted in something real.
 

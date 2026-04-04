@@ -12,7 +12,7 @@ He'd always loved this kind of work—the quiet archaeology of public records. A
 
 The database was like that childhood bookshelf—chaotic on the surface, but with an underlying logic waiting to be discovered. You just had to be patient enough to find it.
 
-He started with the basics, cross-referencing vendor permits for the McCarren Park Greenmarket against new business licenses filed in the last six months. He searched for Hank's name—or what he assumed was his name, "Henry"—in public records, a digital trawl that yielded hundreds of irrelevant results. Henry Chen, Henry Rodriguez, Henry Williams. None of them connected to hot sauce or farmers markets. He sighed, adjusting his glasses, and tried variations: "Hank's Hot Sauce," "Heritage Pepper Sauce," "Fish Pepper." Nothing useful. Just noise.
+He started with the basics, cross-referencing vendor permits for the McGolrick Park Greenmarket against new business licenses filed in the last six months. He searched for Hank's name—or what he assumed was his name, "Henry"—in public records, a digital trawl that yielded hundreds of irrelevant results. Henry Chen, Henry Rodriguez, Henry Williams. None of them connected to hot sauce or farmers markets. He sighed, adjusting his glasses, and tried variations: "Hank's Hot Sauce," "Heritage Pepper Sauce," "Fish Pepper." Nothing useful. Just noise.
 
 Statistically, the most likely answer was the most boring one. Hank had probably retired, moved to Florida, or simply decided to stop selling hot sauce. There was no data to support aliens, and barely any to support the wild theories his friends had spun over wine.
 

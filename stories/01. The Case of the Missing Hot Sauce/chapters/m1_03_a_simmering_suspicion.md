@@ -8,17 +8,17 @@ The door buzzed again, this time with a staccato insistence that announced the a
 
 Elijah was tall and thin, with hip glasses and well-manicured hair that gave him a distinctly more put-together vibe than the rest of the crew. He was the only one who looked like he had come from an actual office and not a co-working space or a kitchen. Even on a Sunday, his shirt was pressed. Emma had once asked him if he ironed on weekends, and he'd responded with such a long silence that she'd never brought it up again.
 
-Jasper, sprawled in one of the rickety folding chairs with one leg hooked over the armrest, greeted him with a mischievous grin, his teeth stained purple from the wine. "Mate, keep the bottle for yourself. You're going to need to catch up."
+Jasper, sprawled in one of the rickety folding chairs with one leg kicked out into the narrow walkway, greeted him with a mischievous grin, his teeth stained purple from the wine. "Mate, keep the bottle for yourself. You're going to need to catch up."
 
-"Hi Elijah, ignore Jasper," Emma said, sliding off the milk crate she'd been perched on. "I've got food in the oven for you, and there's a clean glass on the counter. You can have this luxurious seat; I'll move to the floor."
+"Hi Elijah, ignore Jasper," Emma called from the kitchen—the railroad apartment was small enough that "from the kitchen" and "from the living room" were more of a suggestion than a distance. She was leaning against the tiny strip of counter that passed for an island, a glass of wine in hand. "I've got a plate in the oven for you, and there's a clean glass on the counter. Grab the milk crate."
 
-"Emma, I'm not taking your—"
+"Emma, I don't need—"
 
-"Sit." She was already on her way to the kitchen, pulling a plate of spaghetti squash from the oven where she'd been keeping it warm. The edges had crisped up in a way she hadn't intended but actually preferred—little ribbons of golden brown that would crunch against the softer strands.
+"Sit." She was already pulling his plate from the oven—roasted root vegetables with herbed brown butter, the parsnips and carrots still sizzling, their edges crisped up in a way she hadn't intended but actually preferred.
 
-Elijah settled onto the milk-crate-turned-chair, his long legs folding at an angle that looked uncomfortable but which he seemed unbothered by. He took a moment to survey the scene—the empty wine bottles, Noah nursing what appeared to be the end of his own controversial selection, Olivia with her shoes off and her feet tucked under her on the loveseat, Oliver beside her looking slightly flushed from the wine. Something was going on. The energy in the room was different from their usual Sunday wind-down; there was a buzz underneath the banter, a collective lean-forward that suggested he'd missed something.
+Elijah settled onto the milk crate, his long legs folding at an angle that looked uncomfortable but which he seemed unbothered by. Now that he was seated, the details filled in what his first glance had only sketched—the empty wine bottles on the coffee table, Noah nursing what appeared to be the end of his own controversial selection, Olivia with her shoes off and her feet tucked under her on the loveseat, Oliver beside her looking slightly flushed from the wine. Something was going on. The energy in the room was different from their usual Sunday wind-down; there was a buzz underneath the banter, a collective lean-forward that suggested he'd missed something.
 
-His brow furrowed slightly, a sign that the analytical wheels in his mind were already turning. "Alright, so what did I miss?" he asked, taking a big bite of the spaghetti squash Emma had prepared. He raised his eyebrows—it was good, and he wasn't someone who bothered with compliments he didn't mean. "The crew seems to be really into something."
+His brow furrowed slightly, a sign that the analytical wheels in his mind were already turning. "Alright, so what did I miss?" he asked, taking a big bite of the roasted vegetables. He raised his eyebrows—it was good, and he wasn't someone who bothered with compliments he didn't mean. "The crew seems to be really into something."
 
 "So," Jasper started, sitting up straighter, eager to dominate the narrative.
 
@@ -30,11 +30,15 @@ Oliver, looking slightly pained to be the center of attention, cleared his throa
 
 "Get to the point!" interrupted Jasper, smirking.
 
-"That's rich coming from you," Olivia snapped back, her patience with Jasper wearing thin after four hours of his energy.
+"That's rich coming from you," Olivia snapped back, her patience with Jasper wearing thin after two hours of his energy.
 
 "Anyway," Oliver pressed on, finding his footing, "Ems wanted to buy some hot sauce from a guy at the farmer's market this morning, but he wasn't there. The other vendors said he's always there, but that he was a little off last week and then abruptly canceled his stall this week."
 
-"This guy is soooo sweet," Emma added from the kitchen, her voice a bit tipsy. She was leaning against the counter with a glass of the wine Elijah had brought—whatever it was, it was already better than Noah's, and she hadn't even smelled it properly yet.
+"This guy is soooo sweet," Emma added, still leaning against her strip of counter. She'd opened Elijah's bottle while plating his food, and whatever it was, it was already better than Noah's—she hadn't even smelled it properly yet, just started drinking.
+
+"Ems, are you going to share that, or...?" Jasper called out, craning his neck toward the kitchen.
+
+"In a minute," she said, taking another sip. Her voice had gone a bit soft around the edges.
 
 "Right," Oliver continued, picking up the thread with the relief of someone nearing the end of an unwanted speech. "So while we were eating, Liv texted a boutique owner that she thought might've carried the hot sauce. They carry some of her candles, so they're on texting terms. Anyway, he responded like twenty minutes ago and said that he used to have some of the hot sauce on his shelves, but last week, the guy showed up and took all of his inventory back. The boutique owner didn't outright say it, but we all read Liv's texts, and it sounds like he thinks something is going on."
 
@@ -42,13 +46,13 @@ Oliver, looking slightly pained to be the center of attention, cleared his throa
 
 The room was quiet for a moment—the kind of quiet that happens when a group of friends collectively realizes they've crossed some invisible line between idle speculation and genuine concern.
 
-Elijah, the only sober person in the room, looked at their expectant faces. He took another bite of spaghetti squash, chewed thoughtfully, and set down his fork. "And so you all have been doing what? Drinking wine and speculating about this stranger's life?"
+Elijah, the only sober person in the room, looked at their expectant faces. He took another bite of the roasted vegetables, chewed thoughtfully, and set down his fork. "And so you all have been doing what? Drinking wine and speculating about this stranger's life?"
 
 "He's not a stranger!" Jasper responded indignantly.
 
-"Well, actually, he very much is, because we only think we know his first name," Noah corrected, ever the pedant.
+"Well, actually, he very much is, because the only thing we know is his first name," Noah corrected, ever the pedant.
 
-"Elijah, listen, he's this super personable guy," Emma said, looking up at him from her spot on the kitchen floor, where she'd settled cross-legged with a plate balanced on one knee. "He's always chatting up everyone at the farmer's market. It's all just kind of weird."
+"Elijah, listen, he's this super personable guy," Emma said, leaning forward against the counter. "He's always chatting up everyone at the farmer's market. It's all just kind of weird."
 
 Elijah looked at her for a moment—really looked, with that calm, assessing gaze that made her feel both seen and slightly exposed. He was the only one in the group who never looked at his phone when someone was talking to him. It was either flattering or unnerving, depending on the conversation.
 
@@ -56,13 +60,17 @@ Oliver, looking to conclude his narration duties, jumped back in. "To be honest,
 
 Elijah let out a short laugh. "Ha, good lord. Okay. The crew truly never disappoints," he agreed with a smile that crinkled the corners of his eyes. "So I assume Liv has a plan?"
 
+"Pour the man a glass of his own wine first," Noah said, gesturing at Emma.
+
+Emma rolled her eyes but grabbed a glass and brought the bottle over, filling one for Elijah and topping off the others. Elijah took a sip and nodded—quiet approval, the highest compliment in his vocabulary.
+
 Olivia beamed. "You know me too well."
 
-"Since high school," Elijah said dryly, reaching for a deviled egg. "Some things never change."
+"Since high school," Elijah said, reaching for a deviled egg. "Some things never change."
 
 "Why would you assume that?" Olivia responded, ignoring his jab with practiced ease. Their friendship predated everyone else in the room—they'd known each other in the Philadelphia suburbs as teenagers, lost touch through college, and reconnected three years ago when Olivia spotted him at The Coffee Hole on Bedford Ave and nearly spilled her latte on him in excitement. "Okay, so what I was thinking was that we could all draw a number and then pitch you our theory in order, and then you can choose which one you like best."
 
-"Like best? Any points for believability?" Elijah asked, finally taking a big gulp of his own wine—his own, which was noticeably better than what had come before it.
+"Like best? Any points for believability?" Elijah asked, taking a long sip—noticeably more relaxed now that he had a glass of something drinkable.
 
 "Absolutely not!" interjected Jasper.
 

@@ -2,9 +2,9 @@
 
 Jasper stood up, a beaming smile of purple teeth. "Elijah, are you saying you WANT to hang out with us two weeks in a row?" He paused for dramatic effect. "WHAT IF we do this dinner thing again, except next week we all bring a dish that helps justify your theory?"
 
-The group groaned in unison, but their feigned disappointment was quickly replaced by something else—a shift in the air, subtle but unmistakable. The wine had loosened them, the theories had warmed them up, and now Jasper's ridiculous suggestion had landed in exactly the right soil. A real-life mystery to investigate. An excuse to cook, to gossip, to do something together that wasn't just catching up on the same rotating topics. This was even better than their tipsy theorizing.
+The evening had been winding down—Noah was already checking train times on his phone, Oliver had that look he got when he was mentally calculating how many hours of sleep he could still get, and Olivia was fishing under the loveseat for the shoe she'd kicked off two hours ago. But Jasper's suggestion stopped all of it. The wine had loosened them, the theories had warmed them up, and now his ridiculous idea had landed in exactly the right soil. A real-life mystery to investigate. An excuse to cook, to gossip, to do something together that wasn't just catching up on the same rotating topics. This was even better than their tipsy theorizing.
 
-Emma stood up from her spot on the floor, brushing crumbs off her jeans. "I'm in. I miss Hank. Can't hurt asking around a little more." She looked around the kitchen—the empty counter space where a bottle of hot sauce should have been, the squash soup that was good but not what she'd imagined. "But can somebody else handle the entree? I don't want to be selfish, but I'm not sure I've got the energy to do everything again."
+Emma set down her wine glass on the counter. "I'm in. I miss Hank. Can't hurt asking around a little more." She looked around the kitchen—the empty counter space where a bottle of hot sauce should have been, the squash soup that was good but not what she'd imagined. "But can somebody else handle the entree? I don't want to be selfish, but I'm not sure I've got the energy to do everything again."
 
 She didn't say what she was really thinking, which was that she'd spent most of the day pretending she wasn't exhausted—the kind of exhaustion that wasn't about sleep but about the constant low-grade hum of uncertainty that had been her background noise since she'd left Bistro Lavande. Cooking for her friends had helped. It always did. But hosting, shopping, cooking, and cleaning for six was a different kind of labor, and her bank account was starting to agree.
 
@@ -42,9 +42,9 @@ Noah looked annoyed. "You wanna get the wine, Jasper?" he said, tossing the pape
 
 "Hell yeah," Jasper said, catching it. "I needed to talk to the wine merchant down the block about Russian CIA aliens anyway."
 
-"Okay, but are we, like, actually taking this seriously?" Noah asked, looking around the room. It was a reasonable question, and for a moment, nobody answered. They were all hovering in that strange space between joke and commitment, where you're not sure if you're playing a game or starting something real. "Or is this just an excuse to drink more of Jasper's fancy-label wine?"
+"Okay, but are we, like, actually taking this seriously?" Noah asked, pulling on his jacket. It was a reasonable question, and for a moment, nobody answered. They were all hovering in that strange space between joke and commitment, where you're not sure if you're playing a game or starting something real. "Or is this just an excuse to drink more of Jasper's fancy-label wine?"
 
-Jasper, who had been making his way to the door, spun around with a wounded expression. "Hey! I'll have you know the wine merchant and I are on a first-name basis. And for the record, I am taking this very seriously." He puffed out his chest. "In fact, I'll probably have this whole thing solved by Tuesday. I know people. Very important people."
+Jasper, who had been shrugging on his coat by the door, spun around with a wounded expression. "Hey! I'll have you know the wine merchant and I are on a first-name basis. And for the record, I am taking this very seriously." He puffed out his chest. "In fact, I'll probably have this whole thing solved by Tuesday. I know people. Very important people."
 
 Olivia rolled her eyes, a smile playing on her lips. "Of course you do, dear. Just try not to get us all arrested before the appetizers are served next week, okay?"
 
@@ -54,6 +54,8 @@ He raised his glass. The others followed—Olivia with flourish, Oliver with his
 
 As they clinked together, the sound bright and slightly off-key from the mismatched glassware, something settled into place. Not a plan, exactly. Not yet. But the beginning of one—a shared sense of purpose that was equal parts absurd and genuine, the way most good ideas start when you're among people who make you feel like the best version of yourself.
 
-Emma stood in her kitchen doorway, watching them. The squash soup was cooling on the stove. The tarte tatin had survived its encounter with caramel. Her friends were arguing about whose investigation strategy was the most scientifically rigorous, which was saying something considering one of the theories involved aliens.
+Emma leaned in her kitchen doorway and watched them file toward the hall, still arguing. Jasper was insisting that his wine merchant contact had "deep ties to the intelligence community," while Noah was explaining, with increasing volume, why that was statistically impossible. Olivia had Oliver by the arm and was narrating her investigation strategy to no one in particular. Elijah brought up the rear, hands in his jacket pockets, shaking his head with a smile he wasn't quite hiding. Their voices tangled and overlapped as they spilled into the stairwell, the sound fading down the flights like the last notes of a song she didn't want to end.
+
+The apartment went quiet. The soup was cooling on the stove. The tarte tatin had survived its encounter with caramel.
 
 She didn't know it yet—none of them did—but this was the last Sunday that would feel ordinary.

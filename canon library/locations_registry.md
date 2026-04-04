@@ -10,12 +10,12 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 
 | Book | Meal 1 | Meal 2 | Meal 3 | Meal 4 |
 |------|--------|--------|--------|--------|
-| 1 - The Missing Hot Sauce | Emma's | Emma's | Emma's | Emma's |
+| 1 - The Case of the Missing Hot Sauce | Emma's | Emma's | Emma's | Emma's |
 | 2 - TBD | — | — | — | — |
 | 3 - TBD | — | — | — | — |
 
 ### Emma's Apartment
-**Address:** Williamsburg, near McCarren Park
+**Address:** Williamsburg, near McGolrick Park
 **Type:** Railroad apartment, small but character-filled
 **Details:**
 - Cramped but beloved kitchen, the heart of the space
@@ -43,16 +43,19 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 
 ## Recurring Brooklyn Locations
 
-### McCarren Park Farmers Market
+### McGolrick Park Farmers Market (Down to Earth)
 **Type:** Weekly farmers market
+**Location:** Center of McGolrick Park between Driggs and Nassau Ave off Russell St, Greenpoint
+**Google Maps:** [McGolrick Park](https://maps.app.goo.gl/PmtQrQu95p6Wnnm89) | [Farmers Market](https://maps.app.goo.gl/vboESMC7b2UncNW67)
 **Details:**
-- Sunday mornings, seasonal
+- Sunday mornings, year-round (9am–2pm)
+- Smaller, community-feel market run by Down to Earth Markets — local farmers and area food/craft makers
 - Stalls overflow with autumn bounty: glossy squash, root vegetables with dirt, herb bundles tied with twine
-- Air smells like apples, fresh bread, and something smoky from the sausage vendor
+- Air smells like apples, fresh bread, and something smoky from the grill vendor
 - Hank's hot sauce stall was here for three years (bright red tablecloth, hand-painted signs, bottles in precise pyramids)
 - Ruth's preserve stand
 - Dorothy's honey stand (neighboring Hank's stall)
-- Ben's nut milk stand (new to McCarren Park, usually Upper West Side)
+- Ben's nut milk stand (new to McGolrick Park)
 
 **Story Significance:** Where Emma discovers Hank is missing (Book 1, Ch. 1). She returns in Ch. 7.
 
@@ -93,11 +96,11 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 
 ## Story-Specific Locations
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 
 | Location | Type | Notes |
 |----------|------|-------|
-| McCarren Park Market | Farmers market | Where Hank disappeared from |
+| McGolrick Park Market | Farmers market | Where Hank disappeared from |
 | The Gilded Fern | Boutique, Bedford Ave | Marcus's shop; intel source for Olivia |
 | Sofia's Cheese Shop | Cheese shop | Emma learns about Hank's "deal." Sensory anchor: sharp cheddar, funky blue, fresh mozzarella, yeasty bread. |
 | NY Public Library, Rose Main Reading Room | Research location | Where Oliver finds LLC #2847. Vast, cathedral-like, iconic green reading lamps. Oliver has a regular desk. |
@@ -111,7 +114,7 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 
 ## Canon Facts to Maintain
 
-- Emma lives walking distance from McCarren Park
+- Emma lives walking distance from McGolrick Park
 - The supper club has been meeting regularly before Book 1 begins
 - Williamsburg is portrayed as gentrified but still maintains pockets of local community
 - The neighborhood has a mix of long-time residents and newcomers

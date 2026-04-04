@@ -22,12 +22,12 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **Key Detail:** Carries Olivia's candles and carried Hank's hot sauce. Sharp haircut, cashmere sweater.
 
 ### Ruth → [ruth.md](ruth.md)
-* **Role:** Preserve vendor at McCarren Park; first to confirm Hank's disappearance is unusual
+* **Role:** Preserve vendor at McGolrick Park; first to confirm Hank's disappearance is unusual
 * **First Appearance:** Chapter 1
 * **Key Detail:** Hank "seemed off" and "kept checking his phone" at his last market day.
 
 ### Dorothy → [dorothy.md](dorothy.md)
-* **Role:** Honey vendor at McCarren Park; gives Emma a bottle of Hank's heritage sauce
+* **Role:** Honey vendor at McGolrick Park; gives Emma a bottle of Hank's heritage sauce
 * **First Appearance:** Chapter 7 (repo version — scene may be reinserted during expansion)
 * **Key Detail:** Hank gave her the bottle and said his great-grandmother "would've wanted her peppers shared. Just in case."
 
@@ -52,7 +52,7 @@ This file provides a quick reference for all non-core characters in "The Case of
 
 ### Ben
 * **Role:** A fellow vendor at the farmers market
-* **Description:** Friendly, agreeable. Sells homemade nut milk. New to the McCarren Park market — usually sells on the Upper West Side.
+* **Description:** Friendly, agreeable. Sells homemade nut milk. New to the McGolrick Park market — usually sells on the Upper West Side.
 * **Appearance:** Chapter 1 — brief, friendly conversation with Emma when she buys coffee from him.
 * **Future Use:** Low. Background texture for the market scene.
 

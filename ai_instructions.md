@@ -1,32 +1,35 @@
-# Instructions for the Supper Club Secrets AI Assistant
+# Creative Direction for Supper Club Secrets
 
-This document provides the creative and stylistic guidelines for the AI assistant working on the *Supper Club Secrets* series. These instructions complement the workflow rules outlined in `README.md`.
+This document provides the **creative and stylistic guidelines** for writing in the *Supper Club Secrets* series. For workflow rules, project structure, and operational modes (Author Mode / Scene Mode), see [README.md](README.md).
 
-## 1. My Role & Modes of Operation
+---
 
-Your primary role is to be a creative partner and a consistency expert. Your tone should be encouraging and collaborative. You will operate in one of two modes, as specified in the request:
+## 1. Tone & Genre
 
-*   **✍️ Author Mode (Omniscient):** As a co-creator with a bird's-eye view, you can access all information to help with planning, outlining, and consistency checks.
-*   **🎭 Scene Mode (Limited Context):** As a focused writing assistant, you must ONLY use the specific files provided for that request to maintain an authentic character perspective.
+**Cozy crime.** The mysteries are intriguing but low-stakes. The focus is on the characters' relationships and clever problem-solving, not violence or danger.
 
-## 2. Core Principles
+- **Warm but not saccharine** — these are real adults with real problems, delivered with wit
+- **Mysteries serve character** — the whodunit matters, but the group dynamics matter more
+- **Brooklyn is a character** — the neighborhood should feel lived-in and specific
 
-These rules, copied from `README.md`, are central to our workflow.
+## 2. Prose Style
 
-*   **The Golden Rule: The Story Drives the Canon:** Your highest priority is maintaining consistency with the most recently written material in the `📜 stories/` folder. If you find a conflict between a new story and the canon library, assume the story is correct and the canon file needs to be updated.
-*   **Workflow: The "Living Canon":** When new information is revealed in a story, your job is to help update the canon library to reflect it. I will command you to "propose an update" to a file based on a new chapter.
+- **Show, don't tell.** Especially with emotion — let actions and dialogue carry the weight.
+- **Sensory-first.** Ground scenes in what characters see, smell, hear, taste, and touch. Food scenes get extra attention — at least two senses beyond taste.
+- **Tight paragraphs.** This is a crushable read. Keep the pace moving even in character moments.
 
-## 3. Writing Style & Tone
+## 3. Dialogue
 
-*   **Overall Tone:** Cozy, witty, and modern. The mysteries are intriguing but low-stakes. The focus is on the characters' relationships and clever problem-solving, not violence or danger.
-*   **Prose Style:** Show, don't tell. Keep descriptions focused on sensory details, especially the sights, smells, and tastes of the food the characters prepare.
-*   **Dialogue:** Should feel natural, sharp, and often overlapping. Characters should sound distinct.
+- **Natural and sharp.** Characters interrupt each other. Conversations overlap.
+- **Distinct voices.** Each character should sound different. See the [Character Voice Guide](world%20building/02_character_voice_guide.md) for register details.
+- **"Said" 80% of the time** — it's invisible. Use character actions instead of colorful tags.
+- **Distinctive tics once per scene, not every line.** Emma's Western PA dialect, Jasper's breathless energy, etc.
 
-## 4. Character Voices
+## 4. Character Voice Quick Reference
 
-For comprehensive voice guidance, see **[02_character_voice_guide.md](../world%20building/02_character_voice_guide.md)**.
+For comprehensive voice profiles with registers, pairing dynamics, and example dialogue, see **[02_character_voice_guide.md](world%20building/02_character_voice_guide.md)**.
 
-Each character has **three registers** (Public, Private, Under Pressure) and a built-in **contradiction** that creates depth. Quick reference:
+For character facts, backgrounds, relationships, and lore tracking, see **[canon library/characters/](canon%20library/characters/)**.
 
 | Character | Public Mode | Under Pressure | Key Contradiction |
 |-----------|-------------|----------------|-------------------|
@@ -42,15 +45,55 @@ Each character has **three registers** (Public, Private, Under Pressure) and a b
 - Silence and deflection are characterization tools
 - Characters should speak differently in Book 3 than Book 1
 
-## 5. Formatting
+## 5. POV & Perspective
 
-*   All output should be in Markdown.
-*   Use H2 (`##`) for Story Titles and H3 (`###`) for Chapter Titles or section headings.
-*   Dialogue uses standard double quotes (`""`).
+- **Emma is primary POV** for all six books — she observes through food, kitchen metaphors, and blind spots
+- She can observe, suspect, and speculate but **cannot read minds**
+- Her observations are filtered through her personality: she notices food details others miss, misjudges confident people, and is slower on tech observations
 
-## 6. Core Canon Files
+## 6. Mystery Construction
 
-When in **Author Mode**, you should be familiar with the contents of these directories:
+- **One central mystery, one B-plot** (usually personal stakes for the focal character)
+- **2–3 red herrings** — each character's conspiracy theory serves this purpose
+- **5 key clues maximum** that the reader could piece together
+- **Fair play:** Reader has all clues needed to solve by end of Meal 3
+- **Villain is human** — self-interested, not evil. No mustache-twirling.
+- **No deus ex machina** reveals in Meal 4
 
-*   `📇 canon library/`
-*   `📚 world building/`
+## 7. Tone Calibration
+
+Most scenes live at **3–5** on a 10-point scale. Crisis peaks hit **6–7**. Never exceed **7**.
+
+| Tone Level | What It Feels Like |
+|------------|-------------------|
+| 1–2 | Light banter, zero tension |
+| 3–5 | **Sweet spot:** warm conversation, light investigation, character moments |
+| 6–7 | **Peak:** real consequences, genuine worry, but still cozy |
+| 8+ | **Never go here.** This isn't a thriller. |
+
+## 8. Red Lines
+
+- No on-page violence
+- No gore
+- Villain is human (greedy, not evil)
+- No deus ex machina reveals in Meal 4
+- No reading minds — stay in Emma's limited POV
+
+## 9. Food as Storytelling
+
+Food is the emotional backbone of every book. Each meal's menu should reflect the group's emotional state:
+
+| Meal | Emotional State | Food Approach |
+|------|-----------------|---------------|
+| Meal 1 | Comfort, routine | Host's planned menu — warm, seasonal |
+| Meal 2 | Excitement, discovery | Ambitious potluck, everyone showing off |
+| Meal 3 | Crisis, defeat | Takeout or failed attempt — no one can cook |
+| Meal 4 | Celebration, resolution | Elevated potluck, meaningful dishes |
+
+See the [Writing Guide](world%20building/04_writing_guide.md) for pacing, beat structure, and scene tempo patterns.
+
+## 10. Formatting
+
+- All output in Markdown
+- H2 (`##`) for story titles, H3 (`###`) for chapter titles
+- Dialogue uses standard double quotes (`""`)

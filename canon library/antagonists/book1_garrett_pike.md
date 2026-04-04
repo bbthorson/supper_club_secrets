@@ -1,7 +1,7 @@
 # Garrett Pike
 
 ## Role
-Primary antagonist, Book 1: The Missing Hot Sauce
+Primary antagonist, Book 1: The Case of the Missing Hot Sauce
 Recurring presence in the series (referenced in later books; potential direct appearance in Book 6)
 
 ---
@@ -31,7 +31,7 @@ By the time of Book 1, Garrett operates through a network of LLCs — not becaus
 ### The Williamsburg Play
 The waterfront restaurant is supposed to be his legacy project. Not another trendy spot that peaks and fades — a destination. Something with a Michelin star within two years. He's been planning it for eighteen months.
 
-Hank's hot sauce was supposed to be part of it. Garrett actually visited the McCarren Park market. He tasted the Fish Pepper sauce. He loved it. He genuinely thought he was offering Hank an opportunity — a buyout that would put Hank's recipe on every table in a high-end restaurant, with Hank's name attached. When Hank said no, Garrett was surprised. When Hank kept saying no, Garrett was annoyed. When Hank's resistance threatened the timeline, Garrett's lawyers got involved.
+Hank's hot sauce was supposed to be part of it. Garrett actually visited the McGolrick Park market. He tasted the Fish Pepper sauce. He loved it. He genuinely thought he was offering Hank an opportunity — a buyout that would put Hank's recipe on every table in a high-end restaurant, with Hank's name attached. When Hank said no, Garrett was surprised. When Hank kept saying no, Garrett was annoyed. When Hank's resistance threatened the timeline, Garrett's lawyers got involved.
 
 In Garrett's mind, he never "stole" anything. He filed patents on a process (capsaicin extraction) that he believes is sufficiently distinct from Hank's recipe. That the patent language is broad enough to threaten Hank's ability to sell his own sauce is, in Garrett's telling, "how intellectual property works." He's not wrong about the legal mechanics. He's wrong about everything else.
 

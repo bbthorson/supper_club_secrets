@@ -1,7 +1,7 @@
 # Ruth
 
 ## Overview
-A veteran preserve vendor at the McCarren Park farmers market who provides Emma with the first concrete information about Hank's disappearance.
+A veteran preserve vendor at the McGolrick Park farmers market who provides Emma with the first concrete information about Hank's disappearance.
 
 ## Personality
 * Warm and motherly — calls Emma "honey," expresses genuine concern for Hank
@@ -12,7 +12,7 @@ A veteran preserve vendor at the McCarren Park farmers market who provides Emma 
 ## Background
 
 ### The Market
-Ruth runs a preserve stand at the McCarren Park farmers market. She's been a fixture there for years — long enough to know the rhythms and the regulars. Her stand is reliable, unpretentious, and well-stocked with seasonal preserves (jams, jellies, pickled goods).
+Ruth runs a preserve stand at the McGolrick Park farmers market. She's been a fixture there for years — long enough to know the rhythms and the regulars. Her stand is reliable, unpretentious, and well-stocked with seasonal preserves (jams, jellies, pickled goods).
 
 She and Hank were market neighbors — the kind of collegial relationship that develops between vendors who set up near each other week after week. Not close friends, but close enough that his sudden absence rattled her.
 

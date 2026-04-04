@@ -41,7 +41,7 @@ Emma stayed for another year, but something had broken. When he screamed at her 
 It felt amazing for twelve hours. Then the panic set in.
 
 ### Brooklyn & The Present
-Emma has been in Brooklyn for about eight years now—she's lived in three different apartments, all within walking distance of each other in Williamsburg. She met Olivia at the McCarren Park farmers market about four years ago; Olivia was asking detailed questions about heirloom tomatoes, and Emma couldn't help but jump in. Olivia decided they were going to be friends.
+Emma has been in Brooklyn for about eight years now—she's lived in three different apartments, all within walking distance of each other in Williamsburg. She met Olivia at the McGolrick Park farmers market about four years ago; Olivia was asking detailed questions about heirloom tomatoes, and Emma couldn't help but jump in. Olivia decided they were going to be friends.
 
 Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance life: food writing, private cooking lessons, and a secret side hustle she can't tell anyone about. Her savings are dwindling. Her confidence is fragile. But she hasn't stopped cooking for the people she loves.
 
@@ -69,8 +69,8 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 
 *Details revealed in stories that should remain consistent:*
 
-### Book 1: The Missing Hot Sauce
-- Lives walking distance from McCarren Park
+### Book 1: The Case of the Missing Hot Sauce
+- Lives walking distance from McGolrick Park
 - Left Bistro Lavande three weeks before the story begins
 - Knew Hank the hot sauce vendor as a regular customer; planned her menu around his sauce and the story behind it
 - Hosts all four meals in Book 1

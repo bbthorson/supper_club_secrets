@@ -12,7 +12,7 @@
 ## Meal 1 — The Setup (Chapters 1–5)
 
 ### Opening Image (Ch. 1: "The Missing Hot Sauce")
-* A crisp October Sunday in Brooklyn. **Emma**, three weeks out from quitting Bistro Lavande, heads to the McCarren Park farmers market to buy ingredients for a dinner with friends.
+* A crisp October Sunday in Brooklyn. **Emma**, three weeks out from quitting Bistro Lavande, heads to the McGolrick Park farmers market to buy ingredients for a dinner with friends.
 * She discovers **Hank's** stall is empty. **Ruth** (preserve vendor) tells her he gave up his spot mid-week without explanation and seemed "off" the last time she was there.
 * Emma calls Hank's number — straight to generic voicemail.
 

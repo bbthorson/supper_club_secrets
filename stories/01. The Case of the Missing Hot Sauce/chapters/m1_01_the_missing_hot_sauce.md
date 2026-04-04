@@ -12,11 +12,11 @@ So she'd untied her apron, handed it to him, and said, "Sure. Thanks for the adv
 
 It had felt amazing for approximately twelve hours. Then the panic set in.
 
-Now, three weeks into freelance food writing and a vague plan to "build her brand" on Instagram, Emma was discovering that being your own boss mostly meant being broke and anxious. She had four article assignments due this month, a handful of private cooking lessons lined up, and a secret side hustle she couldn't tell anyone about. It was just barely enough to cover rent—and only if she didn't think too hard about the math. Her savings account was doing that thing where the numbers got small enough that she'd stopped looking at them, the financial equivalent of closing your eyes on a roller coaster.
+Now, three weeks into freelance food writing and a vague plan to "build her brand" on Instagram, Emma was discovering that being your own boss mostly meant being broke and anxious. She had four article assignments due this month, a handful of private cooking lessons lined up, and a few other things she was trying to make work. It was just barely enough to cover rent—and only if she didn't think too hard about the math. Her savings account was doing that thing where the numbers got small enough that she'd stopped looking at them, the financial equivalent of closing your eyes on a roller coaster.
 
 But today wasn't about survival. Today was about joy. She'd invited her closest friends over for dinner—a test run of some seasonal recipes she could photograph for her portfolio. No pressure, no paying customers, just cooking for people she loved.
 
-First, though, she needed ingredients. And for that, she needed the McCarren Park farmers market.
+First, though, she needed ingredients. And for that, she needed the McGolrick Park farmers market.
 
 Emma pulled on jeans and a sweater, grabbed her reusable bags, and headed out into the crisp October morning.
 
@@ -34,7 +34,9 @@ Hank's hot sauce stall was always her first stop at the market. Not just because
 
 Emma had always imagined using his hot sauce in a rich squash soup, the heat cutting through the sweetness, and telling his story when she served it. Tonight was supposed to be the night she finally did that.
 
-The market was already bustling when she arrived, the familiar maze of white tents and hand-lettered signs stretching across the concrete. October had brought autumn's full inventory: glossy squash in shades of burnt orange and sage green, root vegetables still dusted with dirt and smelling of cold earth, bundles of herbs tied with twine that released little bursts of rosemary and thyme when you brushed past them. The apple stands were stacked high, their reds and golds catching the thin morning sunlight, and somewhere down the row, the sausage vendor's grill was already sending up threads of smoke that mingled with the sharper smell of fresh-pressed cider. A busker near the entrance was playing something folksy on a banjo, the notes tinny and cheerful in the cool air.
+The market was already filling in when she arrived, nestled in the center of McGolrick Park between Driggs and Nassau, the white tents and hand-lettered signs arranged along the walkways beneath the old-growth trees. It was smaller than some of the city's bigger greenmarkets—no celebrity chef sightings, no influencers staging flat-lays—but that was exactly why Emma loved it. The vendors knew the regulars. The regulars knew each other. It felt like a neighborhood, not a brand.
+
+October had brought autumn's full inventory: glossy squash in shades of burnt orange and sage green, root vegetables still dusted with dirt and smelling of cold earth, bundles of herbs tied with twine that released little bursts of rosemary and thyme when you brushed past them. The apple stands were stacked high, their reds and golds catching the thin morning sunlight, and somewhere down the row a vendor's grill was sending up threads of smoke that mingled with the sharper smell of fresh-pressed cider. A guy on a Citi Bike rolled past the park entrance balancing a basketball on his head, and nobody even looked up. Sunday morning in Greenpoint.
 
 Emma took a deep breath and felt her shoulders drop half an inch. This was her church—the one place where her brain quieted down and her senses took over. Where she could pick up a butternut squash and know, just from the weight and the sound of her knuckle against its shell, whether it was worth bringing home.
 
@@ -48,7 +50,7 @@ She approached Ruth, an older woman who ran a preserve stand a few stalls down. 
 
 "Hey Ruth," Emma said, trying to keep her voice casual. "Have you seen Hank this morning? The hot sauce guy?"
 
-Ruth's hands paused on the jars, and something shifted in her expression—not alarm exactly, but a kind of careful concern, the way people look when they're deciding how much bad news to share. "Oh honey, no. He was here last Saturday, but he seemed... off. Distracted." She lowered her voice slightly, as if the empty stall might somehow overhear. "Kept checking his phone the whole day. Not like him at all—usually he's out in front of the table, practically doing a one-man show. But last week he was just... standing there. Staring at that phone."
+Ruth's hands paused on the jars, and something shifted in her expression—not alarm exactly, but a kind of careful concern, the way people look when they're deciding how much bad news to share. "Oh honey, no. He was here last Sunday, but he seemed... off. Distracted." She lowered her voice slightly, as if the empty stall might somehow overhear. "Kept checking his phone the whole day. Not like him at all—usually he's out in front of the table, practically doing a one-man show. But last week he was just... standing there. Staring at that phone."
 
 "Gave it up?" Emma repeated. "Like, permanently?"
 
@@ -60,7 +62,7 @@ Generic voicemail. No personal greeting, no theatrical message, no invitation to
 
 She hung up, a knot of unease tightening in her stomach. That wasn't like him. Hank loved talking about his hot sauce. He'd never miss a chance to tell his story—let alone abandon the market, pull his inventory, and go silent.
 
-By the time Emma headed home, her reusable bags heavy with squash and apples and root vegetables, the mystery of the missing hot sauce vendor had taken up residence in her mind and showed no signs of leaving. It was easier to think about Hank's problems than her own, she realized. Easier to wonder about his disappearance than to calculate how many months of rent she had left in savings, or to think about the other thing—the thing on her laptop that paid better than the food writing and the cooking lessons combined, the thing that kept the lights on but also kept her up at night.
+By the time Emma headed home, her reusable bags heavy with squash and apples and root vegetables, the mystery of the missing hot sauce vendor had taken up residence in her mind and showed no signs of leaving. It was easier to think about Hank's problems than her own, she realized. Easier to wonder about his disappearance than to sit down with a calculator and figure out how many months she had before the math stopped working entirely.
 
 She pushed the thought away and focused on the afternoon ahead. Her friends would arrive in a few hours. She had cooking to do.
 
@@ -68,9 +70,11 @@ She pushed the thought away and focused on the afternoon ahead. Her friends woul
 
 Back in her kitchen, Emma fell into the rhythm that always steadied her. The cutting board, scored and stained from a thousand meals. The knife—her own, not a restaurant's, the one good one she'd bought with her first paycheck from Bistro Lavande. The familiar weight of good produce in her hands.
 
-She started with the butternut squash, halving it with a satisfying thunk and scooping out the seeds. The flesh was dense and sweet-smelling, the color of late afternoon light. She cubed it roughly, tossed it with olive oil and maple syrup and a generous pinch of smoked paprika, then slid the sheet pan into the oven. The heat billowed out as she closed the door, briefly warming her bare feet on the kitchen tile.
+The menu had been living in her head for days. Deviled eggs to start—already prepped and chilling in the fridge, waiting for a final dusting of smoked paprika. Butternut squash soup as the first course, the one that was supposed to get Hank's hot sauce. Roasted root vegetables with herbed brown butter for the main—parsnips, carrots, and turnips from the market, the kind of dish that made October feel like it was doing you a favor. And for dessert, an apple tarte tatin that she'd either nail or burn, depending on how the caramel gods were feeling.
 
-While it roasted, she turned to the apples. Honeycrisps from the stand near the entrance, their skin a blush of red and gold. She sliced them thin, the knife releasing that bright, slightly floral scent that only came from a truly good apple, and arranged them in overlapping circles in a cast-iron skillet. Brown sugar and butter between the layers, because some combinations were sacred and didn't need improving. This would become a tarte tatin, if she didn't burn it—her track record with caramel was spotty at best.
+She started with the butternut squash, halving it with a satisfying thunk and scooping out the seeds. The flesh was dense and sweet-smelling, the color of late afternoon light. She cubed it roughly, tossed it with olive oil and maple syrup and a generous pinch of smoked paprika, then slid the sheet pan into the oven. The root vegetables went on a second sheet pan—chunked thick so they'd hold their shape, tossed with olive oil and a fistful of fresh thyme.
+
+While those roasted, she turned to the apples. Honeycrisps from the stand near the entrance, their skin a blush of red and gold. She sliced them thin, the knife releasing that bright, slightly floral scent that only came from a truly good apple, and arranged them in overlapping circles in a cast-iron skillet. Brown sugar and butter between the layers, because some combinations were sacred and didn't need improving.
 
 The kitchen filled with warmth and the smell of browning butter and roasting vegetables, the sounds layering on top of each other: the low hiss of the oven, the occasional pop of caramelizing sugar, the muffled thump of bass from someone's speaker two floors up. Emma's shoulders dropped an inch. Then another. This was the thing no one told you about cooking: it wasn't just about feeding people. It was about finding a place where your hands knew what to do and your brain could finally shut up.
 

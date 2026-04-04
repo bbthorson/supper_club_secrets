@@ -41,7 +41,7 @@ Olivia and Oliver live in a one-bedroom in Williamsburg. She decorated it; he ke
 
 She knows he relies on her. This is mostly fine—she loves being needed. But sometimes, late at night, she wonders: does he love her, or does he need her? Are those the same thing? She's never asked. She's not sure she wants the answer.
 
-She met Emma about four years ago at the McCarren Park farmers market. Emma was explaining heirloom tomatoes to a confused shopper, and Olivia jumped in to ask follow-up questions. By the end of the conversation, Olivia had decided they were going to be friends. Emma didn't stand a chance.
+She met Emma about four years ago at the McGolrick Park farmers market. Emma was explaining heirloom tomatoes to a confused shopper, and Olivia jumped in to ask follow-up questions. By the end of the conversation, Olivia had decided they were going to be friends. Emma didn't stand a chance.
 
 ## Skills
 *   Networking and information gathering—she knows everyone in the neighborhood.
@@ -68,7 +68,7 @@ She met Emma about four years ago at the McCarren Park farmers market. Emma was 
 
 *Details revealed in stories that should remain consistent:*
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 - Knows shop owners throughout Williamsburg
 - Texts a boutique owner during Meal 1 dinner and gets first external confirmation that something is wrong with Hank (Ch. 3)
 - Produces the hat with numbers for the theory competition — "the most predictable, unpredictable person" (Ch. 3)

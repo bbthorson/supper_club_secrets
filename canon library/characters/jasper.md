@@ -71,7 +71,7 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 
 *Details revealed in stories that should remain consistent:*
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 - Works at the NYC 311 call center
 - Joined the group about two years before the story begins (helped Oliver with a zoning issue)
 - Arrives first to Meal 1, claims daylight savings confusion (Ch. 2)

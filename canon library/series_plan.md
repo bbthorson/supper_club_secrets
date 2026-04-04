@@ -30,14 +30,14 @@ Six friends along Brooklyn's G line solve neighborhood mysteries over weekly din
 
 ---
 
-## Book 1: The Missing Hot Sauce (COMPLETE)
+## Book 1: The Case of the Missing Hot Sauce (COMPLETE)
 
 **Focal Character:** Emma Hartley
 **Month:** October
 **Host:** Emma (all four meals)
 **Status:** Expanded draft complete (~33,400 words, 18 chapters)
 
-**Mystery:** Hank, a beloved hot sauce vendor, vanishes from the McCarren Park farmers market. The group discovers a corporate land grab backed by a mogul using shell companies and legal intimidation — including weaponizing Emma's secret OnlyFans account.
+**Mystery:** Hank, a beloved hot sauce vendor, vanishes from the McGolrick Park farmers market. The group discovers a corporate land grab backed by a mogul using shell companies and legal intimidation — including weaponizing Emma's secret OnlyFans account.
 
 **Character Arc:** Emma moves from defensive secrecy to openness. Her instincts about "Big Hot Sauce" turn out to be right. She learns to trust the group and herself.
 

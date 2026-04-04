@@ -34,7 +34,13 @@ The door buzzed again. Jasper, in the middle of twisting the corkscrew into the 
 
 "Liv, I've got some deviled eggs in the fridge. Can you take them out and sprinkle some paprika on them?" Emma called out, cutting through Jasper's performance.
 
-"On it!" Olivia said, brushing past Jasper to help Emma in the kitchen, a silent, sisterly alliance against his antics. She set down her paper bag—candles, Emma noticed, from Marcus's shop on Bedford Ave, the ones that smelled like cedar and blood orange—and opened the fridge.
+"On it!" Olivia said, brushing past Jasper to help Emma in the kitchen, a silent, sisterly alliance against his antics. She set down her paper bag—candles, Emma noticed, from Marcus's shop on Bedford Ave, the ones that smelled like cedar and blood orange—and opened the fridge. She pulled the eggs out, dusted them with paprika, and arranged them on a plate with the instinctive precision of someone who'd once seen a magazine spread on appetizer presentation and had never recovered. Then she pulled out her phone and snapped a photo.
+
+"These are gorgeous, Ems. I'm posting this." Olivia was already typing. "Seriously, you should let me set you up with some private dinner gigs. I know at least three people who would pay real money for this."
+
+"Liv—"
+
+"I'm just saying. You're too good to not be cooking for people." She hit post and slid the plate onto the coffee table with a flourish.
 
 "Rude, but okay," Jasper sniffed. "How 'bout you, gents?"
 
@@ -48,7 +54,7 @@ Jasper poured the wine—generously, as always—and handed out the glasses. Oli
 
 Before Jasper could say something sarcastic, Oliver jumped in. "He had a report to file before the end of the day. Said he'd head over as soon as that was done."
 
-"And you're just telling me now? Also, it's Sunday!" Olivia retorted. She was already arranging the deviled eggs on a plate with a precision that suggested she'd once seen a magazine spread on appetizer presentation and had never recovered.
+"And you're just telling me now? Also, it's Sunday!" Olivia retorted.
 
 "Yeah, guy never stops working," Noah chimed in. "He needs to find work-life balance. He's too caught up in that hustle culture; it's gonna catch up with him."
 
@@ -58,23 +64,23 @@ Not wanting to hear Jasper and Noah argue about hustle culture—a debate they'd
 
 The men responded in unison with a mix of names for their host, a messy, affectionate chorus. "To Emma!" "To Ems!" "To Mama E!"
 
-Emma turned around from the stove, a genuine smile on her face—the first one that had felt easy all day. "Thanks, guys, but seriously, I don't need any of that. Just relax and enjoy some deviled eggs with your very exclusive vintage." She winked at Jasper, who winked back.
+Emma turned around from the stove, a genuine smile on her face—the first one that had felt easy all day. "Thanks, guys, but seriously, I don't need any of that. Just relax and enjoy Liv's beautiful presentation with your very exclusive vintage." She winked at Jasper, who winked back.
 
 The guests settled into the living room, finding their usual spots in the geography of Emma's furniture. Oliver and Olivia shared the loveseat, Oliver's arm draped behind her with the comfort of seven years of marriage. Noah claimed the structurally questionable end of the couch. Jasper sprawled across a folding chair in a way that suggested he believed furniture was merely a suggestion.
 
-Emma continued with dinner, occasionally bringing a tasting spoon into the living room to let her friends try her work. The squash soup was coming together—velvety, rich, missing only the ingredient she couldn't get. The conversation flowed the way it always did with these five: overlapping, circling back, branching into tangents that sometimes lasted twenty minutes before someone remembered what they'd originally been talking about. They shared stories of work, bad dates, and the news, though whenever they circled back to the news, they inevitably agreed to change the topic. Nobody wanted to ruin a Sunday.
+Emma continued with dinner, occasionally bringing a tasting spoon into the living room to let her friends try her work. The squash soup was coming together—velvety, rich, missing only the ingredient she couldn't get. The root vegetables were turning golden in the oven, filling the apartment with the smell of browned butter and thyme. The conversation flowed the way it always did with these five: overlapping, circling back, branching into tangents that sometimes lasted twenty minutes before someone remembered what they'd originally been talking about. They shared stories of work, bad dates, and the news, though whenever they circled back to the news, they inevitably agreed to change the topic. Nobody wanted to ruin a Sunday.
 
-They'd long since finished Jasper's wine, and Noah was eager for everyone to sample his next offering. It was from a sustainable vineyard in the Finger Lakes that grew organic, sulfur-free wines. He was explaining the biodynamic farming process with the enthusiasm of someone who'd just discovered a new religion when Jasper interrupted to let Noah know, with great compassion, that they didn't care.
+Jasper's wine was running low, and Noah seized the opportunity to introduce his own bottle. It was from a sustainable vineyard in the Finger Lakes that grew organic, sulfur-free wines. He was explaining the biodynamic farming process with the enthusiasm of someone who'd just discovered a new religion when Jasper interrupted to let Noah know, with great compassion, that they didn't care.
 
 Oliver added in the background that most new wine-growing regions were the result of tax policy rather than changing weather patterns, but he was sure nobody heard him. At least one person did. Olivia looked over and mouthed "thank you, babe" while Jasper and Noah were fake fighting over whether sulfites were a government conspiracy.
 
 Olivia, tired of their typical banter, interrupted with a loud call to the chef, "Everything alright in there?"
 
-"Yeah, first dish should be out in ten," Emma chirped back. She was plating the deviled eggs with fresh herbs, trying to make them look like something worth photographing. They didn't. She photographed them anyway.
+"Yeah, soup should be ready in ten," Emma chirped back, stirring the pot and checking the root vegetables in the oven.
 
 "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately," Olivia said. The men quieted down, having wanted to ask a similar question but not feeling confident enough to navigate the emotional terrain.
 
-Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit two weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above. At least, none that she'd told them about.
+Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit two weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
 
 "Don't worry about it," Emma responded, turning back to the stove. She adjusted the flame under the soup, watching the surface settle from a simmer to a tremble. "The kitchen just needs lookin' at." The sudden shift into her blunt, Western Pennsylvania dialect was a clear sign to her closest friends that she wasn't fine at all. Emma only talked like that when she was either very drunk or very stressed, and she'd only had half a glass of Noah's questionable wine.
 
@@ -96,7 +102,7 @@ Emma lowered the burner and turned around. "It's just that," she paused and refi
 
 "I didn't want to make you something basic, so I got fixated on this guy's hot sauce. It's not that different from any other hot sauce, I mean, it's really good, but he tells such a great story about it and I love to retell the story when I use it. He gets all theatrical, you know? And he swears the secret is this crazy pepper his great-grandmother brought up from Philly, calls it a 'Fish Pepper' or something, says it's the only thing that gives it that... zing. I feel like the story gives soul to what I'm making, and I wanted to do something, I don't know, a little out there for you tonight, but still ground it in that story."
 
-She realized, as she said it, that it sounded ridiculous. A missing hot sauce vendor. A secret pepper. She was standing in her tiny kitchen, barefoot on cold tile, telling her friends that her dinner was ruined because a man she only sort of knew had stopped selling condiments at a park. But the thing was, it wasn't just about the hot sauce. It was about the feeling that something good had been taken away before she'd had a chance to use it—and lately, that feeling had been following her around like a stray cat she couldn't stop feeding.
+She realized, as she said it, that it sounded ridiculous. A missing hot sauce vendor. A secret pepper. She was standing in her tiny kitchen, telling her friends that her dinner was ruined because a man she only sort of knew had stopped selling condiments at a park. But the thing was, it wasn't just about the hot sauce. It was about the feeling that something good had been taken away before she'd had a chance to use it—and lately, that feeling had been following her around like a stray cat she couldn't stop feeding.
 
 "That's really cool, Ems," Oliver chimed in, his voice quiet but sincere.
 

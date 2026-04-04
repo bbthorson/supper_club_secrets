@@ -21,11 +21,28 @@ Use this template to outline a new Supper Club Secrets story. Copy this folder t
 
 ---
 
+## Menu Plan
+
+Plan each meal's menu before writing. Food reflects the group's emotional state (see [ai_instructions.md](../../ai_instructions.md) §9). Lock the menu early and reference it consistently across chapters.
+
+| Meal | Emotional State | Host | Dishes |
+|------|-----------------|------|--------|
+| **Meal 1** | Comfort, routine | | Appetizer: / First course: / Main: / Dessert: |
+| **Meal 2** | Excitement, discovery | | Each person brings: |
+| **Meal 3** | Crisis, defeat | | Takeout or failed attempt: |
+| **Meal 4** | Celebration, resolution | | Elevated potluck: |
+
+**Shopping list anchors:** [What does the host buy at the market / shops? These become scene-grounding details.]
+
+**Signature dish:** [One dish that threads through the story — started in Meal 1, completed or elevated in Meal 4.]
+
+---
+
 ## Four-Meal Structure
 
 ### Meal 1: Setup
-**Host:** [Who's cooking?]  
-**Menu:** [What's being served? Should reflect the mood]
+**Host:** [Who's cooking?]
+**Menu:** [Reference menu plan above]
 
 | Beat | What Happens |
 |------|--------------|
@@ -42,8 +59,8 @@ Use this template to outline a new Supper Club Secrets story. Copy this folder t
 ---
 
 ### Meal 2: Investigation
-**Host:** [Can be potluck or single host]  
-**Menu:** [More ambitious—everyone showing off?]
+**Host:** [Can be potluck or single host]
+**Menu:** [Reference menu plan above]
 
 | Beat | What Happens |
 |------|--------------|
@@ -64,8 +81,8 @@ Use this template to outline a new Supper Club Secrets story. Copy this folder t
 ---
 
 ### Meal 3: Crisis
-**Host:** [Location during crisis]  
-**Menu:** [Reflects defeat—takeout, failed attempt, etc.]
+**Host:** [Location during crisis]
+**Menu:** [Reference menu plan above]
 
 | Beat | What Happens |
 |------|--------------|
@@ -79,8 +96,8 @@ Use this template to outline a new Supper Club Secrets story. Copy this folder t
 ---
 
 ### Meal 4: Resolution
-**Host:** [Celebration location]  
-**Menu:** [Celebratory, elevated]
+**Host:** [Celebration location]
+**Menu:** [Reference menu plan above]
 
 | Beat | What Happens |
 |------|--------------|
@@ -107,7 +124,16 @@ Use this template to outline a new Supper Club Secrets story. Copy this folder t
 
 ## Canon Updates Needed
 
-After completing this story, update:
-- [ ] Locations registry (new locations)
-- [ ] Character files (development, new relationships)
-- [ ] Glossary (new terms, recurring elements)
+After completing this story, update the following. Log all changes in [CANON_CHANGELOG.md](../../CANON_CHANGELOG.md).
+
+### Mandatory
+- [ ] **Character lore tracking** — Add a "Book N" section to each main character's canon file with key events, quotes, and growth
+- [ ] **Locations registry** — Add any new locations; update existing entries if details changed
+- [ ] **Glossary** — Add new terms, recurring elements, and canon rules revealed in this story
+- [ ] **Continuity summary** — Update [canon library/continuity.md](../../canon%20library/continuity.md) with world-state changes
+
+### If Applicable
+- [ ] **Group dynamics** — Update if relationships shifted (new tensions, resolved conflicts, deepened bonds)
+- [ ] **Antagonist file** — Fill in or update the antagonist profile for this book
+- [ ] **Series plan** — Note any deviations from the planned outline, or seeds planted for future books
+- [ ] **Story-specific character files** — Promote any minor characters who should recur to the canon library

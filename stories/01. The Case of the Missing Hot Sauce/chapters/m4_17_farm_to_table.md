@@ -22,7 +22,7 @@ Click. Dead line.
 
 He tried again. And again. Most people hung up within thirty seconds. A few listened politely before explaining they'd never heard of such a person. One elderly man in Baltimore spent twenty minutes telling Jasper about his own pepper garden before admitting he'd never grown Fish Peppers in his life, but would Jasper like to hear about his Carolina Reapers? A woman at a heritage seed collective in Delaware put him on hold for fifteen minutes, then came back to say she couldn't help but wished him luck with "the pepper man situation."
 
-By Tuesday afternoon, Jasper was on his twentieth call, sitting on a bench in McCarren Park—not far from the empty spot where Hank's stall used to be, though he hadn't consciously chosen to sit there. The October wind was sharper now, carrying the smell of dead leaves and cold concrete. He was about to give up when a woman at a small nursery outside Philadelphia paused at his question.
+By Tuesday afternoon, Jasper was on his twentieth call, sitting on a bench in McGolrick Park—not far from the empty spot where Hank's stall used to be, though he hadn't consciously chosen to sit there. The October wind was sharper now, carrying the smell of dead leaves and cold concrete. He was about to give up when a woman at a small nursery outside Philadelphia paused at his question.
 
 "Fish Peppers?" she said slowly. "The striped ones? You're not talking about the Meadowlight Collective, are you?"
 

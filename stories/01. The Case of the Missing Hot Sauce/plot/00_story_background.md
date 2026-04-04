@@ -1,7 +1,7 @@
 # Story Background
 
 ## The Setting
-This story takes place in early autumn in **Williamsburg, Brooklyn**. The main locations are Emma's cozy apartment and the McCarren Park farmers market, a hub of local commerce and community.
+This story takes place in early autumn in **Williamsburg, Brooklyn**. The main locations are Emma's cozy apartment and the McGolrick Park farmers market, a hub of local commerce and community.
 
 ## Key Characters
 *   **Emma:** A talented chef who has recently quit her restaurant job to forge her own path. She is the central character who discovers the initial mystery.

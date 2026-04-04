@@ -1,9 +1,0 @@
-# Meal 1: The Setup
-
-## Key Events
-* **Opening Image:** The story opens on a crisp October Sunday in Brooklyn. Emma, recently separated from the food service industry, heads to the farmers market to get ingredients for a meal she is cooking for her friends. The gathering is a routine, but welcome, break for the friends who don't see each other much during the week.
-* **Theme Stated:** At the market, Emma discovers that her favorite hot sauce vendor, Hank, is missing. Confused and a little shaken by this unexpected disruption to her plans, she learns from other vendors that he gave up his spot mid-week without explanation, which was highly unusual.
-* **Set-up:** The supper club gathers at Emma's apartment. The group notices she is distant, and she explains her frustration about the missing hot sauce vendor which has thrown off her menu.
-* **Catalyst:** During dinner, Olivia texts a local shop owner and learns that the vendor had been acting strangely and had taken all of his product back. This sparks a joking intrigue among the friends, who are not yet a mystery-solving team. Emma, Jasper, and Olivia are the most engaged by the puzzle.
-* **Debate:** The group begins to playfully speculate, daring each other to come up with wilder theories. This escalates accidentally, with each friend pushing the game a little further without expecting it to lead anywhere meaningful.
-* **The Plan:** Having arrived last and being the most sober, Elijah is assigned his usual role as the group's judge. Amused, he eggs them on, but ultimately can't pick a winning theory. This leads Jasper to suggest they all investigate their ideas and reconvene the following week with a potluck dinner to share their "findings".

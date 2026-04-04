@@ -65,7 +65,7 @@ Noah is the least connected to the neighborhood. He orders everything online. He
 
 *Details revealed in stories that should remain consistent:*
 
-### Book 1: The Missing Hot Sauce
+### Book 1: The Case of the Missing Hot Sauce
 - Works remotely from home most days
 - Met Oliver through work-adjacent connections
 - Brings bad wine to Meal 1 (sustainable, sulfur-free Finger Lakes wine that everyone hates)
