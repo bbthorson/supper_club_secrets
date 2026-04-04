@@ -14,7 +14,7 @@ He grabbed his laptop and started searching, the familiar feeling of a new rabbi
 
 And knowing someone—being part of stories—was Jasper's actual superpower.
 
-He started calling. Small nurseries in Maryland first, then Pennsylvania. His approach was pure Jasper—equal parts charm and barely controlled chaos, a human search engine that ran on enthusiasm and the unshakeable belief that if you called enough people, eventually one of them would know something useful.
+He started calling. Fish Peppers were a Chesapeake Bay variety—Maryland, Virginia, up into Pennsylvania—so he cast a wide net. Small nurseries in Maryland first, then Pennsylvania. His approach was pure Jasper—equal parts charm and barely controlled chaos, a human search engine that ran on enthusiasm and the unshakeable belief that if you called enough people, eventually one of them would know something useful.
 
 "Hi, yes, I'm looking for a... well, it's complicated, but there's this guy, a hot sauce artisan, and he's gone missing, and I think he might be growing Fish Peppers, which I know sounds insane, but—"
 

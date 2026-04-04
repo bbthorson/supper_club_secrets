@@ -36,10 +36,10 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **First Appearance:** Chapter 8 (polished draft Ch. 7)
 * **Key Detail:** Hank asked her about "bottling and shelf life" and said he'd gotten "a big offer to go legit."
 
-### The Restaurant Mogul → [the_mogul.md](the_mogul.md)
-* **Role:** Unseen antagonist operating through LLC #2847
+### Garrett Pike (The Restaurant Mogul) → [book1_garrett_pike.md](../../../canon%20library/antagonists/book1_garrett_pike.md)
+* **Role:** Primary antagonist operating through LLC #2847
 * **First Evidence:** Chapter 6 (Oliver finds the LLC)
-* **Key Detail:** Intentionally unnamed. Operates through lawyers, LLCs, and intimidation. Self-interested, not evil.
+* **Key Detail:** Mid-forties hospitality entrepreneur. Operates through lawyers, LLCs, and intimidation. Self-interested, not evil. Named in canon docs; name surfaces publicly during the food critic's coverage (Ch16).
 
 ### The Food Critic → [the_food_critic.md](the_food_critic.md)
 * **Role:** National food critic whose endorsement turns the tide

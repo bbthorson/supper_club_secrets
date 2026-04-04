@@ -4,6 +4,31 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-04-04 — Consistency fixes from external review (5 items)
+
+**Trigger:** External review flagged narrative inconsistencies across canon docs and chapters.
+
+**What changed:**
+
+1. **Antagonist naming:** Removed "Intentionally unnamed" from character overview. Garrett Pike is now consistently named across canon docs (already existed in `book1_garrett_pike.md` and `continuity.md`). Character overview updated with full name and link to antagonist profile. Name surfaces publicly in the story during the food critic's coverage (Ch16).
+
+2. **Olivia's Meal 2 potluck contribution:** Ch5 promised Olivia and Oliver would handle the entree together, but Ch10 had Olivia arriving with only flowers/candles. Fixed: Olivia now arrives with sourced ingredients (wild mushrooms, local honey, fresh thyme) gathered during her Bedford Ave intel-gathering trip on Tuesday. She did the sourcing; Oliver did the cooking. Team contribution intact.
+
+3. **Noah's Ch9 investigation framing:** Noah's dismissiveness in Ch9 read as lazy/disinterested, inconsistent with his playful engagement during Meal 1 theories. Reframed: Noah now actively searches multiple variations and databases, but hits a wall because Hank has zero digital footprint. His frustration is about tools, not apathy — "like trying to grep a handwritten notebook." His re-engagement once Elijah provides real data now reads naturally.
+
+4. **Fish Pepper regional context (Ch17):** Jasper calling Maryland nurseries when Hank's seeds are from Virginia wasn't contradictory (Fish Peppers are a Chesapeake variety), but could confuse readers. Added one clarifying line: "Fish Peppers were a Chesapeake Bay variety—Maryland, Virginia, up into Pennsylvania—so he cast a wide net."
+
+5. **Continuity doc OnlyFans phrasing:** Continuity doc implied the group outed Emma's OnlyFans. Corrected to match Ch18's actual text: internet sleuths connected the dots independently after the C&D note's "Kinky Kitchen" reference became public. The group's swarm campaign was anonymous; the exposure was an indirect consequence.
+
+**Files touched:**
+- `stories/01. The Case of the Missing Hot Sauce/characters/00_character_overviews.md`
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m2_09_a_pinch_too_much.md`
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m2_10_coming_to_a_boil.md`
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m4_17_farm_to_table.md`
+- `canon library/continuity.md`
+
+---
+
 ## 2026-04-04 — Book title: "The Missing Hot Sauce" → "The Case of the Missing Hot Sauce"
 
 **Trigger:** "The Case of..." framing better sets genre expectations for cozy crime and gives the series a natural naming pattern.

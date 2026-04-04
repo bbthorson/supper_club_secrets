@@ -14,7 +14,7 @@ A "previously on..." reference for each book. When starting a new book, read the
 
 **The Mogul (Garrett Pike):** His investors pulled out after the swarm strategy. The waterfront restaurant location is on indefinite hold. The cease & desist was formally withdrawn. Pike is not destroyed — his operation is stalled, and he may resurface.
 
-**Public Knowledge:** Emma's OnlyFans (Kinky Kitchen) is now public. The response was overwhelmingly supportive. This is no longer a secret — it's known to the group, their social circles, and anyone who followed the food critic's coverage.
+**Public Knowledge:** Emma's OnlyFans (Kinky Kitchen) is now public. After the story went viral, internet sleuths connected the C&D note's "Kinky Kitchen" reference to her anonymous cooking account. The response was overwhelmingly supportive — the group did not out her; the exposure was an indirect consequence of the campaign's success. This is no longer a secret — it's known to the group, their social circles, and anyone who followed the coverage.
 
 ### Character State
 
