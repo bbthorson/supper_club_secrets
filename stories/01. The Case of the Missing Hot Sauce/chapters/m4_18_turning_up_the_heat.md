@@ -1,6 +1,6 @@
 ## Meal Four
 
-### Chapter Sixteen - Turning Up the Heat
+### Chapter Eighteen - Turning Up the Heat
 
 The next forty-eight hours were a blur of coordinated, caffeine-fueled chaos. Emma's apartment, which had been the site of so much anxiety, transformed into a makeshift war room. Every horizontal surface was occupied—laptops on the kitchen counter, phones charging on the windowsill, notepads and printed documents covering the coffee table. Olivia's candles had been replaced by takeout coffee cups, and the scent of dread had been replaced by the electric smell of overheating laptops and the sharp, bitter aroma of coffee that was too strong because nobody had time to measure the grounds properly.
 

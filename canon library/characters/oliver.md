@@ -37,7 +37,7 @@ No one in the group knows about any of this. Olivia suspects he's "doing somethi
 ### The Present
 Oliver works as a research analyst at a small urban planning consultancy. The work is niche, well-suited to his skills, and completely invisible to most people. He enjoys it.
 
-He and Olivia live in a one-bedroom in Williamsburg that she's decorated and he keeps organized. He handles the bills, the maintenance schedules, the logistics of their life. She handles the social calendar, the networking, the energy that he cannot generate on his own.
+He and Olivia live in a one-bedroom in Clinton Hill that she's decorated and he keeps organized. He handles the bills, the maintenance schedules, the logistics of their life. She handles the social calendar, the networking, the energy that he cannot generate on his own.
 
 He relies on her. He knows he relies on her. Sometimes this worries him—what would he do if she wasn't there? He pushes the thought away.
 

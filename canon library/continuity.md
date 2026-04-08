@@ -25,18 +25,17 @@ A "previously on..." reference for each book. When starting a new book, read the
 | **Noah** | Proved his tech skills have real-world value beyond startups. Orchestrated the digital swarm campaign. | Initially dismissive, then became essential. Built the anonymous distribution infrastructure. | Sneaker collection still hidden. Tech-utopian worldview unchallenged. |
 | **Oliver** | Had his most vocal moment ever — rallied the group during the crisis. Showed leadership capacity. | Delivered the "swarm strategy" speech. Created the rebuttal framework that the food critic used. | Online life (zoning violations Twitter) not yet exposed. Olivia doesn't know about it. |
 | **Olivia** | Leveraged her social network throughout. The group's primary intel-gatherer. | Connected the dots through Marcus, neighborhood contacts. Fiercely defended Emma. | Anxiety about Oliver's dependence not yet surfaced. |
-| **Jasper** | Confessed to inadvertently tipping off the mogul through Brenda Chen. Redeemed himself by finding Hank. | Sharpest group fight happened because of his mistake. His redemption arc (finding Hank at Meadowlight) was genuine. | Old money background still completely hidden. 311 job still unexplained to the group. |
+| **Jasper** | Confessed to inadvertently tipping off the mogul through Brenda Marquez. Redeemed himself by finding Hank. | Sharpest group fight happened because of his mistake. His redemption arc (finding Hank at Meadowlight) was genuine. | Old money background still completely hidden. 311 job still unexplained to the group. |
 
 ### Recurring Characters
 
 | Character | Status After Book 1 | Future Availability |
 |-----------|--------------------|--------------------|
 | **Hank** | Returned. Filed trademark. Back at the market. | Available for cameos. Returns in Book 6 for farmers market reopening. |
-| **Ruth** | Unchanged. Still at McGolrick Park market. | Background texture. Could surface in Book 5. |
 | **Dorothy** | Gave Emma Hank's heritage sauce bottle. Honey vendor. | Returns as central figure in Book 3 (loan crisis). |
 | **Sofia** | Unchanged. Cheese shop fixture. | Returns in Book 2 (central) and Book 5. |
 | **Marcus** | Established as neighborhood ally through Olivia. Gilded Fern. | Returns in Book 4. Possible in Book 2. |
-| **Brenda Chen** | Inadvertently tipped off the mogul. Relationship with Jasper strained. | Returns in Book 6. Possible in Book 3. |
+| **Brenda Marquez** | Inadvertently tipped off the mogul. Relationship with Jasper strained. | Returns in Book 6. Possible in Book 3. |
 | **The Food Critic** | Unnamed. Amplified the story using Oliver's framework. | Available for callbacks. |
 
 ### Seeds Planted for Future Books

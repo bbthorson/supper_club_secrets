@@ -1,4 +1,4 @@
-### Chapter Eighteen - Family Meal
+### Chapter Twenty-Two - Family Meal
 
 Two weeks later, Emma stood in her kitchen, staring at the array of ingredients spread across her counter. For the first time in months, she wasn't cooking out of anxiety or financial desperation. She wasn't performing for a client or testing a recipe for an article or trying to prove something to a voice in her head that sounded like her former boss. She was cooking because she wanted to. Because her friends were coming, and they deserved something beautiful.
 

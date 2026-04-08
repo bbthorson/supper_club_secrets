@@ -1,4 +1,4 @@
-### Chapter Fifteen - The Recipe for Revenge
+### Chapter Sixteen - The Recipe for Revenge
 
 Oliver's words hung in the air, a sudden, sharp turning of the tide. The anger and fear in the room didn't disappear, but they began to coalesce, hardening from something liquid and shapeless into something solid—resolve, or at least the beginning of it.
 

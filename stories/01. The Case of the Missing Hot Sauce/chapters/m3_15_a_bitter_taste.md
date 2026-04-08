@@ -1,4 +1,4 @@
-### Chapter Fourteen - A Bitter Taste
+### Chapter Fifteen - A Bitter Taste
 
 The Thai food arrived in a stack of white containers that smelled of basil and chili and coconut, and nobody was particularly hungry. They unpacked it anyway—Olivia organizing the containers on the coffee table with the same precision she brought to everything, Noah distributing chopsticks with unnecessary efficiency—because the ritual of eating together was its own kind of language, and right now they needed every language they had.
 

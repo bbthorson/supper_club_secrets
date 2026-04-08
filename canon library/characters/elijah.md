@@ -33,7 +33,7 @@ He got into investment banking through sheer determination and performance. But 
 ### The Present
 Elijah now works at a mid-tier investment bank in Manhattan. He sends money home every month—not formally, but consistently. His parents' retirement isn't secure; his siblings still need help sometimes. He doesn't complain about this, but it shapes every financial decision he makes.
 
-He lives in Brooklyn because it's cheaper than Manhattan and because the supper club is here. He reconnected with Olivia about three years ago when she spotted him at a coffee shop near his apartment. She waved; he nodded; she came over and talked for forty-five minutes. By the end, he was having dinner at her place that weekend.
+He lives in Brooklyn because it's cheaper than Manhattan and because the supper club is here. He lives in Bed-Stuy near Classon Ave. He reconnected with Olivia about three years ago when she spotted him at a coffee shop near his apartment. She waved; he nodded; she came over and talked for forty-five minutes. By the end, he was having dinner at her place that weekend.
 
 He's not sure how he ended up with a group of friends who solve neighborhood mysteries for fun. But he's not leaving.
 

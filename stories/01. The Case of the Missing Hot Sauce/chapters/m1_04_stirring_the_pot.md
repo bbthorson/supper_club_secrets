@@ -52,7 +52,7 @@ Emma positioned herself under the fluorescent light and placed both hands on the
 
 "They saw Hank's artisanal, small-batch hot sauce as a rising threat," Emma declared, her voice rising with each word. "They knew his secret family recipe was too good, too authentic, too real. So they did what they always do—they crushed him. Bought him out, silenced him, maybe even... disappeared him." She paused dramatically, eyes wide. "Think about it. Have you seen Hank since last week? Exactly."
 
-"Well, to be honest, literally none of us have ever seen Hank, so no," Oliver uncharacteristically interjected from the loveseat. He smirked and saw Olivia smiling at him out of the corner of his eye. It was possibly the best-timed joke he'd ever made in this group, and he seemed both pleased and slightly alarmed by it.
+"Well, to be honest, literally none of us have ever met Hank, so no," Oliver uncharacteristically interjected from the loveseat. He smirked and saw Olivia smiling at him out of the corner of his eye. It was possibly the best-timed joke he'd ever made in this group, and he seemed both pleased and slightly alarmed by it.
 
 "You know what I mean, Ollie!" Emma said, resting her case. "Elijah knows I'm right. He'll see the truth." She took a small bow and leaned back against the counter, feeling lighter than she had all day. There was something satisfying about giving a name to the shapeless unease she'd been carrying around since the market. Big Hot Sauce. It sounded ridiculous. But it also sounded, in a way she couldn't explain, exactly right.
 

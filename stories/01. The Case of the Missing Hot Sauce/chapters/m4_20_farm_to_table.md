@@ -1,4 +1,4 @@
-### Chapter Seventeen - Farm to Table
+### Chapter Twenty - Farm to Table
 
 While the digital war was being waged from Emma's living room, Jasper stood in his chaotic apartment on Saturday morning, feeling utterly useless. His phone buzzed with updates from the group chat—Noah's sentiment graphs, Olivia's influencer confirmations, the food critic's devastating endorsement. Victory after victory, all happening without him. The rest of them had found their roles, and every text was a reminder that his role, this time, was somewhere else.
 

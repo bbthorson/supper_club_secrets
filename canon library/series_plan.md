@@ -45,7 +45,7 @@ Six friends along Brooklyn's G line solve neighborhood mysteries over weekly din
 
 **Reputation Status:** The group doesn't think of themselves as mystery-solvers yet. This was a one-time thing. Right?
 
-**Key Minor Characters Introduced:** Hank, Ruth, Dorothy, Sofia, Marcus, Brenda Chen
+**Key Minor Characters Introduced:** Hank, Dorothy, Sofia, Marcus, Brenda Marquez
 
 ---
 
@@ -117,7 +117,7 @@ Elijah has spent his career navigating a financial system that wasn't built for 
 - Dorothy returns (her loan is threatened — carries forward from Book 1)
 - New: The credit union's original founder's granddaughter, who still works as a teller and suspects something is wrong but doesn't have the vocabulary to name it
 - New: A retired accountant or bookkeeper from the neighborhood who kept the old records
-- Brenda Chen (from Book 1) could surface tangentially — maybe the real estate angle connects to her world
+- Brenda Marquez (from Book 1) could surface tangentially — maybe the real estate angle connects to her world
 
 **Reputation Status:** The Dorothy connection makes this feel organic — "we helped her friend Hank, now she's coming to us." But it's the first time someone outside the friend group has specifically sought them out. The crew doesn't name it yet, but the pattern is forming.
 
@@ -199,7 +199,6 @@ Noah has to confront the possibility that his worldview is not just incomplete b
 - Sofia returns (her cheese shop was review-bombed on the app)
 - New: The app's creator — a well-meaning developer who lost control of what they built
 - New: A teenage coder from the neighborhood who figures out the data pipeline before Noah does
-- Ruth from the farmers market (off-season, but still around — maybe she runs a winter stand)
 
 **Reputation Status:** The group is now sought out. The teenage coder finds them specifically. The app developer knows about them. Someone on the app has created a thread titled "who are those dinner party people who keep solving stuff?" Jasper screenshots it and frames it.
 
@@ -235,7 +234,7 @@ The group has never been to Elijah's apartment. What they find surprises them: i
 **March Texture:** The first signs of spring. Crocuses in Prospect Park. The particular March light that's still cold but longer. St. Patrick's Day parade energy. The neighborhood waking up after winter — more foot traffic, outdoor seating tentatively returning, the farmers market gearing up for a new season. A year's worth of stories cycling back to where they started.
 
 **Minor Character Opportunities:**
-- Brenda Chen returns (she moves in the same real estate/old money circles)
+- Brenda Marquez returns (she moves in the same real estate/old money circles)
 - New: A member of Jasper's family — a cousin or sibling who's still inside the world Jasper rejected
 - New: An estate lawyer or archivist who's been quietly tracking the stolen items
 - Hank makes a cameo (the farmers market is reopening for spring — he's back)
@@ -250,11 +249,10 @@ The group has never been to Elijah's apartment. What they find surprises them: i
 | Character | Book 1 | Book 2 | Book 3 | Book 4 | Book 5 | Book 6 |
 |-----------|--------|--------|--------|--------|--------|--------|
 | Hank | Central | — | — | — | — | Cameo (market reopens) |
-| Ruth | Intro | — | — | — | Possible | — |
 | Dorothy | Intro | — | Central (loan crisis) | — | — | — |
 | Sofia | Intro | Central (shop threatened) | — | — | Returns (review-bombed) | — |
 | Marcus | Intro | Possible | — | Returns | — | — |
-| Brenda Chen | Intro | — | Possible | — | — | Returns |
+| Brenda Marquez | Intro | — | Possible | — | — | Returns |
 
 ### Character Secret Progression
 | Character | Secret | Introduced | Cracked Open | Fully Revealed |

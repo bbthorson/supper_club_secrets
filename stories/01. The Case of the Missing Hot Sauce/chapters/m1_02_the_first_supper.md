@@ -68,7 +68,7 @@ Emma turned around from the stove, a genuine smile on her face—the first one t
 
 The guests settled into the living room, finding their usual spots in the geography of Emma's furniture. Oliver and Olivia shared the loveseat, Oliver's arm draped behind her with the comfort of seven years of marriage. Noah claimed the structurally questionable end of the couch. Jasper sprawled across a folding chair in a way that suggested he believed furniture was merely a suggestion.
 
-Emma continued with dinner, occasionally bringing a tasting spoon into the living room to let her friends try her work. The squash soup was coming together—velvety, rich, missing only the ingredient she couldn't get. The root vegetables were turning golden in the oven, filling the apartment with the smell of browned butter and thyme. The conversation flowed the way it always did with these five: overlapping, circling back, branching into tangents that sometimes lasted twenty minutes before someone remembered what they'd originally been talking about. They shared stories of work, bad dates, and the news, though whenever they circled back to the news, they inevitably agreed to change the topic. Nobody wanted to ruin a Sunday.
+Emma continued with dinner, occasionally bringing a tasting spoon into the living room to let her friends try her work. The squash soup was warming on the stove—velvety, rich, and transformed by the drizzle of Hank's hot sauce she'd stirred in that afternoon. The root vegetables were turning golden in the oven, filling the apartment with the smell of browned butter and thyme. The conversation flowed the way it always did with these five: overlapping, circling back, branching into tangents that sometimes lasted twenty minutes before someone remembered what they'd originally been talking about. They shared stories of work, bad dates, and the news, though whenever they circled back to the news, they inevitably agreed to change the topic. Nobody wanted to ruin a Sunday.
 
 Jasper's wine was running low, and Noah seized the opportunity to introduce his own bottle. It was from a sustainable vineyard in the Finger Lakes that grew organic, sulfur-free wines. He was explaining the biodynamic farming process with the enthusiasm of someone who'd just discovered a new religion when Jasper interrupted to let Noah know, with great compassion, that they didn't care.
 
@@ -76,13 +76,37 @@ Oliver added in the background that most new wine-growing regions were the resul
 
 Olivia, tired of their typical banter, interrupted with a loud call to the chef, "Everything alright in there?"
 
-"Yeah, soup should be ready in ten," Emma chirped back, stirring the pot and checking the root vegetables in the oven.
+"Soup's ready," Emma announced, ladling it into bowls. She set one in front of each of them—the butternut squash, silky and golden, with a thin ribbon of deep red heat swirled across the surface. "Try it before I tell you anything."
 
-"No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately," Olivia said. The men quieted down, having wanted to ask a similar question but not feeling confident enough to navigate the emotional terrain.
+Jasper went first. He took a big spoonful, paused, and looked up. "Ems. What is in this?"
+
+"Just try it."
+
+He did. "Holy shit."
+
+Olivia was next. She closed her eyes after the first taste and made a sound that was somewhere between appreciation and disbelief. "Emma, this is... what is that? There's this heat, but it's not just heat. It's like... smoky? And there's something sweet underneath?"
+
+"It blooms," Oliver said quietly, having already had two spoonfuls. He was studying the soup the way he studied everything—carefully, seriously. "The heat doesn't hit you immediately. It builds."
+
+Even Noah, who had been about to say something about the wine, stopped mid-sentence after his first taste. "Okay. Yeah. That's really good."
+
+Emma watched them eat and felt something loosen in her chest. This was the reaction she'd been hoping for. She reached behind her on the counter and held up the bottle—small, unlabeled except for Hank's careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*.
+
+"This is from a guy named Hank who sells at the farmers markets. Or he did." She set the bottle on the counter. "He makes it from a pepper his great-grandmother brought north from Virginia in the twenties. A Fish Pepper—heirloom variety, impossible to find commercially. He's been at McCarren every Saturday, McGolrick every Sunday, for three years. He does this whole theatrical pitch, waves a tasting spoon around like a conductor's baton. You'd love him."
+
+She paused. "He's gone. Both markets, just—gone. Stall's empty. Phone goes to voicemail. The honey vendor next to him said he seemed off the last time she saw him, and then he gave up both stalls overnight. No explanation." She picked up the bottle again. "Dorothy—that's the honey lady—said he gave her this and told her his great-grandmother would've wanted her peppers shared. 'Just in case.' She gave it to me yesterday."
+
+The room was quiet. The soup steamed in their bowls.
+
+"In case of what?" Olivia asked.
+
+"That's what I said. She didn't know."
+
+Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, having wanted to ask a similar question but not feeling confident enough to navigate the emotional terrain.
 
 Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit two weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
 
-"Don't worry about it," Emma responded, turning back to the stove. She adjusted the flame under the soup, watching the surface settle from a simmer to a tremble. "The kitchen just needs lookin' at." The sudden shift into her blunt, Western Pennsylvania dialect was a clear sign to her closest friends that she wasn't fine at all. Emma only talked like that when she was either very drunk or very stressed, and she'd only had half a glass of Noah's questionable wine.
+"Don't worry about it," Emma responded, turning back to the stove. She adjusted the flame under the root vegetables, checking their edges. "The kitchen just needs lookin' at." The sudden shift into her blunt, Western Pennsylvania dialect was a clear sign to her closest friends that she wasn't fine at all. Emma only talked like that when she was either very drunk or very stressed, and she'd only had half a glass of Noah's questionable wine.
 
 "Yeah?" Olivia responded softly, trying to leave space for Emma to continue.
 
@@ -90,22 +114,8 @@ Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, 
 
 "Honestly, it sounds like you're, I don't know, kind of stressed," Jasper interjected. "You know I've got you if you need. Just, like, let me know." His voice had shifted—the performative chaos dialed down to something warmer, more genuine. It was the Jasper that surfaced in small moments, the one his friends sometimes forgot was underneath all the noise.
 
-Emma lowered the burner and turned around. "It's just that," she paused and refilled her wine, smelling it, taking a sip, and then putting it down with a wrinkled nose. "It's just that I had something else planned for you tonight. Not planned, but an idea." She picked up the wine and had another sip, grimacing slightly. "Honestly, Noah, you need to start Googling shit before you buy it."
+Emma picked up the bottle of hot sauce and turned it over in her hands. "It's not just about me. It's this—" she held up the bottle. "This guy put four generations of his family into this sauce. His great-grandmother's peppers. And now he's just... gone. And his stall is empty, and this might be the last bottle of it that exists." She set it down. "I know it sounds ridiculous. A missing hot sauce vendor. But something's wrong, and I can't stop thinking about it."
 
-"Whoa, whoa, whoa," he started, but Olivia interrupted.
-
-"What's up, Ems?"
-
-"Honestly, you're going to think I'm crazy."
-
-"Duh," Jasper interjected quickly, sensing tension and wanting to diffuse it, unhelpfully. Olivia and Emma looked at him and both rolled their eyes in unison—a synchronized reaction that suggested they'd been practicing, though they hadn't.
-
-"I didn't want to make you something basic, so I got fixated on this guy's hot sauce. It's not that different from any other hot sauce, I mean, it's really good, but he tells such a great story about it and I love to retell the story when I use it. He gets all theatrical, you know? And he swears the secret is this crazy pepper his great-grandmother brought up from Philly, calls it a 'Fish Pepper' or something, says it's the only thing that gives it that... zing. I feel like the story gives soul to what I'm making, and I wanted to do something, I don't know, a little out there for you tonight, but still ground it in that story."
-
-She realized, as she said it, that it sounded ridiculous. A missing hot sauce vendor. A secret pepper. She was standing in her tiny kitchen, telling her friends that her dinner was ruined because a man she only sort of knew had stopped selling condiments at a park. But the thing was, it wasn't just about the hot sauce. It was about the feeling that something good had been taken away before she'd had a chance to use it—and lately, that feeling had been following her around like a stray cat she couldn't stop feeding.
-
-"That's really cool, Ems," Oliver chimed in, his voice quiet but sincere.
-
-"Yeah, thanks. Anyway, I went to the farmer's market where I always see this guy. He wasn't there," she paused, feeling if that would be bigger news, but her friends were just staring back blankly. She went to sip her glass of wine again but had a visceral reaction and threw it in the sink. "Can I choose the next wine?"
+She went to sip her glass of wine, had a visceral reaction, and threw it in the sink. "Can I choose the next wine?"
 
 "YES!" Everyone but Noah responded in unison.

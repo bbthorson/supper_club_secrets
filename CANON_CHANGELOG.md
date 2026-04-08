@@ -4,6 +4,121 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-04-07 — Expanded to 22-chapter structure (5+7+5+5)
+
+**Trigger:** Author review identified Meals 3–4 as underserved. "Bad guys close in" was compressed, the campaign deserved a three-act arc (hope → doubt → breakthrough), and Jasper's solo journey to find Hank needed its own chapter.
+
+**What changed:**
+
+**Meal 3 expanded from 4 to 5 chapters:**
+- Ch13–16 unchanged in position (content updates pending for Ch13 signs-of-trouble expansion)
+- Ch17 "Sharpening the Knives" — NEW. Vignettes of each character preparing their campaign piece. Mirrors Meal 2 investigation montage but compressed.
+
+**Meal 4 expanded from 3 to 5 chapters:**
+- Ch18 "Turning Up the Heat" (was Ch17) — Campaign launch, hope builds
+- Ch19 "The Counterpunch" — NEW. Pushback, doubt, the campaign might fail
+- Ch20 "Farm to Table" (was Ch18) — Jasper's solo journey to Meadowlight
+- Ch21 "The Turning Tide" — NEW. Oliver's rebuttal, food critic picks up story, tide turns
+- Ch22 "Family Meal" (was Ch19) — Celebratory dinner, Jasper brings Hank
+
+**Structural rationale:**
+- Save the Cat midpoint (Ch12 false victory) now lands at 55%
+- Campaign gets proper three-act arc: hope (Ch18) → doubt (Ch19) → breakthrough (Ch21)
+- Jasper's chapter (Ch20) sits between doubt and triumph — emotional contrast
+- "Bad guys close in" gets three chapters (Ch13–15) instead of one
+
+**Files touched:**
+- `00_story_outline.md` — Complete rewrite with 22-chapter structure, Save the Cat beat sheet, timeline
+- `00_meal_summaries.md` — Updated for 5+7+5+5 structure
+- `m4_17_turning_up_the_heat.md` → renamed to `m4_18_turning_up_the_heat.md` (Ch17→Ch18)
+- `m4_18_farm_to_table.md` → renamed to `m4_20_farm_to_table.md` (Ch18→Ch20)
+- `m4_19_family_meal.md` → renamed to `m4_22_family_meal.md` (Ch19→Ch22)
+- `m3_17_sharpening_the_knives.md` — NEW placeholder
+- `m4_19_the_counterpunch.md` — NEW placeholder
+- `m4_21_the_turning_tide.md` — NEW placeholder
+- All epub files regenerated
+
+---
+
+## 2026-04-07 — Dorothy's bottle moves to Chapter 1; dual-market structure established
+
+**Trigger:** Author decision to have Emma receive Hank's last bottle of hot sauce in Ch1 (before Meal 1 dinner), so the group tastes the sauce and understands what's at stake. Hank sold at two markets: McGolrick (Sunday) and McCarren (Saturday).
+
+**What changed:**
+
+1. **Ch1 restructured:** Emma goes to McGolrick Park on Sunday morning (her usual market). Dorothy (honey vendor, Hank's neighbor at McGolrick) replaces Ruth as the first market contact. Dorothy gives Emma the "just in case" bottle. Hank's stall is empty — a raw gap in the row. Emma cooks that afternoon — the hot sauce goes into the butternut squash soup.
+
+2. **Ch2 updated:** Soup scene rewritten. Group tastes the hot sauce and reacts — the sauce becomes the emotional centerpiece of the dinner. Emma tells the Hank/Dorothy story with the physical bottle in hand. Olivia's "are you okay" check-in now follows the Hank reveal rather than preceding it.
+
+3. **Ch3 updated:** Oliver's summary to Elijah now describes the incredible sauce + missing vendor (not "wanted to buy sauce but couldn't"). Elijah tastes the soup and confirms it's exceptional.
+
+4. **Ch4 minor fix:** Oliver's joke adjusted ("none of us have ever met Hank" instead of "seen").
+
+5. **Ch5 updated:** Emma's kitchen glance now focuses on the bottle on the counter (not the empty counter where a bottle should have been).
+
+6. **Ch11 rewritten:** Emma visits McCarren Park the following Saturday — a different market, checking out Hank's Saturday spot. His stall has already been filled by a new vendor (jarred salsa with string lights and a chalkboard sign). The market has moved on. No Dorothy here — Emma goes to Sofia's cheese shop nearby for the deeper intel (Hank's "big offer," Paolo the pickle guy precedent, the waterfront restaurant mogul). Stall progression: empty at McGolrick (Ch1) → filled at McCarren (Ch11) = escalating erasure.
+
+**Dual-market canon established:**
+- **McGolrick Park** (Sunday): Emma's home market. Dorothy sells here, next to Hank's stall. Stall remains empty.
+- **McCarren Park** (Saturday): Larger market. Hank's stall filled by new vendor by Ch11. Near Sofia's cheese shop.
+
+**Canon docs updated:**
+- `locations_registry.md` — Added McCarren Park entry, updated McGolrick details, added character geography to canon facts, updated Jasper's apartment to Chelsea, Olivia/Oliver to Clinton Hill
+- `00_meal_summaries.md` — Updated Meal 1 setup beats (bottle, soup, group reaction), updated Ch11 description
+
+**Files touched:**
+- `chapters/m1_01_the_missing_hot_sauce.md` — Rewritten (Sunday McGolrick, Dorothy, bottle, cooking with sauce)
+- `chapters/m1_02_the_first_supper.md` — Soup scene rewritten (group tastes sauce)
+- `chapters/m1_03_a_simmering_suspicion.md` — Oliver's summary + Elijah tasting scene
+- `chapters/m1_04_stirring_the_pot.md` — Minor dialogue fix
+- `chapters/m1_05_mise_en_place.md` — Bottle on counter reference
+- `chapters/m2_11_the_empty_stall.md` — Rewritten (McCarren Saturday, filled stall, Sofia intel, no Dorothy)
+- `canon library/locations_registry.md` — McCarren added, character geography, canon facts
+- `chapters/00_meal_summaries.md` — Meal 1 and Ch11 descriptions updated
+- Meal 1, Meal 2, and full book epubs regenerated
+
+---
+
+## 2026-04-07 — Meal Two restructure and chapter-by-chapter edit pass
+
+**Trigger:** Author review of Meal Two flagged flat characterization, timeline issues, information flow problems, and one-note character voices.
+
+**Structural change:** Meal Two expanded from 6 chapters (Ch6–Ch11) to 7 chapters (Ch6–Ch12). Each investigation chapter now follows a one-character-per-day rhythm (Monday–Sunday), with the narrative chain flowing through character personality rather than plot convenience.
+
+**Chapter mapping:**
+- Ch6: Oliver (Monday) — Library research, LLC discovery
+- Ch7: Olivia (Tuesday) — Marcus intel + shares findings with Oliver at home
+- Ch8: Elijah (Wednesday) — NEW CHAPTER. Bridges Oliver's finding to the group chat
+- Ch9: Noah (Thursday) — Re-engaged by Elijah's text, traces corporate structure
+- Ch10: Jasper (Friday) — Calls Brenda, motivated by group chat competition
+- Ch11: Emma (Sunday morning) — Market visit, Dorothy + Sofia scenes
+- Ch12: Dinner (Sunday evening) — Combined former Ch10+Ch11
+
+**Key changes:**
+1. **Added Elijah bridge chapter (Ch8):** Olivia calls Elijah about a tailor; she shares Oliver's finding. Elijah posts to group chat on Oliver's behalf, knowing Oliver won't share it himself.
+2. **Noah voice overhaul (Ch9, Ch12):** Removed "optimize/efficient/algorithm" one-note dialogue. Noah now shows genuine frustration with analog problems and quiet competence with structured data.
+3. **Jasper backstory softened (Ch10):** Removed heavy-handed "previous life"/"family's expectations" exposition. 311 job description removed. Walk location changed from McGolrick to Chelsea (where Jasper lives). Brenda surname changed from Chen to Marquez. Jasper no longer names Emma to Brenda.
+4. **Saturday→Sunday fix (Ch11):** McGolrick Park Greenmarket is a Sunday market. All references corrected.
+5. **Dinner scene reconciled (Ch12):** Group already knows LLC finding from group chat; dinner opens with "We all saw the group chat. Who's got more?" Oliver doesn't re-present known info. Elijah presents financial model fresh. Noah presents week-long trace results. Brenda's closing text no longer mentions Emma.
+6. **Brenda's warning softened (Ch10):** "He's ruthless. Really ruthless." → "These aren't small-time operators. They don't appreciate attention."
+7. **Character geography established:** Emma (Williamsburg/Greenpoint border), Noah (Williamsburg waterfront), Olivia & Oliver (Clinton Hill), Jasper (Chelsea), Elijah (Bed-Stuy near Classon Ave G).
+
+**Renumbering cascade:** Adding Ch8 pushed all subsequent chapters +1. Meal 3: Ch12→13, Ch13→14, Ch14→15, Ch15→16. Meal 4: Ch16→17, Ch17→18, Ch18→19. All chapter headers and filenames updated.
+
+**Files touched:**
+- `chapters/m2_06_a_fine_sieve.md` — Rewritten (Oliver opener, bookshelf detail, trimmed editorializing)
+- `chapters/m2_07_gathering_the_ingredients.md` — Rewritten (Olivia opener, Marcus exit beat, Clinton Hill location, Oliver at desk)
+- `chapters/m2_08_the_bottom_line.md` — NEW FILE (Elijah bridge chapter)
+- `chapters/m2_09_a_pinch_too_much.md` — Rewritten (Noah past-tense recap, re-engaged by Elijah's text)
+- `chapters/m2_10_loose_lips.md` — Rewritten (Jasper in Chelsea, Brenda Marquez, competitive motivation, no Emma naming)
+- `chapters/m2_11_the_empty_stall.md` — Saturday→Sunday fix
+- `chapters/m2_12_coming_to_a_boil.md` — Rewritten (combined dinner, reconciled info flow, Noah voice, Elijah model fresh)
+- `chapters/m3_13_service_for_one.md` through `m4_19_family_meal.md` — Renumbered
+- `chapters/00_meal_summaries.md` — Updated chapter-meal mapping
+- All 5 epub files regenerated
+
+---
+
 ## 2026-04-04 — Consistency fixes from external review (5 items)
 
 **Trigger:** External review flagged narrative inconsistencies across canon docs and chapters.

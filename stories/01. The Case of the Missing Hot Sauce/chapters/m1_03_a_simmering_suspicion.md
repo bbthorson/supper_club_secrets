@@ -32,15 +32,21 @@ Oliver, looking slightly pained to be the center of attention, cleared his throa
 
 "That's rich coming from you," Olivia snapped back, her patience with Jasper wearing thin after two hours of his energy.
 
-"Anyway," Oliver pressed on, finding his footing, "Ems wanted to buy some hot sauce from a guy at the farmer's market this morning, but he wasn't there. The other vendors said he's always there, but that he was a little off last week and then abruptly canceled his stall this week."
+"Anyway," Oliver pressed on, finding his footing, "Ems made this butternut squash soup with a hot sauce from a guy at the farmer's market—a vendor named Hank. You have to try it." He glanced at Emma. "There's still some in the pot, right?"
 
-"This guy is soooo sweet," Emma added, still leaning against her strip of counter. She'd opened Elijah's bottle while plating his food, and whatever it was, it was already better than Noah's—she hadn't even smelled it properly yet, just started drinking.
+"Warming on the stove," she said. She was already ladling a bowl for Elijah, and she'd opened his bottle while plating his food—whatever it was, it was already better than Noah's. She hadn't even smelled it properly yet, just started drinking.
 
 "Ems, are you going to share that, or...?" Jasper called out, craning his neck toward the kitchen.
 
 "In a minute," she said, taking another sip. Her voice had gone a bit soft around the edges.
 
-"Right," Oliver continued, picking up the thread with the relief of someone nearing the end of an unwanted speech. "So while we were eating, Liv texted a boutique owner that she thought might've carried the hot sauce. They carry some of her candles, so they're on texting terms. Anyway, he responded like twenty minutes ago and said that he used to have some of the hot sauce on his shelves, but last week, the guy showed up and took all of his inventory back. The boutique owner didn't outright say it, but we all read Liv's texts, and it sounds like he thinks something is going on."
+"Right," Oliver continued, picking up the thread with the relief of someone nearing the end of an unwanted speech. "So the hot sauce is amazing—you'll taste it—but the guy who makes it has vanished. Gave up his stalls at both markets, phone goes to voicemail, no explanation. A neighboring vendor gave Emma his last bottle and said he told her to keep it 'just in case.' Whatever that means."
+
+Elijah took a spoonful of the soup. He paused. Took another. "This is exceptional," he said—and from Elijah, that was practically a standing ovation.
+
+"The sauce, right?" Emma said. "Four generations of his family in that bottle. Heirloom peppers from Virginia."
+
+"So while we were eating, Liv texted a boutique owner that she thought might've carried the hot sauce," Oliver continued. "They carry some of her candles, so they're on texting terms. Anyway, he responded like twenty minutes ago and said that he used to have some of the hot sauce on his shelves, but last week, the guy showed up and took all of his inventory back. The boutique owner didn't outright say it, but we all read Liv's texts, and it sounds like he thinks something is going on."
 
 "Marcus said he was jittery," Olivia added, leaning forward. "Those were his words. Jittery. And Marcus doesn't exaggerate—if anything, he understates things. When he says someone looked like they were running from something, that means they were practically out the door before they finished the conversation."
 

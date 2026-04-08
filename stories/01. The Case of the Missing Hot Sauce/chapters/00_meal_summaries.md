@@ -2,64 +2,99 @@
 
 Quick-reference overview of each meal's arc, key events, and group dynamics. For the full chapter-by-chapter breakdown, see [00_story_outline.md](00_story_outline.md).
 
-**Chapter → Meal mapping:**
+**Chapter → Meal mapping (22 chapters):**
 - **Meal 1 (Setup):** Chapters 1–5 (`m1_*`)
-- **Meal 2 (Investigation):** Chapters 6–11 (`m2_*`)
-- **Meal 3 (Crisis):** Chapters 12–15 (`m3_*`)
-- **Meal 4 (Resolution):** Chapters 16–18 (`m4_*`)
+- **Meal 2 (Investigation):** Chapters 6–12 (`m2_*`)
+- **Meal 3 (Crisis):** Chapters 13–17 (`m3_*`)
+- **Meal 4 (Resolution):** Chapters 18–22 (`m4_*`)
 
 ---
 
 ## Meal 1: The Setup (Chapters 1–5)
 
 ### Key Events
-- **Opening Image:** The story opens on a crisp October Sunday in Brooklyn. Emma, recently separated from the food service industry, heads to the farmers market to get ingredients for a meal she is cooking for her friends. The gathering is a routine, but welcome, break for the friends who don't see each other much during the week.
-- **Theme Stated:** At the market, Emma discovers that her favorite hot sauce vendor, Hank, is missing. Confused and a little shaken by this unexpected disruption to her plans, she learns from other vendors that he gave up his spot mid-week without explanation, which was highly unusual.
-- **Set-up:** The supper club gathers at Emma's apartment. The group notices she is distant, and she explains her frustration about the missing hot sauce vendor which has thrown off her menu.
-- **Catalyst:** During dinner, Olivia texts a local shop owner and learns that the vendor had been acting strangely and had taken all of his product back. This sparks a joking intrigue among the friends, who are not yet a mystery-solving team. Emma, Jasper, and Olivia are the most engaged by the puzzle.
-- **Debate:** The group begins to playfully speculate, daring each other to come up with wilder theories. This escalates accidentally, with each friend pushing the game a little further without expecting it to lead anywhere meaningful.
-- **The Plan:** Having arrived last and being the most sober, Elijah is assigned his usual role as the group's judge. Amused, he eggs them on, but ultimately can't pick a winning theory. This leads Jasper to suggest they all investigate their ideas and reconvene the following week with a potluck dinner to share their "findings".
+- **Opening Image:** The story opens on a crisp October Sunday in Brooklyn. Emma, recently separated from the food service industry, heads to the McGolrick Park farmers market to get ingredients for dinner with friends.
+- **Theme Stated:** At the market, Emma discovers that her favorite hot sauce vendor, Hank, is missing. Dorothy, the honey vendor at the neighboring stall, tells her Hank seemed off his last week and gave up his stall with no explanation. Dorothy gives Emma Hank's last bottle of hot sauce — he'd left it with her and said his great-grandmother "would've wanted her peppers shared. Just in case."
+- **Set-up:** Emma uses the hot sauce in her butternut squash soup. The supper club gathers at Emma's apartment. When the group tastes the soup, the reaction is immediate — the sauce is extraordinary. Emma tells them the story of Hank and the bottle, and the disappearance becomes personal for the entire group because they've experienced firsthand what's at stake.
+- **Catalyst:** Olivia texts Marcus, a local shop owner who carried Hank's sauce. Marcus says Hank came in to pull his inventory and was "jittery" — acting like a man running from something. This escalates the group's curiosity from a dinner party mystery to genuine concern.
+- **Debate:** The group begins to playfully speculate, daring each other to come up with wilder theories. Elijah, the most sober, is assigned as judge. He can't pick a winner.
+- **The Plan:** Jasper proposes they investigate and reconvene the following week with a potluck dinner to share findings. Dish assignments via hat draw.
 
 ### Menu
 - Deviled eggs with smoked paprika (appetizer)
-- Butternut squash soup — missing Hank's hot sauce (first course)
+- Butternut squash soup with Hank's hot sauce — Dorothy's bottle (first course)
 - Roasted root vegetables with herbed brown butter (main)
 - Apple tarte tatin (dessert)
 
 ---
 
-## Meal 2: Investigation (Chapters 6–11)
+## Meal 2: Investigation (Chapters 6–12)
+
+### Chapter Structure (one character per day)
+- **Ch6 (Monday):** Oliver — NYPL research, discovers LLC #2847
+- **Ch7 (Tuesday):** Olivia — The Gilded Fern intel from Marcus, then shares with Oliver at home
+- **Ch8 (Wednesday):** Elijah — Bridges Oliver's discovery to group chat, keeps financial model private
+- **Ch9 (Thursday):** Noah — Re-engaged by Elijah's text, traces corporate shell structure
+- **Ch10 (Friday):** Jasper — Calls Brenda Marquez, inadvertently tips off the mogul's people
+- **Ch11 (Saturday):** Emma — McCarren Park market (Hank's stall filled by new vendor), then Sofia's cheese shop
+- **Ch12 (Sunday):** Dinner — Potluck, pooling findings, Noah presents patent trace, Elijah presents financial model fresh, Jasper's Brenda reveal, celebration
 
 ### Key Events
-- **Breaking into Act 2:** The week begins with a montage of the friends "researching" their wild theories. Initially, the mood is playful, an excuse to get together and not talk about work. Each friend, however, independently discovers a small, fishy detail, though nothing that seems truly alarming on its own.
-- **Fun and Games:** The group gathers for the second supper club. As they share their findings, the collective evidence starts to paint a more serious picture. The initial playful mood gradually transforms into a genuine investment in solving the quandary, as they become more convinced that something unscrupulous has happened.
-- **Midpoint:** The investigation takes a serious turn when the group pools their information. The combination of Emma's market intel, Olivia's gossip, Oliver's zoning research, and Noah's patent search leads them to a single restaurant mogul. The mood shifts from curiosity to excitement as they realize they've stumbled onto a real conspiracy.
-- **Breakthrough & Setback:** Fueled by a desire to get justice for Hank, the group gets hyped up. In the excitement, Jasper makes a call to a contact to confirm their suspicions. The act ends with the group feeling clever and triumphant, believing they have the upper hand and are a step ahead of the mogul.
+- **Breaking into Act 2:** Each friend investigates on their own day, Monday through Saturday. The mood starts playful but each independent discovery adds weight.
+- **Fun and Games:** The investigation chapters are the "promise of the premise" — friends investigating over food.
+- **Midpoint (False Victory):** The group gathers for the second supper club. Their findings weave into a single picture: corporate predation targeting artisan vendors. They crack the case. Celebration.
+- **Setback (Hidden):** Jasper's call to Brenda has blown their cover. Brenda calls the mogul's people. Jasper doesn't see her warning text until morning.
 
 ### Group Dynamics
-- **Elijah and Oliver** work together, showcasing their analytical skills.
-- **Olivia** proves to be a crucial asset, gathering important information through her social network.
-- **Jasper's** unpredictable nature leads to a major breakthrough, but the consequences of his actions are not yet known.
+- **Elijah** acts as the connective tissue, bridging Oliver's discovery to the group
+- **Olivia** sources stew ingredients AND intel on the same Bedford Ave trip
+- **Noah** is frustrated by Hank's analog invisibility, re-engaged once real data appears
+- **Jasper's** impulsiveness leads to both the breakthrough and the betrayal
 
 ---
 
-## Meal 3: Crisis (Chapters 12–15)
+## Meal 3: Crisis (Chapters 13–17)
+
+### Chapter Structure
+- **Ch13:** Signs of trouble + C&D arrives at Emma's apartment
+- **Ch14:** Emergency Seamless dinner. Emma confesses about Kinky Kitchen. Group rallies.
+- **Ch15:** "How did they find us?" Jasper confesses. The fight. Oliver's speech.
+- **Ch16:** The plan — swarm strategy. Roles assigned. Jasper leaves to find Hank.
+- **Ch17:** Vignettes — each character prepares their piece of the campaign, alone but connected.
 
 ### Key Events
-- **The Attack:** The consequences of their investigation arrive without warning. A process server delivers a threatening Cease and Desist to Emma personally, which also contains a veiled threat about exposing her OnlyFans account.
-- **The Confession & The "How?":** The group gathers for a somber Seamless dinner. Emma confesses her secret, and her friends rally around her. The immediate, panicked question becomes: "How did they know? How did they find us?"
-- **The Jasper Bombshell:** As they retrace their steps, a shamefaced Jasper is forced to admit he called his friend and told her everything. The realization that his well-intentioned carelessness put them all in danger is a major turning point for his character and the group.
-- **The Plan:** Their fear and defeat turn into defiant anger. They decide they can't be intimidated and formulate their calculated plan to leak the story strategically across social media.
+- **Bad Guys Close In:** Small signs of surveillance before the C&D. Then the legal threat arrives with a personal note exposing Emma's OnlyFans.
+- **All Is Lost:** Emma confesses her secret and is embraced. Then Jasper confesses his mistake and the group fractures — the sharpest fight they've ever had.
+- **Dark Night of the Soul:** The emotional low point. The group's unity is in question.
+- **Break into Three:** Oliver rallies them with a counter-strategy. The plan takes shape. Jasper says he "knows somebody" and leaves — his redemption mission. The group disperses to prepare.
 
 ### Group Dynamics
-- This act tests the group's resolve, showcasing their solidarity in the face of a real threat.
-- Their individual skills are no longer for a game but for a real fight: Olivia's local connections, Emma's influencer network, Noah's tech skills for anonymity, and Jasper's crucial role in their coordinated plan.
+- **Emma's** vulnerability (the confession) deepens the group's bond
+- **Jasper's** guilt drives his redemption arc — he needs to find Hank
+- **Oliver** steps up as an unexpected leader with the longest speech he's ever given
+- **Noah** is the one who traces the information leak back to Jasper
+- Each character's preparation vignette (Ch17) shows their unique skills serving the mission
 
 ---
 
-## Meal 4: Resolution (Chapters 16–18)
+## Meal 4: Resolution (Chapters 18–22)
+
+### Chapter Structure
+- **Ch18:** Campaign launch — coordinated, hope builds
+- **Ch19:** Pushback — the campaign might fail, doubt and fear
+- **Ch20:** Jasper's road trip — solo chapter, finds Hank at Meadowlight
+- **Ch21:** Campaign breaks through — Oliver's rebuttal, food critic picks it up, tide turns
+- **Ch22:** Family Meal — celebratory dinner, Jasper brings Hank
 
 ### Key Events
-- **Finale:** The group executes their social media plan. Their victory is not a direct confrontation but the satisfaction of watching a local news report that picks up the story, exposing the mogul and ensuring a wider audience for Hank's plight.
-- **Final Image:** The story concludes with a celebratory supper club. In a move that surprises the group, Jasper reveals he found Hank not through a mysterious connection, but through clever and dedicated detective work. He brings a grateful and down-to-earth Hank to the dinner.
-- **Wrap-up & The Future:** Touched by their efforts, Hank tells them that the act of getting together over food to help their community is a beautiful thing. The group agrees that the gathering is what's important and decides to continue with rotating hosts. This sets the stage for their next adventure.
+- **Finale — Hope:** The campaign launches. Small blogs pick it up. The story spreads. The group works in unison for the first time.
+- **Finale — Doubt:** Pushback arrives. Takedown notices, a dismissive commentator, a close call with account tracing. The group's confidence cracks.
+- **Finale — Redemption:** Jasper tracks Hank through the Fish Pepper connection to the Meadowlight Collective in Pennsylvania. Finds him in a greenhouse. The only chapter that leaves Brooklyn.
+- **Finale — Breakthrough:** Oliver's rebuttal document turns the tide. A major food critic amplifies the story. The mogul's investors pull out. C&D withdrawn.
+- **Final Image:** Celebratory dinner. The food reflects resolution and joy. Jasper buzzes the door with Hank. Hank tells his full story. Emma's OnlyFans situation has resolved positively. The group decides to continue the supper club with rotating hosts. The first case is solved.
+
+### Group Dynamics
+- **The campaign** is the first time the group functions as a coordinated team rather than individual investigators
+- **Jasper's** solo journey provides emotional contrast to the campaign chapters
+- **Oliver's** rebuttal document is the quiet, systematic victory that matches his character
+- **Hank's arrival** at the final dinner completes the circle from Dorothy's bottle in Ch1

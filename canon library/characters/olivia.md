@@ -37,7 +37,7 @@ None of them have "failed" in the traditional sense. She usually exits gracefull
 Currently, she's between projects, which means she has more time than usual for gossip, dinner parties, and neighborhood mysteries.
 
 ### The Present
-Olivia and Oliver live in a one-bedroom in Williamsburg. She decorated it; he keeps it organized. She maintains their social calendar, handles their relationships with neighbors and local businesses, and generates the energy that Oliver cannot produce on his own.
+Olivia and Oliver live in a one-bedroom in Clinton Hill. She decorated it; he keeps it organized. She maintains their social calendar, handles their relationships with neighbors and local businesses, and generates the energy that Oliver cannot produce on his own.
 
 She knows he relies on her. This is mostly fine—she loves being needed. But sometimes, late at night, she wonders: does he love her, or does he need her? Are those the same thing? She's never asked. She's not sure she wants the answer.
 

@@ -86,16 +86,15 @@ These facts must remain consistent:
 
 | Term | Definition |
 |------|------------|
-| **Hank** | The missing hot sauce vendor at McGolrick Park. Mid-fifties, kind eyes, calloused hands. |
+| **Hank** | The missing hot sauce vendor at McGolrick Park (Sunday) and McCarren Park (Saturday). Mid-fifties, kind eyes, calloused hands. |
 | **Big Hot Sauce** | Emma's joke term for corporate hot sauce interests. Turns out to be essentially correct. |
 | **LLC #2847** | The anonymous corporate entity behind the mogul's waterfront restaurant filing. Filed Oct. 18 — two days after Hank gave up his stall. |
 | **Kinky Kitchen** | Emma's anonymous OnlyFans account — barefoot cooking content. Her most reliable income after leaving Bistro Lavande. Discovered and used as leverage by the mogul. |
 | **Meadowlight Collective** | An intentional community ~2 hours west of Philadelphia where Hank fled. Artists, growers, back-to-the-land types. The only people still growing old-stripe Fish Pepper varieties. |
 | **The Swarm** | The group's strategy for exposing the mogul — distributing the story anonymously to hundreds of small outlets rather than one big one. Noah's metaphor: "You can't kill a swarm of mosquitos with a cannonball." |
-| **Brenda Chen** | Jasper's contact at Apex Realty (commercial real estate). Inadvertently tipped off the mogul about the investigation. |
-| **Marcus** | Owner of The Gilded Fern. Olivia's neighborhood intel source. Not to be confused with Brenda Chen. |
-| **Dorothy** | Honey vendor at McGolrick Park. Silver-streaked hair, weathered hands. Gives Emma a bottle of Hank's sauce she'd been saving "just in case." (Ch. 7) |
-| **Ruth** | Longtime produce vendor at McGolrick Park. Tells Emma about a nor'easter twenty years ago that couldn't shut the market down — but Hank's absence did. (Ch. 1) |
+| **Brenda Marquez** | Jasper's contact at Apex Realty (commercial real estate). Inadvertently tipped off the mogul about the investigation. |
+| **Marcus** | Owner of The Gilded Fern. Olivia's neighborhood intel source. Not to be confused with Brenda Marquez. |
+| **Dorothy** | Honey vendor at McGolrick Park. Silver-streaked hair, weathered hands. Gives Emma a bottle of Hank's sauce she'd been saving "just in case." (Ch. 1) |
 | **Sofia** | Owner of Sofia's Cheese Shop, a 20-year neighborhood fixture. Her nephew Paolo works at a waterfront restaurant and mentioned "big changes" — intelligence that feeds the investigation. (Ch. 8) |
 | **The Rebuttal Framework** | Oliver's meticulously sourced talking-points document used to counter the conservative commentator's pushback. Sent to all outlets; became the food critic's script. (Ch. 16) |
 | **Bistro Lavande** | Aging French restaurant in the West Village where Emma worked for four years. Site of the Coq au Vin Incident. (Background) |

@@ -1,4 +1,4 @@
-### Chapter Thirteen - The Seamless Supper
+### Chapter Fourteen - The Seamless Supper
 
 "Hey, you!" Olivia's voice was a bright, cheerful burst through the phone. "I was just thinking about you. Marcus at The Gilded Fern asked if we'd cracked the case yet. The whole neighborhood is talking—"
 

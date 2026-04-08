@@ -1,6 +1,6 @@
 ## Meal Three
 
-### Chapter Twelve - Service for One
+### Chapter Thirteen - Service for One
 
 The week after their triumphant dinner passed in a pleasant haze. The group exchanged excited texts—"we did it!" and screenshots of the growing online chatter about waterfront development in Williamsburg—but mostly they were waiting, basking in the secret knowledge of what they had uncovered. Emma went to her cooking lessons and wrote her food articles and checked her anonymous account and tried not to think about the future, which was easier now that the present had something interesting in it. The feeling of victory was a warm, pleasant hum beneath the surface of their daily routines, the kind of collective secret that made ordinary moments feel significant.
 
