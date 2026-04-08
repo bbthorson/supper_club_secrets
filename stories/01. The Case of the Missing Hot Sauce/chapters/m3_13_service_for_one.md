@@ -2,31 +2,53 @@
 
 ### Chapter Thirteen - Service for One
 
-The week after their triumphant dinner passed in a pleasant haze. The group exchanged excited texts—"we did it!" and screenshots of the growing online chatter about waterfront development in Williamsburg—but mostly they were waiting, basking in the secret knowledge of what they had uncovered. Emma went to her cooking lessons and wrote her food articles and checked her anonymous account and tried not to think about the future, which was easier now that the present had something interesting in it. The feeling of victory was a warm, pleasant hum beneath the surface of their daily routines, the kind of collective secret that made ordinary moments feel significant.
+The Monday after the dinner was the best Monday Emma could remember. She woke up late, made coffee, and scrolled through the group chat with a stupid grin on her face. Jasper had sent a string of increasingly dramatic GIFs — a rocket launching, a champagne bottle popping, a cat playing a tiny piano. Olivia had replied with a single champagne glass emoji that somehow carried more gravitas than all of Jasper's theatrics combined. Noah had posted a link to a Reddit thread about the waterfront development without comment, his version of celebration. Even Oliver had weighed in — a simple "Good work, everyone" that from Oliver was the equivalent of a standing ovation.
 
-Ten days after their celebration, on a Wednesday afternoon, the hum was abruptly silenced.
+They'd done it. Six friends and a dinner party had traced a missing hot sauce vendor to a corporate scheme that would've stayed buried in LLC filings and Delaware holding companies forever. Emma felt lighter than she had in months, maybe since before she left Bistro Lavande. She had something she hadn't had in a while — the feeling of being part of something that mattered.
 
-Emma was in her kitchen, testing a new scone recipe for an article due Friday—lemon-blueberry, with a buttermilk base she was still calibrating. Her hands were covered in a light dusting of flour, and the countertop was a landscape of measured ingredients: a bowl of sifted flour, a carton of buttermilk, a small dish of lemon zest that filled the kitchen with its sharp, clean citrus scent. The afternoon sun streamed through the window above the sink, illuminating the motes of flour dancing in the air and warming the tile under her bare feet. Outside, she could hear the muffled sounds of the neighborhood—someone's dog barking, a delivery truck backing up, the distant pulse of music from the café on the corner. It was a peaceful, domestic scene, a world away from corporate espionage and missing persons.
+She thought about Sofia. The cheese maker had been the one to give her the Paolo story, the precedent that turned a hunch into a pattern. Sofia deserved to know it had led somewhere. Emma picked up her phone and typed out a text:
 
-That was when the knock came.
+*Hey Sofia — it's Emma, from the cheese shop. I wanted to let you know, we figured it out. You were right about everything. Same playbook as Paolo. Thank you for trusting me with that.*
 
-It wasn't the familiar buzz of the intercom—the one that crackled and popped and required you to press the button three times before it actually unlocked the lobby door. This was a sharp, authoritative rap directly on her apartment door. Three hard knocks, evenly spaced, delivered by someone who knocked on doors for a living.
+She hit send and set the phone down, feeling generous and grateful and a little bit proud. Then she went back to her scone recipe.
 
-Emma frowned, wiping her hands on her apron as she walked to the door. Nobody got to her door without being buzzed in. The lobby door was supposed to lock automatically. She'd complained to the landlord about it twice—the lock was unreliable, the kind of thing that worked fine ninety percent of the time and failed completely the other ten.
+Sofia didn't respond that day. Or the next.
 
-She peered through the peephole. A man in a cheap, ill-fitting suit stood in the hallway, holding a large manila envelope. He had the posture of someone who'd been doing this all day and had at least six more stops before he could go home. He looked bored and impatient, a man for whom this was just another stop on a long, tedious list.
+Emma noticed on Tuesday afternoon. She picked up her phone to check — maybe Sofia was busy, maybe the shop was slammed, maybe she didn't save Emma's number and thought it was spam. All reasonable explanations. But Sofia had been warm and open in the cheese shop, had leaned across the counter and lowered her voice and told her about Paolo without being asked twice. That wasn't a woman who left texts sitting for thirty-six hours.
 
-Emma opened the door a crack, keeping the chain on. "Can I help you?"
+Emma typed a follow-up — *No worries if you're busy! Just wanted to say thanks* — and set the phone face-down on the counter.
 
-"Emma Hartley?" he asked, his voice flat and devoid of any emotion, the way you'd read a name off a clipboard.
+By Wednesday morning, still nothing. The group chat had gone quiet too, the way group chats do once the adrenaline fades — everyone back in their lives, back at work, riding the warm glow without needing to tend it. Emma tried to focus on her article — a piece about autumn squash varieties for a food blog that paid just enough to justify the effort — but she kept glancing at her phone. She told herself she was waiting for her editor to respond. She wasn't.
+
+Around noon, she walked to McGolrick to clear her head and pick up some sage. Dorothy was at her usual spot, surrounded by honey jars catching the thin October sunlight. Emma waved and started to walk over, but Dorothy's expression stopped her. The honey vendor was talking to a customer — a man in a dark coat, nice shoes, not the usual McGolrick crowd. Dorothy's smile was fixed, the kind of smile that has nothing to do with being happy. She was nodding at whatever he was saying, but her hands were busy reorganizing jars that didn't need reorganizing.
+
+The man thanked her and walked away. Emma caught Dorothy's eye. Dorothy looked at her for a moment — just looked, no wave, no greeting — and then turned to help another customer as if she hadn't seen her at all.
+
+Emma bought her sage from the herb vendor two stalls down and went home with a feeling in her chest she couldn't name. It wasn't fear, exactly. It was the sensation of standing in a room where the temperature has dropped two degrees and you can't find the open window.
+
+---
+
+The knock came at 2:47 PM.
+
+She'd remember the time because she'd been staring at the clock on her oven, waiting for a test batch of cheddar biscuits — Sofia's cheddar, the gorgeous aged wedge with the tyrosine crystals — and she was counting down the last three minutes. The kitchen smelled like butter and sharp cheese and the barest warmth of cayenne.
+
+It wasn't the buzzer. The intercom was supposed to keep people out of the building, but the lobby door lock was unreliable — she'd complained to the landlord twice, and twice he'd said he'd fix it, and twice the lock had continued to work just often enough to make another complaint feel petty. This was a knock directly on her apartment door. Three hard raps, evenly spaced, delivered by someone who knocked on doors for a living.
+
+Emma wiped her hands on the kitchen towel tucked into her apron and walked to the door. She peered through the peephole. A man in a cheap, ill-fitting suit stood in the hallway, holding a manila envelope. He had the posture of someone running through a long list and wanted to get home.
+
+She opened the door a crack, keeping the chain on. "Can I help you?"
+
+"Emma Hartley?"
 
 "Yes?"
 
-He didn't say another word, simply thrust the envelope through the gap in the door with a practiced motion that suggested he'd done this exact gesture a thousand times. "You've been served," he mumbled, before turning and walking briskly down the hall without a backward glance, his cheap shoes squeaking on the hallway tile.
+The envelope came through the gap with a practiced motion. "You've been served." He was already walking away, his shoes squeaking on the hallway tile.
 
-Emma closed the door. The deadbolt thunked into place. She stood there, her heart beginning to pound against her ribs with a force that felt disproportionate to the situation—it was just an envelope, just paper—but her body knew something her brain hadn't caught up to yet. She looked at the envelope. Her name and address were typed neatly on the front in that particular font that law firms used, the one that managed to make even a name look like an accusation. In the top left corner was the embossed logo of a firm she recognized from the mastheads of the city's most expensive legal filings.
+Emma closed the door. The deadbolt thunked into place. She stood in her hallway, the envelope in one hand and the kitchen towel in the other, and her body understood what was happening before her brain caught up — her heart hammering, her fingers tingling, the sudden cold in her stomach that had nothing to do with the October draft leaking through the window seals.
 
-With trembling fingers, she tore it open. The document inside was thick—multiple pages, heavy stock, the kind of paper that communicated money and power through its very weight. The legalese was dense and impenetrable, paragraphs of language designed to be terrifying even if you couldn't fully understand it, but certain phrases leaped out with a clarity that felt almost violent:
+She looked at the envelope. Her name and address were typed on the front in that particular font law firms use, the one that manages to make even a name look like an accusation. In the top left corner, an embossed logo she didn't recognize but understood instinctively — it radiated money and patience and the willingness to spend both.
+
+She tore it open. The document was thick, multiple pages on heavy stock, the kind of paper that communicates power through its weight. The legalese was dense and deliberately impenetrable, paragraphs designed to terrify even if you couldn't parse them, but certain phrases hit like slaps:
 
 CEASE AND DESIST...
 
@@ -34,22 +56,26 @@ DEFAMATION OF CHARACTER...
 
 TORTIOUS INTERFERENCE WITH BUSINESS RELATIONS...
 
-And then, on the final page, a single, handwritten note on a separate slip of paper, attached with a paperclip. It wasn't from the lawyers. The handwriting was sharp, angular, and distinctly personal—the penmanship of someone who wanted her to know this wasn't just corporate procedure. This was aimed.
+And then, on the final page, paperclipped to the back like an afterthought that was anything but: a handwritten note on a separate slip of paper. The handwriting was sharp, angular, deliberate. Not the lawyers. Someone who wanted her to know this wasn't just corporate procedure. This was personal.
 
 *We know all your secrets. Kinky Kitchen, isn't it?*
 
-The scone dough on the counter was forgotten. The buttermilk would curdle. The lemon zest would dry out. None of it mattered. The warmth of victory from Sunday night had turned to ice in her stomach, a cold so sudden and so complete that she could feel it in her fingers, in her chest, in the back of her throat.
+The biscuits were still in the oven. She could smell them starting to brown, that narrow window between golden and burned, and some distant, automatic part of her brain said *pull them out now* while the rest of her went cold and still.
 
-They didn't just know about the investigation. They knew about her.
+They didn't just know about the investigation. They knew about *her*. The account she'd built so carefully — the anonymous email, the VPN, the separate payment processor, the face never shown, the voice never used. The thing that paid her rent and kept the lights on while she pretended freelance food writing was a viable career. Someone had found it, and now it was a weapon, and it was pointed at her chest.
 
-For a long moment, she just stood there, frozen in the middle of her kitchen. The legal document felt impossibly heavy in her hand, the slip of paper with its spiky handwriting seeming to burn her fingertips. The world narrowed to the four corners of that note. Her secret—the one she had so carefully guarded, the one she'd built an entire anonymous infrastructure around, the one that paid her rent and kept her afloat while she pretended to the world that freelance food writing was a viable career—was no longer hers. It was a weapon, and it was pointed directly at her.
+Her first instinct was Elijah. He lived in a world of contracts and consequences. He could translate this terrifying document into something she could fight. "This needs fixed," she whispered, the Western Pennsylvania slipping out the way it always did when the world broke without warning — the words her grandmother used when the car wouldn't start or the furnace quit in January or anything else in life cracked open and needed putting back together. "This needs fixed right now."
 
-Her first instinct was a desperate, primal urge for order, for logic. Elijah. He would know what this meant. He lived in a world of contracts and consequences; he could translate this terrifying document into something manageable, something they could fight. "This needs fixed," she whispered to herself, the Western Pennsylvania slipping out unbidden, the words her grandmother used when the car wouldn't start or the gutters were leaking or anything else in life broke without warning. "This needs fixed right now."
+Her hand, shaking, fumbled for her phone. She knocked the dish of lemon zest off the counter — yellow confetti across the tile — and stabbed at Elijah's contact, holding her breath.
 
-Her hand, shaking, fumbled for her phone on the counter. She knocked the dish of lemon zest to the floor—it scattered across the tile like tiny yellow confetti—and stabbed at Elijah's contact, her breath held tight in her chest.
+Voicemail. "You've reached Elijah. Please leave a message."
 
-It went straight to voicemail. "You've reached Elijah," his smooth, professional voice said. "Please leave a message."
+No. Not Elijah. Not right now. She needed someone who would understand not just the legal threat but the violation — the specific, gendered fear of having your private life excavated by a stranger and turned into leverage. Her thumb scrolled past Jasper, past Noah, past Oliver. She pressed Olivia's name and listened to the ring, her knuckles white around the phone.
 
-A wave of pure, undiluted panic washed over her. The one person who could make sense of this was unreachable. She was alone in her kitchen with flour on her hands and a legal threat on her counter and a secret that someone had pried open like a can.
+Olivia picked up on the second ring.
 
-No. Not alone. Her thumb scrolled frantically through her contacts, past Jasper, past Noah, past Oliver. She needed someone who would understand not just the legal threat, but the violation. The chilling, specific fear of being a woman whose private life had been excavated by a stranger and weaponized. Her finger landed on the name. Olivia. She pressed call, her knuckles white as she held the phone to her ear, listening to the ring, praying she would pick up.
+"Emma? What's wrong?"
+
+And Emma, standing in her kitchen with flour on her apron and a cease and desist on her counter and the smoke alarm about to go off because she'd forgotten the biscuits, said the only words she could manage:
+
+"They found me."

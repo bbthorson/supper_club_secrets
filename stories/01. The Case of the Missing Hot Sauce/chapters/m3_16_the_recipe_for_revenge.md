@@ -1,4 +1,4 @@
-### Chapter Sixteen - The Recipe for Revenge
+### Chapter Sixteen — The Recipe for Revenge
 
 Oliver's words hung in the air, a sudden, sharp turning of the tide. The anger and fear in the room didn't disappear, but they began to coalesce, hardening from something liquid and shapeless into something solid—resolve, or at least the beginning of it.
 
@@ -22,7 +22,7 @@ The decision was made. Not with a vote or a show of hands, but with the quiet, c
 
 The energy in the room shifted again—the paralysis of fear replaced by a focused hum that Emma recognized from her best nights in the kitchen, the nights when every burner was going and every timer was running and the chaos resolved into a rhythm you could feel in your bones. Noah was already at his laptop, his fingers flying across the keyboard as he outlined the digital infrastructure.
 
-"Okay," he said, his voice crackling with a newfound purpose that was almost startling in its intensity. "First, I'll set up a series of anonymous email accounts routed through a VPN. Different providers, different passwords, no connections to any of our personal accounts. Then we draft a core message—the facts, just the facts, nothing that could be construed as defamation—and a digital press kit with all of Oliver's research, Elijah's financial model, and the timeline of events."
+"Okay," he said, his voice tight with a newfound purpose that was almost startling in its intensity. "First — anonymous email accounts, routed through a VPN. Different providers, different passwords, nothing that traces back to any of us. Then we draft a core message — just the facts, nothing that could be construed as defamation — and a press kit with Oliver's research, Elijah's financial model, and the timeline."
 
 "I'll build the target list," Olivia said, pulling out her phone with the energy of someone who'd been waiting for exactly this kind of assignment her entire life. "Every local journalist, blogger, and influencer who has ever so much as mentioned a farmers market, a local food vendor, or corporate overreach in Brooklyn. I'll tier them—first wave is the small, hungry outlets that need content. Second wave is the mid-size food accounts. Third wave is the mainstream food press, once the story has enough momentum to be un-ignorable."
 
@@ -42,7 +42,7 @@ Noah and Olivia became the distribution engine—Noah building the anonymous inf
 
 "First wave, I've got forty-seven," Olivia said, scrolling through her phone. "Second wave, another sixty or so. Third wave depends on how the first two land."
 
-"That's over a hundred contact points. Even if only twenty percent publish, that's twenty independent sources running the same story within a forty-eight-hour window." Noah looked up from his screen, and there was something like admiration in his expression—not for the plan, exactly, but for the elegant simplicity of using human networks as a distribution system. "They can't send cease and desists to twenty different outlets. The legal cost alone would be astronomical."
+"That's over a hundred contact points. Even if most of them pass, the ones who don't will be running the same story within a couple of days." Noah looked up from his screen, and there was something like admiration in his expression — not for the plan, exactly, but for the simplicity of using human networks as a distribution system. "You can't send cease and desists to twenty different outlets at once. The legal cost alone would make their investors nervous."
 
 "Which is exactly the kind of cost-benefit analysis that makes a mogul's investors nervous," Elijah added.
 
@@ -54,7 +54,11 @@ The group looked at him. The anger had dissipated, not fully but enough. Replace
 
 It was an olive branch, and a mission. A way for him to atone.
 
-"I can do that," Jasper said, and a flicker of determination crossed his face—not the manic enthusiasm of his usual projects, but something quieter and more resolute. "I'll find him. I promise."
+"I can do that," Jasper said, and a flicker of determination crossed his face — not the manic enthusiasm of his usual projects, but something quieter and more resolute. "I know somebody. A woman at a nursery I called last week — she mentioned a collective upstate from Philly where growers share land." He pulled out his phone, scrolling through his call history. "I'll take the Amtrak down tomorrow morning. Rent a car when I get there. Work the phones on the way."
+
+"That's a real trip," Olivia said softly.
+
+"It's the least I can do," Jasper said, and for once there was no performance in it — just a man who owed his friends something he couldn't pay back with words. "I'll find him. I promise."
 
 The delivery containers sat on the coffee table, forgotten and cold, the pad thai congealing, the spring roll wrappers going translucent. Nobody cared. The group was no longer hungry—at least not for food. They had found their appetite for something else entirely. They had a plan. They had roles. They had a recipe for revenge, and for the first time since that knock on Emma's door, the fear in the room was smaller than the resolve.
 
