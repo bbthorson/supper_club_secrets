@@ -32,6 +32,20 @@ Jasper sat up straight. "The what?"
 
 "I think he might be," Jasper said, his heart pounding. "Can you give me an address?"
 
+She gave him an address and a warning — Meadowlight didn't get reporters or salesmen or anyone they hadn't been told about, so he should be very polite and very brief about why he was there. Jasper thanked her three times and hung up.
+
+He opened a separate text thread. Not the group chat. Just Noah.
+
+*Found a lead. PA. Driving now. If I don't text in 6 hours, send a search party. Don't tell the group yet — I want to be sure.*
+
+He stared at the screen, waited, then typed once more.
+
+*I know I'm the last person who should be asking anyone to keep something from the group. Just this once. Please.*
+
+He hit send and shoved the phone in his pocket without waiting for a reply. He'd half-noticed, two days back at his apartment, that Noah was the only one he'd been able to text individually since Wednesday — the only one whose silence didn't feel like a verdict. Olivia would have asked questions he didn't have answers to. Emma would have worried out loud. Elijah would have done math at him. Noah had told him he was the liability and then gone quiet, and somehow that quiet had felt like the cleanest thing in the room.
+
+He drove west.
+
 ---
 
 The drive took three hours, most of it on increasingly narrow roads that wound through the Pennsylvania countryside like they were trying to shake him off. Jasper's ancient Subaru—a car he'd bought for four hundred dollars from a guy in Bushwick and had spent more than that repairing—rattled over potholes and rumbled across a series of one-lane bridges. The GPS cheerfully insisted he'd arrived at his destination—a dirt driveway marked only by a hand-painted sign reading "Meadowlight" in faded blue letters, half-hidden by overgrown sumac.
@@ -90,15 +104,15 @@ Hank listened without interrupting, his hands resting on the edge of the workben
 
 Hank's hand rested on one of the striped leaves, his fingers gentle. "I don't know if I can go back," he said quietly. "Every time I think about setting up that stall again, about facing those people..."
 
-"You don't have to decide right now," Jasper said. "But Emma's making dinner two weeks from Sunday. And I think you should meet the people who fought for you. Not because they wanted something, but because they cared about what your hot sauce meant." He paused. "That's all I'm asking. Just dinner."
+"You don't have to decide right now," Jasper said. "But Emma's making dinner this Sunday. And I think you should meet the people who fought for you. Not because they wanted something, but because they cared about what your hot sauce meant." He paused. "That's all I'm asking. Just dinner."
 
 Hank looked at the peppers, then at the dirt under his fingernails, then back at Jasper. "What if I'm not ready?"
 
 "Then you're not ready," Jasper said simply. "But you'll never know unless you show up."
 
-A long moment passed. The greenhouse hummed with the quiet energy of living things. Then Hank nodded slowly. "Two weeks?"
+A long moment passed. The greenhouse hummed with the quiet energy of living things. Then Hank nodded slowly. "Sunday?"
 
-"Two weeks," Jasper confirmed. "I'll drive you back myself if you want."
+"Sunday," Jasper confirmed. "I'll drive you back myself if you want."
 
 "I'll drive myself," Hank said, and there was something firmer in his voice now—not bravado, but the quiet determination of a man choosing to stop running. "I need to do this part on my own." He extended his hand. "Thank you for finding me."
 

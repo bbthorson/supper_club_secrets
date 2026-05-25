@@ -1,0 +1,71 @@
+# Timeline Ledger — Book 1: The Case of the Missing Hot Sauce
+
+Every chapter pinned to a date. Simultaneous events visible. Travel times respected (see `canon library/locations_registry.md` → Canon Rules).
+
+**Story span:** Week 1 Sunday → Week 4 Sunday (~3 weeks). Ch1 to Ch22.
+**Calendar anchor:** Week 1 Sunday = **2026-10-04**. Anchor chosen because Ch6 states LLC #2847 was "filed on October 2nd — exactly two days after Hank had given up his stall," and Oliver finds the filing on the Monday after Week 1 Sunday. October 4, 2026 is a Sunday. Anchor was shifted from Oct 18 to Oct 4 on 2026-05-23 to keep Ch22 in October (final dinner = Sun Oct 25).
+
+---
+
+## Day-by-day
+
+| Date (2026) | Day | Chapter(s) | Primary event | Simultaneous threads | Notes |
+|-------------|-----|------------|---------------|----------------------|-------|
+| Sep 27 | Sun | (off-page) | Hank's last appearance at McGolrick — "seemed off, kept checking his phone" (Ruth) | | Hank visible to vendors but jittery |
+| Sep 28 – Oct 1 | Mon–Thu | (off-page) | Hank winds down: pulls inventory from The Gilded Fern (jittery — per Marcus); Sofia conversation about "big offer" | | This week of off-page action is what the investigation later reconstructs |
+| Oct 2 | Fri | (off-page) | Hank formally gives up his stall. LLC #2847 filed same day (per Ch6: "Filed on October 2nd — exactly two days after Hank had given up his stall" — author's note: tight chronology, can read as "stall formally surrendered Wed Sep 30 + LLC filed Fri Oct 2" if needed). | | |
+| Oct 4 | **Sun** | **Ch1–Ch5** | Emma at McGolrick, discovers Hank's stall empty (his second missed Sunday), Dorothy gives bottle. Soup with the sauce. Meal 1 dinner. Theory competition. Plan to investigate. | | All five chapters are this single Sunday — morning through late night |
+| Oct 5 | Mon | Ch6 | Oliver at NYPL. Discovers LLC #2847 (filed three days ago). Goes home; Olivia asleep. | | |
+| Oct 6 | Tue | Ch7 | Olivia at The Gilded Fern (Marcus intel + ingredients). Oliver shares LLC finding at home. | | |
+| Oct 7 | Wed | Ch8 | Olivia calls Elijah (tailor pivot → LLC share). Elijah posts LLC to group chat. Builds financial model privately. | | |
+| Oct 8 | Thu | Ch9 | Noah re-engaged by Elijah's text. Traces shell entities. | | |
+| Oct 9 | Fri | Ch10 | Jasper walks Chelsea/High Line. Calls Brenda Marquez. Brenda recognizes LLC. Late that night Brenda calls the mogul's people. Jasper misses Brenda's warning text. | Brenda → mogul (off-page Fri night) | The breach happens here |
+| Oct 10 | Sat | Ch11 | Emma at McCarren Park (Hank's Saturday market — stall already replaced by jarred salsa vendor). Visits Sofia's cheese shop. Learns about "big offer" and Paolo precedent. | Mogul's lawyers/PI begin work on Emma (off-page) | |
+| Oct 11 | **Sun** | Ch12 (am + pm) | **Morning:** Emma at McGolrick — Dorothy brisk with Pike-adjacent customer (seed beat). **Evening:** Meal 2 potluck. Group pools findings. False victory. | Mogul gathers OnlyFans intel (off-page, Sat–Sun). Pike's people visible at McGolrick mid-morning. | Brenda's warning text still unread when Jasper goes home |
+| Oct 12 | Mon | Ch13 (part 1) | Emma post-victory glow. Texts Sofia (no reply). | Process server dispatched, C&D paperwork finalized (off-page) | **COMPRESSION FLAG** — see audit below |
+| Oct 13 | Tue | Ch13 (part 2) | Still no Sofia reply. ⚠ Currently a void in the chapter — optional anchored scene to be added per author feedback (Marcus / Emma's editor / Elijah at office). | | |
+| Oct 14 | **Wed** | Ch13 (end), Ch14, Ch15, Ch16 | **Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **2:47 PM:** process server delivers C&D. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma's OnlyFans confession (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank. | | Single very long evening — Ch14–Ch16 are continuous |
+| Oct 15 | Thu | Ch17 (part), Ch20 (begin) | Prep montage begins. Noah builds infrastructure overnight. Olivia maps contacts. Oliver/Elijah build press kit. Emma writes narrative. Jasper boards Amtrak to Philadelphia. **Jasper takes the hot sauce bottle from Emma's counter on his way out (author note: planted twist — see subplot_threads.md → Jasper's bottle).** | Jasper en route (PA) ↔ Group prepping (Brooklyn) | |
+| Oct 16 | Fri | Ch17 (end), Ch18 (launch), Ch19 (counterpunch part 1), Ch20 (Jasper calling nurseries) | Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA. | Brooklyn (campaign) ↔ PA (Jasper) | |
+| Oct 17 | Sat | Ch18 (continuation), Ch19, Ch20 (Jasper still searching) | Story spreading. Sentiment battle. Group tense. Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically. | Brooklyn ↔ PA | |
+| Oct 18–19 | Sun–Mon | Ch20 (Jasper continues) | Jasper making calls. 20+ calls. Meadowlight Collective surfaces from a woman at a Philadelphia-area nursery. | Brooklyn (waiting / Oliver finalizing rebuttal) ↔ PA (Jasper closing in) | |
+| Oct 20 | Tue | Ch20 (climax), Ch21 (begin) | Jasper drives 3 hours west of Philly. Finds Hank in Meadowlight greenhouse — shows him the bottle. Hank agrees to come to dinner "this Sunday." Oliver's rebuttal goes live. Food critic picks it up. | | |
+| Oct 21–22 | Wed–Thu | Ch21 | Rebuttal spreads. Critic's coverage tips sentiment. Mogul's investors begin pulling back. | | |
+| Oct 23 | Fri | (off-page) | C&D formally withdrawn (three days after story went viral, per Ch22). | | |
+| Oct 24 | Sat | (off-page) | Story settles. Hank returns from Meadowlight to Brooklyn (possibly stays with Jasper or at a friend's). | | |
+| Oct 25 | **Sun** | Ch22 | Family Meal. Hank arrives with Jasper. Jasper returns the bottle. Group commits to gathering again the following Sunday. | | "The October night had grown cold" — canon ✓ |
+
+---
+
+## Compression / gap audit
+
+These are the timeline slips. Each one names the problem and proposes a fix.
+
+| Location | Span | Issue | Proposed resolution |
+|----------|------|-------|---------------------|
+| **Ch12 → Ch13** | Sun Oct 11 evening → Mon Oct 12 afternoon | Mogul learns about the investigation (via Brenda, Fri night Oct 9), gathers Emma's address AND OnlyFans intel, drafts C&D, dispatches process server — all in ~3 days, with the C&D arriving Wednesday Oct 14. Author-approved fix: per 2026-05-23 feedback, insert one or two visible-machinery beats — Marcus reports someone asking after Emma at The Gilded Fern, Emma's food editor cancels the squash article with a strangely terse note. Both seeds new threads (Marcus as recurring intel source; Emma's job friction; gives possible OnlyFans-hold off-ramp). | Add beats; possibly elevate to a tiny propulsion chapter between Ch13 part 1 and the C&D. |
+| **Ch13 internal day-jump** | Mon Oct 12 → Wed Oct 14 | Ch13 has Monday (Sofia silence start) and Wednesday (closed market walk + Dorothy text + C&D). Tuesday is currently a void. | Per author feedback: add one anchored Tuesday scene. Could become a tiny propulsion chapter. Candidates: Olivia at Marcus's shop (he passes on the strange visitor), Elijah noticing oddness at the office, Emma's editor declining the article. |
+| **Ch14 → Ch16** | Single Wed evening | Three chapters of continuous emergency dinner. Realistically fine but the text should anchor this clearly (clock check, "it was past 11 now"). | Add 1–2 time anchors across Ch14–Ch16 so the reader feels the single evening. |
+| **Ch17 prep montage** | Wed Oct 14 night → Fri Oct 16 morning | Ch17 reads as multi-day prep but is actually ~36 hours. | Either: (a) embrace compression with "by Friday morning" anchors; or (b) push campaign launch to Sat. Author note: this section also has non-Brooklyn scenery opportunity (Jasper's Amtrak journey, his hotel night, his calls from a bench somewhere in Philly suburbs). |
+| **Ch18 → investor pullout** | Fri Oct 16 launch → investor pullback by Tue Oct 20 (Ch21) | Institutional investors don't move in 4 days without a board call. | HOLD per author feedback — revisit after other Meal 3-4 changes are in. |
+| **Ch20 Jasper's PA timeline** | Thu Oct 15 departure → Tue Oct 20 finding Hank | 5 days of search. Currently underdeveloped. | Per author feedback: build out Jasper's PA journey with non-Brooklyn scenery. Hotel room, moment of doubt, the Noah-conduit pattern (Noah reaches out, Jasper doesn't reply directly but starts texting Noah specifically with updates — sets up Ch22 apology). |
+| **Ch22 anchor** | Sun Oct 25 | "Two weeks later" replaced with "The following Sunday" — anchors to Jasper's Ch20 promise ("Emma's making dinner this Sunday"). "October night had grown cold" now canon ✓. | Fixed 2026-05-23. |
+
+---
+
+## Cross-location simultaneity
+
+Two parallel threads run in late October / early November. Capture them so a character doesn't get accidentally reused in both.
+
+| Date range | Thread A (Brooklyn) | Thread B (Pennsylvania) | Characters in A | Characters in B |
+|------------|---------------------|-------------------------|-----------------|-----------------|
+| Thu Oct 15 – Tue Oct 20 | Campaign prep, launch, counterpunch, rebuttal | Jasper traveling, calling nurseries, driving to Meadowlight, finding Hank | Emma, Elijah, Noah, Oliver, Olivia | Jasper, Hank (Tue Oct 20) |
+| Tue Oct 20 evening | Group celebrates rebuttal + critic coverage | Jasper drives back from PA (Hank follows separately Sun morning) | Emma, Elijah, Noah, Oliver, Olivia | Jasper |
+
+Group chat is the connective tissue between threads — texts cross both columns.
+
+---
+
+## Notes for retrofit
+
+When applying chapter frontmatter, every chapter gets the `date` field pulled from the day-by-day table above. If a future edit shifts a date, this ledger is the source of truth — update here first, then update every affected chapter's frontmatter.

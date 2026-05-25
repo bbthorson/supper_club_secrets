@@ -32,7 +32,7 @@ She smiled—she'd seen him here before, always at the same desk, always with th
 
 Just as he was about to pack up, admit defeat, and head home empty-handed, he found it.
 
-An application for a new restaurant opening on the Williamsburg waterfront. The applicant was listed as LLC #2847, a numbered entity with no names attached. Anonymous and sterile, the corporate equivalent of a blank face. Filed on October 18th—exactly two days after Hank had given up his stall at the farmers market.
+An application for a new restaurant opening on the Williamsburg waterfront. The applicant was listed as LLC #2847, a numbered entity with no names attached. Anonymous and sterile, the corporate equivalent of a blank face. Filed on October 2nd—exactly two days after Hank had given up his stall at the farmers market.
 
 It was probably nothing. Corporate entities filed anonymous LLCs all the time for perfectly legitimate reasons—tax strategy, liability protection, privacy. But it was an anomaly, a data point that didn't fit the established pattern. In a dataset full of named applicants—"Giovanni's Trattoria LLC," "Brooklyn Burger Holdings," "Chen Family Restaurant Group"—one numbered entity stood out like a redacted name in a declassified document.
 

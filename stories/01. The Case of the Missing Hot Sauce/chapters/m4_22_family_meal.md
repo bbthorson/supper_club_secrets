@@ -1,12 +1,18 @@
 ### Chapter Twenty-Two - Family Meal
 
-Two weeks later, Emma stood in her kitchen, staring at the array of ingredients spread across her counter. For the first time in months, she wasn't cooking out of anxiety or financial desperation. She wasn't performing for a client or testing a recipe for an article or trying to prove something to a voice in her head that sounded like her former boss. She was cooking because she wanted to. Because her friends were coming, and they deserved something beautiful.
+The following Sunday, Emma stood in her kitchen, staring at the array of ingredients spread across her counter. For the first time in months, she wasn't cooking out of anxiety or financial desperation. She wasn't performing for a client or testing a recipe for an article or trying to prove something to a voice in her head that sounded like her former boss. She was cooking because she wanted to. Because her friends were coming, and they deserved something beautiful.
 
-The cease and desist letter had been formally withdrawn four days after the story went viral. The mogul's lawyers had sent a terse, one-paragraph retraction with all the warmth of an autopsy report. The mogul himself had posted a statement on social media—the kind of carefully worded non-apology that lawyers approve and PR teams deploy when the alternative is silence: *"We never intended to stifle small businesses or the artisans who make Brooklyn's food scene vibrant. Moving forward, we will not enforce any trademark claims related to heritage pepper products. We apologize for any confusion our legal actions may have caused."*
+The cease and desist letter had been formally withdrawn three days after the story went viral. The mogul's lawyers had sent a terse, one-paragraph retraction with all the warmth of an autopsy report. The mogul himself had posted a statement on social media—the kind of carefully worded non-apology that lawyers approve and PR teams deploy when the alternative is silence: *"We never intended to stifle small businesses or the artisans who make Brooklyn's food scene vibrant. Moving forward, we will not enforce any trademark claims related to heritage pepper products. We apologize for any confusion our legal actions may have caused."*
 
 Olivia had screenshotted it and texted it to the group chat with a single word: *"Confusion."* Emma had printed out the withdrawal email and taped it to her fridge, where it sat next to a takeout menu and a photo of her grandmother's kitchen.
 
 The apartment smelled like it should—warm and layered and alive. Emma had roasted butternut squash for the soup she'd been planning since the beginning, the one that was supposed to have Hank's hot sauce in it. The squash was caramelizing in the oven, its edges going golden and slightly charred, filling the kitchen with that deep, sweet, roasted smell that always felt like autumn distilled. She'd made a batch of rosemary focaccia that morning—the dough had been rising since dawn, and the bread was cooling on a wire rack now, its crust crackling softly as it contracted, the rosemary and sea salt crystals catching the overhead light.
+
+Her phone buzzed on the counter. A text from Dorothy.
+
+*Emma — I'm sorry. There was a man at McGolrick that Sunday, and again on Tuesday, and he was very specific about what would happen to the stand if I kept talking to anyone about Hank. I should have warned you. I should have called when the news broke. I didn't, and I should have. Welcome him home for me. I'll bring a jar of the chestnut by next week.*
+
+Emma read it twice. Then she typed back: *Come for dinner sometime. We'll save you a seat.* She hit send before she could overthink it, and the small tight knot she'd been carrying around her sternum since the C&D eased by a measurable amount. There were a lot of people who'd been afraid, she was starting to realize. The fear didn't end when the threat did. It just changed shape.
 
 The intercom buzzed. Olivia and Oliver arrived first, Olivia carrying a jewel-toned beet and goat cheese tart that looked almost too beautiful to eat. The beets were roasted and sliced thin—deep magenta circles arranged in concentric rings against the white goat cheese and a golden, buttery crust. She'd scattered fresh thyme and a drizzle of honey across the top.
 
@@ -82,13 +88,21 @@ The buzzer rang, cutting through the moment. Emma glanced at her phone. Right on
 
 Jasper's voice crackled through the intercom, laced with barely contained excitement: "Buzz me in. And, uh... set another place."
 
-Emma pressed the button. A minute later, Jasper appeared in the doorway, his grin so wide it was practically audible—and behind him, looking slightly overwhelmed but with kind eyes and calloused hands, stood Hank. He was wearing a clean flannel shirt and holding a small, unlabeled bottle of deep red hot sauce.
+Emma pressed the button. A minute later, Jasper appeared in the doorway, his grin so wide it was practically audible—and behind him, looking slightly overwhelmed but with kind eyes and calloused hands, stood Hank. He was wearing a clean flannel shirt and holding nothing in his hands.
+
+It was Jasper who was holding the bottle. A small bottle of deep red hot sauce, with a handwritten label half worn off at the corner.
+
+Emma's eyes caught on it, and stayed.
 
 A stunned silence fell over the room.
 
 "Holy shit," Emma whispered.
 
-"Surprise?" Jasper said weakly, his voice cracking on the word.
+"Surprise?" Jasper said weakly, his voice cracking on the word. He held the bottle out toward her, suddenly looking like he was about to confess something. "I, uh. I owe you. This was on your counter the night I left. I figured if I was going to ask him to come back, I should bring proof that the bottle had already done the thing it was supposed to do. I should've asked first. I'm sorry."
+
+Emma took it from him. The glass was warm from his pocket. She turned it once, looking at the smudged corner of the label where someone — Hank, three weeks ago, or his great-grandmother, or a hand even further back — had written *FP* and a year she couldn't quite read. Then she set it on the counter, right where it had lived since Ch1, and her face did something complicated.
+
+"It went where it needed to go," she said.
 
 What happened next was loud, chaotic, and deeply, fundamentally warm. Emma crossed the room in three steps and hugged Hank with the fierceness of someone embracing a person they'd been fighting for without ever having met. Olivia demanded to know how Jasper had found him, already composing the story in her head. Oliver quietly made space on the couch, moving a stack of evidence documents that were no longer needed. Elijah shook Hank's hand with the formal gravity of a man who respected what the handshake represented.
 
@@ -102,9 +116,9 @@ Then Noah walked over, hands in his pockets.
 
 Jasper blinked, clearly not expecting this. "Noah, you don't have to—"
 
-"Yeah, I do," Noah interrupted. "Because you drove three hours to find him. That's not chaos. That's exactly what you're good at." A rare, awkward smile crossed his face—the kind of smile that cost him something to produce. "Connecting people. Even when it's messy."
+"Yeah, I do," Noah interrupted. "Because you drove three hours to find him. And you kept texting *me* about it. Not the group — just me." He paused. "I didn't know what to say back, so I didn't say anything. Which, for the record, is the same thing I was mad at you for doing the other night. So." Another pause. "I'm sorry twice." A rare, awkward smile crossed his face — the kind of smile that cost him something to produce. "What you did wasn't chaos. That's exactly what you're good at. Connecting people. Even when it's messy."
 
-Jasper's eyes went a little bright. "Thanks, man."
+Jasper's eyes went a little bright. "Thanks, man. And — I figured if I texted the group I'd get five opinions on a hotel reservation. I needed one person who wouldn't try to fix it." He looked down at his glass. "I texted Brenda when the C&D got withdrawn. Just to say I was sorry, mostly. She hasn't replied. I don't think she's going to." A small shrug, an honest one. "I get it. Some bridges you don't get to fix on your own timeline."
 
 Noah nodded once, then turned back to the group as if nothing had happened. But something had shifted between them—a crack repaired, if not fully healed. The kind of repair that would hold if they were careful with it.
 
@@ -118,6 +132,10 @@ He described the offer from the restaurant group—a painfully low sum, not for 
 
 "When I tried to negotiate, the offer disappeared," Hank continued. "Suddenly it was a threat instead of a deal. Stop selling, or they'd bury me in legal fees I couldn't afford. And they made it clear they had the resources to do it." He shook his head, his hand tightening around the wine glass. "I felt broken. Like this story my family built—four generations, from Virginia to Philly to Brooklyn—didn't matter anymore. Like I was just an obstacle in someone's business plan. So I ran. Went to Meadowlight, where they still grow the old-stripe Fish Peppers. Figured I'd just let it die quietly."
 
+He paused.
+
+"And maybe it would have. Sometimes things end, and the only honest thing is to let them. I tended the peppers at Meadowlight. I told myself I'd made the right call. Most days I almost believed it." His eyes flicked to the bottle on the counter, then back to Emma. "Then Jasper showed up with that. The bottle I'd given Dorothy three weeks before. My grandmother used to say a recipe wasn't yours until other people had it. I'd already given the bottle away — I just hadn't lived with what that meant. *Just in case.* Turns out the case was you all."
+
 "But then this one showed up," Hank said, nodding at Jasper with a warmth that made Jasper duck his head. "Drove three hours to tell me I'd won a fight I didn't even know was happening."
 
 "We didn't win alone," Jasper said quickly. "Oliver figured out the whole strategy—"
@@ -128,7 +146,15 @@ He described the offer from the restaurant group—a painfully low sum, not for 
 
 Hank smiled. "The point is, you cared. Not just about me, but about the story. My great-grandmother brought those seeds up from the Eastern Shore of Virginia in 1924. She grew them in a tiny plot behind her row house in North Philadelphia, and she passed them down to my grandfather, who passed them to my mother, who passed them to me." He held up the bottle of hot sauce, the deep red catching the light of Olivia's candles. "That history is in every bottle. And that's what you fought for."
 
-"So what happens now?" Emma asked. "Are you coming back?"
+Oliver pushed his glasses up the bridge of his nose. "The Smithsonian seed archive listed Fish Peppers as critically endangered in 1991." He said it quietly, almost to the table, the way he said things he'd been thinking about for hours and only just decided were worth saying out loud. "There were maybe two dozen seed savers still growing them when that catalog was compiled. Your great-grandmother probably knew some of them. The reason the variety still exists is families like yours kept it going through the years nobody else was paying attention."
+
+The room was quiet for a beat. Hank looked at Oliver — really looked at him, for the first time all night.
+
+"I didn't know that," Hank said.
+
+"Most people don't," Oliver said. "It's the kind of thing that gets archived but not advertised."
+
+"So what happens now?" Emma asked, breaking the moment gently. "Are you coming back?"
 
 "I am," Hank confirmed. "Already filed my stall application for next weekend. And I talked to a lawyer—pro bono. She saw the story and offered to help me file a proper trademark this time." He looked around the room, at these six people and their messy, imperfect, beautiful friendship. "Turns out the internet can actually do some good."
 
@@ -158,11 +184,19 @@ It was Olivia who said it. "So... do we do this again?"
 
 "Agreed," Olivia said immediately. "We rotate. Everyone takes a turn hosting."
 
-"I'm going to be really bad at this," Oliver warned.
+A small pause. Oliver, who had been listening with his glasses pushed up the bridge of his nose in his thinking position, looked up.
 
-"That's okay," Emma said. "We'll eat it anyway."
+"I'll go first," he said.
 
-Hank, who had been watching this exchange with a warm smile, spoke up. "You know what my great-grandmother used to say? 'Food tastes better when you make it for people who matter.'" He raised the bottle of hot sauce—the one he'd brought tonight, the one with the handwritten label and the four generations of history inside. "You all matter. Don't forget that."
+The room turned. Olivia's mouth opened slightly.
+
+"Next Sunday," Oliver continued, before anyone could ask if he was sure. "Our place. I'll figure out the menu. I'm going to be really bad at this."
+
+"That's okay," Emma said, her voice carefully steady. "We'll eat it anyway."
+
+"Next Sunday," Olivia repeated, as if testing the words. Then her face broke into a slow grin. "Next Sunday."
+
+Hank, who had been watching this exchange with a warm smile, reached for the bottle Emma had set on the counter when he arrived — the one Jasper had carried to Pennsylvania and back. He turned it gently in his hands, the handwritten label catching the light of Olivia's candles. "You know what my great-grandmother used to say? 'Food tastes better when you make it for people who matter.'" He held the bottle up. "You all matter. Don't forget that."
 
 He uncapped the bottle and passed it to Emma. She drizzled it over the last bowl of squash soup—the soup that had started all of this, the one that had been missing its final ingredient since the very first chapter. The hot sauce was everything she'd remembered: a deep, complex heat that bloomed slowly, with a smoky sweetness underneath that made the soup come alive. She closed her eyes and tasted it, and for a moment she was back at the market on that first October morning, standing in front of an empty stall, wondering where the story had gone.
 
@@ -200,4 +234,6 @@ And Emma, standing in her kitchen doorway with a glass of wine and flour still o
 
 She hadn't needed to survive on her own. She'd needed this—right here—this exact combination of people and food and chaos and warmth.
 
-The first mystery was solved. The hot sauce vendor was home. But the Supper Club was just getting started.
+The first mystery was solved. The hot sauce vendor was home. The bottle was back on her counter where it had started. And next Sunday, somebody else would be doing the dishes.
+
+The Supper Club was just getting started.

@@ -4,6 +4,212 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-05-23 — Ch22 small additions + Elijah family weight decision
+
+**Trigger:** Author yes/no responses to the docket questions.
+
+**What changed:**
+
+1. **Oliver unprompted observation added (Ch22):** During Hank's family-history beat, Oliver volunteers the Smithsonian seed archive fact — Fish Peppers were listed as critically endangered in 1991, and Hank's family is likely one reason the variety still exists. Quiet, sourced, classically Oliver. Hank "really looks at him for the first time all night." Carries the Ch15 emergence forward as a second voluntary contribution alongside "I'll go first."
+
+2. **Brenda throwaway line added (Ch22):** Slotted into the Noah/Jasper apology scene. Jasper notes that he texted Brenda when the C&D was withdrawn and she hasn't replied. "Some bridges you don't get to fix on your own timeline." Single line, easily redirected when Books 2-6 plans are finalized.
+
+3. **Elijah's family financial weight — decision:** Author chose intentional ambient texture over Book 1 payoff. The existing Ch8 mother text and Ch14 sister's car beat stay as background pressure; no additional Book 1 payoff added. Thread is held for Book 3 (Elijah's focal book + credit union asset-stripping mirrors family precarity). The Ch8/Ch14 beats are no longer flagged as dropped — they're framed as ambient pressure that resolves later.
+
+**Files touched:**
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m4_22_family_meal.md` — Oliver observation + Brenda line
+- `stories/01. The Case of the Missing Hot Sauce/tracking/interiority/elijah_book1.md` — ambient-texture framing
+- `stories/01. The Case of the Missing Hot Sauce/tracking/subplot_threads.md` — Elijah thread reframed, audit summary updated
+- `CANON_CHANGELOG.md` — this entry
+
+**Pending author input (still on docket):**
+- The three load-bearing decisions (OnlyFans hold, Sofia's role, tiny propulsion chapters)
+- Ch17/Ch20 Jasper-in-PA continuity issue (see flag below)
+- Marcus vs. Sofia recurring-source comparison
+- Dorothy in-person at Ch22 (decision: text-only, hold reunion for Book 2)
+
+---
+
+## 2026-05-23 — Anchor shift, Brenda rename, Ch22 substantial edits, conduit pattern, bottle arc
+
+**Trigger:** Author review of the inconsistency audit (see prior 2026-05-23 entries). This batch addresses the explicit-direction items: LLC date shift, Brenda Chen → Marquez file rename, Dorothy Ch22 reconciliation, Oliver Ch22 voluntary contribution, Noah/Jasper conduit pattern, Jasper's stolen-and-returned bottle, next-week propulsion signal.
+
+### Story anchor shift
+
+1. **LLC #2847 filing date:** Ch6 changed from "October 18th" → "October 2nd."
+2. **Story calendar anchored:** Week 1 Sunday = **2026-10-04** (was Oct 18). All chapters slide back two weeks.
+3. **Ch20 Hank dinner promise:** "two weeks from Sunday" → "this Sunday." Compresses the search-to-dinner gap from ~13 days to 5 days, raising stakes and aligning the timeline.
+4. **Ch22 opening:** "Two weeks later" → "The following Sunday." Resolves the "October night" continuity issue. Final dinner now lands Sun Oct 25 (October ✓).
+5. **Ch22 internal:** "formally withdrawn four days after the story went viral" → "three days" (matches the new tighter timing).
+6. **Tracking files updated:** `timeline_ledger.md`, `character_matrix.md`, `m3_13` frontmatter — all dates re-anchored.
+
+### Brenda Chen → Brenda Marquez
+
+7. **File renamed:** `brenda_chen.md` → `brenda_marquez.md` (`git mv`).
+8. **File heading updated:** `# Brenda Chen` → `# Brenda Marquez`.
+9. **Notes section corrected** ("Her last name is Chen" → "Her last name is Marquez").
+10. **`00_character_overviews.md` reference updated** to point to the new file and use the current surname.
+11. **Jasper lore tracking updated:** Ch. 9 references corrected to Ch. 10 (post-renumber).
+
+### Dorothy Ch22 reconciliation (option b — text)
+
+12. **Ch22 morning text** added. Dorothy texts Emma explaining the man at the market on Sunday and Tuesday, the threat to her stand, apologizing for the silence, committing to a chestnut honey delivery next week. Emma replies with an open invitation. Adds the reflection: "the fear didn't end when the threat did. It just changed shape."
+
+### Jasper's stolen-and-returned bottle (new planted twist)
+
+13. **Ch17 packing scene:** Jasper takes the original "just in case" bottle from Emma's counter on his way out of the emergency dinner. Wraps it in a sock and packs it. Reflects: "if he was going to ask a man to come back to the place that had broken him, he needed proof in his hand that the bottle had already done what the bottle was for."
+14. **Ch20 greenhouse scene:** Jasper shows Hank the bottle as proof the sauce has already lived in other people's kitchens. Hank's later (Ch22) reflection anchors his decision to return on this moment.
+15. **Ch22 arrival:** Hank arrives empty-handed; Jasper is the one holding the bottle. He returns it to Emma with an explicit apology for taking it. Emma sets it back on her counter "right where it had lived since Ch1."
+16. **Ch22 final image** updated: "The bottle was back on her counter where it had started." The bottle's full arc closes where it started.
+
+### Noah/Jasper conduit pattern
+
+17. **Ch20 inserted beat:** After getting the Meadowlight address, Jasper texts Noah (not the group) — asks him to keep the lead private. Reflects on why Noah specifically: "Noah had told him he was the liability and then gone quiet, and somehow that quiet had felt like the cleanest thing in the room."
+18. **Ch22 apology rewritten:** Noah's apology now references the conduit explicitly. "You kept texting *me* about it. Not the group — just me. I didn't know what to say back, so I didn't say anything, which is exactly the same thing I was mad at you for doing the other night. So I'm sorry twice." Jasper's response adds: "If I texted the group I'd get five opinions on a hotel reservation. I needed one person who wouldn't try to fix it."
+
+### Oliver Ch15 emergence carried forward (small dose)
+
+19. **Ch22 added beat:** During the "rotate hosting" discussion, Oliver volunteers unprompted: "I'll go first." "Next Sunday. Our place. I'll figure out the menu." Olivia repeats it ("Next Sunday") and the group commits. This carries the Ch15 voluntary-speech beat forward without dramatic shift.
+
+### Hank's interior reckoning
+
+20. **Ch22 storytelling beat added:** Hank explains what changed his mind, anchored on the bottle. "I'd given the bottle away — I just hadn't lived with what that meant. *Just in case.* Turns out the case was you all." His grandmother's line "a recipe wasn't yours until other people had it" is the through-line.
+
+### Next-week propulsion signal
+
+21. **Ch22 final lines** updated: "The first mystery was solved. The hot sauce vendor was home. The bottle was back on her counter where it had started. And next Sunday, somebody else would be doing the dishes. / The Supper Club was just getting started." Anchors next Sunday explicitly and ties to Book 2's Oliver-hosts premise per series_plan.md.
+
+### Subplot threads tracker — closures
+
+22. **`tracking/subplot_threads.md`** updated with resolutions for: Dorothy reconciliation (paid off), Jasper's bottle (new thread, closed), Noah/Jasper conduit (resolved), Oliver Ch15 carry-forward (resolved small dose), Jasper Ch22 reversion (resolved as earned), Hank's return decision (resolved/motivated). Still open: Sofia's silence, Emma OnlyFans emotional aftermath (pending OnlyFans-hold decision), Emma sidelined in Meal 4, Elijah's family weight (pending discussion).
+
+**Files touched:**
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m2_06_a_fine_sieve.md` — LLC date
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md` — frontmatter dates
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md` — bottle theft
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_farm_to_table.md` — Hank dinner promise + Noah text conduit
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m4_22_family_meal.md` — opening, Dorothy text, bottle reveal, conduit apology, Hank reckoning, Oliver volunteers, final image
+- `stories/01. The Case of the Missing Hot Sauce/characters/brenda_marquez.md` — renamed, heading fixed, notes corrected
+- `stories/01. The Case of the Missing Hot Sauce/characters/00_character_overviews.md` — Brenda reference updated
+- `stories/01. The Case of the Missing Hot Sauce/tracking/timeline_ledger.md` — re-anchored
+- `stories/01. The Case of the Missing Hot Sauce/tracking/character_matrix.md` — dates + Ch17, Ch20, Ch22 rows updated
+- `stories/01. The Case of the Missing Hot Sauce/tracking/subplot_threads.md` — multiple threads closed, new bottle thread added, audit summary updated
+- `canon library/characters/jasper.md` — Ch. 9 → Ch. 10 references
+- `CANON_CHANGELOG.md` — this entry
+
+**Open items deferred to next round:**
+- Ch12 → Ch13 visible-machinery beats (Marcus reports stranger, Emma's editor cancels article) — also raises the OnlyFans-hold question
+- Ch13 Tuesday anchored scene (possibly tiny propulsion chapter)
+- Sofia's role (farmers-market info-source idea) and Ch22 inclusion
+- Elijah's family financial weight (single beat + Book 3 seed)
+- Ch17 non-Brooklyn scenery expansion (Jasper's hotel night, doubt beat)
+- Ch18 investor pullout mechanism (HOLD per author)
+- Ch19 and Ch21 placeholder chapters (write or restructure)
+- Emma sidelined in Meal 4 — active beat in Ch18/19/21
+
+---
+
+## 2026-05-23 — Dorothy cold beat moved Ch13 → Ch12 (canon market rule fix)
+
+**Trigger:** Original Ch13 had Emma walking to McGolrick on Wednesday noon and encountering Dorothy at her stall. The newly added canon rule (McGolrick is Sunday-only) flagged this as impossible. Author also recognized the craft opportunity: planting the intimidation seed in an earlier chapter as ambiguous texture, payoff in Ch13.
+
+**What changed:**
+
+1. **Ch12 (Coming to a Boil)** — Added a paragraph at the start (after the opening line) showing Emma's Sunday morning McGolrick stop. Dorothy is at her usual spot but already busy with a customer Emma doesn't recognize — "a man in a coat that didn't fit the Sunday-morning McGolrick crowd." Dorothy's smile is "the practiced kind." Emma drifts off, dismisses the briskness, buys sage two stalls down, goes home to cook. Reads as background texture in context; reads as planted seed on reread.
+
+2. **Ch13 (Service for One)** — Removed the Wednesday market encounter (canon violation) and the Dorothy cold beat. Replaced with:
+   - Emma walking toward McGolrick out of habit on Wednesday, finding the market closed (which she knew), standing in the empty space longer than she needed to.
+   - Emma texting Dorothy from the walk home. Message delivers, no read receipt comes. The silence joins Sofia's in Emma's chest. The temperature-drop metaphor preserved as the chapter's closing beat.
+
+3. **Tracking files updated:**
+   - `character_matrix.md` — Ch12 row gained Dorothy seed; Ch13 row updated to reflect text silence rather than in-person encounter; minor character tracker updated.
+   - `subplot_threads.md` — Dorothy thread reorganized. Ch12 seed row inserted. Ch13 row updated to "silence" status. New "Canon rule fix log" note added.
+   - `timeline_ledger.md` — Oct 25 row notes morning + evening; Oct 26-28 rows updated to reflect closed-market walk rather than market encounter; Pike's people visible at McGolrick on Sunday morning added as off-page thread.
+
+4. **Ch13 frontmatter updated** to reflect new locations and characters present.
+
+**Why this is better than the original:**
+
+- Canon-legal (Sunday market visit, closed midweek walk).
+- Plants the intimidation seed during the false-victory chapter, where the reader is celebrating with the characters and likely to miss the warning.
+- Pairs Dorothy's silence with Sofia's in Ch13, doubling the pre-C&D dread instead of dividing it across two encounter types.
+- Strengthens the "Pike's machinery is moving" off-page texture by giving the corporate world a *visible* presence at McGolrick a full three days before the C&D arrives.
+
+**Files touched:**
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md`
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md` (prose + frontmatter)
+- `stories/01. The Case of the Missing Hot Sauce/tracking/character_matrix.md`
+- `stories/01. The Case of the Missing Hot Sauce/tracking/subplot_threads.md`
+- `stories/01. The Case of the Missing Hot Sauce/tracking/timeline_ledger.md`
+- `CANON_CHANGELOG.md` — this entry
+
+**Open item:** Dorothy still needs a Ch22 reconciliation moment. See `subplot_threads.md` → Dorothy → "Action needed (still open)." Recommended option (b): text reconciliation morning of Ch22.
+
+---
+
+## 2026-05-23 — Tracking scaffolding introduced; Book 1 retrofit
+
+**Trigger:** Meal 3–4 timeline frayed and character interiority felt thin. Goal: build scaffolding that scales across all six planned books and catches inconsistencies before they propagate.
+
+**What changed:**
+
+**New scaffolding (template + Book 1 retrofit):**
+
+1. **Chapter frontmatter spec** added to `stories/_story_template/chapters/00_chapter_guide.md`. Every chapter now begins with a YAML block carrying: chapter, title, meal, beat, day, ISO date, time, location, POV, characters_present, registers (per character in scene), clues (planted / revealed), threads (active / touched), beat_purpose, and optional audit_notes. Strippable at epub build time.
+
+2. **`stories/_story_template/tracking/`** directory created with templates for:
+   - `character_matrix.md` — chapter × character snapshot, one row per chapter, register + one-line state per cell
+   - `timeline_ledger.md` — every chapter pinned to a date, simultaneous events, compression audit
+   - `subplot_threads.md` — every thread tracked chapter-by-chapter with status (introduced / developing / complicated / paid off / dropped / carry forward); includes a "Threads at risk" audit section
+   - `interiority/` subdirectory with `00_interiority_template.md` — per-character per-book internal arc (opening state, hidden tension, what cracks open, what shifts, voice register map, reveal/withhold ledger, risks and tells, threads they carry forward)
+   - `README.md` — workflow spec for how the four files relate and when to update each
+
+3. **Canon Rules section** added to `canon library/locations_registry.md`. Hard rules covering:
+   - Farmers market schedules (McGolrick: Sunday only; McCarren: Saturday only)
+   - Sofia's cheese shop hours (closed Mondays)
+   - The Gilded Fern hours
+   - Elijah's workplace schedule (Sunday work signals deadline)
+   - NYPL Rose Reading Room hours (closed Sundays)
+   - Jasper's 311 shifts (flexible)
+   - Travel times between key locations (Brooklyn ↔ Manhattan, McGolrick ↔ McCarren, Brooklyn ↔ Meadowlight, Brooklyn ↔ Philly)
+   - Rule: "If a scene violates one of these, the scene is wrong — not the rule."
+
+**Book 1 retrofit (populated tracking files):**
+
+4. **`stories/01. The Case of the Missing Hot Sauce/tracking/`** populated with:
+   - `timeline_ledger.md` — all 22 chapters anchored. Calendar anchor: Week 1 Sunday = 2026-10-18 (selected because Ch6 states LLC #2847 was filed on Oct 18, and Oliver finds it the Monday after Week 1 dinner). Seven specific compression/gap issues flagged with proposed resolutions.
+   - `subplot_threads.md` — all threads catalogued. Surfaced dropped/at-risk threads: Sofia silence (Ch13 → never resolved), Emma's OnlyFans emotional aftermath (Ch22 outcome reported but not felt), Emma sidelined in Meal 4 execution, Elijah's family financial weight (introduced Ch8/14 then dropped), Noah's reconciliation with Jasper (happens offstage), Oliver's Ch15 emergence not carried to Ch22, Jasper's Ch22 reversion (intentional vs. undercooked), Hank's decision to return (unmotivated), Dorothy never warmed back up.
+   - `character_matrix.md` — all 22 chapter rows × 6 core characters + minor character tracker. Cells carry register and one-line state. Audit ⚠ markers flag the same issues as subplot_threads.md.
+   - `interiority/emma_book1.md`, `interiority/elijah_book1.md`, `interiority/noah_book1.md`, `interiority/oliver_book1.md`, `interiority/olivia_book1.md`, `interiority/jasper_book1.md`, `interiority/hank_book1.md` — per-character per-book internal arc documents.
+
+5. **Chapter frontmatter demo** applied to `m3_13_service_for_one.md` as the first retrofit. Mass retrofit across remaining 21 chapters is pending author sign-off on the demo's shape.
+
+**Structural rationale:**
+
+- The matrix is the at-a-glance view (chapter × character × register/state). Interiority docs are the depth. Subplot threads are the open-thread audit. Canon location rules are the geography enforcement. Each file does one job.
+- Stories drive the canon — these tracking files are derivative of the stories, not constraints on them. When story and tracking conflict, story wins and tracking updates.
+- Designed to scale to six books. Books 2–6 will each get their own `tracking/` directory inheriting from `_story_template/`.
+
+**Open items surfaced by the retrofit (for author review):**
+
+- Ch22 "October night" line conflicts with mid-November landing (math from "two weeks later" anchor). Pick: change to "ten days later" or "November night."
+- Ch12 → Ch13 compression: mogul retaliates with full OnlyFans-aware C&D in ~3 days from Brenda's call. Either push C&D arrival to Friday Oct 30 OR insert a brief beat showing the corporate machinery building.
+- Ch14 family weight beat (Elijah's sister/mother): pay off with one Ch16 or Ch21 callback, OR cut. Currently the seed goes nowhere.
+- Ch15 Oliver's online life parenthetical: confirm this is the right Book 2 seed level. Currently fine.
+- Sofia's silence (Ch13 → never): plant noticed-silence in Ch15-16, hint reconnection in Ch22, payoff in Book 2.
+- Ch20 Hank's decision to return: add one beat showing internal reckoning.
+- Ch22 reversion beats (Jasper, Oliver, Noah's apology, Emma's OnlyFans feelings): the audit lists specific small fixes.
+
+**Files touched:**
+- `canon library/locations_registry.md` — Canon Rules section added
+- `stories/_story_template/chapters/00_chapter_guide.md` — Chapter frontmatter spec added
+- `stories/_story_template/tracking/` — new directory with 4 template files + interiority subdirectory
+- `stories/01. The Case of the Missing Hot Sauce/tracking/` — populated with 4 files + 7 interiority docs
+- `stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md` — frontmatter applied (demo)
+- `CANON_CHANGELOG.md` — this entry
+
+---
+
 ## 2026-04-07 — Expanded to 22-chapter structure (5+7+5+5)
 
 **Trigger:** Author review identified Meals 3–4 as underserved. "Bad guys close in" was compressed, the campaign deserved a three-act arc (hope → doubt → breakthrough), and Jasper's solo journey to find Hank needed its own chapter.

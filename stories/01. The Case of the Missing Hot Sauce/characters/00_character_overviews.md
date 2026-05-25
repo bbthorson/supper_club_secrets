@@ -11,10 +11,10 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **First Appearance:** Chapter 1 (by absence); Chapter 17 (in person)
 * **Key Detail:** His great-grandmother brought Fish Pepper seeds from Virginia to Philadelphia in the 1920s. The recipe is four generations old.
 
-### Brenda Chen → [brenda_chen.md](brenda_chen.md)
+### Brenda Marquez → [brenda_marquez.md](brenda_marquez.md)
 * **Role:** Jasper's commercial real estate contact who inadvertently tips off the mogul
-* **First Appearance:** Chapter 9 (phone call); Chapter 11 (text message)
-* **Key Detail:** Works at Apex Realty. Recognized the LLC from her own client's filings.
+* **First Appearance:** Chapter 10 (phone call); Chapter 10/12 (warning text Jasper misses)
+* **Key Detail:** Works at Apex Realty. Recognized the LLC from her own client's filings. (Surname changed from Chen to Marquez on 2026-04-07.)
 
 ### Marcus → [marcus_gilded_fern.md](marcus_gilded_fern.md)
 * **Role:** Owner of The Gilded Fern boutique; Olivia's neighborhood intel source

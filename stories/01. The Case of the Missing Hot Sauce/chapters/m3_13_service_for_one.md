@@ -1,3 +1,47 @@
+---
+chapter: 13
+title: "Service for One"
+meal: 3
+beat: "Bad Guys Close In"
+day: "Monday → Wednesday"
+date: "2026-10-12 to 2026-10-14"
+time: "Mon late morning → Tue afternoon → Wed 2:47 PM"
+location:
+  - "Emma's apartment"
+  - "McGolrick Park (Wed midday — closed; Emma walks past empty stalls)"
+pov: "Emma"
+characters_present:
+  - "Emma (centerstage)"
+  - "Process server (Wed 2:47 PM)"
+  - "Olivia (phone call, end of chapter)"
+characters_referenced:
+  - "Sofia (texted, silent — thread flag)"
+  - "Dorothy (texted, no read receipt — silence parallels Sofia)"
+  - "The supper club group (group chat)"
+  - "Elijah (voicemail)"
+registers:
+  Emma: "private → under-pressure (post-C&D)"
+  Olivia: "private (phone) → public (overdrive)"
+clues:
+  planted:
+    - "Confirmation: McGolrick has been infiltrated — the man in the dark coat with Dorothy"
+  revealed:
+    - "Pike's machinery has reached Emma's neighborhood"
+    - "Pike knows about Kinky Kitchen"
+threads:
+  active:
+    - "Main mystery: Pike retaliates"
+    - "B-plot: Emma's OnlyFans weaponized (introduced sharply via C&D note)"
+  touched:
+    - "Sofia silence (Mon-Tue texts unanswered) — see subplot_threads.md → 'Sofia'"
+    - "Dorothy cold beat — see subplot_threads.md → 'Dorothy'"
+beat_purpose: "Bring the legal threat home. Emma's safety is no longer abstract. The intimidation has visible neighborhood reach."
+audit_notes:
+  - "Day-jump Mon → Tue → Wed compresses three days into one chapter. See timeline_ledger.md → Compression audit."
+  - "Emma's call to Elijah goes to voicemail. This is the only place in the book Emma calls Elijah first — significant for the Emma/Elijah bond. Worth a Ch14 callback (he sees the missed call later)."
+  - "Dorothy cold beat moved upstream to Ch12 (Sunday morning, canon-legal market day). Ch13 carries Dorothy as text silence paralleling Sofia. See subplot_threads.md → Dorothy + CANON_CHANGELOG 2026-05-23 entry."
+---
+
 ## Meal Three
 
 ### Chapter Thirteen - Service for One
@@ -20,11 +64,15 @@ Emma typed a follow-up — *No worries if you're busy! Just wanted to say thanks
 
 By Wednesday morning, still nothing. The group chat had gone quiet too, the way group chats do once the adrenaline fades — everyone back in their lives, back at work, riding the warm glow without needing to tend it. Emma tried to focus on her article — a piece about autumn squash varieties for a food blog that paid just enough to justify the effort — but she kept glancing at her phone. She told herself she was waiting for her editor to respond. She wasn't.
 
-Around noon, she walked to McGolrick to clear her head and pick up some sage. Dorothy was at her usual spot, surrounded by honey jars catching the thin October sunlight. Emma waved and started to walk over, but Dorothy's expression stopped her. The honey vendor was talking to a customer — a man in a dark coat, nice shoes, not the usual McGolrick crowd. Dorothy's smile was fixed, the kind of smile that has nothing to do with being happy. She was nodding at whatever he was saying, but her hands were busy reorganizing jars that didn't need reorganizing.
+Around noon, she walked toward McGolrick out of habit. The market was closed midweek — she knew that, had known it walking out the door — but her feet had taken her there anyway. The center of the park where the stalls usually went up sat empty in the thin October sunlight: just grass and a couple of dog walkers and the absence of everything that made a Sunday morning what it was. She stood there longer than she needed to.
 
-The man thanked her and walked away. Emma caught Dorothy's eye. Dorothy looked at her for a moment — just looked, no wave, no greeting — and then turned to help another customer as if she hadn't seen her at all.
+On the way home, she pulled out her phone and scrolled to Dorothy's number. They didn't text often — Dorothy was a stop-by-the-stall, swap-honey-recommendations kind of friend, not a phone friend — but Emma had her number from a candle-making thing Olivia had dragged them both to two summers ago, and the Sunday-morning briskness had been needling at her since.
 
-Emma bought her sage from the herb vendor two stalls down and went home with a feeling in her chest she couldn't name. It wasn't fear, exactly. It was the sensation of standing in a room where the temperature has dropped two degrees and you can't find the open window.
+*Hi Dorothy — it's Emma. I have news about Hank. Let me know when you have a minute.*
+
+The message delivered. The read receipt didn't come.
+
+By the time she got home, the missing receipt had joined Sofia's silence in her chest as a single weight she couldn't quite locate. It wasn't fear, exactly. It was the sensation of standing in a room where the temperature has dropped two degrees and you can't find the open window.
 
 ---
 

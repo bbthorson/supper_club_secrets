@@ -1,4 +1,4 @@
-# Brenda Chen
+# Brenda Marquez
 
 ## Overview
 A sharp commercial real estate professional and old acquaintance of Jasper's who inadvertently becomes the bridge between the group's investigation and the mogul's retaliation.
@@ -44,10 +44,10 @@ Brenda serves a specific structural purpose in the story: she's the mechanism by
 
 ## Notes
 * Brenda never appears on-page — she exists entirely through Jasper's phone call (Ch. 9) and her text message (Ch. 11).
-* Her last name is Chen (established in Ch. 9: "Brenda Chen from Apex Realty").
+* Her last name is Marquez (established in Ch. 10 after the 2026-04-07 surname change; previously Chen). Apex Realty.
 * She's a useful character to bring back in future books if the group ever needs a reluctant real estate contact — someone who owes them one.
 
 ## Lore Tracking (Book 1)
-* First mentioned: Chapter 9 (Jasper's phone call)
-* Text message: Chapter 11 (the warning that tips Jasper off)
-* Referenced in Jasper's confession: Chapter 14
+* First mentioned: Chapter 10 (Jasper's phone call from Chelsea / High Line, Friday)
+* Text message: Chapter 10 end / Chapter 12 (warning Jasper misses, then betrayal call to mogul's people late Friday night)
+* Referenced in Jasper's confession: Chapter 15

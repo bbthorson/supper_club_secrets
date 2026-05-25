@@ -78,7 +78,7 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Brings cheap wine with fancy labels — Noah calls him out; becomes a running joke
 - Proposes the investigation and the potluck reconvene idea (Ch. 5)
 - Swaps dish assignments with Noah: takes wine, Noah takes appetizers
-- Calls Brenda Marquez (old acquaintance in commercial real estate) with the LLC number (Ch. 9)
+- Calls Brenda Marquez (old acquaintance in commercial real estate) with the LLC number (Ch. 10)
 - Brenda tips off the mogul — Jasper inadvertently causes the C&D
 - Confesses to the group; admits he's always felt like "the liability" (Ch. 14)
 - Noah lashes out; Jasper is genuinely hurt — "I don't know any other way to be useful"
@@ -87,7 +87,7 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Finds Hank in a greenhouse, tells him the whole story, invites him to dinner
 - Brings Hank to the final dinner — the real victory (Ch. 18)
 - Drives an "ancient Subaru"
-- His apartment described: looks like "a thrift store and a bookstore had a fight" — surprisingly nice Chelsea place with organized vinyl collection (Ch. 9)
+- His apartment described: looks like "a thrift store and a bookstore had a fight" — surprisingly nice Chelsea place with organized vinyl collection (Ch. 10)
 - Wears a wrinkled flannel during the confession scene — not his usual performative chaos, just genuinely disheveled (Ch. 14)
 - Nearly hits the overhead lamp while gesturing during the theory competition (Ch. 4) — physical comedy beat
 - Phone call montage to find Hank: calls nurseries in Baltimore, a seed collective in Delaware, tracks the Fish Pepper connection to Meadowlight (Ch. 17)

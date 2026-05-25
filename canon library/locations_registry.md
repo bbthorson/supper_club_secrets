@@ -139,3 +139,47 @@ Supper club dinners rotate by book/meal. Track which locations have been used:
 - Williamsburg is portrayed as gentrified but still maintains pockets of local community
 - The Coffee Hole is where Olivia reconnected with Elijah
 - The Gilded Fern is on Bedford Avenue
+
+---
+
+## Canon Rules: Schedules & Operating Constraints
+
+Hard rules. If a scene violates one of these, the scene is wrong — not the rule. These exist to catch geography and timing slips before they ship.
+
+### Farmers Markets
+
+| Market | Days | Hours | Notes |
+|--------|------|-------|-------|
+| **McGolrick Park (Down to Earth)** | Sunday ONLY | 9am–2pm, year-round | Smaller, community-feel. Emma's home market. Dorothy and Hank's Sunday stalls. |
+| **McCarren Park Greenmarket** | Saturday ONLY | Morning–early afternoon | Larger market. Hank's Saturday stall. Near Sofia's cheese shop. |
+
+**Rule:** Emma cannot be at McGolrick on a Saturday or McCarren on a Sunday. If a chapter needs a market scene on a different day, the market is closed and stalls are empty.
+
+### Sofia's Cheese Shop
+- **Open:** Tuesday–Sunday. Closed Mondays.
+- **Rule:** Emma cannot drop in on a Monday. Sofia does not text during closed hours.
+
+### The Gilded Fern (Marcus)
+- **Open:** Daily, 11am–7pm.
+- **Rule:** Marcus is reachable by text during business hours; slower response after 7pm.
+
+### Elijah's Workplace
+- **Schedule:** Standard finance hours, occasional weekend work. He works late Sundays only when a deadline forces it.
+- **Rule:** Elijah arriving late on a Sunday needs a reason (deadline, project crunch). He doesn't routinely work weekends — overtime is the signal that something is up.
+
+### NY Public Library (Rose Main Reading Room)
+- **Open:** Monday–Saturday. Closed Sunday.
+- **Hours:** Mon–Thu 10am–8pm, Fri–Sat 10am–6pm.
+- **Rule:** Oliver cannot research at NYPL on a Sunday. If he does library work on Sunday, it's a different branch or he's at home.
+
+### NYC 311 Call Center (Jasper's Job)
+- **Schedule:** 24/7 operation; Jasper works variable shifts.
+- **Rule:** Jasper's availability is flexible — when he's needed for an investigation, his shift is "off" or "tomorrow." Avoid pinning him to a fixed weekly schedule.
+
+### Travel Times (Approximate)
+- Brooklyn ↔ Manhattan (subway): 30–45 min depending on line and time of day
+- McGolrick Park (Greenpoint) ↔ Sofia's / McCarren (Williamsburg): 15–20 min walk
+- Brooklyn ↔ Meadowlight Collective (PA): 3 hours driving each way (Jasper's Subaru)
+- Brooklyn ↔ Philadelphia: ~2 hours by car, ~1.5 hours by Amtrak Northeast Regional
+
+**Rule:** A character cannot be at two locations in less time than the travel allows. Jasper cannot find Hank and be back in Brooklyn the same night.

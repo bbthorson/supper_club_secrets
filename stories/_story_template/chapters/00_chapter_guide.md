@@ -1,5 +1,55 @@
 # Chapter Writing Guide
 
+## Chapter Frontmatter (REQUIRED)
+
+Every chapter file begins with a YAML frontmatter block. The frontmatter is the chapter's source of truth for timeline, location, voice register, and threads — it forces you to know what the chapter is doing before you write or edit prose. The block is stripped automatically at epub build time.
+
+### Spec
+
+```yaml
+---
+chapter: 13
+title: "Service for One"
+meal: 3
+beat: "Bad Guys Close In"                 # Save the Cat beat or sub-beat
+day: "Monday"
+date: "2026-10-26"                        # ISO. Use absolute dates, not relative.
+time: "morning to 2:47 PM"                # Time-of-day or span
+location:
+  - "Emma's apartment"
+  - "McGolrick Park (referenced)"         # Mark as (referenced) if not the active scene
+pov: "Emma"
+characters_present:
+  - Emma
+  - "Process server (incidental)"
+  - "Dorothy (offstage, referenced)"
+registers:                                # Voice register per character in scene
+  Emma: "private → under pressure"
+clues:
+  planted: []                             # Foundation / Misdirection / Connective / Confirmation / Keystone
+  revealed:
+    - "C&D arrives"
+    - "Kinky Kitchen is known to the mogul"
+threads:                                  # Cross-reference subplot_threads.md
+  active:
+    - "Main: Pike retaliates"
+    - "B-plot: Emma's OnlyFans weaponized"
+  touched:
+    - "Sofia silence (texts unanswered)"
+beat_purpose: "Bring the legal threat home. Emma's safety is no longer abstract."
+---
+```
+
+### Rules
+
+1. **`date` is absolute.** Never write `date: "the next day"`. Use ISO format. This is the single biggest defense against timeline drift across chapters.
+2. **`location` is canonical.** Use the exact name from `canon library/locations_registry.md`. Check the Canon Rules section for schedule constraints (markets, shops, etc.) before assigning a date.
+3. **`registers` only lists characters in active scene.** A character mentioned but not present doesn't get a register. If a character is in the scene but no register is listed, that's a flag — they're probably reduced to set dressing.
+4. **`threads` must reference an entry in `tracking/subplot_threads.md`.** If a thread is touched here, it should appear there with this chapter cited.
+5. **`beat_purpose` is one sentence.** What does this chapter accomplish that no other chapter does? If you can't answer, the chapter probably doesn't need to exist.
+
+---
+
 ## Chapter Structure
 
 Each chapter should accomplish **1-2 story beats** (see Writing Guide). Length follows function:
