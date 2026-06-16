@@ -9,6 +9,7 @@ An idealistic and sometimes naive techie who believes technology can solve any p
 *   Naive and easily swayed by new ideas, except when they come from Jasper.
 *   Pedantically minimalist, obsessed with owning only one type and color of t-shirt.
 *   When trying to persuade others, he tends to lead with technical jargon before resorting to oversimplified logic if he isn't being understood.
+*   Inclined to a clean, almost meritocratic faith in systems and markets — if something wins, it was probably the better solution; build the right thing and you'll be fine. He rarely clocks the head start his comfortable upbringing gave him, which makes him a natural foil to Elijah when the talk turns to success and who deserves it.
 
 ## Background
 

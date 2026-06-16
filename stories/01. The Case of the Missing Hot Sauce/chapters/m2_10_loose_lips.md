@@ -14,19 +14,27 @@ He tapped her name and put the phone to his ear. She picked up on the second rin
 
 He spent the next ten minutes laying out the story with his signature chaotic flair—a whirlwind of speculation and half-facts that somehow managed to convey the core of their discoveries. He gave her the LLC number. He described what Oliver had found, what Noah was tracing, what Olivia's shopkeeper source had said about Hank being jittery. He painted a picture of their group of amateur detectives with the kind of enthusiasm that made Brenda laugh despite herself.
 
-Brenda, who had long ago learned to filter Jasper's narrative style for the essential details the way you'd pan for gold in a fast-moving river, was intrigued despite herself. "Jasper, you are a menace," she said, a smile in her voice. "But this is juicy. Let me make a call."
+Brenda, who had long ago learned to filter Jasper's narrative style for the essential details the way you'd pan for gold in a fast-moving river, was laughing along—right up until he read out the LLC number.
 
-"You're the best!" Jasper beamed.
+The laugh stopped. There was a pause on the line, a half-second too long, the sound of someone setting down a cup very carefully.
 
-"Just—be careful, okay?" Brenda added, her tone shifting. "If this is who I think it might be, these aren't small-time operators. They don't appreciate attention."
+"Where did you say you got that number?" Her voice had changed. The warmth was still there, but stretched thin over something underneath it.
 
-"Always am!" Jasper said cheerfully, already bouncing on his heels, already composing the narrative of his triumph. He could see it: the moment at dinner when he'd drop the name, and the whole table would go quiet. It was going to be magnificent.
+"Public filing! My friend Oliver's a wizard with—"
 
-He hung up and walked home along Tenth Avenue, his stride long and loose, the October wind catching his flannel jacket. He felt electric. Useful. Like the scattered connections in his head had, for once, produced something of genuine value—a thread only he could have pulled.
+"Jasper." She cut him off, quiet and serious in a way he'd almost never heard from her. "Listen to me. I can't help you with this. I'm not going to say anything else about it, and I need you to do the same. Drop it. Whatever you and your friends think you're doing—stop."
+
+"Okay, now you HAVE to tell me," Jasper said, delighted, completely misreading the temperature. "That is exactly what someone would say if it were a real conspiracy—"
+
+"I'm serious." A breath. "These are not people who appreciate attention. Please. For me. Let it go."
+
+"Always do!" Jasper said cheerfully, hearing the drama and missing the fear entirely.
+
+He hung up and walked home along Tenth Avenue, his stride long and loose, the October wind catching his flannel jacket. He felt electric. Useful. He hadn't gotten a name—Brenda had clammed up before he could pry one loose—but somehow that made it better. He'd rattled something big enough to spook a woman who brokered nine-figure deals for a living. He could already see the dinner: the moment he described how fast she'd shut down, and the whole table going quiet. It was going to be magnificent.
 
 He didn't notice the three missed calls from Brenda that would come later that evening, or the text she'd send at 11 PM that would sit unread on his lock screen all night.
 
-Because Brenda, sitting at her desk at Apex Realty, had recognized the LLC number. She'd seen it in filings from a client her firm worked with—a very important, very litigious client whose business she couldn't afford to jeopardize. She'd weighed her options: her loyalty to an old friend versus her obligation to the firm that paid her mortgage. It wasn't even close, really. It was the kind of calculation that felt terrible and obvious at the same time.
+Because Brenda, sitting at her desk at Apex Realty, had recognized the LLC number the instant he read it. She'd seen it in filings from a client her firm worked with—a very important, very litigious client whose business she couldn't afford to jeopardize. Warning Jasper off had been pure instinct. But instinct wasn't protection, and she knew it. She weighed her options: her loyalty to an old friend versus her obligation to the firm that paid her mortgage. It wasn't even close, really. It was the kind of calculation that felt terrible and obvious at the same time.
 
 She picked up her phone and made a call she would later regret.
 

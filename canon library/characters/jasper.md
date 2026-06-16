@@ -82,6 +82,7 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Brenda tips off the mogul — Jasper inadvertently causes the C&D
 - Confesses to the group; admits he's always felt like "the liability" (Ch. 14)
 - Noah lashes out; Jasper is genuinely hurt — "I don't know any other way to be useful"
+- The class fault line surfaces glancingly in the fracture: his comfortable Chelsea apartment marks him as the one person who can be cavalier about lost income, and it stings when the group notes it. The source of that cushion (old money) stays undisclosed — seeded, not spent, held for Book 6 (Ch. 15)
 - Assigned redemption mission: find Hank (Ch. 15)
 - Tracks Hank through the Fish Pepper connection — twenty phone calls to nurseries, drives three hours to Meadowlight Collective (Ch. 17)
 - Finds Hank in a greenhouse, tells him the whole story, invites him to dinner

@@ -14,6 +14,8 @@ It had felt amazing for approximately twelve hours. Then the panic set in.
 
 Now, three weeks into freelance food writing and a vague plan to "build her brand" on Instagram, Emma was discovering that being your own boss mostly meant being broke and anxious. She had four article assignments due this month, a handful of private cooking lessons lined up, and a few other things she was trying to make work. It was just barely enough to cover rent—and only if she didn't think too hard about the math. Her savings account was doing that thing where the numbers got small enough that she'd stopped looking at them, the financial equivalent of closing your eyes on a roller coaster.
 
+What needled at her wasn't only the money. It was the distance between the woman who'd untied her apron like the heroine of some movie and the woman who now did quiet arithmetic in the grocery line. She'd made leaving look easy. She hadn't told anyone how fast easy had curdled into scared—how wide that gap had gotten, or how hard she worked to keep anyone from seeing it.
+
 But today wasn't about survival. Today was about joy. She'd invited her closest friends over for dinner tonight—a test run of some seasonal recipes she could photograph for her portfolio. No pressure, no paying customers, just cooking for people she loved.
 
 First, though, she needed ingredients. And for that, she needed the McGolrick Park farmers market.
@@ -81,6 +83,8 @@ Emma pulled out her phone and found Hank's website—just a simple landing page 
 Generic voicemail. No personal greeting, no theatrical message, no invitation to "join the hot sauce revolution" or whatever Hank would've said. Just the robotic carrier default.
 
 She hung up, a knot of unease tightening in her stomach. That wasn't like him. Hank loved talking about his hot sauce. He'd never miss a chance to tell his story—let alone abandon the market, pull his inventory, and go silent.
+
+As she tucked the bottle into her jacket, she noticed a man a few stalls down who didn't fit the Sunday-morning crowd. A well-cut overcoat, shoes that had never met a puddle, and the easy, practiced warmth of someone used to being liked. He was asking the apple seller something, nodding along, and when she shook her head he thanked her as though she'd done him a real kindness. His gaze drifted once across the market and snagged, for just a second, on the empty corner where Hank's stall should have been. Then he moved on. Emma thought nothing of it—a developer scouting brunch spots, maybe, or somebody's visiting brother. The market got all kinds.
 
 By the time Emma headed home, her reusable bags heavy with squash and apples and root vegetables, the bottle of hot sauce tucked carefully into her jacket pocket, the mystery of the missing hot sauce vendor had taken up residence in her mind and showed no signs of leaving. It was easier to think about Hank's problems than her own, she realized. Easier to wonder about his disappearance than to sit down with a calculator and figure out how many months she had before the math stopped working entirely.
 

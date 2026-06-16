@@ -1,8 +1,20 @@
 # Handoff — Book 1 Work In Progress
 
-Last updated: 2026-05-25
+Last updated: 2026-06-15
 
 This is a working punch list for picking up Book 1 (*The Case of the Missing Hot Sauce*) on another machine. Decisions captured here are authoritative — update as you go.
+
+---
+
+## ⏩ Current status (2026-06-15) — START HERE
+
+Major revision pass underway. The authoritative resume document is **`stories/01. The Case of the Missing Hot Sauce/revision/completion_plan_meals_3_4.md`** — read it first. Supporting docs in the same `revision/` folder: `tier1_high_level.md` (locked high-level decisions), `tier2_meal_level.md` (per-meal assessments), `meals_1_3_revision_plan.md`.
+
+Done this pass: Book 1 metadata/canon reconciled; `protocol/ARCHITECTURE.md` (AT Protocol layer); feed-based POV adopted as canon; Meal 1 + Meal 2 edits; Meal 3 Ch13 and Ch14 fully reworked; character docs updated (Emma, Pike, Elijah, Noah, Jasper). Key direction change: **Emma's secret stays opaque/deferred** — villain leverage is now an economic squeeze, Pike appears on-page (Ch13), and Emma confides her precarity (not the account) to Olivia. See `CANON_CHANGELOG.md` 2026-06-15 entries.
+
+Remaining: finish Meal 3 (Ch15-17, light), rewrite Meal 4 (Ch18-22, includes drafting the Ch19 & Ch21 stubs), then the verification/reconciliation pass. All detailed in the completion plan.
+
+The older punch list below predates this pass; some items are now resolved or superseded — defer to the completion plan where they conflict.
 
 ---
 

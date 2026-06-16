@@ -8,6 +8,7 @@ The rigid analyst with a pragmatic approach and a quietly empathetic nature.
 *   A logical thinker who prefers to focus on facts and evidence.
 *   When presented with wild theories, his pushback often comes in the form of dry, sarcastic humor.
 *   While grounded, he secretly enjoys the chaos and energy of his friends' investigations.
+*   Carries a hard-earned, complicated view of success: he's watched merit, luck, and connections all masquerade as one another. He neither buys the clean meritocracy story nor fully rejects his pride in what he's built. This makes him the group's sharpest voice when the talk turns to who "earns" their place — a thread that becomes central in his own book.
 
 ## Background
 
@@ -70,11 +71,11 @@ He's not sure how he ended up with a group of friends who solve neighborhood mys
 - Texts the group: "That's serious money" — the message that convinces Noah to take the investigation seriously
 - Draws second course (fennel-citrus salad) for Meal 2 potluck; group begs him not to make bland quinoa
 - Analyzes the cease and desist letter — declares it "toothless" but acknowledges the intimidation is real (Ch. 13)
-- Calls Emma's OnlyFans "a market inefficiency monetized with minimal overhead costs" — dry validation (Ch. 13)
+- Pushes back hardest on Pike's "mercy"/meritocracy logic at the emergency dinner, from lived experience — an early seam of the success/who-earns-their-place debate that becomes central in his own book (Ch. 14)
 - Partners with Oliver to build the evidence press kit for the swarm strategy (Ch. 15)
 - Described as "expensive enough at compartmentalizing" his stress that no one can tell (Ch. 16)
 - His mother texts him during the investigation about his sister's car situation — a reminder that family obligations never pause (Ch. 8)
-- References "E. Miller Financial Consulting" as what he'd call his hypothetical firm — surname established as Miller (Ch. 13)
+- Surname established as Miller — he riffs on "E. Miller Financial Consulting" as his hypothetical firm (Ch. 14)
 - Builds financial model during lunch break; rediscovers curiosity he hasn't felt since freshman econ at UPenn (Ch. 8)
 - Adds pomegranate seeds and toasted pistachios to his fennel salad for the final dinner; buries quinoa under "actual flavor" — strategic, not a concession (Ch. 18)
 - Growth: Begins to take calculated risks with the group rather than staying on the sidelines

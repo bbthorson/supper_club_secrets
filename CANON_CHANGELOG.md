@@ -4,6 +4,73 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-06-15 — Book 1 direction: keep Emma's secret opaque; Meal 1 decisions
+
+**Trigger:** Tier 2 meal-level pass, Meal 1. Author decisions.
+
+**Decisions:**
+
+1. **Emma's secret income stays opaque throughout Book 1 (major direction change).** The reader and the group never learn what it is. The developer's retaliation lands as **lost assignments and dried-up revenue** (economic pressure), not exposure. Emma **confides in Olivia privately** (not a group confession). The full reveal is **deferred to a later book**. The underlying canon fact (the secret itself) is unchanged in `emma.md`; only its Book-1 revelation changes. Emma's *on-page* vulnerability in Book 1 becomes her shame over the dramatic Bistro Lavande exit and her gig-economy precarity, confided privately to Olivia; the secret income is the opaque deeper layer beneath it. **Supersedes** the prior arc (C&D note exposing "Kinky Kitchen" in Ch13, group confession in Ch14, goes public in Ch18).
+
+2. **Bottle timeline fix (Ch2):** "gave it to me yesterday" → "this morning" (Ch1–5 are all Sun Oct 4). Flagged by the author as a validation case for the activity-stream/feed model, which would catch such `storyDate` contradictions automatically.
+
+3. **Plant Garrett Pike on-page seed in the Ch1 market scene** (Tier 1 #4), to set up his later on-page appearance.
+
+**Documented now in:**
+- `stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md` — logline, premise, B-story section, seeds
+- `stories/01. The Case of the Missing Hot Sauce/revision/tier2_meal_level.md` — Meal 1 findings
+- `world building/04_writing_guide.md` — B-plot line
+- `protocol/ARCHITECTURE.md` — continuity-check note
+- `CANON_CHANGELOG.md` — this entry
+
+**Downstream to reconcile during the back-half rewrite (NOT changed yet):**
+- `canon library/continuity.md` — remove the "Emma's OnlyFans is now public" end-state; reflect opaque + Olivia-only
+- `canon library/characters/emma.md` — lore tracking (drop the Ch12 C&D-references-secret, Ch13/Ch14 confession, Ch18 public beats; add opaque + confides in Olivia). Keep the Secrets section (underlying truth).
+- `canon library/series_plan.md` — Book 1 "Secret Addressed" line and the after-Book-1 "Public Knowledge" note
+- `tracking/character_matrix.md` — the Ch14 "confesses about Kinky Kitchen" beat
+- `tracking/timeline_ledger.md` — C&D / OnlyFans-intel / confession references
+- Chapters `m3_13`, `m3_14`, `m4_18` — the exposure / confession / goes-public beats
+
+---
+
+## 2026-06-15 — Feed-based POV rule adopted (replaces "Emma-only" framing)
+
+**Trigger:** Book 1 tier-1 high-level pass surfaced that the stated POV rule ("Emma is the only POV, no mind-reading") contradicted the draft (Meal 2's solo single-character chapters; per-character interiority files). Author confirmed the redefinition.
+
+**What changed:** POV is now a **feed-based model**. Every scene belongs to a feed (a place or a character's thread). Emma's feed is the spine; limited excursions into other feeds are allowed and create deliberate dramatic irony; meals are convergence points where feeds surface into group knowledge; no head-hopping within a scene. This mirrors the protocol layer's locations/characters-as-feeds model, so prose written to feeds projects cleanly to records later.
+
+**Files touched:**
+- `ai_instructions.md` — §5 rewritten; §8 red line updated
+- `world building/04_writing_guide.md` — POV & Perspective section rewritten
+- `protocol/ARCHITECTURE.md` — cross-link added (location/group feeds ↔ prose POV)
+- `stories/01. The Case of the Missing Hot Sauce/revision/tier1_high_level.md` — decision #2 records the rationale
+- `CANON_CHANGELOG.md` — this entry
+
+---
+
+## 2026-06-15 — Book 1 metadata finalized (story bible created, headline facts reconciled)
+
+**Trigger:** Phase 1 of the current work plan — finalize Book 1's canonical metadata before light planning of Books 2–6 and the Book 1 text revision.
+
+**What changed:**
+
+1. **New canonical story bible:** Created `stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md` as the single source of truth for Book 1 story-level facts (logline, premise, four-meal map, chapter list with one-line summaries, counts, status, arc, secret, full cast, locations, series position, open issues).
+
+2. **Corrected headline facts (story drives canon):** Verified against the actual chapter files. Book 1 is **22 chapters** (5/7/5/5) and **~37,400 words**, not the "18 chapters / ~33,400 words" previously recorded. Status changed from "COMPLETE" to "DRAFT — revision pending": Meals 1–2 are tight, Meals 3–4 need revision, and Ch19 (145 words) and Ch21 (161 words) are stubs.
+
+3. **Secret-reveal chapter corrected:** The OnlyFans reveal sequence is C&D exposure in Ch13, Emma's confession to the group in Ch14, public by Ch18. `series_plan.md` previously said "revealed to the group in Ch. 13," which conflicted with the story layer (`meal_summaries`, `timeline_ledger`, `character_matrix` all place the confession in Ch14).
+
+**Files touched:**
+- `stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md` — new file
+- `canon library/series_plan.md` — Book 1 header, status line, secret line
+- `README.md` — Book 1 status note
+- `CANON_CHANGELOG.md` — this entry
+
+**Flagged for the Book 1 revision phase (not changed now):**
+- `canon library/characters/emma.md` lore tracking has chapter references that appear off by one against the current 22-chapter numbering (e.g. C&D listed at Ch12 and confession at Ch13, vs. Ch13/Ch14 in the story layer). This looks like a residue of the earlier 18-chapter numbering. Defer a full chapter-reference audit of the character files until the prose is finalized, since the stub chapters (19, 21) and compression fixes will shift numbering further.
+
+---
+
 ## 2026-05-23 — Ch22 small additions + Elijah family weight decision
 
 **Trigger:** Author yes/no responses to the docket questions.

@@ -19,10 +19,10 @@ He's the kind of person who uses the phrase "rising tide lifts all boats" withou
 ### Where He Came From
 Garrett grew up middle-class on Long Island. Not rich, not poor. His father managed a chain steakhouse; his mother did bookkeeping for a real estate office. He grew up around the margins of the food industry and real estate — close enough to see the money, far enough to resent not having it.
 
-He put himself through SUNY with restaurant jobs, then spent his twenties managing other people's restaurants in Manhattan. He was good at it — charming with customers, sharp with numbers, relentless about detail. But he watched owner after owner make fortunes off his eighty-hour weeks, and he decided he'd never build someone else's dream again.
+He put himself through SUNY with restaurant jobs, then spent his twenties working the margins of the city's food scene. His real start was a noodle cart in Red Hook, about fifteen years ago — cheap, scrappy, and genuinely good. The local food community took him in: vendors gave him advice, shared contacts, sent customers his way, and cheered when the cart's following grew big enough for him to open a real storefront. For a while, he was one of them. He has never quite registered that this is what he was — or what he would later do to people exactly like the person he used to be.
 
 ### How He Got Here
-His first restaurant (a farm-to-table place in the East Village, opened 2011) was a genuine labor of love. He personally sourced ingredients. He knew every farmer's name. He cared about the food. It was moderately successful — enough to prove the concept, not enough to make him wealthy.
+His first brick-and-mortar — a farm-to-table place in the East Village, opened on the goodwill the Red Hook cart had earned him — was a genuine labor of love. He personally sourced ingredients. He knew every farmer's name. He cared about the food. It was moderately successful — enough to prove the concept, not enough to make him wealthy.
 
 His second and third restaurants were smarter. He'd learned that the real money wasn't in food — it was in real estate positioning. Open a trendy restaurant, raise the neighborhood profile, watch property values climb, sell at the right moment. The food was still good, but it was increasingly a vehicle for the real play.
 
@@ -49,6 +49,12 @@ Garrett cannot see the difference between "offering someone a deal" and "leaving
 
 He applies the same logic to neighborhoods. He doesn't see displacement; he sees transformation. He doesn't see cultural erasure; he sees market correction. His blind spot isn't ignorance — it's a deeply held belief that economic logic is morally neutral.
 
+### The Mercy Narrative
+Garrett genuinely believes he is the *kind* version of an outcome that was coming regardless. In his telling, a man like Hank — hand-bottling sauce from a single heirloom pepper, no trademark, no counsel, no scale — was always going to be erased by someone. So his buyout offer wasn't predation; it was a soft landing. "I'm always the soft landing," he says, and he means it. He cannot see that he is the very force he claims to cushion people from — that he manufactures the inevitability he then mercifully softens.
+
+### The Smugness of Success
+Beneath the warmth is a serene certainty that he understands the world better than the people he's steamrolling. He's *been right*, commercially, for years, and he treats that track record as proof of a deeper wisdom. Toward a freelancer with a romantic idea about small vendors he is almost fond — *you'll learn* — which is more infuriating than contempt. Challenge him directly and the certainty wobbles: he over-explains, piling on words about builders and rising tides, and the more he talks the less sure he sounds. This is his tell. (See Ch. 13, the market confrontation with Emma.)
+
 ### Under Pressure
 When the swarm strategy hits and his investor calls start going sideways, Garrett doesn't rage or threaten. He gets quiet and strategic. He calls his lawyers first, his PR person second, and his accountant third. His instinct is to contain and control — issue a non-apology, reframe the narrative, wait for the news cycle to move on.
 
@@ -65,13 +71,13 @@ The waterfront restaurant, open by December 1st. A Michelin star within two year
 To be seen as someone who builds, not someone who takes. His entire self-image depends on the narrative that he creates value. If the Hank story reframes him as someone who destroys value — who takes a man's heritage and files a patent on it — his identity collapses.
 
 ### Why He Escalated
-The C&D against Emma wasn't his idea — it was his lawyer's. But he approved it because Emma's investigation threatened the timeline, and because the Kinky Kitchen angle felt like leverage. He didn't think of it as blackmail; he thought of it as "creating incentive to cooperate." The distinction matters to him, even if it doesn't matter to anyone else.
+The pressure on Emma — the cancelled clients, the killed assignments, the lawyer's letter — wasn't rage; in his mind it was *management*. Her investigation threatened the timeline, so he applied the gentlest force he believed would work: make her freelance life quietly harder until she had every rational reason to stop. He even approached her in person to offer the easy way out (Ch. 13), genuinely believing that was a courtesy. He didn't think of any of it as ruining someone; he thought of it as "creating incentive to cooperate." The distinction matters enormously to him, even if it matters to no one else.
 
 ---
 
 ## Relationship to the Supper Club
 
-Garrett doesn't know the group exists as a unit until the swarm strategy hits. He knows Emma as "the chef who's been asking questions." He knows Hank as "the vendor who wouldn't sell." He doesn't know Oliver exists. He doesn't know that six people eating dinner together dismantled his project.
+Garrett identifies Emma early as "the chef who's been asking questions" and approaches her directly to warn her off (Ch. 13), confident that a personal word and some quiet economic pressure will settle it. He's aware she has "clever friends" helping, but dismisses them as amateurs. What he never grasps is the group as a *unit* — a loyal collective that doesn't operate transactionally. He knows Hank as "the vendor who wouldn't sell." He doesn't know Oliver exists. He doesn't know that six people eating dinner together will dismantle his project.
 
 This is the key irony: Garrett's entire model is built on understanding markets, trends, and consumer behavior. He has no framework for understanding friendship, loyalty, or collective action that isn't transactional. The supper club is invisible to him because it doesn't operate by any logic he recognizes.
 

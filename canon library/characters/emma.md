@@ -59,9 +59,11 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 
 ## Character Arc
 *   To learn to trust her intuition and see that her creative instincts are valuable, even when they don't work out perfectly.
+*   Holds a quiet conviction that small, independent makers can survive — that people *will* choose the vendor with the story and the history if they're given the chance — and that operators like Garrett Pike win by deleting that choice before it can be made. This belief is the spine of her opposition to Pike, and the Meal 4 swarm campaign is that belief proven true.
 
 ## Secrets
 *   Runs a secret "Kinky Kitchen" OnlyFans account where she creates mildly suggestive content, often involving food and cooking barefoot. It started as a financial desperation move; now it's her most reliable income. She fears being exposed and judged—both by the food industry and by her friends.
+    *   *Series handling: this secret stays **opaque** in Book 1 — never named on the page or to the group — and is held for a later book. In Book 1, Emma's on-page vulnerability is her financial precarity and the shame of the gap between her proud exit from Bistro Lavande and her scrabbling reality; that is what she confides to Olivia. See CANON_CHANGELOG 2026-06-15.*
 
 ---
 
@@ -76,15 +78,15 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 - Hosts all four meals in Book 1
 - Western PA dialect surfaces under stress during Meal 1 ("the kitchen just needs lookin' at")
 - Her "Big Hot Sauce" theory — played for laughs — turns out to be essentially correct
-- Receives cease and desist with handwritten threat referencing Kinky Kitchen (Ch. 12)
-- Confesses about OnlyFans to the group; receives universal support (Ch. 13)
+- Targeted by an escalating economic squeeze — cancelled private clients, a killed article, editors going cold — as Pike's retaliation for the group's digging (Ch. 13)
+- Confronted in person by Garrett Pike at the closed McGolrick market — his first on-page appearance; he frames the Hank buyout as mercy and the squeeze as concern for his "future employees" (Ch. 13)
 - Identifies key food influencers for the swarm strategy, including weaponizing industry pettiness (Chs. 15–16)
-- OnlyFans becomes public after the story goes viral; response is overwhelmingly supportive (Ch. 18)
+- Privately confides her financial precarity and the shame behind her proud exit to Olivia — the intimate beat that replaces the old group confession (Ch. 14)
 - Agrees to rotate hosting duties going forward
 - Railroad apartment layout; furniture includes a loveseat from a Greenpoint stoop, bulk folding chairs, and a milk crate Elijah sits on (Ch. 2)
-- Cooks barefoot on kitchen tile — a sensory detail that connects to both her comfort and her OnlyFans persona
-- Uses "this needs fixed" (Western PA) when the C&D arrives — grandmother's phrase for when things break (Ch. 12)
+- Cooks barefoot on kitchen tile — a comfort detail (and, beneath the surface, a quiet thread to the secret the book keeps opaque)
+- Uses "this needs fixed" (Western PA) during the Pike confrontation — grandmother's phrase for when things break (Ch. 13)
 - Savings described as "the financial equivalent of closing your eyes on a roller coaster" (Ch. 1)
 - Her chef's knife was a culinary school graduation gift to herself (Ch. 1)
 - Makes butternut squash soup throughout the story — the dish that was supposed to have Hank's hot sauce; finally completed with the sauce in the last chapter (Ch. 18)
-- Growth: Moves from defensive secrecy to openness; discovers her instincts were right all along
+- Growth: Moves from hiding her fear and precarity to letting Olivia and the group in; discovers her instincts — about Hank, about Pike, about people choosing the little guy — were right all along

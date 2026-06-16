@@ -20,7 +20,7 @@ Six friends along Brooklyn's G line solve neighborhood mysteries over weekly din
 |----------|--------|
 | Book order | Emma → Oliver → Elijah → Olivia → Noah → Jasper |
 | Monthly progression | Oct → Nov → Dec → Jan → Feb → Mar |
-| Structure | 4 meals per book, ~18 chapters, one month timespan |
+| Structure | 4 meals per book, one month timespan. Chapter count is not a target. Quick, crushable reads; brief chapters used for pace, notably in the Meal 3 crisis. |
 | Hosting rotation | See individual book entries |
 | Olivia/Oliver | Never in succession as focal characters |
 | Jasper | Last — his secret (old money) is the biggest series reveal |
@@ -30,18 +30,18 @@ Six friends along Brooklyn's G line solve neighborhood mysteries over weekly din
 
 ---
 
-## Book 1: The Case of the Missing Hot Sauce (COMPLETE)
+## Book 1: The Case of the Missing Hot Sauce (DRAFT — revision pending)
 
 **Focal Character:** Emma Hartley
 **Month:** October
 **Host:** Emma (all four meals)
-**Status:** Expanded draft complete (~33,400 words, 18 chapters)
+**Status:** Expanded draft, 22 chapters, ~37,400 words. Structurally complete; Meals 1–2 tight, Meals 3–4 need revision (Ch19 and Ch21 are stubs; timeline compression flags open). Full detail in `stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md`.
 
 **Mystery:** Hank, a beloved hot sauce vendor, vanishes from the McGolrick Park farmers market. The group discovers a corporate land grab backed by a mogul using shell companies and legal intimidation — including weaponizing Emma's secret OnlyFans account.
 
 **Character Arc:** Emma moves from defensive secrecy to openness. Her instincts about "Big Hot Sauce" turn out to be right. She learns to trust the group and herself.
 
-**Secret Addressed:** Kinky Kitchen (Emma's OnlyFans) — revealed to the group in Ch. 13, goes public by Ch. 18.
+**Secret Addressed:** Kinky Kitchen (Emma's OnlyFans). The C&D exposes it in Ch. 13; Emma confesses to the group in Ch. 14; it goes public by Ch. 18.
 
 **Reputation Status:** The group doesn't think of themselves as mystery-solvers yet. This was a one-time thing. Right?
 

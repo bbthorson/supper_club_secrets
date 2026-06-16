@@ -28,7 +28,13 @@ The shop was a Williamsburg institution, the kind of place that had survived thr
 
 "Did he seem okay to you, the last time you saw him?" Emma asked, leaning against the counter. The glass was cool against her forearms, the cheese display a mosaic of textures and colors—ivory, amber, the stark white of a fresh chèvre.
 
-Sofia paused, her knife hovering over a wheel of parmesan. "You know, it's funny you should ask. He came in here a couple of weeks ago, asking all sorts of questions about bottling and shelf life. Said he'd gotten a big offer, a chance to 'go legit.'" She made air quotes with the hand not holding the knife. "I told him to be careful." Her expression darkened, the lines around her mouth deepening. "These big companies, they don't care about the art. They just want the recipe."
+Sofia's knife stilled over a wheel of parmesan. For a moment she didn't say anything at all. She looked at Emma—really looked, the friendly counter-warmth cooling into something more measured—and her eyes flicked, just once, to the front window and the street beyond it.
+
+"Why do you want to know?" she said. Not unkind. Careful. "People have been coming around asking about Hank. I haven't loved who's been doing the asking."
+
+"I'm not—" Emma started, then just told the truth. "He left a bottle of his sauce with the honey vendor at McGolrick before he disappeared. She gave it to me. I cooked with it. I just want to know he's okay."
+
+Something in that satisfied Sofia. The wariness didn't vanish, but it loosened. She set the knife down and leaned against the counter, lowering her voice even though the shop was empty except for the two of them. "He came in here a couple of weeks ago, asking all sorts of questions about bottling and shelf life. Said he'd gotten a big offer, a chance to 'go legit.'" She made air quotes with the hand not holding the knife. "I told him to be careful. These big companies, they don't care about the art. They just want the recipe."
 
 "Did he say who made the offer?"
 

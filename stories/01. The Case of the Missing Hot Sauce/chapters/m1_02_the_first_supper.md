@@ -94,7 +94,7 @@ Emma watched them eat and felt something loosen in her chest. This was the react
 
 "This is from a guy named Hank who sells at the farmers markets. Or he did." She set the bottle on the counter. "He makes it from a pepper his great-grandmother brought north from Virginia in the twenties. A Fish Pepper—heirloom variety, impossible to find commercially. He's been at McCarren every Saturday, McGolrick every Sunday, for three years. He does this whole theatrical pitch, waves a tasting spoon around like a conductor's baton. You'd love him."
 
-She paused. "He's gone. Both markets, just—gone. Stall's empty. Phone goes to voicemail. The honey vendor next to him said he seemed off the last time she saw him, and then he gave up both stalls overnight. No explanation." She picked up the bottle again. "Dorothy—that's the honey lady—said he gave her this and told her his great-grandmother would've wanted her peppers shared. 'Just in case.' She gave it to me yesterday."
+She paused. "He's gone. Both markets, just—gone. Stall's empty. Phone goes to voicemail. The honey vendor next to him said he seemed off the last time she saw him, and then he gave up both stalls overnight. No explanation." She picked up the bottle again. "Dorothy—that's the honey lady—said he gave her this and told her his great-grandmother would've wanted her peppers shared. 'Just in case.' She gave it to me this morning."
 
 The room was quiet. The soup steamed in their bowls.
 

@@ -35,7 +35,7 @@ Contents:
 
 Contents:
 - `_story_template/` — Standardized scaffold for starting a new book
-- `01. The Case of the Missing Hot Sauce/` — Book 1 (complete)
+- `01. The Case of the Missing Hot Sauce/` — Book 1 (draft, revision pending; see its `00_book_metadata.md`)
 
 ---
 

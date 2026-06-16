@@ -56,7 +56,7 @@ Elijah, who had been quietly listening, set his wine glass down with deliberate 
 
 Noah had been quiet through the presentations, but not idle. His laptop was open on his knees, and he'd been pulling up the work he'd spent the last three days on. Now he turned the screen toward the group.
 
-"So after Elijah posted the LLC number Wednesday, I started tracing the corporate structure," he said. "That numbered entity—2847-LLC—is registered in New York, but its parent is in Delaware. Standard corporate layering, the kind of thing companies do when they want to separate liability from identity." He scrolled through his notes. "I followed it through three layers of holding companies. Each one is registered under another, which is registered under another. But the architecture has a logic to it, and at the bottom of the stack—" He pointed at the screen. "—is a hospitality group that was just granted a series of patents for 'shelf-stable capsicum-based flavor enhancers.'"
+"So after Elijah posted the LLC number Wednesday, I started tracing the corporate structure," he said. "That numbered entity—LLC #2847—is registered in New York, but its parent is in Delaware. Standard corporate layering, the kind of thing companies do when they want to separate liability from identity." He scrolled through his notes. "I followed it through three layers of holding companies. Each one is registered under another, which is registered under another. But the architecture has a logic to it, and at the bottom of the stack—" He pointed at the screen. "—is a hospitality group that was just granted a series of patents for 'shelf-stable capsicum-based flavor enhancers.'"
 
 "Hot sauce," Emma whispered.
 
@@ -74,23 +74,27 @@ Emma looked at the patent filing on Noah's screen and thought about Dorothy's bo
 
 "I knew it," she said, and her voice was quiet but fierce. "It was Big Hot Sauce. I know I said it as a joke, but it was Big Hot Sauce."
 
-It was then that Jasper, who had been uncharacteristically quiet through all of this—no conspiracy theories, no wild gesticulations, no knocked-over wine glasses—stood up. He'd been waiting for this moment all evening, and now that it had arrived, he stood with his shoulders back and a triumphant smile that started at his mouth and reached his eyes in a way his usual grins never quite did.
+It was then that Jasper, who had been uncharacteristically quiet through all of this—no conspiracy theories, no wild gesticulations, no knocked-over wine glasses—stood up. He'd been waiting for this moment all evening, and now that it had arrived, he stood with his shoulders back and the air of a man about to land a plane.
 
-"Way ahead of you," he announced.
+"So," he said. "I might have proof we're onto something real."
 
 The group turned to look at him.
 
 "What do you mean?" Elijah asked, his brow furrowing.
 
-"When Elijah posted the LLC number, I couldn't just sit on it," Jasper said, beaming. "So I called my friend Brenda in commercial real estate. Told her the whole story, gave her the LLC number. And she just texted me back." He held up his phone like a trophy, the screen bright in the candlelit room. "She confirmed it. That LLC belongs to the restaurant mogul who's been buying up half of Williamsburg. She said he's notorious for this kind of thing—pressuring small vendors, acquiring recipes, using legal threats to clear the way for his own brands."
+"When Elijah posted the LLC number, I couldn't just sit on it," Jasper said. "So I called my friend Brenda. Commercial real estate—she knows every waterfront deal in this city. I read her the number." He paused for effect. "And she shut down. Cold. Stopped laughing mid-sentence, told me she couldn't help me, told me to *drop it.* This is a woman who brokers nine-figure deals without blinking, and the second she heard that number, she got scared."
 
-He looked around the room, expecting applause. This time, he got it.
+"She didn't say who it was?" Oliver asked.
 
-"Jasper, you beautiful man!" Olivia cried out, raising her glass.
+"Wouldn't go near it. Which—come on—is even better." Jasper spread his hands as if presenting a gift. "You don't get a reaction like that over nothing. Whoever's behind that LLC is big enough, and mean enough, that a real-estate shark wants no part of them. We're not chasing a misunderstanding. We're chasing somebody who scares the people who don't scare easy."
 
-"I can't believe it," Noah said, shaking his head—though whether he meant the investigation or Jasper specifically contributing the final piece was unclear. Probably both.
+It wasn't the name he'd dreamed of dropping at the table, but it landed anyway—because it confirmed the shape of the thing. The patents, the shell companies, the financial motive, and now someone on the inside who knew enough to be afraid.
 
-Jasper took a theatrical bow, nearly knocking his wine glass off the counter. "Never doubt the network," he said with a wink.
+"So we've got what they're doing, and roughly how big they are," Elijah said slowly. "We just don't have a face yet."
+
+"Yet," Olivia agreed, and raised her glass. "Jasper, you beautiful menace."
+
+Jasper took a small bow, nearly knocking his wine glass off the counter. "Never doubt the network."
 
 The rest of the evening was a celebration. They opened Jasper's second bottle—the celebration bottle, which turned out to be significantly better than the research bottle, suggesting Jasper had been strategic for possibly the first time in his life. They toasted their success, their cleverness, their friendship. Emma put the apple crumble on the table and let people serve themselves, and for a while, the apartment was full of nothing but warmth and the clinking of glasses and the satisfied sounds of people eating dessert while feeling like they'd just done something that mattered.
 

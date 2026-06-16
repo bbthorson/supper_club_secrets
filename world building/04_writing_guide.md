@@ -80,7 +80,7 @@ Readers should reach the reveal thinking *"Oh, of course!"*—not *"Wait, where 
 
 **Structure:**
 - **One central mystery** (What happened to Hank?)
-- **One B-plot** (Emma's financial vulnerability / secret OnlyFans)
+- **One B-plot** (Emma's financial vulnerability; the nature of her secret income stays opaque in Book 1, deferred to a later book)
 - **2-3 red herrings** (each character pursues their conspiracy theory)
 - **5 key clues max** that the reader *could* piece together
 
@@ -160,19 +160,26 @@ Each character has speech patterns (see Voice Guide), but don't hit them every l
 
 ---
 
-## POV & Perspective
+## POV & Perspective — Feed-Based
 
-### Emma as Primary POV
-Story 1 is told primarily from Emma's perspective. She's the reader's entry point.
+The narrative is built from **feeds**: each scene belongs to a place (market, shop, library) or a character's personal thread.
 
-### Rotating POV (Optional, Later Books)
-Future books can shift POV between characters for variety, but avoid head-hopping within scenes.
+### Emma's feed is the spine
+The book is anchored primarily in Emma's perspective. She's the reader's entry point and observes through food, kitchen metaphors, and her blind spots.
 
-### What Emma Knows
-Emma can observe, suspect, and speculate—but she can't read minds. Her observations should be filtered through her personality:
+### Excursions into other feeds
+The narrative may follow other feeds for limited stretches (often the shorter between-meal scenes). When it does, the reader can gain knowledge Emma and the group don't have — deliberate dramatic irony. Some feed content never reaches the group. Avoid head-hopping: one feed, one perspective, per scene.
+
+### Meals are convergence points
+Feed content surfaces into shared group knowledge through table discussion. What's shared, mis-shared, or withheld at the table is a tension lever.
+
+### What Emma knows
+Within any scene, stay in that character's limited perspective — no mind-reading. Emma can observe, suspect, and speculate, filtered through her personality:
 - She notices food and kitchen details others miss
 - She misjudges confident people as having it together
 - She's slower to catch tech-related observations than Noah would be
+
+This is the same model as the data layer (locations and characters as feeds; see `protocol/ARCHITECTURE.md`).
 
 ---
 

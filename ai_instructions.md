@@ -45,11 +45,16 @@ For character facts, backgrounds, relationships, and lore tracking, see **[canon
 - Silence and deflection are characterization tools
 - Characters should speak differently in Book 3 than Book 1
 
-## 5. POV & Perspective
+## 5. POV & Perspective — Feed-Based
 
-- **Emma is primary POV** for all six books — she observes through food, kitchen metaphors, and blind spots
-- She can observe, suspect, and speculate but **cannot read minds**
-- Her observations are filtered through her personality: she notices food details others miss, misjudges confident people, and is slower on tech observations
+The book is built from **feeds**. Every scene belongs to a feed: a place (the market, a shop, the library) or a character's personal thread.
+
+- **Emma's feed is the spine.** Most of the book is anchored in her close-third perspective — she observes through food, kitchen metaphors, and her blind spots.
+- **Limited excursions into other feeds are allowed.** When the narrative follows another feed, the reader may learn things Emma and the group don't know. This dramatic irony is intentional.
+- **Meals are convergence points** where feed content becomes shared group knowledge through discussion. What gets shared, mis-shared, or withheld at the table is a tension lever. Some feed content never reaches the group at all.
+- **No head-hopping within a scene.** Inside any feed, stay in that one character's limited perspective — no mind-reading. Emma's observations stay filtered through her personality: she notices food details others miss, misjudges confident people, and is slower on tech.
+
+This model mirrors the project's data layer (locations and characters as feeds; see `protocol/ARCHITECTURE.md`). Writing to feeds keeps the eventual protocol projection clean.
 
 ## 6. Mystery Construction
 
@@ -77,7 +82,7 @@ Most scenes live at **3–5** on a 10-point scale. Crisis peaks hit **6–7**. N
 - No gore
 - Villain is human (greedy, not evil)
 - No deus ex machina reveals in Meal 4
-- No reading minds — stay in Emma's limited POV
+- No head-hopping within a scene — stay in the active feed's limited POV (Emma's by default; see §5)
 
 ## 9. Food as Storytelling
 
