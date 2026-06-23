@@ -2,7 +2,7 @@
 
 The following Sunday, Emma stood in her kitchen, staring at the array of ingredients spread across her counter. For the first time in months, she wasn't cooking out of anxiety or financial desperation. She wasn't performing for a client or testing a recipe for an article or trying to prove something to a voice in her head that sounded like her former boss. She was cooking because she wanted to. Because her friends were coming, and they deserved something beautiful.
 
-The cease and desist letter had been formally withdrawn three days after the story went viral. The mogul's lawyers had sent a terse, one-paragraph retraction with all the warmth of an autopsy report. The mogul himself had posted a statement on social media—the kind of carefully worded non-apology that lawyers approve and PR teams deploy when the alternative is silence: *"We never intended to stifle small businesses or the artisans who make Brooklyn's food scene vibrant. Moving forward, we will not enforce any trademark claims related to heritage pepper products. We apologize for any confusion our legal actions may have caused."*
+The cease and desist letter had been formally withdrawn three days after the story went viral. Pike's lawyers had sent a terse, one-paragraph retraction with all the warmth of an autopsy report. Pike himself had posted a statement on social media—the kind of carefully worded non-apology that lawyers approve and PR teams deploy when the alternative is silence: *"We never intended to stifle small businesses or the artisans who make Brooklyn's food scene vibrant. Moving forward, we will not enforce any trademark claims related to heritage pepper products. We apologize for any confusion our legal actions may have caused."*
 
 Olivia had screenshotted it and texted it to the group chat with a single word: *"Confusion."* Emma had printed out the withdrawal email and taped it to her fridge, where it sat next to a takeout menu and a photo of her grandmother's kitchen.
 
@@ -54,25 +54,17 @@ They ate in waves, passing plates and bowls across the cramped space with the pr
 
 "We did okay," Elijah corrected, but he was smiling.
 
-It was Olivia who raised the subject that had been hovering in the room like the smell of the candles she'd brought—present, unmissable, but politely unacknowledged. "So," she said, looking at Emma. "Are we going to talk about it?"
+It was Olivia who raised the subject hovering in the room—but not the one Emma had braced for. "So," she said gently, the way she'd said it in this kitchen a week ago. "How are you? Actually."
 
-"About what?" Emma asked, though she knew exactly what Olivia meant.
+Emma turned from the stove. A week ago she'd stood right here and told Olivia how thin it had all gotten—the proud exit from Bistro Lavande, the math she did in the grocery line, the fear she'd kept from everyone. Olivia was the only one who knew the whole shape of it, and she was asking now without giving an inch of it away in front of the others, which was its own kind of love.
 
-"About the fact that half of Brooklyn now knows you have an OnlyFans."
+"Better," Emma said, and found she meant it. "Two of the clients who cancelled on me called back this week. The editor who killed my squash piece wants it after all—and a piece on Hank, if I'll write it." She wiped her hands on her apron. "I'm not suddenly fine. The scared doesn't leave just because the threat does. But the work's coming back. And it turns out the part I'd been getting wrong this whole time was thinking I had to do any of it alone."
 
-After the story went viral, a few intrepid internet sleuths had connected the dots between the cease and desist note's reference to "Kinky Kitchen" and a certain anonymous cooking account. It had been mentioned in a gossip blog, then a Reddit thread, then a food industry newsletter. Emma had braced herself for the worst—the judgment, the mockery, the career-ending shame she'd been carrying around like a stone in her pocket since the day she'd created the account.
+"That's the whole thing," Olivia said, and squeezed her hand, and didn't make a speech about it—which, from Olivia, was the loudest thing she could have done.
 
-Instead, she'd gotten something else entirely.
+Elijah raised his glass. "To the work coming back."
 
-"I got messages," Emma said slowly. "A lot of them. Some were definitely weird—I'm not going to lie, there were a few I had to block immediately. But most were just... supportive? Like, 'fuck that guy for trying to shame you' supportive." She laughed, surprising herself. "One woman said she started her own account after reading about mine. Called me an inspiration."
-
-"Because you are," Olivia said fiercely.
-
-"And the subscriber count?" Noah asked, because Noah was Noah.
-
-Emma blushed. "Let's just say the publicity didn't hurt."
-
-"Capitalism," Elijah said, raising his glass.
+"To not doing it alone," Olivia added, and they drank to both.
 
 Noah pulled out his phone. "The restaurant group issued another statement," he announced. "Two of their major investors have formally pulled out. The waterfront location is on indefinite hold. Estimated losses to the mogul's portfolio: twelve million."
 
@@ -156,7 +148,7 @@ The room was quiet for a beat. Hank looked at Oliver — really looked at him, f
 
 "So what happens now?" Emma asked, breaking the moment gently. "Are you coming back?"
 
-"I am," Hank confirmed. "Already filed my stall application for next weekend. And I talked to a lawyer—pro bono. She saw the story and offered to help me file a proper trademark this time." He looked around the room, at these six people and their messy, imperfect, beautiful friendship. "Turns out the internet can actually do some good."
+"I am," Hank confirmed. "Turns out I've got a spot waiting. Your friend Olivia called the market people on my behalf—though she tells me they'd already decided. After all that coverage, Down to Earth wants the hot sauce guy back at McGolrick about as much as they want anything." He smiled. "And apparently Dorothy's been telling every vendor in earshot that the corner stall is *spoken for.* So I filed the application this morning. Felt like a formality." He looked around the room, at these six people and their messy, imperfect, beautiful friendship. "And I talked to a lawyer—pro bono, she saw the story and offered—about filing a proper trademark this time. The right way. Turns out the internet can do some good after all."
 
 "Don't say that too loud," Noah said. "You'll give me hope that technology can solve human problems."
 
