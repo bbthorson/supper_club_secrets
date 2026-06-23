@@ -4,6 +4,8 @@ How *Supper Club Secrets* publishes to the AT Protocol without changing how it i
 
 **Status:** Draft for review. Nothing here is built yet. The first story is not finalized, so no records should be published until the prose is locked (see [Dependency on Story Finalization](#9-dependency-on-story-finalization)).
 
+**Companion:** `OKF_ADOPTION_PLAN.md` covers the *inward* knowledge format (an agent-readable canon graph for authoring); this doc covers the *outward* published layer (records for readers). Two formats, opposite directions, shared identity.
+
 ---
 
 ## 1. Purpose

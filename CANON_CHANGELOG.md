@@ -4,6 +4,28 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-06-15 — OKF Phase C: split locations and series plan into per-concept files
+
+**Trigger:** OKF adoption decision (split aggregates into one concept per file). See `protocol/OKF_ADOPTION_PLAN.md`.
+
+**What changed:**
+
+1. **Locations split.** `canon library/locations_registry.md` → per-`Location` files under `canon library/locations/` (13 locations) plus `locations/index.md` (rotation table, geography facts, hard schedule/travel rules). Each location file embeds its own operating rule. `locations_registry.md` is now a redirect stub so existing references still resolve.
+
+2. **Series plan split.** `canon library/series_plan.md` → per-`Book` files under `canon library/books/` (`book1.md`–`book6.md`). `series_plan.md` retained as the `SeriesPlan` overview/index (series frame, locked decisions, book index, cross-book threads, open questions).
+
+3. **OKF frontmatter** added to all new files (`type`, `title`, `description`, `tags`, `timestamp`, `id`). `id` values align with the protocol layer (`place.*`, `book.*`).
+
+4. **Reconciliations made during the split (story-driven):**
+   - Book 1 entry (`book1.md`) updated to the opaque-secret direction: economic squeeze, Pike on-page, Emma confides in Olivia, secret deferred (no OnlyFans exposure/confession/going-public).
+   - Cross-book Secret-Progression table: Emma's row changed to "secret income source (opaque), deferred to a later book."
+   - Book 6 reveal note adjusted (Emma's secret is NOT revealed in Book 1, so Jasper's is the series' first full secret payoff).
+   - Fixed a pre-existing canon slip: Jasper's apartment is **Chelsea**, not Bushwick (Books 4 & 5 entries referenced Bushwick).
+
+**Still pending (verification pass):** `continuity.md` after-Book-1 state, the tracking files, and `00_book_metadata.md`/outline re-sync — unchanged here.
+
+---
+
 ## 2026-06-15 — Book 1 direction: keep Emma's secret opaque; Meal 1 decisions
 
 **Trigger:** Tier 2 meal-level pass, Meal 1. Author decisions.
