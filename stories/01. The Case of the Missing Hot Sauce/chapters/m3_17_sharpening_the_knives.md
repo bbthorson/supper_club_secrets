@@ -1,5 +1,7 @@
 ### Chapter Seventeen — Sharpening the Knives
 
+*Wednesday night into Friday morning — thirty-six hours, six people, one campaign to build.*
+
 **Noah**
 
 Noah hadn't slept. The apartment was dark except for the blue glow of three monitors arranged in a shallow arc on his desk — his main screen, a laptop propped on a stack of textbooks, and a tablet leaning against a half-empty mug of cold coffee. The desk was covered in the detritus of an all-night session: a crumpled energy bar wrapper, two more mugs in various stages of abandonment, a legal pad with a diagram he'd drawn at 2 AM and already couldn't decipher.
@@ -96,7 +98,7 @@ She also made a list. Every food influencer and blogger she knew personally. Eve
 
 Jasper packed light because he didn't know what packing for redemption looked like and a duffel bag seemed about right.
 
-Thursday morning. His apartment in Chelsea was quiet, which it rarely was — Jasper's life was built on noise, on the constant hum of phone calls and group texts and conversations with strangers at bars. The silence felt deserved. He'd barely slept, his mind running the same loop since Wednesday night: the look on Emma's face when she told them about the C&D, Noah's voice saying *you idiot*, Oliver standing up and saying *stop* and meaning it.
+Thursday morning. His apartment in Chelsea was quiet, which it rarely was — Jasper's life was built on noise, on the constant hum of phone calls and group texts and conversations with strangers at bars. The silence felt deserved. He'd barely slept, his mind running the same loop since Wednesday night: the look on Emma's face when she said *he came to me*, Noah's voice telling him some of us don't have a net, Oliver standing up and saying *stop* and meaning it.
 
 He folded a flannel shirt and put it in the bag. Jeans. A phone charger. His good jacket, the one that made him look like a person who could be trusted, because today he needed to be that person whether he felt like it or not.
 

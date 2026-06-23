@@ -16,7 +16,7 @@ The two strategies hung in the air, a perfect reflection of their proponents: Ja
 
 "The swarm is safer," Elijah said, leaning forward, his analytical mind weighing the probabilities with visible precision. "Spreading the information across multiple, smaller platforms makes it impossible for them to squash the story with a single legal threat. It also minimizes our direct exposure. No one outlet has the full story. No one person is the source."
 
-"And I don't want to be a martyr," Emma said, her voice firm for the first time all evening. "I don't want my face on TV. I don't want to be 'the OnlyFans chef who fought Big Hot Sauce.' I just want them to leave Hank alone." She paused. "And I want them to know they can't do this to people."
+"And I don't want to be a martyr," Emma said, her voice firm for the first time all evening. "I don't want my face on TV. I don't want to *be* the story. I just want them to leave Hank alone — and I want people to get the chance to choose him, the way I did." She paused. "And I want Pike to know he can't do this to people."
 
 The decision was made. Not with a vote or a show of hands, but with the quiet, collective certainty of six people arriving at the same conclusion from different directions. They would become a swarm.
 
@@ -60,7 +60,7 @@ It was an olive branch, and a mission. A way for him to atone.
 
 "It's the least I can do," Jasper said, and for once there was no performance in it — just a man who owed his friends something he couldn't pay back with words. "I'll find him. I promise."
 
-The delivery containers sat on the coffee table, forgotten and cold, the pad thai congealing, the spring roll wrappers going translucent. Nobody cared. The group was no longer hungry—at least not for food. They had found their appetite for something else entirely. They had a plan. They had roles. They had a recipe for revenge, and for the first time since that knock on Emma's door, the fear in the room was smaller than the resolve.
+The delivery containers sat on the coffee table, forgotten and cold, the pad thai congealing, the spring roll wrappers going translucent. Nobody cared. The group was no longer hungry—at least not for food. They had found their appetite for something else entirely. They had a plan. They had roles. They had a recipe for revenge, and for the first time since Pike found her at the empty market, the fear in the room was smaller than the resolve.
 
 Emma looked at her friends—hunched over laptops, scribbling notes, arguing about distribution strategy with the intensity of people who had discovered that caring about something was worth the risk of getting hurt—and felt something she hadn't expected to feel tonight.
 
