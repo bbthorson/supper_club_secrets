@@ -7,3 +7,6 @@ Thumbs.db
 # Temp files
 *.tmp
 *~
+
+# Claude Code local machine config (permission allowlists etc.)
+.claude/settings.local.json

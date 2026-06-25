@@ -4,6 +4,30 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-06-25 — Continuity-linter pass: two date fixes (tracking-vs-prose drift)
+
+**Trigger:** Dry-run of a continuity linter (plotted-arc rules) against Book 1, using the tracking files as the data layer. Two errors surfaced where a derived tracking file contradicted the locked prose; both fixed story-driven (prose wins, tracking updated).
+
+**What changed:**
+
+1. **LLC filing date — stale tracking citation (`subplot_threads.md` Ch6).** The Ch6 main-mystery row still read "filed Oct 18" and cited evidence "Filed on October 18th…" — a quote that no longer exists in the prose. The 2026-05-23 anchor shift (Oct 18 → Oct 2) updated the chapter prose (`m2_06:35` reads "Filed on October 2nd—exactly two days after Hank had given up his stall") and `timeline_ledger.md`, but `subplot_threads.md` was missed. Now corrected to "Oct 2" with the citation matching the prose verbatim.
+
+2. **Ch16 date typo (`character_matrix.md`).** The Ch16 row read "Wed Oct 14 → Thu Oct 29 (overnight)" — a 15-day overnight that breaks the timeline chain into Ch17 ("Thu Oct 15"). Corrected to "Thu Oct 15."
+
+**Verified clean:** no residual "October 18"/"Oct 18" LLC references remain (the surviving "Oct 18" hits are the legitimate anchor-history note in `timeline_ledger.md` and Ch20's in-world story dates); zero "Oct 29" references remain.
+
+**Files touched:**
+- `stories/01. The Case of the Missing Hot Sauce/tracking/subplot_threads.md` — Ch6 LLC date + citation
+- `stories/01. The Case of the Missing Hot Sauce/tracking/character_matrix.md` — Ch16 date typo
+- `CANON_CHANGELOG.md` — this entry
+
+**Open items surfaced by the linter pass (not changed now):**
+- **F4 — orphan chapters.** `m4_18a` (the diner), `m4_19a` (the drive-in), `m4_19b` (the dive) exist as prose but appear in no tracking file (not in the outline spine, `character_matrix`, or `subplot_threads`). Decide: fold into the spine + tracking, or mark as intentional interstitials.
+- **F5 — unresolved threads at Ch22.** Sofia's silence (last status Ch13 `complicated` → `dropped`, unannotated) and Emma sidelined in Meal 4 (`AT RISK`) both lack a terminal status. (Already tracked in `subplot_threads.md` → "Threads at risk.")
+- **F7 — Ch20 date span disagreement.** `character_matrix` says Ch20 runs Sat Oct 17 → Tue Oct 20 (Hank found Oct 20); `timeline_ledger:31` and `revision/meal_4_scaffold.md` say Sun–Mon Oct 18–19. Days-of-week are valid in both, so this is an author call on which days Jasper's search spans, not a typo. Prose doesn't pin it (Ch20 is placeholder-adjacent). Left for author.
+
+---
+
 ## 2026-06-15 — OKF Phase C: split locations and series plan into per-concept files
 
 **Trigger:** OKF adoption decision (split aggregates into one concept per file). See `protocol/OKF_ADOPTION_PLAN.md`.

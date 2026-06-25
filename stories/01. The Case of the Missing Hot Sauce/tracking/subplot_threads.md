@@ -14,7 +14,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 2 | developing | Group tastes the sauce. Stakes become real. | Soup reveal scene |
 | 3 | developing | Marcus confirms Hank was "jittery, like a man running from something." | Olivia's text exchange |
 | 4 | developing | Theory competition — each character offers a frame. Emma's "Big Hot Sauce" is closest to true. | Theory beats |
-| 6 | complicated | Oliver discovers anonymous LLC #2847 filed Oct 18, two days after stall surrender. | "Filed on October 18th — exactly two days after Hank had given up his stall" |
+| 6 | complicated | Oliver discovers anonymous LLC #2847 filed Oct 2, two days after stall surrender. | "Filed on October 2nd—exactly two days after Hank had given up his stall" |
 | 7 | developing | Marcus details deepen — Hank pulled inventory back, acting like he was being watched. | Olivia at The Gilded Fern |
 | 8 | developing | Elijah seeds LLC into group chat. Financial model in motion. | Group chat post |
 | 9 | developing | Noah traces shell entities, finds patent filings on "shelf-stable capsicum-based flavor enhancers." | Corporate trace |
