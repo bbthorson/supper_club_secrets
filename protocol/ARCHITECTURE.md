@@ -208,13 +208,13 @@ Reconciliation with the Golden Rule: extraction is read-only against prose. When
 
 ## 11. Reader Surfaces (Downstream)
 
-Out of scope for the first build, recorded here so the data model serves them later. All three are **renderings of the same record set** and can be built on the public site (e.g. Astro) first; the atproto versions are the optional experiment.
+Out of scope for the first build, recorded here so the data model serves them later. All three can be built on the public site (e.g. Astro) first; the atproto versions are the optional experiment. (Book Mode renders from the chapter files in the creative layer; the Timeline and feeds render from the derived record set.)
 
 - **Book Mode:** clean sequential reading on the public site, rendered from the chapter files. Optionally mirrored as standard.site `document` records for atproto discoverability.
 - **Timeline Explorer:** an interactive view over `scene`, `character.stateEvent`, `place`, and `custodyEvent` records. Scrub a calendar, inspect a character's state changing, trace the bottle's path, view a location's activity. Built as an Astro page over the record set for the public site — and/or, as the experiment, a custom atproto AppView reading the backdated records and sorting by `createdAt`.
 - **Location / group feeds:** filter the same records by place or by character group. On the site this is just a filtered view; on atproto it's a feed generator — the "reconstitute posts around locations or people" demonstration, and the story-inside-a-social-feed novelty. Either way it mirrors the prose's feed-based POV model (`ai_instructions.md` §5): scenes are authored as feed events, so the projection is a direct mapping rather than a re-derivation.
 
-The reader surfaces are renderings of the record set. They do not change the repo or the pipeline.
+The reader surfaces are renderings of the repo's public content (chapters plus the derived record set). They do not change the repo or the pipeline.
 
 ---
 
