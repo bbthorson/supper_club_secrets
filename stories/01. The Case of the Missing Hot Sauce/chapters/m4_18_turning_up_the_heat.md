@@ -1,3 +1,41 @@
+---
+chapter: 18
+title: "Turning Up the Heat"
+meal: 4
+beat: "Finale — Hope (campaign launch)"
+day: "Friday → Saturday"
+date: "2026-10-16 to 2026-10-17"
+time: "Friday morning launch, onward"
+location:
+  - "Emma's apartment (war room)"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+characters_referenced:
+  - "Jasper (en route PA — checks in by text)"
+registers:
+  Emma: "private (⚠ watching — drafted the narrative, now watching it deploy; currently sidelined)"
+  Elijah: "private (monitoring sentiment)"
+  Noah: "private (active — sentiment graphs; the food metaphor: 'Don't get used to it')"
+  Oliver: "private (coordinating press-kit distribution)"
+  Olivia: "private (active — working the phones; local contacts in motion)"
+clues:
+  planted: []
+  revealed: []
+threads:
+  active:
+    - "Main mystery: the swarm campaign launches; small Brooklyn blogs pick it up"
+    - "The group functions as a coordinated team for the first time"
+  touched:
+    - "Emma sidelined in Meal 4 execution (⚠ at risk — drafted the narrative, watches it deploy)"
+    - "Noah — tech in service of analog goals"
+beat_purpose: "The coordinated campaign launches and hope builds — the club acts as one team instead of six investigators."
+---
+
 ## Meal Four
 
 ### Chapter Eighteen - Turning Up the Heat

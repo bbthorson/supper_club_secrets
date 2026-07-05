@@ -1,3 +1,32 @@
+---
+chapter: 21
+title: "The Starlite Drive-In"
+meal: 4
+beat: "Finale (from the road)"
+day: "Saturday"
+date: "2026-10-17"
+time: "day"
+location:
+  - "The Starlite Drive-In (Lancaster County)"
+pov: "Jasper"
+characters_present:
+  - "Jasper"
+  - "Seed supplier (phone)"
+characters_referenced:
+  - "Noah (turned Jasper's list into a pruned spreadsheet — the conduit forming)"
+registers:
+  Jasper: "private (working the starred leads)"
+clues:
+  planted: []
+  revealed:
+    - "A seed supplier names a collective 'out past the city' — 'meadow-something' (the first real lead)"
+threads:
+  active:
+    - "Jasper's redemption journey (from the road — the first real lead)"
+    - "Noah/Jasper conduit pattern (forming — Jasper routes updates through Noah)"
+beat_purpose: "From the road: Noah's pruned spreadsheet narrows the search and a seed supplier names a collective 'out past the city' — the first real lead."
+---
+
 ### Chapter Twenty-One - The Starlite Drive-In
 
 *Lancaster County. Saturday.*

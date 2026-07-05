@@ -1,3 +1,38 @@
+---
+chapter: 23
+title: "Farm to Table"
+meal: 4
+beat: "Finale — Redemption"
+day: "Tuesday"
+date: "2026-10-20"
+time: "day"
+location:
+  - "Meadowlight Collective (Pennsylvania — the only setting outside Brooklyn)"
+pov: "Jasper"
+characters_present:
+  - "Jasper"
+  - "Hank (first on-page appearance — the greenhouse)"
+  - "Meadowlight woman (shelling peas; protective)"
+characters_referenced:
+  - "Noah (Jasper texts updates through him)"
+registers:
+  Jasper: "private (centerstage — tells Hank the full truth, including his mistake; shows him the bottle)"
+  Hank: "private (guarded → tentative — the question of returning)"
+  "Meadowlight woman": "public (protective, then warms when she hears the news)"
+clues:
+  planted: []
+  revealed:
+    - "Hank found at Meadowlight; the bottle proves the sauce has already lived elsewhere; Hank agrees to come to dinner"
+threads:
+  active:
+    - "Jasper's redemption (paid off — he finds Hank; un-performed, just done)"
+    - "Jasper's bottle (developing — shown to Hank in the greenhouse)"
+    - "Hank's decision to return (motivated by the bottle)"
+  touched:
+    - "Noah/Jasper conduit (Jasper texts Noah individually — sets up the Ch25 apology)"
+beat_purpose: "Jasper finds Hank in the Meadowlight greenhouse and shows him the bottle — his quiet, un-performed redemption, and Hank agrees to come home."
+---
+
 ### Chapter Twenty-Three - Farm to Table
 
 It was Tuesday by the time Jasper found the dirt driveway.

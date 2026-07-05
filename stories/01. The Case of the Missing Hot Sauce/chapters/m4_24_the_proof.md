@@ -1,3 +1,45 @@
+---
+chapter: 24
+title: "The Proof"
+meal: 4
+beat: "Finale — Breakthrough"
+day: "Tuesday → Thursday"
+date: "2026-10-20 to 2026-10-22"
+time: "Tuesday morning onward"
+location:
+  - "Emma's apartment"
+  - "Distributed (allies, outlets)"
+pov: "Emma"
+characters_present:
+  - "Oliver (centerstage — deploys the rebuttal)"
+  - "Emma"
+  - "Elijah"
+  - "Noah"
+  - "Olivia"
+characters_referenced:
+  - "The food critic (adopts Oliver's framing)"
+  - "Garrett Pike (under pressure — quiet; investors pull back)"
+  - "Jasper (texts 'FOUND IT' from PA)"
+registers:
+  Oliver: "private (peak — the rebuttal is his; the critic uses his exact framing)"
+  Emma: "private (reacts to the critic's coverage landing)"
+  Elijah: "private (investors pulling — vindication)"
+  Noah: "private (sentiment flipping in real time)"
+  Olivia: "private (relief — texts cascading in)"
+clues:
+  planted: []
+  revealed:
+    - "Oliver's rebuttal framework deployed; the food critic adopts the framing; investors pull; the C&D is withdrawn (Keystone payoff)"
+threads:
+  active:
+    - "Main mystery: the tide turns — rebuttal lands, critic amplifies, investors pull, C&D withdrawn"
+    - "Oliver emerging from his shell (paid off — the quiet, systematic victory)"
+  touched:
+    - "Pike under pressure (goes quiet; no playbook for a hundred small voices)"
+    - "Jasper found Hank (texts the group)"
+beat_purpose: "Oliver's sourced rebuttal arms a hundred small voices; a food critic adopts the framing, sentiment flips, investors pull, and the C&D is withdrawn."
+---
+
 ### Chapter Twenty-Four - The Proof
 
 The doubt sat in the apartment all weekend like weather.
