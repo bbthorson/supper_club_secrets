@@ -61,6 +61,11 @@ The `protocol/` layer is a build output plus the schemas and scripts that produc
 ```
 protocol/
   ARCHITECTURE.md          This document
+  brand/                   Visual identity for reader surfaces (committed source)
+    BRAND.md               Brand guidelines — "The Menu" direction, locked 2026-07-05
+    tokens.css             Design tokens the site build imports
+    tokens.json            Same tokens, platform-neutral
+    brand-book.html        Self-contained visual spec (fonts embedded)
   lexicons/                NSID-namespaced schema definitions (JSON)
     character/
       profile.json
@@ -77,7 +82,7 @@ protocol/
   README.md                How to run the pipeline
 ```
 
-`records/` is build output. It can be regenerated at any time and should be treated as disposable. `lexicons/` and `entities/` are committed source of truth for the protocol layer.
+`records/` is build output. It can be regenerated at any time and should be treated as disposable. `lexicons/`, `entities/`, and `brand/` are committed source of truth for the protocol layer.
 
 ---
 
