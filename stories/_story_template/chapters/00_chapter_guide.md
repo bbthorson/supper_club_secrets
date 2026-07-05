@@ -6,7 +6,7 @@ Every chapter file begins with a YAML frontmatter block. The frontmatter is the 
 
 ### Spec (canonical field set — locked 2026-07-05)
 
-Example is Book 1, Ch13. **Required:** `chapter`, `title`, `meal`, `beat`, `date`, `pov`, `characters_present`, `registers`, `threads`, `beat_purpose`. **Optional:** `day`, `time`, `location`, `characters_referenced`, `clues`, `audit_notes` (include when they apply).
+Example mirrors the live block in `stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md` (the canonical demo — keep the two in sync). **Required:** `chapter`, `title`, `meal`, `beat`, `date`, `pov`, `characters_present`, `registers`, `threads`, `beat_purpose`. **Optional:** `day`, `time`, `location`, `characters_referenced`, `clues`, `audit_notes` (include when they apply).
 
 ```yaml
 ---
@@ -23,8 +23,8 @@ location:                                 # exact canonical names from canon lib
 pov: "Emma"                               # the chapter's feed owner (required)
 characters_present:                       # on-page in an active scene (required)
   - "Emma (centerstage)"
-  - "Garrett Pike (Wed, in person)"
-  - "Olivia (phone, end)"
+  - "Garrett Pike (Wed, in person — first on-page appearance)"
+  - "Olivia (phone call, end of chapter)"
 characters_referenced:                    # named but not on-page (optional)
   - "Sofia (texted, silent)"
   - "Dorothy (texted, no read receipt)"
@@ -40,13 +40,15 @@ clues:                                     # optional; powers clue-tracing
     - "Pike has dug into Emma's finances (coded, unnamed)"
 threads:                                   # must cross-reference tracking/subplot_threads.md
   active:
-    - "Main mystery: retaliation begins as an economic squeeze"
-    - "Antagonist revealed: Pike on-page (identity + Ch1 seed payoff)"
+    - "Main mystery: retaliation begins as an economic squeeze on Emma's livelihood"
+    - "Antagonist revealed: Garrett Pike approaches Emma in person (identity payoff + Ch1 market-seed payoff)"
   touched:
     - "Sofia/Dorothy silence — the menace has neighborhood reach"
-beat_purpose: "Bring the threat home and put a face on it — economic and personal, not an exposed secret."
+beat_purpose: "Bring the threat home and put a face on it. The pressure is economic and personal, not an exposed secret. Pike reveals himself with a charm that reads as menace."
 audit_notes:                               # optional; continuity/decision notes for this chapter
-  - "Opaque-secret direction: no OnlyFans exposure; Emma's vulnerability is economic, confided privately to Olivia in Ch14."
+  - "Economic squeeze (cancelled assignments) spreads across Mon–Wed, which resolves the old day-jump compression and fills the Tuesday void."
+  - "Pike's appearance pays off the well-dressed man seeded in Ch1 and the out-of-place man at Dorothy's stall in Ch12."
+  - "Opaque-secret direction: no OnlyFans exposure. Emma's vulnerability is economic/precarity, confided privately to Olivia in Ch14."
 ---
 ```
 
