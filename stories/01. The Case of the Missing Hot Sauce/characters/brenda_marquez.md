@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Brenda Marquez"
+id: char.brenda-marquez
+status: active
+---
+
 # Brenda Marquez
 
 ## Overview

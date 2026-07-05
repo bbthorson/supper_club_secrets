@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Jasper"
+id: char.jasper
+status: active
+---
+
 # Jasper
 
 ## Overview

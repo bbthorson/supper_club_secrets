@@ -1,0 +1,172 @@
+[
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-04",
+    "register": "private",
+    "state": "private (curious → quietly alarmed); Western PA flickers",
+    "chapterRef": "book.1#ch1",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md",
+    "createdAt": "2026-10-04"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-04",
+    "register": "public",
+    "state": "public → private (hostess persona softening as the soup lands)",
+    "chapterRef": "book.1#ch2",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md",
+    "createdAt": "2026-10-04",
+    "registerExpr": "public → private"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-04",
+    "register": "private",
+    "state": "private (story-teller mode — the Hank/Dorothy story, bottle in hand)",
+    "chapterRef": "book.1#ch3",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md",
+    "createdAt": "2026-10-04"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-04",
+    "register": "private",
+    "state": "private ('Big Hot Sauce' theory — played for laughs)",
+    "chapterRef": "book.1#ch4",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md",
+    "createdAt": "2026-10-04"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-04",
+    "register": "private",
+    "state": "private → deflating (money math she doesn't want to do; hands off the entree)",
+    "chapterRef": "book.1#ch5",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md",
+    "createdAt": "2026-10-04",
+    "registerExpr": "private → deflating"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-10",
+    "register": "private",
+    "state": "private (pursues her instinct alone; notices the stall already replaced — escalating erasure)",
+    "chapterRef": "book.1#ch11",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_11_the_empty_stall.md",
+    "createdAt": "2026-10-10"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-11",
+    "register": "public",
+    "state": "public → private (morning market stop; hostess, then crystallizing the picture)",
+    "chapterRef": "book.1#ch12",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md",
+    "createdAt": "2026-10-11",
+    "registerExpr": "public → private"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-12",
+    "register": "private",
+    "state": "private → under-pressure",
+    "chapterRef": "book.1#ch13",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md",
+    "createdAt": "2026-10-12",
+    "registerExpr": "private → under-pressure",
+    "storyDateEnd": "2026-10-14"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-14",
+    "register": "under-pressure",
+    "state": "under-pressure → private (kitchen confide with Olivia — the relief of being known)",
+    "chapterRef": "book.1#ch14",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md",
+    "createdAt": "2026-10-14",
+    "registerExpr": "under-pressure → private"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-14",
+    "register": "private",
+    "state": "private (centered now; listening)",
+    "chapterRef": "book.1#ch15",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md",
+    "createdAt": "2026-10-14"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-14",
+    "register": "private",
+    "state": "private (identifies industry-petty food influencers; the 'I won't be a martyr' reframe)",
+    "chapterRef": "book.1#ch16",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md",
+    "createdAt": "2026-10-14",
+    "storyDateEnd": "2026-10-15"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-14",
+    "register": "private",
+    "state": "private (writing late)",
+    "chapterRef": "book.1#ch17",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md",
+    "createdAt": "2026-10-14",
+    "storyDateEnd": "2026-10-16"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-16",
+    "register": "private",
+    "state": "private (⚠ watching — drafted the narrative, now watching it deploy; currently sidelined)",
+    "chapterRef": "book.1#ch18",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
+    "createdAt": "2026-10-16",
+    "storyDateEnd": "2026-10-17"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-17",
+    "register": "private",
+    "state": "private (⚠ still sidelined in execution)",
+    "chapterRef": "book.1#ch20",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md",
+    "createdAt": "2026-10-17"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-20",
+    "register": "private",
+    "state": "private (reacts to the critic's coverage landing)",
+    "chapterRef": "book.1#ch24",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
+    "createdAt": "2026-10-20",
+    "storyDateEnd": "2026-10-22"
+  },
+  {
+    "type": "character.stateEvent",
+    "subject": "char.emma",
+    "storyDate": "2026-10-25",
+    "register": "private",
+    "state": "private (settled — cooking for joy; the squeeze has lifted)",
+    "chapterRef": "book.1#ch25",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md",
+    "createdAt": "2026-10-25"
+  }
+]

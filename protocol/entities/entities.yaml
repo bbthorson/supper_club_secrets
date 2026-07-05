@@ -1,0 +1,342 @@
+# Entity Registry — Supper Club Secrets (Protocol Phase 1)
+#
+# Canonical, permanent, local IDs for every character, place, and item in the
+# universe. This file is the committed source of truth that makes name -> ID
+# resolution deterministic. See protocol/ARCHITECTURE.md §7 (Identity Model)
+# and §13 (Phase 1), and protocol/entities/TASK.md for the full brief.
+#
+# =========================================================================
+# Task A — Locked conventions (resolved from TASK.md §5)
+# =========================================================================
+#
+#   1. ID SCHEME: `<type>.<slug>` — the scheme already used by place.* and
+#      book.*. Characters -> `char.*`, places -> `place.*`, items -> `item.*`.
+#      IDs are PERMANENT: they never change even when a displayName or filename
+#      does. Slugs are lowercase, hyphen-separated.
+#
+#   2. ANTAGONIST NAMESPACE: antagonists ARE characters. Garrett Pike is
+#      `char.garrett-pike`, not a separate `antagonist.*` namespace. (Decision 1)
+#
+#   3. REFERENCED-ONLY ENTITIES get minimal entries with `status: referenced`
+#      so their references still resolve. Paolo Ferrante (named, no file) is the
+#      Book 1 case. (Decision 2)
+#
+#   4. ALIAS COVERAGE: `aliases` must list every surface form a name appears as
+#      in prose AND in chapter frontmatter — display names, nicknames, epithets.
+#      This is what makes resolution work. The resolver (resolve.py) normalizes
+#      a frontmatter value by stripping trailing "(...)" annotations before
+#      matching, so aliases hold the BASE surface forms, not the annotations.
+#      Pike is the sharp case: "the mogul" and "the developer" both appear as
+#      pre-naming epithets and are registered aliases. (Decision 3)
+#
+#   5. FILE SHAPE: one file holds all entity types, grouped below by type.
+#      Field set per entry: id, type, displayName, aliases, sourceFile, status.
+#      (Decision 5)
+#
+#   6. FUTURE-BOOK ANTAGONISTS (book2–6) are registered as light stubs with
+#      `status: future` so the namespace is reserved. (Decision 4)
+#
+# STATUS VALUES:
+#   active      — appears on-page in finalized (v1) canon and has a file
+#   referenced  — named in canon but has no file of its own
+#   future      — reserved for a later book; file exists, not yet in play
+#
+# GOLDEN RULE: if a name in the prose/frontmatter and this registry disagree,
+# the prose wins — fix the registry.
+#
+# NON-ENTITIES (deliberately NOT registered — one-off / background surfaces
+# that appear in frontmatter as free text) are enumerated in `non_entities.yaml`
+# so the resolver treats them as expected non-matches, not misses.
+
+# =========================================================================
+# CHARACTERS
+# =========================================================================
+characters:
+
+  # --- Mains (the supper club, 6) ---
+  - id: char.emma
+    type: character
+    displayName: Emma Hartley
+    aliases: ["Emma", "Emma Hartley"]
+    sourceFile: canon library/characters/emma.md
+    status: active
+
+  - id: char.elijah
+    type: character
+    displayName: Elijah Miller
+    aliases: ["Elijah", "Elijah Miller"]
+    sourceFile: canon library/characters/elijah.md
+    status: active
+
+  - id: char.noah
+    type: character
+    displayName: Noah
+    aliases: ["Noah"]
+    sourceFile: canon library/characters/noah.md
+    status: active
+
+  - id: char.oliver
+    type: character
+    displayName: Oliver
+    aliases: ["Oliver"]
+    sourceFile: canon library/characters/oliver.md
+    status: active
+
+  - id: char.olivia
+    type: character
+    displayName: Olivia
+    aliases: ["Olivia"]
+    sourceFile: canon library/characters/olivia.md
+    status: active
+
+  - id: char.jasper
+    type: character
+    displayName: Jasper
+    aliases: ["Jasper"]
+    sourceFile: canon library/characters/jasper.md
+    status: active
+
+  # --- Antagonist (Book 1) ---
+  - id: char.garrett-pike
+    type: character
+    displayName: Garrett Pike
+    # "the mogul" / "the developer" are the group's pre-naming epithets; both
+    # appear in prose, frontmatter, and tracking. the_mogul.md is a stub that
+    # points here — not a separate entity.
+    aliases: ["Garrett Pike", "Pike", "the mogul", "The Mogul", "the developer", "The Developer"]
+    sourceFile: canon library/antagonists/book1_garrett_pike.md
+    status: active
+
+  # --- Recurring / minor (have files) ---
+  - id: char.hank
+    type: character
+    displayName: Hank
+    aliases: ["Hank"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/hank.md
+    status: active
+
+  - id: char.dorothy
+    type: character
+    displayName: Dorothy
+    aliases: ["Dorothy"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/dorothy.md
+    status: active
+
+  # NOTE: the CHARACTER Sofia (cheesemonger) is distinct from the PLACE
+  # place.sofias-cheese-shop. The resolver is type-aware so they never collide.
+  - id: char.sofia
+    type: character
+    displayName: Sofia
+    aliases: ["Sofia"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/sofia.md
+    status: active
+
+  - id: char.marcus
+    type: character
+    displayName: Marcus
+    aliases: ["Marcus", "Marcus (The Gilded Fern)"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/marcus_gilded_fern.md
+    status: active
+
+  # "Brenda Chen" is superseded and intentionally NOT an alias.
+  - id: char.brenda-marquez
+    type: character
+    displayName: Brenda Marquez
+    aliases: ["Brenda Marquez", "Brenda"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/brenda_marquez.md
+    status: active
+
+  - id: char.ruth
+    type: character
+    displayName: Ruth
+    aliases: ["Ruth"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/ruth.md
+    status: active
+
+  # Unnamed but recurring; has a file. Appears as "The food critic".
+  - id: char.food-critic
+    type: character
+    displayName: The Food Critic
+    aliases: ["The Food Critic", "The food critic", "the food critic", "food critic"]
+    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/the_food_critic.md
+    status: active
+
+  # --- Referenced only (named, no file) ---
+  - id: char.paolo-ferrante
+    type: character
+    displayName: Paolo Ferrante
+    aliases: ["Paolo Ferrante", "Paolo"]
+    sourceFile: null
+    status: referenced
+
+  # --- Future-book antagonists (stubs; namespace reserved) ---
+  - id: char.lena-torrance
+    type: character
+    displayName: Lena Torrance
+    aliases: ["Lena Torrance", "Lena"]
+    sourceFile: canon library/antagonists/book2_lena_torrance.md
+    status: future
+
+  - id: char.victor-ahn
+    type: character
+    displayName: Victor Ahn
+    aliases: ["Victor Ahn", "Victor"]
+    sourceFile: canon library/antagonists/book3_victor_ahn.md
+    status: future
+
+  - id: char.margaux-sterling
+    type: character
+    displayName: Margaux Sterling
+    aliases: ["Margaux Sterling", "Margaux"]
+    sourceFile: canon library/antagonists/book4_margaux_sterling.md
+    status: future
+
+  - id: char.kenji-sato
+    type: character
+    displayName: Kenji Sato
+    aliases: ["Kenji Sato", "Kenji"]
+    sourceFile: canon library/antagonists/book5_kenji_sato.md
+    status: future
+
+  - id: char.tripp-caldwell
+    type: character
+    displayName: Tripp Caldwell
+    aliases: ["Tripp Caldwell", "Tripp"]
+    sourceFile: canon library/antagonists/book6_caldwell_family.md
+    status: future
+
+# =========================================================================
+# PLACES — mirror the id: frontmatter already on the 14 location files.
+# displayName = the location file `title:`. aliases include every surface form
+# used in chapter `location:` frontmatter.
+# =========================================================================
+places:
+
+  - id: place.emmas-apartment
+    type: place
+    displayName: Emma's Apartment
+    aliases: ["Emma's Apartment", "Emma's apartment", "Emma's"]
+    sourceFile: canon library/locations/emmas-apartment.md
+    status: active
+
+  - id: place.olivia-oliver-place
+    type: place
+    displayName: Olivia & Oliver's Place
+    aliases: ["Olivia & Oliver's Place", "Olivia and Oliver's Place", "Olivia & Oliver's"]
+    sourceFile: canon library/locations/olivia-oliver-place.md
+    status: active
+
+  - id: place.noahs-apartment
+    type: place
+    displayName: Noah's Apartment
+    aliases: ["Noah's Apartment", "Noah's apartment"]
+    sourceFile: canon library/locations/noahs-apartment.md
+    status: active
+
+  - id: place.jaspers-apartment
+    type: place
+    displayName: Jasper's Apartment
+    aliases: ["Jasper's Apartment", "Jasper's apartment"]
+    sourceFile: canon library/locations/jaspers-apartment.md
+    status: active
+
+  - id: place.elijahs-apartment
+    type: place
+    displayName: Elijah's Apartment
+    aliases: ["Elijah's Apartment", "Elijah's apartment"]
+    sourceFile: canon library/locations/elijahs-apartment.md
+    status: active
+
+  - id: place.elijahs-office
+    type: place
+    displayName: Elijah's Midtown Office
+    aliases: ["Elijah's Midtown Office", "Elijah's Office", "Elijah's office"]
+    sourceFile: canon library/locations/elijahs-office.md
+    status: active
+
+  - id: place.mcgolrick-market
+    type: place
+    displayName: McGolrick Park Farmers Market (Down to Earth)
+    aliases:
+      - "McGolrick Park Farmers Market"
+      - "McGolrick Park Farmers Market (Down to Earth)"
+      - "McGolrick Park Farmers Market (referenced)"
+      - "McGolrick"
+      - "McGolrick Park"
+    sourceFile: canon library/locations/mcgolrick-market.md
+    status: active
+
+  - id: place.mccarren-market
+    type: place
+    displayName: McCarren Park Greenmarket
+    aliases: ["McCarren Park Greenmarket", "McCarren"]
+    sourceFile: canon library/locations/mccarren-market.md
+    status: active
+
+  - id: place.the-gilded-fern
+    type: place
+    displayName: The Gilded Fern
+    aliases: ["The Gilded Fern"]
+    sourceFile: canon library/locations/the-gilded-fern.md
+    status: active
+
+  - id: place.the-coffee-hole
+    type: place
+    displayName: The Coffee Hole
+    aliases: ["The Coffee Hole"]
+    sourceFile: canon library/locations/the-coffee-hole.md
+    status: active
+
+  - id: place.sofias-cheese-shop
+    type: place
+    displayName: Sofia's Cheese Shop
+    aliases: ["Sofia's Cheese Shop", "Sofia's"]
+    sourceFile: canon library/locations/sofias-cheese-shop.md
+    status: active
+
+  - id: place.nypl-rose-reading-room
+    type: place
+    displayName: NYPL — Rose Main Reading Room
+    aliases:
+      - "NYPL Rose Main Reading Room"
+      - "NYPL — Rose Main Reading Room"
+      - "NYPL Rose Reading Room"
+      - "Rose Main Reading Room"
+      - "NYPL"
+    sourceFile: canon library/locations/nypl-rose-reading-room.md
+    status: active
+
+  - id: place.waterfront-property
+    type: place
+    displayName: Waterfront Property (Williamsburg)
+    aliases: ["Waterfront Property (Williamsburg)", "Waterfront Property", "The Waterfront Property"]
+    sourceFile: canon library/locations/waterfront-property.md
+    status: active
+
+  - id: place.meadowlight-collective
+    type: place
+    displayName: Meadowlight Collective
+    aliases: ["Meadowlight Collective", "Meadowlight"]
+    sourceFile: canon library/locations/meadowlight-collective.md
+    status: active
+
+# =========================================================================
+# ITEMS
+# =========================================================================
+items:
+
+  # The heritage hot-sauce bottle Dorothy gives Emma "just in case." The one
+  # tracked object; its custody path Ch1 -> 17 -> 20/23 -> 25 powers the future
+  # custodyEvent demo (tracking/subplot_threads.md -> "Jasper's bottle").
+  - id: item.heritage-bottle
+    type: item
+    displayName: Heritage Hot Sauce Bottle
+    aliases:
+      - "heritage bottle"
+      - "the heritage bottle"
+      - "Hank's heritage hot sauce"
+      - "the heritage hot-sauce bottle"
+      - "Jasper's bottle"
+      - "the bottle"
+    sourceFile: null
+    status: active

@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Ruth"
+id: char.ruth
+status: active
+---
+
 # Ruth
 
 ## Overview

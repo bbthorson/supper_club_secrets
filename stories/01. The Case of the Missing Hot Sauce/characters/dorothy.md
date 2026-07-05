@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Dorothy"
+id: char.dorothy
+status: active
+---
+
 # Dorothy
 
 ## Overview

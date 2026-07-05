@@ -1,6 +1,6 @@
 # Task Brief — Entity Registry (Protocol Phase 1)
 
-**Status:** Not started. This is the background/handoff for a fresh work thread.
+**Status:** ✅ Done — Tasks A–E complete. See [`README.md`](README.md) for the delivered registry, resolver, and Emma stateEvent proof. This brief is retained as the record of intent.
 **Owner doc:** `protocol/ARCHITECTURE.md` (§7 Identity Model, §13 Phase 1). Read that first.
 **Guiding principle:** this is the *protocol-agnostic* foundation. Stable IDs feed **both** a future public site (e.g. Astro) and any AT-Protocol experiment. Building the registry commits us to neither. No network, no publishing, no prose changes.
 

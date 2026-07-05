@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Marcus (The Gilded Fern)"
+id: char.marcus
+status: active
+---
+
 # Marcus (The Gilded Fern)
 
 ## Overview

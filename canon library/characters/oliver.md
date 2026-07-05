@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Oliver"
+id: char.oliver
+status: active
+---
+
 # Oliver
 
 ## Overview

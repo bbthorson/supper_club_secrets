@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Hank"
+id: char.hank
+status: active
+---
+
 # Hank
 
 ## Overview

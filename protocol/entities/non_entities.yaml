@@ -1,0 +1,43 @@
+# Intentional non-entities — Supper Club Secrets (Protocol Phase 1)
+#
+# Names / surfaces that appear in Book 1 chapter frontmatter as free text or
+# one-off background but are DELIBERATELY not registered in entities.yaml.
+# The resolver (resolve.py) consults this list so these are reported as
+# EXPECTED non-matches, not silent misses or errors.
+#
+# Each pattern is matched against the NORMALIZED frontmatter value (trailing
+# "(...)" annotations already stripped), case-insensitively. `prefix: true`
+# matches any value that starts with the pattern (used for the montage
+# descriptors that carry a trailing " — ...").
+#
+# See TASK.md §4 "Intentional non-entities".
+
+people:
+  # Unnamed / background persons who speak or appear once.
+  - "Meadowlight woman"          # unnamed farmer at the collective (Ch23)
+  - "Murph"                      # one-off bartender at Murph's dive (Ch22)
+  - "Seed supplier"              # phone voice, one line (Ch23)
+  - "Waitress"                   # incidental (road-stop diner)
+  - "Unknown out-of-place man"   # the deliberately anonymous "Pike seed" (Ch1);
+                                 # narrative withholds his identity here, so we do
+                                 # NOT resolve it to char.garrett-pike.
+  - "Elijah's mother & sister"   # unnamed background family
+  - "Emma's editor"              # unnamed; kills the squash piece
+  - "The conservative commentator" # unnamed ("#FreeMarketFriday")
+  - "The process server"         # unnamed; delivers the C&D
+
+places:
+  # One-off settings and transit that are not recurring registered locations.
+  - "Amtrak to Philadelphia"
+  - "Murph's"                    # the dive bar (road stop)
+  - "The High Line"
+  - "The Ridgeline Diner"        # road stop
+  - "The Starlite Drive-In"      # road stop
+
+# Montage / structural descriptors used in `pov` and `location` when a chapter
+# is an ensemble feed rather than a single place/POV.
+montage:
+  - pattern: "Distributed"
+    prefix: true                 # "Distributed", "Distributed — allies/outlets",
+                                 # "Distributed — ensemble prep montage",
+                                 # "Distributed (ensemble montage — ...)"
