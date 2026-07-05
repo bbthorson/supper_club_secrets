@@ -1,8 +1,8 @@
 # Protocol Layer Architecture
 
-How *Supper Club Secrets* publishes to the AT Protocol without changing how it is written.
+How *Supper Club Secrets* projects to reader-facing surfaces — a public site first, the AT Protocol as one experimental lens — without changing how it is written.
 
-**Status:** Draft for review. Nothing here is built yet. The first story is not finalized, so no records should be published until the prose is locked (see [Dependency on Story Finalization](#9-dependency-on-story-finalization)).
+**Status:** Draft for review. Nothing here is built yet. Book 1 reached a locked v1 on 2026-07-05, so the finalization gate (see [Dependency on Story Finalization](#9-dependency-on-story-finalization)) is now satisfiable — extraction and publishing can proceed whenever we choose to build them.
 
 **Companion:** `OKF_ADOPTION_PLAN.md` covers the *inward* knowledge format (an agent-readable canon graph for authoring); this doc covers the *outward* published layer (records for readers). Two formats, opposite directions, shared identity.
 
@@ -10,9 +10,16 @@ How *Supper Club Secrets* publishes to the AT Protocol without changing how it i
 
 ## 1. Purpose
 
-This document defines how the repo projects its stories onto the AT Protocol (the architecture behind Bluesky) so that the narrative can be published as a living data network: characters as portable identities, locations and groups as feeds, a public chapter layer and a gated backstage layer, and a reader-facing timeline that can be scrubbed.
+This document defines how the repo — the single source of truth — is **projected onto reader-facing surfaces**, and how the AT Protocol (the architecture behind Bluesky) fits in as *one* of those surfaces rather than the backbone.
 
-It answers one question: **what does the repo need so it can emit AT Protocol records, and what stays exactly as it is?**
+We are exploring new and interesting ways to tell stories. **Not everything goes on the AT Protocol.** The model is *one source, many surfaces*:
+
+- **A public site (e.g. Astro) is the primary reading experience.** Chapters — plus interactive lenses like a scrubbable timeline and location/character feeds — are rendered from the derived record set, with full design control and no dependency on any niche client. This is where the public information lives.
+- **The AT Protocol is an experimental projection**, used only for what it is uniquely good at: characters as portable identities (DIDs) and the novelty of a story you can read *inside* a social feed — follow a character, watch their state change across the timeline, trace a clue's custody. A lens, not the distribution channel.
+
+Both surfaces read from the same derived layer, so the choice of surface never re-derives the truth.
+
+It answers one question: **what does the repo need so it can emit these projections, and what stays exactly as it is?**
 
 The short answer: the creative layers do not change. We add one derived layer and one new authoring habit.
 
@@ -26,9 +33,9 @@ These are load-bearing. Every design choice below follows from them.
 
 2. **The Golden Rule still holds.** Stories drive the canon. The pipeline reads finalized prose and emits records to match. Records never constrain or overwrite the writing. This inverts the common "AI pipeline" framing where structured state cages the prose. Here, prose is the source; records are the projection.
 
-3. **The repo stays private; the network is the publish target.** All planning, drafts, canon, and the interiority brain live here, in private. Publishing is a one-way compile step that pushes a curated subset outward.
+3. **The repo stays private; publishing is outward-only.** All planning, drafts, canon, and the interiority brain live here, in private. Publishing is a one-way compile step that pushes a curated subset outward — to the public site first, and to the AT Protocol projection optionally. Access control lives in our own surface layer, not assumed from the protocol (see §6.6).
 
-4. **Privacy is a gradient already present in the folders.** Interiority never leaves. Chapters are public. The backstage group chat is gated. The repo structure already encodes who-sees-what.
+4. **Privacy is a gradient already present in the folders.** Interiority never leaves. Chapters are public. The backstage group chat is gated — and because gating lives in our surface layer, "gated" means served through our own site with access control, or simply not emitted as public records. The repo structure already encodes who-sees-what.
 
 5. **Author Mode / Scene Mode are unaffected.** The two operating modes govern writing. The protocol layer is downstream of both.
 
@@ -42,10 +49,10 @@ The existing three layers are unchanged. We add a fourth, derived layer.
 world building/     Rules and patterns        (unchanged, never published)
 canon library/      Facts and state           (unchanged, source for records)
 stories/            The narratives            (unchanged, source for records)
-protocol/           Derived publish layer     (NEW, generated)
+protocol/           Derived projection layer  (NEW, generated)
 ```
 
-The `protocol/` layer is a build output plus the schemas and scripts that produce it. It reads from the three creative layers. It never writes back to them.
+The `protocol/` layer is a build output plus the schemas and scripts that produce it. It reads from the three creative layers and never writes back to them. Its derived record set feeds **both** the public site and the optional AT Protocol projection — the name is historical; think of it as "the derived layer," not "the atproto layer."
 
 ---
 
@@ -80,7 +87,9 @@ AT Protocol identifies record types with reverse-DNS names (NSIDs), for example 
 
 **Open decision:** which domain roots the namespace. The narrative is planned to be hosted via a `standard.site` publication, but the lexicon namespace should sit under a domain the project owns. Placeholder used throughout this doc: `site.supperclub.*`. This must be finalized before any lexicon is published, because the NSID threads through every schema and every record.
 
-Where a community lexicon already exists, we reuse it rather than minting our own. Long-form chapters use the **standard.site** lexicon (the community schema for articles and blog posts, with content owned as records on the author's PDS). We do not reinvent long-form publishing.
+Where a community lexicon already exists, we reuse it rather than minting our own. *If* we project chapters onto atproto at all, they use **standard.site** — the shared long-form lexicon (`site.standard.publication` / `site.standard.document`) that Leaflet, pckt.blog, and Offprint converged on in 2026. Its whole premise fits our model: keep the content on our own site and *also* emit records so a chapter is portable and discoverable on atproto **without that being its reading surface**. The public site (e.g. Astro) remains the actual reading experience; standard.site records are an optional mirror.
+
+Note that **Leaflet is a hosted editor built on this same lexicon, not a competing standard** — and because our chapters are generated from prose, we would emit `site.standard.document` records from the pipeline rather than author in Leaflet. We do not reinvent long-form publishing.
 
 ---
 
@@ -95,7 +104,7 @@ How the repo's existing files project onto record types. The key insight: most o
 | `canon library/locations_registry.md` | `place` | Low. Already structured, includes schedule rules |
 | `stories/*/tracking/timeline_ledger.md` | `scene` | Low. Already date-pinned with anchor |
 | `stories/*/tracking/subplot_threads.md` | `item` + `custodyEvent` | Medium. Powers clue-tracing |
-| `stories/*/chapters/*.md` | standard.site document | Reuse community lexicon |
+| `stories/*/chapters/*.md` | Astro content (public read) + optional standard.site `document` record | Reuse the community lexicon for the atproto mirror |
 | (to be written) backstage chat | `message` (gated) | New content, new schema |
 | `stories/*/tracking/interiority/*.md` | **none, ever** | Author-only. Never published |
 
@@ -125,7 +134,7 @@ The "trace a clue" mechanic. The hot sauce bottle in Book 1 has a tracked path (
 
 ### 6.6 message (gated)
 
-The backstage layer. Group-chat posts that happen "between the lines." This content does not exist yet and is written separately from the chapters. **Privacy caveat:** records in a public PDS repo are public by default. Monetization-grade gating is deferred (per current direction). Until that is designed, backstage records either stay unpublished or are gated at the reader layer, not assumed private by virtue of the protocol. Do not publish backstage records to a public repo expecting them to be private.
+The backstage layer. Group-chat posts that happen "between the lines." This content does not exist yet and is written separately from the chapters. **Privacy caveat:** records in a public PDS repo are public by default; atproto has no native private-records / access-control story. In the one-source/many-surfaces model this resolves cleanly rather than fighting the protocol: the backstage layer is served (if at all) through our own site with our own access control, and simply **not emitted as public atproto records**. Monetization-grade gating is deferred (per current direction). The rule of thumb: never publish backstage records to a public repo expecting them to be private.
 
 ---
 
@@ -171,7 +180,7 @@ This determines whether the timeline mechanic works. It does, with one known edg
 
 ## 9. Dependency on Story Finalization
 
-**The first story is not finalized.** Per the tracking files, Book 1's later meals still have open work (timeline compression flags in Meals 3-4, placeholder chapters). Because records are derived from prose (Principle 1) and stories drive canon (Principle 2), publishing records from an unfinished story would bake in continuity that the prose may still change.
+**Book 1 reached a locked v1 on 2026-07-05.** Earlier drafts had open work (placeholder chapters, timeline-compression flags in Meals 3–4) that made publishing premature; that is now resolved. The principle still holds for every story: because records are derived from prose (Principle 1) and stories drive canon (Principle 2), publishing an unfinished story's records would bake in continuity the prose may still change.
 
 **Rule:** no records are published from a story until its prose is locked. The pipeline is re-runnable by design, so we can extract against drafts for testing, but a published record set corresponds to a finalized story.
 
@@ -199,11 +208,11 @@ Reconciliation with the Golden Rule: extraction is read-only against prose. When
 
 ## 11. Reader Surfaces (Downstream)
 
-Out of scope for the first build, recorded here so the data model serves them later.
+Out of scope for the first build, recorded here so the data model serves them later. All three are **renderings of the same record set** and can be built on the public site (e.g. Astro) first; the atproto versions are the optional experiment.
 
-- **Book Mode:** clean sequential reading. Chapters published as standard.site documents.
-- **Timeline Explorer:** an interactive view over `scene`, `character.stateEvent`, `place`, and `custodyEvent` records. Scrub a calendar, inspect a character's state changing, trace the bottle's path, view a location's activity. This is a custom AppView reading the backdated records and sorting by `createdAt`.
-- **Location / group feeds:** feed generators that filter the same records by place or by character group. This is the "reconstitute posts around locations or people" demonstration. This mirrors the prose's feed-based POV model (`ai_instructions.md` §5): scenes are authored as feed events, so the data projection is a direct mapping rather than a re-derivation.
+- **Book Mode:** clean sequential reading on the public site, rendered from the chapter files. Optionally mirrored as standard.site `document` records for atproto discoverability.
+- **Timeline Explorer:** an interactive view over `scene`, `character.stateEvent`, `place`, and `custodyEvent` records. Scrub a calendar, inspect a character's state changing, trace the bottle's path, view a location's activity. Built as an Astro page over the record set for the public site — and/or, as the experiment, a custom atproto AppView reading the backdated records and sorting by `createdAt`.
+- **Location / group feeds:** filter the same records by place or by character group. On the site this is just a filtered view; on atproto it's a feed generator — the "reconstitute posts around locations or people" demonstration, and the story-inside-a-social-feed novelty. Either way it mirrors the prose's feed-based POV model (`ai_instructions.md` §5): scenes are authored as feed events, so the projection is a direct mapping rather than a re-derivation.
 
 The reader surfaces are renderings of the record set. They do not change the repo or the pipeline.
 
@@ -215,7 +224,7 @@ Resolve these before building the corresponding piece.
 
 1. **NSID namespace domain** (blocks: all lexicons). Which owned domain roots `*.character.profile` etc.
 2. **Identity model for v1** (blocks: publish step). One repo with multiple collections, or per-character DIDs from the start.
-3. **standard.site adoption details** (blocks: chapter publishing). Which standard.site-compatible app/PDS hosts the long-form records.
+3. **Public reading surface** (blocks: chapter publishing). Confirm the site stack (e.g. Astro) as the primary reader, and decide whether to *also* emit standard.site records for atproto discoverability — and if so, which PDS holds them.
 4. **Backstage gating** (deferred). How `message` records are gated when monetization is taken up. Until then, they stay unpublished or reader-gated.
 5. **Per-story vs series-wide records** (blocks: records layout). Whether `records/` is partitioned per book.
 
@@ -226,10 +235,10 @@ Resolve these before building the corresponding piece.
 - **Phase 0 — This document.** Lock principles and the open decisions above.
 - **Phase 1 — Schema + extraction proof.** Define `character.stateEvent`, add the entity registry and frontmatter for one character (Emma), and extract her state series from `character_matrix.md` into validated records. Proves the spine end to end against real data, no network.
 - **Phase 2 — Full extraction.** Remaining record types (profile, place, scene, item/custodyEvent) for a finalized Book 1.
-- **Phase 3 — Publish layer.** Stand up identity/PDS, adopt standard.site for chapters, publish the finalized record set.
-- **Phase 4 — Reader surfaces.** Timeline Explorer and location/group feeds.
+- **Phase 3 — Public site (primary reader surface).** Render chapters and the record-set lenses (Book Mode, Timeline Explorer, location/character feeds) as a site (e.g. Astro). Full design control, no network/atproto dependency. This is the reading experience.
+- **Phase 4 — AT Protocol experiment (optional).** Stand up identity/PDS and per-character DIDs, mirror chapters as standard.site records, and build feed generators / a custom AppView — the portable-identity and story-inside-a-social-feed lens. Additive to Phase 3, never a prerequisite for it.
 
-Phase 1 can begin while the first story is still being finalized, because it runs against existing tracking data and touches no network.
+Phase 1 can begin while a story is still being finalized, because it runs against existing tracking data and touches no network. Phases 3 and 4 are independent: the public site does not wait on the atproto work.
 
 ---
 
