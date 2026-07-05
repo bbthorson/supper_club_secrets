@@ -1,3 +1,43 @@
+---
+chapter: 3
+title: "A Simmering Suspicion"
+meal: 1
+beat: "Catalyst"
+day: "Sunday"
+date: "2026-10-04"
+time: "evening"
+location:
+  - "Emma's apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah (arrives — the final guest)"
+  - "Oliver"
+  - "Noah"
+  - "Olivia"
+  - "Jasper"
+characters_referenced:
+  - "Marcus (texted — The Gilded Fern)"
+  - "Hank"
+registers:
+  Emma: "private (story-teller mode — the Hank/Dorothy story, bottle in hand)"
+  Elijah: "private (just arrived; tasting, gently puncturing speculation)"
+  Oliver: "private (quiet)"
+  Noah: "private (skeptical but listening)"
+  Olivia: "public (texts Marcus mid-conversation; gets the confirmation)"
+  Jasper: "public (pushing toward investigation)"
+clues:
+  planted: []
+  revealed:
+    - "Marcus: Hank was 'jittery, like a man running from something' (Connective)"
+threads:
+  active:
+    - "Main mystery: idle concern becomes genuine intrigue"
+  touched:
+    - "Olivia's recurring intel source (Marcus / The Gilded Fern)"
+beat_purpose: "Marcus's 'man running from something' is the catalyst — it turns dinner-party curiosity into a real question."
+---
+
 ### Chapter Three - A Simmering Suspicion
 
 The door buzzed again, this time with a staccato insistence that announced the arrival of their final guest. A chorus of "ELIJAH!" rang out as Oliver rose to greet their friend.

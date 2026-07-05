@@ -1,3 +1,43 @@
+---
+chapter: 1
+title: "The Missing Hot Sauce"
+meal: 1
+beat: "Opening Image / Theme Stated"
+day: "Sunday"
+date: "2026-10-04"
+time: "morning → afternoon"
+location:
+  - "McGolrick Park Farmers Market"
+  - "Emma's apartment"
+pov: "Emma"
+characters_present:
+  - "Emma (centerstage)"
+  - "Dorothy (honey vendor — gives the bottle)"
+  - "Ruth (vendor — 'seemed off, kept checking his phone')"
+characters_referenced:
+  - "Hank (absent — empty stall)"
+registers:
+  Emma: "private (curious → quietly alarmed); Western PA flickers"
+  Dorothy: "public (warm)"
+  Ruth: "public"
+clues:
+  planted:
+    - "Hank's empty stall (Foundation)"
+    - "Dorothy's 'just in case' heritage bottle (Foundation / Keystone)"
+    - "Ruth: Hank jittery, checking his phone (Foundation)"
+    - "A well-dressed, out-of-place man at the market — Pike seed (Foundation)"
+  revealed:
+    - "Hank has given up his stall and vanished"
+threads:
+  active:
+    - "Main mystery: Hank's disappearance (the bottle enters play)"
+    - "Emma reclaiming her voice after Bistro Lavande (introduced)"
+    - "Jasper's bottle (introduced — Dorothy's 'just in case' bottle)"
+  touched:
+    - "B-plot: Emma's precarity ('financial equivalent of closing your eyes on a roller coaster')"
+beat_purpose: "Open on the empty stall and Dorothy's 'just in case' bottle — the loss that makes the mystery personal, and the theme that a community protects its own."
+---
+
 # Meal One
 
 ### Chapter One - The Missing Hot Sauce
