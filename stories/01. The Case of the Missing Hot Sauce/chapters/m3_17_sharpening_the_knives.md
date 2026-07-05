@@ -1,3 +1,44 @@
+---
+chapter: 17
+title: "Sharpening the Knives"
+meal: 3
+beat: "Break into Three (preparation montage)"
+day: "Wednesday night → Friday morning"
+date: "2026-10-14 to 2026-10-16"
+time: "~36 hours"
+location:
+  - "Distributed — ensemble prep montage"
+  - "Amtrak to Philadelphia"
+pov: "Distributed (ensemble montage — each character's feed in turn)"
+characters_present:
+  - "Noah (building infrastructure overnight)"
+  - "Olivia (network map, phone work)"
+  - "Oliver (press kit, fact-checking)"
+  - "Elijah (evidence package)"
+  - "Emma (drafting the narrative; cooking nothing)"
+  - "Jasper (en route — boards the Amtrak; packs the bottle)"
+registers:
+  Noah: "private (sleepless)"
+  Olivia: "private (pacing)"
+  Oliver: "private (obsessive fact-checking)"
+  Elijah: "private (press kit; family weight off-page)"
+  Emma: "private (writing late)"
+  Jasper: "private (en route)"
+clues:
+  planted:
+    - "Jasper palms Dorothy's 'just in case' bottle from Emma's counter (Keystone — the bottle's journey to Hank)"
+  revealed: []
+threads:
+  active:
+    - "Main mystery: each member readies their piece of the campaign"
+    - "Jasper's bottle (complicated/planted — he takes it, tells no one)"
+  touched:
+    - "Each character's skill in service of the mission (feed-model showcase)"
+beat_purpose: "Alone-but-connected, each member builds their piece of the campaign; Jasper quietly pockets Dorothy's bottle for the road."
+audit_notes:
+  - "Montage spans ~36 hrs (Wed night → Fri morning); anchored with 'by Friday morning'-style beats."
+---
+
 ### Chapter Seventeen — Sharpening the Knives
 
 *Wednesday night into Friday morning — thirty-six hours, six people, one campaign to build.*

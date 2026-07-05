@@ -1,3 +1,43 @@
+---
+chapter: 2
+title: "The First Supper"
+meal: 1
+beat: "Set-Up"
+day: "Sunday"
+date: "2026-10-04"
+time: "evening"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma (host)"
+  - "Jasper (first to arrive)"
+  - "Olivia"
+  - "Oliver"
+  - "Noah"
+characters_referenced:
+  - "Elijah (running late from work — arrives Ch3)"
+  - "Hank (the sauce and his story)"
+  - "Dorothy"
+registers:
+  Emma: "public → private (hostess persona softening as the soup lands)"
+  Jasper: "public (performative chaos)"
+  Olivia: "public (hostess overdrive — drawing everyone in)"
+  Oliver: "private (quiet; notices a detail no one else does)"
+  Noah: "public (tech-snob about the wine)"
+clues:
+  planted: []
+  revealed:
+    - "The sauce is extraordinary — the group tastes what's at stake"
+threads:
+  active:
+    - "Main mystery: the disappearance becomes the whole club's problem"
+    - "Jasper's bottle (developing — on the counter through dinner)"
+  touched:
+    - "Group dynamics established through the first supper"
+beat_purpose: "Serve the soup — the group tastes what's at stake, and Hank's disappearance stops being Emma's alone."
+---
+
 ### Chapter Two - The First Supper
 
 The door buzzed, a harsh, electric sound that cut through the sizzle of onions in the pan. Emma tasted the contents of her ladle—needed salt—set it down, and quickly shuffled to the intercom.

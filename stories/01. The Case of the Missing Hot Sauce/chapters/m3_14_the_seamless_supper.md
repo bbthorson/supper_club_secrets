@@ -1,3 +1,46 @@
+---
+chapter: 14
+title: "The Seamless Supper"
+meal: 3
+beat: "All Is Lost (part 1)"
+day: "Wednesday"
+date: "2026-10-14"
+time: "evening"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Olivia"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Jasper"
+characters_referenced:
+  - "Elijah's mother & sister (work call — sister's car)"
+  - "Garrett Pike (the C&D; the park confrontation)"
+registers:
+  Emma: "under-pressure → private (kitchen confide with Olivia — the relief of being known)"
+  Olivia: "under-pressure (hostess hyperdrive; orders Thai) → private (the quiet kitchen confide)"
+  Elijah: "private (reads the C&D, declares it toothless; takes a work call)"
+  Noah: "private (steady; observing the room)"
+  Oliver: "private (listening, gathering)"
+  Jasper: "private (subdued — knows what's coming)"
+clues:
+  planted: []
+  revealed:
+    - "The C&D is 'toothless' legally, but the intimidation is real; the letter names no secrets"
+threads:
+  active:
+    - "Main mystery: the group rallies around the C&D"
+    - "B-plot: Emma privately confides her precarity to Olivia (the intimate payoff — not the account)"
+  touched:
+    - "Elijah's family financial weight (work call; ambient, no payoff this book)"
+beat_purpose: "Emergency dinner rallies the group around the C&D; privately, Emma finally lets Olivia see how precarious things really are."
+audit_notes:
+  - "Opaque-secret direction: the confide is precarity/shame, not the account; no whole-group confession."
+---
+
 ### Chapter Fourteen - The Seamless Supper
 
 For a second the line was quiet, and Emma could picture Olivia switching gears — the bright social hum dropping away into the other Olivia, the one who'd once talked a friend through a car accident over the phone without raising her voice.

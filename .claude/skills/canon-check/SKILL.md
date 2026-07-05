@@ -23,7 +23,7 @@ Identify the target prose (a chapter file under `stories/<book>/chapters/`, a sc
 diff) and which book it belongs to. The canonical sources live in two places:
 
 - **Series-wide:** `canon library/` — `continuity.md`, `characters/*.md`,
-  `antagonists/*.md`, `locations_registry.md` (+ `locations/*.md`), `group_dynamics.md`,
+  `antagonists/*.md`, `locations/*.md` (+ `locations/index.md`), `group_dynamics.md`,
   `glossary.md`, `series_plan.md`
 - **Per-story:** `stories/<book>/tracking/` — `character_matrix.md`,
   `timeline_ledger.md`, `subplot_threads.md`
@@ -55,11 +55,11 @@ Cross-check `tracking/timeline_ledger.md`:
 - **Relative-time slips** — a prop/event referred to as "this morning," "yesterday," "two
   days ago" must agree with the absolute dates. (This class of bug is real here — see the
   Oct 2 LLC chronology note in the ledger.)
-- **Travel time** — movements between locations must respect the Canon Rules in
-  `locations_registry.md`. No teleporting across Brooklyn within an impossible window.
+- **Travel time** — movements between locations must respect the scheduling/travel rules in
+  `canon library/locations/index.md`. No teleporting across Brooklyn within an impossible window.
 
 ### 3. Location consistency
-Cross-check `locations_registry.md` and `canon library/locations/*.md`:
+Cross-check `canon library/locations/index.md` and `canon library/locations/*.md`:
 - Is the location **open/operating** on the scene's story date? (Market days, shop hours
   are encoded as schedule rules — e.g. McGolrick market is Sunday; McCarren is Saturday.)
 - Physical details (layout, who works there, neighborhood) match the location file.

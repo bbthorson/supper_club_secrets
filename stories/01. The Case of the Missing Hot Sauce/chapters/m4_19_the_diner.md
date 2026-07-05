@@ -1,3 +1,32 @@
+---
+chapter: 19
+title: "The Ridgeline Diner"
+meal: 4
+beat: "Finale (from the road)"
+day: "Friday"
+date: "2026-10-16"
+time: "night"
+location:
+  - "The Ridgeline Diner"
+pov: "Jasper"
+characters_present:
+  - "Jasper (alone)"
+  - "Waitress (incidental)"
+characters_referenced:
+  - "Hank (the search)"
+registers:
+  Jasper: "private (alone — dead-end nursery calls; the loneliness under the performance)"
+clues:
+  planted: []
+  revealed: []
+threads:
+  active:
+    - "Jasper's redemption journey (from the road — the first night of calls)"
+  touched:
+    - "Jasper's chaos, now pointed at something"
+beat_purpose: "From the road: Jasper's first night of dead-end calls — he keeps going anyway; the loneliness under the performance surfaces alone."
+---
+
 ### Chapter Nineteen - The Ridgeline Diner
 
 *Route 30, west of Philadelphia. Friday night.*

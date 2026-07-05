@@ -1,3 +1,42 @@
+---
+chapter: 4
+title: "Stirring the Pot"
+meal: 1
+beat: "Debate"
+day: "Sunday"
+date: "2026-10-04"
+time: "late evening"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah (judge)"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+  - "Jasper"
+registers:
+  Emma: "private ('Big Hot Sauce' theory — played for laughs)"
+  Elijah: "private (judge role; dry sarcasm; can't pick a winner)"
+  Noah: "private (CIA / supply-chain theory — jargon for laughs)"
+  Oliver: "private → briefly animated (kidnapping-by-business-partner; glances to Olivia)"
+  Olivia: "public (romantic theory, full theatrical flair)"
+  Jasper: "public (aliens / CIA / Russians; knocks over his wine)"
+clues:
+  planted:
+    - "Emma's 'Big Hot Sauce' theory — played for laughs, but essentially correct (Foundation, disguised as misdirection)"
+  revealed: []
+threads:
+  active:
+    - "Main mystery: theory competition (each frame is characterization + red herring)"
+    - "Oliver emerging from his shell (introduced — reluctant theory, defers to Olivia)"
+    - "Jasper as chaos agent (developing)"
+  touched:
+    - "Group dynamics"
+beat_purpose: "The theory competition — every character's frame is characterization and misdirection; Emma's joke is the truth no one takes seriously."
+---
+
 ### Chapter Four - Stirring the Pot
 
 "Drumroll, please," Elijah announced, shaking the cap with mock solemnity. He held it out to Emma in the kitchen. She reached in and pulled out a folded piece of paper. "Number two. I guess that's okay. I'm going to grab some water before my turn. Anybody want some?" Oliver held up his hand.

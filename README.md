@@ -23,10 +23,13 @@ Contents:
 Contents:
 - `characters/` — Individual profiles with background, relationships, secrets, and per-book lore tracking
 - `antagonists/` — One antagonist profile per planned book
-- `series_plan.md` — Locked book order, monthly progression, secrets reveal schedule
+- `books/` — Per-book concept/summary files (the OKF split of `series_plan.md`)
+- `locations/` — Per-location files plus `index.md` (gathering-space rotation, geography, and the hard scheduling/travel rules)
+- `series_plan.md` — Locked book order, monthly progression, secrets reveal schedule (the index for `books/`)
 - `glossary.md` — Canon terms, quick-reference character table, and consistency rules
 - `group_dynamics.md` — Character tensions, alliances, and pairing dynamics
-- `locations_registry.md` — All recurring and story-specific locations
+- `continuity.md` — "Previously on…" world-state summary after each book
+- `locations_registry.md` — Redirect stub → `locations/` (kept so older references still resolve)
 
 **Key distinction:** Character *voice rules* (how they talk, their registers) live in `world building/`. Character *facts* (backstory, what's happened to them, relationships) live in `canon library/`.
 
@@ -35,7 +38,10 @@ Contents:
 
 Contents:
 - `_story_template/` — Standardized scaffold for starting a new book
-- `01. The Case of the Missing Hot Sauce/` — Book 1 (draft, revision pending; see its `00_book_metadata.md`)
+- `01. The Case of the Missing Hot Sauce/` — Book 1 (v1 complete; see its `00_book_metadata.md`)
+
+### 🔌 protocol/
+**Role: Derived projection (experimental).** A build output — schemas, a stable-ID registry, and a pipeline that projects finalized prose to reader surfaces (a public site first; the AT Protocol as one optional lens). Not authored by hand, and nothing here is built yet. See [protocol/ARCHITECTURE.md](protocol/ARCHITECTURE.md).
 
 ---
 

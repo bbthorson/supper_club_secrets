@@ -30,7 +30,7 @@ A quick-reference dictionary of terms, facts, and recurring elements that must r
 
 ## Locations
 
-See [locations_registry.md](locations_registry.md) for full details.
+See [locations/index.md](locations/index.md) for full details.
 
 | Location | Type | Notes |
 |----------|------|-------|
@@ -95,6 +95,7 @@ These facts must remain consistent:
 | **Brenda Marquez** | Jasper's contact at Apex Realty (commercial real estate). Inadvertently tipped off the mogul about the investigation. |
 | **Marcus** | Owner of The Gilded Fern. Olivia's neighborhood intel source. Not to be confused with Brenda Marquez. |
 | **Dorothy** | Honey vendor at McGolrick Park. Silver-streaked hair, weathered hands. Gives Emma a bottle of Hank's sauce she'd been saving "just in case." (Ch. 1) |
-| **Sofia** | Owner of Sofia's Cheese Shop, a 20-year neighborhood fixture. Her nephew Paolo works at a waterfront restaurant and mentioned "big changes" — intelligence that feeds the investigation. (Ch. 8) |
-| **The Rebuttal Framework** | Oliver's meticulously sourced talking-points document used to counter the conservative commentator's pushback. Sent to all outlets; became the food critic's script. (Ch. 16) |
+| **Sofia** | Owner of Sofia's Cheese Shop, a 20-year neighborhood fixture near McCarren. Tells Emma about Hank's "big offer to go legit" and the **Paolo precedent** — the intel that reveals the pattern. (Ch. 11) |
+| **Paolo (Ferrante)** | "The pickle guy" — a Smorgasburg pickle vendor sued out of business over his own grandmother's recipe (*Paolo Ferrante v. Riverview Hospitality Group, LLC*, filed then dismissed when he couldn't afford to continue). Sofia's cautionary precedent; same playbook used on Hank. Moved back to Queens. (Chs. 11, 17) |
+| **The Rebuttal Framework** | Oliver's meticulously sourced talking-points document used to counter the conservative commentator's pushback. Sent to all outlets; became the food critic's script. (Deployed Ch. 24, "The Proof.") |
 | **Bistro Lavande** | Aging French restaurant in the West Village where Emma worked for four years. Site of the Coq au Vin Incident. (Background) |

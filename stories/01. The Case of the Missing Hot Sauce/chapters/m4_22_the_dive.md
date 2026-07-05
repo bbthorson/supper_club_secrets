@@ -1,3 +1,35 @@
+---
+chapter: 22
+title: "Murph's"
+meal: 4
+beat: "Finale (from the road — the low point)"
+day: "Sunday"
+date: "2026-10-18"
+time: "night"
+location:
+  - "Murph's"
+pov: "Jasper"
+characters_present:
+  - "Jasper"
+  - "Murph (the bartender)"
+characters_referenced:
+  - "Noah (the conduit — updates routed through him)"
+  - "Hank ('a city type turned up this fall')"
+registers:
+  Jasper: "private (the lowest point — twenty-some calls, a bad motel; nearly drives home)"
+  Murph: "public"
+clues:
+  planted: []
+  revealed:
+    - "A bartender names the Meadowlight Collective — the lead that breaks the search open"
+threads:
+  active:
+    - "Jasper's redemption journey (from the road — the low point, then the break)"
+  touched:
+    - "The performance stripped away — just the guy who caused it all, running out of road"
+beat_purpose: "From the road: the low point — Jasper nearly drives home, then a bartender names Meadowlight and the door cracks open."
+---
+
 ### Chapter Twenty-Two - Murph's
 
 *Off Route 222. Sunday night.*

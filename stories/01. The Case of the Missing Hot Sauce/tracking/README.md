@@ -8,4 +8,4 @@ Working files for timeline, character interiority, and subplot threads. See `sto
 - ✅ `subplot_threads.md` — populated; dropped threads flagged
 - ✅ `character_matrix.md` — populated for all 25 chapters
 - ✅ `interiority/` — one doc per major character + Hank
-- ⚠️  Chapter frontmatter — demoed on Ch13 only (mass retrofit pending author sign-off)
+- ✅ Chapter frontmatter — schema locked (see `_story_template/chapters/00_chapter_guide.md`) and applied to all 25 chapters (2026-07-05)

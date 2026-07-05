@@ -22,7 +22,7 @@ The hidden tension is: can his two selves stay separate, or does the IRL fight f
 
 **Ch15 → Ch16 → Ch17:** Architects the rebuttal framework. This is his element — the structured-takedown playbook. He's doing online work in IRL form.
 
-**Ch24 (placeholder):** Rebuttal lands. Food critic adopts his exact framing. This is the silent victory — he's saved them, and the group is starting to understand he's not the person they thought he was. The reveal is small (only Elijah's joke about "solving a PR crisis with a Wikipedia editing strategy" in Ch16). No one chases it.
+**Ch24 ("The Proof"):** Rebuttal lands. Food critic adopts his exact framing. This is the silent victory — he's saved them, and the group is starting to understand he's not the person they thought he was. The reveal is small (only Elijah's joke about "solving a PR crisis with a Wikipedia editing strategy" in Ch16). No one chases it.
 
 ## What shifts (and what doesn't)
 

@@ -7,8 +7,8 @@ day: "Monday → Wednesday"
 date: "2026-10-12 to 2026-10-14"
 time: "Mon morning → Tue afternoon → Wed midday"
 location:
-  - "Emma's apartment"
-  - "McGolrick Park (Wed midday — closed; the empty stalls)"
+  - "Emma's Apartment"
+  - "McGolrick Park Farmers Market (referenced)"
 pov: "Emma"
 characters_present:
   - "Emma (centerstage)"
@@ -18,6 +18,15 @@ characters_referenced:
   - "Sofia (texted, silent)"
   - "Dorothy (texted, no read receipt)"
   - "Emma's editor (kills the squash piece)"
+registers:
+  Emma: "private → under-pressure"
+  Garrett Pike: "public (charm-as-menace)"
+  Olivia: "private (protective)"
+clues:
+  planted: []
+  revealed:
+    - "C&D arrives"
+    - "Pike has dug into Emma's finances (coded, unnamed)"
 threads:
   active:
     - "Main mystery: retaliation begins as an economic squeeze on Emma's livelihood"

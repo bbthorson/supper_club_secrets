@@ -1,3 +1,41 @@
+---
+chapter: 20
+title: "Ghost Kitchen"
+meal: 4
+beat: "Finale — Doubt (the counterpunch)"
+day: "Saturday"
+date: "2026-10-17"
+time: "morning → afternoon"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+characters_referenced:
+  - "Jasper (PA, off-page)"
+  - "The conservative commentator (\"#FreeMarketFriday\")"
+registers:
+  Emma: "private (⚠ still sidelined in execution)"
+  Elijah: "private (weathering the takedown notices — 'I work for capitalism. I have a lanyard.')"
+  Noah: "private (tense — an anonymous account gets traced; a close call)"
+  Oliver: "private (holding the line on the rebuttal)"
+  Olivia: "private (doubt creeping in)"
+clues:
+  planted: []
+  revealed: []
+threads:
+  active:
+    - "Main mystery: the counterpunch — a dismissive commentator, takedown notices, an account traced"
+    - "The campaign might fail — the group's confidence cracks"
+  touched:
+    - "Pike's 'amateurs playing a professional's game' echo as doubt peaks"
+beat_purpose: "The counterattack lands — a glib commentator, blog takedowns, and a close call with a traced account leave the group doubting they've made things worse."
+---
+
 ### Chapter Twenty - Ghost Kitchen
 
 By Saturday morning the story had legs. By Saturday afternoon, it had enemies.

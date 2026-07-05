@@ -1,3 +1,44 @@
+---
+chapter: 15
+title: "A Bitter Taste"
+meal: 3
+beat: "All Is Lost (part 2) / Dark Night of the Soul"
+day: "Wednesday"
+date: "2026-10-14"
+time: "late evening (continuous with Ch14)"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+  - "Jasper"
+registers:
+  Emma: "private (centered now; listening)"
+  Elijah: "private (asks the right questions to surface the leak)"
+  Noah: "under-pressure (anger — lashes out at Jasper)"
+  Oliver: "under-pressure → public (knowledge-bomb — the longest speech of his life)"
+  Olivia: "private (watching the fight)"
+  Jasper: "under-pressure (the reversal — goes quiet; 'I don't know any other way to be useful')"
+clues:
+  planted: []
+  revealed:
+    - "The leak traced to Jasper's call to Brenda — how the developer found them"
+threads:
+  active:
+    - "Main mystery: the breach is traced (Noah's information-flow question)"
+    - "Jasper — chaos to redemption (complicated peak: the confession)"
+    - "Oliver emerging from his shell (paid off — the rally speech)"
+    - "Noah — lashes out (complicated)"
+  touched:
+    - "Oliver's online-moderator life (seeded parenthetically — Book 2)"
+    - "Meritocracy seam / Jasper's Chelsea (class fault-line seed — no old-money reveal)"
+beat_purpose: "Noah traces the breach to Jasper; the group's sharpest fight — then Oliver stands up and turns despair into a plan."
+---
+
 ### Chapter Fifteen - A Bitter Taste
 
 For a moment nobody answered Noah's question. Then the buzzer went — the Thai, arriving into the silence like a guest who hadn't read the room — and they let the small ordinary task of unpacking it paper over the thing he'd just asked.

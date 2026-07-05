@@ -2,7 +2,7 @@
 
 A phased plan to make the repo's knowledge layers conform to Google's **Open Knowledge Format** (OKF, v0.1). This is the *inward* half of the two-format architecture: OKF makes the canon agent-readable for authoring and continuity work; AT Protocol (`ARCHITECTURE.md`) is the *outward* half that publishes the narrative to readers. See [Alignment with the protocol layer](#alignment-with-the-protocol-layer).
 
-**Status:** plan only. Not urgent. Sequenced for the protocol phase, after Book 1's back half is finished. Nothing here touches prose.
+**Status:** plan only. Not urgent. Nothing here touches prose. **Update (2026-07-05):** Book 1's back half is now finished (v1-locked), so the sequencing gate is met. **Phase C is complete** (locations + books split, with `index.md` files). **Phases A and B are partial** — the Phase-C-split files carry OKF frontmatter and indexes, but the older knowledge files (e.g. `characters/*`, `antagonists/*`, story-level character notes) do not yet. Phase D not started.
 
 ---
 
@@ -87,7 +87,7 @@ Keep it minimal. `type` is the only hard requirement; add the rest where it earn
 
 **Phase B — graph + navigation (≈ half day).** Add `index.md` files; convert implicit references to real markdown links; confirm `CANON_CHANGELOG.md` as the log of record.
 
-**Phase C — split aggregates (planned, 1–2 sessions).** Split `locations_registry.md` → per-`Location` files (`canon library/locations/<slug>.md`) and `series_plan.md` → per-`Book` files (`canon library/books/bookN.md`), each with an `index.md`; keep `series_plan.md` as the `SeriesPlan` overview. **Decided 2026-06-15** — the idiomatic OKF shape, maps 1:1 to the protocol `place` and book records. The most work of the phases, but committed.
+**Phase C — split aggregates. ✅ DONE (2026-06-15).** Split `locations_registry.md` → per-`Location` files (`canon library/locations/<slug>.md`) and `series_plan.md` → per-`Book` files (`canon library/books/bookN.md`), each with an `index.md`; `series_plan.md` retained as the `SeriesPlan` overview. `locations_registry.md` is now a redirect stub. The idiomatic OKF shape, maps 1:1 to the protocol `place` and book records.
 
 **Phase D — validate (quick).** Check against the OKF SPEC conformance criteria; optionally run Google's reference HTML visualizer to view the canon as a graph. Pin the spec version we target.
 

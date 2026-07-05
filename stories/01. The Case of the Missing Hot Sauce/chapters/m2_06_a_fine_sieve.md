@@ -1,3 +1,34 @@
+---
+chapter: 6
+title: "A Fine Sieve"
+meal: 2
+beat: "Break into Two"
+day: "Monday"
+date: "2026-10-05"
+time: "afternoon → evening"
+location:
+  - "NYPL Rose Main Reading Room"
+pov: "Oliver"
+characters_present:
+  - "Oliver (solo)"
+characters_referenced:
+  - "Olivia (home, asleep when he returns)"
+  - "Hank"
+registers:
+  Oliver: "private (solo focus — the library is where his expertise has a home)"
+clues:
+  planted: []
+  revealed:
+    - "Anonymous LLC #2847 filed Oct 2 — two days after Hank surrendered his stall (Connective)"
+threads:
+  active:
+    - "Main mystery: the first hard lead (LLC #2847)"
+    - "Oliver emerging from his shell (developing — solo research, first real action)"
+  touched:
+    - "Oliver/Olivia marriage texture (he comes home; she's asleep)"
+beat_purpose: "Oliver's methodical library dig turns idle theory into a documented lead — the case breaks into Act 2."
+---
+
 ## Meal Two
 
 ### Chapter Six - A Fine Sieve

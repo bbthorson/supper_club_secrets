@@ -22,7 +22,7 @@ One concept per location file in this folder. Add a new file here as new locatio
 ## All locations
 **Homes / gathering spaces:** [Emma's Apartment](emmas-apartment.md) · [Olivia & Oliver's Place](olivia-oliver-place.md) · [Noah's Apartment](noahs-apartment.md) · [Jasper's Apartment](jaspers-apartment.md)
 **Recurring Brooklyn:** [McGolrick Park Farmers Market](mcgolrick-market.md) · [McCarren Park Greenmarket](mccarren-market.md) · [The Gilded Fern](the-gilded-fern.md) · [The Coffee Hole](the-coffee-hole.md) · [Sofia's Cheese Shop](sofias-cheese-shop.md)
-**Book 1 story-specific:** [NYPL Rose Main Reading Room](nypl-rose-reading-room.md) · [Elijah's Midtown Office](elijahs-office.md) · [Waterfront Property](waterfront-property.md) · [Meadowlight Collective](meadowlight-collective.md)
+**Book 1 story-specific:** [NYPL Rose Main Reading Room](nypl-rose-reading-room.md) · [Elijah's Midtown Office](elijahs-office.md) · [Elijah's Apartment](elijahs-apartment.md) *(Bed-Stuy; appears Ch8 — not a gathering space until Book 6)* · [Waterfront Property](waterfront-property.md) · [Meadowlight Collective](meadowlight-collective.md)
 
 ## Canon facts to maintain (geography)
 - Emma lives between the Graham Ave L and Nassau Ave G stops (Williamsburg/Greenpoint border), walking distance from McGolrick Park

@@ -1,3 +1,53 @@
+---
+chapter: 25
+title: "Family Meal"
+meal: 4
+beat: "Final Image"
+day: "Sunday"
+date: "2026-10-25"
+time: "evening"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma (host)"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+  - "Jasper"
+  - "Hank (arrives with Jasper)"
+characters_referenced:
+  - "Dorothy (morning text — reconciliation)"
+  - "Marcus (goat-cheese discount)"
+  - "Garrett Pike (retreated — non-apology statement)"
+registers:
+  Emma: "private (settled — cooking for joy; the squeeze has lifted)"
+  Elijah: "private (fennel salad — strategic, not a concession)"
+  Noah: "private (apologizes to Jasper — names the conduit pattern)"
+  Oliver: "private (voluntary emergence — 'I'll go first' for next Sunday)"
+  Olivia: "private (beet-and-goat-cheese tart; Marcus discount)"
+  Jasper: "private → public (returns the bottle, apologizes; reverts to performative theory-pitching — now earned)"
+  Hank: "private (warm — tells his full story; filed a proper trademark)"
+clues:
+  planted: []
+  revealed:
+    - "Hank's full story; a pro-bono lawyer helped him file a proper trademark (resolution)"
+threads:
+  active:
+    - "Main mystery: resolved — Hank returns; the C&D withdrawn; the project shelved"
+    - "Jasper's bottle (paid off — returned to Emma; its arc closes where it started)"
+    - "Noah/Jasper reconciliation (paid off — the apology names the conduit pattern)"
+    - "Emma reclaiming her voice (paid off — cooking for joy; the squeeze lifts)"
+  touched:
+    - "Oliver carrying his Ch15 emergence (small dose — 'I'll go first')"
+    - "Dorothy reconciliation (morning text)"
+    - "Rotating hosts agreed; propulsion into Book 2"
+beat_purpose: "Family Meal — Hank returns with Jasper, the bottle's arc closes, the economic squeeze lifts, and the club commits to continuing with rotating hosts."
+audit_notes:
+  - "Emma's secret stays opaque/deferred; the aftermath is the squeeze lifting, not an exposure. 'The fear didn't end when the threat did' (via Dorothy)."
+---
+
 ### Chapter Twenty-Five - Family Meal
 
 The following Sunday, Emma stood in her kitchen, staring at the array of ingredients spread across her counter. For the first time in months, she wasn't cooking out of anxiety or financial desperation. She wasn't performing for a client or testing a recipe for an article or trying to prove something to a voice in her head that sounded like her former boss. She was cooking because she wanted to. Because her friends were coming, and they deserved something beautiful.

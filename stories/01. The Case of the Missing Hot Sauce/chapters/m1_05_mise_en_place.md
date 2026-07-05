@@ -1,3 +1,45 @@
+---
+chapter: 5
+title: "Mise en Place"
+meal: 1
+beat: "Debate → The Plan"
+day: "Sunday"
+date: "2026-10-04"
+time: "late evening"
+location:
+  - "Emma's Apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+  - "Jasper"
+characters_referenced:
+  - "Hank (the bottle on the counter)"
+registers:
+  Emma: "private → deflating (money math she doesn't want to do; hands off the entree)"
+  Elijah: "private (pragmatic; takes the second course)"
+  Noah: "private (trades wine duty to Jasper)"
+  Oliver: "private (quiet acceptance; Olivia volunteers them both)"
+  Olivia: "public (hat-mistress; drives the structure)"
+  Jasper: "public (proposes the investigation + potluck)"
+clues:
+  planted: []
+  revealed: []
+threads:
+  active:
+    - "Main mystery: the plan — investigate, reconvene with a potluck, assignments drawn"
+    - "Emma reclaiming her voice (developing — hosts, but hands off the entree)"
+  touched:
+    - "B-plot: Emma's precarity (the money math; the energy she won't name)"
+    - "Jasper's bottle (on the counter)"
+beat_purpose: "The club commits to investigating and reconvening with a potluck — assignments drawn — turning a dinner into a case."
+audit_notes:
+  - "Emma handing off the entree is an early, unspoken tell of the precarity/energy she keeps opaque."
+---
+
 ### Chapter Five - Mise en Place
 
 Jasper stood up, a beaming smile of purple teeth. "Elijah, are you saying you WANT to hang out with us two weeks in a row?" He paused for dramatic effect. "WHAT IF we do this dinner thing again, except next week we all bring a dish that helps justify your theory?"

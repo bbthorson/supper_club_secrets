@@ -1,3 +1,34 @@
+---
+chapter: 9
+title: "A Pinch Too Much"
+meal: 2
+beat: "Fun and Games"
+day: "Thursday"
+date: "2026-10-08"
+time: "evening"
+location:
+  - "Noah's Apartment"
+pov: "Noah"
+characters_present:
+  - "Noah (solo)"
+characters_referenced:
+  - "Elijah (whose group-chat post re-engages him)"
+  - "Hank ('a ghost' — no digital trail)"
+registers:
+  Noah: "private (frustrated by Hank's analog invisibility, then re-engaged by structured data — 'like trying to grep a handwritten notebook')"
+clues:
+  planted: []
+  revealed:
+    - "Shell entities traced to patent filings on 'shelf-stable capsicum-based flavor enhancers' (Confirmation)"
+threads:
+  active:
+    - "Main mystery: the corporate shell structure and the patents"
+    - "Noah — tradition vs. tech (developing; re-engaged once there's real data)"
+  touched:
+    - "Noah's minimalism/sneakers (closet detail)"
+beat_purpose: "Noah converts the analog dead-end into a data trail — the patents show what the scheme is actually for."
+---
+
 ### Chapter Nine - A Pinch Too Much
 
 Noah had already tried. Monday evening, restless after the dinner party, he'd spent an hour searching for any digital trace of Hank—business registries, social media, Yelp, LinkedIn. The man was a ghost. No website, no LLC, no digital trail of any kind. Cash business, no footprint, nothing for Noah's tools to grab onto. He'd closed his laptop genuinely frustrated, not because he didn't care, but because the problem was written in a language his skills couldn't read.
