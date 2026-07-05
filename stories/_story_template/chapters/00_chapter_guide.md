@@ -4,7 +4,9 @@
 
 Every chapter file begins with a YAML frontmatter block. The frontmatter is the chapter's source of truth for timeline, location, voice register, and threads — it forces you to know what the chapter is doing before you write or edit prose. The block is stripped automatically at epub build time.
 
-### Spec
+### Spec (canonical field set — locked 2026-07-05)
+
+Example is Book 1, Ch13. **Required:** `chapter`, `title`, `meal`, `beat`, `date`, `pov`, `characters_present`, `registers`, `threads`, `beat_purpose`. **Optional:** `day`, `time`, `location`, `characters_referenced`, `clues`, `audit_notes` (include when they apply).
 
 ```yaml
 ---
@@ -12,31 +14,39 @@ chapter: 13
 title: "Service for One"
 meal: 3
 beat: "Bad Guys Close In"                 # Save the Cat beat or sub-beat
-day: "Monday"
-date: "2026-10-26"                        # ISO. Use absolute dates, not relative.
-time: "morning to 2:47 PM"                # Time-of-day or span
-location:
+day: "Monday → Wednesday"                 # human-readable (optional)
+date: "2026-10-12 to 2026-10-14"          # ISO, absolute (required). A span is allowed.
+time: "Mon morning → Tue afternoon → Wed midday"   # time-of-day or span (optional)
+location:                                 # canonical names from canon library/locations/
   - "Emma's apartment"
-  - "McGolrick Park (referenced)"         # Mark as (referenced) if not the active scene
-pov: "Emma"
-characters_present:
-  - Emma
-  - "Process server (incidental)"
-  - "Dorothy (offstage, referenced)"
-registers:                                # Voice register per character in scene
-  Emma: "private → under pressure"
-clues:
-  planted: []                             # Foundation / Misdirection / Connective / Confirmation / Keystone
+  - "McGolrick Park (Wed midday — closed; referenced)"
+pov: "Emma"                               # the chapter's feed owner (required)
+characters_present:                       # on-page in an active scene (required)
+  - "Emma (centerstage)"
+  - "Garrett Pike (Wed, in person)"
+  - "Olivia (phone, end)"
+characters_referenced:                    # named but not on-page (optional)
+  - "Sofia (texted, silent)"
+  - "Dorothy (texted, no read receipt)"
+  - "Emma's editor (kills the squash piece)"
+registers:                                # voice register per PRESENT character (required)
+  Emma: "private → under-pressure"
+  Garrett Pike: "public (charm-as-menace)"
+  Olivia: "private (protective)"
+clues:                                     # optional; powers clue-tracing
+  planted: []                              # Foundation / Misdirection / Connective / Confirmation / Keystone
   revealed:
     - "C&D arrives"
     - "Pike has dug into Emma's finances (coded, unnamed)"
-threads:                                  # Cross-reference subplot_threads.md
+threads:                                   # must cross-reference tracking/subplot_threads.md
   active:
-    - "Main: Pike retaliates"
-    - "B-plot: Emma's economic squeeze / precarity"
+    - "Main mystery: retaliation begins as an economic squeeze"
+    - "Antagonist revealed: Pike on-page (identity + Ch1 seed payoff)"
   touched:
-    - "Sofia silence (texts unanswered)"
-beat_purpose: "Bring the legal threat home. Emma's safety is no longer abstract."
+    - "Sofia/Dorothy silence — the menace has neighborhood reach"
+beat_purpose: "Bring the threat home and put a face on it — economic and personal, not an exposed secret."
+audit_notes:                               # optional; continuity/decision notes for this chapter
+  - "Opaque-secret direction: no OnlyFans exposure; Emma's vulnerability is economic, confided privately to Olivia in Ch14."
 ---
 ```
 

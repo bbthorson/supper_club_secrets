@@ -18,6 +18,15 @@ characters_referenced:
   - "Sofia (texted, silent)"
   - "Dorothy (texted, no read receipt)"
   - "Emma's editor (kills the squash piece)"
+registers:
+  Emma: "private → under-pressure"
+  Garrett Pike: "public (charm-as-menace)"
+  Olivia: "private (protective)"
+clues:
+  planted: []
+  revealed:
+    - "C&D arrives"
+    - "Pike has dug into Emma's finances (coded, unnamed)"
 threads:
   active:
     - "Main mystery: retaliation begins as an economic squeeze on Emma's livelihood"
