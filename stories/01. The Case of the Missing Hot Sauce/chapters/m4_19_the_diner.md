@@ -1,4 +1,4 @@
-### From the Road — The Ridgeline Diner
+### Chapter Nineteen - The Ridgeline Diner
 
 *Route 30, west of Philadelphia. Friday night.*
 

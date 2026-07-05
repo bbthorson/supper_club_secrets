@@ -18,25 +18,25 @@ Two layers:
 
 **Ch12 (false victory):** Her theory is essentially right. The group confirms it. This is the first crack — she trusted an instinct and it landed.
 
-**Ch13 → Ch14:** The C&D weaponizing her OnlyFans is the actual rupture. The shame is no longer hypothetical; it's been touched by hostile hands. The Western PA dialect breaks through ("this needs fixed") — the chef persona is incapable of holding this. She has to use the voice she was using before Bistro Lavande, which is the voice she's been hiding from since culinary school.
+**Ch13 → Ch14:** The rupture is the economic squeeze and Pike's confrontation — cancelled clients, a killed article, and a stranger with power who plainly *dug* into her life and saw exactly how thin it was. The C&D names no secrets; it doesn't have to. The threat isn't that the account gets exposed — it's that someone could see her precarity and use it as a lever. The Western PA dialect breaks through ("this needs fixed") — the chef persona is incapable of holding this. She has to use the voice she was using before Bistro Lavande, which is the voice she's been hiding from since culinary school.
 
-**Ch14 confession:** Bracing for judgment, met with support. The relief is the second crack. The shame she'd been carrying was at least partially her own construction — her friends had already not-judged her because they didn't know to.
+**Ch14 confide (privately, to Olivia):** Not the account — the precarity. Alone in the kitchen, out of the others' sightline, she tells Olivia how close to the edge she's been since walking out of Bistro Lavande — the gap between the dramatic apron-untying exit and the reality she's never admitted to anyone. The relief is the second crack: being *known* by one person, held rather than fixed. (Replaces the earlier whole-group OnlyFans confession — the account stays opaque, deferred to a later book.)
 
-⚠ **Note:** The bracing-to-relief beat currently moves too fast. Friends are supportive within a line or two. The author should let Emma's terror sit longer — even a half-page of silence and her own anticipation of the worst — before the support lands. The recovery only matters if the fall was real.
+⚠ **Note:** Let Emma's fear sit before the relief lands. The confide only matters if we feel what it costs her to say it out loud — the months of not telling anyone — before Olivia crosses the kitchen and closes the distance.
 
 ## What shifts (and what doesn't)
 
 **Shifts:**
-- She can talk about the OnlyFans. To these six people, and (by Ch22) to the broader world.
+- She can let someone in. She tells Olivia the truth about her precarity — the first time she's said it aloud to anyone.
 - She trusts a specific instinct in a specific moment ("Big Hot Sauce" was real).
-- She's cooking for joy in Ch22, not for performance or for rent.
+- She's cooking for joy in Ch25, not for performance or for rent.
 
 **Doesn't shift:**
-- The class-coded shame about the work. Public acceptance and her own peace are different things. The OnlyFans being known doesn't fix what it cost her to need it.
+- The class-coded shame about needing the work. Being held by Olivia eases the isolation, not the shame itself. The secret stays hers; its reveal is a later book's story.
 - The Bistro Lavande wound. She doesn't talk about it, doesn't process it, doesn't write about it. Carries forward.
 - The Western PA voice. It surfaces under stress but isn't reclaimed — that's a Book 3+ arc per the voice guide.
 
-⚠ **Risk in Ch22:** The OnlyFans aftermath is reported (positive response, supportive friends) but not felt. Emma's interior reckoning with the exposure — being unmasked involuntarily, the loss of the choice to come out or not — is the unwritten beat. Add it.
+⚠ **Watch in Ch25:** Emma's aftermath is the *squeeze lifting*, not an exposure. Keep it felt, not just reported — the specific relief of assignments returning, of no longer bracing every time her phone lights up. The secret is never named; her reckoning with it is deferred to its own book.
 
 ## Voice register map
 
@@ -44,23 +44,23 @@ Two layers:
 |------|---------|----------------|-------|
 | Meal 1 | public (chef) → private | brief private when Dorothy gives the bottle | Hostess mode comes naturally |
 | Meal 2 | private | none significant | Confident — her instincts are paying off |
-| Meal 3 | private → under-pressure | Western PA dialect breaks (Ch13). Returns to private after confession (Ch14). | Highest register shift in the book |
+| Meal 3 | private → under-pressure | Western PA dialect breaks (Ch13). Returns to private after the Olivia confide (Ch14). | Highest register shift in the book |
 | Meal 4 | private | none — too sidelined for stress to register | ⚠ This is a problem — she should be IN the action, not watching it |
 
 ## Reveal vs. withhold this book
 
 | Reveals (to whom, when) | Withholds (and why) |
 |-------------------------|---------------------|
-| Kinky Kitchen → group, Ch14 | Why she started it — the specific math, the specific desperation. They accept the fact; she doesn't have to explain it. |
-| Kinky Kitchen → public, Ch22 (involuntary) | Her actual feelings about being unmasked — the loss of choice |
+| Financial precarity → Olivia, Ch14 (privately) | The secret income source itself — never named on the page; deferred to a later book |
+| (nothing goes public) | Kinky Kitchen stays fully withheld this book — reader and group never learn it |
 | Big Hot Sauce theory → group, Ch4 | How much she actually believed it (half) |
 | Western PA dialect → group, Ch13 (involuntary) | The full Bistro Lavande story — surfaces in pieces but never fully told |
-| Financial precarity → implicitly via the C&D fight | The specific number of her savings, the specific shape of the panic |
+| Financial precarity → reader, via the economic squeeze | The specific number of her savings, the specific shape of the panic |
 
 ## Risks and tells
 
 Watch for:
-- Touching the hot sauce bottle on the counter (Ch1, Ch5, Ch18, Ch22) — physical anchor for the whole book
+- Touching the hot sauce bottle on the counter (Ch1, Ch5, Ch18, Ch25) — physical anchor for the whole book
 - Cooking barefoot — connects her chef self to her Kinky Kitchen self (the secret made visible by costume)
 - Going to the kitchen when conversations get personal — busying herself as deflection
 - The chef persona slipping: when she becomes "Emma from outside Pittsburgh" instead of "Emma the chef"
@@ -73,6 +73,6 @@ Avoid:
 ## Threads they carry forward
 
 - **Financial stability** still unresolved. Olivia is actively trying to get her private gigs (per continuity.md). Could deepen across Books 2–3.
-- **Relationship with cooking post-Bistro Lavande** still evolving — Ch22 "cooking for joy" is a beat, not a settlement.
+- **Relationship with cooking post-Bistro Lavande** still evolving — Ch25 "cooking for joy" is a beat, not a settlement.
 - **Reclaiming the Western PA voice with pride** — Book 3+ per voice guide.
-- The hot sauce bottle as physical totem (Ch22: "the bottle on the counter — it had been there throughout") could become a recurring object across the series.
+- The hot sauce bottle as physical totem (Ch25: "the bottle on the counter — it had been there throughout") could become a recurring object across the series.

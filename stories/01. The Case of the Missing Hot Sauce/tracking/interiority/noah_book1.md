@@ -28,23 +28,23 @@ Two layers:
 
 **Ch18 food metaphor:** "Don't get used to it." First time he reaches for a non-tech metaphor in front of the group. It's a small thing. It's also the visible signal that the rebuild is starting.
 
-**Ch22 apology:** "That wasn't true. And what I said — about your chaos being exhausting — I was scared and I took it out on you." ⚠ This lands in the final dinner without an on-page recognition beat. The interior shift is missing. He needs to *see* Jasper find Hank somewhere on the page — even a Ch21 group-chat moment where Noah reads the text and stops what he's doing.
+**Ch25 apology:** "That wasn't true. And what I said — about your chaos being exhausting — I was scared and I took it out on you." ⚠ This lands in the final dinner without an on-page recognition beat. The interior shift is missing. He needs to *see* Jasper find Hank somewhere on the page — even a Ch24 group-chat moment where Noah reads the text and stops what he's doing.
 
 ## What shifts (and what doesn't)
 
 **Shifts:**
 - He has built infrastructure for the messy, analog human problem. The mosquito metaphor is his.
-- He apologizes (Ch22).
+- He apologizes (Ch25).
 - He brings unwhipped butter — an analog concession.
 - He uses food metaphors in front of the group, once (Ch18).
-- The forest green sneakers (Ch22) — the collection edging visible.
+- The forest green sneakers (Ch25) — the collection edging visible.
 
 **Doesn't shift:**
 - The minimalism evangelism. He'll still be the guy with one t-shirt color in Book 2.
 - The sneakers stay hidden. The Ch18 detail (different shoes each dinner) is a seed, not a reveal.
 - His worldview isn't replaced; it's complicated. He still thinks tech is most problems' answer — he now thinks the analog has a vote.
 
-⚠ **Risk:** The reconciliation with Jasper happens offstage. The apology in Ch22 is brief and verbal. We don't see Noah arrive at the recognition. Without that scene, the apology reads as plot necessity rather than character growth. Fix: add one beat — Noah reading the "I found Hank" group chat text and stopping. That's enough.
+⚠ **Risk:** The reconciliation with Jasper happens offstage. The apology in Ch25 is brief and verbal. We don't see Noah arrive at the recognition. Without that scene, the apology reads as plot necessity rather than character growth. Fix: add one beat — Noah reading the "I found Hank" group chat text and stopping. That's enough.
 
 ## Voice register map
 
@@ -61,7 +61,7 @@ Two layers:
 |---------|-----------|
 | Genuine anger at Jasper (Ch15) | The sneaker collection (visible in the apartment description but never named) |
 | Capacity for analog metaphor (Ch18) | His aesthetic consumerism — every choice in his apartment is curated, but he frames it as functional |
-| Apology (Ch22) | Whether his minimalism is actually working for him |
+| Apology (Ch25) | Whether his minimalism is actually working for him |
 | Forest green sneakers at final dinner (visible) | What the shoes mean to him |
 
 ## Risks and tells

@@ -1,6 +1,6 @@
 # The Case of the Missing Hot Sauce — Story Outline
 
-**Structure:** 22 chapters across 4 meals (5 + 7 + 5 + 5)
+**Structure:** 25 chapters across 4 meals (5 + 7 + 5 + 8)
 **Timeline:** ~3 weeks (Sunday to Sunday to Sunday)
 **Save the Cat midpoint:** Ch12 (false victory) at ~55%
 
@@ -82,8 +82,8 @@
 * **Celebration.** They've actually solved it. "Big Hot Sauce" was real.
 * **Setback (hidden):** As Jasper walks home, his phone buzzes: *"Hey—I need you to call me. It's important. Please don't talk to anyone else about the LLC until we talk."* He doesn't see it until morning. By then, it's already too late.
 
-### B Story — Emma's Secret
-* **Emma** runs "Kinky Kitchen," an anonymous OnlyFans account — barefoot cooking content. Nothing explicit, but it's her most reliable income since leaving Bistro Lavande. She's terrified of exposure. Seeded subtly in Meals 1–2 (the "few other things" she's making work, the math she doesn't want to do).
+### B Story — Emma's Financial Precarity
+* **Emma's** B-story is her financial vulnerability and the shame beneath her dramatic exit from Bistro Lavande. She has a private, more reliable income source, but it stays **opaque throughout Book 1** — never named on the page or to the group, its reveal deferred to a later book. Seeded subtly in Meals 1–2 (the "few other things" she's making work, the math she doesn't want to do). The developer's retaliation lands on her *visible* livelihood (an economic squeeze), not on the secret. What she eventually confides — privately, to Olivia — is the precarity, not the account.
 
 ---
 
@@ -93,13 +93,14 @@
 
 ### Bad Guys Close In (Ch. 13: "Service for One")
 * Signs of trouble arrive before the C&D. Small moments that something is wrong — surveillance, questions being asked in the neighborhood, the sense of being watched. Individually dismissible, collectively a pattern.
-* Then the hammer falls: a process server delivers a Cease & Desist to **Emma** at her apartment. Legal threats of defamation and tortious interference. Attached: a handwritten note — *"We know all your secrets. Kinky Kitchen, isn't it?"*
+* **Pike confronts Emma in person** at the closed McGolrick market — his first on-page appearance. He frames the Hank buyout as mercy and makes clear an economic squeeze is already underway: cancelled private clients, a killed article, editors going cold. It's coded surveillance — Emma can tell someone dug into her life — but nothing is named aloud.
+* Then the hammer falls: a process server delivers a Cease & Desist to **Emma** at her apartment. Legal threats of defamation and tortious interference. The letter **names no secrets** — it doesn't have to; Pike handled the personal part himself, in the park.
 * Emma panics. Calls Elijah — voicemail. Calls **Olivia**, who drops everything and rallies the group for an emergency Wednesday dinner.
 
 ### All Is Lost — Part 1 (Ch. 14: "The Seamless Supper")
 * Emergency dinner at Emma's. Thai food from Seamless — nobody can cook. The ordering process itself becomes stress-fueled chaos.
 * **Elijah** arrives from work, reads the document, declares it "toothless" but acknowledges the intimidation is real.
-* **Emma confesses** about Kinky Kitchen. Braces for judgment. Instead: Olivia is fierce ("it's your body, it's your kitchen"), Jasper is earnest ("doesn't matter"), Elijah calls it "a market inefficiency monetized with minimal overhead." The relief of being accepted.
+* Later, in the kitchen and out of the others' sightline, **Emma privately confides in Olivia** — not the secret account, but how precarious things really are: two clients and one article gone and she's already counting weeks, the gap between her proud apron-untying exit and the reality she's never told anyone. Olivia doesn't reach for a plan; she just holds her. The relief of finally being known. (Replaces the earlier group-confession beat — the secret stays opaque.)
 
 ### All Is Lost — Part 2 (Ch. 15: "A Bitter Taste")
 * **Noah** asks the key question: How did they know to target Emma specifically? Information flow analysis — tracing what went where.
@@ -126,7 +127,7 @@
 
 ---
 
-## Meal 4 — Resolution (Chapters 18–22)
+## Meal 4 — Resolution (Chapters 18–25)
 
 ### Finale — Campaign Launch (Ch. 18: "Turning Up the Heat")
 * The coordinated campaign launches. The group is physically separate but working in unison — the group chat is the connective tissue.
@@ -134,12 +135,24 @@
 * Hope builds. The story is spreading. They're functioning as a team for the first time — not theorizing around a dinner table, but executing together.
 * Jasper checks in via text. He's making calls, hitting dead ends, but not giving up.
 
-### Finale — Pushback (Ch. 19: "[Title TBD]")
+### From the Road — The Ridgeline Diner (Ch. 19)
+* Jasper's first night on the road (Friday). A Route 30 diner; coffee and a slice of pie he won't eat.
+* He works a cobbled-together list of nurseries and co-ops — dead end after dead end, but he keeps going. First beat of the road-trip motif and the loneliness under the performance.
+
+### Finale — Pushback (Ch. 20: "The Counterpunch")
 * The counterattack arrives. A conservative commentator dismisses the story as anti-capitalist whining. Takedown notices hit some of the blogs. One of their anonymous accounts gets traced — close call.
 * The group's confidence cracks. Someone suggests they should stop before it gets worse. The campaign might fail.
 * The chapter ends on a low note — doubt, fear that they've made things worse.
 
-### Finale — Jasper's Journey (Ch. 20: "Farm to Table")
+### From the Road — The Starlite Drive-In (Ch. 21)
+* Saturday. A drive-in in Lancaster County. Noah — texting individually now — has turned Jasper's list into a pruned spreadsheet (the conduit pattern forming).
+* A seed supplier who knows the Fish Pepper points him toward a collective "out past the city." "Meadow-something." The first real lead.
+
+### From the Road — Murph's (Ch. 22)
+* Sunday night. The lead has gone cold for a day and a half; Jasper is twenty-some calls and one bad motel deep, nursing a beer at the end of a dive bar. The low point — he nearly drives home.
+* The bartender's cousin grows "weird stuff like that" at a collective. Meadowlight. A city type turned up this fall, keeps to the greenhouse. The door cracks open.
+
+### Finale — Jasper's Journey (Ch. 23: "Farm to Table")
 * **Jasper's solo chapter.** The only time the book leaves Brooklyn.
 * Twenty phone calls to nurseries in Maryland and Pennsylvania. A woman at a small nursery mentions the **Meadowlight Collective** — an intentional community two hours west of Philadelphia.
 * Jasper drives out. Finds Hank in a greenhouse tending striped pepper plants.
@@ -147,19 +160,19 @@
 * Jasper's unspoken guilt and relief. This is his redemption — not announced, not performed, just done.
 * Hank agrees to come to dinner.
 
-### Finale — Breakthrough (Ch. 21: "[Title TBD]")
+### Finale — Breakthrough (Ch. 24: "The Turning Tide")
 * Back in Brooklyn, **Oliver** deploys his secret weapon — a meticulously sourced rebuttal document with talking points, distributed to their existing allies.
 * The rebuttal spreads. A major food critic picks up the story and adopts their exact framing. Sentiment flips.
 * The mogul's investors start pulling out. The C&D is formally withdrawn. The waterfront restaurant is shelved.
 * The tide has turned. The group can breathe.
 * Jasper texts the group chat: he found Hank. He's bringing him to dinner.
 
-### Final Image (Ch. 22: "Family Meal")
+### Final Image (Ch. 25: "Family Meal")
 * Celebratory dinner at Emma's. Two weeks after the emergency dinner (or sooner — TBD based on timeline).
 * The food reflects resolution and joy. Each person's dish shows growth.
 * The door buzzes. **Jasper** walks in with **Hank**, holding an unlabeled bottle of hot sauce.
 * Hank tells his story — the lowball offer for his family's trademark, the threats when he tried to negotiate, running to Meadowlight. A pro bono lawyer has since helped him file a proper trademark.
-* Emma's OnlyFans is public knowledge now; the response was overwhelmingly supportive.
+* The economic squeeze on Emma has lifted with Pike's retreat; her instincts are vindicated. Her secret income source stays private — never named, deferred to a later book. What's changed is that she let Olivia in.
 * The group agrees to continue the supper club with rotating hosts. Jasper is already pitching a new mystery. The first case is solved, but the Supper Club is just getting started.
 
 ---
@@ -187,15 +200,15 @@
 | Catalyst | 10% | Ch3 | Marcus confirms Hank was jittery |
 | Debate | 10–20% | Ch4–5 | Theories + should we actually do this? |
 | Break into Two | 20% | Ch6 | Oliver goes to the library — first real action |
-| B Story | seeded | Ch1, Ch5 | Emma's OnlyFans hinted at but not revealed |
+| B Story | seeded | Ch1, Ch5 | Emma's financial precarity hinted at; secret income source stays opaque (deferred) |
 | Fun and Games | 20–55% | Ch6–12 | Investigation + dinner (promise of the premise) |
 | Midpoint (False Victory) | 55% | Ch12 | They crack the case. Celebration. |
-| Bad Guys Close In | 55–68% | Ch13–15 | Surveillance, C&D, confessions, the fight |
+| Bad Guys Close In | 55–68% | Ch13–15 | Pike confrontation, the economic squeeze, C&D, Jasper's confession, the fight |
 | All Is Lost | 68% | Ch15 | Jasper's confession — group fractures |
 | Dark Night of the Soul | 68–73% | Ch15–16 | Emotional low → resolve |
 | Break into Three | 73% | Ch16 | The plan. Jasper leaves. |
-| Finale | 73–95% | Ch17–21 | Prep, campaign, pushback, Jasper finds Hank, breakthrough |
-| Final Image | 100% | Ch22 | Family Meal — Hank at the table, supper club continues |
+| Finale | 73–95% | Ch17–24 | Prep, campaign, pushback, Jasper finds Hank, breakthrough |
+| Final Image | 100% | Ch25 | Family Meal — Hank at the table, supper club continues |
 
 ---
 
@@ -211,8 +224,8 @@
 | **Week 2, Friday** | Ch10 | Jasper calls Brenda Marquez |
 | **Week 2, Saturday** | Ch11 | Emma at McCarren Park + Sofia's |
 | **Week 2, Sunday** | Ch12 | Meal 2 dinner. Brenda calls mogul that night. |
-| **Week 3, Tues/Wed** | Ch13–16 | C&D arrives. Emergency dinner. Confessions. The plan. Jasper leaves. |
-| **Week 3, Thu–Sun+** | Ch17–19 | Campaign prep, launch, pushback |
-| **Week 3–4** | Ch20 | Jasper finds Hank at Meadowlight |
-| **Week 3–4** | Ch21 | Campaign breaks through |
-| **Week 4, Sunday** | Ch22 | Celebratory dinner. Jasper brings Hank. |
+| **Week 3, Tues/Wed** | Ch13–16 | Pike confrontation + squeeze. C&D arrives. Emergency dinner. Jasper's confession. The plan. Jasper leaves. |
+| **Week 3, Thu–Sun+** | Ch17–22 | Campaign prep, launch, pushback (Brooklyn); Jasper's road chapters (19, 21, 22) run in parallel |
+| **Week 3–4** | Ch23 | Jasper finds Hank at Meadowlight |
+| **Week 3–4** | Ch24 | Campaign breaks through |
+| **Week 4, Sunday** | Ch25 | Celebratory dinner. Jasper brings Hank. |

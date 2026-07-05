@@ -22,9 +22,9 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 
 **Ch16 mission:** "I know somebody." Plays it light, plays it like Jasper. The room feels what's underneath. He leaves. The mission is *redemption disguised as chaos* — he'll use his network and persistence to find Hank, but he reframes it as "knowing somebody" to keep the performance intact.
 
-**Ch20 (PA solo journey):** Twenty phone calls. A 3-hour drive. Finds Hank in a greenhouse. Tells him the WHOLE truth — including his own mistake. This is Jasper without performance for the first time in the book. He's not entertaining anyone. He's making amends. The greenhouse scene should be the quietest Jasper has been in the entire book. He drives Hank home and they talk about family recipes the whole way.
+**Ch23 (PA solo journey):** Twenty phone calls. A 3-hour drive. Finds Hank in a greenhouse. Tells him the WHOLE truth — including his own mistake. This is Jasper without performance for the first time in the book. He's not entertaining anyone. He's making amends. The greenhouse scene should be the quietest Jasper has been in the entire book. He drives Hank home and they talk about family recipes the whole way.
 
-**Ch22:** Brings Hank to dinner. Already pitching the next mystery (Red Hook 3:17 AM noise complaints). ⚠ This reversion to chaos may be intentional — Jasper choosing his persona now that he's earned it — or it may be undercooked. The book doesn't mark the difference.
+**Ch25:** Brings Hank to dinner. Already pitching the next mystery (Red Hook 3:17 AM noise complaints). ⚠ This reversion to chaos may be intentional — Jasper choosing his persona now that he's earned it — or it may be undercooked. The book doesn't mark the difference.
 
 ## What shifts (and what doesn't)
 
@@ -35,11 +35,11 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 - He has stayed quiet in a long car ride. Talked about family recipes (someone else's family, but still). Allowed himself to be a listener.
 
 **Doesn't shift:**
-- The chaos persona. By Ch22 he's back to performative theory-pitching. This is intentional but should be marked.
+- The chaos persona. By Ch25 he's back to performative theory-pitching. This is intentional but should be marked.
 - The old money background is unchanged. Still hidden. Still not even hinted at, beyond the Chelsea apartment.
 - The Brenda relationship. Strained, unresolved. Carries forward to Book 6.
 
-⚠ **Risk:** The Ch22 reversion. Pick one of two interpretations and write to it:
+⚠ **Risk:** The Ch25 reversion. Pick one of two interpretations and write to it:
 
 - **Interpretation A (recommended):** Jasper has earned the chaos. The performance is now a choice rather than a hiding place. Mark this with a single beat — a moment of quiet between Hank's story and the Red Hook theory, a glance at Oliver or Emma that acknowledges what just happened, *then* the theory. The performance lands as triumphant rather than nervous.
 - **Interpretation B:** Jasper hasn't actually changed; he's just learned to weaponize the chaos when needed and revert to it when not. Mark this by having someone (probably Elijah) notice — a dry line, a slight beat where the group sees Jasper performing again and the reader sees that he's still hiding.
@@ -53,7 +53,7 @@ Currently the text is ambiguous, which lets either reading apply but commits to 
 | Meal 1 | public (chaos mode) → private (briefly) | physical comedy peak (nearly hits lamp Ch4) | First to arrive — performance from the door |
 | Meal 2 | public → private (Ch10 during call) | competitive itch is private register he doesn't recognize | Brenda call is public-mode out loud, private underneath |
 | Meal 3 | public → **under-pressure (REVERSAL: quiet)** | The Ch15 confession is the book's highest interior moment | Ch16 mission acceptance is private register dressed as public |
-| Meal 4 | private (sustained — first time in the book) → public (Ch22 finale) | The PA journey is mostly private. Ch22 reversion is the question | The greenhouse scene should be the quietest he gets |
+| Meal 4 | private (sustained — first time in the book) → public (Ch25 finale) | The PA journey is mostly private. Ch25 reversion is the question | The greenhouse scene should be the quietest he gets |
 
 ## Reveal vs. withhold this book
 
@@ -63,7 +63,7 @@ Currently the text is ambiguous, which lets either reading apply but commits to 
 | The Brenda relationship (Ch10, then Ch15 confession) | The specific contents of his 311 network — referenced, never detailed |
 | "I don't know any other way to be useful" (Ch15) | What he wants for himself outside performance |
 | His chaos is rebellion against family (text says so in canon — Book 1 hints only via apartment) | The trust fund, the family wealth — completely off-page |
-| The ancient Subaru (Ch20) | His relationship with his family — never mentioned |
+| The ancient Subaru (Ch23) | His relationship with his family — never mentioned |
 
 ## Risks and tells
 
@@ -84,6 +84,6 @@ Avoid:
 ## Threads they carry forward
 
 - **Old money background:** Fully revealed in Book 6 per series_plan.md. Book 1 plants ZERO hints beyond the Chelsea apartment and the trust-fund-shaped silence. Don't expand.
-- **The Brenda relationship:** Strained after the breach. Returns in Book 6 (overlapping real estate / old money circles). A single line in Ch22 about her not returning his calls could seed cleanly, but isn't required.
+- **The Brenda relationship:** Strained after the breach. Returns in Book 6 (overlapping real estate / old money circles). A single line in Ch25 about her not returning his calls could seed cleanly, but isn't required.
 - **The 311 network as plot fuel:** Recurring resource across the series. Book 1 establishes the principle (Brenda is one node of a larger graph).
 - **Chaos as choice vs. chaos as armor:** Books 2–5 should track whether Jasper has actually earned the performance, or whether he's hiding behind it. Book 6 is where the question gets answered when his family forces it.

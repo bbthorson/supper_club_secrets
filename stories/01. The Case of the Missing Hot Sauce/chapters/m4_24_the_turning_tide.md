@@ -1,4 +1,4 @@
-### Chapter Twenty-One - The Proof
+### Chapter Twenty-Four - The Proof
 
 The doubt sat in the apartment all weekend like weather.
 

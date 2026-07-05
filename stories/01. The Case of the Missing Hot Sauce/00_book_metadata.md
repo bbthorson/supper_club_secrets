@@ -14,7 +14,7 @@ The canonical source of truth for Book 1. Story-level facts live here. Series-le
 | **Month** | October (2026 calendar; anchor below) |
 | **Host** | Emma (all four meals) |
 | **Genre** | Cozy crime |
-| **Status** | Expanded draft. Meals 1–2 tight. Meals 3–4 need revision. Ch19 and Ch21 are unwritten (placeholder outlines). Timeline compression flags open. See [Status & Open Issues](#status--open-issues). |
+| **Status** | v1 complete. 25 chapters drafted (the three short Meal 4 road chapters promoted to full chapters 19/21/22, 2026-07-05). Prose locked on the opaque-secret / economic-squeeze direction; canon & tracking reconciled 2026-07-05. Only optional craft-polish items remain. See [Status & Open Issues](#status--open-issues). |
 
 ---
 
@@ -45,9 +45,9 @@ Four meals over roughly three weeks, mapped to Save the Cat beats: Setup, Invest
 | Meal 1 | Setup | 1–5 (`m1_*`) | 5 |
 | Meal 2 | Investigation | 6–12 (`m2_*`) | 7 |
 | Meal 3 | Crisis | 13–17 (`m3_*`) | 5 |
-| Meal 4 | Resolution | 18–22 (`m4_*`) | 5 |
+| Meal 4 | Resolution | 18–25 (`m4_*`) | 8 |
 
-**Counts (descriptive, not targets):** 22 chapters, ~37,400 words of chapter prose in the current draft. Chapter count is not a design target. See [Reading Experience & Development Approach](#reading-experience--development-approach).
+**Counts (descriptive, not targets):** 25 chapters, ~38,600 words of chapter prose in the current draft. Chapter count is not a design target; the three short Meal 4 road chapters (19, 21, 22) are the deliberate brief-chapter device. See [Reading Experience & Development Approach](#reading-experience--development-approach).
 **Calendar anchor:** Week 1 Sunday = 2026-10-04. Final dinner = Sunday 2026-10-25. Full day-by-day in `tracking/timeline_ledger.md`.
 
 ### Chapter list (one-line summaries)
@@ -70,17 +70,20 @@ Four meals over roughly three weeks, mapped to Save the Cat beats: Setup, Invest
 
 **Meal 3 — Crisis**
 13. *Service for One* — Silence from contacts; the cease and desist arrives at Emma's.
-14. *The Seamless Supper* — Emergency takeout; Emma confesses about Kinky Kitchen; the group rallies.
+14. *The Seamless Supper* — Emergency takeout; the group rallies around the C&D; Emma privately confides her precarity to Olivia.
 15. *A Bitter Taste* — "How did they find us?" Jasper confesses; the fight; Oliver's speech.
 16. *The Recipe for Revenge* — The swarm-strategy plan; roles assigned; Jasper leaves to find Hank.
 17. *Sharpening the Knives* — Preparation vignettes; each member readies their piece, alone but connected.
 
 **Meal 4 — Resolution**
 18. *Turning Up the Heat* — Campaign launches; small blogs pick it up; hope builds.
-19. *The Counterpunch* — Pushback and doubt; the campaign might fail. **[UNWRITTEN — placeholder outline]**
-20. *Farm to Table* — Jasper's solo road trip; finds Hank at the Meadowlight Collective.
-21. *The Turning Tide* — Oliver's rebuttal breaks through; a food critic amplifies it. **[UNWRITTEN — placeholder outline]**
-22. *Family Meal* — Celebratory dinner; Jasper arrives with Hank; the club commits to continuing.
+19. *The Ridgeline Diner* — From the road: Jasper's first night of nursery calls; dead ends and one flicker of resolve.
+20. *The Counterpunch* — Pushback and doubt; the campaign might fail. *(prose heading: "Ghost Kitchen")*
+21. *The Starlite Drive-In* — From the road: Noah's spreadsheet narrows the search; "meadow-something" surfaces.
+22. *Murph's* — From the road: the low point in a dive bar, where a bartender finally names the Meadowlight Collective.
+23. *Farm to Table* — Jasper's solo road trip; finds Hank at the Meadowlight Collective.
+24. *The Turning Tide* — Oliver's rebuttal breaks through; a food critic amplifies it. *(prose heading: "The Proof")*
+25. *Family Meal* — Celebratory dinner; Jasper arrives with Hank; the club commits to continuing.
 
 ---
 
@@ -165,11 +168,12 @@ Emma's apartment (Williamsburg, near McGolrick Park; all four meals). McGolrick 
 
 ## Status & Open Issues
 
-Current draft is structurally complete but not finished. Tracked in detail in `tracking/`; summarized here.
+**v1 complete (2026-07-05).** All chapters are drafted, including Ch20 and Ch24 and the three Meal 4 mini-chapters. The back-half revision to the opaque-secret / economic-squeeze direction is done, and the canon library + tracking files were reconciled to the finalized prose on 2026-07-05 (see `CANON_CHANGELOG.md`).
 
-- **Unwritten chapters:** Ch19 *The Counterpunch* and Ch21 *The Turning Tide* are placeholder outlines (beats listed, prose not yet written). These are not the intentional brief-chapter device; they simply need drafting.
-- **Meal 3–4 fraying:** Timeline compression and character-depth issues concentrate in the back half. See `tracking/timeline_ledger.md` → compression/gap audit and `tracking/character_matrix.md` flags.
-- **Known compression flags:** Ch12→13 (developer's retaliation speed), Ch13 Tuesday void, Ch17 prep montage (~36 hrs reading as multi-day), Ch20 Jasper's PA timeline underdeveloped.
+Remaining items are optional polish and housekeeping, not blockers:
+
+- **Craft flags (tracking/):** a few editorial "action needed" notes remain in `tracking/subplot_threads.md` and `tracking/character_matrix.md` (e.g., an active Emma beat in Meal 4, Sofia's silence payoff, letting the Ch14 Olivia confide breathe). Judgment calls, not continuity errors.
+- **Compression notes:** several earlier flags (Ch12→13, Ch17 montage) are largely resolved by the finalized prose; `tracking/timeline_ledger.md` still lists them for a final read-through.
+- **Chapter titles:** the drafted prose titles for Ch20 ("Ghost Kitchen") and Ch24 ("The Proof") differ from the outline/metadata titles ("The Counterpunch" / "The Turning Tide"). Per the Golden Rule the prose wins — decide which title is canonical and reconcile.
 - **Held by design:** Elijah's family-weight thread is intentionally ambient in Book 1 with no payoff (reserved for Book 3).
-
-This file should be revised after the Book 1 text-revision phase, since prose changes may shift counts and details.
+- **Deferred:** Emma's secret income source stays opaque; pick the book/occasion for its eventual reveal (per `series_plan.md`).

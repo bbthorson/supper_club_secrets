@@ -8,5 +8,8 @@ Thumbs.db
 *.tmp
 *~
 
+# Compiled book build artifacts
+*.epub
+
 # Claude Code local machine config (permission allowlists etc.)
 .claude/settings.local.json

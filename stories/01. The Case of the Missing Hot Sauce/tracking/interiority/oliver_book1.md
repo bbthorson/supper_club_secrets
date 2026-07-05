@@ -22,7 +22,7 @@ The hidden tension is: can his two selves stay separate, or does the IRL fight f
 
 **Ch15 → Ch16 → Ch17:** Architects the rebuttal framework. This is his element — the structured-takedown playbook. He's doing online work in IRL form.
 
-**Ch21 (placeholder):** Rebuttal lands. Food critic adopts his exact framing. This is the silent victory — he's saved them, and the group is starting to understand he's not the person they thought he was. The reveal is small (only Elijah's joke about "solving a PR crisis with a Wikipedia editing strategy" in Ch16). No one chases it.
+**Ch24 (placeholder):** Rebuttal lands. Food critic adopts his exact framing. This is the silent victory — he's saved them, and the group is starting to understand he's not the person they thought he was. The reveal is small (only Elijah's joke about "solving a PR crisis with a Wikipedia editing strategy" in Ch16). No one chases it.
 
 ## What shifts (and what doesn't)
 
@@ -35,9 +35,9 @@ The hidden tension is: can his two selves stay separate, or does the IRL fight f
 **Doesn't shift:**
 - Olivia is still his anchor. He hasn't tried to operate without her. The Ch15 emergence was *in front of* the whole group, with Olivia in the room.
 - The online life stays hidden. The parenthetical in Ch15 is a hint, not a confession.
-- He returns to quiet by Ch22.
+- He returns to quiet by Ch25.
 
-⚠ **Risk in Ch22:** He doesn't carry the Ch15 emergence forward. He's quiet again in the final dinner. The reversion isn't necessarily wrong (his arc is gradual, Books 1–3) — but at least one voluntary contribution in Ch22, even a half-line observation he offers unprompted, would signal that something is residually changed. Without it, the reader could conclude Ch15 was a one-off, not a step.
+⚠ **Risk in Ch25:** He doesn't carry the Ch15 emergence forward. He's quiet again in the final dinner. The reversion isn't necessarily wrong (his arc is gradual, Books 1–3) — but at least one voluntary contribution in Ch25, even a half-line observation he offers unprompted, would signal that something is residually changed. Without it, the reader could conclude Ch15 was a one-off, not a step.
 
 ## Voice register map
 
@@ -46,7 +46,7 @@ The hidden tension is: can his two selves stay separate, or does the IRL fight f
 | Meal 1 | public (defers to Olivia) → brief private when prompted | reluctant theory in Ch4 | Olivia mouths "thank you, babe" — the standard structure |
 | Meal 2 | private (solo work) | brief public again at the Sunday dinner Ch12 | Ch6 is the meditative high point — pure private register |
 | Meal 3 | private → under-pressure (knowledge bomb, Ch15) | The Ch15 emergence is the highest register shift he'll have in any book until Book 2 | The "shutdown" alternative is rejected |
-| Meal 4 | private | quietly authoritative in Ch16-17, returns to background Ch22 | Could use one more visible beat in Ch22 |
+| Meal 4 | private | quietly authoritative in Ch16-17, returns to background Ch25 | Could use one more visible beat in Ch25 |
 
 ## Reveal vs. withhold this book
 
@@ -55,7 +55,7 @@ The hidden tension is: can his two selves stay separate, or does the IRL fight f
 | Capacity for confident, structured speech under pressure (Ch15) | The online life — Twitter, Wikipedia, subreddit. Hinted at, never named. |
 | Years of moderating online communities (Ch15, parenthetical) | The pseudonym, the follower count, the specific platforms |
 | Wikipedia editing strategy (Ch16, Elijah's joke) | Whether he edits Wikipedia regularly — the joke doesn't get confirmed |
-| Capacity to architect a defense (Ch15-16, Ch21) | The marriage tension noticed in Ch6 |
+| Capacity to architect a defense (Ch15-16, Ch24) | The marriage tension noticed in Ch6 |
 | He paces when he's processing (Ch15 + Ch16) | What he wants for himself outside Olivia |
 
 ## Risks and tells

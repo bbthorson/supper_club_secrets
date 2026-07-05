@@ -62,6 +62,6 @@ Hank begins the story as an absence — a ghost defined by the stories others te
 
 ## Lore Tracking (Book 1)
 * First mentioned: Chapter 1 (by absence — his stall is empty)
-* First physically appears: Chapter 17 ("Farm to Table") at Meadowlight Collective
-* Final appearance: Chapter 18 ("Family Meal") at Emma's dinner
+* First physically appears: Chapter 23 ("Farm to Table") at Meadowlight Collective
+* Final appearance: Chapter 25 ("Family Meal") at Emma's dinner
 * His hot sauce is described but never tasted on-page in Book 1 — he brings an unlabeled bottle to the final dinner

@@ -20,7 +20,7 @@ In Book 1 the dream stays dormant. But the family weight is right at the surface
 
 **Ch8 (financial model):** He's building it in a glass-walled conference room on his lunch break. The text says he "rediscovers curiosity he hasn't felt since freshman econ at UPenn." This is the first crack — using his skills for something other than survival or a paycheck. The financial model is play. He doesn't fully register the shift, but the reader should.
 
-**Ch14:** Reads the C&D, declares it toothless. Calls Emma's OnlyFans "a market inefficiency monetized with minimal overhead." This is dry validation but it's also the first time he's used his analytical voice to defend a friend's vulnerability rather than just analyze a problem. The dryness is the deflection — under it, he's saying *I see what you're doing and it's fine*.
+**Ch14:** Reads the C&D and declares it toothless — his analytical voice pointed at protecting a friend rather than just solving a problem. As the room's worry turns to Emma, his dryness is the deflection that carries care: *I've run the numbers, this doesn't hold, you're going to be fine.* (The old draft had him quipping "a market inefficiency monetized with minimal overhead" in reaction to a whole-group OnlyFans confession; that beat is gone — the secret stays opaque and Emma's confide is private to Olivia.)
 
 **Ch14 work call:** Mother texts about sister's car. Jaw tightens. "It doesn't matter right now." ⚠ This is the introduced-and-dropped beat. The crack opens here and never propagates. Needs at least one downstream beat showing the weight is still there and informing his contribution.
 
@@ -59,7 +59,7 @@ This is a deliberate choice over the alternative (adding payoff beats in Book 1)
 |---------|-----------|
 | Surname: Miller (Ch13 — "E. Miller Financial Consulting" joke) | The compound dream |
 | Financial competence in service of friends (Ch8, Ch15-16) | The specifics of the family financial weight — sister's situation, parents' retirement, the monthly remittance |
-| Dry validation of Emma's OnlyFans (Ch14) | Whether the C&D's reach into Emma's secrets activates any of his own fears about exposure (class-coded surveillance) |
+| His dry read of the C&D as "toothless" (Ch14) | Whether Pike's economic squeeze on Emma — class-coded, surveillance-flavored — activates his own fears about precarity and exposure |
 | He arrived at UPenn on borrowed money (background — not surfaced) | All of it stays beneath |
 
 ## Risks and tells
@@ -78,6 +78,6 @@ Avoid:
 
 ## Threads they carry forward
 
-- **Family compound dream:** Not seeded in Book 1 per continuity.md. Consider adding a half-line — Elijah looking at upstate real estate on his phone in Ch16 or Ch21 — as a Book 3 seed. Optional.
+- **Family compound dream:** Not seeded in Book 1 per continuity.md. Consider adding a half-line — Elijah looking at upstate real estate on his phone in Ch16 or Ch24 — as a Book 3 seed. Optional.
 - **Family financial weight:** Per series_plan.md, Book 3 (Elijah's book) centers a community credit union being asset-stripped. The Book 1 mother/sister texts are the right seed for that book. Make sure they're payable forward — a single Ch16/21 callback would help.
 - **The pragmatism's cost:** The arc across Books 1–3 is Elijah using his skills proactively, then for community, then risking professionally. Book 1 plants the first step.
