@@ -29,11 +29,11 @@ clues:
   planted: []                             # Foundation / Misdirection / Connective / Confirmation / Keystone
   revealed:
     - "C&D arrives"
-    - "Kinky Kitchen is known to the mogul"
+    - "Pike has dug into Emma's finances (coded, unnamed)"
 threads:                                  # Cross-reference subplot_threads.md
   active:
     - "Main: Pike retaliates"
-    - "B-plot: Emma's OnlyFans weaponized"
+    - "B-plot: Emma's economic squeeze / precarity"
   touched:
     - "Sofia silence (texts unanswered)"
 beat_purpose: "Bring the legal threat home. Emma's safety is no longer abstract."
@@ -43,7 +43,7 @@ beat_purpose: "Bring the legal threat home. Emma's safety is no longer abstract.
 ### Rules
 
 1. **`date` is absolute.** Never write `date: "the next day"`. Use ISO format. This is the single biggest defense against timeline drift across chapters.
-2. **`location` is canonical.** Use the exact name from `canon library/locations_registry.md`. Check the Canon Rules section for schedule constraints (markets, shops, etc.) before assigning a date.
+2. **`location` is canonical.** Use the exact name from `canon library/locations/` (see `locations/index.md`). Check the scheduling/travel rules in the index for constraints (markets, shops, etc.) before assigning a date.
 3. **`registers` only lists characters in active scene.** A character mentioned but not present doesn't get a register. If a character is in the scene but no register is listed, that's a flag — they're probably reduced to set dressing.
 4. **`threads` must reference an entry in `tracking/subplot_threads.md`.** If a thread is touched here, it should appear there with this chapter cited.
 5. **`beat_purpose` is one sentence.** What does this chapter accomplish that no other chapter does? If you can't answer, the chapter probably doesn't need to exist.

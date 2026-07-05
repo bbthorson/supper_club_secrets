@@ -142,7 +142,7 @@ The developer's retaliation lands here. Rather than exposing anything, the press
 
 ## Key Locations
 
-Emma's apartment (Williamsburg, near McGolrick Park; all four meals). McGolrick Park Farmers Market (Sunday; where the mystery starts). McCarren Park Greenmarket (Saturday). The Gilded Fern (Marcus's boutique). Sofia's Cheese Shop. NYPL Rose Main Reading Room (Oliver's research). Meadowlight Collective, PA (where Hank is found; the only setting outside Brooklyn). Full registry with schedule rules in `canon library/locations_registry.md`.
+Emma's apartment (Williamsburg, near McGolrick Park; all four meals). McGolrick Park Farmers Market (Sunday; where the mystery starts). McCarren Park Greenmarket (Saturday). The Gilded Fern (Marcus's boutique). Sofia's Cheese Shop. NYPL Rose Main Reading Room (Oliver's research). Meadowlight Collective, PA (where Hank is found; the only setting outside Brooklyn). Full per-location files with schedule rules in `canon library/locations/` (see `locations/index.md`).
 
 ---
 

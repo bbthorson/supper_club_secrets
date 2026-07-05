@@ -1,6 +1,6 @@
 # Timeline Ledger — [Book N: Title]
 
-Every chapter pinned to a date. Simultaneous events visible. Travel times respected (see `canon library/locations_registry.md` → Canon Rules → Travel Times).
+Every chapter pinned to a date. Simultaneous events visible. Travel times respected (see `canon library/locations/index.md` → scheduling/travel rules).
 
 **Story span:** [e.g., "Week 1 Sunday through Week 4 Sunday — ~4 weeks"]
 **Calendar anchor:** [e.g., "Week 1 Sunday = 2026-10-18"]

@@ -101,7 +101,7 @@ How the repo's existing files project onto record types. The key insight: most o
 |---|---|---|
 | `canon library/characters/*.md` | `character.profile` | Light. Needs frontmatter (see §7) |
 | `stories/*/tracking/character_matrix.md` | `character.stateEvent` | Low. Already a date x character table |
-| `canon library/locations_registry.md` | `place` | Low. Already structured, includes schedule rules |
+| `canon library/locations/*.md` | `place` | Low. Per-location files, each with schedule rules |
 | `stories/*/tracking/timeline_ledger.md` | `scene` | Low. Already date-pinned with anchor |
 | `stories/*/tracking/subplot_threads.md` | `item` + `custodyEvent` | Medium. Powers clue-tracing |
 | `stories/*/chapters/*.md` | Astro content (public read) + optional standard.site `document` record | Reuse the community lexicon for the atproto mirror |
@@ -122,7 +122,7 @@ Fields (sketch): `subject` (character id), `storyDate` (the in-world date, e.g. 
 
 ### 6.3 place
 
-From `locations_registry.md`. Includes the operating-constraint rules (market days, shop hours) as structured fields, which lets a reader surface flag or display when a location is "open" on a given story date. Fields (sketch): `id`, `name`, `type`, `neighborhood`, `schedule`, `firstAppearance`.
+From `canon library/locations/*.md`. Includes the operating-constraint rules (market days, shop hours) as structured fields, which lets a reader surface flag or display when a location is "open" on a given story date. Fields (sketch): `id`, `name`, `type`, `neighborhood`, `schedule`, `firstAppearance`.
 
 ### 6.4 scene
 
@@ -192,7 +192,7 @@ This sequencing also de-risks the build: we can develop and test the lexicons an
 
 A one-way compile: repo to records. Conceptually:
 
-1. **Read** the creative layers: entity registry, character profiles (frontmatter + body), `character_matrix.md`, `timeline_ledger.md`, `locations_registry.md`, `subplot_threads.md`, chapters.
+1. **Read** the creative layers: entity registry, character profiles (frontmatter + body), `character_matrix.md`, `timeline_ledger.md`, `canon library/locations/*.md`, `subplot_threads.md`, chapters.
 2. **Resolve** every name reference to a canonical ID via `entities.yaml`.
 3. **Emit** records into `protocol/records/`, setting each record's `createdAt` from its `storyDate`.
 4. **Validate** records against the lexicon schemas.

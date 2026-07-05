@@ -2,7 +2,7 @@
 
 ## Opening state
 
-Mid-tier investment bank. Sending money home consistently. Doesn't talk about it. The pragmatism that got him from a Philadelphia working-class neighborhood to UPenn to Manhattan is now the cage — it works, and he's not sure how to operate without it. He arrives late to Meal 1 from work on a Sunday, which signals deadline (per locations_registry.md canon rule: he doesn't routinely work Sundays). Something at the office is squeezing him.
+Mid-tier investment bank. Sending money home consistently. Doesn't talk about it. The pragmatism that got him from a Philadelphia working-class neighborhood to UPenn to Manhattan is now the cage — it works, and he's not sure how to operate without it. He arrives late to Meal 1 from work on a Sunday, which signals deadline (per locations/index.md canon rule: he doesn't routinely work Sundays). Something at the office is squeezing him.
 
 The supper club is the place he lets the pragmatism rest. With this group, dry sarcasm gets a laugh instead of being read as cold. He doesn't quite know how he ended up with friends who solve mysteries for fun. But he stays.
 

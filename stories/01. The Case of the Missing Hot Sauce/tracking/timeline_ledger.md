@@ -1,6 +1,6 @@
 # Timeline Ledger — Book 1: The Case of the Missing Hot Sauce
 
-Every chapter pinned to a date. Simultaneous events visible. Travel times respected (see `canon library/locations_registry.md` → Canon Rules).
+Every chapter pinned to a date. Simultaneous events visible. Travel times respected (see `canon library/locations/index.md` → scheduling/travel rules).
 
 **Story span:** Week 1 Sunday → Week 4 Sunday (~3 weeks). Ch1 to Ch25.
 **Calendar anchor:** Week 1 Sunday = **2026-10-04**. Anchor chosen because Ch6 states LLC #2847 was "filed on October 2nd — exactly two days after Hank had given up his stall," and Oliver finds the filing on the Monday after Week 1 Sunday. October 4, 2026 is a Sunday. Anchor was shifted from Oct 18 to Oct 4 on 2026-05-23 to keep Ch25 in October (final dinner = Sun Oct 25).
