@@ -4,6 +4,19 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-07-05 — protocol/ARCHITECTURE.md reframed: one source, many surfaces
+
+**Decision:** The AT Protocol is **one experimental projection, not the publishing backbone.** Reframed the architecture doc around *one source (the repo), many surfaces*:
+- A **public site (e.g. Astro) is the primary reading experience** — chapters plus the record-set lenses (Book Mode, scrubbable Timeline, location/character feeds), full design control, no niche-client dependency.
+- The **AT Protocol projection is optional/experimental**, reserved for what it's uniquely good at: characters as portable DIDs and reading a story *inside* a social feed.
+- **standard.site** (the shared long-form lexicon Leaflet/pckt.blog/Offprint converged on in 2026) is the chosen schema **only for the optional atproto mirror of chapters**, not the reader surface; **Leaflet** is a hosted editor on that lexicon, not needed since chapters are generated from prose.
+- The **gated-backstage tension resolves**: access control lives in our own site layer; backstage content is served with our own gating or simply not emitted as public records (atproto is public-by-default).
+- Phases 3 (public site) and 4 (atproto experiment) are now **independent** — the site never waits on the protocol work. Also refreshed the §9 finalization gate (Book 1 is now v1-locked).
+
+Single-file change (`protocol/ARCHITECTURE.md`); no story canon affected.
+
+---
+
 ## 2026-07-05 — Meal 4 mini-chapters promoted to full chapters; Book 1 renumbered to 25
 
 **Trigger:** Author decision — the three short Meal 4 "From the Road" interludes (`m4_18a`, `m4_19a`, `m4_19b`) should be full chapters. This resolves F4 from the 2026-06-25 linter pass (orphan chapters). Book 1 is now **25 chapters** (Meal 4 = 18–25).

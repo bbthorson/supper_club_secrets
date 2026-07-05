@@ -197,7 +197,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 1 | introduced (by absence) | The empty stall. Dorothy's account. Phone goes to voicemail. | |
 | 23 | introduced (in person) | Found at Meadowlight greenhouse. Agrees to come to dinner. | |
 | 25 | paid off (return) | Tells full story. Pro bono lawyer. Stall application for next weekend. | |
-| 20 → 22 | paid off (motivated) | Hank's reckoning anchored on the bottle. In Ch23, Jasper produces the bottle Dorothy gave Emma — proof the sauce has already done what it was for. In Ch25, Hank explicitly cites the bottle as what changed his mind: "I'd already given the bottle away — I just hadn't lived with what that meant. Just in case. Turns out the case was you all." | Ch23 greenhouse + Ch25 storytelling |
+| 23 → 25 | paid off (motivated) | Hank's reckoning anchored on the bottle. In Ch23, Jasper produces the bottle Dorothy gave Emma — proof the sauce has already done what it was for. In Ch25, Hank explicitly cites the bottle as what changed his mind: "I'd already given the bottle away — I just hadn't lived with what that meant. Just in case. Turns out the case was you all." | Ch23 greenhouse + Ch25 storytelling |
 
 **Action needed:** Add a beat in Ch23 (or in Ch24 as a quiet aside) showing Hank's hesitation, his moment of reckoning, what specifically changes his mind. Jasper's pitch is the trigger but not the reason. Currently Hank arrives in Ch25 as symbol of resolution; one more beat upstream makes him a person who chose to come back.
 

@@ -14,7 +14,7 @@ focal_character: char.emma
 **Focal Character:** [Emma Hartley](../characters/emma.md)
 **Month:** October
 **Host:** Emma (all four meals)
-**Status:** v1 complete. 25 chapters, ~38,600 words. All chapters drafted (the former Ch20/Ch24 stubs are written; the three short Meal 4 road chapters promoted to full chapters 19/21/22). Canon & tracking reconciled 2026-07-05. Full detail in the story bible (`stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md`).
+**Status:** v1 complete. 25 chapters, ~38,600 words. All chapters drafted (the Meal 4 stubs, now Ch20 and Ch24, are written; the three short road chapters promoted to full chapters 19/21/22). Canon & tracking reconciled 2026-07-05. Full detail in the story bible (`stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md`).
 
 **Mystery:** Hank, a beloved hot sauce vendor, vanishes from the McGolrick Park farmers market. The group uncovers a corporate land grab by developer [Garrett Pike](../antagonists/book1_garrett_pike.md), run through shell companies and broad patents, with legal and economic pressure used to force Emma to back off.
 
