@@ -79,5 +79,5 @@ Avoid:
 ## Threads they carry forward
 
 - **Family compound dream:** Not seeded in Book 1 per continuity.md. Consider adding a half-line — Elijah looking at upstate real estate on his phone in Ch16 or Ch24 — as a Book 3 seed. Optional.
-- **Family financial weight:** Per series_plan.md, Book 3 (Elijah's book) centers a community credit union being asset-stripped. The Book 1 mother/sister texts are the right seed for that book. Make sure they're payable forward — a single Ch16/21 callback would help.
+- **Family financial weight:** Per series_plan.md, Book 3 (Elijah's book) centers a community credit union being asset-stripped. The Book 1 mother/sister texts are the right seed for that book. Make sure they're payable forward — a single Ch16/24 callback would help.
 - **The pragmatism's cost:** The arc across Books 1–3 is Elijah using his skills proactively, then for community, then risking professionally. Book 1 plants the first step.

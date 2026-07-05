@@ -168,7 +168,7 @@
 * Jasper texts the group chat: he found Hank. He's bringing him to dinner.
 
 ### Final Image (Ch. 25: "Family Meal")
-* Celebratory dinner at Emma's. Two weeks after the emergency dinner (or sooner — TBD based on timeline).
+* Celebratory dinner at Emma's. The following Sunday (Oct 25) — eleven days after the emergency dinner.
 * The food reflects resolution and joy. Each person's dish shows growth.
 * The door buzzes. **Jasper** walks in with **Hank**, holding an unlabeled bottle of hot sauce.
 * Hank tells his story — the lowball offer for his family's trademark, the threats when he tried to negotiate, running to Meadowlight. A pro bono lawyer has since helped him file a proper trademark.
