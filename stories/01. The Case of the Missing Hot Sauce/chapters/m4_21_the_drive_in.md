@@ -1,4 +1,4 @@
-### From the Road — The Starlite Drive-In
+### Chapter Twenty-One - The Starlite Drive-In
 
 *Lancaster County. Saturday.*
 

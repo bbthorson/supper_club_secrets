@@ -47,25 +47,28 @@ A chapter × character snapshot. One row per chapter. Each character cell carrie
 | Ch | Date | Location | Central Beat | Emma | Elijah | Noah | Oliver | Olivia | Jasper |
 |----|------|----------|--------------|------|--------|------|--------|--------|--------|
 | 13 | Mon Oct 12 → Wed Oct 14 (2:47 PM) | Emma's apt; closed McGolrick (Wed midday walk-past) | Bad Guys Close In. Sofia silence + Dorothy silence + C&D. | **private → under-pressure**. Walks toward closed market out of habit. Texts Dorothy; no read receipt (parallel to Sofia). Dialect breaks ("this needs fixed"). Past failure resurfaces. Calls Elijah (voicemail), then Olivia. | (voicemail only) | | | private (phone). Drops everything. Rallies the group. Fierce protector mode activating. | |
-| 14 | Wed Oct 14 (evening) | Emma's apt | Emma confesses about Kinky Kitchen. Group rallies. | **under-pressure → private**. Braced for judgment, met with support. Relief. ⚠ The bracing-to-relief beat should hit harder. | private. Reads C&D, declares it toothless. Takes a work call — mother / sister's car. ⚠ Family weight introduced, no payoff. | private. Steady. Observing the room. | private (listening, gathering). | **under-pressure (overdrive)**. Hostess on hyperdrive. Orders Thai with zero debate. Stress-organizing the spice rack. | private (subdued). Knows what's coming. |
+| 14 | Wed Oct 14 (evening) | Emma's apt | C&D lands; group rallies. Privately, Emma confides her precarity to Olivia. | **under-pressure → private**. Then, alone with Olivia in the kitchen, lets her in on how thin things really are. The relief of being known. ⚠ Let the fear sit longer before the relief lands. | private. Reads C&D, declares it toothless. Takes a work call — mother / sister's car. ⚠ Family weight introduced, no payoff. | private. Steady. Observing the room. | private (listening, gathering). | **under-pressure (overdrive)**. Hostess on hyperdrive. Orders Thai with zero debate. Stress-organizing the spice rack. Then the quiet kitchen confide with Emma. | private (subdued). Knows what's coming. |
 | 15 | Wed Oct 14 (late) | Emma's apt | All Is Lost. Jasper's confession. The fight. Oliver's speech. | private (centered now). Listening. | private. Asks the right questions to surface the leak. | **under-pressure (anger)**. Lashes out at Jasper. Says things he regrets. | **under-pressure → public (knowledge-bomb)**. Stands. Paces. Longest speech of his life. Online moderator life surfaces parenthetically. | private. Watching the fight; Emma's spice rack now organized by color. | **under-pressure (reversal)**. Goes quiet. "I don't know any other way to be useful." |
 | 16 | Wed Oct 14 → Thu Oct 15 (overnight) | Emma's apt | Break into Three. The swarm plan. Roles assigned. Jasper leaves. | private. Identifies industry-petty food influencers. Weaponizing the industry that broke her. | private. Press kit partnership with Oliver. | private. VPN architecture in his head. | **private (commanding now)**. Architects the rebuttal framework. | private (focused). Building target list. | private (quiet resolve). "I know somebody." Plays it light but the room feels it. Leaves. |
 | 17 | Thu Oct 15 → Fri Oct 16 (am) | Distributed (each character's home/route) | Preparation montage. Jasper takes the bottle from Emma's counter on his way out (planted twist). | private. Writing the narrative late. Cooking nothing for the first time in weeks. | private. Building press kit with Oliver. Family weight off-page. ⚠ | private (sleepless). Building infrastructure overnight. | private. Press kit. Fact-checking obsessively. | private (pacing). Network map. Phone work. | private (en route). Boarding Amtrak. Packs bottle into duffel. Texts group occasionally. |
 
 ---
 
-## Meal 4: Resolution (Ch18–Ch22) — Fri Oct 16 → Sun Oct 25
+## Meal 4: Resolution (Ch18–Ch25) — Fri Oct 16 → Sun Oct 25
 
 | Ch | Date | Location | Central Beat | Emma | Elijah | Noah | Oliver | Olivia | Jasper |
 |----|------|----------|--------------|------|--------|------|--------|--------|--------|
 | 18 | Fri Oct 16 → Sat Oct 17 | Emma's apt (war room) | Finale — Hope. Campaign launches. | ⚠ private (watching). Drafted the narrative; now watching it deploy. Currently sidelined. | private. Monitoring sentiment. Phone in hand. | private (active). Sentiment graphs. Food metaphor for distributed systems ("Don't get used to it"). | private. Coordinating press kit distribution. | **private (active)**. Working the phones. Local contacts in motion. | private (en route PA). Texts: "found nothing yet, but trying." |
-| 19 | Fri Oct 16 → Sat Oct 17 | Emma's apt | Finale — Doubt. Counterpunch. **[PLACEHOLDER CHAPTER]** | ⚠ | | | | | (PA, off-page) |
-| 20 | Sat Oct 17 → Tue Oct 20 | Jasper's apt → PA → Meadowlight | Jasper's solo journey. Finds Hank. Texts Noah specifically (not the group) — establishes the conduit pattern paid off in Ch22 apology. | (Brooklyn, off-page) | (off-page) | (off-page) | private (Noah on the other end of Jasper's individual texts — receives them, doesn't reply, doesn't tell the group) | (off-page) | (off-page) | **private (centerstage)**. 20+ phone calls. Texts Noah individually. Sunset drive. Greenhouse scene. Tells Hank the full truth + shows him the bottle. |
-| 20 (Hank) | Tue Oct 20 | Meadowlight greenhouse | | | | | | | (above) |
+| 19 | Fri Oct 16 (night) | Route 30 diner, PA | *From the road.* Jasper's first night of nursery calls. | (Brooklyn, off-page) | (off-page) | (off-page) | (off-page) | (off-page) | **private (alone)**. Dead-end calls over diner coffee. The loneliness under the performance; keeps going anyway. |
+| 20 | Fri Oct 16 → Sat Oct 17 | Emma's apt | Finale — Doubt. Counterpunch (drafted). | ⚠ private (watching). Still sidelined in execution. | private. Weathering the takedown notices. | private (tense). Anonymous account traced — close call. | private. Holding the line on the rebuttal. | private. Doubt creeping in. | (PA, off-page) |
+| 21 | Sat Oct 17 | Starlite Drive-In, Lancaster Co., PA | *From the road.* Noah's pruned spreadsheet; the first real lead. | (Brooklyn, off-page) | (off-page) | private (off-page). Turns Jasper's list into a pruned spreadsheet — the conduit pattern forming. | (off-page) | (off-page) | **private (centerstage)**. Works the starred leads. A seed supplier names a collective "out past the city" — "meadow-something." |
+| 22 | Sun Oct 18 (night) | Murph's (dive bar), PA | *From the road.* The low point; the lead named. | (Brooklyn, off-page) | (off-page) | (off-page) | (off-page) | (off-page) | **private (lowest)**. Twenty-some calls, one bad motel. Nearly drives home — then a bartender names Meadowlight. |
+| 23 | Sat Oct 17 → Tue Oct 20 | Jasper's apt → PA → Meadowlight | Jasper's solo journey. Finds Hank. Texts Noah specifically (not the group) — establishes the conduit pattern paid off in Ch25 apology. | (Brooklyn, off-page) | (off-page) | (off-page) | private (Noah on the other end of Jasper's individual texts — receives them, doesn't reply, doesn't tell the group) | (off-page) | (off-page) | **private (centerstage)**. 20+ phone calls. Texts Noah individually. Sunset drive. Greenhouse scene. Tells Hank the full truth + shows him the bottle. |
+| 23 (Hank) | Tue Oct 20 | Meadowlight greenhouse | | | | | | | (above) |
 | | | Hank: **private (guarded → tentative)**. The question of returning. ⚠ Decision currently unmotivated. | | | | | | |
-| 21 | Wed Oct 21 → Thu Oct 22 | Emma's apt + distributed | Finale — Breakthrough. Oliver's rebuttal lands. Critic adopts framing. **[PLACEHOLDER CHAPTER]** | private. Reacts to the critic's coverage landing. | private. Investors pulling — vindication. | private. Sentiment flipping in real time. | **private (peak)**. Rebuttal is his. Critic uses his exact framing. | private (relief). Texts cascading in. | (returning from PA) |
-| 22 | Sun Oct 25 | Emma's apt | Final Image. Hank arrives with Jasper. Family Meal. Dorothy texts reconciliation. Jasper returns the bottle. Oliver volunteers to host next Sunday. | **private (settled)**. Dorothy text early. Cooking for joy. OnlyFans aftermath now lightly reflected (the "fear didn't end when the threat did" line). | private. Fennel salad with pomegranate. Strategic, not a concession. | private. Bakery bread. Apology to Jasper now references the conduit pattern explicitly. | **private (voluntary emergence)**. Volunteers "I'll go first" for next Sunday hosting. Takes notes on Jasper's Red Hook theory. | private. Beet-and-goat-cheese tart. Marcus discount. Color-coded spice rack. | **private → public**. Returns the original bottle to Emma. Apologizes for taking it. Reverts to performative theory-pitching after Hank speaks — propulsion into Book 2. |
-| 22 (Hank) | Sun Oct 25 | Emma's apt | | | | | | | |
+| 24 | Wed Oct 21 → Thu Oct 22 | Emma's apt + distributed | Finale — Breakthrough. Oliver's rebuttal lands. Critic adopts framing. (drafted) | private. Reacts to the critic's coverage landing. | private. Investors pulling — vindication. | private. Sentiment flipping in real time. | **private (peak)**. Rebuttal is his. Critic uses his exact framing. | private (relief). Texts cascading in. | (returning from PA) |
+| 25 | Sun Oct 25 | Emma's apt | Final Image. Hank arrives with Jasper. Family Meal. Dorothy texts reconciliation. Jasper returns the bottle. Oliver volunteers to host next Sunday. | **private (settled)**. Dorothy text early. Cooking for joy. The squeeze has lifted; lightly reflects that "the fear didn't end when the threat did." | private. Fennel salad with pomegranate. Strategic, not a concession. | private. Bakery bread. Apology to Jasper now references the conduit pattern explicitly. | **private (voluntary emergence)**. Volunteers "I'll go first" for next Sunday hosting. Takes notes on Jasper's Red Hook theory. | private. Beet-and-goat-cheese tart. Marcus discount. Color-coded spice rack. | **private → public**. Returns the original bottle to Emma. Apologizes for taking it. Reverts to performative theory-pitching after Hank speaks — propulsion into Book 2. |
+| 25 (Hank) | Sun Oct 25 | Emma's apt | | | | | | | |
 | | | Hank: **private (warm)**. Tells full story. Filed proper trademark. Returning to market. | | | | | | |
 
 ---
@@ -86,9 +89,9 @@ A chapter × character snapshot. One row per chapter. Each character cell carrie
 | 12 | Process server | public | "You've been served." Bored. Indifferent. (in Ch13) |
 | 13 | Dorothy (silent, off-page) | — | ⚠ No read receipt on Emma's text — parallel to Sofia. The cold beat moved to Ch12 (Sunday Oct 25) per canon market rule. |
 | 13 | Sofia (silent, off-page) | — | ⚠ Doesn't reply to Emma's text. Thread carried forward to Book 2. |
-| 20 | Meadowlight woman | public (protective) | Shells peas. Warms when she hears the news. |
-| 20 | Hank | private (guarded → tentative) | First on-page appearance. ⚠ Decision to return unmotivated. |
-| 22 | Hank | private (warm) | Tells full story. Trademark filed. Returning to market. |
+| 23 | Meadowlight woman | public (protective) | Shells peas. Warms when she hears the news. |
+| 23 | Hank | private (guarded → tentative) | First on-page appearance. ⚠ Decision to return unmotivated. |
+| 25 | Hank | private (warm) | Tells full story. Trademark filed. Returning to market. |
 
 ---
 
@@ -96,10 +99,10 @@ A chapter × character snapshot. One row per chapter. Each character cell carrie
 
 Cells marked ⚠ correspond to action items in `subplot_threads.md`. The most acute concentrations:
 
-- **Ch14:** Emma's bracing-to-relief beat; Elijah's family weight introduced without payoff.
+- **Ch14:** Emma's private confide-to-Olivia beat (let the fear sit longer before relief); Elijah's family weight introduced without payoff (intentional — Book 3).
 - **Ch15:** Oliver's online moderator life surfaces parenthetically (could be intentional Book 2 seed — verify).
 - **Ch17:** Elijah's family weight goes off-page entirely.
 - **Ch18:** Emma sidelined — drafted the narrative, watching it deploy.
-- **Ch19, Ch21:** Placeholder chapters. Character work entirely unwritten.
-- **Ch20:** Hank's decision to return is unmotivated. Jasper's PA search could carry more interior weight.
-- **Ch22:** OnlyFans aftermath reported not felt; Noah's apology lands without an on-page recognition moment; Oliver doesn't carry Ch15 emergence; Jasper's reversion to chaos may be intentional but isn't marked; Dorothy never warms back up.
+- **Ch20, Ch24:** Now drafted. Verify character beats in the prose match this matrix.
+- **Ch23:** Hank's decision to return is unmotivated. Jasper's PA search could carry more interior weight.
+- **Ch25:** Emma's precarity aftermath lightly reflected (secret stays opaque); Noah's apology lands without an on-page recognition moment; Oliver doesn't carry Ch15 emergence; Jasper's reversion to chaos may be intentional but isn't marked; Dorothy never warms back up.

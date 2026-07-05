@@ -4,6 +4,56 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-07-05 — Meal 4 mini-chapters promoted to full chapters; Book 1 renumbered to 25
+
+**Trigger:** Author decision — the three short Meal 4 "From the Road" interludes (`m4_18a`, `m4_19a`, `m4_19b`) should be full chapters. This resolves F4 from the 2026-06-25 linter pass (orphan chapters). Book 1 is now **25 chapters** (Meal 4 = 18–25).
+
+**Renumbering (files renamed via `git mv`, headings updated):**
+
+| Old | New | File |
+|---|---|---|
+| 18 | 18 | `m4_18_turning_up_the_heat` (unchanged) |
+| 18a | **19** | `m4_18a_the_diner` → `m4_19_the_diner` (The Ridgeline Diner) |
+| 19 | **20** | `m4_19_the_counterpunch` → `m4_20_the_counterpunch` (prose heading "Ghost Kitchen") |
+| 19a | **21** | `m4_19a_the_drive_in` → `m4_21_the_drive_in` (The Starlite Drive-In) |
+| 19b | **22** | `m4_19b_the_dive` → `m4_22_the_dive` (Murph's) |
+| 20 | **23** | `m4_20_farm_to_table` → `m4_23_farm_to_table` |
+| 21 | **24** | `m4_21_the_turning_tide` → `m4_24_the_turning_tide` (prose heading "The Proof") |
+| 22 | **25** | `m4_22_family_meal` → `m4_25_family_meal` |
+
+**Reference updates (all chapter refs remapped 19→20, 20→23, 21→24, 22→25):** `00_book_metadata.md` (chapter list + structure table + counts + status), `chapters/00_story_outline.md` (Meal 4 sections + beat sheet + timeline; three new road-chapter subsections added), `chapters/00_meal_summaries.md` (structure bullets), `tracking/character_matrix.md` (rows renumbered + rows added for Ch19/21/22), `tracking/subplot_threads.md` (Jasper arc rows added), `tracking/timeline_ledger.md` (road-trip rows tagged 19/21/22), `tracking/interiority/*.md`, and canon (`glossary.md` untouched here; `books/book1.md`, `locations/meadowlight-collective.md`, `characters/hank.md`, `characters/marcus_gilded_fern.md`).
+
+**Also fixed (pre-existing numbering errors surfaced during the pass):** `hank.md` had "Farm to Table" as Ch17 and "Family Meal" as Ch18 → corrected to Ch23 / Ch25 (by title); `marcus_gilded_fern.md` goat-cheese/heroes ref → Ch25; `meadowlight-collective.md` `first_appearance` → Ch23. Counts updated to 25 chapters / ~38,600 words in `book_metadata` and `book1.md`; both statuses set to **v1 complete**.
+
+**Titles resolved:** the cooking-metaphor prose titles **"Ghost Kitchen" (Ch20)** and **"The Proof" (Ch24)** are canonical (prose wins over the old outline names "The Counterpunch" / "The Turning Tide"). Files renamed to match (`m4_20_ghost_kitchen.md`, `m4_24_the_proof.md`); metadata and outline reconciled.
+
+---
+
+## 2026-07-05 — Structure cleanup + opaque-secret reconciliation pass (completed)
+
+**Trigger:** Repo-structure review. Book 1 prose was locked as v1 ("finalizing v1 of book 1", 2026-06-22) on the opaque-secret / economic-squeeze direction (decided 2026-06-15), but the **verification/reconciliation pass never finished** — many canon/tracking/outline files still described the *superseded* OnlyFans-exposure plot, contradicting the finalized prose (a Golden Rule violation). Also cleaned up stale planning docs and build artifacts.
+
+**Structural cleanup:**
+- Deleted the 5 committed `.epub` build artifacts and added `*.epub` to `.gitignore`.
+- Deleted `HANDOFF.md` (2026-06-15 punch list — every item resolved) and the entire `stories/01…/revision/` folder (5 working docs for the now-complete revision). Git preserves history.
+- Updated `00_book_metadata.md` Status → **v1 complete**: removed the "Ch19/Ch21 unwritten" claims, refreshed counts (~38,600 words; noted the 18a/19a/19b mini-chapters), rewrote Status & Open Issues to list only optional polish.
+
+**Canon/tracking reconciliation (prose wins; docs updated to match):** scrubbed the superseded framing — the C&D "exposing"/naming Kinky Kitchen, Emma's whole-group confession in Ch14, and the account going "public" in Ch22 — and reframed to current canon: secret stays **opaque/deferred** (never named on the page), villain leverage is an **economic squeeze**, and the intimate beat is Emma **privately confiding her precarity to Olivia** (Ch14). Files:
+- `canon library/continuity.md` — "Public Knowledge: OnlyFans is now public" section and Emma's row rewritten.
+- `canon library/glossary.md` — Kinky Kitchen entry (opaque/deferred); also fixed a stale **LLC #2847 date (Oct 18 → Oct 2)** that the 2026-06-25 linter pass missed.
+- `stories/01…/characters/the_mogul.md` — was a wholly superseded antagonist profile (unnamed, never-on-page, OnlyFans leverage, "Brenda Chen"); **rewritten as a thin story-scoped stub pointing to the canonical `antagonists/book1_garrett_pike.md`**.
+- `stories/01…/chapters/00_meal_summaries.md` and `00_story_outline.md` — exposure/confession/public beats reframed; Ch19/Ch21 titles filled in (The Counterpunch / The Turning Tide); beat-sheet B-story updated.
+- `stories/01…/tracking/timeline_ledger.md`, `character_matrix.md`, `subplot_threads.md` — OnlyFans-weaponization / group-confession / public-aftermath rows reframed; B-plot retitled to "Emma's financial precarity"; stale `[PLACEHOLDER CHAPTER]` markers cleared for the now-drafted Ch19/Ch21.
+- `stories/01…/tracking/interiority/emma_book1.md` and `elijah_book1.md` — reframed the Ch14 confide, the Ch22 aftermath, and the reveal/withhold table to the opaque-secret direction (interiority still privately knows the secret; only the on-page mechanics changed).
+
+**Also fixed:** "Brenda Chen" → "Brenda Marquez" in `the_mogul.md` (surname changed 2026-04-07).
+
+**Verified:** no chapter *prose* contained the superseded beats (the finalized Ch13 C&D names no secrets; Ch14 is a private Olivia confide) — the drift was entirely in the derived/meta layer. `series_plan.md` and `canon library/characters/emma.md` were already reconciled (no change needed).
+
+**Not changed (flagged for author):** the remaining craft "action needed" flags in `tracking/` (Sofia silence, Emma's Meal 4 beat); the `_story_template` chapter-guide example line that still uses "Kinky Kitchen is known to the mogul" as an illustration.
+
+---
+
 ## 2026-06-25 — Continuity-linter pass: two date fixes (tracking-vs-prose drift)
 
 **Trigger:** Dry-run of a continuity linter (plotted-arc rules) against Book 1, using the tracking files as the data layer. Two errors surfaced where a derived tracking file contradicted the locked prose; both fixed story-driven (prose wins, tracking updated).

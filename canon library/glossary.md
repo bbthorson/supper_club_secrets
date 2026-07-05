@@ -88,8 +88,8 @@ These facts must remain consistent:
 |------|------------|
 | **Hank** | The missing hot sauce vendor at McGolrick Park (Sunday) and McCarren Park (Saturday). Mid-fifties, kind eyes, calloused hands. |
 | **Big Hot Sauce** | Emma's joke term for corporate hot sauce interests. Turns out to be essentially correct. |
-| **LLC #2847** | The anonymous corporate entity behind the mogul's waterfront restaurant filing. Filed Oct. 18 — two days after Hank gave up his stall. |
-| **Kinky Kitchen** | Emma's anonymous OnlyFans account — barefoot cooking content. Her most reliable income after leaving Bistro Lavande. Discovered and used as leverage by the mogul. |
+| **LLC #2847** | The anonymous corporate entity behind the mogul's waterfront restaurant filing. Filed Oct. 2 — two days after Hank gave up his stall. |
+| **Kinky Kitchen** | Emma's anonymous OnlyFans account — barefoot cooking content. Her most reliable income after leaving Bistro Lavande. Stays **opaque** in Book 1 — never named on the page or to the group; the reveal is deferred to a later book. |
 | **Meadowlight Collective** | An intentional community ~2 hours west of Philadelphia where Hank fled. Artists, growers, back-to-the-land types. The only people still growing old-stripe Fish Pepper varieties. |
 | **The Swarm** | The group's strategy for exposing the mogul — distributing the story anonymously to hundreds of small outlets rather than one big one. Noah's metaphor: "You can't kill a swarm of mosquitos with a cannonball." |
 | **Brenda Marquez** | Jasper's contact at Apex Realty (commercial real estate). Inadvertently tipped off the mogul about the investigation. |

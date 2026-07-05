@@ -1,4 +1,4 @@
-### Chapter Twenty - Farm to Table
+### Chapter Twenty-Three - Farm to Table
 
 It was Tuesday by the time Jasper found the dirt driveway.
 

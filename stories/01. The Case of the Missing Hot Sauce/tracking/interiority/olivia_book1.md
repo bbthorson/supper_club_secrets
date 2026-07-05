@@ -34,7 +34,7 @@ The other, lower-stakes tension: Olivia is operating at peak performance through
 **Shifts:**
 - She has been part of a sustained crisis response (not just a party). The energy was focused, not diffused.
 - She partnered with Elijah on operational work — first non-relational collaboration with him.
-- The Marcus discount on goat cheese (Ch22) — the network is now feeding the celebration, not the investigation. Continuity.
+- The Marcus discount on goat cheese (Ch25) — the network is now feeding the celebration, not the investigation. Continuity.
 
 **Doesn't shift:**
 - The anxiety about Oliver. Still latent.

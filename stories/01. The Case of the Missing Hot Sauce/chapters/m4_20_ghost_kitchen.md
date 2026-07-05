@@ -1,4 +1,4 @@
-### Chapter Nineteen - Ghost Kitchen
+### Chapter Twenty - Ghost Kitchen
 
 By Saturday morning the story had legs. By Saturday afternoon, it had enemies.
 

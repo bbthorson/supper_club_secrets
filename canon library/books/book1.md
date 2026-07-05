@@ -1,20 +1,20 @@
 ---
 type: Book
 title: "Book 1 — The Case of the Missing Hot Sauce"
-description: Emma-focal. A beloved vendor vanishes from the farmers market and the group uncovers developer Garrett Pike's land grab. Draft; back-half revision pending.
+description: Emma-focal. A beloved vendor vanishes from the farmers market and the group uncovers developer Garrett Pike's land grab. v1 complete.
 tags: [series-plan, book1, emma]
 timestamp: 2026-06-15T00:00:00Z
 id: book.1
-status: draft
+status: complete
 focal_character: char.emma
 ---
 
-# Book 1: The Case of the Missing Hot Sauce (DRAFT — revision pending)
+# Book 1: The Case of the Missing Hot Sauce
 
 **Focal Character:** [Emma Hartley](../characters/emma.md)
 **Month:** October
 **Host:** Emma (all four meals)
-**Status:** Expanded draft, 22 chapters, ~37,400 words. Structurally complete; Meals 1–2 tight, Meals 3–4 need revision (Ch19 and Ch21 are stubs; timeline compression flags open). Full detail in the story bible (`stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md`).
+**Status:** v1 complete. 25 chapters, ~38,600 words. All chapters drafted (the former Ch20/Ch24 stubs are written; the three short Meal 4 road chapters promoted to full chapters 19/21/22). Canon & tracking reconciled 2026-07-05. Full detail in the story bible (`stories/01. The Case of the Missing Hot Sauce/00_book_metadata.md`).
 
 **Mystery:** Hank, a beloved hot sauce vendor, vanishes from the McGolrick Park farmers market. The group uncovers a corporate land grab by developer [Garrett Pike](../antagonists/book1_garrett_pike.md), run through shell companies and broad patents, with legal and economic pressure used to force Emma to back off.
 

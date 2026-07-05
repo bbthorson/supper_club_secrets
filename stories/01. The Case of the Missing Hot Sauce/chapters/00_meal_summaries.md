@@ -2,11 +2,11 @@
 
 Quick-reference overview of each meal's arc, key events, and group dynamics. For the full chapter-by-chapter breakdown, see [00_story_outline.md](00_story_outline.md).
 
-**Chapter → Meal mapping (22 chapters):**
+**Chapter → Meal mapping (25 chapters):**
 - **Meal 1 (Setup):** Chapters 1–5 (`m1_*`)
 - **Meal 2 (Investigation):** Chapters 6–12 (`m2_*`)
 - **Meal 3 (Crisis):** Chapters 13–17 (`m3_*`)
-- **Meal 4 (Resolution):** Chapters 18–22 (`m4_*`)
+- **Meal 4 (Resolution):** Chapters 18–25 (`m4_*`)
 
 ---
 
@@ -57,19 +57,19 @@ Quick-reference overview of each meal's arc, key events, and group dynamics. For
 
 ### Chapter Structure
 - **Ch13:** Signs of trouble + C&D arrives at Emma's apartment
-- **Ch14:** Emergency Seamless dinner. Emma confesses about Kinky Kitchen. Group rallies.
+- **Ch14:** Emergency Thai-takeout dinner. The group rallies around the C&D; privately, Emma confides her financial precarity to Olivia.
 - **Ch15:** "How did they find us?" Jasper confesses. The fight. Oliver's speech.
 - **Ch16:** The plan — swarm strategy. Roles assigned. Jasper leaves to find Hank.
 - **Ch17:** Vignettes — each character prepares their piece of the campaign, alone but connected.
 
 ### Key Events
-- **Bad Guys Close In:** Small signs of surveillance before the C&D. Then the legal threat arrives with a personal note exposing Emma's OnlyFans.
-- **All Is Lost:** Emma confesses her secret and is embraced. Then Jasper confesses his mistake and the group fractures — the sharpest fight they've ever had.
+- **Bad Guys Close In:** Small signs of surveillance before the C&D. Pike confronts Emma in person, framing the Hank buyout as mercy, and applies an economic squeeze — cancelled clients, a killed article — to make her back off. The legal threat arrives; the letter names no secrets, but it's clear someone dug.
+- **All Is Lost:** Emma lets Olivia in on how precarious things really are. Then Jasper confesses his mistake and the group fractures — the sharpest fight they've ever had.
 - **Dark Night of the Soul:** The emotional low point. The group's unity is in question.
 - **Break into Three:** Oliver rallies them with a counter-strategy. The plan takes shape. Jasper says he "knows somebody" and leaves — his redemption mission. The group disperses to prepare.
 
 ### Group Dynamics
-- **Emma's** vulnerability (the confession) deepens the group's bond
+- **Emma's** vulnerability (privately confiding her precarity to Olivia) deepens her closest bond
 - **Jasper's** guilt drives his redemption arc — he needs to find Hank
 - **Oliver** steps up as an unexpected leader with the longest speech he's ever given
 - **Noah** is the one who traces the information leak back to Jasper
@@ -77,21 +77,24 @@ Quick-reference overview of each meal's arc, key events, and group dynamics. For
 
 ---
 
-## Meal 4: Resolution (Chapters 18–22)
+## Meal 4: Resolution (Chapters 18–25)
 
 ### Chapter Structure
 - **Ch18:** Campaign launch — coordinated, hope builds
-- **Ch19:** Pushback — the campaign might fail, doubt and fear
-- **Ch20:** Jasper's road trip — solo chapter, finds Hank at Meadowlight
-- **Ch21:** Campaign breaks through — Oliver's rebuttal, food critic picks it up, tide turns
-- **Ch22:** Family Meal — celebratory dinner, Jasper brings Hank
+- **Ch19:** *From the road* — Jasper's first night of nursery calls (the Ridgeline Diner)
+- **Ch20:** Pushback — the campaign might fail, doubt and fear
+- **Ch21:** *From the road* — Noah's spreadsheet narrows the search (the Starlite Drive-In)
+- **Ch22:** *From the road* — the low point; a bartender names Meadowlight (Murph's)
+- **Ch23:** Jasper's road trip — solo chapter, finds Hank at Meadowlight
+- **Ch24:** Campaign breaks through — Oliver's rebuttal, food critic picks it up, tide turns
+- **Ch25:** Family Meal — celebratory dinner, Jasper brings Hank
 
 ### Key Events
 - **Finale — Hope:** The campaign launches. Small blogs pick it up. The story spreads. The group works in unison for the first time.
 - **Finale — Doubt:** Pushback arrives. Takedown notices, a dismissive commentator, a close call with account tracing. The group's confidence cracks.
 - **Finale — Redemption:** Jasper tracks Hank through the Fish Pepper connection to the Meadowlight Collective in Pennsylvania. Finds him in a greenhouse. The only chapter that leaves Brooklyn.
 - **Finale — Breakthrough:** Oliver's rebuttal document turns the tide. A major food critic amplifies the story. The mogul's investors pull out. C&D withdrawn.
-- **Final Image:** Celebratory dinner. The food reflects resolution and joy. Jasper buzzes the door with Hank. Hank tells his full story. Emma's OnlyFans situation has resolved positively. The group decides to continue the supper club with rotating hosts. The first case is solved.
+- **Final Image:** Celebratory dinner. The food reflects resolution and joy. Jasper buzzes the door with Hank. Hank tells his full story. The economic squeeze on Emma has lifted with Pike's retreat; her secret stays private (deferred). The group decides to continue the supper club with rotating hosts. The first case is solved.
 
 ### Group Dynamics
 - **The campaign** is the first time the group functions as a coordinated team rather than individual investigators
