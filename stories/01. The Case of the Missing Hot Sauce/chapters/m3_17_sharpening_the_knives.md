@@ -13,7 +13,8 @@ pov: "Distributed (ensemble montage — each character's feed in turn)"
 characters_present:
   - "Noah (building infrastructure overnight)"
   - "Olivia (network map, phone work)"
-  - "Oliver (press kit, fact-checking) & Elijah (evidence package)"
+  - "Oliver (press kit, fact-checking)"
+  - "Elijah (evidence package)"
   - "Emma (drafting the narrative; cooking nothing)"
   - "Jasper (en route — boards the Amtrak; packs the bottle)"
 registers:
