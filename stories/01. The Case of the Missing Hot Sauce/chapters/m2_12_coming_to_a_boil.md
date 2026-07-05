@@ -1,3 +1,50 @@
+---
+chapter: 12
+title: "Coming to a Boil"
+meal: 2
+beat: "Midpoint / False Victory"
+day: "Sunday"
+date: "2026-10-11"
+time: "morning (McGolrick) → evening (potluck)"
+location:
+  - "McGolrick Park Farmers Market (morning)"
+  - "Emma's apartment (evening)"
+pov: "Emma"
+characters_present:
+  - "Emma (host)"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+  - "Jasper"
+  - "Dorothy (morning, McGolrick — brisk)"
+  - "Unknown out-of-place man (morning, at Dorothy's stall)"
+registers:
+  Emma: "public → private (morning market stop; hostess, then crystallizing the picture)"
+  Elijah: "private (presents the financial model fresh; drier than usual)"
+  Noah: "private (the patents discovery)"
+  Oliver: "private (more present than usual; lets Elijah lead)"
+  Olivia: "public (opens the dinner: 'We all saw the group chat. Who's got more?')"
+  Jasper: "private (the Brenda reveal — triumphant; doesn't see her 11pm warning text)"
+  Dorothy: "public (closed-with-customer — brisk; reads as 'busy' to Emma)"
+clues:
+  planted:
+    - "Dorothy brisk with an out-of-place man in the wrong coat — Pike-adjacent seed (Foundation; pays off Ch13)"
+  revealed:
+    - "Findings converge: corporate predation targeting artisan vendors"
+    - "Jasper's Brenda reveal (deflated) — 'a restaurant mogul buying up Williamsburg', but NO name yet"
+threads:
+  active:
+    - "Main mystery: false victory — they think they've cracked it"
+    - "Jasper's Brenda reveal (identity deferred — no name)"
+  touched:
+    - "Setback (hidden): Brenda's warning text goes unread"
+    - "Dorothy (seed for the Ch13 silence)"
+beat_purpose: "The potluck 'solves' the case — false victory — while the seeds of the reversal (Dorothy's brisk stranger, Jasper's unseen warning) sit in plain sight."
+audit_notes:
+  - "Identity deferred: the group lands on 'a mogul buying up Williamsburg' with no name. Pike is named on-page in Ch13 and connected by the group in Ch14."
+---
+
 ### Chapter Twelve - Coming to a Boil
 
 The following Sunday, Emma's apartment was transformed. Not physically—it was still the same narrow railroad kitchen, the same hand-me-down furniture, the same overhead fluorescent that made everyone look slightly criminal. But the energy was different. Last week had been a dinner party. This week was a war room that happened to smell incredible.

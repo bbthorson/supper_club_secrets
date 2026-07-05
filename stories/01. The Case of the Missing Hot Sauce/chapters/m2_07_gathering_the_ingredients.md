@@ -1,3 +1,36 @@
+---
+chapter: 7
+title: "Gathering the Ingredients"
+meal: 2
+beat: "Fun and Games"
+day: "Tuesday"
+date: "2026-10-06"
+time: "morning → evening"
+location:
+  - "The Gilded Fern (Bedford Ave)"
+  - "Olivia & Oliver's place"
+pov: "Olivia"
+characters_present:
+  - "Olivia"
+  - "Marcus (The Gilded Fern)"
+  - "Oliver (at home, evening)"
+registers:
+  Olivia: "public (information-gathering — idle conversation with the precision of an interview)"
+  Marcus: "public"
+  Oliver: "private (shows Olivia the LLC; won't take it to the group)"
+clues:
+  planted: []
+  revealed:
+    - "Marcus details deepen — Hank pulled his inventory back, acting watched (Connective)"
+threads:
+  active:
+    - "Main mystery: the Marcus intel deepens"
+    - "Olivia's recurring source (Marcus / The Gilded Fern)"
+  touched:
+    - "Olivia's anxiety about Oliver (seed — 'tell the group'; he won't. She files it away.)"
+beat_purpose: "Olivia works Marcus for texture and pulls the LLC out of Oliver at home — surfacing what he'd keep to himself."
+---
+
 ### Chapter Seven - Gathering the Ingredients
 
 Olivia didn't need an excuse to talk to people, but having one made it more fun. Tuesday morning, she stood in The Gilded Fern, a boutique on Bedford Avenue that sold artisanal soaps, hand-poured candles, and a curated selection of locally made pantry items. The shop was small but impeccably arranged—exposed brick walls lined with floating shelves, each product displayed with the kind of breathing room that justified its price tag. The air smelled of lavender and bergamot, layered over something warmer and woodier—the cedar shelving, maybe, or the sandalwood candles that Marcus kept burning by the register.

@@ -1,3 +1,38 @@
+---
+chapter: 10
+title: "Loose Lips"
+meal: 2
+beat: "Fun and Games (the breach seeded)"
+day: "Friday"
+date: "2026-10-09"
+time: "afternoon → night"
+location:
+  - "Jasper's apartment (Chelsea)"
+  - "The High Line"
+pov: "Jasper"
+characters_present:
+  - "Jasper"
+  - "Brenda Marquez (phone)"
+characters_referenced:
+  - "Emma (Jasper is careful NOT to name her)"
+registers:
+  Jasper: "public → private (competitive itch — everyone else has contributed; calls Brenda; misses her warning text that night)"
+  Brenda Marquez: "public → private (recognizes the LLC; warns Jasper)"
+clues:
+  planted:
+    - "Brenda's unread warning text — the ticking device (Misdirection/Connective)"
+  revealed:
+    - "Brenda recognizes the LLC (but gives no name); off-page she calls the developer's people — the inadvertent breach"
+threads:
+  active:
+    - "Main mystery: the breach (Jasper's call tips off the developer)"
+    - "Jasper — chaos with a motive (feeling left out)"
+    - "Brenda Marquez (introduced)"
+  touched:
+    - "Jasper's Chelsea one-bedroom (the only visible old-money clue)"
+beat_purpose: "Jasper's need to contribute causes the breach — the call that quietly turns the developer's attention on the group."
+---
+
 ### Chapter Ten - Loose Lips
 
 Jasper had been following the group chat all week the way he followed most things—half-attentively, with sudden bursts of intense interest. He'd seen Oliver's finding when Elijah posted it Wednesday night, skimmed Noah's follow-up about corporate shell layers Thursday, and felt a familiar competitive itch. Everyone was contributing something. Oliver had the data, Elijah had the instinct to share it, Noah was doing his thing with databases. Even Olivia had apparently charmed intelligence out of a shopkeeper. Jasper hadn't done anything yet, and that bothered him more than he wanted to admit.

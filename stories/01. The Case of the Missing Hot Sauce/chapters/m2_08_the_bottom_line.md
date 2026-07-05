@@ -1,3 +1,38 @@
+---
+chapter: 8
+title: "The Bottom Line"
+meal: 2
+beat: "Fun and Games"
+day: "Wednesday"
+date: "2026-10-07"
+time: "evening"
+location:
+  - "Elijah's apartment"
+  - "Group chat"
+pov: "Elijah"
+characters_present:
+  - "Elijah"
+  - "Olivia (phone call)"
+characters_referenced:
+  - "Oliver (won't share the find himself)"
+  - "Noah (in the group chat)"
+  - "Elijah's mother & sister (text — sister's car)"
+registers:
+  Elijah: "private (reads the group correctly; posts the LLC; builds the financial model privately)"
+  Olivia: "private (phone — pivots from tailor to the finding)"
+clues:
+  planted: []
+  revealed:
+    - "LLC seeded to the group chat; a financial model is in motion (low-to-mid six-figure motive)"
+threads:
+  active:
+    - "Main mystery: Elijah bridges Oliver's find to the group"
+    - "Elijah's family financial weight (introduced — mother texts about the sister's car; ambient, no payoff this book)"
+  touched:
+    - "Elijah as connective tissue"
+beat_purpose: "Elijah quietly makes the LLC the group's problem and starts modeling the money — the case gains a spine."
+---
+
 ### Chapter Eight - The Bottom Line
 
 Wednesday evening, Elijah called Olivia to ask if she had the name of the woman who'd altered his suit for Oliver and Olivia's anniversary dinner last spring. She didn't, but she had the name of a different tailor on Atlantic Avenue who was "better and cheaper and also, Marcus from The Gilded Fern says hi." This was how conversations with Olivia worked—you asked one question and received three answers, two recommendations, and a piece of neighborhood gossip.

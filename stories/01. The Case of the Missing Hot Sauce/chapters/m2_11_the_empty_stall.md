@@ -1,3 +1,38 @@
+---
+chapter: 11
+title: "The Empty Stall"
+meal: 2
+beat: "Fun and Games"
+day: "Saturday"
+date: "2026-10-10"
+time: "morning"
+location:
+  - "McCarren Park Greenmarket"
+  - "Sofia's Cheese Shop"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Sofia (cheese shop)"
+characters_referenced:
+  - "Hank (his Saturday stall — already replaced by a jarred-salsa vendor)"
+  - "Paolo Ferrante (the pickle vendor sued out — Sofia's precedent)"
+registers:
+  Emma: "private (pursues her instinct alone; notices the stall already replaced — escalating erasure)"
+  Sofia: "public (warm, then guarded — notes people have been asking about Hank)"
+clues:
+  planted: []
+  revealed:
+    - "Hank got 'a big offer to go legit' (Connective)"
+    - "The Paolo precedent — same playbook, a vendor sued out over his grandmother's recipe (Confirmation)"
+threads:
+  active:
+    - "Main mystery: the pattern emerges (offer + litigation playbook)"
+    - "Emma reclaiming her voice (developing — investigates alone)"
+  touched:
+    - "Sofia's shop vulnerability (seeded — the playbook applies to all small vendors)"
+beat_purpose: "The empty Saturday stall plus the Paolo precedent turn one disappearance into a pattern — someone is doing this on purpose."
+---
+
 ### Chapter Eleven - The Empty Stall
 
 Saturday morning, Emma woke up restless. She'd spent the week watching the group chat fill with LLC numbers and corporate filings and Elijah's careful questions, and she hadn't contributed anything since the first dinner. Oliver had the data, Noah had the databases, Jasper had his contact, Olivia had her network. Emma had a bottle of hot sauce on her counter and a growing sense that she needed to do something with her hands, not her phone.
