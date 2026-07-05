@@ -1,3 +1,42 @@
+---
+chapter: 16
+title: "The Recipe for Revenge"
+meal: 3
+beat: "Break into Three"
+day: "Wednesday → Thursday"
+date: "2026-10-14 to 2026-10-15"
+time: "late night → overnight"
+location:
+  - "Emma's apartment"
+pov: "Emma"
+characters_present:
+  - "Emma"
+  - "Elijah"
+  - "Noah"
+  - "Oliver"
+  - "Olivia"
+  - "Jasper"
+registers:
+  Emma: "private (identifies industry-petty food influencers; the 'I won't be a martyr' reframe)"
+  Elijah: "private (press-kit partnership with Oliver)"
+  Noah: "private (VPN architecture in his head)"
+  Oliver: "private (commanding now — architects the rebuttal framework)"
+  Olivia: "private (building the target list)"
+  Jasper: "private (quiet resolve — 'I know somebody'; leaves for the road)"
+clues:
+  planted: []
+  revealed: []
+threads:
+  active:
+    - "Main mystery: the swarm strategy takes shape; roles assigned"
+    - "Jasper — redemption mission assigned (leaves to find Hank)"
+  touched:
+    - "Emma's worldview (people will choose the little guy if given the chance)"
+beat_purpose: "The swarm plan and roles come together; Jasper quietly takes the find-Hank mission and leaves."
+audit_notes:
+  - "Emma's reframe: 'I won't be the story / a martyr — I just want people to get to choose Hank' (ties to her worldview; replaces the old OnlyFans-martyr line)."
+---
+
 ### Chapter Sixteen — The Recipe for Revenge
 
 Oliver's words hung in the air, a sudden, sharp turning of the tide. The anger and fear in the room didn't disappear, but they began to coalesce, hardening from something liquid and shapeless into something solid—resolve, or at least the beginning of it.
