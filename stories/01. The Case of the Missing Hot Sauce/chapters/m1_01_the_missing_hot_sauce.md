@@ -8,12 +8,12 @@ date: "2026-10-04"
 time: "morning → afternoon"
 location:
   - "McGolrick Park Farmers Market"
-  - "Emma's apartment"
+  - "Emma's Apartment"
 pov: "Emma"
 characters_present:
   - "Emma (centerstage)"
   - "Dorothy (honey vendor — gives the bottle)"
-  - "Ruth (vendor — 'seemed off, kept checking his phone')"
+  - "Ruth (vendor — notes Hank 'seemed off, kept checking his phone')"
 characters_referenced:
   - "Hank (absent — empty stall)"
 registers:

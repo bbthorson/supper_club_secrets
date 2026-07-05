@@ -7,8 +7,8 @@ day: "Tuesday"
 date: "2026-10-06"
 time: "morning → evening"
 location:
-  - "The Gilded Fern (Bedford Ave)"
-  - "Olivia & Oliver's place"
+  - "The Gilded Fern"
+  - "Olivia & Oliver's Place"
 pov: "Olivia"
 characters_present:
   - "Olivia"

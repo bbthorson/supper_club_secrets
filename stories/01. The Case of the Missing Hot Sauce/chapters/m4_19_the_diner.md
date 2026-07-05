@@ -7,7 +7,7 @@ day: "Friday"
 date: "2026-10-16"
 time: "night"
 location:
-  - "The Ridgeline Diner (Route 30, west of Philadelphia)"
+  - "The Ridgeline Diner"
 pov: "Jasper"
 characters_present:
   - "Jasper (alone)"

@@ -7,8 +7,8 @@ day: "Tuesday → Thursday"
 date: "2026-10-20 to 2026-10-22"
 time: "Tuesday morning onward"
 location:
-  - "Emma's apartment"
-  - "Distributed (allies, outlets)"
+  - "Emma's Apartment"
+  - "Distributed — allies/outlets"
 pov: "Emma"
 characters_present:
   - "Oliver (centerstage — deploys the rebuttal)"

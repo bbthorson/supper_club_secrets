@@ -7,7 +7,7 @@ day: "Saturday"
 date: "2026-10-17"
 time: "day"
 location:
-  - "The Starlite Drive-In (Lancaster County)"
+  - "The Starlite Drive-In"
 pov: "Jasper"
 characters_present:
   - "Jasper"

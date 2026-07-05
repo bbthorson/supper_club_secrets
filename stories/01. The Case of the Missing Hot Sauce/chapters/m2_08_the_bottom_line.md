@@ -7,8 +7,7 @@ day: "Wednesday"
 date: "2026-10-07"
 time: "evening"
 location:
-  - "Elijah's apartment"
-  - "Group chat"
+  - "Elijah's Apartment"
 pov: "Elijah"
 characters_present:
   - "Elijah"

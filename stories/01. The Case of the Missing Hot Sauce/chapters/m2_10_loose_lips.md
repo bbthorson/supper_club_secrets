@@ -7,7 +7,7 @@ day: "Friday"
 date: "2026-10-09"
 time: "afternoon → night"
 location:
-  - "Jasper's apartment (Chelsea)"
+  - "Jasper's Apartment"
   - "The High Line"
 pov: "Jasper"
 characters_present:

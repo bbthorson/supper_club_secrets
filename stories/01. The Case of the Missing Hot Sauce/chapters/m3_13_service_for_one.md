@@ -7,8 +7,8 @@ day: "Monday → Wednesday"
 date: "2026-10-12 to 2026-10-14"
 time: "Mon morning → Tue afternoon → Wed midday"
 location:
-  - "Emma's apartment"
-  - "McGolrick Park (Wed midday — closed; the empty stalls)"
+  - "Emma's Apartment"
+  - "McGolrick Park Farmers Market (referenced)"
 pov: "Emma"
 characters_present:
   - "Emma (centerstage)"

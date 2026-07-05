@@ -7,7 +7,7 @@ day: "Sunday"
 date: "2026-10-25"
 time: "evening"
 location:
-  - "Emma's apartment"
+  - "Emma's Apartment"
 pov: "Emma"
 characters_present:
   - "Emma (host)"

@@ -7,8 +7,8 @@ day: "Wednesday night → Friday morning"
 date: "2026-10-14 to 2026-10-16"
 time: "~36 hours"
 location:
-  - "Distributed (each character's home/route)"
-  - "Amtrak to Philadelphia (Jasper)"
+  - "Distributed — ensemble prep montage"
+  - "Amtrak to Philadelphia"
 pov: "Distributed (ensemble montage — each character's feed in turn)"
 characters_present:
   - "Noah (building infrastructure overnight)"

@@ -7,8 +7,8 @@ day: "Sunday"
 date: "2026-10-11"
 time: "morning (McGolrick) → evening (potluck)"
 location:
-  - "McGolrick Park Farmers Market (morning)"
-  - "Emma's apartment (evening)"
+  - "McGolrick Park Farmers Market"
+  - "Emma's Apartment"
 pov: "Emma"
 characters_present:
   - "Emma (host)"

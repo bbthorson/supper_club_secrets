@@ -7,7 +7,7 @@ day: "Sunday"
 date: "2026-10-18"
 time: "night"
 location:
-  - "Murph's (a dive bar off Route 222)"
+  - "Murph's"
 pov: "Jasper"
 characters_present:
   - "Jasper"

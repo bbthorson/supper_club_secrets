@@ -7,7 +7,7 @@ day: "Tuesday"
 date: "2026-10-20"
 time: "day"
 location:
-  - "Meadowlight Collective (Pennsylvania — the only setting outside Brooklyn)"
+  - "Meadowlight Collective"
 pov: "Jasper"
 characters_present:
   - "Jasper"

@@ -17,9 +17,9 @@ beat: "Bad Guys Close In"                 # Save the Cat beat or sub-beat
 day: "Monday → Wednesday"                 # human-readable (optional)
 date: "2026-10-12 to 2026-10-14"          # ISO, absolute (required). A span is allowed.
 time: "Mon morning → Tue afternoon → Wed midday"   # time-of-day or span (optional)
-location:                                 # canonical names from canon library/locations/
-  - "Emma's apartment"
-  - "McGolrick Park (Wed midday — closed; referenced)"
+location:                                 # exact canonical names from canon library/locations/index.md
+  - "Emma's Apartment"
+  - "McGolrick Park Farmers Market (referenced)"
 pov: "Emma"                               # the chapter's feed owner (required)
 characters_present:                       # on-page in an active scene (required)
   - "Emma (centerstage)"
@@ -53,7 +53,7 @@ audit_notes:                               # optional; continuity/decision notes
 ### Rules
 
 1. **`date` is absolute.** Never write `date: "the next day"`. Use ISO format. This is the single biggest defense against timeline drift across chapters.
-2. **`location` is canonical.** Use the exact name from `canon library/locations/` (see `locations/index.md`). Check the scheduling/travel rules in the index for constraints (markets, shops, etc.) before assigning a date.
+2. **`location` is canonical.** Use the **exact** display name from `canon library/locations/index.md` (capitalization included) so extraction can resolve it to a canonical ID. The only permitted qualifier is a trailing `(referenced)` when a place is named but isn't the active scene. Settings that genuinely aren't in the registry (a one-off road stop, a public space) are written as plain free text — they simply won't resolve to an entity. Check the scheduling/travel rules in the index for constraints (markets, shops, etc.) before assigning a date.
 3. **`registers` only lists characters in active scene.** A character mentioned but not present doesn't get a register. If a character is in the scene but no register is listed, that's a flag — they're probably reduced to set dressing.
 4. **`threads` must reference an entry in `tracking/subplot_threads.md`.** If a thread is touched here, it should appear there with this chapter cited.
 5. **`beat_purpose` is one sentence.** What does this chapter accomplish that no other chapter does? If you can't answer, the chapter probably doesn't need to exist.
