@@ -139,7 +139,7 @@
 * Jasper's first night on the road (Friday). A Route 30 diner; coffee and a slice of pie he won't eat.
 * He works a cobbled-together list of nurseries and co-ops — dead end after dead end, but he keeps going. First beat of the road-trip motif and the loneliness under the performance.
 
-### Finale — Pushback (Ch. 20: "The Counterpunch")
+### Finale — Pushback (Ch. 20: "Ghost Kitchen")
 * The counterattack arrives. A conservative commentator dismisses the story as anti-capitalist whining. Takedown notices hit some of the blogs. One of their anonymous accounts gets traced — close call.
 * The group's confidence cracks. Someone suggests they should stop before it gets worse. The campaign might fail.
 * The chapter ends on a low note — doubt, fear that they've made things worse.
@@ -160,7 +160,7 @@
 * Jasper's unspoken guilt and relief. This is his redemption — not announced, not performed, just done.
 * Hank agrees to come to dinner.
 
-### Finale — Breakthrough (Ch. 24: "The Turning Tide")
+### Finale — Breakthrough (Ch. 24: "The Proof")
 * Back in Brooklyn, **Oliver** deploys his secret weapon — a meticulously sourced rebuttal document with talking points, distributed to their existing allies.
 * The rebuttal spreads. A major food critic picks up the story and adopts their exact framing. Sentiment flips.
 * The mogul's investors start pulling out. The C&D is formally withdrawn. The waterfront restaurant is shelved.

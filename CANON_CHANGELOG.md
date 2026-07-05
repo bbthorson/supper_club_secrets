@@ -25,7 +25,7 @@ A running log of significant changes to canon — location names, character fact
 
 **Also fixed (pre-existing numbering errors surfaced during the pass):** `hank.md` had "Farm to Table" as Ch17 and "Family Meal" as Ch18 → corrected to Ch23 / Ch25 (by title); `marcus_gilded_fern.md` goat-cheese/heroes ref → Ch25; `meadowlight-collective.md` `first_appearance` → Ch23. Counts updated to 25 chapters / ~38,600 words in `book_metadata` and `book1.md`; both statuses set to **v1 complete**.
 
-**Flagged for author:** the drafted prose titles **"Ghost Kitchen" (Ch20)** and **"The Proof" (Ch24)** differ from the outline/metadata titles "The Counterpunch" / "The Turning Tide" — decide which is canonical (prose wins by the Golden Rule).
+**Titles resolved:** the cooking-metaphor prose titles **"Ghost Kitchen" (Ch20)** and **"The Proof" (Ch24)** are canonical (prose wins over the old outline names "The Counterpunch" / "The Turning Tide"). Files renamed to match (`m4_20_ghost_kitchen.md`, `m4_24_the_proof.md`); metadata and outline reconciled.
 
 ---
 

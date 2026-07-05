@@ -78,11 +78,11 @@ Four meals over roughly three weeks, mapped to Save the Cat beats: Setup, Invest
 **Meal 4 — Resolution**
 18. *Turning Up the Heat* — Campaign launches; small blogs pick it up; hope builds.
 19. *The Ridgeline Diner* — From the road: Jasper's first night of nursery calls; dead ends and one flicker of resolve.
-20. *The Counterpunch* — Pushback and doubt; the campaign might fail. *(prose heading: "Ghost Kitchen")*
+20. *Ghost Kitchen* — Pushback and doubt; the campaign might fail.
 21. *The Starlite Drive-In* — From the road: Noah's spreadsheet narrows the search; "meadow-something" surfaces.
 22. *Murph's* — From the road: the low point in a dive bar, where a bartender finally names the Meadowlight Collective.
 23. *Farm to Table* — Jasper's solo road trip; finds Hank at the Meadowlight Collective.
-24. *The Turning Tide* — Oliver's rebuttal breaks through; a food critic amplifies it. *(prose heading: "The Proof")*
+24. *The Proof* — Oliver's rebuttal breaks through; a food critic amplifies it.
 25. *Family Meal* — Celebratory dinner; Jasper arrives with Hank; the club commits to continuing.
 
 ---
@@ -174,6 +174,6 @@ Remaining items are optional polish and housekeeping, not blockers:
 
 - **Craft flags (tracking/):** a few editorial "action needed" notes remain in `tracking/subplot_threads.md` and `tracking/character_matrix.md` (e.g., an active Emma beat in Meal 4, Sofia's silence payoff, letting the Ch14 Olivia confide breathe). Judgment calls, not continuity errors.
 - **Compression notes:** several earlier flags (Ch12→13, Ch17 montage) are largely resolved by the finalized prose; `tracking/timeline_ledger.md` still lists them for a final read-through.
-- **Chapter titles:** the drafted prose titles for Ch20 ("Ghost Kitchen") and Ch24 ("The Proof") differ from the outline/metadata titles ("The Counterpunch" / "The Turning Tide"). Per the Golden Rule the prose wins — decide which title is canonical and reconcile.
+- **(resolved 2026-07-05)** Ch20 "Ghost Kitchen" and Ch24 "The Proof" are the canonical titles (the cooking-metaphor prose titles win over the old outline names "The Counterpunch" / "The Turning Tide"); files, metadata, and outline reconciled.
 - **Held by design:** Elijah's family-weight thread is intentionally ambient in Book 1 with no payoff (reserved for Book 3).
 - **Deferred:** Emma's secret income source stays opaque; pick the book/occasion for its eventual reveal (per `series_plan.md`).
