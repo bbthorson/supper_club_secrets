@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Emma Hartley"
+id: char.emma
+status: active
+---
+
 # Emma Hartley
 
 ## Overview

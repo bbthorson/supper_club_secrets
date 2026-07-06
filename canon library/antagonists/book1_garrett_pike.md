@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Garrett Pike"
+id: char.garrett-pike
+status: active
+---
+
 # Garrett Pike
 
 ## Role

@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Olivia"
+id: char.olivia
+status: active
+---
+
 # Olivia
 
 ## Overview

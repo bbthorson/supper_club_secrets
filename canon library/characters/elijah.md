@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Elijah Miller"
+id: char.elijah
+status: active
+---
+
 # Elijah Miller
 
 ## Overview

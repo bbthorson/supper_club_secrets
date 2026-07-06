@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Sofia"
+id: char.sofia
+status: active
+---
+
 # Sofia
 
 ## Overview

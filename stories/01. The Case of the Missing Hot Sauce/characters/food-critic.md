@@ -1,3 +1,10 @@
+---
+type: Character
+title: "The Food Critic"
+id: char.food-critic
+status: active
+---
+
 # The Food Critic
 
 ## Overview

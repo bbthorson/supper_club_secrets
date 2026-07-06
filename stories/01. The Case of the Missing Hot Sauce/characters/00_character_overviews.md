@@ -11,12 +11,12 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **First Appearance:** Chapter 1 (by absence); Chapter 17 (in person)
 * **Key Detail:** His great-grandmother brought Fish Pepper seeds from Virginia to Philadelphia in the 1920s. The recipe is four generations old.
 
-### Brenda Marquez → [brenda_marquez.md](brenda_marquez.md)
+### Brenda Marquez → [brenda-marquez.md](brenda-marquez.md)
 * **Role:** Jasper's commercial real estate contact who inadvertently tips off the mogul
 * **First Appearance:** Chapter 10 (phone call); Chapter 10/12 (warning text Jasper misses)
 * **Key Detail:** Works at Apex Realty. Recognized the LLC from her own client's filings. (Surname changed from Chen to Marquez on 2026-04-07.)
 
-### Marcus → [marcus_gilded_fern.md](marcus_gilded_fern.md)
+### Marcus → [marcus.md](marcus.md)
 * **Role:** Owner of The Gilded Fern boutique; Olivia's neighborhood intel source
 * **First Appearance:** Chapter 3 (texted by Olivia, unnamed); Chapter 8 (in person)
 * **Key Detail:** Carries Olivia's candles and carried Hank's hot sauce. Sharp haircut, cashmere sweater.
@@ -41,7 +41,7 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **First Evidence:** Chapter 6 (Oliver finds the LLC)
 * **Key Detail:** Mid-forties hospitality entrepreneur. Operates through lawyers, LLCs, and intimidation. Self-interested, not evil. Named in canon docs; name surfaces publicly during the food critic's coverage (Ch16).
 
-### The Food Critic → [the_food_critic.md](the_food_critic.md)
+### The Food Critic → [food-critic.md](food-critic.md)
 * **Role:** National food critic whose endorsement turns the tide
 * **First Appearance:** Chapter 16
 * **Key Detail:** Intentionally unnamed. Used Oliver's exact talking points in her viral post.

@@ -4,6 +4,25 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-07-05 — Entity registry authored (Protocol Phase 1, Tasks A–E)
+
+**Decision:** Executed `protocol/entities/TASK.md`. Every character, place, and item now has a permanent local `<type>.<slug>` id and deterministic name→ID resolution. Protocol-agnostic (local ids only; no DIDs, no network). **No prose or story canon changed** — only `id:` frontmatter added and new protocol files authored.
+
+**Added:**
+- `protocol/entities/entities.yaml` — the registry: 20 characters (6 mains, `char.garrett-pike`, 7 recurring/minor, referenced-only `char.paolo-ferrante`, 5 `status: future` antagonist stubs), 14 places (mirroring the existing location `id:`s), and `item.heritage-bottle`. Locked conventions (Task A) live in the file's comment header.
+- `protocol/entities/non_entities.yaml` — documented one-offs (process server, Murph, the road stops, montage descriptors, etc.) so the resolver treats them as expected non-matches.
+- `protocol/entities/resolve.py` — Task D check. Against the 25-chapter frontmatter corpus: **26 names resolve, 16 documented one-offs, 0 silent misses.**
+- `protocol/entities/extract_emma_stateevents.py` + `proof/emma_stateevents.json` — Task E proof: 16 validated `character.stateEvent` records for `char.emma`, `createdAt = storyDate`.
+- `protocol/entities/README.md` — overview + the two flagged decisions (Pike alias coverage; referenced-only entities).
+
+**`id:` frontmatter added to 14 files** (were missing it): the 6 main-character files, the Book 1 antagonist `book1_garrett_pike.md`, and the 7 Book 1 story-character files. `the_mogul.md` remains a stub/alias source for Pike, not a separate entity. Antagonist namespace decision: antagonists are `char.*`.
+
+**Story-character files renamed for filename↔id-slug parity** (`git mv`, matching the `place.*` location-file convention like `mcgolrick-market.md`): `marcus_gilded_fern.md` → `marcus.md` (`char.marcus`), `brenda_marquez.md` → `brenda-marquez.md` (`char.brenda-marquez`), `the_food_critic.md` → `food-critic.md` (`char.food-critic`). References updated in `entities.yaml`, `00_character_overviews.md`, and `TASK.md`. File contents unchanged.
+
+**Deferred (unchanged scope):** the `records/` build tree — the registry is committed source of truth; records are generated later.
+
+---
+
 ## 2026-07-05 — protocol/ARCHITECTURE.md reframed: one source, many surfaces
 
 **Decision:** The AT Protocol is **one experimental projection, not the publishing backbone.** Reframed the architecture doc around *one source (the repo), many surfaces*:

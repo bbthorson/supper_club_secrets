@@ -13,3 +13,6 @@ Thumbs.db
 
 # Claude Code local machine config (permission allowlists etc.)
 .claude/settings.local.json
+
+# Python cache from protocol/entities helper scripts
+protocol/entities/__pycache__/

@@ -1,3 +1,10 @@
+---
+type: Character
+title: "Noah"
+id: char.noah
+status: active
+---
+
 # Noah
 
 ## Overview
