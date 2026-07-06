@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "site.supperclub.character.profile",
+  "$comment": "Internal record schema. Placeholder NSID pending ARCHITECTURE.md §12.1. See ARCHITECTURE.md §6.1. Only reader-safe structured facts are published — never the prose body wholesale.",
+  "title": "character.profile",
+  "type": "object",
+  "required": ["$type", "id", "subject", "displayName"],
+  "additionalProperties": false,
+  "properties": {
+    "$type": {"const": "site.supperclub.character.profile"},
+    "id": {"type": "string", "pattern": "^profile\\."},
+    "subject": {"type": "string", "pattern": "^char\\."},
+    "displayName": {"type": "string"},
+    "oneLine": {"type": ["string", "null"]},
+    "personaPublic": {"type": ["string", "null"]},
+    "keyContradiction": {"type": ["string", "null"]},
+    "sourceFile": {"type": "string"}
+  }
+}

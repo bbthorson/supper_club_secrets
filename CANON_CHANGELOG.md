@@ -4,6 +4,22 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-07-05 — Record extraction pipeline (Protocol Phase 2)
+
+**Decision:** Executed Phase 2 (ARCHITECTURE §13) — full record extraction for the finalized Book 1, building on the Phase 1 registry. Read-only, no network, **no prose or canon changed**; all outputs derive from existing frontmatter/tracking files.
+
+**Added:**
+- `protocol/pipeline/extract.py` — the re-runnable "repo → records" pipeline. Resolves **every** character/place reference through `entities.yaml` (an unresolved ref fails the build) and schema-checks each record against `protocol/lexicons/`. **Clean build:** 25 scenes, 98 `character.stateEvent`s (13 characters), 14 places, 7 profiles, 1 item + 3 custodyEvents, 0 unresolved refs.
+- `protocol/lexicons/` — internal JSON-Schema definitions for the 6 record types (`scene`, `character.stateEvent`, `character.profile`, `place`, `item`, `custodyEvent`). Placeholder NSID `site.supperclub.*` pending §12.1 (only needed for the optional Phase 4 atproto publish).
+- `protocol/records/book1/*.json` — generated records (per-book layout; **resolves open decision §12.5**). Disposable build output — the pipeline is the source of truth. `createdAt = storyDate` on every time-anchored record (§8).
+- `protocol/pipeline/README.md` — how to run it + sourcing/scope notes.
+
+**Notable extraction choices:** scenes are one-per-chapter (chapter frontmatter is the normalized per-beat view of `timeline_ledger.md`), with `primaryEvent`/`simultaneousThreads` joined from the ledger by chapter number; one-off settings (road stops, "Distributed …" montage) are kept as scene `placeText` rather than forced into the registry; the bottle's custody chain (Ch1 Emma → Ch17 Jasper → Ch25 Emma) is hand-encoded from `subplot_threads.md` → "Jasper's bottle" with holders resolved. Generalizes the Phase 1 Emma-only proof to the whole cast.
+
+**Deferred:** `character.profile` `personaPublic`/`keyContradiction` (needs a curated reader-safe-facts pass); the atproto projection (Phase 4); the public site (Phase 3).
+
+---
+
 ## 2026-07-05 — Entity registry authored (Protocol Phase 1, Tasks A–E)
 
 **Decision:** Executed `protocol/entities/TASK.md`. Every character, place, and item now has a permanent local `<type>.<slug>` id and deterministic name→ID resolution. Protocol-agnostic (local ids only; no DIDs, no network). **No prose or story canon changed** — only `id:` frontmatter added and new protocol files authored.
