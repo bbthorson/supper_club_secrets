@@ -1,0 +1,9 @@
+[
+  {
+    "$type": "site.supperclub.item",
+    "id": "item.heritage-bottle",
+    "displayName": "Heritage Hot Sauce Bottle",
+    "firstAppearance": "book.1#ch1",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/tracking/subplot_threads.md"
+  }
+]

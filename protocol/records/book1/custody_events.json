@@ -1,0 +1,35 @@
+[
+  {
+    "$type": "site.supperclub.custodyEvent",
+    "id": "custodyEvent.heritage-bottle.ch1",
+    "item": "item.heritage-bottle",
+    "storyDate": "2026-10-04",
+    "holder": "char.emma",
+    "fromHolder": null,
+    "chapterRef": "book.1#ch1",
+    "event": "Dorothy gives Emma the bottle 'just in case'.",
+    "createdAt": "2026-10-04"
+  },
+  {
+    "$type": "site.supperclub.custodyEvent",
+    "id": "custodyEvent.heritage-bottle.ch17",
+    "item": "item.heritage-bottle",
+    "storyDate": "2026-10-15",
+    "holder": "char.jasper",
+    "fromHolder": "char.emma",
+    "chapterRef": "book.1#ch17",
+    "event": "Jasper palms the bottle from Emma's counter on his way to PA.",
+    "createdAt": "2026-10-15"
+  },
+  {
+    "$type": "site.supperclub.custodyEvent",
+    "id": "custodyEvent.heritage-bottle.ch25",
+    "item": "item.heritage-bottle",
+    "storyDate": "2026-10-25",
+    "holder": "char.emma",
+    "fromHolder": "char.jasper",
+    "chapterRef": "book.1#ch25",
+    "event": "Jasper returns the bottle to Emma; it goes back on the counter.",
+    "createdAt": "2026-10-25"
+  }
+]

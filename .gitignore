@@ -16,3 +16,4 @@ Thumbs.db
 
 # Python cache from protocol/entities helper scripts
 protocol/entities/__pycache__/
+protocol/pipeline/__pycache__/

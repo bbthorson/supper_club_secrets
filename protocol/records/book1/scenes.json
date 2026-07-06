@@ -1,0 +1,766 @@
+[
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch1",
+    "storyDate": "2026-10-04",
+    "chapterRefs": [
+      "book.1#ch1"
+    ],
+    "title": "The Missing Hot Sauce",
+    "meal": 1,
+    "beat": "Opening Image / Theme Stated",
+    "placeRefs": [
+      "place.mcgolrick-market",
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.dorothy",
+      "char.ruth"
+    ],
+    "referenced": [
+      "char.hank"
+    ],
+    "primaryEvent": "Emma at McGolrick, discovers Hank's stall empty (his second missed Sunday), Dorothy gives bottle. Soup with the sauce. Meal 1 dinner. Theory competition. Plan to investigate.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-04",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch2",
+    "storyDate": "2026-10-04",
+    "chapterRefs": [
+      "book.1#ch2"
+    ],
+    "title": "The First Supper",
+    "meal": 1,
+    "beat": "Set-Up",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.jasper",
+      "char.olivia",
+      "char.oliver",
+      "char.noah"
+    ],
+    "referenced": [
+      "char.elijah",
+      "char.hank",
+      "char.dorothy"
+    ],
+    "primaryEvent": "Emma at McGolrick, discovers Hank's stall empty (his second missed Sunday), Dorothy gives bottle. Soup with the sauce. Meal 1 dinner. Theory competition. Plan to investigate.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-04",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch3",
+    "storyDate": "2026-10-04",
+    "chapterRefs": [
+      "book.1#ch3"
+    ],
+    "title": "A Simmering Suspicion",
+    "meal": 1,
+    "beat": "Catalyst",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.oliver",
+      "char.noah",
+      "char.olivia",
+      "char.jasper"
+    ],
+    "referenced": [
+      "char.marcus",
+      "char.hank"
+    ],
+    "primaryEvent": "Emma at McGolrick, discovers Hank's stall empty (his second missed Sunday), Dorothy gives bottle. Soup with the sauce. Meal 1 dinner. Theory competition. Plan to investigate.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-04",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch4",
+    "storyDate": "2026-10-04",
+    "chapterRefs": [
+      "book.1#ch4"
+    ],
+    "title": "Stirring the Pot",
+    "meal": 1,
+    "beat": "Debate",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia",
+      "char.jasper"
+    ],
+    "referenced": [],
+    "primaryEvent": "Emma at McGolrick, discovers Hank's stall empty (his second missed Sunday), Dorothy gives bottle. Soup with the sauce. Meal 1 dinner. Theory competition. Plan to investigate.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-04",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch5",
+    "storyDate": "2026-10-04",
+    "chapterRefs": [
+      "book.1#ch5"
+    ],
+    "title": "Mise en Place",
+    "meal": 1,
+    "beat": "Debate → The Plan",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia",
+      "char.jasper"
+    ],
+    "referenced": [
+      "char.hank"
+    ],
+    "primaryEvent": "Emma at McGolrick, discovers Hank's stall empty (his second missed Sunday), Dorothy gives bottle. Soup with the sauce. Meal 1 dinner. Theory competition. Plan to investigate.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-04",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch6",
+    "storyDate": "2026-10-05",
+    "chapterRefs": [
+      "book.1#ch6"
+    ],
+    "title": "A Fine Sieve",
+    "meal": 2,
+    "beat": "Break into Two",
+    "placeRefs": [
+      "place.nypl-rose-reading-room"
+    ],
+    "placeText": null,
+    "pov": "char.oliver",
+    "participants": [
+      "char.oliver"
+    ],
+    "referenced": [
+      "char.olivia",
+      "char.hank"
+    ],
+    "primaryEvent": "Oliver at NYPL. Discovers LLC #2847 (filed three days ago). Goes home; Olivia asleep.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-05",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_06_a_fine_sieve.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch7",
+    "storyDate": "2026-10-06",
+    "chapterRefs": [
+      "book.1#ch7"
+    ],
+    "title": "Gathering the Ingredients",
+    "meal": 2,
+    "beat": "Fun and Games",
+    "placeRefs": [
+      "place.the-gilded-fern",
+      "place.olivia-oliver-place"
+    ],
+    "placeText": null,
+    "pov": "char.olivia",
+    "participants": [
+      "char.olivia",
+      "char.marcus",
+      "char.oliver"
+    ],
+    "referenced": [],
+    "primaryEvent": "Olivia at The Gilded Fern (Marcus intel + ingredients). Oliver shares LLC finding at home.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-06",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_07_gathering_the_ingredients.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch8",
+    "storyDate": "2026-10-07",
+    "chapterRefs": [
+      "book.1#ch8"
+    ],
+    "title": "The Bottom Line",
+    "meal": 2,
+    "beat": "Fun and Games",
+    "placeRefs": [
+      "place.elijahs-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.elijah",
+    "participants": [
+      "char.elijah",
+      "char.olivia"
+    ],
+    "referenced": [
+      "char.oliver",
+      "char.noah"
+    ],
+    "primaryEvent": "Olivia calls Elijah (tailor pivot → LLC share). Elijah posts LLC to group chat. Builds financial model privately.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-07",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_08_the_bottom_line.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch9",
+    "storyDate": "2026-10-08",
+    "chapterRefs": [
+      "book.1#ch9"
+    ],
+    "title": "A Pinch Too Much",
+    "meal": 2,
+    "beat": "Fun and Games",
+    "placeRefs": [
+      "place.noahs-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.noah",
+    "participants": [
+      "char.noah"
+    ],
+    "referenced": [
+      "char.elijah",
+      "char.hank"
+    ],
+    "primaryEvent": "Noah re-engaged by Elijah's text. Traces shell entities.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-08",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_09_a_pinch_too_much.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch10",
+    "storyDate": "2026-10-09",
+    "chapterRefs": [
+      "book.1#ch10"
+    ],
+    "title": "Loose Lips",
+    "meal": 2,
+    "beat": "Fun and Games (the breach seeded)",
+    "placeRefs": [
+      "place.jaspers-apartment"
+    ],
+    "placeText": [
+      "The High Line"
+    ],
+    "pov": "char.jasper",
+    "participants": [
+      "char.jasper",
+      "char.brenda-marquez"
+    ],
+    "referenced": [
+      "char.emma"
+    ],
+    "primaryEvent": "Jasper walks Chelsea/High Line. Calls Brenda Marquez. Brenda recognizes LLC. Late that night Brenda calls the mogul's people. Jasper misses Brenda's warning text.",
+    "simultaneousThreads": [
+      "Brenda → mogul (off-page Fri night)"
+    ],
+    "createdAt": "2026-10-09",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_10_loose_lips.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch11",
+    "storyDate": "2026-10-10",
+    "chapterRefs": [
+      "book.1#ch11"
+    ],
+    "title": "The Empty Stall",
+    "meal": 2,
+    "beat": "Fun and Games",
+    "placeRefs": [
+      "place.mccarren-market",
+      "place.sofias-cheese-shop"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.sofia"
+    ],
+    "referenced": [
+      "char.hank",
+      "char.paolo-ferrante"
+    ],
+    "primaryEvent": "Emma at McCarren Park (Hank's Saturday market — stall already replaced by jarred salsa vendor). Visits Sofia's cheese shop. Learns about \"big offer\" and Paolo precedent.",
+    "simultaneousThreads": [
+      "Mogul's lawyers/PI begin work on Emma (off-page)"
+    ],
+    "createdAt": "2026-10-10",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_11_the_empty_stall.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch12",
+    "storyDate": "2026-10-11",
+    "chapterRefs": [
+      "book.1#ch12"
+    ],
+    "title": "Coming to a Boil",
+    "meal": 2,
+    "beat": "Midpoint / False Victory",
+    "placeRefs": [
+      "place.mcgolrick-market",
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia",
+      "char.jasper",
+      "char.dorothy"
+    ],
+    "referenced": [],
+    "primaryEvent": "**Morning:** Emma at McGolrick — Dorothy brisk with Pike-adjacent customer (seed beat). **Evening:** Meal 2 potluck. Group pools findings. False victory.",
+    "simultaneousThreads": [
+      "Pike's people dig into Emma's finances and freelance clients (off-page, Sat–Sun) — coded, never named on the page. Pike's people visible at McGolrick mid-morning."
+    ],
+    "createdAt": "2026-10-11",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch13",
+    "storyDate": "2026-10-12",
+    "chapterRefs": [
+      "book.1#ch13"
+    ],
+    "title": "Service for One",
+    "meal": 3,
+    "beat": "Bad Guys Close In",
+    "placeRefs": [
+      "place.emmas-apartment",
+      "place.mcgolrick-market"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.garrett-pike",
+      "char.olivia"
+    ],
+    "referenced": [
+      "char.sofia",
+      "char.dorothy"
+    ],
+    "primaryEvent": "Emma post-victory glow. Texts Sofia (no reply). / Still no Sofia reply. ⚠ Currently a void in the chapter — optional anchored scene to be added per author feedback (Marcus / Emma's editor / Elijah at office). / **Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **2:47 PM:** process server delivers C&D. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "simultaneousThreads": [
+      "Process server dispatched, C&D paperwork finalized (off-page)"
+    ],
+    "createdAt": "2026-10-12",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md",
+    "storyDateEnd": "2026-10-14"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch14",
+    "storyDate": "2026-10-14",
+    "chapterRefs": [
+      "book.1#ch14"
+    ],
+    "title": "The Seamless Supper",
+    "meal": 3,
+    "beat": "All Is Lost (part 1)",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.olivia",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.jasper"
+    ],
+    "referenced": [
+      "char.garrett-pike"
+    ],
+    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **2:47 PM:** process server delivers C&D. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-14",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch15",
+    "storyDate": "2026-10-14",
+    "chapterRefs": [
+      "book.1#ch15"
+    ],
+    "title": "A Bitter Taste",
+    "meal": 3,
+    "beat": "All Is Lost (part 2) / Dark Night of the Soul",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia",
+      "char.jasper"
+    ],
+    "referenced": [],
+    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **2:47 PM:** process server delivers C&D. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-14",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch16",
+    "storyDate": "2026-10-14",
+    "chapterRefs": [
+      "book.1#ch16"
+    ],
+    "title": "The Recipe for Revenge",
+    "meal": 3,
+    "beat": "Break into Three",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia",
+      "char.jasper"
+    ],
+    "referenced": [],
+    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **2:47 PM:** process server delivers C&D. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-14",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md",
+    "storyDateEnd": "2026-10-15"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch17",
+    "storyDate": "2026-10-14",
+    "chapterRefs": [
+      "book.1#ch17"
+    ],
+    "title": "Sharpening the Knives",
+    "meal": 3,
+    "beat": "Break into Three (preparation montage)",
+    "placeRefs": [],
+    "placeText": [
+      "Distributed — ensemble prep montage",
+      "Amtrak to Philadelphia"
+    ],
+    "pov": null,
+    "participants": [
+      "char.noah",
+      "char.olivia",
+      "char.oliver",
+      "char.elijah",
+      "char.emma",
+      "char.jasper"
+    ],
+    "referenced": [],
+    "primaryEvent": "Prep montage begins. Noah builds infrastructure overnight. Olivia maps contacts. Oliver/Elijah build press kit. Emma writes narrative. Jasper boards Amtrak to Philadelphia. **Jasper takes the hot sauce bottle from Emma's counter on his way out (author note: planted twist — see subplot_threads.md → Jasper's bottle).** / Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA.",
+    "simultaneousThreads": [
+      "Jasper en route (PA) ↔ Group prepping (Brooklyn)",
+      "Brooklyn (campaign) ↔ PA (Jasper)"
+    ],
+    "createdAt": "2026-10-14",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md",
+    "storyDateEnd": "2026-10-16"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch18",
+    "storyDate": "2026-10-16",
+    "chapterRefs": [
+      "book.1#ch18"
+    ],
+    "title": "Turning Up the Heat",
+    "meal": 4,
+    "beat": "Finale — Hope (campaign launch)",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia"
+    ],
+    "referenced": [
+      "char.jasper"
+    ],
+    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA. / Story spreading. Sentiment battle. Group tense. Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
+    "simultaneousThreads": [
+      "Brooklyn (campaign) ↔ PA (Jasper)",
+      "Brooklyn ↔ PA"
+    ],
+    "createdAt": "2026-10-16",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
+    "storyDateEnd": "2026-10-17"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch19",
+    "storyDate": "2026-10-16",
+    "chapterRefs": [
+      "book.1#ch19"
+    ],
+    "title": "The Ridgeline Diner",
+    "meal": 4,
+    "beat": "Finale (from the road)",
+    "placeRefs": [],
+    "placeText": [
+      "The Ridgeline Diner"
+    ],
+    "pov": "char.jasper",
+    "participants": [
+      "char.jasper"
+    ],
+    "referenced": [
+      "char.hank"
+    ],
+    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA.",
+    "simultaneousThreads": [
+      "Brooklyn (campaign) ↔ PA (Jasper)"
+    ],
+    "createdAt": "2026-10-16",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_19_the_diner.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch20",
+    "storyDate": "2026-10-17",
+    "chapterRefs": [
+      "book.1#ch20"
+    ],
+    "title": "Ghost Kitchen",
+    "meal": 4,
+    "beat": "Finale — Doubt (the counterpunch)",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia"
+    ],
+    "referenced": [
+      "char.jasper"
+    ],
+    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA. / Story spreading. Sentiment battle. Group tense. Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
+    "simultaneousThreads": [
+      "Brooklyn (campaign) ↔ PA (Jasper)",
+      "Brooklyn ↔ PA"
+    ],
+    "createdAt": "2026-10-17",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch21",
+    "storyDate": "2026-10-17",
+    "chapterRefs": [
+      "book.1#ch21"
+    ],
+    "title": "The Starlite Drive-In",
+    "meal": 4,
+    "beat": "Finale (from the road)",
+    "placeRefs": [],
+    "placeText": [
+      "The Starlite Drive-In"
+    ],
+    "pov": "char.jasper",
+    "participants": [
+      "char.jasper"
+    ],
+    "referenced": [
+      "char.noah"
+    ],
+    "primaryEvent": "Story spreading. Sentiment battle. Group tense. Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
+    "simultaneousThreads": [
+      "Brooklyn ↔ PA"
+    ],
+    "createdAt": "2026-10-17",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_21_the_drive_in.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch22",
+    "storyDate": "2026-10-18",
+    "chapterRefs": [
+      "book.1#ch22"
+    ],
+    "title": "Murph's",
+    "meal": 4,
+    "beat": "Finale (from the road — the low point)",
+    "placeRefs": [],
+    "placeText": [
+      "Murph's"
+    ],
+    "pov": "char.jasper",
+    "participants": [
+      "char.jasper"
+    ],
+    "referenced": [
+      "char.noah",
+      "char.hank"
+    ],
+    "primaryEvent": "Jasper making calls. 20+ calls. Meadowlight Collective surfaces — a bartender at Murph's (Sun night) names it.",
+    "simultaneousThreads": [
+      "Brooklyn (waiting / Oliver finalizing rebuttal) ↔ PA (Jasper closing in)"
+    ],
+    "createdAt": "2026-10-18",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_22_the_dive.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch23",
+    "storyDate": "2026-10-20",
+    "chapterRefs": [
+      "book.1#ch23"
+    ],
+    "title": "Farm to Table",
+    "meal": 4,
+    "beat": "Finale — Redemption",
+    "placeRefs": [
+      "place.meadowlight-collective"
+    ],
+    "placeText": null,
+    "pov": "char.jasper",
+    "participants": [
+      "char.jasper",
+      "char.hank"
+    ],
+    "referenced": [
+      "char.noah"
+    ],
+    "primaryEvent": "Jasper making calls. 20+ calls. Meadowlight Collective surfaces — a bartender at Murph's (Sun night) names it. / Jasper drives 3 hours west of Philly. Finds Hank in Meadowlight greenhouse — shows him the bottle. Hank agrees to come to dinner \"this Sunday.\" Oliver's rebuttal goes live. Food critic picks it up.",
+    "simultaneousThreads": [
+      "Brooklyn (waiting / Oliver finalizing rebuttal) ↔ PA (Jasper closing in)"
+    ],
+    "createdAt": "2026-10-20",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_23_farm_to_table.md"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch24",
+    "storyDate": "2026-10-20",
+    "chapterRefs": [
+      "book.1#ch24"
+    ],
+    "title": "The Proof",
+    "meal": 4,
+    "beat": "Finale — Breakthrough",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": [
+      "Distributed — allies/outlets"
+    ],
+    "pov": "char.emma",
+    "participants": [
+      "char.oliver",
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.olivia"
+    ],
+    "referenced": [
+      "char.food-critic",
+      "char.garrett-pike",
+      "char.jasper"
+    ],
+    "primaryEvent": "Jasper drives 3 hours west of Philly. Finds Hank in Meadowlight greenhouse — shows him the bottle. Hank agrees to come to dinner \"this Sunday.\" Oliver's rebuttal goes live. Food critic picks it up. / Rebuttal spreads. Critic's coverage tips sentiment. Mogul's investors begin pulling back.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-20",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
+    "storyDateEnd": "2026-10-22"
+  },
+  {
+    "$type": "site.supperclub.scene",
+    "id": "scene.book1.ch25",
+    "storyDate": "2026-10-25",
+    "chapterRefs": [
+      "book.1#ch25"
+    ],
+    "title": "Family Meal",
+    "meal": 4,
+    "beat": "Final Image",
+    "placeRefs": [
+      "place.emmas-apartment"
+    ],
+    "placeText": null,
+    "pov": "char.emma",
+    "participants": [
+      "char.emma",
+      "char.elijah",
+      "char.noah",
+      "char.oliver",
+      "char.olivia",
+      "char.jasper",
+      "char.hank"
+    ],
+    "referenced": [
+      "char.dorothy",
+      "char.marcus",
+      "char.garrett-pike"
+    ],
+    "primaryEvent": "Family Meal. Hank arrives with Jasper. Jasper returns the bottle. Group commits to gathering again the following Sunday.",
+    "simultaneousThreads": null,
+    "createdAt": "2026-10-25",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
+  }
+]

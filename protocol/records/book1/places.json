@@ -1,0 +1,154 @@
+[
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.elijahs-apartment",
+    "name": "Elijah's Apartment",
+    "status": "story-specific",
+    "neighborhood": "brooklyn",
+    "firstAppearance": "Book 1, Chapter 8",
+    "schedule": null,
+    "sourceFile": "canon library/locations/elijahs-apartment.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.elijahs-office",
+    "name": "Elijah's Midtown Office",
+    "status": "story-specific",
+    "neighborhood": "manhattan",
+    "firstAppearance": "Book 1, Chapter 8",
+    "schedule": null,
+    "sourceFile": "canon library/locations/elijahs-office.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.emmas-apartment",
+    "name": "Emma's Apartment",
+    "status": "recurring",
+    "neighborhood": null,
+    "firstAppearance": "Book 1, Chapter 1",
+    "schedule": null,
+    "sourceFile": "canon library/locations/emmas-apartment.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.jaspers-apartment",
+    "name": "Jasper's Apartment",
+    "status": "recurring",
+    "neighborhood": "chelsea",
+    "firstAppearance": "Book 1, Chapter 10",
+    "schedule": null,
+    "sourceFile": "canon library/locations/jaspers-apartment.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.mccarren-market",
+    "name": "McCarren Park Greenmarket",
+    "status": "recurring",
+    "neighborhood": "williamsburg",
+    "firstAppearance": "Book 1, Chapter 11",
+    "schedule": {
+      "days": [
+        "Saturday"
+      ],
+      "hours": "morning–early afternoon",
+      "note": "Saturday only"
+    },
+    "sourceFile": "canon library/locations/mccarren-market.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.mcgolrick-market",
+    "name": "McGolrick Park Farmers Market (Down to Earth)",
+    "status": "recurring",
+    "neighborhood": "greenpoint",
+    "firstAppearance": "Book 1, Chapter 1",
+    "schedule": {
+      "days": [
+        "Sunday"
+      ],
+      "hours": "09:00–14:00",
+      "note": "Sunday only, year-round"
+    },
+    "sourceFile": "canon library/locations/mcgolrick-market.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.meadowlight-collective",
+    "name": "Meadowlight Collective",
+    "status": "story-specific",
+    "neighborhood": "pennsylvania",
+    "firstAppearance": "Book 1, Chapter 23",
+    "schedule": null,
+    "sourceFile": "canon library/locations/meadowlight-collective.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.noahs-apartment",
+    "name": "Noah's Apartment",
+    "status": "recurring",
+    "neighborhood": "williamsburg",
+    "firstAppearance": "Book 1, Chapter 9",
+    "schedule": null,
+    "sourceFile": "canon library/locations/noahs-apartment.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.nypl-rose-reading-room",
+    "name": "NYPL — Rose Main Reading Room",
+    "status": "story-specific",
+    "neighborhood": "manhattan",
+    "firstAppearance": "Book 1, Chapter 6",
+    "schedule": null,
+    "sourceFile": "canon library/locations/nypl-rose-reading-room.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.olivia-oliver-place",
+    "name": "Olivia & Oliver's Place",
+    "status": "recurring",
+    "neighborhood": null,
+    "firstAppearance": "Book 1, Chapter 7",
+    "schedule": null,
+    "sourceFile": "canon library/locations/olivia-oliver-place.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.sofias-cheese-shop",
+    "name": "Sofia's Cheese Shop",
+    "status": "recurring",
+    "neighborhood": "williamsburg",
+    "firstAppearance": "Book 1, Chapter 11",
+    "schedule": null,
+    "sourceFile": "canon library/locations/sofias-cheese-shop.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.the-coffee-hole",
+    "name": "The Coffee Hole",
+    "status": "recurring",
+    "neighborhood": "williamsburg",
+    "firstAppearance": "Book 1 (referenced)",
+    "schedule": null,
+    "sourceFile": "canon library/locations/the-coffee-hole.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.the-gilded-fern",
+    "name": "The Gilded Fern",
+    "status": "recurring",
+    "neighborhood": "williamsburg",
+    "firstAppearance": "Book 1, Chapter 7",
+    "schedule": null,
+    "sourceFile": "canon library/locations/the-gilded-fern.md"
+  },
+  {
+    "$type": "site.supperclub.place",
+    "id": "place.waterfront-property",
+    "name": "Waterfront Property (Williamsburg)",
+    "status": "story-specific",
+    "neighborhood": "williamsburg",
+    "firstAppearance": "Book 1 (referenced)",
+    "schedule": null,
+    "sourceFile": "canon library/locations/waterfront-property.md"
+  }
+]

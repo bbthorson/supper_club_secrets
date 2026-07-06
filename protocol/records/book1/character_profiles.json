@@ -1,0 +1,58 @@
+[
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.emma",
+    "subject": "char.emma",
+    "displayName": "Emma Hartley",
+    "oneLine": "A grounded and creative chef with a bubbly, optimistic energy, who is learning to trust her intuition.",
+    "sourceFile": "canon library/characters/emma.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.elijah",
+    "subject": "char.elijah",
+    "displayName": "Elijah Miller",
+    "oneLine": "The rigid analyst with a pragmatic approach and a quietly empathetic nature.",
+    "sourceFile": "canon library/characters/elijah.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.noah",
+    "subject": "char.noah",
+    "displayName": "Noah",
+    "oneLine": "An idealistic and sometimes naive techie who believes technology can solve any problem.",
+    "sourceFile": "canon library/characters/noah.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.oliver",
+    "subject": "char.oliver",
+    "displayName": "Oliver",
+    "oneLine": "A fastidious and bookish introvert, married to Olivia, with a fascination for urban development and city regulations.",
+    "sourceFile": "canon library/characters/oliver.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.olivia",
+    "subject": "char.olivia",
+    "displayName": "Olivia",
+    "oneLine": "A social butterfly and entrepreneur who effortlessly gathers neighborhood gossip.",
+    "sourceFile": "canon library/characters/olivia.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.jasper",
+    "subject": "char.jasper",
+    "displayName": "Jasper",
+    "oneLine": "The wildcard of the group, a free spirit with a mysterious job and a love for chaos.",
+    "sourceFile": "canon library/characters/jasper.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.garrett-pike",
+    "subject": "char.garrett-pike",
+    "displayName": "Garrett Pike",
+    "oneLine": "Garrett Pike is not a cartoon villain. He's a mid-forties hospitality entrepreneur who genuinely believes he's revitalizing neglected neighborhoods. He sees himself as a builder — someone who creates beautiful spaces, employs local workers, and brings economic energy to places that were stagnating. The fact that he displaces the people who made those neighborhoods worth investing in is, to him, an unfortunate externality. Collateral damage in the service of progress.",
+    "sourceFile": "canon library/antagonists/book1_garrett_pike.md"
+  }
+]
