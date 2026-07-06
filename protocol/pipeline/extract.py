@@ -128,7 +128,9 @@ def parse_ledger():
     path = os.path.join(STORY, "tracking", "timeline_ledger.md")
     by_chapter = {}  # int -> {"primaryEvent": [...], "simultaneous": [...]}
     in_table = False
-    for line in open(path, encoding="utf-8").read().splitlines():
+    with open(path, encoding="utf-8") as f:
+        lines = f.read().splitlines()
+    for line in lines:
         if line.startswith("| Date (2026)"):
             in_table = True
             continue
@@ -323,7 +325,8 @@ def extract_places():
 
 def first_heading_oneline(path):
     """Return the '## Overview' line's following text as the one-line summary."""
-    lines = open(path, encoding="utf-8").read().splitlines()
+    with open(path, encoding="utf-8") as f:
+        lines = f.read().splitlines()
     for i, l in enumerate(lines):
         if l.strip().lower() == "## overview":
             for j in range(i + 1, min(i + 6, len(lines))):
@@ -433,30 +436,35 @@ def _type_ok(val, types):
 
 
 def check_schema(rec, schema, label):
-    """Minimal JSON-Schema check: required, const, enum, type, pattern,
-    additionalProperties:false. Enough for the lexicons in this repo — no
-    external dependency."""
-    props = schema.get("properties", {})
-    rid = rec.get("id", "?")
-    for req in schema.get("required", []):
-        if req not in rec:
-            err(f"[{label}] {rid}: missing required field {req!r}")
-    if schema.get("additionalProperties") is False:
-        for k in rec:
-            if k not in props:
-                err(f"[{label}] {rid}: unexpected field {k!r}")
-    for k, v in rec.items():
-        spec = props.get(k)
-        if not spec:
-            continue
-        if "const" in spec and v != spec["const"]:
-            err(f"[{label}] {rid}: {k} must be {spec['const']!r}")
-        if "enum" in spec and v not in spec["enum"]:
-            err(f"[{label}] {rid}: {k}={v!r} not in {spec['enum']}")
-        if "type" in spec and not _type_ok(v, spec["type"]):
-            err(f"[{label}] {rid}: {k}={v!r} wrong type (want {spec['type']})")
-        if "pattern" in spec and isinstance(v, str) and not re.search(spec["pattern"], v):
-            err(f"[{label}] {rid}: {k}={v!r} fails pattern {spec['pattern']}")
+    """Recursive JSON-Schema check: required, const, enum, type, pattern,
+    additionalProperties:false, plus nested objects and array items. Enough for
+    the lexicons in this repo — no external dependency."""
+    def validate(v, s, path):
+        if "const" in s and v != s["const"]:
+            err(f"[{label}] {path}: must be {s['const']!r}")
+        if "enum" in s and v not in s["enum"]:
+            err(f"[{label}] {path}: {v!r} not in {s['enum']}")
+        if "type" in s and not _type_ok(v, s["type"]):
+            err(f"[{label}] {path}: {v!r} wrong type (want {s['type']})")
+        if "pattern" in s and isinstance(v, str) and not re.search(s["pattern"], v):
+            err(f"[{label}] {path}: {v!r} fails pattern {s['pattern']}")
+        if isinstance(v, dict) and "properties" in s:
+            props = s["properties"]
+            for req in s.get("required", []):
+                if req not in v:
+                    err(f"[{label}] {path}: missing required field {req!r}")
+            if s.get("additionalProperties") is False:
+                for k in v:
+                    if k not in props:
+                        err(f"[{label}] {path}: unexpected field {k!r}")
+            for k, sub in v.items():
+                if k in props:
+                    validate(sub, props[k], f"{path}.{k}")
+        if isinstance(v, list) and "items" in s:
+            for idx, item in enumerate(v):
+                validate(item, s["items"], f"{path}[{idx}]")
+
+    validate(rec, schema, rec.get("id", "?"))
 
 
 SCHEMA_FILES = {
@@ -472,7 +480,8 @@ SCHEMA_FILES = {
 def validate_against_lexicons(outputs):
     for name, data in outputs.items():
         schema_path = os.path.join(LEXICONS, SCHEMA_FILES[name])
-        schema = json.load(open(schema_path, encoding="utf-8"))
+        with open(schema_path, encoding="utf-8") as f:
+            schema = json.load(f)
         for rec in data:
             check_schema(rec, schema, name)
 
