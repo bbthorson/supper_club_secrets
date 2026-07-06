@@ -17,6 +17,8 @@ A running log of significant changes to canon — location names, character fact
 
 **`id:` frontmatter added to 14 files** (were missing it): the 6 main-character files, the Book 1 antagonist `book1_garrett_pike.md`, and the 7 Book 1 story-character files. `the_mogul.md` remains a stub/alias source for Pike, not a separate entity. Antagonist namespace decision: antagonists are `char.*`.
 
+**Story-character files renamed for filename↔id-slug parity** (`git mv`, matching the `place.*` location-file convention like `mcgolrick-market.md`): `marcus_gilded_fern.md` → `marcus.md` (`char.marcus`), `brenda_marquez.md` → `brenda-marquez.md` (`char.brenda-marquez`), `the_food_critic.md` → `food-critic.md` (`char.food-critic`). References updated in `entities.yaml`, `00_character_overviews.md`, and `TASK.md`. File contents unchanged.
+
 **Deferred (unchanged scope):** the `records/` build tree — the registry is committed source of truth; records are generated later.
 
 ---

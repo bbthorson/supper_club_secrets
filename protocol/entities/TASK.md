@@ -28,7 +28,7 @@ The demand side is ready. As of the PR #3 merge, **all 25 Book 1 chapters carry 
 **Missing `id:` (this task adds them):**
 - **Main characters** — `canon library/characters/{emma,elijah,noah,oliver,olivia,jasper}.md`
 - **Antagonists** — `canon library/antagonists/book1_garrett_pike.md` (+ the 5 future-book files, optional now)
-- **Book 1 recurring/minor characters** — `stories/01. The Case of the Missing Hot Sauce/characters/{hank,dorothy,sofia,marcus_gilded_fern,brenda_marquez,ruth,the_food_critic}.md`. (`the_mogul.md` is a stub that points to the Pike antagonist file — it is **not** a separate entity; treat it as an alias source for Pike.)
+- **Book 1 recurring/minor characters** — `stories/01. The Case of the Missing Hot Sauce/characters/{hank,dorothy,sofia,marcus,brenda-marquez,ruth,food-critic}.md`. (`the_mogul.md` is a stub that points to the Pike antagonist file — it is **not** a separate entity; treat it as an alias source for Pike.)
 
 **Established ID scheme (follow it):** `<type>.<slug>` — already used by `place.*` and `book.*`. So: characters → `char.*`, items → `item.*`. This matches `ARCHITECTURE.md` §7 examples (`char.emma`, `place.mcgolrick-market`, `item.heritage-bottle`).
 
@@ -65,7 +65,7 @@ Per `ARCHITECTURE.md` §13: extract **Emma's `character.stateEvent` series** fro
 
 **Items:** the heritage hot-sauce bottle Dorothy gives Emma "just in case" → `item.heritage-bottle`. It's the one tracked object (its custody path Ch1→17→20/23→25 powers the future `custodyEvent` demo — see `tracking/subplot_threads.md` → "Jasper's bottle").
 
-**Intentional non-entities (do NOT register; they appear in frontmatter as free text / one-offs):** the process server, Emma's editor, Elijah's mother & sister (unnamed background), the conservative commentator; one-off settings the High Line, the road stops (The Ridgeline Diner / The Starlite Drive-In / Murph's), "Amtrak to Philadelphia", and the montage descriptors ("Distributed — …"). The resolver should treat these as expected non-matches, not errors.
+**Intentional non-entities (do NOT register; they appear in frontmatter as free text / one-offs):** the process server, Emma's editor, Elijah's mother & sister (unnamed background), the conservative commentator; one-off settings like the High Line, the road stops (The Ridgeline Diner / The Starlite Drive-In / Murph's), "Amtrak to Philadelphia", and the montage descriptors ("Distributed — …"). The resolver should treat these as expected non-matches, not errors.
 
 ---
 
