@@ -14,7 +14,7 @@ characters_present:
   - "Murph (the bartender)"
 characters_referenced:
   - "Noah (the conduit — updates routed through him)"
-  - "The group chat (Brooklyn counterpunch pulse — Emma's petty-writer bait the one live wire)"
+  - "Emma (via group chat — her petty-writer bait is the one live wire in the Brooklyn pulse)"
   - "Hank ('a city type turned up this fall')"
 registers:
   Jasper: "private (the lowest point — twenty-some calls, a bad motel; nearly drives home)"
