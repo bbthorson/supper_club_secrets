@@ -146,11 +146,6 @@ characters:
     sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/brenda-marquez.md
     status: active
 
-  - id: char.ruth
-    type: character
-    displayName: Ruth
-    aliases: ["Ruth"]
-    sourceFile: stories/01. The Case of the Missing Hot Sauce/characters/ruth.md
     status: active
 
   # Unnamed but recurring; has a file. Appears as "The food critic".

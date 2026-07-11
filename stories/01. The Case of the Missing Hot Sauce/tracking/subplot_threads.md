@@ -204,14 +204,14 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 
 | Thread | Status | Seeded in chapter | Future book |
 |--------|--------|-------------------|-------------|
-| Oliver's online life (zoning Twitter, subreddit moderation) | Seeded parenthetically Ch15 | Book 2 |
-| Dorothy's financial situation (honey vendor, small business loan) | Seeded by absence (Ch13 cold beat) — could deepen at end of Book 1 | Book 3 |
-| Sofia's shop vulnerability | Seeded Ch11 (Paolo precedent applies to all small vendors) | Book 2 |
-| Elijah's family compound dream | Intentionally not seeded in Book 1 (2026-05-23: "don't add more Elijah family beats") — introduced fresh in Book 3 | Book 3 |
-| Olivia's anxiety about Oliver | Lightly seeded Ch7, Ch14 | Book 4 |
-| Noah's sneaker collection | Seeded Ch9 (closet detail), Ch18 (different shoes each dinner — forest green at final meal) | Book 5 |
-| Jasper's old money | NOT seeded in Book 1 per continuity.md — but Chelsea apartment is the only visible clue | Book 6 |
-| Pike's continued presence | Seeded in Garrett Pike antagonist doc — "still out there, still building, still certain he's the good guy" | Recurring presence; possible Book 6 reappearance |
+| Oliver's online life (zoning Twitter, subreddit moderation) | Seeded (parenthetically) | Ch15 | Book 2 |
+| Dorothy's financial situation (honey vendor, small business loan) | Seeded (by absence) — could deepen at end of Book 1 | Ch13 (cold beat) | Book 3 |
+| Sofia's shop vulnerability | Seeded | Ch11 (Paolo precedent applies to all small vendors) | Book 2 |
+| Elijah's family compound dream | Intentionally not seeded (2026-05-23: "don't add more Elijah family beats") — introduced fresh in Book 3 | — | Book 3 |
+| Olivia's anxiety about Oliver | Lightly seeded | Ch7, Ch14 | Book 4 |
+| Noah's sneaker collection | Seeded | Ch9 (closet detail); a different pair each dinner, forest green at the final meal (Ch25) | Book 5 |
+| Jasper's old money | NOT seeded per continuity.md — the Chelsea apartment is the only visible clue | — | Book 6 |
+| Pike's continued presence | Seeded | Antagonist doc — "still out there, still building, still certain he's the good guy" | Recurring; possible Book 6 reappearance |
 
 **Resolution (2026-07-11):** Reconciled with the 2026-05-23 decision ("don't add more Elijah family beats in Book 1") — no compound seed in Book 1; the sister's-car beats stay ambient and the compound dream is introduced fresh in Book 3.
 

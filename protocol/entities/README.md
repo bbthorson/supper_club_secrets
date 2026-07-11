@@ -32,8 +32,8 @@ Both run on a stock Python 3 — a minimal frontmatter/YAML reader is bundled in
 
 ## What's registered
 
-- **20 characters** — 6 mains (`char.emma` … `char.jasper`), the Book 1
-  antagonist `char.garrett-pike`, 7 recurring/minor Book 1 characters
+- **19 characters** — 6 mains (`char.emma` … `char.jasper`), the Book 1
+  antagonist `char.garrett-pike`, 6 recurring/minor Book 1 characters
   (`char.hank`, `char.dorothy`, `char.sofia`, `char.marcus`,
   `char.brenda-marquez`, `char.food-critic`), the referenced-only
   `char.paolo-ferrante`, and 5 `status: future` stubs for the book 2–6
