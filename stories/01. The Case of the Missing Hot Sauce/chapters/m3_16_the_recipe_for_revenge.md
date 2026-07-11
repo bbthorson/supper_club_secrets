@@ -93,7 +93,7 @@ The group looked at him. The anger had dissipated, not fully but enough. Replace
 
 It was an olive branch, and a mission. A way for him to atone.
 
-"I can do that," Jasper said, and a flicker of determination crossed his face — not the manic enthusiasm of his usual projects, but something quieter and more resolute. "I know somebody. A woman at a nursery I called last week — she mentioned a collective upstate from Philly where growers share land." He pulled out his phone, scrolling through his call history. "I'll take the Amtrak down tomorrow morning. Rent a car when I get there. Work the phones on the way."
+"I can do that," Jasper said, and a flicker of determination crossed his face — not the manic enthusiasm of his usual projects, but something quieter and more resolute. "I know somebody. A woman at a nursery I called last week — she mentioned a collective out west of Philly where growers share land." He pulled out his phone, scrolling through his call history. "I'll take the Amtrak down tomorrow morning. Rent a car when I get there. Work the phones on the way."
 
 "That's a real trip," Olivia said softly.
 

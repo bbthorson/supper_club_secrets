@@ -121,7 +121,7 @@ The press kit needed a narrative thread — not just data and filings, but a sto
 
 She started three times and threw each version away. The first was too angry — a screed that read like a manifesto. The second was too hedged — so loaded with qualifications that it drained the life out of the story. The third kept drifting into food writing mode, describing Hank's sauce in sensory detail that, while accurate, wasn't the point.
 
-She put the pen down and looked at the bottle on her counter. The same bottle Dorothy had given her two and a half weeks ago. The label was handwritten, the cap slightly crooked, the glass heavy in a way that said someone had filled it by hand.
+She put the pen down and picked up her phone, thumbing back to the photo she'd taken the day Dorothy pressed the bottle into her hands — food-writer reflex, documenting before tasting. The handwritten label, the cap slightly crooked, the glass heavy-looking in a way that said someone had filled it by hand.
 
 She thought about what Sofia had said. *That's what success does to some people. Makes them forget they were ever small.*
 
@@ -145,7 +145,7 @@ He folded a flannel shirt and put it in the bag. Jeans. A phone charger. His goo
 
 He hesitated, then unzipped a side pocket and slid the small glass bottle into it, wrapped in a sock so it wouldn't clink. He'd palmed it from Emma's counter the night before, on his way out the door, while everyone else was looking at Oliver and the swarm map. He hadn't told her. He hadn't been sure why he was taking it until he was already on the train down the stairwell with it in his coat. Now, packing it for daylight, he knew — if he was going to ask a man to come back to the place that had broken him, he needed proof in his hand that the bottle had already done what the bottle was for. The hot sauce existed in other people's kitchens now. Hank's great-grandmother had won. The mogul just hadn't gotten the memo.
 
-The Amtrak to Philadelphia left Penn Station at 8:15. He'd booked the ticket at midnight, lying in bed with his phone, scrolling through his call history to find the number for the woman at the nursery in Lancaster County — the one who'd mentioned a collective where growers shared land, somewhere west of Philadelphia. It wasn't much. A name mentioned in passing during a phone call he'd made while researching rare pepper varieties. But it was a thread, and pulling threads was the one thing Jasper was undeniably good at.
+The Amtrak to Philadelphia left Penn Station at 8:15. He'd booked the ticket at midnight, lying in bed with his phone, scrolling through his call history to find the number for the woman at the nursery in Lancaster County — the one who'd mentioned a collective where growers shared land, somewhere west of Philadelphia. It wasn't much. A stray remark in a phone call he'd made while researching rare pepper varieties — no name, no address, a rumor of a place. But it was a thread, and pulling threads was the one thing Jasper was undeniably good at.
 
 He'd rent a car at 30th Street Station. Drive west. Make calls from the road. He had a list of nurseries, seed suppliers, and agricultural co-ops in the region, cobbled together from the same manic research energy that usually got him in trouble but might, this one time, get him out of it.
 
@@ -173,4 +173,4 @@ At Penn Station, he bought a coffee he'd drink and a muffin he wouldn't and foun
 
 Jasper opened his phone, scrolled to the nursery woman's number, and pressed call.
 
-"Hi, yes — this is Jasper Thorne. We spoke last week about heritage pepper varieties? I was wondering if you could tell me more about the Meadowlight Collective."
+"Hi, yes — this is Jasper Thorne. We spoke last week about heritage pepper varieties? That collective you mentioned — the growers who share land, out past the city. I was hoping you could tell me anything more about it."

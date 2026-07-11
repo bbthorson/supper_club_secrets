@@ -60,7 +60,7 @@ Two layers:
 ## Risks and tells
 
 Watch for:
-- Touching the hot sauce bottle on the counter (Ch1, Ch5, Ch18, Ch25) — physical anchor for the whole book
+- Touching the hot sauce bottle on the counter (Ch1, Ch5, Ch25) — physical anchor for the whole book. Note: Jasper takes the bottle after the Ch16 dinner (revealed Ch17), so from Ch17 until its Ch25 return Emma has only the photo on her phone (Ch17 writing session) — she never notices it's missing.
 - Cooking barefoot — connects her chef self to her Kinky Kitchen self (the secret made visible by costume)
 - Going to the kitchen when conversations get personal — busying herself as deflection
 - The chef persona slipping: when she becomes "Emma from outside Pittsburgh" instead of "Emma the chef"
@@ -75,4 +75,4 @@ Avoid:
 - **Financial stability** still unresolved. Olivia is actively trying to get her private gigs (per continuity.md). Could deepen across Books 2–3.
 - **Relationship with cooking post-Bistro Lavande** still evolving — Ch25 "cooking for joy" is a beat, not a settlement.
 - **Reclaiming the Western PA voice with pride** — Book 3+ per voice guide.
-- The hot sauce bottle as physical totem (Ch25: "the bottle on the counter — it had been there throughout") could become a recurring object across the series.
+- The hot sauce bottle as physical totem (Ch25: "The bottle was back on her counter where it had started") could become a recurring object across the series.

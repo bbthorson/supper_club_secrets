@@ -83,7 +83,7 @@ She met Emma about four years ago at the McGolrick Park farmers market. Emma was
 - Visits Marcus at The Gilded Fern for intel; learns Hank was "jittery" and "looked like a man running from something" (Ch. 8)
 - Presents her romantic theory (Hank swept away by a wealthy socialite) with full theatrical flair (Ch. 4)
 - First person Emma calls after Elijah when the C&D arrives — drops everything, rallies the group (Ch. 12–13)
-- Fierce and protective: "It's your body, it's your kitchen" re: Emma's OnlyFans
+- Fierce and protective: the private kitchen confide — hears Emma's financial precarity ("one bad month from my parents' basement") and answers with a hug, not a plan: "You just don't have to carry it by yourself anymore" (Ch. 14). Emma's secret income source is never named to Olivia or the group in Book 1 (opaque-secret canon — see continuity.md)
 - Orders Thai food for the emergency dinner with zero tolerance for debate (Ch. 13)
 - Identifies local bloggers and neighborhood tastemakers for the swarm strategy (Ch. 15–16)
 - Brings beet-and-goat-cheese tart to the final dinner; Marcus gave her a discount on the goat cheese (Ch. 18)
