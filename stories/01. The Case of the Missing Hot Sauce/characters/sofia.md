@@ -27,7 +27,7 @@ Sofia knew Hank as a fellow artisan in the local food ecosystem. They weren't cl
 He told her he'd gotten "a big offer, a chance to 'go legit.'" She warned him. He apparently took the deal — or tried to.
 
 ### What She Represents
-Sofia is the voice of practical experience. Where Dorothy provides emotional context and Ruth provides observational data, Sofia provides the first hint at the *mechanism* of Hank's disappearance. Her word "deal" is the thread that eventually leads to the LLC, the patents, and the mogul.
+Sofia is the voice of practical experience. Where Dorothy provides the emotional context and the first observational data (Hank “seemed off”), Sofia provides the first hint at the *mechanism* of Hank's disappearance. Her word "deal" is the thread that eventually leads to the LLC, the patents, and the mogul.
 
 ## Skills
 * Cheesemaking and cheese expertise

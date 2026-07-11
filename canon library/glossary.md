@@ -8,7 +8,7 @@ A quick-reference dictionary of terms, facts, and recurring elements that must r
 
 | Term | Definition |
 |------|------------|
-| **The Supper Club** | The informal name for the six friends' weekly dinner gatherings. Existed informally before Book 1; formalized as a named tradition at the end of Book 1. |
+| **The Supper Club** | The informal name for the six friends' dinner gatherings. Occasional and informal before Book 1 (Ch1 frames the Meal 1 dinner as a one-off that becomes a plan), formalized as a weekly rotating-host tradition at the end of Book 1. |
 | **The Hot Sauce Mystery** | Book 1's case — the first mystery they solved together |
 | **Host Rotation** | Agreed upon at end of Book 1. Book 1 was all at Emma's; future books rotate hosts. |
 | **The Hat** | Olivia's method for assigning roles — numbers drawn from a baseball cap. Used for theory order (Meal 1) and dish assignments. |

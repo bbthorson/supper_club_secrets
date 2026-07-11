@@ -21,6 +21,6 @@ first_appearance: "Book 1, Chapter 1"
 - Fire escape with a view of limited usefulness
 - Furnished with hand-me-downs and street finds: a loveseat rescued from a Greenpoint stoop, bulk folding chairs, milk crates that serve as seating and storage
 - Intercom buzzer is harsh and electric
-- Wine glasses and corkscrew live two drawers to the left — Jasper always forgets
+- Wine glasses live in the kitchen cabinets — Jasper always forgets which one and starts opening them all (Ch2)
 
 **Story Significance:** Home base of the supper club; hosts all four Book 1 meals. Where the soup with Hank's sauce is served (Ch2) and where the group gathers through the crisis.

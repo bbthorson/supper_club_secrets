@@ -144,7 +144,7 @@ The room was quiet. The soup steamed in their bowls.
 
 Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, having wanted to ask a similar question but not feeling confident enough to navigate the emotional terrain.
 
-Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit two weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
+Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit three weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
 
 "Don't worry about it," Emma responded, turning back to the stove. She adjusted the flame under the root vegetables, checking their edges. "The kitchen just needs lookin' at." The sudden shift into her blunt, Western Pennsylvania dialect was a clear sign to her closest friends that she wasn't fine at all. Emma only talked like that when she was either very drunk or very stressed, and she'd only had half a glass of Noah's questionable wine.
 

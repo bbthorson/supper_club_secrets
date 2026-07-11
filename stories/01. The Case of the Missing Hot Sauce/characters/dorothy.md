@@ -37,7 +37,6 @@ Dorothy recognized the gravity of the gesture: "That's not the kind of thing you
 ## Relationships
 * **Hank**: A fellow vendor she cared about deeply. He trusted her enough to leave his heritage sauce with her — a symbolic act of preservation.
 * **Emma**: A customer she recognizes as one of Hank's regulars. She shares information with Emma because she senses Emma genuinely cares, not just because she's curious.
-* **Ruth**: Likely part of the same market vendor community, though they don't interact on-page.
 
 ## Character Arc
 Dorothy appears in one scene, but she's the emotional heart of Chapter 7. She transforms Hank from an abstract mystery (a missing vendor, an empty stall) into a real person with a family, a history, and something to lose. The bottle she passes to Emma is both a physical clue and a symbolic torch.

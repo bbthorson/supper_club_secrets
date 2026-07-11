@@ -20,9 +20,9 @@ characters_referenced:
   - "Marcus (texted — The Gilded Fern)"
   - "Hank"
 registers:
-  Emma: "private (story-teller mode — the Hank/Dorothy story, bottle in hand)"
+  Emma: "private (hostess in motion — plating for Elijah; supplements Oliver's retelling)"
   Elijah: "private (just arrived; tasting, gently puncturing speculation)"
-  Oliver: "private (quiet)"
+  Oliver: "private (drafted — retells the Hank story, concise and reluctant)"
   Noah: "private (skeptical but listening)"
   Olivia: "public (texts Marcus mid-conversation; gets the confirmation)"
   Jasper: "public (pushing toward investigation)"

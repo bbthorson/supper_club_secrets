@@ -50,7 +50,7 @@ Elijah leaned back in his chair. His apartment in Bed-Stuy was quiet—it was al
 
 "I think Marcus said Hank was jittery. I think an anonymous LLC two days later is weird. I think we should find out who's behind it." A pause. "But Oliver won't send it to the group. You know how he is. He's going to sit on it until Sunday and bury it in disclaimers."
 
-Elijah knew exactly how Oliver was. They'd been friends for four years—since Elijah had moved into the neighborhood and Olivia had annexed him into their social orbit with the unstoppable efficiency of someone who considered loneliness a problem she could solve. Oliver was the quietest person in any room, but he was also, in Elijah's assessment, the most observant. The problem was that Oliver treated sharing information like a risk—something that required certainty before it could be distributed.
+Elijah knew exactly how Oliver was. They'd been friends for three years—since Elijah had moved into the neighborhood and Olivia had annexed him into their social orbit with the unstoppable efficiency of someone who considered loneliness a problem she could solve. Oliver was the quietest person in any room, but he was also, in Elijah's assessment, the most observant. The problem was that Oliver treated sharing information like a risk—something that required certainty before it could be distributed.
 
 "He should tell the group," Elijah said. "Or at least Noah. If there's an LLC to trace, that's exactly the kind of thing Noah's tools are built for. Otherwise Noah's going to show up Sunday having Googled 'missing hot sauce guy' for five minutes and shrugged."
 

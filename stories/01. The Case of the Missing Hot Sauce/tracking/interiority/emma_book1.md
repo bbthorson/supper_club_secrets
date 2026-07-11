@@ -75,4 +75,5 @@ Avoid:
 - **Financial stability** still unresolved. Olivia is actively trying to get her private gigs (per continuity.md). Could deepen across Books 2–3.
 - **Relationship with cooking post-Bistro Lavande** still evolving — Ch25 "cooking for joy" is a beat, not a settlement.
 - **Reclaiming the Western PA voice with pride** — Book 3+ per voice guide.
+- **Reconciling precarity with the “reliable” secret income** (pre-loaded 2026-07-11, per audit 3.6): Ch14's “one bad month from my parents' basement” coexists with Kinky Kitchen being her most reliable income. The reconciliation to carry into the reveal book: she refuses to *count* it — the money is shame-coded and feels revocable, and admitting it into the plan would make the wrong-shaped work permanent. Her precarity is real as she accounts it, not as a spreadsheet would.
 - The hot sauce bottle as physical totem (Ch25: "The bottle was back on her counter where it had started") could become a recurring object across the series.

@@ -35,7 +35,7 @@ Both run on a stock Python 3 — a minimal frontmatter/YAML reader is bundled in
 - **20 characters** — 6 mains (`char.emma` … `char.jasper`), the Book 1
   antagonist `char.garrett-pike`, 7 recurring/minor Book 1 characters
   (`char.hank`, `char.dorothy`, `char.sofia`, `char.marcus`,
-  `char.brenda-marquez`, `char.ruth`, `char.food-critic`), the referenced-only
+  `char.brenda-marquez`, `char.food-critic`), the referenced-only
   `char.paolo-ferrante`, and 5 `status: future` stubs for the book 2–6
   antagonists (namespace reserved).
 - **14 places** — mirror the `id:` frontmatter already on the location files.

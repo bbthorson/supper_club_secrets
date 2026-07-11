@@ -13,18 +13,16 @@ pov: "Emma"
 characters_present:
   - "Emma (centerstage)"
   - "Dorothy (honey vendor — gives the bottle)"
-  - "Ruth (vendor — notes Hank 'seemed off, kept checking his phone')"
 characters_referenced:
   - "Hank (absent — empty stall)"
 registers:
-  Emma: "private (curious → quietly alarmed); Western PA flickers"
+  Emma: "private (curious → quietly alarmed)"
   Dorothy: "public (warm)"
-  Ruth: "public"
 clues:
   planted:
     - "Hank's empty stall (Foundation)"
     - "Dorothy's 'just in case' heritage bottle (Foundation / Keystone)"
-    - "Ruth: Hank jittery, checking his phone (Foundation)"
+    - "Dorothy: Hank jittery, checking his phone (Foundation)"
     - "A well-dressed, out-of-place man at the market — Pike seed (Foundation)"
   revealed:
     - "Hank has given up his stall and vanished"
@@ -102,7 +100,7 @@ Dorothy's hands paused on the honeycomb. "He seemed... off. Kept checking his ph
 
 "Gave it up?" Emma repeated. "Like, permanently?"
 
-"That's what it sounded like. I tried calling him. Went straight to voicemail." Dorothy reached under her table and pulled out a small, unlabeled bottle of deep red hot sauce. The glass was warm from being near the space heater under her table, and the sauce inside had that distinctive clarity—not the murky, mass-produced consistency of a supermarket brand, but something alive, with visible flecks of pepper suspended in a crimson medium.
+"That's what it sounded like. I tried calling him. Went straight to voicemail." Dorothy reached under her table and pulled out a small bottle of deep red hot sauce. The glass was warm from being near the space heater under her table, and the sauce inside had that distinctive clarity—not the murky, mass-produced consistency of a supermarket brand, but something alive, with visible flecks of pepper suspended in a crimson medium.
 
 "He gave me this," Dorothy said, turning it over in her hands. "Last time he was here. Said his great-grandmother would've wanted her peppers shared. Told me to keep it. 'Just in case.'"
 
