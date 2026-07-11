@@ -95,12 +95,4 @@ A chapter × character snapshot. One row per chapter. Each character cell carrie
 
 ## Audit summary
 
-Cells marked ⚠ correspond to action items in `subplot_threads.md`. The most acute concentrations:
-
-- **Ch14:** Emma's private confide-to-Olivia beat (let the fear sit longer before relief); Elijah's family weight introduced without payoff (intentional — Book 3).
-- **Ch15:** Oliver's online moderator life surfaces parenthetically (could be intentional Book 2 seed — verify).
-- **Ch17:** Elijah's family weight goes off-page entirely.
-- **Ch18:** Emma sidelined — drafted the narrative, watching it deploy.
-- **Ch20, Ch24:** Now drafted. Verify character beats in the prose match this matrix.
-- **Ch23:** Hank's decision to return is unmotivated. Jasper's PA search could carry more interior weight.
-- **Ch25:** Emma's precarity aftermath lightly reflected (secret stays opaque); Noah's apology lands without an on-page recognition moment; Oliver doesn't carry Ch15 emergence; Jasper's reversion to chaos may be intentional but isn't marked; Dorothy never warms back up.
+All cell-level ⚠ flags were resolved as of 2026-07-11 (fix log in `audit_2026-07-11.md`): the Ch14 fear-breath (addressed via the Ch15 defeat beat), Elijah's family weight (intentional ambient — Book 3), Oliver's Ch15 parenthetical (verified: names the role, not the identity — deliberate Book 2 seed), Ch18 Emma sidelining (deliberate setup, paid off by her Ch20 grudge-map beat), Hank's return decision (motivated by the bottle, Ch23/25), and the Ch25 items (Noah's apology names the conduit pattern; Oliver carries Ch15 forward via "I'll go first"; Jasper's reversion is marked as earned in the frontmatter; Dorothy warms back up via the morning reconciliation text; Sofia reconnects by evening text). The remaining ⚠ rows in `subplot_threads.md` are intentional series carry-forwards (Olivia → Book 4, Brenda → Book 6), not defects.

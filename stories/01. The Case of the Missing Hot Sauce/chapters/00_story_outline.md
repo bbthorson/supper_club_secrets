@@ -170,7 +170,7 @@
 ### Final Image (Ch. 25: "Family Meal")
 * Celebratory dinner at Emma's. Two Sundays after the emergency dinner — Sunday, Oct 25 (eleven days later).
 * The food reflects resolution and joy. Each person's dish shows growth.
-* The door buzzes. **Jasper** walks in with **Hank**, holding an unlabeled bottle of hot sauce.
+* The door buzzes. **Jasper** walks in with **Hank**, holding the small hand-labeled bottle of hot sauce.
 * Hank tells his story — the lowball offer for his family's trademark, the threats when he tried to negotiate, running to Meadowlight. A pro bono lawyer has since helped him file a proper trademark.
 * The economic squeeze on Emma has lifted with Pike's retreat; her instincts are vindicated. Her secret income source stays private — never named, deferred to a later book. What's changed is that she let Olivia in.
 * The group agrees to continue the supper club with rotating hosts. Jasper is already pitching a new mystery. The first case is solved, but the Supper Club is just getting started.

@@ -130,7 +130,7 @@ Olivia was next. She closed her eyes after the first taste and made a sound that
 
 Even Noah, who had been about to say something about the wine, stopped mid-sentence after his first taste. "Okay. Yeah. That's really good."
 
-Emma watched them eat and felt something loosen in her chest. This was the reaction she'd been hoping for. She reached behind her on the counter and held up the bottle—small, unlabeled except for Hank's careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*.
+Emma watched them eat and felt something loosen in her chest. This was the reaction she'd been hoping for. She reached behind her on the counter and held up the bottle—small, no printed label, just Hank's careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*.
 
 "This is from a guy named Hank who sells at the farmers markets. Or he did." She set the bottle on the counter. "He makes it from a pepper his great-grandmother brought north from Virginia in the twenties. A Fish Pepper—heirloom variety, impossible to find commercially. He's been at McCarren every Saturday, McGolrick every Sunday, for three years. He does this whole theatrical pitch, waves a tasting spoon around like a conductor's baton. You'd love him."
 
