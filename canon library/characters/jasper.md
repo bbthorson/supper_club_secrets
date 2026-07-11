@@ -87,18 +87,18 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Swaps dish assignments with Noah: takes wine, Noah takes appetizers
 - Calls Brenda Marquez (old acquaintance in commercial real estate) with the LLC number (Ch. 10)
 - Brenda tips off the mogul — Jasper inadvertently causes the C&D
-- Confesses to the group; admits he's always felt like "the liability" (Ch. 14)
+- Confesses to the group; admits he's always felt like "the liability" (Ch. 15)
 - Noah lashes out; Jasper is genuinely hurt — "I don't know any other way to be useful"
 - The class fault line surfaces glancingly in the fracture: his comfortable Chelsea apartment marks him as the one person who can be cavalier about lost income, and it stings when the group notes it. The source of that cushion (old money) stays undisclosed — seeded, not spent, held for Book 6 (Ch. 15)
-- Assigned redemption mission: find Hank (Ch. 15)
-- Tracks Hank through the Fish Pepper connection — twenty phone calls to nurseries, drives three hours to Meadowlight Collective (Ch. 17)
+- Assigned redemption mission: find Hank (Ch. 16)
+- Tracks Hank through the Fish Pepper connection — twenty-some phone calls to nurseries, drives out to Meadowlight Collective, ~2 hrs west of Philadelphia (Ch. 19–23)
 - Finds Hank in a greenhouse, tells him the whole story, invites him to dinner
-- Brings Hank to the final dinner — the real victory (Ch. 18)
-- Drives an "ancient Subaru"
+- Brings Hank to the final dinner — the real victory (Ch. 25)
+- Drives a rental Subaru, picked up at 30th Street Station (Ch. 17, 19–23)
 - His apartment described: looks like "a thrift store and a bookstore had a fight" — surprisingly nice Chelsea place with organized vinyl collection (Ch. 10)
 - Wears a wrinkled flannel during the confession scene — not his usual performative chaos, just genuinely disheveled (Ch. 14)
 - Nearly hits the overhead lamp while gesturing during the theory competition (Ch. 4) — physical comedy beat
-- Phone call montage to find Hank: calls nurseries in Baltimore, a seed collective in Delaware, tracks the Fish Pepper connection to Meadowlight (Ch. 17)
-- Meadowlight greenhouse scene: finds Hank among the pepper plants, tells him the full truth including his own mistakes (Ch. 17)
-- Drives home at sunset with Hank; they talk about family recipes the whole way (Ch. 17)
+- Phone call montage to find Hank: 20+ calls to nurseries, seed suppliers, and co-ops across the Lancaster region; a seed supplier's "Meadow-something" (Ch. 21) and a bartender's tip (Ch. 22) finally name Meadowlight
+- Meadowlight greenhouse scene: finds Hank among the pepper plants, tells him the full truth including his own mistakes (Ch. 23)
+- Drives home east at sunset alone (Ch. 23); returns with Hank for the final dinner (Ch. 25)
 - Growth: His chaos pointed in the right direction for once; begins learning when strategic quiet is more valuable than manic energy

@@ -11,7 +11,7 @@ first_appearance: "Book 1, Chapter 23"
 
 # Meadowlight Collective
 
-**Type:** Intentional community, ~2 hours west of Philadelphia (Brooklyn ↔ Meadowlight ≈ 3 hrs driving)
+**Type:** Intentional community, ~2 hours west of Philadelphia (Brooklyn ↔ Meadowlight ≈ 4 hrs driving)
 
 **Details:**
 - Cluster of weathered buildings around a central farmhouse; gardens and a greenhouse

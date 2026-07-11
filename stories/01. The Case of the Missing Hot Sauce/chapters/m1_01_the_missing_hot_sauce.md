@@ -94,7 +94,7 @@ Emma turned. The woman at the neighboring stall—Dorothy, according to her hand
 
 "Yeah," Emma said, stepping closer. "I was hoping to grab some of his sauce. Is he running late?"
 
-Dorothy shook her head slowly, her expression settling into careful concern. "Haven't seen him in two weeks. Not like him. Man never missed a market day in three years, rain or shine." She paused, arranging a row of honeycomb sections in their wax paper wrappers with the absent-minded precision of long practice. "You're one of his regulars?"
+Dorothy shook her head slowly, her expression settling into careful concern. "Haven't seen him since last Sunday. Not like him. Man never missed a market day in three years, rain or shine." She paused, arranging a row of honeycomb sections in their wax paper wrappers with the absent-minded precision of long practice. "You're one of his regulars?"
 
 "I am. Was." Emma hesitated. "Did he seem okay to you? The last time you saw him?"
 

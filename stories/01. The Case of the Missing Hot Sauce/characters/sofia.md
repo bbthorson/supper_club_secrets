@@ -39,7 +39,7 @@ Sofia is the voice of practical experience. Where Dorothy provides emotional con
 * **Hank**: A fellow artisan she respected. She gave him advice he may or may not have taken.
 
 ## Character Arc
-Single-scene character. She provides a crucial piece of intel — the word "deal" — and a thematic counterpoint to the group's more dramatic theories. Her pragmatism grounds the mystery in economic reality.
+One on-page scene (Ch. 11) plus a silence arc: after the C&D, her unanswered texts become the only on-page evidence that Pike's intimidation reached other people (Ch. 13, 16). A terse Ch. 25 text reconnects her with Emma and sets the Saturday shop visit — her Book 2 entry point. Her pragmatism grounds the mystery in economic reality.
 
 ## Secrets
 * None established, though she likely knows more about the local business pressures facing artisans than she shares. She's been around long enough to have her own stories about corporate encroachment.
@@ -49,4 +49,5 @@ Single-scene character. She provides a crucial piece of intel — the word "deal
 * Sofia could recur as a neighborhood source — the cheesemonger who hears things.
 
 ## Lore Tracking (Book 1)
-* Appears: Chapter 8 (polished draft Ch. 7) — Emma visits while sourcing ingredients for a freelance gig
+* Appears: Ch. 11 — Emma visits the cheese shop the Saturday after finding Hank's McCarren stall replaced; the "big offer" and Paolo intel
+* Referenced: Ch. 13 (Emma's thank-you text goes unanswered), Ch. 16 (the group reads her silence as Pike's neighborhood reach), Ch. 25 (terse text reconnection — "Saturday. Come to the shop. Bring nothing." — the Book 2 doorway)

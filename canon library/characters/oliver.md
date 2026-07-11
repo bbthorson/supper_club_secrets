@@ -82,15 +82,15 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 - Spends a full day at the NY Public Library Rose Main Reading Room researching permits; has a regular desk there (Ch. 6)
 - Discovers anonymous LLC #2847 filed for a waterfront restaurant two days after Hank disappeared — the foundational clue (Ch. 6)
 - Shows Olivia his findings at home; she recognizes it as "a real lead" (Ch. 7)
-- Partners with Elijah to build the evidence press kit (Ch. 15)
-- Stands up and rallies the group after Jasper's confession and Noah's attack — the longest speech he's ever given (Ch. 14)
+- Partners with Elijah to build the evidence press kit (Ch. 16–17)
+- Stands up and rallies the group after Jasper's confession and Noah's attack — the longest speech he's ever given (Ch. 15)
 - Reveals his experience moderating online communities: "The playbook is always the same"
-- Creates the meticulously sourced talking points document that becomes the food critic's script (Ch. 16)
-- Elijah asks: "Did you just solve a PR crisis with a Wikipedia editing strategy?" (Ch. 16)
-- Brings 18th-century French monastery potato gratin to the final dinner (Ch. 18)
+- Creates the meticulously sourced talking points document that becomes the food critic's script (built Ch. 20–22; adopted Ch. 24)
+- Elijah asks: "Did you just solve a PR crisis with a Wikipedia editing strategy?" (Ch. 15)
+- Brings 18th-century French monastery potato gratin to the final dinner (Ch. 25)
 - Has a childhood memory of a bookshelf his father built — associated with the feeling that knowledge has a physical home (Ch. 6)
 - Reflects on Olivia as his "anchor" while at the library — wonders whether that's a compliment or a limitation (Ch. 6)
 - Habit of pushing his glasses up when thinking or processing new information (multiple chapters)
-- Paces during his crisis speech in Ch. 14 and his rebuttal strategy in Ch. 16 — something none of them had ever seen him do
-- Reveals he's "talked strangers down from panic attacks" and "managed crises that would make this look like a parking ticket" through his online moderator experience (Ch. 14)
+- Paces during his crisis speech in Ch. 15 and his rebuttal strategy in Ch. 16 — something none of them had ever seen him do
+- Reveals he's "talked strangers down from panic attacks" and "managed crises that would make this look like a parking ticket" through his online moderator experience (Ch. 15)
 - Growth: Emerges from his shell under pressure; the group sees a glimpse of his confident online persona

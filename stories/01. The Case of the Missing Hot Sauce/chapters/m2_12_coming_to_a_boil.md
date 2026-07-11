@@ -153,10 +153,10 @@ The rest of the evening was a celebration. They opened Jasper's second bottle—
 
 As the night wound down and they said their goodbyes—Olivia kissing Emma's cheek, Oliver offering a quiet wave from the door, Elijah giving a rare, firm handshake, Noah nodding with what passed for warmth in his repertoire—the group was buoyant, floating on a shared cloud of victory. They felt like they could do anything. They were a team. They were detectives. And they were completely, blissfully unaware that their cover had just been blown.
 
-None of them noticed Jasper's phone buzz with a text from Brenda as he walked home that night, his hands shoved in his jacket pockets, his breath making small clouds in the cold October air:
+None of them noticed Jasper's phone buzz as he walked home that night, his hands shoved in his jacket pockets, his breath making small clouds in the cold October air. Brenda again — the third text since Friday, stacked on the missed calls he'd been waving off all weekend as Brenda being Brenda, a dealmaker treating a hobby mystery like a five-alarm fire:
 
-*Hey—I need you to call me. It's important. Please don't talk to anyone else about the LLC until we talk.*
+*Jasper. Third time. CALL ME. And do not talk to anyone else about that LLC.*
 
-Jasper, riding high on the evening's success and three glasses of wine, didn't see it until the next morning. He read it twice, frowned, and then got distracted by a notification about a raccoon in a bodega.
+Riding high on the evening's success and three glasses of wine, he didn't see it until the next morning. He read it twice, frowned — she didn't usually use caps — and then got distracted by a notification about a raccoon in a bodega.
 
 By then, it was already too late.
