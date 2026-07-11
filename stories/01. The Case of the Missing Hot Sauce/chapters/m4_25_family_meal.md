@@ -144,9 +144,9 @@ A stunned silence fell over the room.
 
 "Holy shit," Emma whispered.
 
-"Surprise?" Jasper said weakly, his voice cracking on the word. He held the bottle out toward her, suddenly looking like he was about to confess something. "I, uh. I owe you. This was on your counter the night I left. I figured if I was going to ask him to come back, I should bring proof that the bottle had already done the thing it was supposed to do. I should've asked first. I'm sorry."
+"Surprise?" Jasper said weakly, his voice cracking on the word. He held the bottle out toward her, suddenly looking like he was about to confess something. "I, uh. I owe you. This was on your counter the night before I left. I figured if I was going to ask him to come back, I should bring proof that the bottle had already done the thing it was supposed to do. I should've asked first. I'm sorry."
 
-Emma took it from him. The glass was warm from his pocket. She turned it once, looking at the smudged corner of the label where someone — Hank, three weeks ago, or his great-grandmother, or a hand even further back — had written *FP* and a year she couldn't quite read. Then she set it on the counter, right where it had lived since Ch1, and her face did something complicated.
+Emma took it from him. The glass was warm from his pocket. She turned it once, looking at the smudged corner of the label where someone — Hank, three weeks ago, or his great-grandmother, or a hand even further back — had written *FP* and a year she couldn't quite read. Then she set it on the counter, right where it had lived since that first Sunday, and her face did something complicated.
 
 "It went where it needed to go," she said.
 

@@ -143,7 +143,7 @@ It wasn't the name he'd dreamed of dropping at the table, but it landed anyway�
 
 Jasper took a small bow, nearly knocking his wine glass off the counter. "Never doubt the network."
 
-The rest of the evening was a celebration. They opened Jasper's second bottle—the celebration bottle, which turned out to be significantly better than the research bottle, suggesting Jasper had been strategic for possibly the first time in his life. They toasted their success, their cleverness, their friendship. Emma put the apple crumble on the table and let people serve themselves, and for a while, the apartment was full of nothing but warmth and the clinking of glasses and the satisfied sounds of people eating dessert while feeling like they'd just done something that mattered.
+The rest of the evening was a celebration. They opened Jasper's second bottle—the celebration bottle, which turned out to be significantly better than the research bottle, suggesting Jasper had been strategic for possibly the first time in his life. They toasted their success, their cleverness, their friendship. On the counter behind them, Dorothy's bottle stood where it had lived since that first Sunday, the handwritten label catching the candlelight — the quiet guest of honor. Emma put the apple crumble on the table and let people serve themselves, and for a while, the apartment was full of nothing but warmth and the clinking of glasses and the satisfied sounds of people eating dessert while feeling like they'd just done something that mattered.
 
 "We actually did it," Emma said, raising her glass. The candlelight caught the wine, turning it ruby. "We're like real detectives."
 

@@ -69,7 +69,7 @@ Olivia leaned in, her playful, public persona melting away. This was the version
 
 Oliver hesitated. He was a man who disliked speculation on principle. But the data was suggestive, and Olivia's question was fair. "Could be coincidence. But two days is a very narrow window. And this particular waterfront property has been vacant for months. Why would someone file for it the same week a popular vendor disappears?"
 
-"See?" Olivia said, squeezing his shoulder. "That's not boring at all. That's a real lead. A better lead than mine." She smiled at him, and he felt that familiar warmth—the one that made the rest of the world's noise bearable. "You need to tell the group."
+"See?" Olivia said, squeezing his shoulder. "That's not boring at all. That's a real lead. A better lead than mine." She smiled at him and watched the resistance go out of his shoulders — the particular softening he never showed anyone else. "You need to tell the group."
 
 Oliver looked at his screen, then at his wife. "I said 'hypothetical.'"
 

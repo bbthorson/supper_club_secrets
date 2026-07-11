@@ -28,7 +28,7 @@ The demand side is ready. As of the PR #3 merge, **all 25 Book 1 chapters carry 
 **Missing `id:` (this task adds them):**
 - **Main characters** — `canon library/characters/{emma,elijah,noah,oliver,olivia,jasper}.md`
 - **Antagonists** — `canon library/antagonists/book1_garrett_pike.md` (+ the 5 future-book files, optional now)
-- **Book 1 recurring/minor characters** — `stories/01. The Case of the Missing Hot Sauce/characters/{hank,dorothy,sofia,marcus,brenda-marquez,ruth,food-critic}.md`. (`the_mogul.md` is a stub that points to the Pike antagonist file — it is **not** a separate entity; treat it as an alias source for Pike.)
+- **Book 1 recurring/minor characters** — `stories/01. The Case of the Missing Hot Sauce/characters/{hank,dorothy,sofia,marcus,brenda-marquez,food-critic}.md`. (`the_mogul.md` is a stub that points to the Pike antagonist file — it is **not** a separate entity; treat it as an alias source for Pike.)
 
 **Established ID scheme (follow it):** `<type>.<slug>` — already used by `place.*` and `book.*`. So: characters → `char.*`, items → `item.*`. This matches `ARCHITECTURE.md` §7 examples (`char.emma`, `place.mcgolrick-market`, `item.heritage-bottle`).
 
@@ -59,7 +59,7 @@ Per `ARCHITECTURE.md` §13: extract **Emma's `character.stateEvent` series** fro
 
 **Characters — antagonist:** Garrett Pike `char.garrett-pike` — aliases must include `"Garrett Pike"`, `"Pike"`, `"the mogul"`, `"the developer"` (all appear in prose/frontmatter/tracking).
 
-**Characters — recurring / minor (have files):** Hank `char.hank`, Dorothy `char.dorothy`, Sofia `char.sofia` (**note:** distinct from the place `place.sofias-cheese-shop`), Marcus `char.marcus`, Brenda Marquez `char.brenda-marquez` (alias `"Brenda Marquez"`; the old `"Brenda Chen"` is superseded — do not add it), Ruth `char.ruth`, The Food Critic `char.food-critic` (unnamed but recurring; has a file), Paolo Ferrante `char.paolo-ferrante` (referenced only, no file — decide whether referenced-only entities get a registry entry; recommend yes, minimal).
+**Characters — recurring / minor (have files):** Hank `char.hank`, Dorothy `char.dorothy`, Sofia `char.sofia` (**note:** distinct from the place `place.sofias-cheese-shop`), Marcus `char.marcus`, Brenda Marquez `char.brenda-marquez` (alias `"Brenda Marquez"`; the old `"Brenda Chen"` is superseded — do not add it), The Food Critic `char.food-critic` (unnamed but recurring; has a file), Paolo Ferrante `char.paolo-ferrante` (referenced only, no file — decide whether referenced-only entities get a registry entry; recommend yes, minimal).
 
 **Places (14):** already have ids — mirror them into `entities.yaml` with their canonical `displayName` (the location file `title:`) and aliases (e.g. `place.mcgolrick-market` → displayName "McGolrick Park Farmers Market", aliases include the "(Down to Earth)" long title and "McGolrick").
 

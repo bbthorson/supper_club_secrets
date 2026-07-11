@@ -20,9 +20,9 @@ characters_referenced:
   - "Marcus (texted — The Gilded Fern)"
   - "Hank"
 registers:
-  Emma: "private (story-teller mode — the Hank/Dorothy story, bottle in hand)"
+  Emma: "private (hostess in motion — plating for Elijah; supplements Oliver's retelling)"
   Elijah: "private (just arrived; tasting, gently puncturing speculation)"
-  Oliver: "private (quiet)"
+  Oliver: "private (drafted — retells the Hank story, concise and reluctant)"
   Noah: "private (skeptical but listening)"
   Olivia: "public (texts Marcus mid-conversation; gets the confirmation)"
   Jasper: "public (pushing toward investigation)"
@@ -56,7 +56,7 @@ Jasper, sprawled in one of the rickety folding chairs with one leg kicked out in
 
 "Sit." She was already pulling his plate from the oven—roasted root vegetables with herbed brown butter, the parsnips and carrots still sizzling, their edges crisped up in a way she hadn't intended but actually preferred.
 
-Elijah settled onto the milk crate, his long legs folding at an angle that looked uncomfortable but which he seemed unbothered by. Now that he was seated, the details filled in what his first glance had only sketched—the empty wine bottles on the coffee table, Noah nursing what appeared to be the end of his own controversial selection, Olivia with her shoes off and her feet tucked under her on the loveseat, Oliver beside her looking slightly flushed from the wine. Something was going on. The energy in the room was different from their usual Sunday wind-down; there was a buzz underneath the banter, a collective lean-forward that suggested he'd missed something.
+Elijah settled onto the milk crate, his long legs folding at an angle that looked uncomfortable but which he seemed unbothered by. Emma watched him take inventory the way he always did — the empty wine bottles on the coffee table, Noah nursing the end of his own controversial selection, Olivia with her shoes off and her feet tucked under her on the loveseat, Oliver beside her looking slightly flushed from the wine. She could see him register it: the energy in the room was different from their usual Sunday wind-down, a buzz underneath the banter, a collective lean-forward. He'd missed something, and he clearly knew it.
 
 His brow furrowed slightly, a sign that the analytical wheels in his mind were already turning. "Alright, so what did I miss?" he asked, taking a big bite of the roasted vegetables. He raised his eyebrows—it was good, and he wasn't someone who bothered with compliments he didn't mean. "The crew seems to be really into something."
 

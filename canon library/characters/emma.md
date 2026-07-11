@@ -43,7 +43,7 @@ After three years at Bistro Lavande, Emma had worked her way up to a position wi
 
 Emma's version was subtle: she brightened the sauce, updated the plating, added a modern garnish. She thought it was respectful—an evolution, not a revolution. The regulars disagreed. Two weeks of complaints later, the head chef publicly berated her in the kitchen, reversed her changes, and made it clear she'd never have creative authority again.
 
-Emma stayed for another year, but something had broken. When he screamed at her over a different issue—something trivial—she untied her apron, handed it to him, and said, "Thanks for the advice."
+Something broke right there on the line. Emma untied her apron in front of the whole kitchen, handed it to him, and said, "Thanks for the advice."
 
 It felt amazing for twelve hours. Then the panic set in.
 
@@ -94,6 +94,6 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 - Cooks barefoot on kitchen tile — a comfort detail (and, beneath the surface, a quiet thread to the secret the book keeps opaque)
 - Uses "this needs fixed" (Western PA) during the Pike confrontation — grandmother's phrase for when things break (Ch. 13)
 - Savings described as "the financial equivalent of closing your eyes on a roller coaster" (Ch. 1)
-- Her chef's knife was a culinary school graduation gift to herself (Ch. 1)
+- Her chef's knife — "her own, not a restaurant's" — was bought with her first paycheck from Bistro Lavande (Ch. 1)
 - Makes butternut squash soup throughout the story — the dish that was supposed to have Hank's hot sauce; finally completed with the sauce in the last chapter (Ch. 25)
 - Growth: Moves from hiding her fear and precarity to letting Olivia and the group in; discovers her instincts — about Hank, about Pike, about people choosing the little guy — were right all along

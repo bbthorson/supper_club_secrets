@@ -18,7 +18,7 @@ characters_present:
 characters_referenced:
   - "Jasper (en route PA — checks in by text)"
 registers:
-  Emma: "private (⚠ watching — drafted the narrative, now watching it deploy; currently sidelined)"
+  Emma: "private (watching — drafted the narrative, now watching it deploy; setup for her Ch20 agency beat)"
   Elijah: "private (monitoring sentiment)"
   Noah: "private (active — sentiment graphs; the food metaphor: 'Don't get used to it')"
   Oliver: "private (coordinating press-kit distribution)"
@@ -31,7 +31,7 @@ threads:
     - "Main mystery: the swarm campaign launches; small Brooklyn blogs pick it up"
     - "The group functions as a coordinated team for the first time"
   touched:
-    - "Emma sidelined in Meal 4 execution (⚠ at risk — drafted the narrative, watches it deploy)"
+    - "Emma sidelined in the launch (deliberate setup — answered by her Ch20 grudge-map beat)"
     - "Noah — tech in service of analog goals"
 beat_purpose: "The coordinated campaign launches and hope builds — the club acts as one team instead of six investigators."
 ---

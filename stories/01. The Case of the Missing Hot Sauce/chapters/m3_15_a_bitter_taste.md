@@ -99,6 +99,12 @@ Elijah, who had been watching the escalation with growing discomfort, finally sp
 
 Olivia moved to Jasper's side, her hand on his arm. Emma, wrapped in her blanket, watched her two friends — Noah rigid with righteous anger, Jasper crumpled with guilt — and felt something shift in the room. This wasn't a mystery anymore. This was their friendship, cracking under a pressure it had never been built to bear.
 
+Nobody spoke. Noah went back to his laptop without typing anything, staring at the screen the way you stare at something so you don't have to look at anyone. Jasper sank onto a folding chair, elbows on his knees, and Olivia's hand stayed on his shoulder, but even she had run out of hostess. The Thai food congealed in its containers. Somewhere below them, a neighbor's television laughed at something.
+
+Emma pulled the blanket tighter and did the thing she'd been refusing to do all night: the math. Not the money math — the other kind. If this was what one phone call could do, what would a lawsuit do? What would six months of one do? She looked at the letter on the table, one corner gone translucent with soy sauce, and understood something with terrible clarity: he didn't even have to win. He just had to keep them here, in this room, doing this to each other. She rehearsed the sentence she'd say to her parents — *it's temporary, everything's fine* — and couldn't make it sound true even inside her own head.
+
+The radiator ticked. Nobody reached for their wine.
+
 And then Oliver stood up.
 
 Everyone turned. It happened so suddenly and so quietly that it took the room a moment to register — Oliver, who never volunteered, who never raised his voice, who communicated mostly through nods and single-sentence observations, was on his feet. He wasn't tall or imposing, but something in his posture commanded attention. His hands were shaking slightly — Emma noticed because she'd learned that Oliver's body often said what his voice couldn't — but his voice was steady.

@@ -78,7 +78,7 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 
 ### Book 1: The Case of the Missing Hot Sauce
 - Works as a research analyst at a small urban planning consultancy
-- Reluctantly participates in the theory competition (draws #1, suggests kidnapping by business partner) — Olivia mouths "thank you, babe" when he contributes (Ch. 4)
+- Reluctantly participates in the theory competition (draws #1, suggests kidnapping by business partner) (Ch. 4); Olivia mouths "thank you, babe" at his wine-regions aside during dinner (Ch. 2)
 - Spends a full day at the NY Public Library Rose Main Reading Room researching permits; has a regular desk there (Ch. 6)
 - Discovers anonymous LLC #2847 filed for a waterfront restaurant two days after Hank disappeared — the foundational clue (Ch. 6)
 - Shows Olivia his findings at home; she recognizes it as "a real lead" (Ch. 7)
@@ -86,7 +86,7 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 - Stands up and rallies the group after Jasper's confession and Noah's attack — the longest speech he's ever given (Ch. 15)
 - Reveals his experience moderating online communities: "The playbook is always the same"
 - Creates the meticulously sourced talking points document that becomes the food critic's script (built Ch. 20–22; adopted Ch. 24)
-- Elijah asks: "Did you just solve a PR crisis with a Wikipedia editing strategy?" (Ch. 15)
+- Elijah: "You solved a PR crisis with a Wikipedia-editing strategy" (Ch. 24)
 - Brings 18th-century French monastery potato gratin to the final dinner (Ch. 25)
 - Has a childhood memory of a bookshelf his father built — associated with the feeling that knowledge has a physical home (Ch. 6)
 - Reflects on Olivia as his "anchor" while at the library — wonders whether that's a compliment or a limitation (Ch. 6)

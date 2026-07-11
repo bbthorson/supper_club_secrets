@@ -14,6 +14,7 @@ characters_present:
   - "Murph (the bartender)"
 characters_referenced:
   - "Noah (the conduit — updates routed through him)"
+  - "Emma (via group chat — her petty-writer bait is the one live wire in the Brooklyn pulse)"
   - "Hank ('a city type turned up this fall')"
 registers:
   Jasper: "private (the lowest point — twenty-some calls, a bad motel; nearly drives home)"
@@ -27,6 +28,7 @@ threads:
     - "Jasper's redemption journey (from the road — the low point, then the break)"
   touched:
     - "The performance stripped away — just the guy who caused it all, running out of road"
+    - "Brooklyn counterpunch visible from the road (group-chat pulse between Ch20 and Ch24)"
 beat_purpose: "From the road: the low point — Jasper nearly drives home, then a bartender names Meadowlight and the door cracks open."
 ---
 
@@ -39,6 +41,10 @@ The lead went cold for a day and a half.
 "Meadow-something" turned out to be a lot of things. Meadowbrook. Meadowvale. Meadow Run Farm, which raised alpacas and did not appreciate being called about peppers at dinnertime. Noah ran every variation; Jasper called every one. By Sunday night he'd made twenty-some calls, slept four hours in a motel that charged by the feel of you, and was sitting at the end of the bar at a place called Murph's, nursing a beer he didn't want and staring at a map until the names blurred.
 
 This was the part nobody saw. Not the group, not Brenda, not the version of himself he performed at dinner parties. Just a guy alone in a dive two states from home — the guy who'd caused all of it — running out of road. He thought about texting the group something funny so they wouldn't worry. He thought about how he didn't actually know whether Hank wanted to be found, or forgiven, or anything at all. He thought, for one ugly minute, about just driving home.
+
+He scrolled the group chat instead, looking for a reason not to. It didn't exactly supply one. Two more blogs had folded under lawyer letters. Noah had burned every account and rebuilt from scratch, and his messages had gone terse in the way that meant scared. Olivia's target-count updates had stopped coming. The only live wire in the whole thread was Emma — *the pettiest man in food media took the bait, his piece drops tonight* — one woman feeding a grudge into a fight the rest of the campaign was losing. They were holding, back in Brooklyn. Barely. Holding, and waiting on a rebuttal Oliver hadn't cracked and a vendor Jasper hadn't found.
+
+He put the phone face-down on the bar next to the map. Whatever was left of this thing, it needed him to come back with more than a good story about trying.
 
 "You keep saying 'Fish Pepper' into that phone," the bartender said, setting down a water Jasper hadn't ordered. Older guy. Murph, presumably. "My cousin grows weird stuff like that. Out at the collective."
 

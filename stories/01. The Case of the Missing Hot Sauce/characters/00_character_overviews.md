@@ -21,11 +21,6 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **First Appearance:** Chapter 3 (texted by Olivia, unnamed); Chapter 7 (in person)
 * **Key Detail:** Carries Olivia's candles and carried Hank's hot sauce. Sharp haircut, cashmere sweater.
 
-### Ruth → [ruth.md](ruth.md)
-* **Role:** Preserve vendor at McGolrick Park; first to confirm Hank's disappearance is unusual
-* **First Appearance:** Chapter 1
-* **Key Detail:** ⚠ Draft residue — the "seemed off / kept checking his phone" line belongs to Dorothy in the finalized Ch. 1 prose (flagged for the Tier 4 sweep).
-
 ### Dorothy → [dorothy.md](dorothy.md)
 * **Role:** Honey vendor at McGolrick Park; gives Emma a bottle of Hank's heritage sauce
 * **First Appearance:** Chapter 1 (gives Emma the bottle at McGolrick)
@@ -49,12 +44,6 @@ This file provides a quick reference for all non-core characters in "The Case of
 ---
 
 ## Incidental Characters (No Separate Profile)
-
-### Ben
-* **Role:** A fellow vendor at the farmers market
-* **Description:** Friendly, agreeable. Sells homemade nut milk. New to the McGolrick Park market — usually sells on the Upper West Side.
-* **Appearance:** ⚠ Draft residue — not present in the finalized Ch. 1 prose (flagged for the Tier 4 sweep).
-* **Future Use:** Low. Background texture for the market scene.
 
 ### The Meadowlight Woman
 * **Role:** Gatekeeper at the Meadowlight Collective who directs Jasper to Hank

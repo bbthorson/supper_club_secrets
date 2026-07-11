@@ -131,7 +131,6 @@ The developer's retaliation lands here. Rather than exposing anything, the press
 | **Sofia** | Cheese shop owner; source of the "big offer" lead. | Central Book 2; returns Book 5. |
 | **Marcus** | The Gilded Fern owner; intel source via Olivia. | Returns Book 4; possible Book 2. |
 | **Brenda Marquez** | Recognizes the LLC; inadvertently tips off the developer. | Returns Book 6; possible Book 3. |
-| **Ruth** | Vendor who notes Hank's last jittery appearance. | Available for callbacks. |
 | **The Food Critic** | Unnamed; amplifies the story using Oliver's framework. | Available for callbacks. |
 
 ### Antagonist

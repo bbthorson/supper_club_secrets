@@ -20,7 +20,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 9 | developing | Noah traces shell entities, finds patent filings on "shelf-stable capsicum-based flavor enhancers." | Corporate trace |
 | 10 | complicated | Jasper calls Brenda. Brenda recognizes LLC. **Inadvertent breach:** Brenda calls the mogul's people. | Phone call + missed warning text |
 | 11 | developing | Sofia tells Emma about Hank's "big offer to go legit" + Paolo precedent (same playbook). | Sofia conversation |
-| 12 | paid off (false victory) | Findings converge. Group cracks it. Garrett Pike identified. | Dinner debrief |
+| 12 | paid off (false victory) | Findings converge. The mogul identified structurally — "a restaurant mogul… no face yet." The name (Garrett Pike) lands in Ch13. | Dinner debrief |
 | 13 | complicated | Pike confronts Emma on-page; the economic squeeze + C&D land. The letter names no secrets. | Pike market confrontation (Ch13) |
 | 14 | developing | Group reads C&D. Elijah declares it "toothless" but acknowledges intimidation is real. | Emergency dinner |
 | 15 | complicated | Information flow traced back to Jasper's Brenda call. Group fractures briefly. | Jasper's confession |
@@ -61,10 +61,11 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 13 | complicated | Western PA dialect surfaces under stress ("this needs fixed"). Past failure resurfaces. | C&D reaction |
 | 14 | developing | Privately confides her precarity to Olivia. Vulnerability deepens their bond. | Kitchen confide |
 | 16 | developing | Identifies industry-petty food influencers — weaponizes the industry that broke her. | Swarm strategy contribution |
-| 18 | **⚠ AT RISK** | Emma sidelined in Meal 4 execution after centerstage in Meal 3. Writes the narrative in Ch16, then watches Noah/Olivia/Oliver execute. | See compression audit + interiority/emma_book1.md |
+| 18 | developing (setup) | Emma sidelined in the launch — watches the machine she armed. Deliberate setup, answered in Ch20. | Ch18 launch |
+| 20 | paid off (agency) | Stops watching: deploys her grudge map in her own words, baits the pettiest man in food media; his piece drops Sunday (Ch22 group-chat pulse) and carries the story through the dark weekend (Ch24). | Ch20 grudge-map beat |
 | 25 | paid off | Cooking for joy, not anxiety. "She wasn't performing for a client … She was cooking because she wanted to." | Opening of Ch25 |
 
-**Action needed:** Give Emma at least one active beat in Ch18, Ch20, or Ch24 that isn't watching others execute. She drafted the narrative; she should deploy it or react to it landing.
+**Resolution (2026-07-11):** Implemented in Ch20 — Emma deploys the grudge map personally (her own words, not the press kit); the resulting piece drops Sunday night and is the campaign's one counterweight through the doubt stretch (Ch22, Ch24). Her Ch24 reaction beat (the critic landing; the editor email) was already on the page.
 
 ### Elijah — Family financial weight (seeded)
 
@@ -100,16 +101,16 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
-| 4 | introduced (subtly) | Reluctant theory competitor (kidnapping by business partner). Defers to Olivia. | "Olivia mouths thank you, babe" |
+| 4 | introduced (subtly) | Reluctant theory competitor (kidnapping by business partner). Defers to Olivia. | Theory competition (the "thank you, babe" beat is Ch2's wine aside) |
 | 6 | developing | Solo NYPL research. Finds LLC. First real action chapter. | Library scene |
 | 14 | developing | Speaks at emergency dinner — measured contributions. | Dinner |
 | 15 | paid off (interpersonal peak) | Stands up, paces, gives the longest speech of his life. Reveals his online moderator life (parenthetically). | "Stop … refuse to be afraid …" |
 | 16 | developing | Architects the rebuttal framework. Partners with Elijah on press kit. | Plan meeting |
 | 24 | paid off | Rebuttal lands. Critic adopts his exact framing. | Ch24 (drafted) |
 | 25 | paid off (small voluntary contribution) | Volunteers "I'll go first" for next Sunday's hosting rotation. Takes notes on Jasper's Red Hook theory. The Ch15 emergence carries forward as small choices, not a dramatic shift. | "I'll go first" + "Oliver was taking notes" |
-| ?? | **⚠ UNDERDEVELOPED** | Oliver's online life (zoning Twitter, subreddit moderation) is introduced parenthetically in Ch15 and treated as plot fuel rather than character. | — |
+| 25 | carried forward (by design) | Oliver's online life stays a seeded Book 2 reveal; the Ch15 parenthetical names the role (moderator), not the communities or handle. | Ch15 speech + seeds table |
 
-**Action needed:** Either accept that Oliver's online life is a Book 2 reveal (carry forward, seeded here) — which is the correct read of the canon — and make sure Ch15's parenthetical doesn't accidentally reveal too much. OR give Oliver a quieter scene in Ch25 where he's slightly more present than before (one unprompted observation, one moment of voluntary contribution). **Recommend:** the second — small dose, consistent with arc.
+**Resolution (2026-07-11):** The recommended "small dose" is on the page — the Ch25 row above ("I'll go first" + taking notes on Jasper's Red Hook theory). Ch15's parenthetical checked: role only, no identifying detail. Carry forward to Book 2.
 
 ### Olivia — Anxiety about Oliver's dependence (seeded)
 
@@ -127,14 +128,14 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 |----|--------|--------------|----------------|
 | 2 | introduced | Bad sulfur-free wine. Tech-utopian default. | Wine bit |
 | 9 | developing | Dismisses, then re-engages when structured data appears (via Elijah). | "Like trying to grep a handwritten notebook" |
-| 11 | developing | Traces patents — the midpoint discovery. | Corporate filing trace |
+| 9 | developing | Traces patents — surfaced to the group at the Ch12 midpoint. | Corporate filing trace |
 | 15 | complicated | Lashes out at Jasper. Genuine anger. | Fight |
 | 17 | developing | Builds VPN infrastructure overnight. Tech in service of analog goals. | Prep vignette |
 | 18 | developing | Uses food metaphor to explain distributed systems. "Don't get used to it." | Campaign launch |
 | 23 | developing (off-page) | Receives Jasper's individual texts during the PA search. Doesn't reply. Doesn't tell the group. The silence is participatory, not dismissive. | Ch23 Noah text exchange (off-page Noah side) |
 | 25 | paid off | Brings unwhipped butter. Apologizes to Jasper, explicitly naming the conduit pattern: "you kept texting *me* about it. Not the group — just me. I didn't know what to say back, so I didn't say anything." The shift now has on-page setup. | Final dinner |
 
-**Action needed:** Add a beat in Ch24 or early Ch25 where Noah sees the news that Jasper found Hank and has a private reaction — even one paragraph. The apology in Ch25 then carries weight because we've seen the shift land internally.
+**Resolution (2026-07-11):** On-page setup exists — the Ch23 row above (participatory silence on Jasper's individual texts) plus Ch22's "Go get him. We'll hold the line here" reply give the Ch25 apology its internal landing. No added beat required.
 
 ---
 
@@ -195,7 +196,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 25 | paid off (return) | Tells full story. Pro bono lawyer. Stall application for next weekend. | |
 | 23 → 25 | paid off (motivated) | Hank's reckoning anchored on the bottle. In Ch23, Jasper produces the bottle Dorothy gave Emma — proof the sauce has already done what it was for. In Ch25, Hank explicitly cites the bottle as what changed his mind: "I'd already given the bottle away — I just hadn't lived with what that meant. Just in case. Turns out the case was you all." | Ch23 greenhouse + Ch25 storytelling |
 
-**Action needed:** Add a beat in Ch23 (or in Ch24 as a quiet aside) showing Hank's hesitation, his moment of reckoning, what specifically changes his mind. Jasper's pitch is the trigger but not the reason. Currently Hank arrives in Ch25 as symbol of resolution; one more beat upstream makes him a person who chose to come back.
+**Resolution (2026-07-11):** Implemented — the "23 → 25 paid off (motivated)" row above documents it: the greenhouse reckoning anchored on the bottle (Ch23), named again by Hank himself in Ch25 ("I'd already given the bottle away — I just hadn't lived with what that meant").
 
 ---
 
@@ -203,16 +204,16 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 
 | Thread | Status | Seeded in chapter | Future book |
 |--------|--------|-------------------|-------------|
-| Oliver's online life (zoning Twitter, subreddit moderation) | Seeded parenthetically Ch15 | Book 2 |
-| Dorothy's financial situation (honey vendor, small business loan) | Seeded by absence (Ch13 cold beat) — could deepen at end of Book 1 | Book 3 |
-| Sofia's shop vulnerability | Seeded Ch11 (Paolo precedent applies to all small vendors) | Book 2 |
-| Elijah's family compound dream | Not seeded yet in Book 1 — should be? | Book 3 |
-| Olivia's anxiety about Oliver | Lightly seeded Ch7, Ch14 | Book 4 |
-| Noah's sneaker collection | Seeded Ch9 (closet detail), Ch18 (different shoes each dinner — forest green at final meal) | Book 5 |
-| Jasper's old money | NOT seeded in Book 1 per continuity.md — but Chelsea apartment is the only visible clue | Book 6 |
-| Pike's continued presence | Seeded in Garrett Pike antagonist doc — "still out there, still building, still certain he's the good guy" | Recurring presence; possible Book 6 reappearance |
+| Oliver's online life (zoning Twitter, subreddit moderation) | Seeded (parenthetically) | Ch15 | Book 2 |
+| Dorothy's financial situation (honey vendor, small business loan) | Seeded (by absence) — could deepen at end of Book 1 | Ch13 (cold beat) | Book 3 |
+| Sofia's shop vulnerability | Seeded | Ch11 (Paolo precedent applies to all small vendors) | Book 2 |
+| Elijah's family compound dream | Intentionally not seeded (2026-05-23: "don't add more Elijah family beats") — introduced fresh in Book 3 | — | Book 3 |
+| Olivia's anxiety about Oliver | Lightly seeded | Ch7, Ch14 | Book 4 |
+| Noah's sneaker collection | Seeded | Ch9 (closet detail); a different pair each dinner, forest green at the final meal (Ch25) | Book 5 |
+| Jasper's old money | NOT seeded per continuity.md — the Chelsea apartment is the only visible clue | — | Book 6 |
+| Pike's continued presence | Seeded | Antagonist doc — "still out there, still building, still certain he's the good guy" | Recurring; possible Book 6 reappearance |
 
-**Action needed:** Decide whether to plant an Elijah-family-compound seed somewhere in Meals 3–4. Currently the family obligation thread (sister's car) is the only Elijah-interior beat, and it goes nowhere. A single line of Elijah looking at upstate real estate on his phone, even just half a sentence, would seed Book 3 efficiently.
+**Resolution (2026-07-11):** Reconciled with the 2026-05-23 decision ("don't add more Elijah family beats in Book 1") — no compound seed in Book 1; the sister's-car beats stay ambient and the compound dream is introduced fresh in Book 3.
 
 ---
 

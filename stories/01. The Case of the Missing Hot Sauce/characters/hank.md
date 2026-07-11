@@ -50,7 +50,6 @@ Jasper tracked him down through the Fish Pepper connection. Hank was moved to le
 ## Relationships
 * **Emma**: She's a regular customer and genuine fan. She doesn't just love his hot sauce — she loves the story behind it. Her desire to retell his narrative when serving his product is what kicks off the entire mystery.
 * **Dorothy**: A fellow market vendor (honey) who he trusted enough to give a bottle of his heritage sauce before he disappeared. "His great-grandmother would've wanted her peppers shared."
-* **Ruth**: Another market vendor (preserves) who noticed he was "off" in his final week. Represents the market community that cared about him.
 * **Marcus (Gilded Fern)**: A boutique owner who carried his product. Hank paid him cash to break the shelf-space contract when he pulled his inventory.
 * **The Mogul**: His antagonist. Hank never names him directly — the threat came through lawyers and corporate structures, not face-to-face confrontation.
 

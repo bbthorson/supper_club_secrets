@@ -112,7 +112,7 @@ Emma continued with dinner, occasionally bringing a tasting spoon into the livin
 
 Jasper's wine was running low, and Noah seized the opportunity to introduce his own bottle. It was from a sustainable vineyard in the Finger Lakes that grew organic, sulfur-free wines. He was explaining the biodynamic farming process with the enthusiasm of someone who'd just discovered a new religion when Jasper interrupted to let Noah know, with great compassion, that they didn't care.
 
-Oliver added in the background that most new wine-growing regions were the result of tax policy rather than changing weather patterns, but he was sure nobody heard him. At least one person did. Olivia looked over and mouthed "thank you, babe" while Jasper and Noah were fake fighting over whether sulfites were a government conspiracy.
+Oliver added in the background that most new wine-growing regions were the result of tax policy rather than changing weather patterns, in the tone of a man resigned to nobody hearing him. At least one person did. Olivia looked over and mouthed "thank you, babe" while Jasper and Noah were fake fighting over whether sulfites were a government conspiracy.
 
 Olivia, tired of their typical banter, interrupted with a loud call to the chef, "Everything alright in there?"
 
@@ -130,7 +130,7 @@ Olivia was next. She closed her eyes after the first taste and made a sound that
 
 Even Noah, who had been about to say something about the wine, stopped mid-sentence after his first taste. "Okay. Yeah. That's really good."
 
-Emma watched them eat and felt something loosen in her chest. This was the reaction she'd been hoping for. She reached behind her on the counter and held up the bottle—small, unlabeled except for Hank's careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*.
+Emma watched them eat and felt something loosen in her chest. This was the reaction she'd been hoping for. She reached behind her on the counter and held up the bottle—small, no printed label, just Hank's careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*.
 
 "This is from a guy named Hank who sells at the farmers markets. Or he did." She set the bottle on the counter. "He makes it from a pepper his great-grandmother brought north from Virginia in the twenties. A Fish Pepper—heirloom variety, impossible to find commercially. He's been at McCarren every Saturday, McGolrick every Sunday, for three years. He does this whole theatrical pitch, waves a tasting spoon around like a conductor's baton. You'd love him."
 
@@ -142,9 +142,9 @@ The room was quiet. The soup steamed in their bowls.
 
 "That's what I said. She didn't know."
 
-Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, having wanted to ask a similar question but not feeling confident enough to navigate the emotional terrain.
+Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, with the look of people who had wanted to ask a similar question but hadn't trusted themselves to navigate the emotional terrain.
 
-Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit two weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
+Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit three weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
 
 "Don't worry about it," Emma responded, turning back to the stove. She adjusted the flame under the root vegetables, checking their edges. "The kitchen just needs lookin' at." The sudden shift into her blunt, Western Pennsylvania dialect was a clear sign to her closest friends that she wasn't fine at all. Emma only talked like that when she was either very drunk or very stressed, and she'd only had half a glass of Noah's questionable wine.
 
