@@ -146,14 +146,10 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 |----|--------|--------------|----------------|
 | 11 | introduced | Sofia tells Emma about Hank's "big offer to go legit" and Paolo precedent. | Cheese shop scene |
 | 13 | complicated | Emma texts Sofia with update. **No reply that day or the next.** | "No reply that day or the next" |
-| ?? | **⚠ DROPPED** | Sofia never reappears or replies. Her silence is unexplained. | — |
+| 16 | developing | Group-level notice: Emma tells the group Sofia (and Dorothy) have gone quiet, and the room reads it as Pike's neighborhood reach. Pivots the corroboration plan to public records. | "Don't count on Sofia for that" |
+| 25 | **paid off (Book 1 scope)** | After Dorothy's reconciliation text, Emma texts Sofia; Sofia replies tersely — "Saturday. Come to the shop. Bring nothing." Reconnection made without duplicating Dorothy's full-apology beat. | Ch25 evening text exchange |
 
-**Action needed:** **CRITICAL.** Sofia enabled the investigation. Her silence after the C&D arrived is the only on-page evidence the reader sees that the mogul's intimidation worked on other people. This is plot fuel left on the floor. Pick one:
-- **(a)** Have Sofia reappear in Ch24 or Ch25 — a text, a brief shop visit, an apology, OR a thank-you. Even a single line resolves the thread.
-- **(b)** Make her silence intentional and visible — Olivia or Emma mentions in Ch15 or Ch16 that "Sofia's been quiet," and the group reads it as the mogul reaching her. Then her return in Ch25 carries weight.
-- **(c)** Carry forward to Book 2 (Sofia is the entry point in Book 2 per series_plan.md). Add a single line in Ch25 that Emma will see her at the market next week and have something to apologize for / make right.
-
-**Recommend:** (b) + (c). Plant the noticed-silence in Ch15-16, hint at reconnection in Ch25, full payoff in Book 2.
+**Resolution applied 2026-07-11:** Recommendation (b) + (c) implemented — noticed-silence planted in Ch16, terse reconnection in Ch25. The Saturday shop visit is the Book 2 doorway (Sofia is the Book 2 entry point per series_plan.md); why she went quiet and what Pike's people said to her are held for Book 2.
 
 ### Dorothy — Honey vendor, Hank's neighbor
 
@@ -173,7 +169,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
 | 3 | introduced (off-page) | Olivia texts him. He confirms Hank was jittery. | Text exchange |
-| 8 | developing | In-person intel. "Like a man running from something." | The Gilded Fern visit |
+| 7 | developing | In-person intel. "Like a man running from something." | The Gilded Fern visit |
 | 18 | developing (off-page) | The Gilded Fern presumably picks up Hank's restored sauce later. | (implied) |
 | 25 | mentioned | Olivia got a discount on goat cheese from Marcus. | Beet-and-goat-cheese tart |
 

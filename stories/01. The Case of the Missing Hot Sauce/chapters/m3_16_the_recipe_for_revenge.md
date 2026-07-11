@@ -32,6 +32,7 @@ threads:
     - "Jasper — redemption mission assigned (leaves to find Hank)"
   touched:
     - "Emma's worldview (people will choose the little guy if given the chance)"
+    - "Sofia/Dorothy silence (group-level notice — read as Pike's neighborhood reach)"
 beat_purpose: "The swarm plan and roles come together; Jasper quietly takes the find-Hank mission and leaves."
 audit_notes:
   - "Emma's reframe: 'I won't be the story / a martyr — I just want people to get to choose Hank' (ties to her worldview; replaces the old OnlyFans-martyr line)."
@@ -74,6 +75,10 @@ The group was a well-oiled machine now, each member falling into their natural r
 "We should include Sofia's story about Paolo," Emma added. "It establishes a pattern."
 
 "Only if we can corroborate it independently," Oliver said. "Hearsay won't hold up if they come after the outlets."
+
+"Don't count on Sofia for that," Emma said, flatter than she meant it to come out. "She hasn't answered a text since Monday. Neither has Dorothy." Nobody needed the line drawn for them. Whoever had gotten to Emma's clients had been to the market too.
+
+"Public records, then," Oliver said, and wrote it down.
 
 Noah and Olivia became the distribution engine—Noah building the anonymous infrastructure, Olivia mapping the human network that would carry the story from inbox to inbox. They worked side by side on the couch, their usual philosophical disagreements suspended in favor of tactical coordination.
 

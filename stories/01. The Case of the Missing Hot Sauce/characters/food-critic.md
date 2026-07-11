@@ -46,7 +46,7 @@ None — she's a single-scene catalyst. Her intervention is the external validat
 ## Notes
 * **Intentionally unnamed.** Like the mogul, she works better as a force than a person. Naming her would invite questions about her backstory that don't serve the narrative.
 * She could recur in future books as a background presence — someone whose reviews or columns intersect with the group's investigations in the food world.
-* Her post is quoted directly in Chapter 16: "What's happening to this Brooklyn hot sauce vendor is not 'capitalism.' It is a textbook case of predatory trademark trolling..."
+* Her post is quoted directly in Chapter 24: "What's happening to this Brooklyn hot sauce vendor is not 'capitalism.' It is a textbook case of predatory trademark trolling..."
 
 ## Lore Tracking (Book 1)
-* Appears: Chapter 16 ("Turning Up the Heat") — her post turns the tide of public sentiment
+* Appears: Chapter 24 ("The Proof") — her post turns the tide of public sentiment

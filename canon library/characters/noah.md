@@ -80,15 +80,15 @@ Noah is the least connected to the neighborhood. He orders everything online. He
 - Initially dismissive of the investigation — spends five minutes Googling, finds nothing, declares case closed (Ch. 9)
 - Elijah's financial text ("serious money") reopens his curiosity
 - Brings "efficient" crackers, hummus, and cheese as appetizers for Meal 2 potluck
-- Traces LLC #2847 to a subsidiary of a larger hospitality group with hot sauce patents (Ch. 11) — the key midpoint discovery
+- Traces LLC #2847 to a subsidiary of a larger hospitality group with hot sauce patents (Ch. 9) — the key midpoint discovery
 - Identifies the information flow problem: "How did they know to target Emma specifically?" (Ch. 14)
-- Lashes out at Jasper after the confession — the harshest fight the group has had; says things he regrets (Ch. 14)
-- Creates VPNs, anonymous accounts, and digital infrastructure for the swarm strategy (Ch. 15–16)
-- Builds real-time sentiment tracking graphs during the campaign (Ch. 16)
-- Brings bakery bread to the final dinner: "Some things are better when they aren't optimized" (Ch. 18)
+- Lashes out at Jasper after the confession — the harshest fight the group has had; says things he regrets (Ch. 15)
+- Creates VPNs, anonymous accounts, and digital infrastructure for the swarm strategy (Ch. 16–17)
+- Builds real-time sentiment tracking graphs during the campaign (Ch. 18–24)
+- Brings bakery bread to the final dinner: "Some things are better when they aren't optimized" (Ch. 25)
 - His apartment described: minimalist, air purifier humming, East River view, everything optimized — except the closet (Ch. 9)
-- Sneakers become increasingly visible throughout the story: different pair each dinner, forest green with grey accents at final meal (Ch. 18)
-- Brings real butter in a dish (not whipped) to the final dinner — a concession to analog that costs him something (Ch. 18)
-- Uses a food metaphor to explain distributed systems, surprising everyone — "Don't get used to it" (Ch. 16)
-- Apologizes to Jasper at the final dinner: "That wasn't true. And what I said—about your chaos being exhausting—I was scared and I took it out on you." (Ch. 18)
+- Sneakers become increasingly visible throughout the story: different pair each dinner, forest green with grey accents at final meal (Ch. 25)
+- Brings real butter in a dish (not whipped) to the final dinner — a concession to analog that costs him something (Ch. 25)
+- Uses a food metaphor to explain distributed systems, surprising everyone — "Don't get used to it" (Ch. 18)
+- Apologizes to Jasper at the final dinner: "That wasn't true. And what I said—about your chaos being exhausting—I was scared and I took it out on you." (Ch. 25)
 - Growth: Learns to value human intuition and messy, analog problem-solving alongside tech

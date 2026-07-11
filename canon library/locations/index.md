@@ -38,5 +38,5 @@ Hard rules. If a scene violates one of these, the scene is wrong — not the rul
 
 - **Markets:** McGolrick = **Sunday only** (9am–2pm); McCarren = **Saturday only** (morning–early afternoon). Emma cannot be at McGolrick on a Saturday or McCarren on a Sunday. On any other day the market is closed and the stalls are empty.
 - **NYC 311 (Jasper's job):** 24/7; Jasper works variable shifts. Keep his availability flexible — when needed, his shift is "off" or "tomorrow." Don't pin him to a fixed weekly schedule.
-- **Travel times (approx):** Brooklyn ↔ Manhattan subway 30–45 min; McGolrick (Greenpoint) ↔ Sofia's/McCarren (Williamsburg) 15–20 min walk; Brooklyn ↔ Meadowlight (PA) ~3 hrs driving each way; Brooklyn ↔ Philadelphia ~2 hrs by car / ~1.5 hrs by Amtrak.
+- **Travel times (approx):** Brooklyn ↔ Manhattan subway 30–45 min; McGolrick (Greenpoint) ↔ Sofia's/McCarren (Williamsburg) 15–20 min walk; Brooklyn ↔ Meadowlight (PA) ~4 hrs driving each way (≈2 hrs to Philadelphia + ≈2 hrs west); Brooklyn ↔ Philadelphia ~2 hrs by car / ~1.5 hrs by Amtrak.
 - **No two places at once:** a character cannot be at two locations in less time than travel allows (e.g., Jasper cannot find Hank in PA and be back in Brooklyn the same night).

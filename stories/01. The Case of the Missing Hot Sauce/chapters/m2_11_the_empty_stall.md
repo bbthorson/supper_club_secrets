@@ -43,7 +43,7 @@ The walk took her through Williamsburg on an October morning that couldn't decid
 
 McCarren was bigger than McGolrick—louder, more crowded, the aisles between stalls packed with the usual Saturday mix. Young families with strollers that could have doubled as small SUVs. Hungover twentysomethings in sunglasses clutching coffees like talismans against the morning. Serious home cooks with their canvas bags and mental checklists, the kind of people who knew the difference between Delicata and Kabocha without reading the signs.
 
-She found Hank's spot by asking a bread vendor near the entrance. He pointed her toward the far corner—prime location, morning light, foot traffic from both sides. Emma walked over expecting the same empty gap she'd seen at McGolrick two weeks ago, the missing tooth, the dragged-together barriers.
+She found Hank's spot by asking a bread vendor near the entrance. He pointed her toward the far corner—prime location, morning light, foot traffic from both sides. Emma walked over expecting the same empty gap she'd seen at McGolrick last Sunday, the missing tooth, the dragged-together barriers.
 
 Instead, someone was already there.
 

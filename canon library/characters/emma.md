@@ -95,5 +95,5 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 - Uses "this needs fixed" (Western PA) during the Pike confrontation — grandmother's phrase for when things break (Ch. 13)
 - Savings described as "the financial equivalent of closing your eyes on a roller coaster" (Ch. 1)
 - Her chef's knife was a culinary school graduation gift to herself (Ch. 1)
-- Makes butternut squash soup throughout the story — the dish that was supposed to have Hank's hot sauce; finally completed with the sauce in the last chapter (Ch. 18)
+- Makes butternut squash soup throughout the story — the dish that was supposed to have Hank's hot sauce; finally completed with the sauce in the last chapter (Ch. 25)
 - Growth: Moves from hiding her fear and precarity to letting Olivia and the group in; discovers her instincts — about Hank, about Pike, about people choosing the little guy — were right all along

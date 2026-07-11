@@ -8,42 +8,42 @@ This file provides a quick reference for all non-core characters in "The Case of
 
 ### Hank → [hank.md](hank.md)
 * **Role:** The missing hot sauce vendor — central figure of the mystery
-* **First Appearance:** Chapter 1 (by absence); Chapter 17 (in person)
+* **First Appearance:** Chapter 1 (by absence); Chapter 23 (in person)
 * **Key Detail:** His great-grandmother brought Fish Pepper seeds from Virginia to Philadelphia in the 1920s. The recipe is four generations old.
 
 ### Brenda Marquez → [brenda-marquez.md](brenda-marquez.md)
 * **Role:** Jasper's commercial real estate contact who inadvertently tips off the mogul
-* **First Appearance:** Chapter 10 (phone call); Chapter 10/12 (warning text Jasper misses)
+* **First Appearance:** Chapter 10 (phone call + missed calls/warning text); Chapter 12 (third warning text since Friday, unread until Monday)
 * **Key Detail:** Works at Apex Realty. Recognized the LLC from her own client's filings. (Surname changed from Chen to Marquez on 2026-04-07.)
 
 ### Marcus → [marcus.md](marcus.md)
 * **Role:** Owner of The Gilded Fern boutique; Olivia's neighborhood intel source
-* **First Appearance:** Chapter 3 (texted by Olivia, unnamed); Chapter 8 (in person)
+* **First Appearance:** Chapter 3 (texted by Olivia, unnamed); Chapter 7 (in person)
 * **Key Detail:** Carries Olivia's candles and carried Hank's hot sauce. Sharp haircut, cashmere sweater.
 
 ### Ruth → [ruth.md](ruth.md)
 * **Role:** Preserve vendor at McGolrick Park; first to confirm Hank's disappearance is unusual
 * **First Appearance:** Chapter 1
-* **Key Detail:** Hank "seemed off" and "kept checking his phone" at his last market day.
+* **Key Detail:** ⚠ Draft residue — the "seemed off / kept checking his phone" line belongs to Dorothy in the finalized Ch. 1 prose (flagged for the Tier 4 sweep).
 
 ### Dorothy → [dorothy.md](dorothy.md)
 * **Role:** Honey vendor at McGolrick Park; gives Emma a bottle of Hank's heritage sauce
-* **First Appearance:** Chapter 7 (repo version — scene may be reinserted during expansion)
+* **First Appearance:** Chapter 1 (gives Emma the bottle at McGolrick)
 * **Key Detail:** Hank gave her the bottle and said his great-grandmother "would've wanted her peppers shared. Just in case."
 
 ### Sofia → [sofia.md](sofia.md)
 * **Role:** Williamsburg cheesemonger; provides the "deal" intel
-* **First Appearance:** Chapter 8 (polished draft Ch. 7)
+* **First Appearance:** Chapter 11 (cheese shop); referenced Ch. 13/16 (silence), Ch. 25 (text reconnection)
 * **Key Detail:** Hank asked her about "bottling and shelf life" and said he'd gotten "a big offer to go legit."
 
 ### Garrett Pike (The Restaurant Mogul) → [book1_garrett_pike.md](../../../canon%20library/antagonists/book1_garrett_pike.md)
 * **Role:** Primary antagonist operating through LLC #2847
 * **First Evidence:** Chapter 6 (Oliver finds the LLC)
-* **Key Detail:** Mid-forties hospitality entrepreneur. Operates through lawyers, LLCs, and intimidation. Self-interested, not evil. Named in canon docs; name surfaces publicly during the food critic's coverage (Ch16).
+* **Key Detail:** Mid-forties hospitality entrepreneur. Operates through lawyers, LLCs, and intimidation. Self-interested, not evil. Named in canon docs; name surfaces publicly during the food critic's coverage (Ch. 24).
 
 ### The Food Critic → [food-critic.md](food-critic.md)
 * **Role:** National food critic whose endorsement turns the tide
-* **First Appearance:** Chapter 16
+* **First Appearance:** Chapter 24
 * **Key Detail:** Intentionally unnamed. Used Oliver's exact talking points in her viral post.
 
 ---
@@ -53,25 +53,25 @@ This file provides a quick reference for all non-core characters in "The Case of
 ### Ben
 * **Role:** A fellow vendor at the farmers market
 * **Description:** Friendly, agreeable. Sells homemade nut milk. New to the McGolrick Park market — usually sells on the Upper West Side.
-* **Appearance:** Chapter 1 — brief, friendly conversation with Emma when she buys coffee from him.
+* **Appearance:** ⚠ Draft residue — not present in the finalized Ch. 1 prose (flagged for the Tier 4 sweep).
 * **Future Use:** Low. Background texture for the market scene.
 
 ### The Meadowlight Woman
 * **Role:** Gatekeeper at the Meadowlight Collective who directs Jasper to Hank
 * **Description:** A woman in her sixties, sitting on the porch shelling peas. Protective of Hank — "He's been through enough." Warms up when Jasper explains he's there to deliver good news.
-* **Appearance:** Chapter 17 ("Farm to Table")
+* **Appearance:** Chapter 23 ("Farm to Table")
 * **Future Use:** Low-to-moderate. The Meadowlight Collective could recur if Hank stays connected to it.
 
 ### The Conservative Commentator
 * **Role:** Online voice who pushes back on the group's campaign
 * **Description:** A business commentator with a "surprisingly large online following" who frames Hank's situation as a capitalism-vs-incompetence story rather than a bullying story.
-* **Appearance:** Chapter 16 — his post creates a moment of doubt before Oliver's rebuttal strategy overcomes it.
+* **Appearance:** Chapter 20 — his post creates a moment of doubt before Oliver's rebuttal strategy overcomes it.
 * **Future Use:** Low. Generic antagonist voice, not a recurring character.
 
 ### The Process Server
 * **Role:** Delivers the cease and desist to Emma
-* **Description:** Cheap, ill-fitting suit. Bored and impatient. "You've been served." Walks away without a backward glance.
-* **Appearance:** Chapter 12
+* **Description:** ⚠ Draft residue — no on-page process server in the finalized prose; the C&D arrives under Emma's door, unwitnessed (Ch. 13).
+* **Appearance:** None (cut in the finalized prose)
 * **Future Use:** None.
 
 ### The Librarian

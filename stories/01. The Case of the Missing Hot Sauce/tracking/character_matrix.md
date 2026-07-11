@@ -81,7 +81,7 @@ A chapter × character snapshot. One row per chapter. Each character cell carrie
 | 1 | Ruth | public | Confirms Hank "seemed off, kept checking his phone." |
 | 1 | Ben (nut milk vendor) | public | Friendly background texture. |
 | 3 | Marcus (texted) | public | Confirms Hank was jittery. |
-| 8 | Marcus (in person) | public | "Like a man running from something." |
+| 7 | Marcus (in person) | public | "Like a man running from something." |
 | 10 | Brenda Marquez | public → private | Recognizes LLC. Warns Jasper. Later betrays. |
 | 11 | Sofia | public (warm) | Tells Emma about big offer + Paolo precedent. |
 | 12 | Dorothy (brisk seed) | public (closed-with-customer) | Brusque encounter at McGolrick Sunday am — registers as "she's busy" to Emma. Customer is Pike-adjacent figure. Seeds Ch13 silence. |

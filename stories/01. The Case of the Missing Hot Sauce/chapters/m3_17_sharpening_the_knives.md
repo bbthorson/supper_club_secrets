@@ -101,9 +101,9 @@ Elijah grimaced but started rewriting. Oliver went back to his timeline, cross-r
 
 "Every claim has to be attributable to public record," Elijah said. "We don't speculate. We present the timeline, the filings, the financial motive, and let the reader draw their own conclusions."
 
-"We should include Sofia's story about Paolo," Oliver said. "It establishes a pattern."
+"What about Sofia's story?" Oliver asked. "The Paolo pattern is half the narrative."
 
-"Only if we can corroborate it independently. Hearsay won't hold up if they come after the outlets."
+"Same rule. She's gone quiet, so we corroborate it without her — or it stays out."
 
 Oliver was quiet for a moment. Then he pulled up a new browser tab and started searching — Brooklyn food vendors, legal disputes, small claims filings. Forty minutes later, he found a public court record: *Paolo Ferrante v. Riverview Hospitality Group, LLC.* Filed, then dismissed when the plaintiff couldn't afford to continue.
 

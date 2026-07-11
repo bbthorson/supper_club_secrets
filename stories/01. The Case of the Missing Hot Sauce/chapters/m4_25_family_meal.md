@@ -19,6 +19,7 @@ characters_present:
   - "Hank (arrives with Jasper)"
 characters_referenced:
   - "Dorothy (morning text — reconciliation)"
+  - "Sofia (evening text — reconnection; Saturday shop visit set)"
   - "Marcus (goat-cheese discount)"
   - "Garrett Pike (retreated — non-apology statement)"
 registers:
@@ -42,6 +43,7 @@ threads:
   touched:
     - "Oliver carrying his Ch15 emergence (small dose — 'I'll go first')"
     - "Dorothy reconciliation (morning text)"
+    - "Sofia reconnection (text — Saturday shop visit; Book 2 doorway)"
     - "Rotating hosts agreed; propulsion into Book 2"
 beat_purpose: "Family Meal — Hank returns with Jasper, the bottle's arc closes, the economic squeeze lifts, and the club commits to continuing with rotating hosts."
 audit_notes:
@@ -63,6 +65,8 @@ Her phone buzzed on the counter. A text from Dorothy.
 *Emma — I'm sorry. There was a man at McGolrick that Sunday, and again on Tuesday, and he was very specific about what would happen to the stand if I kept talking to anyone about Hank. I should have warned you. I should have called when the news broke. I didn't, and I should have. Welcome him home for me. I'll bring a jar of the chestnut by next week.*
 
 Emma read it twice. Then she typed back: *Come for dinner sometime. We'll save you a seat.* She hit send before she could overthink it, and the small tight knot she'd been carrying around her sternum since the C&D eased by a measurable amount. There were a lot of people who'd been afraid, she was starting to realize. The fear didn't end when the threat did. It just changed shape.
+
+Before she could overthink that either, she scrolled to the other thread — the one that had sat silent since the C&D — and typed: *Hank's home. Dinner's tonight. Your Paolo story is half the reason the coverage landed. Can I come by next week? I owe you.* She set the phone down and went back to the soup. It buzzed once more: *Saturday. Come to the shop. Bring nothing.* Which, from Sofia, was practically a hug.
 
 The intercom buzzed. Olivia and Oliver arrived first, Olivia carrying a jewel-toned beet and goat cheese tart that looked almost too beautiful to eat. The beets were roasted and sliced thin—deep magenta circles arranged in concentric rings against the white goat cheese and a golden, buttery crust. She'd scattered fresh thyme and a drizzle of honey across the top.
 
