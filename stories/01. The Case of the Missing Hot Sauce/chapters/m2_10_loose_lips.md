@@ -69,7 +69,9 @@ He hung up and walked home along Tenth Avenue, his stride long and loose, the Oc
 
 He didn't notice the three missed calls from Brenda that would come later that evening, or the text she'd send at 11 PM that would sit unread on his lock screen all night.
 
-Because Brenda, sitting at her desk at Apex Realty, had recognized the LLC number the instant he read it. She'd seen it in filings from a client her firm worked with—a very important, very litigious client whose business she couldn't afford to jeopardize. Warning Jasper off had been pure instinct. But instinct wasn't protection, and she knew it. She weighed her options: her loyalty to an old friend versus her obligation to the firm that paid her mortgage. It wasn't even close, really. It was the kind of calculation that felt terrible and obvious at the same time.
+---
+
+Brenda, sitting at her desk at Apex Realty, had recognized the LLC number the instant he read it. She'd seen it in filings from a client her firm worked with—a very important, very litigious client whose business she couldn't afford to jeopardize. Warning Jasper off had been pure instinct. But instinct wasn't protection, and she knew it. She weighed her options: her loyalty to an old friend versus her obligation to the firm that paid her mortgage. It wasn't even close, really. It was the kind of calculation that felt terrible and obvious at the same time.
 
 She picked up her phone and made a call she would later regret.
 

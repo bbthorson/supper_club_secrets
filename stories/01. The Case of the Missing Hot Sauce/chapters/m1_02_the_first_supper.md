@@ -112,7 +112,7 @@ Emma continued with dinner, occasionally bringing a tasting spoon into the livin
 
 Jasper's wine was running low, and Noah seized the opportunity to introduce his own bottle. It was from a sustainable vineyard in the Finger Lakes that grew organic, sulfur-free wines. He was explaining the biodynamic farming process with the enthusiasm of someone who'd just discovered a new religion when Jasper interrupted to let Noah know, with great compassion, that they didn't care.
 
-Oliver added in the background that most new wine-growing regions were the result of tax policy rather than changing weather patterns, but he was sure nobody heard him. At least one person did. Olivia looked over and mouthed "thank you, babe" while Jasper and Noah were fake fighting over whether sulfites were a government conspiracy.
+Oliver added in the background that most new wine-growing regions were the result of tax policy rather than changing weather patterns, in the tone of a man resigned to nobody hearing him. At least one person did. Olivia looked over and mouthed "thank you, babe" while Jasper and Noah were fake fighting over whether sulfites were a government conspiracy.
 
 Olivia, tired of their typical banter, interrupted with a loud call to the chef, "Everything alright in there?"
 
@@ -142,7 +142,7 @@ The room was quiet. The soup steamed in their bowls.
 
 "That's what I said. She didn't know."
 
-Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, having wanted to ask a similar question but not feeling confident enough to navigate the emotional terrain.
+Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, with the look of people who had wanted to ask a similar question but hadn't trusted themselves to navigate the emotional terrain.
 
 Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit three weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
 

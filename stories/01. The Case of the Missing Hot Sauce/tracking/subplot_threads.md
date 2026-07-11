@@ -61,10 +61,11 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 13 | complicated | Western PA dialect surfaces under stress ("this needs fixed"). Past failure resurfaces. | C&D reaction |
 | 14 | developing | Privately confides her precarity to Olivia. Vulnerability deepens their bond. | Kitchen confide |
 | 16 | developing | Identifies industry-petty food influencers — weaponizes the industry that broke her. | Swarm strategy contribution |
-| 18 | **⚠ AT RISK** | Emma sidelined in Meal 4 execution after centerstage in Meal 3. Writes the narrative in Ch16, then watches Noah/Olivia/Oliver execute. | See compression audit + interiority/emma_book1.md |
+| 18 | developing (setup) | Emma sidelined in the launch — watches the machine she armed. Deliberate setup, answered in Ch20. | Ch18 launch |
+| 20 | paid off (agency) | Stops watching: deploys her grudge map in her own words, baits the pettiest man in food media; his piece drops Sunday (Ch22 group-chat pulse) and carries the story through the dark weekend (Ch24). | Ch20 grudge-map beat |
 | 25 | paid off | Cooking for joy, not anxiety. "She wasn't performing for a client … She was cooking because she wanted to." | Opening of Ch25 |
 
-**Action needed:** Give Emma at least one active beat in Ch18, Ch20, or Ch24 that isn't watching others execute. She drafted the narrative; she should deploy it or react to it landing.
+**Resolution (2026-07-11):** Implemented in Ch20 — Emma deploys the grudge map personally (her own words, not the press kit); the resulting piece drops Sunday night and is the campaign's one counterweight through the doubt stretch (Ch22, Ch24). Her Ch24 reaction beat (the critic landing; the editor email) was already on the page.
 
 ### Elijah — Family financial weight (seeded)
 

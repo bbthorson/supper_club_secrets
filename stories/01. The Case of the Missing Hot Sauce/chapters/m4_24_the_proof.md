@@ -44,7 +44,7 @@ beat_purpose: "Oliver's sourced rebuttal arms a hundred small voices; a food cri
 
 The doubt sat in the apartment all weekend like weather.
 
-The blogs kept folding, one cowardly retraction at a time. The commentator's "just capitalism" framing kept spreading. Noah rebuilt his burned accounts in grim silence, trusting none of them now. Emma's inbox kept not refilling. And every few hours the group chat lit up with Jasper, somewhere in Pennsylvania, striking out — until Sunday night, when it lit up differently: *FOUND IT. Driving out at first light.* It was the first good thing in two days, and nobody quite let themselves believe it.
+The blogs kept folding, one cowardly retraction at a time. The commentator's "just capitalism" framing kept spreading. Noah rebuilt his burned accounts in grim silence, trusting none of them now. Emma's inbox kept not refilling. The one counterweight was the piece Emma had baited out of the pettiest man in food media — spiteful, gleeful, constitutionally immune to lawyer letters — which dropped Sunday night and kept the story's pulse going while everything else folded. And every few hours the group chat lit up with Jasper, somewhere in Pennsylvania, striking out — until Sunday night, when it lit up differently: *FOUND IT. Driving out at first light.* It was the first good thing in two days, and nobody quite let themselves believe it.
 
 It was Oliver who broke the holding pattern, Tuesday morning, the way he broke most things — quietly, after everyone else had given up on the silence. He'd barely spoken since Saturday. He'd been reading, and building something, and now he turned his laptop around.
 

@@ -19,7 +19,7 @@ characters_referenced:
   - "Jasper (PA, off-page)"
   - "The conservative commentator (\"#FreeMarketFriday\")"
 registers:
-  Emma: "private (⚠ still sidelined in execution)"
+  Emma: "private → active (stops watching — deploys the grudge map, personally baits a Pike-hating food writer)"
   Elijah: "private (weathering the takedown notices — 'I work for capitalism. I have a lanyard.')"
   Noah: "private (tense — an anonymous account gets traced; a close call)"
   Oliver: "private (holding the line on the rebuttal)"
@@ -33,6 +33,7 @@ threads:
     - "The campaign might fail — the group's confidence cracks"
   touched:
     - "Pike's 'amateurs playing a professional's game' echo as doubt peaks"
+    - "Emma's agency beat — the grudge map deployed in her own words (answers the Ch18 sidelining)"
 beat_purpose: "The counterattack lands — a glib commentator, blog takedowns, and a close call with a traced account leave the group doubting they've made things worse."
 ---
 
@@ -71,5 +72,7 @@ The room went quiet. It was one thing to fight a man. It was another to see the 
 Nobody answered for a moment. Outside, Saturday went on being Saturday. Emma's phone buzzed — the catering inquiry from last week, the good one, *going to go a different direction, best of luck* — and she turned it face-down without reading the rest aloud.
 
 The empty chair in the room was Jasper's. Somewhere west of Philadelphia he was striking out at dead-end nurseries, and his end of the group chat had gone quiet for hours. The team wasn't whole, the story was being strangled one cowardly retraction at a time, and for the first time since the swarm went out, the fear in the room was bigger than the resolve.
+
+Emma looked at the phone in her hand — the dead inquiry, the group chat with Jasper's silence sitting at the bottom of it — and felt something in her shift from watching to working. She pulled up the list she'd made Thursday night, the one they hadn't really used yet: the grudge map. "The blogs that folded ran it as news," she said. "News gets retracted. Grudges don't." She scrolled to the pettiest man in food media — a writer who'd been sitting on a decade of Garrett Pike stories with no peg to hang them on — and wrote to him herself. Not the press kit. Her own words. *You've seen the letters going around. Don't you want to know what they're so afraid of?* She hit send before the fear could talk her out of it. It wasn't a rescue. But it was the first thing all day that had felt like cooking — something done with her own hands.
 
 Oliver closed the ghost-kitchen tab. "Then we don't fight the warehouse," he said, mostly to himself — the front edge of a thought he couldn't finish yet. "You can't out-shout a warehouse." He frowned at the dark screen, chasing the rest of it, and didn't catch it. Not tonight.
