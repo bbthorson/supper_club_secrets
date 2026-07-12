@@ -47,6 +47,19 @@ Divide the work into independent read-only passes and run them as parallel subag
    `python3 protocol/pipeline/extract.py`; any resolution miss or schema failure is a
    finding. Check that character files' Book-N lore sections are current with the
    finished prose (this is where the stale-OnlyFans-bullet class of finding lives).
+5. **Prose-craft / AI-tells pass** (whole book, prose only). Scans for the stylistic tells
+   of AI-generated prose — negative parallelism, em-dash addiction, magic adverbs, recycled
+   physical tells, a narrow sensory palette, perfect chapter-ending symmetry. The full
+   checklist, the SCS calibration (the sanctioned voice-tic allowlist, the sensory-first
+   carve-out), and the mechanical count-first method live in
+   [`references/ai_tells.md`](references/ai_tells.md). **Two-stage:** first count the
+   greppable tells per chapter (regexes in the reference), then judge which counts are
+   genre-legitimate and read for the non-greppable ones. This pass feeds **Tier 3 — Craft**
+   only: its findings are 🔵/🟡 suggestions, never contradictions. A tell only resolves into
+   a pattern *across* the book, so this is a whole-book judgment the per-meal passes can't
+   make. Do **not** re-flag catalogued voice tics (Emma's dialect, Jasper's breathlessness) —
+   their overuse is already the continuity passes' §3 voice check; this pass covers
+   *uncatalogued* tells.
 
 ## Severity and tiers
 
@@ -61,7 +74,8 @@ The report groups findings into action tiers:
 - **Tier 2 — High priority (before sign-off):** dropped threads (a character who enables
   the plot and then vanishes; a payoff the tracker recommended that was never executed),
   doubled beats, timeline knots.
-- **Tier 3 — Craft:** POV drift, register/tic overuse, pacing flags — real but subjective.
+- **Tier 3 — Craft:** POV drift, register/tic overuse, pacing flags, and AI-tells (the
+  prose-craft pass — see `references/ai_tells.md`) — real but subjective, all suggestions.
 - **Tier 4 — Hygiene:** stale tracking cells, draft residue (names/props from abandoned
   directions), outdated ⚠ flags.
 
