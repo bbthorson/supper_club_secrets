@@ -3,9 +3,14 @@ import { getCollection, render } from 'astro:content';
 import ReadingRoom from '../../layouts/ReadingRoom.astro';
 
 export async function getStaticPaths() {
-  const chapters = (await getCollection('chapters')).sort(
-    (a, b) => a.data.chapter - b.data.chapter,
-  );
+  const now = new Date();
+  const chapters = (await getCollection('chapters'))
+    // same drip filter as the menu (index.astro): an unpublished chapter must
+    // not be reachable by URL or by the previous chapter's "next" link.
+    // Filtering before computing prev/next keeps navigation inside the
+    // published set. Inert until publishDate is populated.
+    .filter((c) => !c.data.publishDate || c.data.publishDate <= now)
+    .sort((a, b) => a.data.chapter - b.data.chapter);
   return chapters.map((entry, i) => ({
     params: { chapter: String(entry.data.chapter) },
     props: {

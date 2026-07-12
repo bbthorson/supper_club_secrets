@@ -23,7 +23,14 @@ const THEME_KEY = 'scs:theme';
 const PROGRESS_VERSION = 1;
 
 export type Theme = 'day' | 'night';
-type ProgressStore = { v: number; [book: string]: { chapter: number } | number };
+type BookProgress = { chapter: number };
+/** Stored as `{ v: 1, books: { book1: { chapter: N } } }` — version is separate
+ *  from the per-book map, so book entries have one unambiguous shape. */
+type ProgressStore = { v: number; books: Record<string, BookProgress> };
+
+function emptyStore(): ProgressStore {
+  return { v: PROGRESS_VERSION, books: {} };
+}
 
 function hasStorage(): boolean {
   try {
@@ -34,36 +41,32 @@ function hasStorage(): boolean {
 }
 
 function readStore(): ProgressStore {
-  if (!hasStorage()) return { v: PROGRESS_VERSION };
+  if (!hasStorage()) return emptyStore();
   try {
     const raw = localStorage.getItem(PROGRESS_KEY);
-    if (!raw) return { v: PROGRESS_VERSION };
-    const parsed = JSON.parse(raw) as ProgressStore;
-    if (!parsed || typeof parsed !== 'object') return { v: PROGRESS_VERSION };
-    return parsed;
+    if (!raw) return emptyStore();
+    const parsed = JSON.parse(raw) as Partial<ProgressStore>;
+    if (!parsed || typeof parsed !== 'object' || typeof parsed.books !== 'object' || !parsed.books) {
+      return emptyStore();
+    }
+    return { v: PROGRESS_VERSION, books: parsed.books };
   } catch {
-    return { v: PROGRESS_VERSION };
+    return emptyStore();
   }
 }
 
 /** Highest chapter the reader has reached in `book` (0 if none). */
 export function getHorizon(book: string = BOOK): number {
-  const store = readStore();
-  const entry = store[book];
-  if (typeof entry === 'object' && entry && typeof entry.chapter === 'number') {
-    return entry.chapter;
-  }
-  return 0;
+  const entry = readStore().books[book];
+  return entry && typeof entry.chapter === 'number' ? entry.chapter : 0;
 }
 
 /** Advance the horizon to `chapter` (monotonic — never moves backward). */
 export function setHorizon(book: string, chapter: number): number {
   if (!hasStorage()) return getHorizon(book);
   const store = readStore();
-  const current = getHorizon(book);
-  const next = Math.max(current, chapter);
-  store.v = PROGRESS_VERSION;
-  store[book] = { chapter: next };
+  const next = Math.max(store.books[book]?.chapter ?? 0, chapter);
+  store.books[book] = { chapter: next };
   try {
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(store));
   } catch {
