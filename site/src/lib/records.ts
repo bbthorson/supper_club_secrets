@@ -293,7 +293,8 @@ const charFirstChapter = new Map<string, number>();
 for (const s of scenes) {
   const ch = sceneChapter(s);
   for (const id of s.participants ?? []) {
-    if (!charFirstChapter.has(id) || ch < charFirstChapter.get(id)!) charFirstChapter.set(id, ch);
+    const current = charFirstChapter.get(id);
+    if (current === undefined || ch < current) charFirstChapter.set(id, ch);
   }
 }
 
@@ -308,7 +309,7 @@ export function charListings(): CharListing[] {
 
 // The antagonist has a profile record (for his gated hub) but is kept off the
 // public roster — a villain roster entry would spoil.
-const ANTAGONIST = 'char.garrett-pike';
+export const ANTAGONIST = 'char.garrett-pike';
 
 export interface Profile extends NamedRef {
   oneLine: string | null;

@@ -5,9 +5,10 @@
 interface Props {
   kind: 'place' | 'character';
   entityId: string; // full id, e.g. place.mcgolrick-market / char.emma
-  title: string;
+  // title / eyebrow / subtitle drive the poster intro; unused in bare mode.
+  title?: string;
   subtitle?: string;
-  eyebrow: string;
+  eyebrow?: string;
   /** Suppress the poster intro — for embedding under an existing page header
    *  (e.g. a character hub). A compact "Their thread" label is shown instead. */
   bare?: boolean;
