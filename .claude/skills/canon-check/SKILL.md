@@ -70,7 +70,11 @@ Cross-check `tracking/subplot_threads.md`:
   heritage hot-sauce bottle's path).
 - Thread status is consistent — nothing "paid off" that was never introduced; nothing
   contradicting an earlier `complicated`/`developing` beat.
-- Flag threads that this scene drops without resolution if they were `carry forward`.
+- Flag any thread that ends in silence: a thread may only end `paid off`, explicitly
+  `dropped` (with its why note), or `carry forward` — and a `carry forward` thread still
+  needs its on-page carry-forward beat (a nod that keeps it alive), not disappearance.
+  (Sofia's Book 1 thread was the canonical miss: intentionally open, but the planned
+  noticed-silence and reconnection beats were never executed until the audit caught it.)
 
 ### 5. Hard constraints (`ai_instructions.md`)
 These are red lines — flag any violation:
