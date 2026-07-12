@@ -110,7 +110,7 @@ Dorothy's hands paused on the honeycomb. "He seemed... off. Kept checking his ph
 
 She pressed the bottle into Emma's hands without being asked, a transfer that felt oddly ceremonial. "You're a cook, right? I've seen you here, the way you handle the produce. You know what this is."
 
-Emma looked at the bottle, at the handwritten label with its careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*. Such a simple thing. A glass bottle, a homemade label, a few ounces of sauce. But holding it, she could feel the weight of what it represented. This wasn't just a product. It was a lineage. Seeds carried north from Virginia in the 1920s, planted in a tiny Philadelphia plot, tended through four generations, brought to Brooklyn by a man who loved the story as much as the sauce.
+Emma looked at the bottle, at the handwritten label with its careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*. Such a simple thing. A glass bottle, a homemade label, a few ounces of sauce. But holding it, she could feel the weight of what it represented. A lineage in a glass bottle. Seeds carried north from Virginia in the 1920s, planted in a tiny Philadelphia plot, tended through four generations, brought to Brooklyn by a man who loved the story as much as the sauce.
 
 "Thank you," Emma said. "I'll make it count."
 
