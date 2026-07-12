@@ -96,8 +96,8 @@ judgment the `story-audit` prose-craft pass makes (see
 the obvious ones in the scene in front of you: negative parallelism ("not X — it's Y") used
 as a reflex, a "here's the kicker" reveal, magic adverbs propping up flat sentences, an
 *uncatalogued* physical tell (hitched breath, tight jaw) carrying the emotion, or the same two
-or three stock smells. Flag these as 🔵 craft suggestions only — never a contradiction, never
-a mandate. Honor the SCS carve-outs: sensory-first prose is required (flag a narrow palette,
+or three stock smells. Flag these as 🔵 craft suggestions — or 🟡 if a single scene clusters
+the *same* tell several times — never a contradiction, never a mandate. Honor the SCS carve-outs: sensory-first prose is required (flag a narrow palette,
 not scent itself), and a catalogued voice tic (Emma's dialect, Jasper's breathlessness) is
 never a tell. If the scene feels tell-heavy, recommend a full `story-audit` prose-craft pass
 rather than judging the pattern from one scene.
