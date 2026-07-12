@@ -1,0 +1,44 @@
+---
+// Day / after-hours toggle. The theme is already applied pre-paint by the head
+// script; this only lets the reader change it. Copy stays in the menu register.
+---
+<button class="theme-toggle scs-label" type="button" aria-label="Switch between day and after-hours">
+  <span class="tt-day">Day service</span>
+  <span class="tt-night">After hours</span>
+</button>
+
+<style>
+  .theme-toggle {
+    background: transparent;
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    color: var(--scs-ink-muted);
+    padding: 0.5em 0.9em;
+    cursor: pointer;
+    line-height: 1;
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+  .theme-toggle:hover {
+    color: var(--scs-ink);
+    border-color: var(--scs-ornament);
+  }
+  .theme-toggle:focus-visible {
+    outline: 2px solid var(--scs-accent);
+    outline-offset: 2px;
+  }
+  /* show the label for the service you'd switch TO */
+  .tt-night {
+    display: none;
+  }
+  :global([data-theme='night']) .tt-day {
+    display: none;
+  }
+  :global([data-theme='night']) .tt-night {
+    display: inline;
+  }
+</style>
+
+<script>
+  import { toggleTheme } from '../lib/horizon';
+  document.querySelector('.theme-toggle')?.addEventListener('click', () => toggleTheme());
+</script>

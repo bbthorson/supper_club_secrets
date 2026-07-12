@@ -1,0 +1,162 @@
+---
+// The reading room — Book Mode. The same restaurant as the menu, plated for
+// long-form reading: Literata at a 65–70ch measure, generous leading, the
+// chapter header in front-of-house type. Night is just the theme.
+import Base from './Base.astro';
+
+interface Props {
+  chapter: number;
+  title: string;
+  meal: number;
+  day?: string;
+  date?: string;
+  prev: number | null;
+  next: number | null;
+}
+const { chapter, title, meal, day, date, prev, next } = Astro.props;
+const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
+---
+
+<Base title={`Chapter ${chapter} · ${title} — Supper Club Secrets`}>
+  <article class="chapter" data-chapter={chapter}>
+    <header class="chapter-head">
+      <p class="chapter-eyebrow scs-label">
+        Meal {mealNames[meal] ?? meal} · Chapter {chapter}
+      </p>
+      <h1 class="chapter-title scs-title">{title}</h1>
+      {
+        (day || date) && (
+          <p class="chapter-meta scs-label">
+            {[day, date].filter(Boolean).join(' · ')}
+          </p>
+        )
+      }
+    </header>
+
+    <div class="prose">
+      <slot />
+    </div>
+
+    <nav class="chapter-nav scs-label" aria-label="Chapter navigation">
+      {
+        prev !== null ? (
+          <a class="nav-prev" href={`/read/${prev}`}>
+            <span class="nav-dir">Previous course</span>
+            <span class="nav-ch">Chapter {prev}</span>
+          </a>
+        ) : (
+          <a class="nav-prev" href="/">
+            <span class="nav-dir">Back to</span>
+            <span class="nav-ch">The menu</span>
+          </a>
+        )
+      }
+      {
+        next !== null ? (
+          <a class="nav-next" href={`/read/${next}`}>
+            <span class="nav-dir">Next course</span>
+            <span class="nav-ch">Chapter {next}</span>
+          </a>
+        ) : (
+          <a class="nav-next" href="/">
+            <span class="nav-dir">The end · back to</span>
+            <span class="nav-ch">The menu</span>
+          </a>
+        )
+      }
+    </nav>
+  </article>
+</Base>
+
+<style>
+  .chapter {
+    max-width: var(--scs-measure-reading);
+    margin: 0 auto;
+  }
+  .chapter-head {
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  .chapter-eyebrow {
+    color: var(--scs-accent);
+    margin: 0 0 0.7rem;
+  }
+  .chapter-title {
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+    margin: 0;
+    color: var(--scs-ink);
+  }
+  .chapter-meta {
+    color: var(--scs-ink-muted);
+    margin: 0.8rem 0 0;
+  }
+
+  .prose {
+    font-family: var(--scs-font-body);
+    font-size: var(--scs-text-reading);
+    line-height: var(--scs-leading-reading);
+  }
+  /* Literata for the meal itself; Fraunces never sets a paragraph. */
+  .prose :global(p) {
+    margin: 0 0 1.35em;
+    /* the em-dash spacing the prose leans on reads better with slight hanging */
+    hanging-punctuation: first;
+  }
+  .prose :global(em) {
+    font-style: italic;
+  }
+  .prose :global(hr) {
+    border: none;
+    text-align: center;
+    margin: 2.2em 0;
+  }
+  .prose :global(hr)::before {
+    content: '· · ·';
+    color: var(--scs-ornament);
+    letter-spacing: 0.5em;
+  }
+
+  .chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3.5rem;
+    padding-top: 1.6rem;
+    border-top: var(--scs-leader);
+  }
+  .chapter-nav a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    text-decoration: none;
+    color: var(--scs-ink);
+  }
+  .chapter-nav .nav-next {
+    text-align: right;
+  }
+  .chapter-nav .nav-dir {
+    color: var(--scs-ink-muted);
+  }
+  .chapter-nav .nav-ch {
+    font-family: var(--scs-font-display);
+    font-weight: 600;
+    font-variation-settings: 'opsz' 40;
+    font-size: 1.15rem;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--scs-accent);
+  }
+</style>
+
+<script>
+  import { setHorizon, applyGates, BOOK } from '../lib/horizon';
+
+  const el = document.querySelector<HTMLElement>('.chapter[data-chapter]');
+  const n = Number.parseInt(el?.dataset.chapter ?? '', 10);
+  if (Number.isFinite(n)) {
+    // reaching a chapter advances the reader's horizon
+    setHorizon(BOOK, n);
+    // and re-resolves any redaction now earned
+    applyGates(document);
+  }
+</script>

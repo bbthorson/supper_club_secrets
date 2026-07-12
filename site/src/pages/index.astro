@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import MenuCard, { type Course } from '../components/MenuCard.astro';
+
+const now = new Date();
+const all = (await getCollection('chapters'))
+  // drip serialization: a chapter with a future publishDate isn't served yet.
+  // Inert until dates are populated, so serialization stays pure config.
+  .filter((c) => !c.data.publishDate || c.data.publishDate <= now)
+  .sort((a, b) => a.data.chapter - b.data.chapter);
+
+// Course chrome for Book 1's four meals — evocative, spoiler-safe menu names.
+const mealMeta: Record<number, { ordinal: string; name: string; tagline: string; secretTail?: string }> = {
+  1: { ordinal: 'First', name: 'The Discovery', tagline: 'a vendor vanishes from McGolrick Park' },
+  2: { ordinal: 'Second', name: 'The Investigation', tagline: 'everyone brings a theory to the table' },
+  3: { ordinal: 'Third', name: 'The Crisis', tagline: 'takeout night — no one can cook' },
+  4: {
+    ordinal: 'Fourth',
+    name: 'The Reveal',
+    tagline: 'the check comes due, and',
+    secretTail: 'one thing we can’t print yet',
+  },
+};
+
+const courses: Course[] = [1, 2, 3, 4].map((meal) => {
+  const meta = mealMeta[meal];
+  return {
+    ...meta,
+    chapters: all
+      .filter((c) => c.data.meal === meal)
+      .map((c) => ({ chapter: c.data.chapter, title: c.data.title, day: c.data.day })),
+  };
+});
+---
+
+<Base title="Supper Club Secrets — The Case of the Missing Hot Sauce">
+  <MenuCard
+    eyebrow="Book One"
+    title="The Case of the Missing Hot Sauce"
+    subline="October · hosted by Emma · 25 chapters"
+    footnote="Please inform your host of any secrets before dining."
+    courses={courses}
+  />
+</Base>

@@ -17,3 +17,8 @@ Thumbs.db
 # Python cache from protocol/entities helper scripts
 protocol/entities/__pycache__/
 protocol/pipeline/__pycache__/
+
+# Reader-experience site (Astro, Protocol Phase 3) build artifacts
+site/node_modules/
+site/dist/
+site/.astro/

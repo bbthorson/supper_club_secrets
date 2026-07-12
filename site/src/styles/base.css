@@ -1,0 +1,115 @@
+/* Supper Club Secrets — reader site base styles.
+ * Fonts are self-hosted (BRAND.md §3: no CDN). The variation axes (opsz / WONK /
+ * SOFT) are NOT set here — the role variables in protocol/brand/tokens.css drive
+ * them at each use site. This file only maps families/weights/styles to files.
+ */
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/Fraunces-roman-var.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/Fraunces-italic-var.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Literata-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Literata-400-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Archivo-600.woff2') format('woff2');
+}
+
+/* ---- reset-ish ---- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--scs-bg);
+  color: var(--scs-ink);
+  font-family: var(--scs-font-body);
+  font-size: var(--scs-text-body);
+  line-height: var(--scs-leading-body);
+  /* the same restaurant, day or night — theme transition is a candle being lit */
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: var(--scs-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+/* ---- shared type roles ---- */
+.scs-label {
+  font-family: var(--scs-font-label);
+  font-weight: 600;
+  font-size: var(--scs-text-label);
+  letter-spacing: var(--scs-label-tracking);
+  text-transform: uppercase;
+}
+.scs-poster {
+  font-family: var(--scs-font-display);
+  font-weight: var(--scs-type-poster-weight);
+  font-variation-settings: var(--scs-type-poster-variation);
+  line-height: 0.98;
+}
+.scs-title {
+  font-family: var(--scs-font-display);
+  font-weight: var(--scs-type-title-weight);
+  font-variation-settings: var(--scs-type-title-variation);
+  line-height: 1.08;
+}
+.scs-romance {
+  font-family: var(--scs-font-display);
+  font-style: italic;
+  font-weight: var(--scs-type-romance-weight);
+  font-variation-settings: var(--scs-type-romance-variation);
+}
+
+/* ---- dotted leader (the connective tissue) ---- */
+.scs-leader {
+  flex: 1 1 auto;
+  align-self: end;
+  margin: 0 0.6em 0.28em;
+  border-bottom: var(--scs-leader);
+  min-width: 1.5rem;
+}
+
+/* honor reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
+}
