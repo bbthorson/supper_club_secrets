@@ -92,7 +92,7 @@ The G line corridor changes across six months. Track: what opens, what closes, w
 
 ## Craft Notes Carried Forward from Book 1 (2026-07-12 audit)
 
-- **Red herrings need real page-time.** Book 1's false leads (the Ch4 theory competition) were comedy dismissed in-chapter; every investigated thread turned out correct. Accepted for Book 1 as a howdunit/whydunit — but from Book 2 on, give at least one mid-book lead a plausible wrong turn that gets investigated and cleanly eliminated by evidence (per `ai_instructions.md` §6's 2–3 legitimate red herrings).
+- **Red herrings need real page-time.** Book 1's false leads (the Ch4 theory competition) were comically dismissed in-chapter; every investigated thread turned out correct. Accepted for Book 1 as a howdunit/whydunit — but from Book 2 on, give at least one mid-book lead a plausible wrong turn that gets investigated and cleanly eliminated by evidence (per ai_instructions.md §6's 2–3 legitimate red herrings).
 - **Olivia's Book 4 payoff must land harder for the runway she got.** Her Book 1 micro-arc intentionally ran in service of others (comforting Emma, managing Oliver, running the network) with only one crack of vulnerability (Ch20) — she is the least visibly changed of the six by book's end. Book 4 needs to convert that restraint into payoff.
 
 ---
