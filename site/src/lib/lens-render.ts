@@ -14,10 +14,12 @@ export function chip(text: string, href?: string, cls = ''): string {
 }
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-/** "2026-10-04" → "Oct 4" (no Date object — avoids timezone drift). */
+/** "2026-10-04" → "Oct 4" (no Date object — avoids timezone drift). Falls back
+ *  to the raw string if the month is out of range or the day is missing. */
 export function fmtDate(iso: string): string {
   const [, m, d] = iso.split('-').map((x) => Number.parseInt(x, 10));
-  return m && d ? `${MONTHS[m - 1]} ${d}` : iso;
+  const month = MONTHS[m - 1]; // undefined when m is out of 1–12
+  return month && d ? `${month} ${d}` : iso;
 }
 
 export function chapterRangeLabel(chapters: number[]): string {
