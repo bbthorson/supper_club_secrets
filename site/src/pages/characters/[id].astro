@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import FeedLens from '../../components/FeedLens.astro';
-import { characterHubs } from '../../lib/records';
+import { characterHubs, ANTAGONIST } from '../../lib/records';
 
 export function getStaticPaths() {
   return characterHubs().map((hub) => ({
@@ -12,7 +12,7 @@ export function getStaticPaths() {
 
 const { hub } = Astro.props;
 const { name, id, profile } = hub;
-const club = profile && profile.id !== 'char.garrett-pike';
+const club = profile && profile.id !== ANTAGONIST;
 const eyebrow = club ? 'A Regular' : 'In the Case';
 const persona = profile?.personaPublic ?? profile?.oneLine ?? null;
 ---
@@ -26,14 +26,7 @@ const persona = profile?.personaPublic ?? profile?.oneLine ?? null;
       {persona && <p class="hub-persona">{persona}</p>}
     </header>
 
-    <FeedLens
-      kind="character"
-      entityId={id}
-      eyebrow="A Thread in the Case"
-      title={name}
-      bare
-      threadLabel="Through the case"
-    />
+    <FeedLens kind="character" entityId={id} bare threadLabel="Through the case" />
   </article>
 </Base>
 
