@@ -225,13 +225,13 @@ The reader surfaces are renderings of the repo's public content (chapters plus t
 
 ## 12. Open Decisions
 
-Resolve these before building the corresponding piece.
+Status as of 2026-07-12: two resolved, one resolved-by-default, two formally deferred with trigger conditions.
 
-1. **NSID namespace domain** (blocks: all lexicons). Which owned domain roots `*.character.profile` etc.
-2. **Identity model for v1** (blocks: publish step). One repo with multiple collections, or per-character DIDs from the start.
-3. **Public reading surface** (blocks: chapter publishing). Confirm the site stack (e.g. Astro) as the primary reader, and decide whether to *also* emit standard.site records for atproto discoverability — and if so, which PDS holds them.
-4. **Backstage gating** (deferred). How `message` records are gated when monetization is taken up. Until then, they stay unpublished or reader-gated.
-5. **Per-story vs series-wide records** (blocks: records layout). Whether `records/` is partitioned per book.
+1. **NSID namespace domain — DEFERRED until Phase 4 starts.** Nothing is blocked until a lexicon is actually published. Until then the placeholder `site.supperclub.*` is used everywhere, with the discipline (borrowed from Bardcast) that the NSID root lives in exactly one place so the eventual swap is a one-line change. Trigger to decide: the first Phase 4 publish step.
+2. **Identity model for v1 — RESOLVED (2026-07-12): the graduation ladder.** Local stable IDs → one repo with multiple record collections → promote an individual character to its own DID only when a concrete portability use-case appears. For a single writer's prose this is the sensible default; per-character DIDs from day one remain the right model for *multiplayer/interactive* universes (Bardcast keys characters on player DIDs because cross-campaign portability is its core thesis).
+3. **Public reading surface — RESOLVED (2026-07-12): Astro, confirmed** as the primary reader (Phase 3 is unblocked). Whether to *also* emit standard.site records for atproto discoverability — and which PDS holds them — rides with Phase 4 and stays open until then.
+4. **Backstage gating — DEFERRED.** The `message` content doesn't exist yet. The durable rule is already fixed (§6.6): gating lives in our own surface layer; backstage records are never published to a public PDS. Trigger to decide: backstage content is written and monetization is taken up.
+5. **Per-story vs series-wide records — RESOLVED (Phase 2): per-book.** `records/book1/` is the shipped layout (see `pipeline/README.md`); a series-wide merge is trivial later if ever needed.
 
 ---
 
