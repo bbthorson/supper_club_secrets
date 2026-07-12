@@ -106,6 +106,4 @@ It was an olive branch, and a mission. A way for him to atone.
 
 The delivery containers sat on the coffee table, forgotten and cold, the pad thai congealing, the spring roll wrappers going translucent. Nobody cared. The group was no longer hungry—at least not for food. They had found their appetite for something else entirely. They had a plan. They had roles. They had a recipe for revenge, and for the first time since Pike found her at the empty market, the fear in the room was smaller than the resolve.
 
-Emma looked at her friends—hunched over laptops, scribbling notes, arguing about distribution strategy with the intensity of people who had discovered that caring about something was worth the risk of getting hurt—and felt something she hadn't expected to feel tonight.
-
-Grateful.
+Emma looked at her friends—hunched over laptops, scribbling notes, arguing about distribution strategy with the intensity of people who had discovered that caring about something was worth the risk of getting hurt—and, in the middle of the worst week of her year, felt unexpectedly grateful for every one of them.

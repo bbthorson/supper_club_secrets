@@ -53,4 +53,4 @@ He sat back, annoyed. The direct route was sealed. So he stopped looking for who
 
 He was deep in it now, the kind of focused state where he lost track of time and the apartment's silence stopped being empty and started being useful. The air purifier hummed. The East River darkened outside his window. He didn't notice either.
 
-Maybe there was more to this than he'd thought.
+For the first time since Monday, the problem was written in a language he could read.
