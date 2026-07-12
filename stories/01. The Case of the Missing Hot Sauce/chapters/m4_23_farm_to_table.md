@@ -93,7 +93,7 @@ A small bottle. Deep red, the handwritten label gone soft at one corner.
 
 Hank went still. He took it in both hands — the way you handle something you'd made your peace with never seeing again — and turned it until his own careful cursive caught the light. *Heritage Pepper Sauce — Small Batch — Hank.*
 
-"Where'd you get this."
+"Where'd you get this?"
 
 "Dorothy. She pressed it on Emma the first Sunday your stall stood empty, told her to keep it — 'just in case.' It's been on Emma's counter ever since. It's the reason any of this started." Jasper kept his voice low, out of the performance for once. "You gave that away because your great-grandmother would've wanted her peppers shared. I figured you should see where it landed. Not a warehouse. The counter of somebody who went to war over it."
 
