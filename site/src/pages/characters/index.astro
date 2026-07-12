@@ -1,0 +1,98 @@
+---
+import Base from '../../layouts/Base.astro';
+import { profileListings } from '../../lib/records';
+
+const cast = profileListings();
+---
+
+<Base title="The Regulars — Supper Club Secrets" description="The six who gather around Emma's table.">
+  <section class="roster-intro">
+    <p class="eyebrow scs-label">Around the Table</p>
+    <h1 class="roster-title scs-poster">The Regulars</h1>
+    <p class="roster-sub scs-romance">Six friends, one standing reservation.</p>
+  </section>
+
+  <ul class="roster">
+    {
+      cast.map((c) => (
+        <li class="regular">
+          <a class="regular-link" href={`/characters/${c.id.replace('char.', '')}`}>
+            <div class="regular-head">
+              <h2 class="regular-name scs-title">{c.name}</h2>
+              <span class="scs-leader" aria-hidden="true" />
+            </div>
+            {c.personaPublic ? (
+              <p class="regular-persona">{c.personaPublic}</p>
+            ) : (
+              c.oneLine && <p class="regular-persona">{c.oneLine}</p>
+            )}
+            {c.keyContradiction && <p class="regular-contra scs-romance">{c.keyContradiction}</p>}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
+
+<style>
+  .roster-intro {
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  .eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.7rem;
+  }
+  .roster-title {
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    margin: 0;
+  }
+  .roster-sub {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    margin: 0.6rem 0 0;
+  }
+
+  .roster {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .regular {
+    border-bottom: var(--scs-leader);
+  }
+  .regular-link {
+    display: block;
+    padding: 1.3rem 0.3rem;
+    text-decoration: none;
+    color: var(--scs-ink);
+    transition: background-color 0.15s ease;
+  }
+  .regular-link:hover {
+    background: var(--scs-linen-deep);
+  }
+  :global([data-theme='night']) .regular-link:hover {
+    background: rgba(241, 232, 212, 0.06);
+  }
+  .regular-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+  }
+  .regular-name {
+    font-size: 1.5rem;
+    margin: 0;
+    white-space: nowrap;
+  }
+  .regular-persona {
+    font-family: var(--scs-font-body);
+    font-size: 1.02rem;
+    color: var(--scs-ink);
+    margin: 0.5rem 0 0;
+  }
+  .regular-contra {
+    color: var(--scs-ink-muted);
+    font-size: 1.05rem;
+    margin: 0.35rem 0 0;
+  }
+</style>
