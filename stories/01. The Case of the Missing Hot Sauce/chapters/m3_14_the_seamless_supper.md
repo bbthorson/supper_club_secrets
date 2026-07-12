@@ -175,7 +175,7 @@ Emma kept wiping. "He cancelled my clients, Liv."
 
 "No, but — that's the thing. Two clients and one article, and I'm already counting weeks. *Two.*" Her voice cracked on it, kept low so it wouldn't carry. "I made this whole big deal of walking out of Bistro Lavande. Untied my apron like the heroine of a movie. And the truth is I've been one bad month from my parents' basement since the day I did it, and I never told anybody, because how do you say that, after the speech? After you made leaving look so easy?" She finally set the rag down. "He didn't even have to threaten me. He just had to show me how thin it already was. He *knew.* That's what scared me. Not the lawyers. That a stranger could see exactly where I was barely holding on."
 
-Olivia didn't reach for a plan. She crossed the little kitchen and put her arms around her, and for a moment Emma let herself be held by someone who finally knew the real shape of it — the fear under the apron-untying, the thing she'd been carrying alone since the day she untied it.
+Olivia didn't reach for a plan. She crossed the little kitchen and put her arms around her, and for a moment Emma let herself be held by someone who finally knew the real shape of it — the fear under the apron-untying, the thing she'd been carrying alone since the day she untied her apron.
 
 "Why didn't you tell me?" Olivia said into her hair. Not hurt. Just sad.
 
