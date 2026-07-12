@@ -9,7 +9,7 @@ time: "afternoon → night"
 location:
   - "Jasper's Apartment"
   - "The High Line"
-pov: "Jasper"
+pov: "Jasper (closing scene after the section break is a sanctioned feed excursion into Brenda — dramatic irony per §5)"
 characters_present:
   - "Jasper"
   - "Brenda Marquez (phone)"

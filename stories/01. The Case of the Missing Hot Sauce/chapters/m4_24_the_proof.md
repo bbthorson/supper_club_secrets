@@ -3,8 +3,8 @@ chapter: 24
 title: "The Proof"
 meal: 4
 beat: "Finale — Breakthrough"
-day: "Tuesday → Thursday"
-date: "2026-10-20 to 2026-10-22"
+day: "Tuesday"
+date: "2026-10-20"
 time: "Tuesday morning onward"
 location:
   - "Emma's Apartment"
@@ -48,7 +48,7 @@ The blogs kept folding, one cowardly retraction at a time. The commentator's "ju
 
 It was Oliver who broke the holding pattern, Tuesday morning, the way he broke most things — quietly, after everyone else had given up on the silence. He'd barely spoken since Saturday. He'd been reading, and building something, and now he turned his laptop around.
 
-"You can't out-shout a warehouse," he said. "I kept getting stuck there all weekend. But it's the wrong frame. We were never going to be louder than Pike, and we don't have to be." He took a breath, reaching for the version of himself that lived in the forums. "A warehouse only wins by being the only option on the menu. You beat it by giving people a *reason to choose otherwise* — and then getting out of their way."
+"You can't out-shout a warehouse," he said. "I kept getting stuck there all weekend. But it's the wrong frame. We were never going to be louder than Pike, and we don't have to be." He took a breath and settled into a register Emma had only glimpsed before — patient, sourced, certain of his ground. "A warehouse only wins by being the only option on the menu. You beat it by giving people a *reason to choose otherwise* — and then getting out of their way."
 
 On his screen was the thing he'd spent the weekend assembling: not a rebuttal *to* the commentator, but a toolkit *for* everyone else. Talking points, cited sources, pre-written answers to every counter-argument, all built so that a food blogger with a phone and an opinion could pick it up and sound airtight.
 
@@ -68,7 +68,7 @@ It was one of the most respected food critics in the country — three hundred t
 
 *"What's happening to this Brooklyn hot sauce vendor is not capitalism. It's a textbook case of predatory trademark trolling, designed to strangle the artisans who make our food culture worth anything. The cost of fighting back is the weapon — and it's being wielded by people who've conveniently forgotten they were once small, too."*
 
-"She used our words," Oliver said, and there was wonder in it — a man who'd spent years writing careful arguments in corners of the internet where no one knew his name, watching someone with real reach fire them at the world. "Our exact framing."
+"She used our words," Oliver said, and there was wonder in it. Emma thought of what he'd admitted to them — years of careful arguments written in corners of the internet where no one knew his name — and here was someone with real reach, firing them at the world. "Our exact framing."
 
 Noah spun his laptop around. The sentiment graph, a muddy gray-green swirl for days, had erupted — one post, requoted and screenshotted and reshared, each copy carrying Oliver's framework and Emma's story like a message in a hundred bottles.
 

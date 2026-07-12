@@ -19,4 +19,4 @@ first_appearance: "Book 1, Chapter 7"
 - Oliver handles bills and maintenance schedules; Olivia handles the social calendar
 - Transformed from a standard rental into something shelter-magazine-worthy using thrift finds and an unerring eye for color
 
-**Story Significance:** Where Oliver shows Olivia his LLC finding (Book 1, Ch. 7). Hosts the Meal 4 resolution dinner in Book 4.
+**Story Significance:** Where Oliver shows Olivia his LLC finding (Book 1, Ch. 7), and where Oliver and Elijah build the evidence press kit during the Ch. 17 prep montage (Olivia off-page for the session). Hosts the Meal 4 resolution dinner in Book 4.

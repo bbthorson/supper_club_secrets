@@ -36,7 +36,7 @@ threads:
 beat_purpose: "Open on the empty stall and Dorothy's 'just in case' bottle — the loss that makes the mystery personal, and the theme that a community protects its own."
 ---
 
-# Meal One
+## Meal One
 
 ### Chapter One - The Missing Hot Sauce
 
@@ -52,7 +52,7 @@ It had felt amazing for approximately twelve hours. Then the panic set in.
 
 Now, three weeks into freelance food writing and a vague plan to "build her brand" on Instagram, Emma was discovering that being your own boss mostly meant being broke and anxious. She had four article assignments due this month, a handful of private cooking lessons lined up, and a few other things she was trying to make work. It was just barely enough to cover rent—and only if she didn't think too hard about the math. Her savings account was doing that thing where the numbers got small enough that she'd stopped looking at them, the financial equivalent of closing your eyes on a roller coaster.
 
-What needled at her wasn't only the money. It was the distance between the woman who'd untied her apron like the heroine of some movie and the woman who now did quiet arithmetic in the grocery line. She'd made leaving look easy. She hadn't told anyone how fast easy had curdled into scared—how wide that gap had gotten, or how hard she worked to keep anyone from seeing it.
+The money needled at her less than the distance between the woman who'd untied her apron like the heroine of some movie and the woman who now did quiet arithmetic in the grocery line. She'd made leaving look easy. She hadn't told anyone how fast easy had curdled into scared—how wide that gap had gotten, or how hard she worked to keep anyone from seeing it.
 
 But today wasn't about survival. Today was about joy. She'd invited her closest friends over for dinner tonight—a test run of some seasonal recipes she could photograph for her portfolio. No pressure, no paying customers, just cooking for people she loved.
 
@@ -62,7 +62,7 @@ Emma pulled on jeans and a sweater, grabbed her reusable bags, and headed out in
 
 ---
 
-Williamsburg on a Sunday morning was quiet in that specific New York way—not actually quiet, but *relatively* quiet. The Saturday night crowd was still sleeping off their hangovers. The parents with strollers hadn't hit their stride yet. Even the brunch places were only just starting to set up their sidewalk tables, servers wiping down chairs with that half-awake efficiency that said they'd rather be literally anywhere else.
+Williamsburg on a Sunday morning was quiet in that specific New York way, which is to say *relatively* quiet. The Saturday night crowd was still sleeping off their hangovers. The parents with strollers hadn't hit their stride yet. Even the brunch places were only just starting to set up their sidewalk tables, servers wiping down chairs with that half-awake efficiency that said they'd rather be literally anywhere else.
 
 Emma walked the familiar route to the market, her sneakers scuffing the same cracked sidewalks she'd been walking for the better part of eight years. Three apartments in Williamsburg, all within a ten-minute radius of each other, like she was orbiting some invisible center of gravity she hadn't figured out yet. Her mind was already spinning with possibilities for tonight's menu. She'd been planning it for days, scribbling ideas on the backs of old receipts and in the margins of her article drafts—a habit she'd never been able to break, even when the head chef at Bistro Lavande told her that real chefs planned in their heads, not on scraps of paper like short-order cooks.
 
@@ -78,7 +78,7 @@ The market was already filling in when she arrived, nestled in the center of McG
 
 October had brought autumn's full inventory: glossy squash in shades of burnt orange and sage green, root vegetables still dusted with dirt and smelling of cold earth, bundles of herbs tied with twine that released little bursts of rosemary and thyme when you brushed past them. The apple stands were stacked high, their reds and golds catching the thin morning sunlight, and somewhere down the row a vendor's grill was sending up threads of smoke that mingled with the sharper smell of fresh-pressed cider. A guy on a Citi Bike rolled past the park entrance balancing a basketball on his head, and nobody even looked up. Sunday morning in Greenpoint.
 
-Emma took a deep breath and felt her shoulders drop half an inch. This was her church—the one place where her brain quieted down and her senses took over. Where she could pick up a butternut squash and know, just from the weight and the sound of her knuckle against its shell, whether it was worth bringing home.
+Emma took a deep breath and felt something in her chest unclench. This was her church—the one place where her brain quieted down and her senses took over. Where she could pick up a butternut squash and know, just from the weight and the sound of her knuckle against its shell, whether it was worth bringing home.
 
 She scanned the rows, looking for Hank's colorful setup. His stall was usually impossible to miss—bright red tablecloth, hand-painted signs in yellow and green, bottles arranged in precise pyramids that he rebuilt every Sunday morning with the care of someone stacking heirloom china.
 
@@ -100,7 +100,7 @@ Dorothy's hands paused on the honeycomb. "He seemed... off. Kept checking his ph
 
 "Gave it up?" Emma repeated. "Like, permanently?"
 
-"That's what it sounded like. I tried calling him. Went straight to voicemail." Dorothy reached under her table and pulled out a small bottle of deep red hot sauce. The glass was warm from being near the space heater under her table, and the sauce inside had that distinctive clarity—not the murky, mass-produced consistency of a supermarket brand, but something alive, with visible flecks of pepper suspended in a crimson medium.
+"That's what it sounded like. I tried calling him. Went straight to voicemail." Dorothy reached under her table and pulled out a small bottle of deep red hot sauce. The glass was warm from being near the space heater under her table, and the sauce inside had that distinctive clarity—something alive, with visible flecks of pepper suspended in a crimson medium, a world away from the murky consistency of a supermarket brand.
 
 "He gave me this," Dorothy said, turning it over in her hands. "Last time he was here. Said his great-grandmother would've wanted her peppers shared. Told me to keep it. 'Just in case.'"
 
@@ -138,7 +138,7 @@ She started with the butternut squash, halving it with a satisfying thunk and sc
 
 While those roasted, she turned to the apples. Honeycrisps from the stand near the entrance, their skin a blush of red and gold. She sliced them thin, the knife releasing that bright, slightly floral scent that only came from a truly good apple, and arranged them in overlapping circles in a cast-iron skillet. Brown sugar and butter between the layers, because some combinations were sacred and didn't need improving.
 
-The kitchen filled with warmth and the smell of browning butter and roasting vegetables, the sounds layering on top of each other: the low hiss of the oven, the occasional pop of caramelizing sugar, the muffled thump of bass from someone's speaker two floors up. Emma's shoulders dropped an inch. Then another. This was the thing no one told you about cooking: it wasn't just about feeding people. It was about finding a place where your hands knew what to do and your brain could finally shut up.
+The kitchen filled with warmth and the smell of browning butter and roasting vegetables, the sounds layering on top of each other: the low hiss of the oven, the occasional pop of caramelizing sugar, the muffled thump of bass from someone's speaker two floors up. Emma's shoulders dropped an inch. Then another. This was the thing no one told you about cooking—that it could give you a place where your hands knew what to do and your brain could finally shut up.
 
 She checked the squash—edges caramelizing perfectly, golden and slightly charred in the way that meant they'd dissolve into silk when she blended them—and started on the soup. Onions first, diced fine and sweated in olive oil until they turned translucent and sweet. Then garlic, ginger, a splash of coconut milk. The roasted squash went in last, blended until silky smooth.
 

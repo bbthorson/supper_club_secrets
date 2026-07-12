@@ -88,7 +88,7 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Calls Brenda Marquez (old acquaintance in commercial real estate) with the LLC number (Ch. 10)
 - Brenda tips off the mogul — Jasper inadvertently causes the C&D
 - Confesses to the group; admits he's always felt like "the liability" (Ch. 15)
-- Noah lashes out; Jasper is genuinely hurt — "I don't know any other way to be useful"
+- Noah lashes out; Jasper is genuinely hurt — "All I've got is knowing people. And I thought, for once, that would be enough."
 - The class fault line surfaces glancingly in the fracture: his comfortable Chelsea apartment marks him as the one person who can be cavalier about lost income, and it stings when the group notes it. The source of that cushion (old money) stays undisclosed — seeded, not spent, held for Book 6 (Ch. 15)
 - Assigned redemption mission: find Hank (Ch. 16)
 - Tracks Hank through the Fish Pepper connection — twenty-some phone calls to nurseries, drives out to Meadowlight Collective, ~2 hrs west of Philadelphia (Ch. 19–23)

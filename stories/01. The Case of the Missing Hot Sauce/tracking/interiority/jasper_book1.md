@@ -10,7 +10,7 @@ Of all six core characters, Jasper has the most active arc in Book 1 — he crea
 
 **The old money background.** Per canon, this is FULLY hidden in Book 1. No hints dropped — the Chelsea apartment is the only visible clue, and the text frames it as "surprisingly nice" without explanation. The reader shouldn't be able to guess the trust fund from Book 1 evidence alone. Don't seed.
 
-The other, surface-readable tension: Jasper presents as the chaos agent who connects unrelated things and complicates investigations. Underneath, he's afraid of being the *useless* one — the one who's good at being entertaining but bad at being effective. This fear isn't visible until Ch15. Then it's named directly: "I don't know any other way to be useful."
+The other, surface-readable tension: Jasper presents as the chaos agent who connects unrelated things and complicates investigations. Underneath, he's afraid of being the *useless* one — the one who's good at being entertaining but bad at being effective. This fear isn't visible until Ch15. Then it's named directly: "All I've got is knowing people. And I thought, for once, that would be enough."
 
 ## What cracks open
 
@@ -18,7 +18,7 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 
 **Ch12 → Ch13:** Triumphant at the dinner. Drives the Brenda reveal. Gets the validation. Doesn't see the warning text until morning. By then it's too late.
 
-**Ch14 → Ch15 (the confession):** The fight. Noah lashes out. Jasper does the reversal — goes quiet. Not the deflection chaos, not the "okay but hear me out" chaos. Actual quiet. "I don't know any other way to be useful." This is the deepest crack of the book. The chaos isn't identity, it's strategy — and the strategy just failed. He doesn't have a backup self.
+**Ch14 → Ch15 (the confession):** The fight. Noah lashes out. Jasper does the reversal — goes quiet. Not the deflection chaos, not the "okay but hear me out" chaos. Actual quiet. "All I've got is knowing people. And I thought, for once, that would be enough." This is the deepest crack of the book. The chaos isn't identity, it's strategy — and the strategy just failed. He doesn't have a backup self.
 
 **Ch16 mission:** "I know somebody." Plays it light, plays it like Jasper. The room feels what's underneath. He leaves. The mission is *redemption disguised as chaos* — he'll use his network and persistence to find Hank, but he reframes it as "knowing somebody" to keep the performance intact.
 
@@ -56,9 +56,9 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 |---------|-----------|
 | The competitive motive (Ch10, implicit) | Old money background — fully |
 | The Brenda relationship (Ch10, then Ch15 confession) | The specific contents of his 311 network — referenced, never detailed |
-| "I don't know any other way to be useful" (Ch15) | What he wants for himself outside performance |
+| "All I've got is knowing people. And I thought, for once, that would be enough" (Ch15) | What he wants for himself outside performance |
 | His chaos is rebellion against family (text says so in canon — Book 1 hints only via apartment) | The trust fund, the family wealth — completely off-page |
-| The ancient Subaru (Ch23) | His relationship with his family — never mentioned |
+| The rental Subaru (Ch23) | His relationship with his family — never mentioned |
 
 ## Risks and tells
 

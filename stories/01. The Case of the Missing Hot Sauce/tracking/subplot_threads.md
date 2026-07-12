@@ -10,7 +10,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
-| 1 | introduced | Hank's stall empty. Dorothy gives Emma the bottle. Hank's number → voicemail. | "He'd left it with her … just in case." |
+| 1 | introduced | Hank's stall empty. Dorothy gives Emma the bottle. Hank's number → voicemail. | "Told me to keep it. 'Just in case.'" (Dorothy) |
 | 2 | developing | Group tastes the sauce. Stakes become real. | Soup reveal scene |
 | 3 | developing | Marcus confirms Hank was "jittery"; Olivia glosses it as "like a man running from something." | Olivia's text exchange |
 | 4 | developing | Theory competition — each character offers a frame. Emma's "Big Hot Sauce" is closest to true. | Theory beats |
@@ -20,7 +20,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 9 | developing | Noah traces shell entities, finds patent filings on "shelf-stable capsicum-based flavor enhancers." | Corporate trace |
 | 10 | complicated | Jasper calls Brenda. Brenda recognizes LLC. **Inadvertent breach:** Brenda calls the mogul's people. | Phone call + missed warning text |
 | 11 | developing | Sofia tells Emma about Hank's "big offer to go legit" + Paolo precedent (same playbook). | Sofia conversation |
-| 12 | paid off (false victory) | Findings converge. The mogul identified structurally — "a restaurant mogul… no face yet." The name (Garrett Pike) lands in Ch13. | Dinner debrief |
+| 12 | paid off (false victory) | Findings converge. The mogul identified structurally — "We just don't have a face yet" (Elijah, Ch12); Sofia had called him "a restaurant guy who's been buying up properties" (Ch11). The name (Garrett Pike) lands in Ch13. | Dinner debrief |
 | 13 | complicated | Pike confronts Emma on-page; the economic squeeze + C&D land. The letter names no secrets. | Pike market confrontation (Ch13) |
 | 14 | developing | Group reads C&D. Elijah declares it "toothless" but acknowledges intimidation is real. | Emergency dinner |
 | 15 | complicated | Information flow traced back to Jasper's Brenda call. Group fractures briefly. | Jasper's confession |
@@ -29,7 +29,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 18 | developing | Campaign launches. First small blogs pick up. Hope. | Friday morning launch |
 | 20 | complicated | Counterpunch: conservative commentator, takedown notices, anonymous account traced. Doubt. | Ch20 (drafted) |
 | 24 | paid off | Oliver's rebuttal lands. Food critic picks up the story. Sentiment flips. Investors pull. C&D withdrawn. | Ch24 (drafted) |
-| 25 | paid off (final) | Hank returns. Filed proper trademark with pro bono lawyer. Bottle on the table. | "Already filed my stall application for next weekend." |
+| 25 | paid off (final) | Hank returns. Filed proper trademark with pro bono lawyer. Bottle on the table. | "So I filed the application this morning. Felt like a formality." |
 
 ---
 
@@ -40,7 +40,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
 | 1 | introduced (subtly) | Emma's financial precarity referenced. Savings "the financial equivalent of closing your eyes on a roller coaster." | "Financial equivalent of closing your eyes on a roller coaster" |
-| 5 | developing (subtly) | Hints at "the few other things" she's making work. Math she doesn't want to do. | Money-related glances |
+| 5 | developing (subtly) | Asks the group to take the entree — exhaustion she doesn't name: "the constant low-grade hum of uncertainty … her bank account was starting to agree." | "But can somebody else handle the entree?" |
 | 13 | complicated (sharply) | Pike's on-page confrontation + the squeeze land: cancelled clients, a killed article. The C&D names no secrets — but Emma can tell someone dug into her life. | Pike market confrontation (Ch13) |
 | 14 | paid off (interpersonal) | Emma privately confides in Olivia — not the account, but the precarity and the shame of the gap between her exit and her reality. Held, not fixed. | Kitchen confide scene (Ch14) |
 | 25 | resolved (private) | The squeeze lifts as Pike retreats; her instincts are vindicated. Secret stays opaque. "The fear didn't end when the threat did" reflection. | Ch25 reflection |
@@ -56,10 +56,10 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
 | 1 | introduced | Emma cooking again after three weeks out of the kitchen. Soup with the hot sauce as a found story. | "The soup had found its story." |
-| 5 | developing | Hosts the dinner. Centerstage. Comfortable in her kitchen. | Meal 1 hostess role |
-| 11 | developing | Investigates alone at McCarren. Pursues her instinct (Big Hot Sauce theory). | McCarren Park + Sofia |
-| 13 | complicated | Western PA dialect at its fullest under stress ("this needs fixed"; first flicker Ch2). Past failure resurfaces. | C&D reaction |
-| 14 | developing | Privately confides her precarity to Olivia. Vulnerability deepens their bond. | Kitchen confide |
+| 5 | developing | Hosts, but steps back — hands off the entree and asks for help, privately deflating over money math she doesn't want to do. | "But can somebody else handle the entree?" |
+| 11 | developing | Investigates alone at McCarren — restless, needing to "do something with her hands, not her phone" after a week of watching others contribute. (Her "It was Big Hot Sauce" vindication line lands in Ch12.) | McCarren Park + Sofia |
+| 13 | complicated | Western PA dialect at its fullest under stress ("this needs fixed"; first flicker Ch2) — surfaces during Pike's market confrontation; the C&D lands after, unwitnessed. | Pike confrontation (Ch13) |
+| 14 | developing | Privately confides her precarity to Olivia — the past failure (the gap between the apron-untying exit and the reality) resurfaces here. Vulnerability deepens their bond. | Kitchen confide |
 | 16 | developing | Identifies industry-petty food influencers — weaponizes the industry that broke her. | Swarm strategy contribution |
 | 18 | developing (setup) | Emma sidelined in the launch — watches the machine she armed. Deliberate setup, answered in Ch20. | Ch18 launch |
 | 20 | paid off (agency) | Stops watching: deploys her grudge map in her own words, baits the pettiest man in food media; his piece drops Sunday (Ch22 group-chat pulse) and carries the story through the dark weekend (Ch24). | Ch20 grudge-map beat |
@@ -86,8 +86,8 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 2 | introduced | Arrives first, claims daylight savings confusion. Performative chaos. | Opening |
 | 4 | developing | Aliens/CIA/Russians theory. Knocks wine. Pure chaos. | Theory competition |
 | 10 | complicated | Calls Brenda from a place of competitive itch (everyone else has contributed). The chaos has a motive: feeling left out. | "Watching the group chat all week" |
-| 15 | complicated (peak) | Confesses. "I don't know any other way to be useful." Noah lashes out. The reversal — Jasper goes quiet. | Confession + Noah fight |
-| 16 | developing | Assigned redemption mission: find Hank. Says he "knows somebody" — plays it light but the room feels what's underneath. | Mission assignment |
+| 15 | complicated (peak) | Confesses. "All I've got is knowing people. And I thought, for once, that would be enough." Noah lashes out. The reversal — Jasper goes quiet. | Confession + Noah fight |
+| 16 | developing | Assigned redemption mission: find Hank. "I know somebody" — quiet resolve: "no performance in it — just a man who owed his friends something he couldn't pay back with words." | Mission assignment |
 | 17 | complicated (planted twist) | Takes Dorothy's original bottle from Emma's counter on his way out. Doesn't tell her. Packs it for the PA journey. | Ch17 packing scene |
 | 19 | developing (road) | *From the road (Fri).* First night of nursery calls at a Route 30 diner. Dead ends; the loneliness under the performance surfaces alone. | Ch19 diner |
 | 21 | developing (road) | *From the road (Sat).* Noah turns his list into a pruned spreadsheet (conduit pattern forming); a seed supplier names a collective "out past the city." First real lead. | Ch21 drive-in |
@@ -132,10 +132,10 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 15 | complicated | Lashes out at Jasper. Genuine anger. | Fight |
 | 17 | developing | Builds VPN infrastructure overnight. Tech in service of analog goals. | Prep vignette |
 | 18 | developing | Uses food metaphor to explain distributed systems. "Don't get used to it." | Campaign launch |
-| 23 | developing (off-page) | Receives Jasper's individual texts during the PA search. Doesn't reply. Doesn't tell the group. The silence is participatory, not dismissive. | Ch23 Noah text exchange (off-page Noah side) |
+| 23 | developing (off-page) | Receives Jasper's individual texts during the PA search. Replies privately ("Send me what you've got," "On it," "Go get him. We'll hold the line here" — Ch19–22) but doesn't loop in the group. | Ch19–22 Jasper/Noah texts (off-page Noah side) |
 | 25 | paid off | Brings unwhipped butter. Apologizes to Jasper, explicitly naming the conduit pattern: "you kept texting *me* about it. Not the group — just me. I didn't know what to say back, so I didn't say anything." The shift now has on-page setup. | Final dinner |
 
-**Resolution (2026-07-11):** On-page setup exists — the Ch23 row above (participatory silence on Jasper's individual texts) plus Ch22's "Go get him. We'll hold the line here" reply give the Ch25 apology its internal landing. No added beat required.
+**Resolution (2026-07-11):** On-page setup exists — the Ch23 row above (private replies to Jasper's individual texts, never looped to the group) plus Ch22's "Go get him. We'll hold the line here" reply give the Ch25 apology its internal landing. No added beat required.
 
 ---
 
@@ -146,7 +146,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
 | 11 | introduced | Sofia tells Emma about Hank's "big offer to go legit" and Paolo precedent. | Cheese shop scene |
-| 13 | complicated | Emma texts Sofia with update. **No reply that day or the next.** | "No reply that day or the next" |
+| 13 | complicated | Emma texts Sofia a warm thank-you on Monday. Sofia **hadn't written back.** | "By Tuesday night the silence had a texture to it." |
 | 16 | developing | Group-level notice: Emma tells the group Sofia (and Dorothy) have gone quiet, and the room reads it as Pike's neighborhood reach. Pivots the corroboration plan to public records. | "Don't count on Sofia for that" |
 | 25 | **paid off (Book 1 scope)** | After Dorothy's reconciliation text, Emma texts Sofia; Sofia replies tersely — "Saturday. Come to the shop. Bring nothing." Reconnection made without duplicating Dorothy's full-apology beat. | Ch25 evening text exchange |
 
@@ -157,7 +157,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
 | 1 | introduced | Gives Emma the bottle. "Just in case." | Market scene |
-| 12 | complicated (seed) | Sunday morning at McGolrick — brisk, distracted with a customer Emma doesn't recognize. Reads as "she's busy" to Emma in the moment. Reader registers the customer's out-of-place coat. | "Dorothy's smile was the practiced kind…" (revised Ch12) |
+| 12 | complicated (seed) | Sunday morning at McGolrick — brisk, distracted with a customer Emma doesn't recognize. Reads as "she's busy" to Emma in the moment. Reader registers the customer's out-of-place coat — reinforcement of the Ch1 well-dressed-man seed (Ch13's recognition beat ties back to Ch1, not to this sighting). | "Dorothy's smile was the practiced kind…" (revised Ch12) |
 | 13 | complicated (silence) | Emma texts Dorothy after walking past the closed Wednesday market. No read receipt. Joins Sofia's silence as paired intimidation signal. | "The message delivered. The read receipt didn't come." (revised Ch13) |
 | 25 | paid off | Dorothy texts Emma morning of Ch25 explaining the intimidation, apologizing for the silence, committing to a honey delivery next week. Emma replies with an open invitation. | "There was a man at McGolrick that Sunday, and again on Tuesday…" (Ch25 morning prep) |
 
@@ -192,7 +192,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 |----|--------|--------------|----------------|
 | 1 | introduced (by absence) | The empty stall. Dorothy's account. Phone goes to voicemail. | |
 | 23 | introduced (in person) | Found at Meadowlight greenhouse. Agrees to come to dinner. | |
-| 25 | paid off (return) | Tells full story. Pro bono lawyer. Stall application for next weekend. | |
+| 25 | paid off (return) | Tells full story. Pro bono lawyer. Filed the stall application that morning. | |
 | 23 → 25 | paid off (motivated) | Hank's reckoning anchored on the bottle. In Ch23, Jasper produces the bottle Dorothy gave Emma — proof the sauce has already done what it was for. In Ch25, Hank explicitly cites the bottle as what changed his mind: "I'd already given the bottle away — I just hadn't lived with what that meant. Just in case. Turns out the case was you all." | Ch23 greenhouse + Ch25 storytelling |
 
 **Resolution (2026-07-11):** Implemented — the "23 → 25 paid off (motivated)" row above documents it: the greenhouse reckoning anchored on the bottle (Ch23), named again by Hank himself in Ch25 ("I'd already given the bottle away — I just hadn't lived with what that meant").
@@ -208,7 +208,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | Sofia's shop vulnerability | Seeded | Ch11 (Paolo precedent applies to all small vendors) | Book 2 |
 | Elijah's family compound dream | Intentionally not seeded (2026-05-23: "don't add more Elijah family beats") — introduced fresh in Book 3 | — | Book 3 |
 | Olivia's anxiety about Oliver | Lightly seeded | Ch7, Ch14 | Book 4 |
-| Noah's sneaker collection | Seeded | Ch9 (closet detail); a different pair each dinner, forest green at the final meal (Ch25) | Book 5 |
+| Noah's sneaker collection | Lightly seeded (single beat) | Ch25 only (forest green pair, "different again") — the earlier Ch9 closet detail is no longer in the prose | Book 5 |
 | Jasper's old money | NOT seeded per continuity.md — the Chelsea apartment is the only visible clue | — | Book 6 |
 | Pike's continued presence | Seeded | Antagonist doc — "still out there, still building, still certain he's the good guy" | Recurring; possible Book 6 reappearance |
 
@@ -226,7 +226,7 @@ This is the dropped-thread early warning system. Every thread above with ⚠ fla
 | Emma's secret & precarity | **resolved (direction change)** | Secret stays opaque in Book 1 — never named, reveal deferred to a later book (decided 2026-06-15). On-page vulnerability is the economic squeeze + the private Olivia confide; the squeeze visibly lifts as Pike retreats. Ch25 carries the light "fear didn't end when the threat did" reflection. |
 | Emma sidelined in Meal 4 | **resolved (2026-07-11)** | Ch20 grudge-map agency beat — Emma stops watching, deploys the grudge map in her own words, bait a Pike-hating food writer; the piece drops Sunday and carries the story through the dark weekend. |
 | Elijah's family financial weight | **resolved (intentional ambient texture)** | Author decision 2026-05-23: no Book 1 payoff. Existing Ch8/Ch14 seeds stay as background pressure. Full arc in Book 3. |
-| Noah's reconciliation with Jasper | **resolved** | Ch23 establishes conduit pattern (Jasper texts Noah individually, Noah doesn't reply but participates). Ch25 apology now names the pattern explicitly. |
+| Noah's reconciliation with Jasper | **resolved** | Ch19–23 establish conduit pattern (Jasper texts Noah individually; Noah replies privately but doesn't loop in the group). Ch25 apology now names the pattern explicitly. |
 | Oliver carrying his Ch15 emergence | **resolved (small dose)** | Ch25: "I'll go first" — volunteers to host next Sunday. Takes notes on Jasper's Red Hook theory. The Ch15 emergence carries forward as small choices. |
 | Jasper's chaos in Ch25 | **resolved (marked as earned)** | The bottle theft + return, the conduit ownership with Noah, and the bridge into the Red Hook theory establish the performance as choice rather than armor. |
 | Hank's decision to return | **resolved** | Anchored on the bottle in both Ch23 and Ch25 ("turns out the case was you all"). |
@@ -245,7 +245,7 @@ This is the dropped-thread early warning system. Every thread above with ⚠ fla
 | 5, 12 | developing | The bottle remains on Emma's counter — visible touchstone across Meals 1–2. | Repeated visual anchor |
 | 17 | complicated (planted) | Jasper palms the bottle from Emma's counter on his way out of the emergency dinner. Packs it for the PA journey. | Packing scene |
 | 23 | developing | Carries it to Meadowlight. Shows it to Hank in the greenhouse as proof the sauce has already lived elsewhere. | Greenhouse |
-| 25 | paid off (return) | Jasper returns the bottle to Emma with an apology. Emma sets it back on the counter where it lived. Hank uncaps it later in the meal and pours it over the soup. The bottle's full arc closes where it started. | Ch25 |
+| 25 | paid off (return) | Jasper returns the bottle to Emma with an apology. Emma sets it back on the counter where it lived. Hank uncaps it later in the meal and passes it to Emma, who drizzles it over the last bowl of squash soup. The bottle's full arc closes where it started. | Ch25 |
 
 **Action needed:** None. Thread is closed.
 

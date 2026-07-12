@@ -180,7 +180,7 @@ He described the offer from the restaurant group—a painfully low sum, not for 
 
 He paused.
 
-"And maybe it would have. Sometimes things end, and the only honest thing is to let them. I tended the peppers at Meadowlight. I told myself I'd made the right call. Most days I almost believed it." His eyes flicked to the bottle on the counter, then back to Emma. "Then Jasper showed up with that. The bottle I'd given Dorothy three weeks before. My grandmother used to say a recipe wasn't yours until other people had it. I'd already given the bottle away — I just hadn't lived with what that meant. *Just in case.* Turns out the case was you all."
+"And maybe it would have. Sometimes things end, and the only honest thing is to let them. I tended the peppers at Meadowlight. I told myself I'd made the right call. Most days I almost believed it." His eyes flicked to the bottle on the counter, then back to Emma. "Then Jasper showed up with that. The bottle I'd given Dorothy nearly a month before. My grandmother used to say a recipe wasn't yours until other people had it. I'd already given the bottle away — I just hadn't lived with what that meant. *Just in case.* Turns out the case was you all."
 
 "But then this one showed up," Hank said, nodding at Jasper with a warmth that made Jasper duck his head. "Drove four hours to tell me I'd won a fight I didn't even know was happening."
 
