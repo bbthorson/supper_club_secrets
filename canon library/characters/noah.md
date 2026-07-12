@@ -3,6 +3,8 @@ type: Character
 title: "Noah"
 id: char.noah
 status: active
+personaPublic: "The engineer — confident and jargon-first, convinced most problems have a clean technical fix. Owns exactly one kind of t-shirt and will tell you why."
+keyContradiction: "A devout minimalist who evangelizes simplicity in all things."
 ---
 
 # Noah

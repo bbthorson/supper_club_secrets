@@ -348,20 +348,36 @@ CHAR_FILE_BY_ID = {
 }
 
 
+def char_reader_fields(path):
+    """Reader-safe curated fields from a character file's frontmatter
+    (personaPublic, keyContradiction). Authored, not derived — the curation the
+    lexicon reserved slots for (ARCHITECTURE.md §6.1). Absent → None."""
+    data = {"personaPublic": None, "keyContradiction": None}
+    for line in read_frontmatter_lines(path):
+        m = re.match(r"^(\w+):\s*(.*)$", line)
+        if m and m.group(1) in data:
+            v = unquote(m.group(2).strip())
+            data[m.group(1)] = v or None
+    return data
+
+
 def extract_profiles():
     profiles = []
     for cid, rel in CHAR_FILE_BY_ID.items():
         path = os.path.join(ROOT, rel)
         one = first_heading_oneline(path)
+        reader = char_reader_fields(path)
         rec = {
             "$type": f"{NS}.character.profile",
             "id": f"profile.{cid.split('.',1)[1]}",
             "subject": cid,
             "displayName": DISPLAY.get(cid, cid),
             "oneLine": one,
+            # curated reader-safe persona (frontmatter); antagonist file carries
+            # none, so these stay null there.
+            "personaPublic": reader["personaPublic"],
+            "keyContradiction": reader["keyContradiction"],
             "sourceFile": rel,
-            # personaPublic / keyContradiction are interpretive; left for a
-            # curated pass on which facts are reader-safe (ARCHITECTURE §6.1).
         }
         profiles.append(rec)
     return profiles

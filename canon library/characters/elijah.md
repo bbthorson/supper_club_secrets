@@ -3,6 +3,8 @@ type: Character
 title: "Elijah Miller"
 id: char.elijah
 status: active
+personaPublic: "The group's analyst — economical, precise, keeps his own counsel. A dry wit surfaces once he trusts the room."
+keyContradiction: "A risk-averse pragmatist, focused on what's stable and sensible."
 ---
 
 # Elijah Miller

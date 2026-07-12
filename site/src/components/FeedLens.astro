@@ -8,18 +8,36 @@ interface Props {
   title: string;
   subtitle?: string;
   eyebrow: string;
+  /** Suppress the poster intro — for embedding under an existing page header
+   *  (e.g. a character hub). A compact "Their thread" label is shown instead. */
+  bare?: boolean;
+  /** Label for the compact header in bare mode. */
+  threadLabel?: string;
 }
-const { kind, entityId, title, subtitle, eyebrow } = Astro.props;
+const { kind, entityId, title, subtitle, eyebrow, bare = false, threadLabel = 'Their thread' } =
+  Astro.props;
 import '../styles/lens.css';
 ---
 
 <section class="feed" data-feed data-feed-kind={kind} data-feed-id={entityId}>
-  <div class="feed-intro">
-    <p class="eyebrow scs-label">{eyebrow}</p>
-    <h1 class="feed-title scs-poster">{title}</h1>
-    {subtitle && <p class="feed-sub scs-romance">{subtitle}</p>}
-    <p class="feed-note scs-label" data-feed-note></p>
-  </div>
+  {
+    bare ? (
+      <div class="feed-barehead">
+        <div class="course-head">
+          <span class="course-label scs-label">{threadLabel}</span>
+          <span class="scs-leader" aria-hidden="true" />
+        </div>
+        <p class="feed-note scs-label" data-feed-note />
+      </div>
+    ) : (
+      <div class="feed-intro">
+        <p class="eyebrow scs-label">{eyebrow}</p>
+        <h1 class="feed-title scs-poster">{title}</h1>
+        {subtitle && <p class="feed-sub scs-romance">{subtitle}</p>}
+        <p class="feed-note scs-label" data-feed-note />
+      </div>
+    )
+  }
 
   <div data-feed-list>
     <p class="feed-empty scs-label">Loading what you've read…</p>

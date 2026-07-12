@@ -47,6 +47,9 @@ interface PlaceRec {
 interface ProfileRec {
   subject: string;
   displayName: string;
+  oneLine?: string | null;
+  personaPublic?: string | null;
+  keyContradiction?: string | null;
 }
 interface CustodyRec {
   item: string;
@@ -284,16 +287,80 @@ export function placeListings(): PlaceListing[] {
 export interface CharListing extends NamedRef {
   firstChapter: number;
 }
+
+// char id -> first chapter they participate in a scene.
+const charFirstChapter = new Map<string, number>();
+for (const s of scenes) {
+  const ch = sceneChapter(s);
+  for (const id of s.participants ?? []) {
+    if (!charFirstChapter.has(id) || ch < charFirstChapter.get(id)!) charFirstChapter.set(id, ch);
+  }
+}
+
 /** Characters that participate in ≥1 scene, with their first-appearance chapter. */
 export function charListings(): CharListing[] {
-  const first = new Map<string, number>();
-  for (const s of scenes) {
-    const ch = sceneChapter(s);
-    for (const id of s.participants ?? []) {
-      if (!first.has(id) || ch < first.get(id)!) first.set(id, ch);
-    }
-  }
-  return [...first.entries()]
+  return [...charFirstChapter.entries()]
     .map(([id, firstChapter]) => ({ id, name: charName(id), firstChapter }))
     .sort((a, b) => a.firstChapter - b.firstChapter || a.name.localeCompare(b.name));
+}
+
+/* ---- character profiles (curated, reader-safe identity) ---- */
+
+// The antagonist has a profile record (for his gated hub) but is kept off the
+// public roster — a villain roster entry would spoil.
+const ANTAGONIST = 'char.garrett-pike';
+
+export interface Profile extends NamedRef {
+  oneLine: string | null;
+  personaPublic: string | null;
+  keyContradiction: string | null;
+  firstChapter: number;
+}
+function toProfile(p: ProfileRec): Profile {
+  return {
+    id: p.subject,
+    name: p.displayName,
+    oneLine: p.oneLine ?? null,
+    personaPublic: p.personaPublic ?? null,
+    keyContradiction: p.keyContradiction ?? null,
+    firstChapter: charFirstChapter.get(p.subject) ?? 0,
+  };
+}
+
+/** Every profiled character id (incl. the antagonist) — for getStaticPaths so
+ *  the hub page resolves even for those off the roster. */
+export function allProfileIds(): string[] {
+  return profiles.map((p) => p.subject.replace('char.', ''));
+}
+
+export function profileById(charId: string): Profile | undefined {
+  const p = profiles.find((r) => r.subject === charId);
+  return p ? toProfile(p) : undefined;
+}
+
+/** The public roster — club members only (antagonist excluded), in reading order. */
+export function profileListings(): Profile[] {
+  return profiles
+    .filter((p) => p.subject !== ANTAGONIST)
+    .map(toProfile)
+    .sort((a, b) => a.firstChapter - b.firstChapter || a.name.localeCompare(b.name));
+}
+
+export interface CharacterHub {
+  slug: string;
+  id: string;
+  name: string;
+  profile: Profile | undefined; // curated persona, only for profiled characters
+}
+/** Every character that needs a hub page: anyone who participates in a scene
+ *  (they get chip-linked from the lenses) plus anyone profiled. Non-profiled
+ *  minor characters get a name + their gated thread, no persona. */
+export function characterHubs(): CharacterHub[] {
+  const ids = new Set<string>([...charFirstChapter.keys(), ...profiles.map((p) => p.subject)]);
+  return [...ids].map((id) => ({
+    slug: id.replace('char.', ''),
+    id,
+    name: charName(id),
+    profile: profileById(id),
+  }));
 }
