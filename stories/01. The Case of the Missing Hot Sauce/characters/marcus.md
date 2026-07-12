@@ -52,5 +52,5 @@ Marcus doesn't have a traditional arc — he's a supporting character who serves
 
 ## Lore Tracking (Book 1)
 * First mentioned: Chapter 3 (Olivia texts "a boutique owner" during dinner — this is Marcus, though not named yet)
-* First named appearance: Chapter 8 ("Gathering the Ingredients") — Olivia visits The Gilded Fern
-* Referenced: Chapter 10 (gives Olivia a discount on flowers/candles), Chapter 13 (asks if they've cracked the case), Chapter 25 (discount on goat cheese, calls them heroes)
+* First named/in-person appearance: Chapter 7 ("Gathering the Ingredients") — Olivia visits The Gilded Fern; Marcus says Hank was "like a man running from something"
+* Referenced: Chapter 25 (goat-cheese discount, "Tell your badass friends they're local heroes")

@@ -29,7 +29,7 @@ registers:
 clues:
   planted: []
   revealed:
-    - "Marcus: Hank was 'jittery, like a man running from something' (Connective)"
+    - "Marcus: Hank was 'jittery' — Olivia's gloss: 'like a man running from something' (Connective)"
 threads:
   active:
     - "Main mystery: idle concern becomes genuine intrigue"

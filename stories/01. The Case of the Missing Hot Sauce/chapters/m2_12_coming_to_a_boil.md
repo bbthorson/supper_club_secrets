@@ -25,7 +25,7 @@ registers:
   Noah: "private (the patents discovery)"
   Oliver: "private (more present than usual; lets Elijah lead)"
   Olivia: "public (opens the dinner: 'We all saw the group chat. Who's got more?')"
-  Jasper: "private (the Brenda reveal — triumphant; doesn't see her 11pm warning text)"
+  Jasper: "private (the Brenda reveal — triumphant; doesn't see her third-since-Friday text until Monday)"
   Dorothy: "public (closed-with-customer — brisk; reads as 'busy' to Emma)"
 clues:
   planted:
@@ -83,7 +83,7 @@ Jasper took a dramatic sip, completely unfazed. "My friend, I provide social liq
 
 "Celebration of what?" Elijah asked.
 
-Jasper just smiled. He was sitting on a secret, and it was taking every ounce of his limited self-control not to blurt it out immediately. But he'd planned this. He was going to wait for the right moment—the dramatic beat, the narrative crescendo. For once, he was going to be patient.
+Jasper just smiled — the wide, barely-contained smile of a man sitting on a secret and spending every ounce of his limited self-control not blurting it out. He was visibly waiting for something: the right moment, the dramatic beat, the narrative crescendo. For once, it seemed, he was going to be patient.
 
 The group settled into their usual spots, the food spread across every available surface in Emma's kitchen—the counter, the cutting board balanced on the stove, a wooden board that Emma used for serving and also, occasionally, as a lap desk. They ate in waves, the way you do at a potluck—small plates first, then bigger servings, then seconds of the things that surprised them. Oliver's stew was the dark horse: dense, complex, with layers of flavor that revealed themselves slowly, the barley giving each spoonful a satisfying chew. Emma watched her friends eat and felt something loosen in her chest. This was why she cooked. Not the technique, not the plating, not the Instagram photo she'd take later. This—the sound of people she loved making small, involuntary noises of satisfaction. Elijah's quiet "hmm" when he tried the polenta. Olivia's theatrical moan over the stew. Even Noah's grudging nod about the apple crumble, delivered with the air of a man conceding a point in a debate he'd been winning.
 

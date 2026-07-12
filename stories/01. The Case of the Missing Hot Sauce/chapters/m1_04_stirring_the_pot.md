@@ -69,7 +69,7 @@ Oliver went to the kitchen, shoulders slumped. "You got this," yelled Olivia.
 
 "Boo!" Noah yelled.
 
-Oliver blinked. He was clearly wrestling with himself—the part of him that found speculation undignified versus the part that had been quietly thinking about this for the last two hours. "But, if we must speculate," he sighed, "I suppose it's possible his online popularity led him to relocate to a state with a more favorable tax code."
+Oliver blinked. He was clearly wrestling with himself—the part of him that found speculation undignified versus, apparently, some part that had been chewing on the question all evening. "But, if we must speculate," he sighed, "I suppose it's possible his online popularity led him to relocate to a state with a more favorable tax code."
 
 "Except I already texted that shop owner and got the name of his hot sauce, and it's not for sale anywhere online," Olivia said, clearly tired of Oliver not cooperating.
 
@@ -91,7 +91,7 @@ Emma positioned herself under the fluorescent light and placed both hands on the
 
 "They saw Hank's artisanal, small-batch hot sauce as a rising threat," Emma declared, her voice rising with each word. "They knew his secret family recipe was too good, too authentic, too real. So they did what they always do—they crushed him. Bought him out, silenced him, maybe even... disappeared him." She paused dramatically, eyes wide. "Think about it. Have you seen Hank since last week? Exactly."
 
-"Well, to be honest, literally none of us have ever met Hank, so no," Oliver uncharacteristically interjected from the loveseat. He smirked; across the room, Olivia was beaming at him. It was possibly the best-timed joke he'd ever made in this group, and he looked both pleased and slightly alarmed by it.
+"Well, to be honest, literally none of us have ever met Hank, so no," Oliver uncharacteristically interjected from the loveseat. He smirked; across the room, Olivia was beaming at him. It was possibly the best-timed joke Emma had ever heard him land in this group, and he looked both pleased and slightly alarmed by it.
 
 "You know what I mean, Ollie!" Emma said, resting her case. "Elijah knows I'm right. He'll see the truth." She took a small bow and leaned back against the counter, feeling lighter than she had all day. There was something satisfying about giving a name to the shapeless unease she'd been carrying around since the market. Big Hot Sauce. It sounded ridiculous. But it also sounded, in a way she couldn't explain, exactly right.
 

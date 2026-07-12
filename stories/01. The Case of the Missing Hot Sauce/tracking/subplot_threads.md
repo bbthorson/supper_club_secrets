@@ -12,7 +12,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 |----|--------|--------------|----------------|
 | 1 | introduced | Hank's stall empty. Dorothy gives Emma the bottle. Hank's number → voicemail. | "He'd left it with her … just in case." |
 | 2 | developing | Group tastes the sauce. Stakes become real. | Soup reveal scene |
-| 3 | developing | Marcus confirms Hank was "jittery, like a man running from something." | Olivia's text exchange |
+| 3 | developing | Marcus confirms Hank was "jittery"; Olivia glosses it as "like a man running from something." | Olivia's text exchange |
 | 4 | developing | Theory competition — each character offers a frame. Emma's "Big Hot Sauce" is closest to true. | Theory beats |
 | 6 | complicated | Oliver discovers anonymous LLC #2847 filed Oct 2, two days after stall surrender. | "Filed on October 2nd—exactly two days after Hank had given up his stall" |
 | 7 | developing | Marcus details deepen — Hank pulled inventory back, acting like he was being watched. | Olivia at The Gilded Fern |
@@ -58,7 +58,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 1 | introduced | Emma cooking again after three weeks out of the kitchen. Soup with the hot sauce as a found story. | "The soup had found its story." |
 | 5 | developing | Hosts the dinner. Centerstage. Comfortable in her kitchen. | Meal 1 hostess role |
 | 11 | developing | Investigates alone at McCarren. Pursues her instinct (Big Hot Sauce theory). | McCarren Park + Sofia |
-| 13 | complicated | Western PA dialect surfaces under stress ("this needs fixed"). Past failure resurfaces. | C&D reaction |
+| 13 | complicated | Western PA dialect at its fullest under stress ("this needs fixed"; first flicker Ch2). Past failure resurfaces. | C&D reaction |
 | 14 | developing | Privately confides her precarity to Olivia. Vulnerability deepens their bond. | Kitchen confide |
 | 16 | developing | Identifies industry-petty food influencers — weaponizes the industry that broke her. | Swarm strategy contribution |
 | 18 | developing (setup) | Emma sidelined in the launch — watches the machine she armed. Deliberate setup, answered in Ch20. | Ch18 launch |
@@ -71,13 +71,13 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
-| 8 | introduced | Mother texts about sister's car repair during financial model build. | "His mother texts him during the investigation about his sister's car situation" |
-| 14 | developing | Takes work call mid-emergency dinner. "Jaw tightens." Sister needs money for repair. | "It doesn't matter right now" |
-| (none in Book 1) | **intentional ambient texture** | The Ch8 mother text and Ch14 work call stay as background pressure with no Book 1 payoff. The thread is explicitly carried to Book 3. | Author decision 2026-05-23 |
+| 8 | introduced (glancing) | No mother text on the page — just the joke, "That's what my mother says. Usually before asking for money," in response to Olivia's "You're the best, Elijah." Family weight is a wisecrack here, not a beat. | "That's what my mother says. Usually before asking for money." |
+| 14 | developing | Takes work call mid-emergency dinner. "Jaw tightens." Sister's car broke down; needs money for repair. The explicit family beat is Ch14 only. | "It doesn't matter right now" |
+| (none in Book 1) | **intentional ambient texture** | The Ch8 joke-line and Ch14 work call stay as background pressure with no Book 1 payoff. The thread is explicitly carried to Book 3. | Author decision 2026-05-23 |
 
 **Resolution applied 2026-05-23:** Per author direction, this is NOT a dropped thread — it's intentional ambient texture. Elijah carries family financial weight as chronic background load that the reader feels but the book doesn't resolve. Book 3 (Elijah's focal book) is where the family weight pays off — credit union being asset-stripped + Dorothy's loan crisis mirror Elijah's own family precarity. See `canon library/series_plan.md` → Book 3.
 
-**Read for the editor:** Don't add more Elijah family beats in Book 1. The existing two (Ch8, Ch14) are enough. Resist the temptation to "pay it off" — the payoff is Book 3.
+**Read for the editor:** Don't add more Elijah family beats in Book 1. The Ch8 joke-line is ambient texture, not a family beat; the one explicit family beat is Ch14. Resist the temptation to "pay it off" — the payoff is Book 3.
 
 ### Jasper — From chaos to strategic redemption
 
@@ -180,8 +180,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
-| 10 | introduced | Jasper's call. Recognizes LLC. Warns Jasper. | Phone scene |
-| 12 | complicated (off-page) | She called the mogul's people. Source of the breach. | (implied) |
+| 10 | complicated | Jasper's call. Recognizes LLC. Warns Jasper. Late that night, calls the mogul's people — the breach, dramatized on-page after the scene break. Source of the breach. | Phone scene + Ch10 breach beat |
 | 15 | complicated | Jasper confesses she was his contact. Strained relationship. | Confession |
 | 25 | **⚠ NOT PAID OFF** | Brenda never reappears. Jasper's strained relationship with her is unresolved. | — |
 
@@ -223,9 +222,9 @@ This is the dropped-thread early warning system. Every thread above with ⚠ fla
 
 | Thread | Status | Resolution |
 |--------|--------|------------|
-| Sofia's silence | **still open** | Plant noticed-silence in Ch15-16 (pending). Hint reconnection in Ch25 (pending — open question whether to do this here or hold for Book 2 ramp). Payoff in Book 2. |
+| Sofia's silence | **resolved (2026-07-11)** | Noticed-silence planted in Ch16; terse reconnection text in Ch25. The Saturday shop visit is the Book 2 doorway. |
 | Emma's secret & precarity | **resolved (direction change)** | Secret stays opaque in Book 1 — never named, reveal deferred to a later book (decided 2026-06-15). On-page vulnerability is the economic squeeze + the private Olivia confide; the squeeze visibly lifts as Pike retreats. Ch25 carries the light "fear didn't end when the threat did" reflection. |
-| Emma sidelined in Meal 4 | **still open** | Recommend: one active beat in Ch18, Ch20, or Ch24 where Emma deploys or reacts. Pending. |
+| Emma sidelined in Meal 4 | **resolved (2026-07-11)** | Ch20 grudge-map agency beat — Emma stops watching, deploys the grudge map in her own words, bait a Pike-hating food writer; the piece drops Sunday and carries the story through the dark weekend. |
 | Elijah's family financial weight | **resolved (intentional ambient texture)** | Author decision 2026-05-23: no Book 1 payoff. Existing Ch8/Ch14 seeds stay as background pressure. Full arc in Book 3. |
 | Noah's reconciliation with Jasper | **resolved** | Ch23 establishes conduit pattern (Jasper texts Noah individually, Noah doesn't reply but participates). Ch25 apology now names the pattern explicitly. |
 | Oliver carrying his Ch15 emergence | **resolved (small dose)** | Ch25: "I'll go first" — volunteers to host next Sunday. Takes notes on Jasper's Red Hook theory. The Ch15 emergence carries forward as small choices. |

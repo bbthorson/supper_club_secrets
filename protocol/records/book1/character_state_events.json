@@ -114,7 +114,7 @@
     "subject": "char.elijah",
     "storyDate": "2026-10-14",
     "register": "private",
-    "state": "private (asks the right questions to surface the leak)",
+    "state": "private (pragmatic resignation — 'maybe the smart thing is to stop'; 'we all make mistakes')",
     "chapterRef": "book.1#ch15",
     "sceneRef": "scene.book1.ch15",
     "createdAt": "2026-10-14",
@@ -156,8 +156,7 @@
     "chapterRef": "book.1#ch18",
     "sceneRef": "scene.book1.ch18",
     "createdAt": "2026-10-16",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
-    "storyDateEnd": "2026-10-17"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -358,8 +357,7 @@
     "chapterRef": "book.1#ch18",
     "sceneRef": "scene.book1.ch18",
     "createdAt": "2026-10-16",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
-    "storyDateEnd": "2026-10-17"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -503,7 +501,7 @@
     "subject": "char.jasper",
     "storyDate": "2026-10-11",
     "register": "private",
-    "state": "private (the Brenda reveal — triumphant; doesn't see her 11pm warning text)",
+    "state": "private (the Brenda reveal — triumphant; doesn't see her third-since-Friday text until Monday)",
     "chapterRef": "book.1#ch12",
     "sceneRef": "scene.book1.ch12",
     "createdAt": "2026-10-11",
@@ -722,7 +720,7 @@
     "subject": "char.noah",
     "storyDate": "2026-10-14",
     "register": "under-pressure",
-    "state": "under-pressure (anger — lashes out at Jasper)",
+    "state": "under-pressure (anger — asks the right questions to surface the leak, then lashes out at Jasper)",
     "chapterRef": "book.1#ch15",
     "sceneRef": "scene.book1.ch15",
     "createdAt": "2026-10-14",
@@ -764,8 +762,7 @@
     "chapterRef": "book.1#ch18",
     "sceneRef": "scene.book1.ch18",
     "createdAt": "2026-10-16",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
-    "storyDateEnd": "2026-10-17"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -950,8 +947,7 @@
     "chapterRef": "book.1#ch18",
     "sceneRef": "scene.book1.ch18",
     "createdAt": "2026-10-16",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
-    "storyDateEnd": "2026-10-17"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -1147,8 +1143,7 @@
     "chapterRef": "book.1#ch18",
     "sceneRef": "scene.book1.ch18",
     "createdAt": "2026-10-16",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
-    "storyDateEnd": "2026-10-17"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",

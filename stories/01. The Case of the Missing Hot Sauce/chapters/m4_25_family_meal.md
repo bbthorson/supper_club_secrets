@@ -162,7 +162,7 @@ Then Noah walked over, hands in his pockets.
 
 Jasper blinked, clearly not expecting this. "Noah, you don't have to—"
 
-"Yeah, I do," Noah interrupted. "Because you drove three hours to find him. And you kept texting *me* about it. Not the group — just me." He paused. "I didn't know what to say back, so I didn't say anything. Which, for the record, is the same thing I was mad at you for doing the other night. So." Another pause. "I'm sorry twice." A rare, awkward smile crossed his face — the kind of smile that cost him something to produce. "What you did wasn't chaos. That's exactly what you're good at. Connecting people. Even when it's messy."
+"Yeah, I do," Noah interrupted. "Because you drove four hours to find him. And you kept texting *me* about it. Not the group — just me." He paused. "I didn't know what to say back, so I didn't say anything. Which, for the record, is the same thing I was mad at you for doing the other night. So." Another pause. "I'm sorry twice." A rare, awkward smile crossed his face — the kind of smile that cost him something to produce. "What you did wasn't chaos. That's exactly what you're good at. Connecting people. Even when it's messy."
 
 Jasper's eyes went a little bright. "Thanks, man. And — I figured if I texted the group I'd get five opinions on a hotel reservation. I needed one person who wouldn't try to fix it." He looked down at his glass. "I texted Brenda when the C&D got withdrawn. Just to say I was sorry, mostly. She hasn't replied. I don't think she's going to." A small shrug, an honest one. "I get it. Some bridges you don't get to fix on your own timeline."
 
@@ -182,7 +182,7 @@ He paused.
 
 "And maybe it would have. Sometimes things end, and the only honest thing is to let them. I tended the peppers at Meadowlight. I told myself I'd made the right call. Most days I almost believed it." His eyes flicked to the bottle on the counter, then back to Emma. "Then Jasper showed up with that. The bottle I'd given Dorothy three weeks before. My grandmother used to say a recipe wasn't yours until other people had it. I'd already given the bottle away — I just hadn't lived with what that meant. *Just in case.* Turns out the case was you all."
 
-"But then this one showed up," Hank said, nodding at Jasper with a warmth that made Jasper duck his head. "Drove three hours to tell me I'd won a fight I didn't even know was happening."
+"But then this one showed up," Hank said, nodding at Jasper with a warmth that made Jasper duck his head. "Drove four hours to tell me I'd won a fight I didn't even know was happening."
 
 "We didn't win alone," Jasper said quickly. "Oliver figured out the whole strategy—"
 
