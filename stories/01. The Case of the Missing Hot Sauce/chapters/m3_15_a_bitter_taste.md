@@ -22,7 +22,7 @@ registers:
   Noah: "under-pressure (anger — asks the right questions to surface the leak, then lashes out at Jasper)"
   Oliver: "under-pressure → public (knowledge-bomb — the longest speech of his life)"
   Olivia: "private (watching the fight)"
-  Jasper: "under-pressure (the reversal — goes quiet; 'I don't know any other way to be useful')"
+  Jasper: "under-pressure (the reversal — goes quiet; 'All I've got is knowing people. And I thought, for once, that would be enough.')"
 clues:
   planted: []
   revealed:
@@ -55,7 +55,7 @@ It was Noah who wouldn't let go — not of the despair, of the *question*. He'd 
 
 "Maybe they're just leaning on the most visible one of us?" Olivia offered weakly.
 
-"She's not the most visible. That's the point." Noah's jaw was tight. "Somebody connected this group to Emma specifically, and then his people went looking for her soft spot — her work, her income — and pressed on it. That's not a guess. That's somebody pointing a finger." He looked around the room, and for Noah, who believed every system was legible if you understood its inputs, the not-knowing was its own kind of pain. "So who knew? About us, about the markets, about who'd been asking questions — who knew, outside the six people in this room?"
+"She's not the most visible. That's the point." Noah's jaw was tight. "Somebody connected this group to Emma specifically, and then his people went looking for her soft spot — her work, her income — and pressed on it. That's not a guess. That's somebody pointing a finger." He looked around the room, and Emma could see the not-knowing working on him — Noah, who trusted every system to be legible if you understood its inputs, up against one that wasn't. "So who knew? About us, about the markets, about who'd been asking questions — who knew, outside the six people in this room?"
 
 The fluorescent light hummed. Somewhere in the building, a door closed.
 

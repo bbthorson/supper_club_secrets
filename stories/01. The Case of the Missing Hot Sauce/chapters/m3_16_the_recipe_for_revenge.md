@@ -48,7 +48,7 @@ Jasper, his face still blotchy and his eyes raw, was the first to speak. His voi
 
 "A cause célèbre!" Jasper elaborated, a flicker of his old theatricality returning like a pilot light catching. "We go to the New York Times. We get you on a morning show. One brave chef against the corporate machine! It's a perfect story!"
 
-"Absolutely not," Noah said, shaking his head. The shift was subtle but significant—his anger at Jasper hadn't vanished, but it had been redirected. He was in systems mode now, seeing the problem as an engineering challenge rather than a betrayal. "That's a single point of failure. One media outlet means one target for their lawyers. They'd file an injunction, threaten the editor, and kill the story before it runs." He started pacing, his mind already building a new architecture. "We need to diffuse the targets. Make it impossible to suppress. You can't kill a swarm of mosquitos with a cannonball."
+"Absolutely not," Noah said, shaking his head. The shift was subtle but significant—his anger at Jasper hadn't vanished, but it had been redirected. He'd gone into what Emma thought of as systems mode, attacking the problem like an engineering challenge instead of a betrayal. "That's a single point of failure. One media outlet means one target for their lawyers. They'd file an injunction, threaten the editor, and kill the story before it runs." He started pacing, his mind already building a new architecture. "We need to diffuse the targets. Make it impossible to suppress. You can't kill a swarm of mosquitos with a cannonball."
 
 "The swarm," Olivia said, catching his thread immediately—she and Noah rarely agreed, but when they did, it was always on strategy. "We don't go to one big source. We go to a hundred small ones. We don't go to the Times; we go to every food blogger in Brooklyn. We don't pitch a morning show; we go to every neighborhood gossip page and Instagram food account and Reddit community that has ever posted about farmers markets."
 
@@ -90,7 +90,7 @@ Noah and Olivia became the distribution engine—Noah building the anonymous inf
 
 "Which is exactly the kind of cost-benefit analysis that makes a mogul's investors nervous," Elijah added.
 
-Jasper, who had been watching the scene unfold with a mix of awe and shame—his friends building something remarkable out of the wreckage he'd created—finally spoke up. "What about me?" he asked, his voice small. "What can I do?"
+Jasper, who had been watching the scene unfold with what looked to Emma like equal parts awe and shame—his friends building something remarkable out of the wreckage he'd created—finally spoke up. "What about me?" he asked, his voice small. "What can I do?"
 
 The group looked at him. The anger had dissipated, not fully but enough. Replaced by a quiet, reluctant understanding—the kind that comes from knowing someone well enough to see the good intentions buried under the bad judgment.
 

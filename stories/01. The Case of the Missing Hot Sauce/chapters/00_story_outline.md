@@ -78,7 +78,7 @@
 * **Sunday evening.** Second supper club — potluck at Emma's.
 * The group already knows about the LLC from the group chat. Olivia opens with "We all saw the group chat. Who's got more?"
 * Each person shares what they learned beyond the shared baseline: Olivia's Marcus intel (jittery), Emma's Dorothy/Sofia findings (scared, Paolo precedent), Elijah's financial model (presented fresh — low-to-mid six figures motive), Noah's corporate trace (patents for "shelf-stable capsicum-based flavor enhancers").
-* **Jasper's reveal:** Brenda confirmed the LLC belongs to the restaurant mogul buying up Williamsburg.
+* **Jasper's reveal:** Brenda recognized the LLC and reacted with fear — refused to say more and told him to drop it. Her reaction confirms scale and danger (someone big enough to scare a commercial-real-estate veteran), not a name; Elijah: "We just don't have a face yet." Identity is deferred to Ch13 (Pike introduces himself) and confirmed in Ch14 (Noah's press-release match).
 * **Celebration.** They've actually solved it. "Big Hot Sauce" was real.
 * **Setback (hidden):** As Jasper walks home, his phone buzzes: *"Hey—I need you to call me. It's important. Please don't talk to anyone else about the LLC until we talk."* He doesn't see it until morning. By then, it's already too late.
 
@@ -89,7 +89,7 @@
 
 ## Meal 3 — Crisis (Chapters 13–17)
 
-**Week 3, Tuesday/Wednesday–Sunday.**
+**Week 3, Monday–Sunday.**
 
 ### Bad Guys Close In (Ch. 13: "Service for One")
 * Signs of trouble arrive before the C&D. Small moments that something is wrong — surveillance, questions being asked in the neighborhood, the sense of being watched. Individually dismissible, collectively a pattern.
@@ -184,7 +184,7 @@
 | **What really happened?** | Restaurant mogul **Garrett Pike** used an anonymous LLC to file patents on Hank's hot sauce recipe category and pressure him out of the market. When Hank refused a lowball trademark buyout, the mogul threatened to bury him in legal fees. |
 | **Who is responsible?** | Garrett Pike, operating through LLC #2847 and a larger hospitality group. |
 | **Why did they do it?** | Hank's artisanal brand was a rising competitor. Pike wanted to acquire the trademark cheaply and own the heritage hot sauce category. |
-| **How was it discovered?** | Oliver found the anonymous LLC filing. Noah traced it to the hospitality group and its hot sauce patents. Elijah's financial model confirmed the motive. Brenda (via Jasper) confirmed the mogul's identity. |
+| **How was it discovered?** | Oliver found the anonymous LLC filing. Noah traced it to the hospitality group and its hot sauce patents. Elijah's financial model confirmed the motive. Brenda's frightened reaction (via Jasper) confirmed the scale and danger — not the name. Pike introduced himself to Emma (Ch13); Noah confirmed his identity via the press-release/org-chart match (Ch14). |
 | **How was it resolved?** | Anonymous, distributed social media campaign exposing Pike. A major food critic amplified the story. Investor pressure forced Pike to withdraw the C&D and shelve the waterfront restaurant. Hank filed a proper trademark with pro bono legal help. |
 | **Fair play check** | Yes — all clues available to reader by end of Meal 3. The LLC, the patents, the financial motive, and the mogul's identity are all established before the resolution. |
 
@@ -204,7 +204,7 @@
 | Fun and Games | 20–55% | Ch6–12 | Investigation + dinner (promise of the premise) |
 | Midpoint (False Victory) | 55% | Ch12 | They crack the case. Celebration. |
 | Bad Guys Close In | 55–68% | Ch13–15 | Pike confrontation, the economic squeeze, C&D, Jasper's confession, the fight |
-| All Is Lost | 68% | Ch15 | Jasper's confession — group fractures |
+| All Is Lost | 68% | Ch14–15 | Emma's private confide (part 1); Jasper's confession — group fractures (part 2) |
 | Dark Night of the Soul | 68–73% | Ch15–16 | Emotional low → resolve |
 | Break into Three | 73% | Ch16 | The plan. Jasper leaves. |
 | Finale | 73–95% | Ch17–24 | Prep, campaign, pushback, Jasper finds Hank, breakthrough |
@@ -224,8 +224,8 @@
 | **Week 2, Friday** | Ch10 | Jasper calls Brenda Marquez |
 | **Week 2, Saturday** | Ch11 | Emma at McCarren Park + Sofia's |
 | **Week 2, Sunday** | Ch12 | Meal 2 dinner. Brenda calls mogul that night. |
-| **Week 3, Tues/Wed** | Ch13–16 | Pike confrontation + squeeze. C&D arrives. Emergency dinner. Jasper's confession. The plan. Jasper leaves. |
-| **Week 3, Thu–Sun+** | Ch17–22 | Campaign prep, launch, pushback (Brooklyn); Jasper's road chapters (19, 21, 22) run in parallel |
+| **Week 3, Mon–Wed** | Ch13–16 | Pike confrontation + squeeze. C&D arrives. Emergency dinner. Jasper's confession. The plan. |
+| **Week 3, Thu–Sun+** | Ch17–22 | Campaign prep (Jasper departs Thursday), launch, pushback (Brooklyn); Jasper's road chapters (19, 21, 22) run in parallel |
 | **Week 3–4** | Ch23 | Jasper finds Hank at Meadowlight |
 | **Week 3–4** | Ch24 | Campaign breaks through |
 | **Week 4, Sunday** | Ch25 | Celebratory dinner. Jasper brings Hank. |

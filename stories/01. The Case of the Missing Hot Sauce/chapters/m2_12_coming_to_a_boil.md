@@ -29,7 +29,7 @@ registers:
   Dorothy: "public (closed-with-customer — brisk; reads as 'busy' to Emma)"
 clues:
   planted:
-    - "Dorothy brisk with an out-of-place man in the wrong coat — Pike-adjacent seed (Foundation; pays off Ch13)"
+    - "Dorothy brisk with an out-of-place man in the wrong coat — Pike-adjacent seed (Foundation; reinforces the Ch1 sighting)"
   revealed:
     - "Findings converge: corporate predation targeting artisan vendors"
     - "Jasper's Brenda reveal (deflated) — 'a restaurant mogul buying up Williamsburg', but NO name yet"
@@ -43,6 +43,7 @@ threads:
 beat_purpose: "The potluck 'solves' the case — false victory — while the seeds of the reversal (Dorothy's brisk stranger, Jasper's unseen warning) sit in plain sight."
 audit_notes:
   - "Identity deferred: the group lands on 'a mogul buying up Williamsburg' with no name. Pike is named on-page in Ch13 and connected by the group in Ch14."
+  - "2026-07-12: The out-of-place man at Dorothy's stall reinforces the Ch1 well-dressed-man seed; Ch13's recognition beat ties textually to the Ch1 sighting only, so this sighting is not claimed as paid off in Ch13."
 ---
 
 ### Chapter Twelve - Coming to a Boil

@@ -127,7 +127,7 @@ Elijah tossed the letter back onto the table. "This part's toothless," he said, 
 
 "Toothless or not," Emma said from inside the blanket, "he's not waiting for a courtroom. He's already doing it. Two clients cancelled this week. An editor killed a piece I'd already filed. Pike stood there in the park and listed it back to me like a weather report — *a few cancelled gigs* — like he was doing me a kindness by explaining the weather."
 
-Elijah went very still. "*That's* the weapon," he said. "Not the letter. The letter's for show. The other thing — your inbox going quiet, the work drying up — that's the actual play. He doesn't have to win in court. He just makes your livelihood evaporate until staying in this fight is something you literally can't afford. And it's deniable. There's no process server for 'the industry cooled on you.'" His jaw worked. "It's elegant. I hate how elegant it is."
+Elijah went very still. "*That's* the weapon," he said. "Not the letter. The letter's for show. The other thing — your inbox going quiet, the work drying up — that's the actual play. He doesn't have to win in court. He just makes your livelihood evaporate until staying in this fight is something you literally can't afford. And it's deniable. There's no process server for 'the industry cooled on you.'" His voice dropped into the flat register he saved for numbers. "It's elegant. I hate how elegant it is."
 
 Noah had stopped typing. "Wait. Say his name again."
 
@@ -155,7 +155,7 @@ Elijah's phone buzzed. He glanced at it, and something flickered across his face
 
 He stepped into Emma's tiny hallway, his back to the living room, voice low. The others couldn't hear the words, only the tone: patient, measured, the voice of someone who'd had this conversation before. The voice of someone who was always the responsible one.
 
-When he came back, his jaw was tight.
+When he came back, his face had gone carefully blank.
 
 "Everything okay?" Olivia asked.
 
@@ -175,7 +175,7 @@ Emma kept wiping. "He cancelled my clients, Liv."
 
 "No, but — that's the thing. Two clients and one article, and I'm already counting weeks. *Two.*" Her voice cracked on it, kept low so it wouldn't carry. "I made this whole big deal of walking out of Bistro Lavande. Untied my apron like the heroine of a movie. And the truth is I've been one bad month from my parents' basement since the day I did it, and I never told anybody, because how do you say that, after the speech? After you made leaving look so easy?" She finally set the rag down. "He didn't even have to threaten me. He just had to show me how thin it already was. He *knew.* That's what scared me. Not the lawyers. That a stranger could see exactly where I was barely holding on."
 
-Olivia didn't reach for a plan. She crossed the little kitchen and put her arms around her, and for a moment Emma let herself be held by someone who finally knew the real shape of it — the fear under the apron-untying, the thing she'd been carrying alone since spring.
+Olivia didn't reach for a plan. She crossed the little kitchen and put her arms around her, and for a moment Emma let herself be held by someone who finally knew the real shape of it — the fear under the apron-untying, the thing she'd been carrying alone since the day she untied her apron.
 
 "Why didn't you tell me?" Olivia said into her hair. Not hurt. Just sad.
 

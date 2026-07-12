@@ -24,8 +24,7 @@ threads:
   active:
     - "Main mystery: the corporate shell structure and the patents"
     - "Noah — tradition vs. tech (developing; re-engaged once there's real data)"
-  touched:
-    - "Noah's minimalism/sneakers (closet detail)"
+  touched: []
 beat_purpose: "Noah converts the analog dead-end into a data trail — the patents show what the scheme is actually for."
 ---
 
@@ -35,7 +34,7 @@ Noah had already tried. Monday evening, restless after the dinner party, he'd sp
 
 He'd moved on. Checked in on a personal project, reviewed a pull request, answered some work emails. The hot sauce thing was an analog problem, and analog problems weren't his department.
 
-Then, Thursday evening, his phone buzzed with Elijah's message.
+Then, Thursday evening, he opened the group chat he'd been letting sit unread since the night before, and found Elijah's message.
 
 *ELIJAH (Group): Oliver found something worth looking at. Anonymous LLC filed a waterfront restaurant permit two days after Hank gave up his stall. Filing #2847-LLC. Might be nothing, might be a thread worth pulling. LLC number below if anyone wants to dig.*
 

@@ -180,8 +180,7 @@
     "chapterRef": "book.1#ch24",
     "sceneRef": "scene.book1.ch24",
     "createdAt": "2026-10-20",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
-    "storyDateEnd": "2026-10-22"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -382,8 +381,7 @@
     "chapterRef": "book.1#ch24",
     "sceneRef": "scene.book1.ch24",
     "createdAt": "2026-10-20",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
-    "storyDateEnd": "2026-10-22"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -525,7 +523,7 @@
     "subject": "char.jasper",
     "storyDate": "2026-10-14",
     "register": "under-pressure",
-    "state": "under-pressure (the reversal — goes quiet; 'I don't know any other way to be useful')",
+    "state": "under-pressure (the reversal — goes quiet; 'All I've got is knowing people. And I thought, for once, that would be enough.')",
     "chapterRef": "book.1#ch15",
     "sceneRef": "scene.book1.ch15",
     "createdAt": "2026-10-14",
@@ -786,8 +784,7 @@
     "chapterRef": "book.1#ch24",
     "sceneRef": "scene.book1.ch24",
     "createdAt": "2026-10-20",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
-    "storyDateEnd": "2026-10-22"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -971,8 +968,7 @@
     "chapterRef": "book.1#ch24",
     "sceneRef": "scene.book1.ch24",
     "createdAt": "2026-10-20",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
-    "storyDateEnd": "2026-10-22"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",
@@ -1167,8 +1163,7 @@
     "chapterRef": "book.1#ch24",
     "sceneRef": "scene.book1.ch24",
     "createdAt": "2026-10-20",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md",
-    "storyDateEnd": "2026-10-22"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
     "$type": "site.supperclub.character.stateEvent",

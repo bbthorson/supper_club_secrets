@@ -37,6 +37,7 @@ threads:
 beat_purpose: "Alone-but-connected, each member builds their piece of the campaign; Jasper quietly pockets Dorothy's bottle for the road."
 audit_notes:
   - "Montage spans ~36 hrs (Wed night → Fri morning); anchored with 'by Friday morning'-style beats."
+  - "2026-07-12 audit fix: Oliver/Elijah press-kit session relocated from Elijah's apartment to Olivia & Oliver's place, preserving the locked Book 6 seed (no one has ever been inside Elijah's apartment). Olivia is off-page during the session (phone work from a friend's couch), so her own montage section stays a separate night."
 ---
 
 ### Chapter Seventeen — Sharpening the Knives
@@ -87,9 +88,9 @@ Oliver nodded and went back to his laptop. He didn't say anything else, but Oliv
 
 **Oliver and Elijah**
 
-They'd agreed to work at Elijah's apartment because it was closer to midtown and Elijah had a printer. They hadn't anticipated that the printer would jam four times, that Elijah's apartment would be exactly sixty-two degrees because he'd forgotten to call the super about the radiator, or that building an evidence package would be this tedious.
+They'd agreed to work at Oliver and Olivia's place because the research already lived there and Oliver owned a printer he actually maintained. They hadn't anticipated that the printer would jam four times anyway, that Olivia's candle inventory would be occupying a full third of the dining table, or that building an evidence package would be this tedious. Olivia had ceded the apartment for the evening — she was two blocks away on a friend's couch, working the phones through the yellow tier — and without her the place felt like a library with better lighting.
 
-Oliver had spread his research across the dining table — printouts of LLC filings, screenshots of the Department of Buildings database, a hand-drawn timeline on legal paper that tracked every filing date, every corporate action, every public record he'd found. Elijah sat across from him with his laptop, translating the financial model into language that a food blogger with no accounting background could understand.
+Oliver had spread his research across the rest of the dining table — printouts of LLC filings, screenshots of the Department of Buildings database, a hand-drawn timeline on legal paper that tracked every filing date, every corporate action, every public record he'd found. Elijah sat across from him with his laptop, translating the financial model into language that a food blogger with no accounting background could understand.
 
 "You can't say 'discounted cash flow projection,'" Oliver said, reading over Elijah's shoulder.
 
