@@ -2,19 +2,18 @@
 // A horizon-gated feed: the scenes (and, for a character, state changes) tied to
 // one entity, in reading order. The scaffold is entity metadata only (already
 // public); scene detail is fetched client-side up to the reader's horizon.
-interface Props {
+// title / eyebrow drive the poster intro, so they're required in the default
+// mode and optional when `bare` suppresses that intro (e.g. under a hub header).
+type Props = {
   kind: 'place' | 'character';
   entityId: string; // full id, e.g. place.mcgolrick-market / char.emma
-  // title / eyebrow / subtitle drive the poster intro; unused in bare mode.
-  title?: string;
   subtitle?: string;
-  eyebrow?: string;
-  /** Suppress the poster intro — for embedding under an existing page header
-   *  (e.g. a character hub). A compact "Their thread" label is shown instead. */
-  bare?: boolean;
   /** Label for the compact header in bare mode. */
   threadLabel?: string;
-}
+} & (
+  | { bare: true; title?: string; eyebrow?: string }
+  | { bare?: false; title: string; eyebrow: string }
+);
 const { kind, entityId, title, subtitle, eyebrow, bare = false, threadLabel = 'Their thread' } =
   Astro.props;
 import '../styles/lens.css';

@@ -12,7 +12,7 @@ export function getStaticPaths() {
 
 const { hub } = Astro.props;
 const { name, id, profile } = hub;
-const club = profile && profile.id !== ANTAGONIST;
+const club = profile ? profile.id !== ANTAGONIST : false;
 const eyebrow = club ? 'A Regular' : 'In the Case';
 const persona = profile?.personaPublic ?? profile?.oneLine ?? null;
 ---
