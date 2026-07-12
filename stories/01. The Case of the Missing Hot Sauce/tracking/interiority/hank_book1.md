@@ -24,9 +24,9 @@ Hank doesn't appear on-page enough to have a sustained interiority arc, but the 
 
 **Has he been broken or just bent?** Pike's tactics worked — Hank ran. He chose safety. Meadowlight is real, not just hiding. He's tending the peppers. He's somewhere where the recipe still matters. The question Book 1 doesn't currently answer: does Hank come back to Brooklyn because he was always going to, or because Jasper showed up and offered him a reason?
 
-⚠ This is the unmotivated decision the audit flagged. In Ch23, Jasper offers, Hank accepts. The arc is missing. The fix below.
+✅ **Resolved 2026-07-12.** The Ch23 greenhouse scene now stages the reckoning on the page: Jasper produces the "just in case" bottle Hank gave Dorothy, Hank recognizes his own handwritten label, and it becomes the fulcrum of his decision — he presses it back into Jasper's hands ("Take that back to her") and agrees to come. Shown externally (Jasper's POV), not narrated as Hank's interior. This also closed a latent gap: Ch25's "Then Jasper showed up with that" now has an on-page antecedent. Option A below = implemented; Option C was already present in Ch25.
 
-## What needs to crack open (proposed)
+## What needed to crack open (proposed — now done; kept as the design record)
 
 Hank's on-page interiority arc needs at least one beat showing his interior reckoning. Options for where to add:
 
@@ -36,7 +36,7 @@ Hank's on-page interiority arc needs at least one beat showing his interior reck
 
 **Option C — In Ch25:** Hank tells the group what changed his mind. Currently Ch25 has him telling the story of what happened *to* him. Add what changed *in* him. Maybe Jasper told him about the bottle, and the bottle is the thing — that his great-grandmother's "would've wanted her peppers shared" had been overridden by his fear, and Emma's group taking up the fight was the chance to make the original choice real.
 
-**Recommended:** Some combination of A and C. The pepper-and-glass beat in Ch23 + a short reflection from Hank in Ch25 about why the bottle mattered. Together they make his return motivated.
+**Recommended:** Some combination of A and C. The pepper-and-glass beat in Ch23 + a short reflection from Hank in Ch25 about why the bottle mattered. Together they make his return motivated. — *Done 2026-07-12: A implemented as the bottle-reveal beat in Ch23; C was already carried by Hank's Ch25 "I'd already given the bottle away — I just hadn't lived with what that meant" reflection.*
 
 ## What shifts
 
@@ -73,7 +73,7 @@ If the above fixes land:
 Watch for:
 - Hands — calloused, working hands. Touching the peppers, holding the bottle, gestures rooted in physical labor.
 - Pepper plants as physical anchor in Ch23.
-- The bottle in Ch25 — bringing his own unlabeled bottle as gift / closure.
+- The bottle in Ch25 — it's Dorothy's original handwritten-label bottle (Jasper returns it to Emma; Hank brings none). Hank uncaps it over the soup as the closure gesture; he doesn't supply a bottle of his own.
 - Quietness as default. He's not a talker. The story he tells in Ch25 should be brief and complete, not effusive.
 
 Avoid:

@@ -37,7 +37,7 @@ The hidden tension is: can his two selves stay separate, or does the IRL fight f
 - The online life stays hidden. The parenthetical in Ch15 is a hint, not a confession.
 - He returns to quiet by Ch25.
 
-⚠ **Risk in Ch25:** He doesn't carry the Ch15 emergence forward. He's quiet again in the final dinner. The reversion isn't necessarily wrong (his arc is gradual, Books 1–3) — but at least one voluntary contribution in Ch25, even a half-line observation he offers unprompted, would signal that something is residually changed. Without it, the reader could conclude Ch15 was a one-off, not a step.
+**Resolved:** He carries the Ch15 emergence forward — in Ch25 he volunteers "I'll go first" for next Sunday's hosting rotation and takes notes on Jasper's Red Hook theory, a voluntary contribution that signals something is residually changed rather than Ch15 being a one-off.
 
 ## Voice register map
 

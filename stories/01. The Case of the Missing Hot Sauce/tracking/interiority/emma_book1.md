@@ -22,7 +22,7 @@ Two layers:
 
 **Ch14 confide (privately, to Olivia):** Not the account — the precarity. Alone in the kitchen, out of the others' sightline, she tells Olivia how close to the edge she's been since walking out of Bistro Lavande — the gap between the dramatic apron-untying exit and the reality she's never admitted to anyone. The relief is the second crack: being *known* by one person, held rather than fixed. (Replaces the earlier whole-group OnlyFans confession — the account stays opaque, deferred to a later book.)
 
-⚠ **Note:** Let Emma's fear sit before the relief lands. The confide only matters if we feel what it costs her to say it out loud — the months of not telling anyone — before Olivia crosses the kitchen and closes the distance.
+**Resolved (2026-07-11):** A defeat beat was added to Ch15, between the fracture and Oliver's speech, letting Emma's fear sit before the relief lands — the confide now has room to feel what it costs her to say it out loud, the months of not telling anyone, before Olivia crosses the kitchen and closes the distance.
 
 ## What shifts (and what doesn't)
 
@@ -45,7 +45,7 @@ Two layers:
 | Meal 1 | public (chef) → private | brief private when Dorothy gives the bottle | Hostess mode comes naturally |
 | Meal 2 | private | none significant | Confident — her instincts are paying off |
 | Meal 3 | private → under-pressure | Western PA dialect breaks (Ch13). Returns to private after the Olivia confide (Ch14). | Highest register shift in the book |
-| Meal 4 | private | none — too sidelined for stress to register | ⚠ This is a problem — she should be IN the action, not watching it |
+| Meal 4 | private → active | Ch18 sidelined by design; Ch20 grudge-map agency beat (added 2026-07-11) puts her in the action | Resolved — Ch18 setup, Ch20 payoff |
 
 ## Reveal vs. withhold this book
 
@@ -54,7 +54,7 @@ Two layers:
 | Financial precarity → Olivia, Ch14 (privately) | The secret income source itself — never named on the page; deferred to a later book |
 | (nothing goes public) | Kinky Kitchen stays fully withheld this book — reader and group never learn it |
 | Big Hot Sauce theory → group, Ch4 | How much she actually believed it (half) |
-| Western PA dialect → group, Ch13 (involuntary) | The full Bistro Lavande story — surfaces in pieces but never fully told |
+| Western PA dialect → group: first flicker Ch2, fullest Ch13 (involuntary) | The full Bistro Lavande story — surfaces in pieces but never fully told |
 | Financial precarity → reader, via the economic squeeze | The specific number of her savings, the specific shape of the panic |
 
 ## Risks and tells

@@ -3,8 +3,8 @@ chapter: 18
 title: "Turning Up the Heat"
 meal: 4
 beat: "Finale — Hope (campaign launch)"
-day: "Friday → Saturday"
-date: "2026-10-16 to 2026-10-17"
+day: "Friday"
+date: "2026-10-16"
 time: "Friday morning launch, onward"
 location:
   - "Emma's Apartment"

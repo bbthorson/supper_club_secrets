@@ -50,7 +50,7 @@ Brenda serves a specific structural purpose in the story: she's the mechanism by
 * The exact nature of her professional obligation — whether she *had* to report or *chose* to — is ambiguous. That ambiguity is the point.
 
 ## Notes
-* Brenda never appears on-page — she exists entirely through Jasper's phone call (Ch. 9) and her text message (Ch. 11).
+* Brenda never appears on-page — she exists entirely through Jasper's phone call (Ch. 10) and her text messages (Ch. 10/12).
 * Her last name is Marquez (established in Ch. 10 after the 2026-04-07 surname change; previously Chen). Apex Realty.
 * She's a useful character to bring back in future books if the group ever needs a reluctant real estate contact — someone who owes them one.
 

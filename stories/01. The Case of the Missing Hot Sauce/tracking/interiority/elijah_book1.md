@@ -22,7 +22,7 @@ In Book 1 the dream stays dormant. But the family weight is right at the surface
 
 **Ch14:** Reads the C&D and declares it toothless — his analytical voice pointed at protecting a friend rather than just solving a problem. As the room's worry turns to Emma, his dryness is the deflection that carries care: *I've run the numbers, this doesn't hold, you're going to be fine.* (The old draft had him quipping "a market inefficiency monetized with minimal overhead" in reaction to a whole-group OnlyFans confession; that beat is gone — the secret stays opaque and Emma's confide is private to Olivia.)
 
-**Ch14 work call:** Mother texts about sister's car. Jaw tightens. "It doesn't matter right now." ⚠ This is the introduced-and-dropped beat. The crack opens here and never propagates. Needs at least one downstream beat showing the weight is still there and informing his contribution.
+**Ch14 work call:** Mother calls about sister's car. Jaw tightens. "It doesn't matter right now." **Resolved (aligned to the 2026-05-23 decision):** this is intentional ambient texture, not a dropped beat — no Book 1 payoff by design. The family weight is carried forward to Book 3, where it becomes load-bearing.
 
 **Ch15:** Asks the right questions about information flow. Surgical. Helps surface Jasper's confession without making it punitive. This is Elijah doing what he does best — but in service of friendship, not self-preservation.
 

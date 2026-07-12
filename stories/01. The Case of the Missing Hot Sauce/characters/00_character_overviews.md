@@ -57,12 +57,6 @@ This file provides a quick reference for all non-core characters in "The Case of
 * **Appearance:** Chapter 20 — his post creates a moment of doubt before Oliver's rebuttal strategy overcomes it.
 * **Future Use:** Low. Generic antagonist voice, not a recurring character.
 
-### The Process Server
-* **Role:** Delivers the cease and desist to Emma
-* **Description:** ⚠ Draft residue — no on-page process server in the finalized prose; the C&D arrives under Emma's door, unwitnessed (Ch. 13).
-* **Appearance:** None (cut in the finalized prose)
-* **Future Use:** None.
-
 ### The Librarian
 * **Role:** Warns Oliver the library is closing
 * **Description:** Gentle, familiar with Oliver's routine at his regular desk.

@@ -81,7 +81,7 @@ He's not sure how he ended up with a group of friends who solve neighborhood mys
 - Pushes back hardest on Pike's "mercy"/meritocracy logic at the emergency dinner, from lived experience — an early seam of the success/who-earns-their-place debate that becomes central in his own book (Ch. 14)
 - Partners with Oliver to build the evidence press kit for the swarm strategy (Ch. 16–17)
 - Described as "expensive enough at compartmentalizing" his stress that no one can tell (Ch. 16)
-- His mother texts him during the investigation about his sister's car situation — a reminder that family obligations never pause (Ch. 8)
+- His mother calls mid-crisis about his sister's car repair — a reminder that family obligations never pause (Ch. 14; Ch. 8 carries only the joke line "That's what my mother says. Usually before asking for money.")
 - Surname established as Miller — he riffs on "E. Miller Financial Consulting" as his hypothetical firm (Ch. 14)
 - Builds financial model during lunch break; rediscovers curiosity he hasn't felt since freshman econ at UPenn (Ch. 8)
 - Adds pomegranate seeds and toasted pistachios to his fennel salad for the final dinner; buries quinoa under "actual flavor" — strategic, not a concession (Ch. 25)

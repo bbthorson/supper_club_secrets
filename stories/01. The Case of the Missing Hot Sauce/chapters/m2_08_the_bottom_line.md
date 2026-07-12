@@ -15,7 +15,7 @@ characters_present:
 characters_referenced:
   - "Oliver (won't share the find himself)"
   - "Noah (in the group chat)"
-  - "Elijah's mother & sister (text — sister's car)"
+  - "Elijah's mother (joke line only — 'usually before asking for money'; no text on the page)"
 registers:
   Elijah: "private (reads the group correctly; posts the LLC; builds the financial model privately)"
   Olivia: "private (phone — pivots from tailor to the finding)"
@@ -26,7 +26,7 @@ clues:
 threads:
   active:
     - "Main mystery: Elijah bridges Oliver's find to the group"
-    - "Elijah's family financial weight (introduced — mother texts about the sister's car; ambient, no payoff this book)"
+    - "Elijah's family financial weight (glanced at via the 'usually before asking for money' joke; the explicit sister's-car beat is Ch14; ambient, no payoff this book)"
   touched:
     - "Elijah as connective tissue"
 beat_purpose: "Elijah quietly makes the LLC the group's problem and starts modeling the money — the case gains a spine."

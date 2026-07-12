@@ -380,9 +380,9 @@
       "char.sofia",
       "char.dorothy"
     ],
-    "primaryEvent": "Emma post-victory glow. Texts Sofia (no reply). / Still no Sofia reply — \"by Tuesday night the silence had a texture to it.\" / **Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "primaryEvent": "Emma post-victory glow. Texts Sofia (no reply). / Still no Sofia reply — \"by Tuesday night the silence had a texture to it.\" / **Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank. **Jasper takes the hot sauce bottle from Emma's counter on his way out, the night before he leaves (author note: planted twist — see subplot_threads.md → Jasper's bottle).**",
     "simultaneousThreads": [
-      "Process server dispatched, C&D paperwork finalized (off-page)"
+      "C&D paperwork finalized; delivery arranged (off-page)"
     ],
     "createdAt": "2026-10-12",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md",
@@ -414,7 +414,7 @@
     "referenced": [
       "char.garrett-pike"
     ],
-    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank. **Jasper takes the hot sauce bottle from Emma's counter on his way out, the night before he leaves (author note: planted twist — see subplot_threads.md → Jasper's bottle).**",
     "simultaneousThreads": null,
     "createdAt": "2026-10-14",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
@@ -443,7 +443,7 @@
       "char.jasper"
     ],
     "referenced": [],
-    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank. **Jasper takes the hot sauce bottle from Emma's counter on his way out, the night before he leaves (author note: planted twist — see subplot_threads.md → Jasper's bottle).**",
     "simultaneousThreads": null,
     "createdAt": "2026-10-14",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
@@ -472,7 +472,7 @@
       "char.jasper"
     ],
     "referenced": [],
-    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank.",
+    "primaryEvent": "**Midday:** Emma walks past closed McGolrick; texts Dorothy; no read receipt. **Midafternoon:** the C&D arrives under Emma's door, unwitnessed. Emma panics. Olivia rallies group. Emergency Thai dinner. Emma privately confides her precarity to Olivia (Ch14). Noah's information-flow question → Jasper's confession (Ch15). Oliver's speech. Swarm plan (Ch16). Jasper leaves to find Hank. **Jasper takes the hot sauce bottle from Emma's counter on his way out, the night before he leaves (author note: planted twist — see subplot_threads.md → Jasper's bottle).**",
     "simultaneousThreads": null,
     "createdAt": "2026-10-14",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md",
@@ -503,7 +503,7 @@
       "char.jasper"
     ],
     "referenced": [],
-    "primaryEvent": "Prep montage begins. Noah builds infrastructure overnight. Olivia maps contacts. Oliver/Elijah build press kit. Emma writes narrative. Jasper boards Amtrak to Philadelphia. **Jasper takes the hot sauce bottle from Emma's counter on his way out (author note: planted twist — see subplot_threads.md → Jasper's bottle).** / Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA.",
+    "primaryEvent": "Prep montage begins. Noah builds infrastructure overnight. Olivia maps contacts. Oliver/Elijah build press kit. Emma writes narrative. Jasper boards Amtrak to Philadelphia. / Press kit goes out Friday morning. First blogs pick it up. Jasper making nursery calls from PA.",
     "simultaneousThreads": [
       "Jasper en route (PA) ↔ Group prepping (Brooklyn)",
       "Brooklyn (campaign) ↔ PA (Jasper)"
@@ -537,14 +537,12 @@
     "referenced": [
       "char.jasper"
     ],
-    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA. / Story spreading. Sentiment battle. Group tense. Emma personally baits a Pike-hating food writer off her grudge map (Ch20). Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
+    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Jasper making nursery calls from PA.",
     "simultaneousThreads": [
-      "Brooklyn (campaign) ↔ PA (Jasper)",
-      "Brooklyn ↔ PA"
+      "Brooklyn (campaign) ↔ PA (Jasper)"
     ],
     "createdAt": "2026-10-16",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md",
-    "storyDateEnd": "2026-10-17"
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
     "$type": "site.supperclub.scene",
@@ -567,7 +565,7 @@
     "referenced": [
       "char.hank"
     ],
-    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA.",
+    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Jasper making nursery calls from PA.",
     "simultaneousThreads": [
       "Brooklyn (campaign) ↔ PA (Jasper)"
     ],
@@ -599,9 +597,8 @@
     "referenced": [
       "char.jasper"
     ],
-    "primaryEvent": "Press kit goes out Friday morning. First blogs pick it up. Conservative commentator post Friday afternoon. Anonymous account traced — close call. Doubt resurfaces. Jasper making nursery calls from PA. / Story spreading. Sentiment battle. Group tense. Emma personally baits a Pike-hating food writer off her grudge map (Ch20). Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
+    "primaryEvent": "Story spreading. Conservative commentator post. Anonymous account traced — close call. Doubt resurfaces. Sentiment battle. Group tense. Emma personally baits a Pike-hating food writer off her grudge map (Ch20). Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
     "simultaneousThreads": [
-      "Brooklyn (campaign) ↔ PA (Jasper)",
       "Brooklyn ↔ PA"
     ],
     "createdAt": "2026-10-17",
@@ -628,7 +625,7 @@
     "referenced": [
       "char.noah"
     ],
-    "primaryEvent": "Story spreading. Sentiment battle. Group tense. Emma personally baits a Pike-hating food writer off her grudge map (Ch20). Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
+    "primaryEvent": "Story spreading. Conservative commentator post. Anonymous account traced — close call. Doubt resurfaces. Sentiment battle. Group tense. Emma personally baits a Pike-hating food writer off her grudge map (Ch20). Jasper following Fish Pepper lead. Noah reaches out to Jasper directly — Jasper doesn't reply but starts routing Hank updates through Noah specifically.",
     "simultaneousThreads": [
       "Brooklyn ↔ PA"
     ],
@@ -658,7 +655,7 @@
       "char.emma",
       "char.hank"
     ],
-    "primaryEvent": "Jasper making calls. 20+ calls. Meadowlight Collective surfaces — a bartender at Murph's (Sun night) names it. Sunday night: the petty-writer piece drops (Emma's bait pays off; the campaign's one counterweight through the weekend).",
+    "primaryEvent": "Jasper making calls. 20+ calls. Meadowlight Collective surfaces — a bartender at Murph's (Sun night) names it. Jasper closing in (off-page, Mon). Sunday night: the petty-writer piece drops (Emma's bait pays off; the campaign's one counterweight through the weekend).",
     "simultaneousThreads": [
       "Brooklyn (waiting / Oliver finalizing rebuttal) ↔ PA (Jasper closing in)"
     ],
@@ -687,10 +684,8 @@
     "referenced": [
       "char.noah"
     ],
-    "primaryEvent": "Jasper making calls. 20+ calls. Meadowlight Collective surfaces — a bartender at Murph's (Sun night) names it. Sunday night: the petty-writer piece drops (Emma's bait pays off; the campaign's one counterweight through the weekend). / Jasper drives out to Meadowlight (~2 hrs west of Philadelphia). Finds Hank in Meadowlight greenhouse — shows him the bottle. Hank agrees to come to dinner \"this Sunday.\" Oliver's rebuttal goes live. Food critic picks it up.",
-    "simultaneousThreads": [
-      "Brooklyn (waiting / Oliver finalizing rebuttal) ↔ PA (Jasper closing in)"
-    ],
+    "primaryEvent": "Jasper drives out to Meadowlight (~2 hrs west of Philadelphia). Finds Hank in Meadowlight greenhouse — shows him the bottle. Hank agrees to come to dinner \"this Sunday.\" Oliver's rebuttal goes live. Food critic picks it up.",
+    "simultaneousThreads": null,
     "createdAt": "2026-10-20",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_23_farm_to_table.md"
   },

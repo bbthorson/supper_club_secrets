@@ -22,9 +22,9 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 
 **Ch16 mission:** "I know somebody." Plays it light, plays it like Jasper. The room feels what's underneath. He leaves. The mission is *redemption disguised as chaos* — he'll use his network and persistence to find Hank, but he reframes it as "knowing somebody" to keep the performance intact.
 
-**Ch23 (PA solo journey):** Twenty phone calls. A 3-hour drive. Finds Hank in a greenhouse. Tells him the WHOLE truth — including his own mistake. This is Jasper without performance for the first time in the book. He's not entertaining anyone. He's making amends. The greenhouse scene should be the quietest Jasper has been in the entire book. He drives Hank home and they talk about family recipes the whole way.
+**Ch23 (PA solo journey):** Twenty phone calls. A rental Subaru, ~4 hrs Brooklyn ↔ Meadowlight. Finds Hank in a greenhouse. Tells him the WHOLE truth — including his own mistake. This is Jasper without performance for the first time in the book. He's not entertaining anyone. He's making amends. The greenhouse scene should be the quietest Jasper has been in the entire book. He drives home east alone; Hank comes to Brooklyn separately, before Sunday.
 
-**Ch25:** Brings Hank to dinner. Already pitching the next mystery (Red Hook 3:17 AM noise complaints). ⚠ This reversion to chaos may be intentional — Jasper choosing his persona now that he's earned it — or it may be undercooked. The book doesn't mark the difference.
+**Ch25:** Brings Hank to dinner. Already pitching the next mystery (Red Hook 3:17 AM noise complaints). **Resolved:** this reversion to chaos is marked as earned — see Ch25 frontmatter and the subplot resolution log (the bottle theft + return, and the conduit ownership with Noah, establish the performance as choice rather than armor).
 
 ## What shifts (and what doesn't)
 
@@ -35,16 +35,11 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 - He has stayed quiet in a long car ride. Talked about family recipes (someone else's family, but still). Allowed himself to be a listener.
 
 **Doesn't shift:**
-- The chaos persona. By Ch25 he's back to performative theory-pitching. This is intentional but should be marked.
+- The chaos persona. By Ch25 he's back to performative theory-pitching. **Resolved:** this is intentional and is now marked — the performance reads as earned rather than undercooked (see Ch25 frontmatter + subplot resolution).
 - The old money background is unchanged. Still hidden. Still not even hinted at, beyond the Chelsea apartment.
 - The Brenda relationship. Strained, unresolved. Carries forward to Book 6.
 
-⚠ **Risk:** The Ch25 reversion. Pick one of two interpretations and write to it:
-
-- **Interpretation A (recommended):** Jasper has earned the chaos. The performance is now a choice rather than a hiding place. Mark this with a single beat — a moment of quiet between Hank's story and the Red Hook theory, a glance at Oliver or Emma that acknowledges what just happened, *then* the theory. The performance lands as triumphant rather than nervous.
-- **Interpretation B:** Jasper hasn't actually changed; he's just learned to weaponize the chaos when needed and revert to it when not. Mark this by having someone (probably Elijah) notice — a dry line, a slight beat where the group sees Jasper performing again and the reader sees that he's still hiding.
-
-Currently the text is ambiguous, which lets either reading apply but commits to neither. Pick.
+**Resolved:** The Ch25 reversion. Interpretation A is the one on the page — Jasper has earned the chaos. The performance is now a choice rather than a hiding place, marked by a beat of quiet between Hank's story and the Red Hook theory (the Hank great-grandmother line + the bottle pour) before the theory lands. The performance reads as triumphant rather than nervous.
 
 ## Voice register map
 
@@ -71,7 +66,7 @@ Watch for:
 - Breathless run-on sentences in public mode
 - Wild gesticulation — knocking wine, narrowly missing the lamp, swinging a glass
 - "Okay but hear me out…" — the universal Jasper opener
-- Wrinkled flannel in vulnerable scenes (Ch14 confession) — genuine disheveled, not performative
+- Wrinkled flannel in vulnerable scenes (Ch15 confession) — genuine disheveled, not performative
 - The reversal: when things are actually serious, he goes quiet. Use this sparingly — once or twice per book, max.
 - Connecting wildly unrelated things — but make the connection have one buried truth
 - "I know somebody" — said lightly when it carries weight

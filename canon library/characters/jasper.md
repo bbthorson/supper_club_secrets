@@ -96,7 +96,7 @@ He's never told anyone the real reason he lives the way he does: that becoming s
 - Brings Hank to the final dinner — the real victory (Ch. 25)
 - Drives a rental Subaru, picked up at 30th Street Station (Ch. 17, 19–23)
 - His apartment described: looks like "a thrift store and a bookstore had a fight" — surprisingly nice Chelsea place with organized vinyl collection (Ch. 10)
-- Wears a wrinkled flannel during the confession scene — not his usual performative chaos, just genuinely disheveled (Ch. 14)
+- Wears a wrinkled flannel during the confession scene — not his usual performative chaos, just genuinely disheveled (Ch. 15)
 - Nearly hits the overhead lamp while gesturing during the theory competition (Ch. 4) — physical comedy beat
 - Phone call montage to find Hank: 20+ calls to nurseries, seed suppliers, and co-ops across the Lancaster region; a seed supplier's "Meadow-something" (Ch. 21) and a bartender's tip (Ch. 22) finally name Meadowlight
 - Meadowlight greenhouse scene: finds Hank among the pepper plants, tells him the full truth including his own mistakes (Ch. 23)

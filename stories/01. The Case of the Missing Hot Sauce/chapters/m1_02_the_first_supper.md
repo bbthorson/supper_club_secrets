@@ -142,7 +142,7 @@ The room was quiet. The soup steamed in their bowls.
 
 "That's what I said. She didn't know."
 
-Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, with the look of people who had wanted to ask a similar question but hadn't trusted themselves to navigate the emotional terrain.
+Olivia set down her spoon. "No, I just mean... you aren't really you today. Everything okay? I know life's been a bit... messy lately." The men quieted down, as if they'd wanted to ask the same question but hadn't trusted themselves to navigate the emotional terrain.
 
 Their entire time in New York, Emma had worked in kitchens. Inconvenient hours, difficult shifts—they knew it weighed on her, but they were all pretty shocked when she told them she'd quit three weeks ago. After all, it's New York City. You don't just not have a job. Not unless you had a plan, or a safety net, or a trust fund—and Emma had none of the above.
 
