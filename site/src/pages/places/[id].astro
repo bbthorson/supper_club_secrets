@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import FeedLens from '../../components/FeedLens.astro';
+import { placeListings } from '../../lib/records';
+
+export function getStaticPaths() {
+  return placeListings().map((p) => ({
+    params: { id: p.id.replace('place.', '') },
+    props: { place: p },
+  }));
+}
+
+const { place } = Astro.props;
+const bits = [place.neighborhood, place.schedule?.note].filter(Boolean);
+const subtitle = bits.length ? bits.join(' · ') : undefined;
+---
+
+<Base title={`${place.name} — Supper Club Secrets`} description={`Every scene at ${place.name}, up to how far you've read.`}>
+  <FeedLens
+    kind="place"
+    entityId={place.id}
+    eyebrow="A Place in the Case"
+    title={place.name}
+    subtitle={subtitle}
+  />
+</Base>

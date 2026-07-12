@@ -1,0 +1,175 @@
+---
+import Base from '../layouts/Base.astro';
+import { timelineScaffold } from '../lib/records';
+import { fmtDate, chapterRangeLabel } from '../lib/lens-render';
+import '../styles/lens.css';
+
+// Scaffold = dates + chapter ranges only (no event text) — spoiler-free. Record
+// detail is fetched client-side, and each dated beat only unlocks once the
+// reader has read every chapter it spans.
+const rows = timelineScaffold();
+const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
+const byMeal = [1, 2, 3, 4].map((meal) => ({
+  meal,
+  rows: rows.filter((r) => r.meal === meal),
+}));
+---
+
+<Base title="The Timeline — Supper Club Secrets" description="Scrub the case day by day — safe up to how far you've read.">
+  <section class="lens-intro">
+    <p class="eyebrow scs-label">The Case, Day by Day</p>
+    <h1 class="lens-title scs-poster">The Timeline</h1>
+    <p class="lens-sub scs-romance">
+      Every dated beat of the investigation — the table, the market, the bottle's path.
+      It only shows what you've read; the rest stays under wraps.
+    </p>
+    <p class="horizon-note scs-label" data-horizon-note hidden></p>
+  </section>
+
+  <div class="timeline">
+    {
+      byMeal.map((group) => (
+        <section class="course" data-meal={group.meal}>
+          <div class="course-head">
+            <span class="course-label scs-label">Meal {mealNames[group.meal]}</span>
+            <span class="scs-leader" aria-hidden="true" />
+          </div>
+          {group.rows.map((row) => (
+            <article class="day" data-date={row.date} data-reveal={row.revealChapter}>
+              <div class="day-spine">
+                <span class="day-date scs-title">{fmtDate(row.date)}</span>
+                <span class="day-dot" aria-hidden="true" />
+              </div>
+              <div class="day-body">
+                <p class="day-range scs-label">{chapterRangeLabel(row.chapters)}</p>
+                <div class="day-detail" data-detail={row.date}>
+                  <p class="sealed scs-label" data-sealed>
+                    <span class="sealed-bar" aria-hidden="true" />
+                    Not yet served — read to unlock
+                  </p>
+                </div>
+              </div>
+            </article>
+          ))}
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .lens-intro {
+    text-align: center;
+    margin-bottom: 2.6rem;
+  }
+  .eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.7rem;
+  }
+  .lens-title {
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    margin: 0;
+  }
+  .lens-sub {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    max-width: 44ch;
+    margin: 0.7rem auto 0;
+  }
+  .horizon-note {
+    color: var(--scs-accent);
+    margin: 1rem 0 0;
+  }
+
+  .course {
+    margin-top: 2.2rem;
+  }
+  .course-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    margin-bottom: 0.8rem;
+  }
+  .course-label {
+    color: var(--scs-accent);
+    white-space: nowrap;
+  }
+
+  .day {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 0.9rem;
+  }
+  .day-spine {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+  .day-date {
+    font-size: 1.05rem;
+    color: var(--scs-accent);
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+  .day-dot {
+    flex: 1;
+    width: 2px;
+    margin-top: 0.4rem;
+    background: var(--scs-line);
+  }
+  .day:last-child .day-dot {
+    background: transparent;
+  }
+  .day-body {
+    padding-bottom: 1.8rem;
+    min-width: 0;
+  }
+  .day-range {
+    color: var(--scs-ink-muted);
+    margin: 0.2rem 0 0.5rem;
+  }
+  .sealed {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--scs-ink-muted);
+    margin: 0;
+  }
+  .sealed-bar {
+    display: inline-block;
+    width: 3.5rem;
+    height: 0.85rem;
+    border-radius: 2px;
+    background: var(--scs-redaction);
+    opacity: 0.72;
+  }
+  /* filled detail (client-rendered) styles live in styles/lens.css — scoped
+     styles don't reach innerHTML-injected nodes. */
+</style>
+
+<script>
+  import { resolveHorizon, BOOK } from '../lib/horizon';
+  import { loadUpToHorizon, allEntries } from '../lib/lens-data';
+  import { entryDetailHTML } from '../lib/lens-render';
+
+  async function render() {
+    const horizon = resolveHorizon(BOOK);
+    const note = document.querySelector<HTMLElement>('[data-horizon-note]');
+    if (note) {
+      note.hidden = false;
+      note.textContent =
+        horizon <= 0
+          ? 'You haven’t started reading — begin a chapter to unlock the timeline.'
+          : `Showing through Chapter ${horizon}.`;
+    }
+
+    const entries = allEntries(await loadUpToHorizon(horizon));
+    for (const entry of entries) {
+      const host = document.querySelector<HTMLElement>(`[data-detail="${entry.date}"]`);
+      if (host) host.innerHTML = entryDetailHTML(entry);
+    }
+  }
+
+  render();
+</script>

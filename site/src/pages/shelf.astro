@@ -1,0 +1,162 @@
+---
+import Base from '../layouts/Base.astro';
+import Stamp from '../components/Stamp.astro';
+
+// Books 2–6 are real (the series is planned Oct 2026 → Mar 2027), but their
+// menus aren't public — so they sit on the shelf as redaction-sealed spines.
+const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
+---
+
+<Base title="The Shelf — Supper Club Secrets" description="The series shelf — what's served and what's still in the kitchen.">
+  <section class="shelf-intro">
+    <p class="eyebrow scs-label">The Series</p>
+    <h1 class="shelf-title scs-poster">The Shelf</h1>
+    <p class="shelf-sub scs-romance">Six suppers, October through March. One is served.</p>
+  </section>
+
+  <article class="book book--one" data-book1>
+    <div class="book-face">
+      <p class="book-eyebrow scs-label">Book One · October</p>
+      <h2 class="book-name scs-title">The Case of the Missing Hot Sauce</h2>
+      <p class="book-line scs-romance">Hosted by Emma · 25 chapters</p>
+      <div class="book-status">
+        <span class="status-text scs-label" data-status>In the kitchen…</span>
+        <span class="stamp-slot" data-stamp hidden>
+          <Stamp text="Case Closed" />
+        </span>
+      </div>
+      <a class="book-cta scs-label" href="/" data-cta>Open the menu</a>
+    </div>
+  </article>
+
+  <div class="upcoming">
+    {
+      upcoming.map((n) => (
+        <article class="book book--sealed">
+          <p class="book-eyebrow scs-label">Book {n}</p>
+          <span class="sealed-title" aria-label="Title not yet revealed" />
+          <p class="book-line scs-label">Still in the kitchen</p>
+        </article>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .shelf-intro {
+    text-align: center;
+    margin-bottom: 2.6rem;
+  }
+  .eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.7rem;
+  }
+  .shelf-title {
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    margin: 0;
+  }
+  .shelf-sub {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    margin: 0.6rem 0 0;
+  }
+
+  .book--one {
+    background: var(--scs-surface);
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    padding: clamp(1.5rem, 4vw, 2.6rem);
+    text-align: center;
+  }
+  .book-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.6rem;
+  }
+  .book-name {
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    margin: 0;
+  }
+  .book-line {
+    color: var(--scs-ink-muted);
+    margin: 0.5rem 0 0;
+  }
+  .book-status {
+    min-height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.4rem 0 0.4rem;
+  }
+  .status-text {
+    color: var(--scs-ink-muted);
+  }
+  .book-cta {
+    display: inline-block;
+    margin-top: 0.6rem;
+    padding: 0.6em 1.3em;
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    text-decoration: none;
+    color: var(--scs-ink);
+  }
+  .book-cta:hover {
+    border-color: var(--scs-ornament);
+  }
+
+  .upcoming {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.6rem;
+  }
+  .book--sealed {
+    border: 1px dashed var(--scs-line);
+    border-radius: var(--scs-radius);
+    padding: 1.2rem 1rem;
+    text-align: center;
+    opacity: 0.85;
+  }
+  .sealed-title {
+    display: block;
+    height: 0.95rem;
+    width: 70%;
+    margin: 0.7rem auto;
+    border-radius: 2px;
+    background: var(--scs-redaction);
+    opacity: 0.55;
+  }
+  .book--sealed .book-line {
+    font-size: var(--scs-text-label);
+    letter-spacing: var(--scs-label-tracking);
+    text-transform: uppercase;
+  }
+</style>
+
+<script>
+  import { getHorizon, TOTAL_CHAPTERS } from '../lib/horizon';
+
+  const horizon = getHorizon();
+  const statusEl = document.querySelector<HTMLElement>('[data-status]');
+  const stampEl = document.querySelector<HTMLElement>('[data-stamp]');
+  const ctaEl = document.querySelector<HTMLAnchorElement>('[data-cta]');
+
+  if (statusEl) {
+    if (horizon >= TOTAL_CHAPTERS) {
+      statusEl.hidden = true;
+      if (stampEl) stampEl.hidden = false;
+      if (ctaEl) ctaEl.textContent = 'Read it again';
+    } else if (horizon > 0) {
+      statusEl.textContent = `In progress · Chapter ${horizon}`;
+      if (ctaEl) {
+        ctaEl.textContent = `Continue · Chapter ${Math.min(horizon + 1, TOTAL_CHAPTERS)}`;
+        ctaEl.href = `/read/${Math.min(horizon + 1, TOTAL_CHAPTERS)}`;
+      }
+    } else {
+      statusEl.textContent = 'Not started';
+      if (ctaEl) {
+        ctaEl.textContent = 'Start reading';
+        ctaEl.href = '/read/1';
+      }
+    }
+  }
+</script>
