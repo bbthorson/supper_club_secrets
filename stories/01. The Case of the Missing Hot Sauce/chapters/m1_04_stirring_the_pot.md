@@ -69,7 +69,7 @@ Oliver went to the kitchen, shoulders slumped. "You got this," yelled Olivia.
 
 "Boo!" Noah yelled.
 
-Oliver blinked. He was clearly wrestling with himself—the part of him that found speculation undignified versus, apparently, some part that had been chewing on the question all evening. "But, if we must speculate," he sighed, "I suppose it's possible his online popularity led him to relocate to a state with a more favorable tax code."
+Oliver blinked. He was clearly wrestling with himself—the part of him that found speculation undignified versus, apparently, some part of him that had been chewing on the question all evening. "But, if we must speculate," he sighed, "I suppose it's possible his online popularity led him to relocate to a state with a more favorable tax code."
 
 "Except I already texted that shop owner and got the name of his hot sauce, and it's not for sale anywhere online," Olivia said, clearly tired of Oliver not cooperating.
 
