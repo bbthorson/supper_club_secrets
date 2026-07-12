@@ -5,6 +5,8 @@
     "subject": "char.emma",
     "displayName": "Emma Hartley",
     "oneLine": "A grounded and creative chef with a bubbly, optimistic energy, who is learning to trust her intuition.",
+    "personaPublic": "The chef at the head of the table — warm, generous, forever cooking for the people she loves. Recently walked away from a punishing restaurant kitchen to build something of her own.",
+    "keyContradiction": "Trusts her gut, and urges everyone else to take the leap.",
     "sourceFile": "canon library/characters/emma.md"
   },
   {
@@ -13,6 +15,8 @@
     "subject": "char.elijah",
     "displayName": "Elijah Miller",
     "oneLine": "The rigid analyst with a pragmatic approach and a quietly empathetic nature.",
+    "personaPublic": "The group's analyst — economical, precise, keeps his own counsel. A dry wit surfaces once he trusts the room.",
+    "keyContradiction": "A risk-averse pragmatist, focused on what's stable and sensible.",
     "sourceFile": "canon library/characters/elijah.md"
   },
   {
@@ -21,6 +25,8 @@
     "subject": "char.noah",
     "displayName": "Noah",
     "oneLine": "An idealistic and sometimes naive techie who believes technology can solve any problem.",
+    "personaPublic": "The engineer — confident and jargon-first, convinced most problems have a clean technical fix. Owns exactly one kind of t-shirt and will tell you why.",
+    "keyContradiction": "A devout minimalist who evangelizes simplicity in all things.",
     "sourceFile": "canon library/characters/noah.md"
   },
   {
@@ -29,6 +35,8 @@
     "subject": "char.oliver",
     "displayName": "Oliver",
     "oneLine": "A fastidious and bookish introvert, married to Olivia, with a fascination for urban development and city regulations.",
+    "personaPublic": "Quiet and bookish, content to let Olivia carry a room — until the talk turns to zoning or urban history, and he becomes, briefly, unstoppable.",
+    "keyContradiction": "Shy in company, and happy to let Olivia speak for them both.",
     "sourceFile": "canon library/characters/oliver.md"
   },
   {
@@ -37,6 +45,8 @@
     "subject": "char.olivia",
     "displayName": "Olivia",
     "oneLine": "A social butterfly and entrepreneur who effortlessly gathers neighborhood gossip.",
+    "personaPublic": "The connector — a natural storyteller who can draw the whole neighborhood's news out over a single glass of wine. Married to Oliver.",
+    "keyContradiction": "Effortlessly social; the glue that holds the group together.",
     "sourceFile": "canon library/characters/olivia.md"
   },
   {
@@ -45,6 +55,8 @@
     "subject": "char.jasper",
     "displayName": "Jasper",
     "oneLine": "The wildcard of the group, a free spirit with a mysterious job and a love for chaos.",
+    "personaPublic": "The wildcard — breathless, physical, forever spinning unrelated threads into one grand theory. A free spirit with a job nobody can quite pin down.",
+    "keyContradiction": "A chaos agent who treats every mystery as a wild, connect-everything adventure.",
     "sourceFile": "canon library/characters/jasper.md"
   },
   {
@@ -53,6 +65,8 @@
     "subject": "char.garrett-pike",
     "displayName": "Garrett Pike",
     "oneLine": "Garrett Pike is not a cartoon villain. He's a mid-forties hospitality entrepreneur who genuinely believes he's revitalizing neglected neighborhoods. He sees himself as a builder — someone who creates beautiful spaces, employs local workers, and brings economic energy to places that were stagnating. The fact that he displaces the people who made those neighborhoods worth investing in is, to him, an unfortunate externality. Collateral damage in the service of progress.",
+    "personaPublic": null,
+    "keyContradiction": null,
     "sourceFile": "canon library/antagonists/book1_garrett_pike.md"
   }
 ]

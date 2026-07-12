@@ -3,6 +3,8 @@ type: Character
 title: "Oliver"
 id: char.oliver
 status: active
+personaPublic: "Quiet and bookish, content to let Olivia carry a room — until the talk turns to zoning or urban history, and he becomes, briefly, unstoppable."
+keyContradiction: "Shy in company, and happy to let Olivia speak for them both."
 ---
 
 # Oliver

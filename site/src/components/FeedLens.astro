@@ -2,24 +2,42 @@
 // A horizon-gated feed: the scenes (and, for a character, state changes) tied to
 // one entity, in reading order. The scaffold is entity metadata only (already
 // public); scene detail is fetched client-side up to the reader's horizon.
-interface Props {
+// title / eyebrow drive the poster intro, so they're required in the default
+// mode and optional when `bare` suppresses that intro (e.g. under a hub header).
+type Props = {
   kind: 'place' | 'character';
   entityId: string; // full id, e.g. place.mcgolrick-market / char.emma
-  title: string;
   subtitle?: string;
-  eyebrow: string;
-}
-const { kind, entityId, title, subtitle, eyebrow } = Astro.props;
+  /** Label for the compact header in bare mode. */
+  threadLabel?: string;
+} & (
+  | { bare: true; title?: string; eyebrow?: string }
+  | { bare?: false; title: string; eyebrow: string }
+);
+const { kind, entityId, title, subtitle, eyebrow, bare = false, threadLabel = 'Their thread' } =
+  Astro.props;
 import '../styles/lens.css';
 ---
 
 <section class="feed" data-feed data-feed-kind={kind} data-feed-id={entityId}>
-  <div class="feed-intro">
-    <p class="eyebrow scs-label">{eyebrow}</p>
-    <h1 class="feed-title scs-poster">{title}</h1>
-    {subtitle && <p class="feed-sub scs-romance">{subtitle}</p>}
-    <p class="feed-note scs-label" data-feed-note></p>
-  </div>
+  {
+    bare ? (
+      <div class="feed-barehead">
+        <div class="course-head">
+          <span class="course-label scs-label">{threadLabel}</span>
+          <span class="scs-leader" aria-hidden="true" />
+        </div>
+        <p class="feed-note scs-label" data-feed-note />
+      </div>
+    ) : (
+      <div class="feed-intro">
+        <p class="eyebrow scs-label">{eyebrow}</p>
+        <h1 class="feed-title scs-poster">{title}</h1>
+        {subtitle && <p class="feed-sub scs-romance">{subtitle}</p>}
+        <p class="feed-note scs-label" data-feed-note />
+      </div>
+    )
+  }
 
   <div data-feed-list>
     <p class="feed-empty scs-label">Loading what you've read…</p>
