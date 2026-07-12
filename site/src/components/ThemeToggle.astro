@@ -26,14 +26,15 @@
     outline: 2px solid var(--scs-accent);
     outline-offset: 2px;
   }
-  /* show the label for the service you'd switch TO */
-  .tt-night {
-    display: none;
-  }
-  :global([data-theme='night']) .tt-day {
+  /* the button shows the service you'd switch TO (a call to action), not the
+     current one: day mode → "After hours", night mode → "Day service". */
+  .tt-day {
     display: none;
   }
   :global([data-theme='night']) .tt-night {
+    display: none;
+  }
+  :global([data-theme='night']) .tt-day {
     display: inline;
   }
 </style>
