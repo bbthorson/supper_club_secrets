@@ -45,6 +45,38 @@ npm run check    # astro + TypeScript diagnostics
 | `/read/[chapter]` | The reading room — one page per chapter, day/night |
 | `/404` | Off-menu |
 
+## Deploy to Cloudflare Pages
+
+The site is fully static (Astro SSG, no adapter), so Cloudflare Pages serves
+`dist/` directly. The build reads files *outside* `site/` (brand tokens, chapter
+prose), so Pages must clone the whole repo and build with the **root directory**
+set to `site` — the parent dirs are then present at `../`.
+
+**Git-connected (recommended — auto-deploys on push):**
+
+In the Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git,
+pick this repo (private is fine via the Cloudflare GitHub app), then set:
+
+| Setting | Value |
+|---|---|
+| Production branch | `main` (or this branch while previewing) |
+| Root directory | `site` |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Node version | `22` (pinned by `site/.nvmrc`; or set `NODE_VERSION=22`) |
+
+**Manual (Wrangler CLI — no Git connection):**
+
+```sh
+cd site
+npm run build
+npx wrangler pages deploy      # uses wrangler.toml (output dir = dist)
+```
+
+After the first deploy, update `site` in `astro.config.mjs` from the placeholder
+to the real URL (`<project>.pages.dev` or a custom domain) so canonical/sitemap
+URLs are correct.
+
 ## Deferred (next pass)
 
 Timeline Explorer, horizon-gated character profiles, location/character feeds, the

@@ -1,0 +1,9 @@
+# Cloudflare Pages config for manual (Wrangler CLI) deploys.
+#
+#   cd site && npm run build && npx wrangler pages deploy
+#
+# Git-connected deploys don't read this file — set the equivalents in the
+# Pages dashboard instead (see README "Deploy to Cloudflare Pages").
+name = "supper-club-secrets"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-07-12"
