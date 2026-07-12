@@ -18,8 +18,8 @@ characters_present:
   - "Jasper"
 registers:
   Emma: "private (centered now; listening)"
-  Elijah: "private (asks the right questions to surface the leak)"
-  Noah: "under-pressure (anger — lashes out at Jasper)"
+  Elijah: "private (pragmatic resignation — 'maybe the smart thing is to stop'; 'we all make mistakes')"
+  Noah: "under-pressure (anger — asks the right questions to surface the leak, then lashes out at Jasper)"
   Oliver: "under-pressure → public (knowledge-bomb — the longest speech of his life)"
   Olivia: "private (watching the fight)"
   Jasper: "under-pressure (the reversal — goes quiet; 'I don't know any other way to be useful')"

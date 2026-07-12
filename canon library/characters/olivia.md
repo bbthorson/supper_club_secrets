@@ -78,7 +78,7 @@ She met Emma about four years ago at the McGolrick Park farmers market. Emma was
 ### Book 1: The Case of the Missing Hot Sauce
 - Knows shop owners throughout Williamsburg
 - Texts a boutique owner during Meal 1 dinner and gets first external confirmation that something is wrong with Hank (Ch. 3)
-- Produces the hat with numbers for the theory competition — "the most predictable, unpredictable person" (Ch. 3)
+- The numbered-hat theory competition — Olivia is "the most predictable, unpredictable person" (Ch. 4)
 - Volunteers herself and Oliver for the Meal 2 entree: "It's the most work and there are two of us"
 - Visits Marcus at The Gilded Fern for intel; learns Hank was "jittery" and "looked like a man running from something" (Ch. 7)
 - Presents her romantic theory (Hank swept away by a wealthy socialite) with full theatrical flair (Ch. 4)

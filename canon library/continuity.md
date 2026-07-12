@@ -32,8 +32,8 @@ A "previously on..." reference for each book. When starting a new book, read the
 | Character | Status After Book 1 | Future Availability |
 |-----------|--------------------|--------------------|
 | **Hank** | Returned. Filed trademark. Back at the market. | Available for cameos. Returns in Book 6 for farmers market reopening. |
-| **Dorothy** | Gave Emma Hank's heritage sauce bottle. Honey vendor. | Returns as central figure in Book 3 (loan crisis). |
-| **Sofia** | Unchanged. Cheese shop fixture. | Returns in Book 2 (central) and Book 5. |
+| **Dorothy** | Gave Emma Hank's heritage sauce bottle. Honey vendor. Intimidated into silence mid-book (Ch12-13); sends a Ch25 morning reconciliation text explaining it and promising a honey delivery. | Returns as central figure in Book 3 (loan crisis). |
+| **Sofia** | Book 1 now ends with her silence arc (Ch13/16, intimidated into quiet) and a terse Ch25 text reconnection ("Saturday. Come to the shop. Bring nothing.") that schedules a Saturday shop visit — the explicit Book 2 doorway. | Returns in Book 2 (central) and Book 5. |
 | **Marcus** | Established as neighborhood ally through Olivia. Gilded Fern. | Returns in Book 4. Possible in Book 2. |
 | **Brenda Marquez** | Inadvertently tipped off the mogul. Relationship with Jasper strained. | Returns in Book 6. Possible in Book 3. |
 | **The Food Critic** | Unnamed. Amplified the story using Oliver's framework. | Available for callbacks. |

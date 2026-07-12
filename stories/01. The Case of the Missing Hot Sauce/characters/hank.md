@@ -70,4 +70,4 @@ Hank begins the story as an absence — a ghost defined by the stories others te
 * First mentioned: Chapter 1 (by absence — his stall is empty)
 * First physically appears: Chapter 23 ("Farm to Table") at Meadowlight Collective
 * Final appearance: Chapter 25 ("Family Meal") at Emma's dinner
-* His hot sauce is described but never tasted on-page in Book 1 — he brings an unlabeled bottle to the final dinner
+* His hot sauce IS tasted on-page in Book 1 — Ch1 (Emma), Ch2 (the group's soup), Ch25 (the finished soup). Hank brings no bottle to the final dinner; Jasper is the one who returns Dorothy's handwritten-label bottle in Ch25

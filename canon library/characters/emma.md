@@ -83,7 +83,7 @@ Now, three weeks out from Bistro Lavande, Emma is piecing together a freelance l
 - Left Bistro Lavande three weeks before the story begins
 - Knew Hank the hot sauce vendor as a regular customer; planned her menu around his sauce and the story behind it
 - Hosts all four meals in Book 1
-- Western PA dialect surfaces under stress during Meal 1 ("the kitchen just needs lookin' at")
+- Western PA dialect first flickers under stress in Ch. 2 ("the kitchen just needs lookin' at"); its fullest, involuntary surfacing is the Ch. 13 Pike aftermath
 - Her "Big Hot Sauce" theory — played for laughs — turns out to be essentially correct
 - Targeted by an escalating economic squeeze — cancelled private clients, a killed article, editors going cold — as Pike's retaliation for the group's digging (Ch. 13)
 - Confronted in person by Garrett Pike at the closed McGolrick market — his first on-page appearance; he frames the Hank buyout as mercy and the squeeze as concern for his "future employees" (Ch. 13)

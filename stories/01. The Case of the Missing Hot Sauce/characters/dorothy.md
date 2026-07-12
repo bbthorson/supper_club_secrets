@@ -25,7 +25,7 @@ Dorothy sells honey at the McGolrick Park farmers market. Her hand-painted sign,
 Dorothy and Hank had the kind of bond that forms between adjacent market vendors over years of shared early mornings and slow Sundays. He'd tell her his family stories; she'd listen. She knew about his great-grandmother, the Fish Peppers, the migration from Virginia to Philadelphia in the 1920s. "He really loved that story. Loved telling it."
 
 ### The Last Encounter
-Before he disappeared, Hank came to Dorothy with a small, unlabeled bottle of deep red hot sauce. He was scared — "kept looking over his shoulder like he was waiting for someone." He told her his great-grandmother "would've wanted her peppers shared" and asked her to keep the bottle "just in case."
+Before he disappeared, Hank came to Dorothy with a small bottle of deep red hot sauce, its handwritten label reading "Heritage Pepper Sauce - Small Batch - Hank." He was scared — "kept looking over his shoulder like he was waiting for someone." He told her his great-grandmother "would've wanted her peppers shared" and asked her to keep the bottle "just in case."
 
 Dorothy recognized the gravity of the gesture: "That's not the kind of thing you say when you're going on vacation, is it?" She kept the bottle under her table, waiting for someone who cared enough to ask about him.
 
@@ -39,7 +39,7 @@ Dorothy recognized the gravity of the gesture: "That's not the kind of thing you
 * **Emma**: A customer she recognizes as one of Hank's regulars. She shares information with Emma because she senses Emma genuinely cares, not just because she's curious.
 
 ## Character Arc
-Dorothy appears in one scene, but she's the emotional heart of Chapter 7. She transforms Hank from an abstract mystery (a missing vendor, an empty stall) into a real person with a family, a history, and something to lose. The bottle she passes to Emma is both a physical clue and a symbolic torch.
+Dorothy appears in one scene, but she's the emotional heart of Chapter 1. She transforms Hank from an abstract mystery (a missing vendor, an empty stall) into a real person with a family, a history, and something to lose. The bottle she passes to Emma is both a physical clue and a symbolic torch.
 
 ## Secrets
 * Dorothy may know more about Hank's situation than she lets on. Her guarded initial reaction to Emma ("You're one of his regulars?") suggests she was waiting for the right person to ask — and screening out the wrong ones.
@@ -49,4 +49,7 @@ Dorothy appears in one scene, but she's the emotional heart of Chapter 7. She tr
 * Dorothy's scene exists in the repo (Ch. 7) but was cut from Brad's polished draft. The scene is strong — it provides key backstory about Hank's great-grandmother and his emotional state. Worth considering for reinsertion when expanding to full length.
 
 ## Lore Tracking (Book 1)
-* Appears: Chapter 7 (repo version) — Emma returns to the market and meets Dorothy at the neighboring stall
+* Appears: Chapter 1 — Emma meets Dorothy at the neighboring stall and receives the bottle
+* Chapter 12 — brisk with a Pike-adjacent customer at McGolrick (seed for Ch13)
+* Chapter 13 — text silence; no read receipt on Emma's text
+* Chapter 25 — morning reconciliation text explaining the intimidation ("There was a man at McGolrick that Sunday, and again on Tuesday..."); promises to "bring a jar of the chestnut by next week"

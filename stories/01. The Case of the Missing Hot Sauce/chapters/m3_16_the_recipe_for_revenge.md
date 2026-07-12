@@ -76,7 +76,7 @@ The group was a well-oiled machine now, each member falling into their natural r
 
 "Only if we can corroborate it independently," Oliver said. "Hearsay won't hold up if they come after the outlets."
 
-"Don't count on Sofia for that," Emma said, flatter than she meant it to come out. "She hasn't answered a text since Monday. Neither has Dorothy." Nobody needed the line drawn for them. Whoever had gotten to Emma's clients had been to the market too.
+"Don't count on Sofia for that," Emma said, flatter than she meant it to come out. "She hasn't answered a text since Monday. And I texted Dorothy this afternoon — it delivered, and then nothing." Nobody needed the line drawn for them. Whoever had gotten to Emma's clients had been to the market too.
 
 "Public records, then," Oliver said, and wrote it down.
 
