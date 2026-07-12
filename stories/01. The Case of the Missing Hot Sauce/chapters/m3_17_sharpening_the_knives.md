@@ -88,7 +88,7 @@ Oliver nodded and went back to his laptop. He didn't say anything else, but Oliv
 
 **Oliver and Elijah**
 
-They'd agreed to work at Oliver and Olivia's place because the research already lived there and Oliver owned a printer he actually maintained. They hadn't anticipated that the printer would jam four times anyway, that Olivia's candle inventory would be occupying a full third of the dining table, or that building an evidence package would be this tedious. Olivia had ceded the apartment for the evening — she was two blocks away on a friend's couch, working her phone through the yellow tier — and without her the place felt like a library with better lighting.
+They'd agreed to work at Oliver and Olivia's place because the research already lived there and Oliver owned a printer he actually maintained. They hadn't anticipated that the printer would jam four times anyway, that Olivia's candle inventory would be occupying a full third of the dining table, or that building an evidence package would be this tedious. Olivia had ceded the apartment for the evening — she was two blocks away on a friend's couch, working the phones through the yellow tier — and without her the place felt like a library with better lighting.
 
 Oliver had spread his research across the rest of the dining table — printouts of LLC filings, screenshots of the Department of Buildings database, a hand-drawn timeline on legal paper that tracked every filing date, every corporate action, every public record he'd found. Elijah sat across from him with his laptop, translating the financial model into language that a food blogger with no accounting background could understand.
 
