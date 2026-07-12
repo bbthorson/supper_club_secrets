@@ -89,3 +89,16 @@ The G line corridor changes across six months. Track: what opens, what closes, w
 4. **Halloween revisit** — A short story or novella set during Book 1's October that we skipped?
 5. **Garrett Pike** — He's not destroyed in Book 1, only stalled. Does this thread resurface (Books 2/4/6 touchpoints above), or stay resolved?
 6. **Emma's deferred secret** — Pick the book and occasion for its eventual reveal.
+
+---
+
+## Future Concept: South Slope Sleuths (Post–Book 2 Spinoff)
+
+**Status:** Early idea, not locked. One possible answer to Open Question 3 (Book 7+ direction).
+
+**Pitch:** At the close of Book 2, a press event (building on the Book 1 social-media attention plus Book 2's bureaucratic-squeeze story going public) puts the Supper Club's amateur-sleuthing in the open. A group of friends in a different neighborhood hears about it and decides to replicate the model — they meet over pinball instead of dinner and start investigating their own neighborhood mysteries. Becomes a separate but connected offshoot series, with crossover characters showing the "export" of the SCS cast into other stories.
+
+**Open questions to resolve before this becomes canon:**
+- Crossover direction — do Sleuths characters cameo into G-line books, or do SCS characters cross into South Slope, and whose POV carries it?
+- Is "South Slope" a real/adjacent NYC micro-neighborhood distinct from Park Slope, consistent with the existing G-line setting list?
+- Tone — same "stumbling into it" energy as early SCS books, or more self-aware/parody-adjacent since this group knows SCS already exists?
