@@ -73,7 +73,7 @@ If the above fixes land:
 Watch for:
 - Hands — calloused, working hands. Touching the peppers, holding the bottle, gestures rooted in physical labor.
 - Pepper plants as physical anchor in Ch23.
-- The bottle in Ch25 — bringing his own unlabeled bottle as gift / closure.
+- The bottle in Ch25 — it's Dorothy's original handwritten-label bottle (Jasper returns it to Emma; Hank brings none). Hank uncaps it over the soup as the closure gesture; he doesn't supply a bottle of his own.
 - Quietness as default. He's not a talker. The story he tells in Ch25 should be brief and complete, not effusive.
 
 Avoid:
