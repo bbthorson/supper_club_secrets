@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import FeedLens from '../../../components/FeedLens.astro';
+import { charListings } from '../../../lib/records';
+
+export function getStaticPaths() {
+  return charListings().map((c) => ({
+    params: { id: c.id.replace('char.', '') },
+    props: { character: c },
+  }));
+}
+
+const { character } = Astro.props;
+---
+
+<Base title={`${character.name} — Supper Club Secrets`} description={`${character.name}'s thread through the case, up to how far you've read.`}>
+  <FeedLens
+    kind="character"
+    entityId={character.id}
+    eyebrow="A Thread in the Case"
+    title={character.name}
+    subtitle="Where they turn up, and how they change."
+  />
+</Base>

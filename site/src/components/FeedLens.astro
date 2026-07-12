@@ -1,0 +1,144 @@
+---
+// A horizon-gated feed: the scenes (and, for a character, state changes) tied to
+// one entity, in reading order. The scaffold is entity metadata only (already
+// public); scene detail is fetched client-side up to the reader's horizon.
+interface Props {
+  kind: 'place' | 'character';
+  entityId: string; // full id, e.g. place.mcgolrick-market / char.emma
+  title: string;
+  subtitle?: string;
+  eyebrow: string;
+}
+const { kind, entityId, title, subtitle, eyebrow } = Astro.props;
+import '../styles/lens.css';
+---
+
+<section class="feed" data-feed data-feed-kind={kind} data-feed-id={entityId}>
+  <div class="feed-intro">
+    <p class="eyebrow scs-label">{eyebrow}</p>
+    <h1 class="feed-title scs-poster">{title}</h1>
+    {subtitle && <p class="feed-sub scs-romance">{subtitle}</p>}
+    <p class="feed-note scs-label" data-feed-note></p>
+  </div>
+
+  <div data-feed-list>
+    <p class="feed-empty scs-label">Loading what you've read…</p>
+  </div>
+
+  <div class="feed-states" data-feed-states hidden>
+    <div class="course-head">
+      <span class="course-label scs-label">How they changed</span>
+      <span class="scs-leader" aria-hidden="true"></span>
+    </div>
+    <div data-feed-states-list></div>
+  </div>
+
+  <p class="feed-foot scs-label"><a href="/timeline">← The whole timeline</a></p>
+</section>
+
+<style>
+  .feed-intro {
+    text-align: center;
+    margin-bottom: 2.2rem;
+  }
+  .eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.6rem;
+  }
+  .feed-title {
+    font-size: clamp(2.2rem, 6vw, 3.4rem);
+    margin: 0;
+  }
+  .feed-sub {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    margin: 0.6rem auto 0;
+    max-width: 44ch;
+  }
+  .feed-note {
+    color: var(--scs-accent);
+    margin: 0.9rem 0 0;
+  }
+
+  /* feed-card / chip / state-row (client-injected) styles live in
+     styles/lens.css — scoped styles don't reach innerHTML-injected nodes. */
+  .feed-empty {
+    color: var(--scs-ink-muted);
+  }
+  .feed-states {
+    margin-top: 2rem;
+  }
+  .course-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+  .course-label {
+    color: var(--scs-accent);
+    white-space: nowrap;
+  }
+  .feed-foot {
+    margin-top: 2.4rem;
+    padding-top: 1.4rem;
+    border-top: var(--scs-leader);
+  }
+  .feed-foot a {
+    color: var(--scs-ink-muted);
+    text-decoration: none;
+  }
+  .feed-foot a:hover {
+    color: var(--scs-accent);
+  }
+</style>
+
+<script>
+  import { resolveHorizon, BOOK } from '../lib/horizon';
+  import { loadUpToHorizon, allEntries } from '../lib/lens-data';
+  import { entryCard, esc } from '../lib/lens-render';
+
+  const root = document.querySelector<HTMLElement>('[data-feed]');
+  if (root) {
+    const kind = root.dataset.feedKind as 'place' | 'character';
+    const id = root.dataset.feedId ?? '';
+    const listEl = root.querySelector<HTMLElement>('[data-feed-list]');
+    const noteEl = root.querySelector<HTMLElement>('[data-feed-note]');
+    const statesWrap = root.querySelector<HTMLElement>('[data-feed-states]');
+    const statesList = root.querySelector<HTMLElement>('[data-feed-states-list]');
+
+    (async () => {
+      const horizon = resolveHorizon(BOOK);
+      if (noteEl) {
+        noteEl.textContent =
+          horizon <= 0
+            ? 'Begin reading to unlock this feed.'
+            : `Showing through Chapter ${horizon}.`;
+      }
+
+      const entries = allEntries(await loadUpToHorizon(horizon));
+      const matched =
+        kind === 'place'
+          ? entries.filter((e) => e.places.some((p) => p.id === id))
+          : entries.filter((e) => e.participants.some((p) => p.id === id));
+
+      if (listEl) {
+        listEl.innerHTML = matched.length
+          ? matched.map((e) => entryCard(e, id)).join('')
+          : '<p class="feed-empty scs-label">Nothing to show yet — read further to unlock this feed.</p>';
+      }
+
+      if (kind === 'character') {
+        const states = entries
+          .flatMap((e) => e.states)
+          .filter((s) => s.subject.id === id)
+          .sort((a, b) => a.chapter - b.chapter);
+        if (states.length && statesWrap && statesList) {
+          statesWrap.hidden = false;
+          statesList.innerHTML = states
+            .map((s) => `<p class="state-row"><b>Ch ${s.chapter}</b>${esc(s.state)}</p>`)
+            .join('');
+        }
+      }
+    })();
+  }
+</script>

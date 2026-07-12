@@ -33,6 +33,11 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
             <span class="wm-plain">Supper&nbsp;Club</span>
             <span class="wm-pop">Secrets</span>
           </a>
+          <nav class="site-nav scs-label" aria-label="Primary">
+            <a href="/">Menu</a>
+            <a href="/timeline">Timeline</a>
+            <a href="/shelf">Shelf</a>
+          </nav>
           <ThemeToggle />
         </header>
       )
@@ -56,11 +61,25 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1rem 1.4rem;
+    flex-wrap: wrap;
     max-width: 62rem;
     margin: 0 auto;
     padding: 1.4rem clamp(1rem, 4vw, 2.5rem);
     border-bottom: var(--scs-leader);
+  }
+  .site-nav {
+    display: flex;
+    gap: 1.1rem;
+    margin-right: auto;
+    margin-left: 0.4rem;
+  }
+  .site-nav a {
+    color: var(--scs-ink-muted);
+    text-decoration: none;
+  }
+  .site-nav a:hover {
+    color: var(--scs-accent);
   }
   .wordmark {
     font-family: var(--scs-font-display);

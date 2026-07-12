@@ -1,0 +1,31 @@
+---
+// The stamp — Poster-weight outlined text, rotated, Hot Sauce (BRAND.md §5).
+// Marks a finished book on the shelf.
+interface Props {
+  text?: string;
+}
+const { text = 'Case Closed' } = Astro.props;
+---
+<span class="stamp" role="img" aria-label={text}>{text}</span>
+
+<style>
+  .stamp {
+    display: inline-block;
+    font-family: var(--scs-font-display);
+    font-weight: var(--scs-type-poster-weight);
+    font-variation-settings: var(--scs-type-poster-variation);
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--scs-accent);
+    /* @ts */
+    text-stroke: 1.5px var(--scs-accent);
+    padding: 0.35em 0.55em;
+    border: 2.5px solid var(--scs-accent);
+    border-radius: var(--scs-radius);
+    transform: rotate(-6deg);
+    opacity: 0.9;
+  }
+</style>

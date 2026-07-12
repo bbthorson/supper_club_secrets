@@ -1,0 +1,120 @@
+/* Styles for lens content that is injected client-side (timeline detail, feed
+ * cards). Astro's component-scoped styles only tag markup present at build, so
+ * innerHTML-injected nodes need these rules to be global. Kept in one place and
+ * imported by every lens surface that renders fetched fragments. */
+
+.detail-event {
+  font-family: var(--scs-font-body);
+  font-size: 1.02rem;
+  margin: 0 0 0.6rem;
+  color: var(--scs-ink);
+}
+
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.chip {
+  font-family: var(--scs-font-label);
+  font-size: var(--scs-text-label);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.28em 0.6em;
+  border: 1px solid var(--scs-line);
+  border-radius: 999px;
+  color: var(--scs-ink-muted);
+  text-decoration: none;
+  line-height: 1.5;
+}
+a.chip:hover {
+  border-color: var(--scs-ornament);
+  color: var(--scs-ink);
+}
+.chip.place {
+  border-color: var(--scs-ornament);
+  color: var(--scs-ornament);
+}
+
+/* timeline: per-character state line + the bottle custody callout */
+.detail-state {
+  font-family: var(--scs-font-body);
+  font-size: 0.97rem;
+  color: var(--scs-ink-muted);
+  margin: 0.15rem 0;
+}
+.detail-state b {
+  color: var(--scs-ink);
+  font-weight: 600;
+}
+.bottle {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.5rem 0.7rem;
+  border-left: 3px solid var(--scs-accent);
+  background: var(--scs-linen-deep);
+  border-radius: 0 var(--scs-radius) var(--scs-radius) 0;
+}
+:root[data-theme='night'] .bottle {
+  background: rgba(241, 232, 212, 0.06);
+}
+.bottle-label {
+  font-family: var(--scs-font-label);
+  font-size: var(--scs-text-label);
+  letter-spacing: var(--scs-label-tracking);
+  text-transform: uppercase;
+  color: var(--scs-accent);
+  white-space: nowrap;
+}
+.bottle-event {
+  font-family: var(--scs-font-body);
+  font-size: 0.97rem;
+  color: var(--scs-ink);
+}
+
+/* feeds: scene cards + a character's state rows */
+.feed-card {
+  padding: 1.1rem 0;
+  border-bottom: var(--scs-leader);
+}
+.feed-eyebrow {
+  font-family: var(--scs-font-label);
+  font-size: var(--scs-text-label);
+  letter-spacing: var(--scs-label-tracking);
+  text-transform: uppercase;
+  color: var(--scs-ornament);
+  margin: 0 0 0.35rem;
+}
+.feed-card-title {
+  font-family: var(--scs-font-display);
+  font-weight: var(--scs-type-title-weight);
+  font-variation-settings: var(--scs-type-title-variation);
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+}
+.feed-card-title a {
+  color: var(--scs-ink);
+  text-decoration: none;
+}
+.feed-card-title a:hover {
+  color: var(--scs-accent);
+}
+.state-row {
+  font-family: var(--scs-font-body);
+  font-size: 0.98rem;
+  color: var(--scs-ink-muted);
+  margin: 0.3rem 0;
+}
+.state-row b {
+  color: var(--scs-accent);
+  font-weight: 600;
+  font-family: var(--scs-font-label);
+  font-size: var(--scs-text-label);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
