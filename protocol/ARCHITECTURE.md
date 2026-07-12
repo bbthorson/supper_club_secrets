@@ -225,7 +225,7 @@ The reader surfaces are renderings of the repo's public content (chapters plus t
 
 ## 12. Open Decisions
 
-Status as of 2026-07-12: two resolved, one resolved-by-default, two formally deferred with trigger conditions.
+Status as of 2026-07-12: three resolved (one of them — 12.5 — resolved by prior shipping rather than by decision), two formally deferred with trigger conditions.
 
 1. **NSID namespace domain — DEFERRED until Phase 4 starts.** Nothing is blocked until a lexicon is actually published. Until then the placeholder `site.supperclub.*` is used everywhere, with the discipline (borrowed from Bardcast) that the NSID root lives in exactly one place so the eventual swap is a one-line change. Trigger to decide: the first Phase 4 publish step.
 2. **Identity model for v1 — RESOLVED (2026-07-12): the graduation ladder.** Local stable IDs → one repo with multiple record collections → promote an individual character to its own DID only when a concrete portability use-case appears. For a single writer's prose this is the sensible default; per-character DIDs from day one remain the right model for *multiplayer/interactive* universes (Bardcast keys characters on player DIDs because cross-campaign portability is its core thesis).
