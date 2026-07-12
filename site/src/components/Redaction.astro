@@ -1,0 +1,73 @@
+---
+// The redaction — the line the kitchen won't print (BRAND.md §5). An Espresso
+// bar over its own text, spoiler-safe by construction. Tap / Enter / Space to
+// reveal manually; if `revealedBy` is set, it also auto-reveals once the
+// reader's horizon passes that chapter (READER_EXPERIENCE.md §3).
+//
+// Note (M1): the covered text ships in the HTML and is masked by CSS — visually
+// spoiler-safe, but present in page source. That's acceptable for the inline
+// teaser copy this component is used for. Record-derived lenses will omit
+// unearned text at the query layer instead.
+interface Props {
+  /** Chapter number after which this auto-reveals. Omit for manual-only. */
+  revealedBy?: number;
+  /** Accessible label for the hidden content. */
+  label?: string;
+}
+const { revealedBy, label = 'a secret' } = Astro.props;
+---
+<span
+  class="redact"
+  role="button"
+  tabindex="0"
+  aria-expanded="false"
+  aria-label={`Redacted: ${label}. Activate to reveal.`}
+  data-revealed-by={revealedBy !== undefined ? String(revealedBy) : undefined}
+><slot /></span>
+
+<style>
+  .redact {
+    /* the bar: background painted with the ink color, hiding the text beneath */
+    background: var(--scs-redaction);
+    color: var(--scs-redaction);
+    border-radius: 2px;
+    padding: 0 0.14em;
+    cursor: pointer;
+    transition: color 0.18s ease, background-color 0.18s ease;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .redact:focus-visible {
+    outline: 2px solid var(--scs-accent);
+    outline-offset: 2px;
+  }
+  .redact.is-revealed {
+    background: transparent;
+    color: inherit;
+    cursor: default;
+    /* a faint brass underline marks a secret that has been earned */
+    box-shadow: inset 0 -0.5em 0 -0.42em var(--scs-ornament);
+  }
+</style>
+
+<script>
+  import { applyGates } from '../lib/horizon';
+
+  function wire(el: HTMLElement) {
+    const reveal = () => {
+      el.classList.add('is-revealed');
+      el.setAttribute('aria-expanded', 'true');
+    };
+    el.addEventListener('click', reveal);
+    el.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        reveal();
+      }
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>('.redact').forEach(wire);
+  // horizon-driven auto-reveal for any [data-revealed-by] already earned
+  applyGates(document);
+</script>

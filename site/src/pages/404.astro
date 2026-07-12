@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Not on tonight's menu — Supper Club Secrets">
+  <section class="notfound">
+    <p class="nf-eyebrow scs-label">Off menu</p>
+    <h1 class="nf-title scs-poster">86'd</h1>
+    <p class="nf-body scs-romance">
+      That dish isn't being served. The kitchen suggests starting from the menu.
+    </p>
+    <a class="nf-link scs-label" href="/">Back to the menu</a>
+  </section>
+</Base>
+
+<style>
+  .notfound {
+    text-align: center;
+    padding: clamp(2rem, 8vw, 5rem) 0;
+  }
+  .nf-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 1rem;
+  }
+  .nf-title {
+    font-size: var(--scs-text-poster);
+    margin: 0;
+    color: var(--scs-accent);
+  }
+  .nf-body {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    margin: 1rem auto 2rem;
+    max-width: 34ch;
+  }
+  .nf-link {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    text-decoration: none;
+    color: var(--scs-ink);
+  }
+  .nf-link:hover {
+    border-color: var(--scs-ornament);
+  }
+</style>
