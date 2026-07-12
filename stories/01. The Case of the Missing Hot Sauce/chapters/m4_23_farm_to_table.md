@@ -87,7 +87,19 @@ Hank listened without interrupting, hands resting on the edge of the bench. When
 
 "For your story," Jasper said. "Your great-grandmother's story. That's what Pike actually wanted — not your shelf space. Your *name.* He was going to put her face on a label and run the sauce out of a warehouse, next to a dozen other invented grandmothers, and call it heritage." He gestured at the striped peppers glowing in the light. "We couldn't let him have that."
 
-Hank rested a hand on one of the broad leaves. "I don't know if I can go back," he said quietly. "Every time I think about setting that stall up again, facing those people..."
+Then Jasper reached into his jacket and drew out the thing he'd carried two states to hand over, still wrapped in the sock he'd padded it with so it wouldn't clink. He unwound it and held it out on his palm.
+
+A small bottle. Deep red, the handwritten label gone soft at one corner.
+
+Hank went still. He took it in both hands — the way you handle something you'd made your peace with never seeing again — and turned it until his own careful cursive caught the light. *Heritage Pepper Sauce — Small Batch — Hank.*
+
+"Where'd you get this."
+
+"Dorothy. She pressed it on Emma the first Sunday your stall stood empty, told her to keep it — 'just in case.' It's been on Emma's counter ever since. It's the reason any of this started." Jasper kept his voice low, out of the performance for once. "You gave that away because your great-grandmother would've wanted her peppers shared. I figured you should see where it landed. Not a warehouse. The counter of somebody who went to war over it."
+
+Hank held the bottle up to the glass. The red went luminous, and behind it the striped peppers blurred, green and white and green. For a long moment he didn't say anything at all.
+
+Then he lowered it. "I don't know if I can go back," he said quietly. "Every time I think about setting that stall up again, facing those people..."
 
 "You don't have to decide that today," Jasper said. "But Emma's making dinner this Sunday. I think you should meet the people who fought for you — not because they wanted anything, but because they cared what your sauce meant." He paused. "That's all I'm asking. Just dinner."
 
@@ -95,7 +107,7 @@ Hank looked at the peppers, then at the dirt under his nails, then back at Jaspe
 
 "Then you're not ready," Jasper said. "But you'll never know unless you show up."
 
-A long moment. The greenhouse hummed with the quiet work of living things. Then Hank nodded. "Sunday."
+A long moment. The greenhouse hummed with the quiet work of living things. Hank turned the bottle once more, his thumb finding the soft corner of the label — the *just in case* that had finally come due — and then pressed it back into Jasper's hands, careful, the way Dorothy must once have pressed it on Emma. "Take that back to her," he said. Then he nodded. "Sunday."
 
 "Sunday," Jasper confirmed. "I'll drive you back myself if you want."
 
