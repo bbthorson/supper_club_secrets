@@ -3,7 +3,8 @@ type: Character
 title: "Olivia"
 id: char.olivia
 status: active
-personaPublic: "The connector — a natural storyteller who can draw the whole neighborhood's news out over a single glass of wine. Married to Oliver."
+handle: oliviaknows
+personaPublic: "So — I know everyone, and everyone tells me things. The flower shop, the tailor, the woman at the market. I host, I connect, I never forget a detail. Married to @oliverreads."
 keyContradiction: "Effortlessly social; the glue that holds the group together."
 ---
 

@@ -3,7 +3,8 @@ type: Character
 title: "Noah"
 id: char.noah
 status: active
-personaPublic: "The engineer — confident and jargon-first, convinced most problems have a clean technical fix. Owns exactly one kind of t-shirt and will tell you why."
+handle: noahbuilds
+personaPublic: "Software engineer. I optimize systems for a living — basically, I delete things until they work. One t-shirt, correctly chosen."
 keyContradiction: "A devout minimalist who evangelizes simplicity in all things."
 ---
 
