@@ -352,7 +352,7 @@ def char_reader_fields(path):
     """Reader-safe curated fields from a character file's frontmatter
     (personaPublic, keyContradiction). Authored, not derived — the curation the
     lexicon reserved slots for (ARCHITECTURE.md §6.1). Absent → None."""
-    data = {"personaPublic": None, "keyContradiction": None}
+    data = {"handle": None, "personaPublic": None, "keyContradiction": None}
     for line in read_frontmatter_lines(path):
         m = re.match(r"^(\w+):\s*(.*)$", line)
         if m and m.group(1) in data:
@@ -372,6 +372,7 @@ def extract_profiles():
             "id": f"profile.{cid.split('.',1)[1]}",
             "subject": cid,
             "displayName": DISPLAY.get(cid, cid),
+            "handle": reader["handle"],
             "oneLine": one,
             # curated reader-safe persona (frontmatter); antagonist file carries
             # none, so these stay null there.

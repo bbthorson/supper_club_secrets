@@ -11,6 +11,7 @@
     "id": {"type": "string", "pattern": "^profile\\."},
     "subject": {"type": "string", "pattern": "^char\\."},
     "displayName": {"type": "string"},
+    "handle": {"type": ["string", "null"], "$comment": "Short public handle label (e.g. 'emmacooks'); the domain suffix is a surface-layer config constant, not stored per-record."},
     "oneLine": {"type": ["string", "null"]},
     "personaPublic": {"type": ["string", "null"]},
     "keyContradiction": {"type": ["string", "null"]},

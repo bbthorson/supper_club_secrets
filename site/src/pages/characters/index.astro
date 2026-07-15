@@ -19,14 +19,12 @@ const cast = profileListings();
           <a class="regular-link" href={`/characters/${c.id.replace('char.', '')}`}>
             <div class="regular-head">
               <h2 class="regular-name scs-title">{c.name}</h2>
+              {c.handle && <span class="regular-handle">@{c.handle}</span>}
               <span class="scs-leader" aria-hidden="true" />
             </div>
-            {c.personaPublic ? (
-              <p class="regular-persona">{c.personaPublic}</p>
-            ) : (
-              c.oneLine && <p class="regular-persona">{c.oneLine}</p>
+            {(c.personaPublic ?? c.oneLine) && (
+              <p class="regular-persona">{c.personaPublic ?? c.oneLine}</p>
             )}
-            {c.keyContradiction && <p class="regular-contra scs-romance">{c.keyContradiction}</p>}
           </a>
         </li>
       ))
@@ -84,15 +82,18 @@ const cast = profileListings();
     margin: 0;
     white-space: nowrap;
   }
+  .regular-handle {
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    color: var(--scs-accent);
+    white-space: nowrap;
+  }
   .regular-persona {
     font-family: var(--scs-font-body);
     font-size: 1.02rem;
     color: var(--scs-ink);
     margin: 0.5rem 0 0;
-  }
-  .regular-contra {
-    color: var(--scs-ink-muted);
-    font-size: 1.05rem;
-    margin: 0.35rem 0 0;
   }
 </style>

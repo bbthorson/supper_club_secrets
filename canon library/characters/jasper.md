@@ -3,7 +3,8 @@ type: Character
 title: "Jasper"
 id: char.jasper
 status: active
-personaPublic: "The wildcard — breathless, physical, forever spinning unrelated threads into one grand theory. A free spirit with a job nobody can quite pin down."
+handle: jasper
+personaPublic: "okay hear me out — hot sauce, shell companies, a guy who got into a car that wasn't his … it's all connected. what do i do for work? unclear. what do i know? too much. theories on request."
 keyContradiction: "A chaos agent who treats every mystery as a wild, connect-everything adventure."
 ---
 

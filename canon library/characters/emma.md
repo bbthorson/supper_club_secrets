@@ -3,7 +3,8 @@ type: Character
 title: "Emma Hartley"
 id: char.emma
 status: active
-personaPublic: "The chef at the head of the table — warm, generous, forever cooking for the people she loves. Recently walked away from a punishing restaurant kitchen to build something of her own."
+handle: emmacooks
+personaPublic: "Freelance food writer & private chef. I cook for the people I love — it's the one thing I'm sure of. Want to learn your way around a kitchen? Come hungry and ask."
 keyContradiction: "Trusts her gut, and urges everyone else to take the leap."
 ---
 

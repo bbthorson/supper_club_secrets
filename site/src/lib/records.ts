@@ -47,6 +47,7 @@ interface PlaceRec {
 interface ProfileRec {
   subject: string;
   displayName: string;
+  handle?: string | null;
   oneLine?: string | null;
   personaPublic?: string | null;
   keyContradiction?: string | null;
@@ -311,7 +312,14 @@ export function charListings(): CharListing[] {
 // public roster — a villain roster entry would spoil.
 export const ANTAGONIST = 'char.garrett-pike';
 
+// The domain suffix for atproto-style handles (e.g. @emmacooks → the canonical
+// emmacooks.supperclub.secrets). Placeholder pending the real domain — the same
+// deferred decision as the lexicon namespace (ARCHITECTURE.md §12.1). Kept in
+// one place so the eventual swap is a one-liner.
+export const HANDLE_DOMAIN = 'supperclub.secrets';
+
 export interface Profile extends NamedRef {
+  handle: string | null;
   oneLine: string | null;
   personaPublic: string | null;
   keyContradiction: string | null;
@@ -321,6 +329,7 @@ function toProfile(p: ProfileRec): Profile {
   return {
     id: p.subject,
     name: p.displayName,
+    handle: p.handle ?? null,
     oneLine: p.oneLine ?? null,
     personaPublic: p.personaPublic ?? null,
     keyContradiction: p.keyContradiction ?? null,

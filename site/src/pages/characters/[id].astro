@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import FeedLens from '../../components/FeedLens.astro';
-import { characterHubs, ANTAGONIST } from '../../lib/records';
+import { characterHubs, ANTAGONIST, HANDLE_DOMAIN } from '../../lib/records';
 
 export function getStaticPaths() {
   return characterHubs().map((hub) => ({
@@ -22,7 +22,11 @@ const persona = profile?.personaPublic ?? profile?.oneLine ?? null;
     <header class="hub-head">
       <p class="eyebrow scs-label">{eyebrow}</p>
       <h1 class="hub-name scs-poster">{name}</h1>
-      {profile?.keyContradiction && <p class="hub-contra scs-romance">{profile.keyContradiction}</p>}
+      {
+        profile?.handle && (
+          <p class="hub-handle"><span>@{profile.handle}</span><span class="hub-handle-dom">.{HANDLE_DOMAIN}</span></p>
+        )
+      }
       {persona && <p class="hub-persona">{persona}</p>}
     </header>
 
@@ -44,10 +48,16 @@ const persona = profile?.personaPublic ?? profile?.oneLine ?? null;
     font-size: clamp(2.4rem, 7vw, 4rem);
     margin: 0;
   }
-  .hub-contra {
+  .hub-handle {
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
     color: var(--scs-accent);
-    font-size: var(--scs-text-romance);
-    margin: 0.7rem 0 0;
+    margin: 0.6rem 0 0;
+  }
+  .hub-handle-dom {
+    color: var(--scs-ink-muted);
   }
   .hub-persona {
     font-family: var(--scs-font-body);
