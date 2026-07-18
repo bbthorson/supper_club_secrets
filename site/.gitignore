@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# local cache
+.npm-cache/
+
+# misc
+.DS_Store
+*.pem

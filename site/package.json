@@ -6,15 +6,18 @@
   "description": "Reader-experience site for Supper Club Secrets (Protocol Phase 3).",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "pinakes compile --root ..",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "lint": "pinakes lint --root .."
   },
   "dependencies": {
     "astro": "^5.6.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
+    "@bbthorson/pinakes": "^0.1.0",
     "typescript": "^5.9.3"
   }
 }
