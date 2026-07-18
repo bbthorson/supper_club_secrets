@@ -1,0 +1,12 @@
+# pinakes.yaml
+spec: 0.1
+project:
+  name: "Supper Club Secrets"
+  nsid: "site.supperclub"
+paths:
+  registry: "codex/entities.yaml"
+  nonEntities: "codex/non_entities.yaml"
+  stories: "stories"
+  locations: "codex/locations"
+  characters: "codex/characters"
+  output: "records"

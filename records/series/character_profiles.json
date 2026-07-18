@@ -1,0 +1,106 @@
+[
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.emma",
+    "subject": "char.emma",
+    "displayName": "Emma Hartley",
+    "oneLine": null,
+    "sourceFile": "canon library/characters/emma.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.elijah",
+    "subject": "char.elijah",
+    "displayName": "Elijah Miller",
+    "oneLine": null,
+    "sourceFile": "canon library/characters/elijah.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.noah",
+    "subject": "char.noah",
+    "displayName": "Noah",
+    "oneLine": null,
+    "sourceFile": "canon library/characters/noah.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.oliver",
+    "subject": "char.oliver",
+    "displayName": "Oliver",
+    "oneLine": null,
+    "sourceFile": "canon library/characters/oliver.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.olivia",
+    "subject": "char.olivia",
+    "displayName": "Olivia",
+    "oneLine": null,
+    "sourceFile": "canon library/characters/olivia.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.jasper",
+    "subject": "char.jasper",
+    "displayName": "Jasper",
+    "oneLine": null,
+    "sourceFile": "canon library/characters/jasper.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.garrett-pike",
+    "subject": "char.garrett-pike",
+    "displayName": "Garrett Pike",
+    "oneLine": null,
+    "sourceFile": "canon library/antagonists/book1_garrett_pike.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.hank",
+    "subject": "char.hank",
+    "displayName": "Hank",
+    "oneLine": "A charismatic hot sauce artisan and storyteller whose family recipe and theatrical personality make him a beloved fixture of the McGolrick Park farmers market — and the central figure of the group's first mystery.",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/hank.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.dorothy",
+    "subject": "char.dorothy",
+    "displayName": "Dorothy",
+    "oneLine": "A no-nonsense honey vendor at the McGolrick Park farmers market who provides Emma with a crucial piece of physical evidence — a bottle of Hank's heritage hot sauce — and emotional context about his state of mind before he disappeared.",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/dorothy.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.sofia",
+    "subject": "char.sofia",
+    "displayName": "Sofia",
+    "oneLine": "A veteran Williamsburg cheesemonger who provides Emma with the first real clue about what happened to Hank — that he received \"a big offer\" to \"go legit.\"",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/sofia.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.marcus",
+    "subject": "char.marcus",
+    "displayName": "Marcus",
+    "oneLine": "The stylish owner of a Williamsburg boutique who serves as one of Olivia's key neighborhood contacts and an early source of intel about Hank's strange behavior.",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/marcus.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.brenda-marquez",
+    "subject": "char.brenda-marquez",
+    "displayName": "Brenda Marquez",
+    "oneLine": "A sharp commercial real estate professional and old acquaintance of Jasper's who inadvertently becomes the bridge between the group's investigation and the mogul's retaliation.",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/brenda-marquez.md"
+  },
+  {
+    "$type": "site.supperclub.character.profile",
+    "id": "profile.food-critic",
+    "subject": "char.food-critic",
+    "displayName": "The Food Critic",
+    "oneLine": "An influential and respected national food critic whose endorsement of the group's story turns the tide in their campaign against the mogul.",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/food-critic.md"
+  }
+]

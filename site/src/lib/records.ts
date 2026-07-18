@@ -10,11 +10,11 @@
  * only unlocks once the reader has read every chapter that feeds it, which
  * prevents a later chapter's content leaking through an earlier one.
  */
-import scenesRaw from '../../../protocol/records/book1/scenes.json';
-import stateRaw from '../../../protocol/records/book1/character_state_events.json';
-import placesRaw from '../../../protocol/records/book1/places.json';
-import profilesRaw from '../../../protocol/records/book1/character_profiles.json';
-import custodyRaw from '../../../protocol/records/book1/custody_events.json';
+import scenesRaw from '../../../records/book1/scenes.json';
+import stateRaw from '../../../records/book1/character_state_events.json';
+import placesRaw from '../../../records/series/places.json';
+import profilesRaw from '../../../records/series/character_profiles.json';
+import custodyRaw from '../../../records/book1/custody_events.json';
 
 export const TOTAL_CHAPTERS = 25;
 
