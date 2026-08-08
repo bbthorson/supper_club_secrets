@@ -6,7 +6,7 @@ import remarkStripLeadingHeadings from './src/lib/remark-strip-leading-headings.
 // (the locked source of truth — never re-derived). Allow Vite to serve files
 // from the repo root so that verbatim import works without a copy step.
 export default defineConfig({
-  site: 'https://supper-club-secrets.pages.dev',
+  site: 'https://supper-club-secrets.bbthorson.workers.dev',
   markdown: {
     // Chapter prose carries its own title/meal headings; the reading room
     // renders those from frontmatter, so drop the leading ones.
