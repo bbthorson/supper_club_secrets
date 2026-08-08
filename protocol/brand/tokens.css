@@ -1,0 +1,74 @@
+/* Supper Club Secrets — design tokens
+ * Source of truth: protocol/brand/BRAND.md (direction locked 2026-07-05).
+ * The site build imports this file; do not re-derive values by hand.
+ * Fonts (self-hosted, SIL OFL via Google Fonts): Fraunces (variable,
+ * opsz/wght/SOFT/WONK + italic), Literata, Archivo.
+ */
+
+:root {
+  /* ---- color · day service ---- */
+  --scs-linen: #FBF8F1;
+  --scs-linen-deep: #F4EFE2;   /* recessed panels, wells */
+  --scs-espresso: #2A211C;
+  --scs-hotsauce: #C13A21;     /* the single pop — keep under ~10% of any screen */
+  --scs-brass: #9C7C34;        /* rules, leaders, numerals; never body-size text */
+  --scs-hairline: #E4DBC8;
+  --scs-card: #FDFBF5;
+
+  /* ---- color · after hours ---- */
+  --scs-bottle: #10231C;
+  --scs-candle: #E3AC44;
+  --scs-cream: #F1E8D4;
+
+  /* ---- semantic (day defaults) ---- */
+  --scs-bg: var(--scs-linen);
+  --scs-ink: var(--scs-espresso);
+  --scs-ink-muted: rgba(42, 33, 28, 0.58);
+  --scs-accent: var(--scs-hotsauce);
+  --scs-ornament: var(--scs-brass);
+  --scs-surface: var(--scs-card);
+  --scs-line: var(--scs-hairline);
+  --scs-redaction: var(--scs-espresso);
+
+  /* ---- typography ---- */
+  --scs-font-display: "Fraunces", Georgia, serif;
+  --scs-font-body: "Literata", Georgia, serif;
+  --scs-font-label: "Archivo", "Helvetica Neue", sans-serif;
+
+  /* role settings (pair each -variation with its -weight/style) */
+  --scs-type-poster-weight: 900;
+  --scs-type-poster-variation: "opsz" 144, "WONK" 1, "SOFT" 0;
+  --scs-type-title-weight: 600;
+  --scs-type-title-variation: "opsz" 90;
+  --scs-type-romance-weight: 340;   /* + font-style: italic */
+  --scs-type-romance-variation: "opsz" 60, "WONK" 1;
+
+  /* scale */
+  --scs-text-poster: clamp(2.75rem, 8vw, 5.25rem);
+  --scs-text-title: 1.7rem;
+  --scs-text-romance: 1.3rem;
+  --scs-text-body: 1.0625rem;      /* 17px; reading room may go to 19px */
+  --scs-text-reading: 1.1875rem;   /* 19px chapter prose */
+  --scs-text-label: 0.6875rem;     /* 11px tracked caps */
+  --scs-label-tracking: 0.2em;
+  --scs-measure-reading: 68ch;     /* 65–70ch rule */
+  --scs-leading-body: 1.62;
+  --scs-leading-reading: 1.7;
+
+  /* ---- ornament ---- */
+  --scs-leader: 2px dotted var(--scs-ornament); /* menu rows, section heads */
+  --scs-radius: 3px;                            /* cards; this brand is not rounded */
+}
+
+/* After hours — the night reading theme. Not inverted linen:
+ * the same restaurant after the candles are lit. */
+[data-theme="night"] {
+  --scs-bg: var(--scs-bottle);
+  --scs-ink: var(--scs-cream);
+  --scs-ink-muted: rgba(241, 232, 212, 0.62);
+  --scs-accent: var(--scs-candle);
+  --scs-ornament: var(--scs-candle);
+  --scs-surface: #163027;
+  --scs-line: rgba(241, 232, 212, 0.16);
+  --scs-redaction: var(--scs-cream);
+}

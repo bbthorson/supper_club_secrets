@@ -45,37 +45,41 @@ npm run check    # astro + TypeScript diagnostics
 | `/read/[chapter]` | The reading room — one page per chapter, day/night |
 | `/404` | Off-menu |
 
-## Deploy to Cloudflare Pages
+## Deploy to Cloudflare Workers
 
-The site is fully static (Astro SSG, no adapter), so Cloudflare Pages serves
-`dist/` directly. The build reads files *outside* `site/` (brand tokens, chapter
-prose), so Pages must clone the whole repo and build with the **root directory**
-set to `site` — the parent dirs are then present at `../`.
+The site is fully static (Astro SSG, no adapter), so Workers serves `dist/`
+straight from static assets — no Worker script, hence no `main` in
+`wrangler.toml`. The build reads files *outside* `site/` (brand tokens, chapter
+prose), so the build must clone the whole repo with the **root directory** set
+to `site` — the parent dirs are then present at `../`.
 
 **Git-connected (recommended — auto-deploys on push):**
 
-In the Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git,
-pick this repo (private is fine via the Cloudflare GitHub app), then set:
+In the Cloudflare dashboard → Workers & Pages → Create → Workers → Connect to
+Git, pick this repo (private is fine via the Cloudflare GitHub app), then set:
 
 | Setting | Value |
 |---|---|
 | Production branch | `main` (or this branch while previewing) |
 | Root directory | `site` |
 | Build command | `npm run build` |
-| Build output directory | `dist` |
+| Deploy command | `npx wrangler deploy` |
 | Node version | `22` (pinned by `site/.nvmrc`; or set `NODE_VERSION=22`) |
+
+Unlike Pages, Workers does *not* share variables between build time and
+runtime — set build vars on the build config, runtime vars on the Worker.
 
 **Manual (Wrangler CLI — no Git connection):**
 
 ```sh
 cd site
 npm run build
-npx wrangler pages deploy      # uses wrangler.toml (output dir = dist)
+npx wrangler deploy      # uses wrangler.toml ([assets] directory = dist)
 ```
 
-After the first deploy, update `site` in `astro.config.mjs` from the placeholder
-to the real URL (`<project>.pages.dev` or a custom domain) so canonical/sitemap
-URLs are correct.
+After the first deploy, update `site` in `astro.config.mjs` to the real URL
+(`<worker>.<account-subdomain>.workers.dev` or a custom domain) so
+canonical/sitemap URLs are correct.
 
 ## Deferred (next pass)
 

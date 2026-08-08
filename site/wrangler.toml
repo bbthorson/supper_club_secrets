@@ -1,9 +1,14 @@
-# Cloudflare Pages config for manual (Wrangler CLI) deploys.
+# Cloudflare Workers config (static assets only — no Worker script).
 #
-#   cd site && npm run build && npx wrangler pages deploy
+#   cd site && npm run build && npx wrangler deploy
 #
-# Git-connected deploys don't read this file — set the equivalents in the
-# Pages dashboard instead (see README "Deploy to Cloudflare Pages").
+# Git-connected deploys (Workers Builds) do read this file, but the root
+# directory / build command live in the dashboard (see README "Deploy to
+# Cloudflare Workers").
 name = "supper-club-secrets"
-pages_build_output_dir = "dist"
 compatibility_date = "2026-07-12"
+
+[assets]
+directory = "./dist"
+# Pages served 404.html automatically; Workers needs to be told.
+not_found_handling = "404-page"
