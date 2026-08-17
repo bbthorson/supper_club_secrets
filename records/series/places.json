@@ -4,9 +4,7 @@
     "id": "place.elijahs-apartment",
     "name": "Elijah's Apartment",
     "status": "story-specific",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 8",
-    "schedule": null,
     "sourceFile": "codex/locations/elijahs-apartment.md"
   },
   {
@@ -14,9 +12,7 @@
     "id": "place.elijahs-office",
     "name": "Elijah's Midtown Office",
     "status": "story-specific",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 8",
-    "schedule": null,
     "sourceFile": "codex/locations/elijahs-office.md"
   },
   {
@@ -24,9 +20,7 @@
     "id": "place.emmas-apartment",
     "name": "Emma's Apartment",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 1",
-    "schedule": null,
     "sourceFile": "codex/locations/emmas-apartment.md"
   },
   {
@@ -34,9 +28,7 @@
     "id": "place.jaspers-apartment",
     "name": "Jasper's Apartment",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 10",
-    "schedule": null,
     "sourceFile": "codex/locations/jaspers-apartment.md"
   },
   {
@@ -44,9 +36,7 @@
     "id": "place.mccarren-market",
     "name": "McCarren Park Greenmarket",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 11",
-    "schedule": null,
     "sourceFile": "codex/locations/mccarren-market.md"
   },
   {
@@ -54,9 +44,7 @@
     "id": "place.mcgolrick-market",
     "name": "McGolrick Park Farmers Market (Down to Earth)",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 1",
-    "schedule": null,
     "sourceFile": "codex/locations/mcgolrick-market.md"
   },
   {
@@ -64,9 +52,7 @@
     "id": "place.meadowlight-collective",
     "name": "Meadowlight Collective",
     "status": "story-specific",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 23",
-    "schedule": null,
     "sourceFile": "codex/locations/meadowlight-collective.md"
   },
   {
@@ -74,9 +60,7 @@
     "id": "place.noahs-apartment",
     "name": "Noah's Apartment",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 9",
-    "schedule": null,
     "sourceFile": "codex/locations/noahs-apartment.md"
   },
   {
@@ -84,9 +68,7 @@
     "id": "place.nypl-rose-reading-room",
     "name": "NYPL — Rose Main Reading Room",
     "status": "story-specific",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 6",
-    "schedule": null,
     "sourceFile": "codex/locations/nypl-rose-reading-room.md"
   },
   {
@@ -94,9 +76,7 @@
     "id": "place.olivia-oliver-place",
     "name": "Olivia & Oliver's Place",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 7",
-    "schedule": null,
     "sourceFile": "codex/locations/olivia-oliver-place.md"
   },
   {
@@ -104,9 +84,7 @@
     "id": "place.sofias-cheese-shop",
     "name": "Sofia's Cheese Shop",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 11",
-    "schedule": null,
     "sourceFile": "codex/locations/sofias-cheese-shop.md"
   },
   {
@@ -114,9 +92,7 @@
     "id": "place.the-coffee-hole",
     "name": "The Coffee Hole",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1 (referenced)",
-    "schedule": null,
     "sourceFile": "codex/locations/the-coffee-hole.md"
   },
   {
@@ -124,9 +100,7 @@
     "id": "place.the-gilded-fern",
     "name": "The Gilded Fern",
     "status": "recurring",
-    "region": null,
     "firstAppearance": "Book 1, Chapter 7",
-    "schedule": null,
     "sourceFile": "codex/locations/the-gilded-fern.md"
   },
   {
@@ -134,9 +108,7 @@
     "id": "place.waterfront-property",
     "name": "Waterfront Property (Williamsburg)",
     "status": "story-specific",
-    "region": null,
     "firstAppearance": "Book 1 (referenced)",
-    "schedule": null,
     "sourceFile": "codex/locations/waterfront-property.md"
   }
 ]

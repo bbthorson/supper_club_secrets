@@ -24,7 +24,8 @@ interface SceneRec {
   storyDate: string;
   chapterRefs: string[];
   title: string;
-  meal: number;
+  // pinakes emits the neutral `sequence`; this series calls a sequence a meal.
+  sequence?: number;
   placeRefs?: string[];
   placeText?: string[] | null;
   participants?: string[];
@@ -41,7 +42,8 @@ interface PlaceRec {
   id: string;
   name: string;
   status?: string;
-  neighborhood?: string | null;
+  // pinakes emits the generic `region`; the site presents it as a neighborhood.
+  region?: string;
   schedule?: { days?: string[]; hours?: string; note?: string } | null;
 }
 interface ProfileRec {
@@ -174,7 +176,7 @@ function buildEntries(): TimelineEntry[] {
   for (const s of scenes) {
     const ch = sceneChapter(s);
     const e = ensure(s.storyDate);
-    if (!e.meal) e.meal = s.meal;
+    if (!e.meal) e.meal = s.sequence ?? 0;
     if (!e.chapters.includes(ch)) e.chapters.push(ch);
     if (s.primaryEvent && !e.events.includes(s.primaryEvent)) e.events.push(s.primaryEvent);
     for (const p of s.placeRefs ?? []) pushRef(e.places, namedPlace(p));
@@ -276,7 +278,7 @@ export function placeListings(): PlaceListing[] {
     .map((p) => ({
       id: p.id,
       name: p.name,
-      neighborhood: p.neighborhood ?? null,
+      neighborhood: p.region ?? null,
       status: p.status ?? '',
       firstChapter: placeFirstChapter(p.id),
       schedule: p.schedule ?? null,
