@@ -22,6 +22,24 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-08-29 — Characters as open weights (exploration, no decision)
+
+**Trigger:** Author question — what would it look like for the lexicon that tracks how a character is thinking and feeling to *also* hold open weights for that character, updated as the books publish?
+
+**Added:** `protocol/CHARACTER_WEIGHTS.md`. The reframe is reading `character.stateEvent` as parameters rather than as a log: a **horizon-versioned checkpoint** (`checkpoint(char.emma, book1/ch12)` is a different artifact from `book1/ch25`) that a model can be conditioned on, cut at a canon horizon so it *cannot* spoil — the future is absent from the parameters, not filtered out of them.
+
+**The finding worth keeping:** the repo already separates the five artifacts such a thing needs, and did so for craft reasons rather than technical ones — behavioral spec (`lore/02_character_voice_guide.md`), labeled trajectory (`character_matrix.md`), corpus (`tracking/interiority/*.md`), knowledge cutoff (the Character Secret Progression table in `codex/series_plan.md`), and eval (`lore/03_voice_test_scene.md`). The missing piece is one record type binding them at a point in the story.
+
+**Publishing shape:** public register → public repo (the mask — the character you'd meet at dinner); private and under-pressure registers → a permissioned space, the same gated tier as backstage; raw interiority → never, in any lane.
+
+**The rule that would have to hold:** **generated output is never canon.** Nothing a checkpoint emits enters `codex/` without being written as prose first (Principle 2). Also flagged: licensing must be explicit (MIT says nothing coherent about running a character), and the best Emma would be built from the files we've promised not to publish — the answer is to accept the weaker model, since a character who withholds is truer to this series than one who confesses.
+
+**Status:** exploration only, recorded as open decision §12.7. Nothing scheduled; a Book 2–3 experiment at the earliest. The proposed first step is a day of work that publishes nothing: compile two Emma checkpoints by hand (ch12 and ch25), write ten eval prompts that try to break them, and see whether horizon-versioning holds.
+
+**No prose, canon, or code changed** — documentation only.
+
+---
+
 ## 2026-07-05 — Record extraction pipeline (Protocol Phase 2)
 
 **Decision:** Executed Phase 2 (ARCHITECTURE §13) — full record extraction for the finalized Book 1, building on the Phase 1 registry. Read-only, no network, **no prose or canon changed**; all outputs derive from existing frontmatter/tracking files.

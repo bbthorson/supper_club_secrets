@@ -46,6 +46,7 @@ Contents:
 
 - [protocol/ARCHITECTURE.md](protocol/ARCHITECTURE.md) — the publishing approach: one source, many surfaces.
 - [protocol/SPACES.md](protocol/SPACES.md) — evaluation of atproto's permissioned-data protocol (*spaces*) for gated and per-reader publishing.
+- [protocol/CHARACTER_WEIGHTS.md](protocol/CHARACTER_WEIGHTS.md) — exploration: publishing a character's state series as a runnable, horizon-versioned checkpoint.
 
 ---
 

@@ -4,7 +4,7 @@ How *Supper Club Secrets* projects to reader-facing surfaces — a public site f
 
 **Status (2026-08-29):** Phases 1–3 are shipped. Book 1 is v1-locked (2026-07-05), the derived record set lives in `records/`, and the public site is live. Phase 4 (the atproto projection) has never been built and is still optional. This document was dropped by the Pinakes migration (`149c8c5`) along with `protocol/brand/`, which was restored separately in `12909d6`; it is restored here and brought up to date with the current layout **and** with atproto's new permissioned-data protocol.
 
-**Companion:** [`SPACES.md`](SPACES.md) — what atproto *spaces* are, and the five places they change our publishing options. This document holds the decisions; that one holds the mechanics and the evaluation. The inward knowledge format (the agent-readable canon graph) is now handled by Pinakes; its adoption plan has been retired.
+**Companions:** [`SPACES.md`](SPACES.md) — what atproto *spaces* are, and the five places they change our publishing options. [`CHARACTER_WEIGHTS.md`](CHARACTER_WEIGHTS.md) — an exploration of publishing the character state series as a runnable, horizon-versioned checkpoint. This document holds the decisions; those hold the mechanics. The inward knowledge format (the agent-readable canon graph) is now handled by Pinakes; its adoption plan has been retired.
 
 ---
 
@@ -126,6 +126,8 @@ Fields (sketch): `subject` (character id), `storyDate` (the in-world date, e.g. 
 
 `createdAt` on the record is set to `storyDate` so the records sort chronologically on a reader surface that honors `createdAt` (see §8).
 
+This is also the record type with the most unrealized range in it. Read as data, the series drives a timeline lens. Read as *parameters* — disposition over time, cut at a canon horizon — it is most of what a runnable character would need. That exploration is [`CHARACTER_WEIGHTS.md`](CHARACTER_WEIGHTS.md); nothing in it is decided or scheduled.
+
 ### 6.3 place
 
 From `codex/locations/*.md`. Includes the operating-constraint rules (market days, shop hours) as structured fields, which lets a reader surface flag or display when a location is "open" on a given story date. Fields (sketch): `id`, `name`, `type`, `neighborhood`, `schedule`, `firstAppearance`.
@@ -164,6 +166,8 @@ Today, entities are referenced by first name in prose and by filename slug as fi
 **Phase 1 (local IDs):** every character, place, and item gets a permanent key in `codex/entities.yaml`, for example `char.emma`, `place.mcgolrick-market`, `item.heritage-bottle`. Entity markdown files carry an `id:` field in frontmatter so extraction is deterministic, not guesswork.
 
 **Phase 2 (DIDs):** when we stand up the identity/PDS layer, each character maps to a DID. The local IDs become the stable internal key that maps to a DID. Modeling each character as its own DID is what demonstrates the portable-canon thesis (a character owns its records; multiple worlds can reference the same identity without forking the truth). A simpler interim option is one repo with multiple record collections; we can graduate to per-character DIDs later.
+
+The concrete portability use-case this ladder waits for may turn out to be a character who owns a runnable checkpoint of themselves ([`CHARACTER_WEIGHTS.md`](CHARACTER_WEIGHTS.md) §6) — the first case that needs a per-character DID rather than merely tolerating one.
 
 **Space authority (new).** A space is rooted in an authority DID, which may be an ordinary account DID or a dedicated DID that can transfer between accounts independently of any one person. If we ever anchor a backstage or club space, it should be rooted in a **dedicated project DID**, not a personal account, so the series outlives whoever holds the account. See [`SPACES.md`](SPACES.md) §6.
 
@@ -250,6 +254,8 @@ Status as of 2026-08-29: three resolved, two deferred with trigger conditions, o
 5. **Per-story vs series-wide records — RESOLVED (Phase 2): per-book, with a series-wide tier.** `records/book1/` plus `records/series/` is the shipped layout.
 
 6. **Permissioned spaces — NOT ADOPTED, EVALUATED (2026-08-29).** Spaces are alpha: breaking changes are expected, the reference dev PDS is disposable, and nothing reader-facing should run on them. We adopt nothing now and take the two pieces of prep that cost nothing and are useful regardless (reserve the space type NSIDs; keep authoring backstage content as derivable `message` records with stable ids). Trigger to revisit: spaces leave alpha, **or** a concrete need lands first — a paid/gated tier, or cross-device reading progress becoming a real complaint. Full evaluation in [`SPACES.md`](SPACES.md).
+
+7. **Characters as runnable checkpoints — EXPLORED, no decision (2026-08-29).** Publishing `character.stateEvent` as a horizon-versioned conditioning artifact rather than only as timeline data. Written up in [`CHARACTER_WEIGHTS.md`](CHARACTER_WEIGHTS.md), including the one rule that would have to hold if it were ever built: **generated output is never canon** (Principle 2). Nothing is scheduled; Book 1 is locked and Book 2 is unwritten. Trigger to revisit: the day-long two-checkpoint experiment in that doc's §8 is run and horizon-versioning either holds or does not — and no earlier than Book 2. It shares §12.2's trigger: this is the portability use-case that would justify a per-character DID.
 
 ---
 
