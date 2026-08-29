@@ -4,6 +4,24 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-08-29 — Publishing approach updated for atproto spaces (permissioned data)
+
+**Trigger:** Atproto shipped a permissioned-data protocol — *spaces* — in public alpha (August 2026). Our publishing docs were written against a protocol that was public-by-default, and one of them no longer existed.
+
+**Restored:** `protocol/ARCHITECTURE.md`. The Pinakes migration (`149c8c5`) deleted it along with `protocol/brand/`; brand was restored in `12909d6`, this was not, leaving `README.md` and `site/README.md` pointing at a missing file. Restored from `149c8c5^` and brought current: post-migration paths (`codex/`, `lore/`, `records/`, `pinakes.yaml`), Phase 3 marked shipped, pipeline attributed to Pinakes.
+
+**Added:** `protocol/SPACES.md` — evaluation of spaces for publishing. Five leverage points, ranked: the gated backstage layer (single-writer space, many readers), tiered/gated release via a `managing-app` policy, a portable canon horizon as a personal space, a reader community space, and shared drafts.
+
+**Decisions:**
+- **§6.6 reframed.** The old constraint — "atproto has no native access-control story, so backstage is served through our own surface or not at all" — is no longer true. The durable rules survive it: our surface layer remains the default gate; a space is access control, **not** confidentiality; **interiority never leaves, in any lane**; never publish backstage records to a public repo expecting privacy.
+- **New open decision §12.6 — evaluated, not adopted.** Spaces are alpha (breaking changes expected, the dev PDS is disposable). Nothing reader-facing gets built on them yet. Free prep taken instead: reserve the space type NSIDs under `site.supperclub`, keep backstage content derivable, and root any future space in a dedicated project DID rather than a personal account.
+- **§12.4 backstage gating** stays deferred, but the mechanism question is answered; the trigger is now "content written **and** spaces out of alpha."
+- **New Phase 5** in the roadmap (permissioned lane), independent of Phase 4 and equally optional.
+
+**No prose, canon, or code changed** — documentation only (`protocol/ARCHITECTURE.md`, `protocol/SPACES.md`, `README.md`).
+
+---
+
 ## 2026-07-05 — Record extraction pipeline (Protocol Phase 2)
 
 **Decision:** Executed Phase 2 (ARCHITECTURE §13) — full record extraction for the finalized Book 1, building on the Phase 1 registry. Read-only, no network, **no prose or canon changed**; all outputs derive from existing frontmatter/tracking files.
