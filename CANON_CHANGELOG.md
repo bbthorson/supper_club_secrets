@@ -4,6 +4,42 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-08-29 — Publishing approach updated for atproto spaces (permissioned data)
+
+**Trigger:** Atproto shipped a permissioned-data protocol — *spaces* — in public alpha (August 2026). Our publishing docs were written against a protocol that was public-by-default, and one of them no longer existed.
+
+**Restored:** `protocol/ARCHITECTURE.md`. The Pinakes migration (`149c8c5`) deleted it along with `protocol/brand/`; brand was restored in `12909d6`, this was not, leaving `README.md` and `site/README.md` pointing at a missing file. Restored from `149c8c5^` and brought current: post-migration paths (`codex/`, `lore/`, `records/`, `pinakes.yaml`), Phase 3 marked shipped, pipeline attributed to Pinakes.
+
+**Added:** `protocol/SPACES.md` — evaluation of spaces for publishing. Five leverage points, ranked: the gated backstage layer (single-writer space, many readers), tiered/gated release via a `managing-app` policy, a portable canon horizon as a personal space, a reader community space, and shared drafts.
+
+**Decisions:**
+- **§6.6 reframed.** The old constraint — "atproto has no native access-control story, so backstage is served through our own surface or not at all" — is no longer true. The durable rules survive it: our surface layer remains the default gate; a space is access control, **not** confidentiality; **interiority never leaves, in any lane**; never publish backstage records to a public repo expecting privacy.
+- **New open decision §12.6 — evaluated, not adopted.** Spaces are alpha (breaking changes expected, the dev PDS is disposable). Nothing reader-facing gets built on them yet. Free prep taken instead: reserve the space type NSIDs under `site.supperclub`, keep backstage content derivable, and root any future space in a dedicated project DID rather than a personal account.
+- **§12.4 backstage gating** stays deferred, but the mechanism question is answered; the trigger is now "content written **and** spaces out of alpha."
+- **New Phase 5** in the roadmap (permissioned lane), independent of Phase 4 and equally optional.
+
+**No prose, canon, or code changed** — documentation only (`protocol/ARCHITECTURE.md`, `protocol/SPACES.md`, `README.md`).
+
+---
+
+## 2026-08-29 — Characters as open weights (exploration, no decision)
+
+**Trigger:** Author question — what would it look like for the lexicon that tracks how a character is thinking and feeling to *also* hold open weights for that character, updated as the books publish?
+
+**Added:** `protocol/CHARACTER_WEIGHTS.md`. The reframe is reading `character.stateEvent` as parameters rather than as a log: a **horizon-versioned checkpoint** (`checkpoint(char.emma, book1/ch12)` is a different artifact from `book1/ch25`) that a model can be conditioned on, cut at a canon horizon so it *cannot* spoil — the future is absent from the parameters, not filtered out of them.
+
+**The finding worth keeping:** the repo already separates the five artifacts such a thing needs, and did so for craft reasons rather than technical ones — behavioral spec (`lore/02_character_voice_guide.md`), labeled trajectory (`character_matrix.md`), corpus (`tracking/interiority/*.md`), knowledge cutoff (the Character Secret Progression table in `codex/series_plan.md`), and eval (`lore/03_voice_test_scene.md`). The missing piece is one record type binding them at a point in the story.
+
+**Publishing shape:** public register → public repo (the mask — the character you'd meet at dinner); private and under-pressure registers → a permissioned space, the same gated tier as backstage; raw interiority → never, in any lane.
+
+**The rule that would have to hold:** **generated output is never canon.** Nothing a checkpoint emits enters `codex/` without being written as prose first (Principle 2). Also flagged: licensing must be explicit (MIT says nothing coherent about running a character), and the best Emma would be built from the files we've promised not to publish — the answer is to accept the weaker model, since a character who withholds is truer to this series than one who confesses.
+
+**Status:** exploration only, recorded as open decision §12.7. Nothing scheduled; a Book 2–3 experiment at the earliest. The proposed first step is a day of work that publishes nothing: compile two Emma checkpoints by hand (ch12 and ch25), write ten eval prompts that try to break them, and see whether horizon-versioning holds.
+
+**No prose, canon, or code changed** — documentation only.
+
+---
+
 ## 2026-07-05 — Record extraction pipeline (Protocol Phase 2)
 
 **Decision:** Executed Phase 2 (ARCHITECTURE §13) — full record extraction for the finalized Book 1, building on the Phase 1 registry. Read-only, no network, **no prose or canon changed**; all outputs derive from existing frontmatter/tracking files.

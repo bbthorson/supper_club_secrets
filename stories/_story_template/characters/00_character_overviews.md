@@ -6,7 +6,7 @@ Quick-reference guide to all characters appearing in this story — both main ca
 
 ## Main Cast Roles
 
-How each main character functions in *this* mystery. Reference their canon profiles in [canon library/characters/](../../../canon%20library/characters/) for full backgrounds.
+How each main character functions in *this* mystery. Reference their canon profiles in [codex/characters/](../../../codex/characters/) for full backgrounds.
 
 | Character | Role in This Mystery | Key Contribution | Personal Stakes |
 |-----------|---------------------|------------------|-----------------|
@@ -42,5 +42,5 @@ How each main character functions in *this* mystery. Reference their canon profi
 
 After completing the story:
 - [ ] Update main character lore tracking sections with Book N details
-- [ ] Add any promoted minor characters to canon library
+- [ ] Add any promoted minor characters to codex
 - [ ] Update group_dynamics.md if relationships shifted

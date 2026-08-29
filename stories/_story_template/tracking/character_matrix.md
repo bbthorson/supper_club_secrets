@@ -4,7 +4,7 @@ A chapter × character snapshot. One row per chapter. Each character cell carrie
 
 ## How to read the cells
 
-**Register** is one of: `public`, `private`, `under-pressure`, or a transition (`private → under-pressure`). Matches the three-register framework in `world building/02_character_voice_guide.md`.
+**Register** is one of: `public`, `private`, `under-pressure`, or a transition (`private → under-pressure`). Matches the three-register framework in `lore/02_character_voice_guide.md`.
 
 **State** is a one-line emotional descriptor. Use active language. Avoid generic words like "fine" or "stressed" — be specific.
 

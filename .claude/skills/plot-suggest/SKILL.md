@@ -15,7 +15,7 @@ schedules) and cites it, so accepting a suggestion never creates a contradiction
 - "What should happen next?" — planning the next chapter, scene, or meal
 - A stalled outline: the meal structure is set but a beat is empty
 - Book-level: "what's Book N about?" grounded in the seeds prior books planted
-  (start from `canon library/books/bookN.md` — a concept file already exists per book)
+  (start from `codex/books/bookN.md` — a concept file already exists per book)
 - "Give me options for how X could pay off"
 
 ## Scope first
@@ -29,7 +29,7 @@ Ask (or infer from the request) which altitude the suggestion should live at:
 
 Read, in this order:
 
-1. **`canon library/continuity.md`** (latest `## After Book N` entry) — world state,
+1. **`codex/continuity.md`** (latest `## After Book N` entry) — world state,
    character open threads, recurring-character availability, **Seeds Planted for Future
    Books**.
 2. **`stories/<current>/tracking/subplot_threads.md`** — every thread with status
@@ -41,14 +41,14 @@ Read, in this order:
 4. **`stories/<current>/tracking/interiority/*.md`** — the **withhold columns**: what each
    character is not saying is the highest-energy material available. (Private authoring
    input — never quote interiority content into reader-facing text.)
-5. **`canon library/series_plan.md`** — the **Character Secret Progression** table is a
+5. **`codex/series_plan.md`** — the **Character Secret Progression** table is a
    schedule, not a menu: Emma's income source stays opaque until its deferred book;
    Jasper's old money is the series' first full payoff (Book 6). Also the locked
    decisions (book order, hosting rotation, reputation arc).
-6. **`canon library/locations/index.md`** — market days (McGolrick = Sunday, McCarren =
+6. **`codex/locations/index.md`** — market days (McGolrick = Sunday, McCarren =
    Saturday), shop hours, travel times. Schedules *generate* plot (a closed shop, a
    market-day deadline, a 4-hour drive forcing an overnight) as often as they constrain it.
-7. **`canon library/group_dynamics.md`** — which pairings have charge; which two
+7. **`codex/group_dynamics.md`** — which pairings have charge; which two
    characters haven't had a scene alone together.
 8. **`ai_instructions.md`** — §6 mystery construction (one central mystery + one B-plot,
    2–3 red herrings, ≤5 key clues, fair play, human villain), §7 tone (3–5, peak 6–7,

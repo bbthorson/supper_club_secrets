@@ -23,7 +23,7 @@ Use this template to outline a new Supper Club Secrets story. Copy this folder t
 
 ## Menu Plan
 
-Plan each meal's menu before writing. Food reflects the group's emotional state (see [ai_instructions.md](../../ai_instructions.md) §9). Lock the menu early and reference it consistently across chapters.
+Plan each meal's menu before writing. Food reflects the group's emotional state (see [ai_instructions.md](../../../ai_instructions.md) §9). Lock the menu early and reference it consistently across chapters.
 
 | Meal | Emotional State | Host | Dishes |
 |------|-----------------|------|--------|
@@ -124,16 +124,16 @@ Plan each meal's menu before writing. Food reflects the group's emotional state 
 
 ## Canon Updates Needed
 
-After completing this story, update the following. Log all changes in [CANON_CHANGELOG.md](../../CANON_CHANGELOG.md).
+After completing this story, update the following. Log all changes in [CANON_CHANGELOG.md](../../../CANON_CHANGELOG.md).
 
 ### Mandatory
 - [ ] **Character lore tracking** — Add a "Book N" section to each main character's canon file with key events, quotes, and growth
 - [ ] **Locations registry** — Add any new locations; update existing entries if details changed
 - [ ] **Glossary** — Add new terms, recurring elements, and canon rules revealed in this story
-- [ ] **Continuity summary** — Update [canon library/continuity.md](../../canon%20library/continuity.md) with world-state changes
+- [ ] **Continuity summary** — Update [codex/continuity.md](../../../codex/continuity.md) with world-state changes
 
 ### If Applicable
 - [ ] **Group dynamics** — Update if relationships shifted (new tensions, resolved conflicts, deepened bonds)
 - [ ] **Antagonist file** — Fill in or update the antagonist profile for this book
 - [ ] **Series plan** — Note any deviations from the planned outline, or seeds planted for future books
-- [ ] **Story-specific character files** — Promote any minor characters who should recur to the canon library
+- [ ] **Story-specific character files** — Promote any minor characters who should recur to the codex

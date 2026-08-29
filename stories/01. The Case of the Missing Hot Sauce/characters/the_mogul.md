@@ -1,6 +1,6 @@
 # The Mogul — Garrett Pike (Book 1 antagonist)
 
-> **Canonical profile:** [`canon library/antagonists/book1_garrett_pike.md`](../../../canon%20library/antagonists/book1_garrett_pike.md).
+> **Canonical profile:** [`codex/antagonists/book1_garrett_pike.md`](../../../codex/antagonists/book1_garrett_pike.md).
 > That file is the source of truth for Pike's character, motivation, and voice. This is a thin story-scoped index of his Book 1 footprint. Where the two disagree, the antagonist file and the finalized prose win.
 
 ## Who he is (one line)

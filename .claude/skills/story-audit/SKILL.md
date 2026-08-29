@@ -43,10 +43,13 @@ Divide the work into independent read-only passes and run them as parallel subag
    `subplot_threads.md` actually match the prose, chapter by chapter? Stale tracking is a
    finding even when the prose is fine — the tracking layer is what every future book
    builds on.
-4. **Records-layer pass.** Run `python3 protocol/entities/resolve.py` and
-   `python3 protocol/pipeline/extract.py`; any resolution miss or schema failure is a
-   finding. Check that character files' Book-N lore sections are current with the
-   finished prose (this is where the stale-OnlyFans-bullet class of finding lives).
+4. **Records-layer pass.** Regenerate the record set with Pinakes (configured by
+   `pinakes.yaml`) and diff it against the committed `records/`; any resolution miss,
+   schema failure, or unexplained diff is a finding. The in-repo extraction scripts
+   (`protocol/entities/resolve.py`, `protocol/pipeline/extract.py`) were retired with
+   the Pinakes migration. Check that character files' Book-N lore sections are current
+   with the finished prose (this is where the stale-OnlyFans-bullet class of finding
+   lives).
 5. **Prose-craft / AI-tells pass** (whole book, prose only). Scans for the stylistic tells
    of AI-generated prose — negative parallelism, em-dash addiction, magic adverbs, recycled
    physical tells, a narrow sensory palette, perfect chapter-ending symmetry. The full
@@ -100,4 +103,4 @@ and each prose fix should be the **minimal** change that resolves the finding (B
 precedent: the bottle fix swapped Emma's inspiration object for a photo — no scene was
 rewritten). Annotate the audit report with ✅ fix notes as items land, so the report
 remains the record of what was found and what was done. Re-run the records pipeline after
-fixes and confirm a clean build; commit the regenerated `protocol/records/`.
+fixes and confirm a clean build; commit the regenerated `records/`.

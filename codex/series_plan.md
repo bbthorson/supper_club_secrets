@@ -1,7 +1,7 @@
 ---
 type: SeriesPlan
 title: "Supper Club Secrets — Series Plan (Books 1–6)"
-description: Series overview, locked decisions, the per-book index, and cross-book threads. Per-book detail lives in canon library/books/.
+description: Series overview, locked decisions, the per-book index, and cross-book threads. Per-book detail lives in codex/books/.
 tags: [series-plan, index]
 timestamp: 2026-06-15T00:00:00Z
 id: series-plan
@@ -9,7 +9,7 @@ id: series-plan
 
 # Supper Club Secrets — Series Plan (Books 1–6)
 
-This is the series overview and index. **Per-book detail now lives in [`canon library/books/`](books/)** — one `Book` concept per file. Update individual book files there; keep this file for the series-level frame.
+This is the series overview and index. **Per-book detail now lives in [`codex/books/`](books/)** — one `Book` concept per file. Update individual book files there; keep this file for the series-level frame.
 
 ## Series Overview
 

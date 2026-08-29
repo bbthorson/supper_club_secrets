@@ -1,5 +1,5 @@
 /**
- * The canon horizon — the site's core object (READER_EXPERIENCE.md §3, §7.1).
+ * The canon horizon — the site's core object (protocol/ARCHITECTURE.md §11).
  *
  * A per-reader bookmark: how far they've read, as a plain chapter integer. The
  * whole site renders relative to it, so nothing spoils past where the reader

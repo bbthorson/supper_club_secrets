@@ -195,7 +195,7 @@ Each book should work independently. The mystery starts and resolves within the 
 - References to past mysteries (but not required knowledge)
 
 ### Canon Library Updates
-After completing each book, update the canon library with:
+After completing each book, update the codex with:
 - New locations introduced
 - New minor characters
 - Any character development that changes profiles

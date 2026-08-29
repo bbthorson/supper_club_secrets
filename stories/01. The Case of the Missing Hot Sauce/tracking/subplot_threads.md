@@ -45,7 +45,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 14 | paid off (interpersonal) | Emma privately confides in Olivia — not the account, but the precarity and the shame of the gap between her exit and her reality. Held, not fixed. | Kitchen confide scene (Ch14) |
 | 25 | resolved (private) | The squeeze lifts as Pike retreats; her instincts are vindicated. Secret stays opaque. "The fear didn't end when the threat did" reflection. | Ch25 reflection |
 
-**Direction note (2026-06-15):** Supersedes the earlier arc in which the C&D exposed the OnlyFans, Emma confessed to the whole group in Ch14, and it went public in Ch25. The account itself remains canon (see `canon library/characters/emma.md`) but stays opaque in Book 1 — never named on the page — with the reveal deferred. On-page, the B-plot is precarity + economic squeeze, and the intimate beat is the private Olivia confide.
+**Direction note (2026-06-15):** Supersedes the earlier arc in which the C&D exposed the OnlyFans, Emma confessed to the whole group in Ch14, and it went public in Ch25. The account itself remains canon (see `codex/characters/emma.md`) but stays opaque in Book 1 — never named on the page — with the reveal deferred. On-page, the B-plot is precarity + economic squeeze, and the intimate beat is the private Olivia confide.
 
 ---
 
@@ -75,7 +75,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 14 | developing | Takes work call mid-emergency dinner. "Jaw tightens." Sister's car broke down; needs money for repair. The explicit family beat is Ch14 only. | "It doesn't matter right now" |
 | (none in Book 1) | **intentional ambient texture** | The Ch8 joke-line and Ch14 work call stay as background pressure with no Book 1 payoff. The thread is explicitly carried to Book 3. | Author decision 2026-05-23 |
 
-**Resolution applied 2026-05-23:** Per author direction, this is NOT a dropped thread — it's intentional ambient texture. Elijah carries family financial weight as chronic background load that the reader feels but the book doesn't resolve. Book 3 (Elijah's focal book) is where the family weight pays off — credit union being asset-stripped + Dorothy's loan crisis mirror Elijah's own family precarity. See `canon library/series_plan.md` → Book 3.
+**Resolution applied 2026-05-23:** Per author direction, this is NOT a dropped thread — it's intentional ambient texture. Elijah carries family financial weight as chronic background load that the reader feels but the book doesn't resolve. Book 3 (Elijah's focal book) is where the family weight pays off — credit union being asset-stripped + Dorothy's loan crisis mirror Elijah's own family precarity. See `codex/series_plan.md` → Book 3.
 
 **Read for the editor:** Don't add more Elijah family beats in Book 1. The Ch8 joke-line is ambient texture, not a family beat; the one explicit family beat is Ch14. Resist the temptation to "pay it off" — the payoff is Book 3.
 
