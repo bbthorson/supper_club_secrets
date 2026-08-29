@@ -1,6 +1,6 @@
 # Story-Specific Character Notes
 
-Use this file to track character information specific to this story—details that might not belong in the main canon library yet, or that are specific to this mystery.
+Use this file to track character information specific to this story—details that might not belong in the main codex yet, or that are specific to this mystery.
 
 ---
 
@@ -66,4 +66,4 @@ Use this file to track character information specific to this story—details th
 After completing the story, consider:
 - Which details should be added to main character files?
 - Any relationship changes to document?
-- New recurring characters to add to canon library?
+- New recurring characters to add to codex?

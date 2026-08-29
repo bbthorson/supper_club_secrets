@@ -1,7 +1,7 @@
 /**
- * Build-time data layer over the derived record set
- * (protocol/records/book1/*.json). Used by the static data endpoints and lens
- * pages. Everything here runs at build only — never shipped to the client.
+ * Build-time data layer over the derived record set (records/). Used by the
+ * static data endpoints and lens pages. Everything here runs at build only —
+ * never shipped to the client.
  *
  * The timeline is organized by STORY DATE, not by chapter, because the source
  * records are date-granular: several chapters can share one dated beat (Meal 1's

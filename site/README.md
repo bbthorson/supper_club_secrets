@@ -1,8 +1,8 @@
 # Reader Experience Site — Protocol Phase 3
 
 The public reading surface for *Supper Club Secrets*, per `protocol/ARCHITECTURE.md`
-§13 (Phase 3) and `protocol/READER_EXPERIENCE.md`. An Astro static site with full
-design control and no atproto dependency — the primary way readers meet the book.
+§11 (Reader Surfaces) and §13 (Phase 3). An Astro static site with full design control
+and no atproto dependency — the primary way readers meet the book.
 
 **This is Milestone 1: the reading experience itself** — the menu, the reading
 room, the canon horizon, and the redaction. The record-set lenses (Timeline

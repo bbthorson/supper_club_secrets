@@ -59,7 +59,7 @@ Threads involving recurring minor characters (Hank, Dorothy, Sofia, Marcus, Bren
 
 ## Seeds for future books
 
-Threads intentionally left open. Cross-reference with `canon library/series_plan.md` to make sure each seed has a future home.
+Threads intentionally left open. Cross-reference with `codex/series_plan.md` to make sure each seed has a future home.
 
 | Thread | Status | Seeded in chapter | Future book it pays off |
 |--------|--------|-------------------|-------------------------|

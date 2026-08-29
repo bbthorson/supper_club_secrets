@@ -1,6 +1,6 @@
 # Book 1 — Story Bible: The Case of the Missing Hot Sauce
 
-The canonical source of truth for Book 1. Story-level facts live here. Series-level decisions live in `canon library/series_plan.md`. Where this file and the chapter prose disagree, the prose wins (Golden Rule) and this file is updated to match.
+The canonical source of truth for Book 1. Story-level facts live here. Series-level decisions live in `codex/series_plan.md`. Where this file and the chapter prose disagree, the prose wins (Golden Rule) and this file is updated to match.
 
 ---
 
@@ -97,7 +97,7 @@ Emma's financial vulnerability is the B-plot. She has a private, more reliable i
 
 The developer's retaliation lands here. Rather than exposing anything, the pressure arrives as **lost assignments and dried-up revenue**, an economic squeeze meant to make Emma back off. Emma's **on-page vulnerability** is her shame over the gap between her proud, dramatic exit from Bistro Lavande and the precarious reality of freelance life, and that is what she **confides to Olivia** privately (not the whole group). The secret income source sits opaquely beneath that, **deferred to a later book**, where it can be revealed properly.
 
-*Supersedes the earlier plan in which a cease and desist exposed an OnlyFans account ("Kinky Kitchen"), Emma confessed to the entire group in Ch14, and it went public in Ch18. The underlying canon fact (the secret itself) is unchanged in `canon library/characters/emma.md`; only its Book-1 revelation changes. See the 2026-06-15 changelog entry for the downstream files to reconcile in the back-half rewrite.*
+*Supersedes the earlier plan in which a cease and desist exposed an OnlyFans account ("Kinky Kitchen"), Emma confessed to the entire group in Ch14, and it went public in Ch18. The underlying canon fact (the secret itself) is unchanged in `codex/characters/emma.md`; only its Book-1 revelation changes. See the 2026-06-15 changelog entry for the downstream files to reconcile in the back-half rewrite.*
 
 ## Central Mystery
 
@@ -135,13 +135,13 @@ The developer's retaliation lands here. Rather than exposing anything, the press
 
 ### Antagonist
 
-**Garrett Pike** ("the mogul"). Full profile in `canon library/antagonists/book1_garrett_pike.md`.
+**Garrett Pike** ("the mogul"). Full profile in `codex/antagonists/book1_garrett_pike.md`.
 
 ---
 
 ## Key Locations
 
-Emma's apartment (Williamsburg, near McGolrick Park; all four meals). McGolrick Park Farmers Market (Sunday; where the mystery starts). McCarren Park Greenmarket (Saturday). The Gilded Fern (Marcus's boutique). Sofia's Cheese Shop. NYPL Rose Main Reading Room (Oliver's research). Meadowlight Collective, PA (where Hank is found; the only setting outside Brooklyn). Full per-location files with schedule rules in `canon library/locations/` (see `locations/index.md`).
+Emma's apartment (Williamsburg, near McGolrick Park; all four meals). McGolrick Park Farmers Market (Sunday; where the mystery starts). McCarren Park Greenmarket (Saturday). The Gilded Fern (Marcus's boutique). Sofia's Cheese Shop. NYPL Rose Main Reading Room (Oliver's research). Meadowlight Collective, PA (where Hank is found; the only setting outside Brooklyn). Full per-location files with schedule rules in `codex/locations/` (see `locations/index.md`).
 
 ---
 
@@ -149,7 +149,7 @@ Emma's apartment (Williamsburg, near McGolrick Park; all four meals). McGolrick 
 
 **Reputation status:** The group does not yet think of itself as mystery-solvers. This was a one-time thing. (Per the series reputation arc, Books 1–2 are "stumbling into it.")
 
-**Seeds planted for later books:** Oliver's secret online life (Book 2 focal). Dorothy's finances (Book 3). Elijah's family weight, named but unpaid here by design (Book 3 focal). Jasper's old money, undisclosed (Book 6 reveal). Emma's secret income source stays opaque; full reveal deferred to a later book. Rotating hosts begin Book 2. Full continuity in `canon library/continuity.md`.
+**Seeds planted for later books:** Oliver's secret online life (Book 2 focal). Dorothy's finances (Book 3). Elijah's family weight, named but unpaid here by design (Book 3 focal). Jasper's old money, undisclosed (Book 6 reveal). Emma's secret income source stays opaque; full reveal deferred to a later book. Rotating hosts begin Book 2. Full continuity in `codex/continuity.md`.
 
 ---
 

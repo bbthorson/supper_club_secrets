@@ -122,7 +122,7 @@ worthwhile optional extension: it's a symmetry tell no fixed regex predicts.
 makes two tells easy to over-flag and two easy to miss.
 
 **Never flag these — they're designed (the allowlist).** Catalogued voice tics from
-`ai_instructions.md` §3–§4 and `world building/02_character_voice_guide.md`:
+`ai_instructions.md` §3–§4 and `lore/02_character_voice_guide.md`:
 
 - **Emma's** Western PA dialect surfacing under pressure.
 - **Jasper's** breathless energy — *and its reversal, going quiet*.
@@ -133,7 +133,7 @@ These are *supposed* to recur — roughly once per scene, per §3. That's a voic
 an AI tell. (Their *overuse* — every line instead of once per scene — is already a Tier 3
 finding under the continuity pass's voice check; don't double-report it here.) Before flagging
 any repeated verbal or somatic beat, check it against the voice guide and
-`canon library/characters/*.md`; if it's catalogued there, it's out of scope for this pass.
+`codex/characters/*.md`; if it's catalogued there, it's out of scope for this pass.
 
 **The sensory carve-out is load-bearing here.** §2 requires sensory-first prose and "at least
 two senses beyond taste" in food scenes. Do **not** flag the *presence* of smell/texture/sound.

@@ -21,15 +21,15 @@ This document provides the **creative and stylistic guidelines** for writing in 
 ## 3. Dialogue
 
 - **Natural and sharp.** Characters interrupt each other. Conversations overlap.
-- **Distinct voices.** Each character should sound different. See the [Character Voice Guide](world%20building/02_character_voice_guide.md) for register details.
+- **Distinct voices.** Each character should sound different. See the [Character Voice Guide](lore/02_character_voice_guide.md) for register details.
 - **"Said" 80% of the time** — it's invisible. Use character actions instead of colorful tags.
 - **Distinctive tics once per scene, not every line.** Emma's Western PA dialect, Jasper's breathless energy, etc.
 
 ## 4. Character Voice Quick Reference
 
-For comprehensive voice profiles with registers, pairing dynamics, and example dialogue, see **[02_character_voice_guide.md](world%20building/02_character_voice_guide.md)**.
+For comprehensive voice profiles with registers, pairing dynamics, and example dialogue, see **[02_character_voice_guide.md](lore/02_character_voice_guide.md)**.
 
-For character facts, backgrounds, relationships, and lore tracking, see **[canon library/characters/](canon%20library/characters/)**.
+For character facts, backgrounds, relationships, and lore tracking, see **[codex/characters/](codex/characters/)**.
 
 | Character | Public Mode | Under Pressure | Key Contradiction |
 |-----------|-------------|----------------|-------------------|
@@ -95,7 +95,7 @@ Food is the emotional backbone of every book. Each meal's menu should reflect th
 | Meal 3 | Crisis, defeat | Takeout or failed attempt — no one can cook |
 | Meal 4 | Celebration, resolution | Elevated potluck, meaningful dishes |
 
-See the [Writing Guide](world%20building/04_writing_guide.md) for pacing, beat structure, and scene tempo patterns.
+See the [Writing Guide](lore/04_writing_guide.md) for pacing, beat structure, and scene tempo patterns.
 
 ## 10. Formatting
 

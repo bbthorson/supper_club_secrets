@@ -22,7 +22,7 @@ never edited to match a record (see `protocol/ARCHITECTURE.md` §10).
 Identify the target prose (a chapter file under `stories/<book>/chapters/`, a scene, or a
 diff) and which book it belongs to. The canonical sources live in two places:
 
-- **Series-wide:** `canon library/` — `continuity.md`, `characters/*.md`,
+- **Series-wide:** `codex/` — `continuity.md`, `characters/*.md`,
   `antagonists/*.md`, `locations/*.md` (+ `locations/index.md`), `group_dynamics.md`,
   `glossary.md`, `series_plan.md`
 - **Per-story:** `stories/<book>/tracking/` — `character_matrix.md`,
@@ -41,7 +41,7 @@ chapter (and adjacent chapters):
   without a transition beat.
 - **State arc** — is the one-line emotional state a believable step from the previous
   chapter's cell? Flag jumps with no on-page cause.
-- **Voice** — cross-check `canon library/characters/<name>.md` and the voice guide.
+- **Voice** — cross-check `codex/characters/<name>.md` and the voice guide.
   Distinctive tics (Emma's Western PA dialect, Jasper's breathlessness) should appear
   *roughly once per scene, not every line*. Flag overuse and flag voice that could belong
   to any character.
@@ -56,10 +56,10 @@ Cross-check `tracking/timeline_ledger.md`:
   days ago" must agree with the absolute dates. (This class of bug is real here — see the
   Oct 2 LLC chronology note in the ledger.)
 - **Travel time** — movements between locations must respect the scheduling/travel rules in
-  `canon library/locations/index.md`. No teleporting across Brooklyn within an impossible window.
+  `codex/locations/index.md`. No teleporting across Brooklyn within an impossible window.
 
 ### 3. Location consistency
-Cross-check `canon library/locations/index.md` and `canon library/locations/*.md`:
+Cross-check `codex/locations/index.md` and `codex/locations/*.md`:
 - Is the location **open/operating** on the scene's story date? (Market days, shop hours
   are encoded as schedule rules — e.g. McGolrick market is Sunday; McCarren is Saturday.)
 - Physical details (layout, who works there, neighborhood) match the location file.
@@ -86,7 +86,7 @@ These are red lines — flag any violation:
 
 ### 6. Cross-book continuity (series-wide scenes)
 If the target is the opening of a new book or references prior events, check the relevant
-`## After Book N` entry in `canon library/continuity.md` for world state, character state,
+`## After Book N` entry in `codex/continuity.md` for world state, character state,
 and recurring-character availability.
 
 ### 7. AI-tells (light craft glance, optional)
