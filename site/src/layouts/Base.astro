@@ -52,19 +52,20 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
             {/* book-scoped first, then the series-level surfaces. The cast and
                 the neighborhood are series records, so they never nest. */}
             {book && (
-              <>
+              <span class="nav-group">
                 <a href={bookHref(book)}>Menu</a>
                 <a href={timelineHref(book)}>Timeline</a>
-                <span class="nav-div" aria-hidden="true">
-                  ·
-                </span>
-              </>
+              </span>
             )}
-            <a href="/shelf">Shelf</a>
-            <a href="/characters">Cast</a>
-            <a href="/places">Places</a>
+            <span class="nav-group">
+              <a href="/shelf">Shelf</a>
+              <a href="/characters">Cast</a>
+              <a href="/places">Places</a>
+            </span>
           </nav>
-          <ThemeToggle />
+          <div class="toggle-slot">
+            <ThemeToggle />
+          </div>
         </header>
       )
     }
@@ -73,12 +74,15 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
     </main>
     {
       !bare && (
-        <footer class="site-footer scs-label">
-          <span class="foot-where">
-            Williamsburg, Brooklyn · Thursdays
-            <a class="foot-link" href="/kitchen">The Kitchen</a>
-          </span>
-          <span class="foot-note">Please inform your host of any secrets before dining.</span>
+        <footer class="site-footer">
+          <p class="foot-note">Please inform your host of any secrets before dining.</p>
+          <nav class="foot-nav scs-label" aria-label="Secondary">
+            <a href="/shelf">The Shelf</a>
+            <a href="/characters">The Regulars</a>
+            <a href="/places">The Neighborhood</a>
+            <a href="/kitchen">The Kitchen</a>
+          </nav>
+          <p class="foot-where scs-label">Williamsburg, Brooklyn · a weekly supper club</p>
         </footer>
       )
     }
@@ -86,22 +90,52 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
 </html>
 
 <style>
+  /* Two rows on a phone — the wordmark and the service toggle belong together
+     at the top, the way a sign and a light switch do — collapsing to one row
+     once there is width for the nav between them. The old single flex row let
+     the nav's auto margin fight space-between, so the toggle wrapped alone. */
   .site-header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem 1.4rem;
-    flex-wrap: wrap;
+    gap: 0.9rem 1.6rem;
     max-width: 62rem;
     margin: 0 auto;
     padding: 1.4rem clamp(1rem, 4vw, 2.5rem);
     border-bottom: var(--scs-leader);
   }
+  /* A wrapper, not `.theme-toggle` directly: Astro scopes styles to a
+     component's own template, so a selector here never reaches the button
+     inside ThemeToggle. */
+  .toggle-slot {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+  }
   .site-nav {
+    grid-column: 1 / -1;
     display: flex;
-    gap: 1.1rem;
-    margin-right: auto;
-    margin-left: 0.4rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+    /* the wider column gap is what separates book-scoped links from
+       series-scoped ones — a separator glyph strands at the end of a line
+       whenever the row wraps */
+    gap: 0.5rem 1.9rem;
+  }
+  .nav-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.1rem;
+  }
+  @media (min-width: 48rem) {
+    .site-header {
+      grid-template-columns: auto 1fr auto;
+    }
+    .site-nav {
+      grid-column: 2;
+      grid-row: 1;
+      margin-left: 0.6rem;
+    }
   }
   .site-nav a {
     color: var(--scs-ink-muted);
@@ -109,9 +143,6 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
   }
   .site-nav a:hover {
     color: var(--scs-accent);
-  }
-  .nav-div {
-    color: var(--scs-line);
   }
   .wordmark {
     font-family: var(--scs-font-display);
@@ -134,33 +165,34 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
     margin: 0 auto;
     padding: clamp(1.5rem, 5vw, 3.5rem) clamp(1rem, 4vw, 2.5rem);
   }
+  /* Stacked and centred, like the foot of a menu card: the house note as the
+     signature, then the way back to everything, then where you are. The old
+     two-column split wrapped into an L on a phone. */
   .site-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 0.75rem 2rem;
     max-width: 62rem;
     margin: 2rem auto 0;
-    padding: 1.4rem clamp(1rem, 4vw, 2.5rem) 2.6rem;
+    padding: 1.6rem clamp(1rem, 4vw, 2.5rem) 2.8rem;
     border-top: var(--scs-leader);
     color: var(--scs-ink-muted);
+    text-align: center;
   }
-  .foot-where {
+  .foot-nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: baseline;
-    gap: 0.5rem 1.1rem;
+    gap: 0.5rem 1.6rem;
+    margin: 1.3rem 0 1.1rem;
   }
-  .foot-link {
+  .foot-nav a {
     color: var(--scs-ink-muted);
     text-decoration: none;
-    border-bottom: 1px dotted var(--scs-ornament);
-    padding-bottom: 0.1em;
   }
-  .foot-link:hover {
+  .foot-nav a:hover {
     color: var(--scs-accent);
-    border-bottom-color: var(--scs-accent);
+  }
+  .foot-where {
+    margin: 0;
   }
   .site-footer .foot-note {
     font-family: var(--scs-font-display);
@@ -169,7 +201,8 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
     font-variation-settings: var(--scs-type-romance-variation);
     letter-spacing: 0;
     text-transform: none;
-    font-size: 1rem;
+    font-size: 1.08rem;
     color: var(--scs-ink-muted);
+    margin: 0;
   }
 </style>

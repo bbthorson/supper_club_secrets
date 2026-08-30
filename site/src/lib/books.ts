@@ -52,7 +52,7 @@ export const BOOKS: Book[] = [
     month: 'October',
     host: 'Emma',
     logline:
-      "Every Thursday, six friends eat at Emma's table. The Sunday the hot sauce man doesn't show up at the market, dinner becomes a case.",
+      "Six friends, one standing dinner a week at Emma's table. The Sunday the hot sauce man doesn't show up at the market, dinner becomes a case.",
     totalChapters: 25,
     current: true,
     meals: [
