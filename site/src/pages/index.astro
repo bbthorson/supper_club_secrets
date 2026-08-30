@@ -35,6 +35,18 @@ const courses: Course[] = [1, 2, 3, 4].map((meal) => {
 ---
 
 <Base title="Supper Club Secrets — The Case of the Missing Hot Sauce">
+  <section class="service-note">
+    <p class="sn-eyebrow scs-label">Thursdays in Williamsburg, Brooklyn</p>
+    <p class="sn-logline scs-romance">
+      Every Thursday, six friends eat at Emma's table. The Sunday the hot sauce man
+      doesn't show up at the market, dinner becomes a case.
+    </p>
+    <p class="sn-rule">
+      Served in courses — nothing here spoils past where you've read. The timeline,
+      the cast and the neighborhood fill in as you go.
+    </p>
+  </section>
+
   <MenuCard
     eyebrow="Book One"
     title="The Case of the Missing Hot Sauce"
@@ -43,3 +55,34 @@ const courses: Course[] = [1, 2, 3, 4].map((meal) => {
     courses={courses}
   />
 </Base>
+
+<style>
+  /* The cover work happens here rather than on a splash page in front of the
+     site: a cold visitor gets the premise and the one rule of the place, and
+     the menu card below stays the thing they came for. */
+  .service-note {
+    text-align: center;
+    max-width: 46ch;
+    margin: 0 auto 2.2rem;
+  }
+  .sn-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.8rem;
+  }
+  .sn-logline {
+    font-size: clamp(1.2rem, 3.4vw, 1.5rem);
+    line-height: 1.45;
+    color: var(--scs-ink);
+    margin: 0;
+  }
+  /* body type, not tracked caps — this runs to three lines on a phone, and
+     caps at that length stop being a label and start being a wall */
+  .sn-rule {
+    font-family: var(--scs-font-body);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+    max-width: 40ch;
+    margin: 1.1rem auto 0;
+  }
+</style>

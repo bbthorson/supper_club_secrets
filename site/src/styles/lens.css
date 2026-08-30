@@ -76,6 +76,16 @@ a.chip:hover {
   color: var(--scs-ink);
 }
 
+/* the feed's empty/placeholder line — a full sentence, so body type rather
+ * than the tracked caps of a label, which shout at this length */
+.feed-empty {
+  font-family: var(--scs-font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--scs-ink-muted);
+  margin: 0;
+}
+
 /* feeds: scene cards + a character's state rows */
 .feed-card {
   padding: 1.1rem 0;

@@ -15,6 +15,7 @@ import stateRaw from '../../../records/book1/character_state_events.json';
 import placesRaw from '../../../records/series/places.json';
 import profilesRaw from '../../../records/series/character_profiles.json';
 import custodyRaw from '../../../records/book1/custody_events.json';
+import { characterCodex, codexCharacterIds, placeCodex } from './codex';
 
 export const TOTAL_CHAPTERS = 25;
 
@@ -24,7 +25,9 @@ interface SceneRec {
   storyDate: string;
   chapterRefs: string[];
   title: string;
-  meal: number;
+  sourceFile?: string;
+  /** Not emitted by the compiler today — see sceneMeal(). */
+  meal?: number;
   placeRefs?: string[];
   placeText?: string[] | null;
   participants?: string[];
@@ -41,16 +44,17 @@ interface PlaceRec {
   id: string;
   name: string;
   status?: string;
-  neighborhood?: string | null;
-  schedule?: { days?: string[]; hours?: string; note?: string } | null;
 }
 interface ProfileRec {
   subject: string;
   displayName: string;
-  handle?: string | null;
+  /** Scraped from the source file's `## Overview` by the compiler. This is
+   *  CRAFT copy — it states a character's function in the plot, and for the
+   *  supporting cast it gives away the ending ("…turns the tide in their
+   *  campaign against the mogul"). It is never surfaced publicly; the
+   *  reader-facing persona comes from codex.ts. */
   oneLine?: string | null;
-  personaPublic?: string | null;
-  keyContradiction?: string | null;
+  sourceFile?: string | null;
 }
 interface CustodyRec {
   item: string;
@@ -103,6 +107,20 @@ export function chapterNumFromRef(ref: string | undefined | null): number {
   return m ? Number.parseInt(m[1], 10) : 0;
 }
 const sceneChapter = (s: SceneRec) => chapterNumFromRef(s.chapterRefs?.[0]);
+
+/**
+ * Which meal (1–4) a scene belongs to.
+ *
+ * `scene` records carry no `meal` field — the compiler doesn't emit one — so it
+ * comes from the chapter filename, which encodes it: `m2_07_gathering…md` is
+ * Meal 2. Without this every entry's meal was 0, and the timeline's per-meal
+ * filter matched nothing, so the page rendered four headings and no days.
+ */
+export function sceneMeal(s: SceneRec): number {
+  if (typeof s.meal === 'number' && s.meal > 0) return s.meal;
+  const m = /\/m(\d)_/.exec(s.sourceFile ?? '');
+  return m ? Number.parseInt(m[1], 10) : 0;
+}
 
 /** All chapter numbers that carry at least one scene, ascending. */
 export function allChapters(): number[] {
@@ -174,7 +192,7 @@ function buildEntries(): TimelineEntry[] {
   for (const s of scenes) {
     const ch = sceneChapter(s);
     const e = ensure(s.storyDate);
-    if (!e.meal) e.meal = s.meal;
+    if (!e.meal) e.meal = sceneMeal(s);
     if (!e.chapters.includes(ch)) e.chapters.push(ch);
     if (s.primaryEvent && !e.events.includes(s.primaryEvent)) e.events.push(s.primaryEvent);
     for (const p of s.placeRefs ?? []) pushRef(e.places, namedPlace(p));
@@ -265,22 +283,34 @@ export function placeFirstChapter(placeId: string): number {
 }
 
 export interface PlaceListing extends NamedRef {
-  neighborhood: string | null;
   status: string;
   firstChapter: number;
-  schedule: { days?: string[]; hours?: string; note?: string } | null;
+  /** Public, in-world identity read from the location file — see codex.ts.
+   *  The record set carries no such fields today (its `schedule` is null
+   *  everywhere and it has no neighborhood), so these come from the codex. */
+  kind: string | null;
+  address: string | null;
+  hours: string | null;
+  owner: string | null;
+  blurb: string | null;
 }
 /** Places that actually appear in a scene (skip referenced-only), for feed pages. */
 export function placeListings(): PlaceListing[] {
   return places
-    .map((p) => ({
-      id: p.id,
-      name: p.name,
-      neighborhood: p.neighborhood ?? null,
-      status: p.status ?? '',
-      firstChapter: placeFirstChapter(p.id),
-      schedule: p.schedule ?? null,
-    }))
+    .map((p) => {
+      const codex = placeCodex(p.id);
+      return {
+        id: p.id,
+        name: p.name,
+        status: p.status ?? '',
+        firstChapter: placeFirstChapter(p.id),
+        kind: codex?.kind ?? null,
+        address: codex?.address ?? null,
+        hours: codex?.hours ?? null,
+        owner: codex?.owner ?? null,
+        blurb: codex?.blurbPublic ?? null,
+      };
+    })
     .filter((p) => p.firstChapter > 0)
     .sort((a, b) => a.firstChapter - b.firstChapter || a.name.localeCompare(b.name));
 }
@@ -318,22 +348,34 @@ export const ANTAGONIST = 'char.garrett-pike';
 // one place so the eventual swap is a one-liner.
 export const HANDLE_DOMAIN = 'supperclub.secrets';
 
+/**
+ * The supper club itself — the characters with a `codex/characters/` file, as
+ * opposed to a book's supporting cast (under `stories/…/characters/`) or the
+ * antagonist (under `codex/antagonists/`). Derived rather than hardcoded, so a
+ * seventh regular joining the codex needs no change here.
+ */
+const CLUB_IDS = new Set(codexCharacterIds());
+
+/** A reader-safe public identity. Deliberately has no `oneLine` field: the
+ *  compiler's Overview scrape is craft copy and must not reach a page. */
 export interface Profile extends NamedRef {
   handle: string | null;
-  oneLine: string | null;
   personaPublic: string | null;
   keyContradiction: string | null;
   firstChapter: number;
+  /** True for the six regulars — the only cast shown before a reader starts. */
+  club: boolean;
 }
 function toProfile(p: ProfileRec): Profile {
+  const codex = characterCodex(p.subject);
   return {
     id: p.subject,
     name: p.displayName,
-    handle: p.handle ?? null,
-    oneLine: p.oneLine ?? null,
-    personaPublic: p.personaPublic ?? null,
-    keyContradiction: p.keyContradiction ?? null,
+    handle: codex?.handle ?? null,
+    personaPublic: codex?.personaPublic ?? null,
+    keyContradiction: codex?.keyContradiction ?? null,
     firstChapter: charFirstChapter.get(p.subject) ?? 0,
+    club: CLUB_IDS.has(p.subject),
   };
 }
 
@@ -348,10 +390,19 @@ export function profileById(charId: string): Profile | undefined {
   return p ? toProfile(p) : undefined;
 }
 
-/** The public roster — club members only (antagonist excluded), in reading order. */
-export function profileListings(): Profile[] {
+/**
+ * The public roster: the supper club, and nothing else.
+ *
+ * This is deliberately narrower than "every profile that isn't the antagonist".
+ * The compiler emits a profile for every character file that has an Overview,
+ * which now includes the book's supporting cast — and their Overviews are craft
+ * notes that spoil the ending. The regulars are the book's premise and are safe
+ * to show cold; everyone else the reader meets by reading, so the roster page
+ * assembles them client-side from horizon-gated fragments instead.
+ */
+export function clubListings(): Profile[] {
   return profiles
-    .filter((p) => p.subject !== ANTAGONIST)
+    .filter((p) => CLUB_IDS.has(p.subject))
     .map(toProfile)
     .sort((a, b) => a.firstChapter - b.firstChapter || a.name.localeCompare(b.name));
 }

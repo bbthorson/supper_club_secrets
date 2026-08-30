@@ -1,0 +1,129 @@
+---
+// The calling card — the landing-page header shared by character and place
+// hubs. Deliberately NOT a social-feed profile: it's a link-in-bio card, which
+// is the shape the data actually supports. The persona lines are authored to be
+// read (codex frontmatter `personaPublic` / `keyContradiction`); the scene
+// records underneath are editorial summaries, not in-world posts, so they stay
+// below as "appearances" rather than being dressed up as something they aren't.
+//
+// It also solves the cold-start problem: a card is complete at horizon 0. A
+// reader who hasn't started still gets a name, a bio, and a set of facts —
+// where the feed below would only say "nothing to show yet".
+export interface Fact {
+  label: string;
+  value: string;
+}
+interface Props {
+  eyebrow: string;
+  name: string;
+  /** atproto-style handle (characters only), rendered @handle.domain. */
+  handle?: string | null;
+  handleDomain?: string;
+  /** The public bio — first-person for characters, in-world for places. */
+  bio?: string | null;
+  /** A single italic line under the bio (a character's key contradiction). */
+  tagline?: string | null;
+  facts?: Fact[];
+}
+const { eyebrow, name, handle = null, handleDomain, bio = null, tagline = null, facts = [] } =
+  Astro.props;
+---
+
+<header class="card">
+  <p class="card-eyebrow scs-label">{eyebrow}</p>
+  <h1 class="card-name scs-poster">{name}</h1>
+  {
+    handle && (
+      <p class="card-handle">
+        <span class="handle-at">@{handle}</span>
+        {handleDomain && <span class="handle-dom">.{handleDomain}</span>}
+      </p>
+    )
+  }
+  {bio && <p class="card-bio">{bio}</p>}
+  {tagline && <p class="card-tagline scs-romance">{tagline}</p>}
+  {
+    facts.length > 0 && (
+      <dl class="card-facts">
+        {facts.map((f) => (
+          <div class="fact">
+            <dt class="scs-label">{f.label}</dt>
+            <dd>{f.value}</dd>
+          </div>
+        ))}
+      </dl>
+    )
+  }
+</header>
+
+<style>
+  .card {
+    background: var(--scs-surface);
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    padding: clamp(1.5rem, 4vw, 2.6rem) clamp(1.2rem, 4vw, 2.6rem);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .card-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.7rem;
+  }
+  .card-name {
+    font-size: clamp(2rem, 6.5vw, 3.4rem);
+    margin: 0;
+    /* long market names must break rather than force a horizontal scroll */
+    overflow-wrap: break-word;
+  }
+  .card-handle {
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    margin: 0.7rem 0 0;
+  }
+  .handle-at {
+    color: var(--scs-accent);
+  }
+  .handle-dom {
+    color: var(--scs-ink-muted);
+  }
+  .card-bio {
+    font-family: var(--scs-font-body);
+    font-size: 1.06rem;
+    line-height: 1.6;
+    color: var(--scs-ink);
+    max-width: 46ch;
+    margin: 1.1rem auto 0;
+    text-align: left;
+  }
+  .card-tagline {
+    color: var(--scs-ink-muted);
+    font-size: 1.15rem;
+    max-width: 44ch;
+    margin: 0.9rem auto 0;
+  }
+
+  .card-facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.9rem 2rem;
+    margin: 1.6rem 0 0;
+    padding-top: 1.3rem;
+    border-top: var(--scs-leader);
+  }
+  .fact {
+    max-width: 22ch;
+  }
+  .fact dt {
+    color: var(--scs-ornament);
+    margin-bottom: 0.3rem;
+  }
+  .fact dd {
+    font-family: var(--scs-font-body);
+    font-size: 0.98rem;
+    color: var(--scs-ink);
+    margin: 0;
+  }
+</style>

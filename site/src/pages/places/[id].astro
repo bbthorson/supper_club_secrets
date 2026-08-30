@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import CallingCard, { type Fact } from '../../components/CallingCard.astro';
 import FeedLens from '../../components/FeedLens.astro';
 import { placeListings } from '../../lib/records';
 
@@ -11,16 +12,36 @@ export function getStaticPaths() {
 }
 
 const { place } = Astro.props;
-const bits = [place.neighborhood, place.schedule?.note].filter(Boolean);
-const subtitle = bits.length ? bits.join(' · ') : undefined;
+
+// In-world facts only — read from the location file's labelled lines, never
+// from its frontmatter `description` or `## Story Significance` (both are craft
+// notes and several give the ending away). See lib/codex.ts.
+const facts: Fact[] = [
+  place.kind && { label: 'Type', value: place.kind },
+  place.address && { label: 'Where', value: place.address },
+  place.hours && { label: 'Hours', value: place.hours },
+  place.owner && { label: 'Owner', value: place.owner },
+].filter(Boolean) as Fact[];
 ---
 
-<Base title={`${place.name} — Supper Club Secrets`} description={`Every scene at ${place.name}, up to how far you've read.`}>
-  <FeedLens
-    kind="place"
-    entityId={place.id}
-    eyebrow="A Place in the Case"
-    title={place.name}
-    subtitle={subtitle}
-  />
+<Base
+  title={`${place.name} — Supper Club Secrets`}
+  description={`${place.name} — a place in the case, and everything that has happened there up to how far you've read.`}
+>
+  <article class="hub">
+    <CallingCard
+      eyebrow="A Place in the Case"
+      name={place.name}
+      bio={place.blurb}
+      facts={facts}
+    />
+
+    <FeedLens
+      kind="place"
+      entityId={place.id}
+      bare
+      relations
+      threadLabel="Everything that happened here"
+    />
+  </article>
 </Base>

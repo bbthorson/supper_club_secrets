@@ -1,0 +1,224 @@
+---
+import Base from '../../layouts/Base.astro';
+import { placeListings } from '../../lib/records';
+
+// The neighborhood fills in as the reader walks it: each place unlocks at the
+// chapter it first appears in, and shows a sealed card until then. A place's
+// public identity (type, cross-streets, hours) is in-world fact and safe to
+// print once reached — the location file's `description` and story-significance
+// notes are craft copy and are never read (see lib/codex.ts).
+const places = placeListings();
+---
+
+<Base
+  title="The Neighborhood — Supper Club Secrets"
+  description="Every corner of the case — the markets, the shops, the apartments — unlocking as you read."
+>
+  <section class="places-intro">
+    <p class="eyebrow scs-label">Williamsburg &amp; Greenpoint</p>
+    <h1 class="places-title scs-poster">The Neighborhood</h1>
+    <p class="places-sub scs-romance">
+      Every corner the case turns through. It fills in as you read.
+    </p>
+    <p class="places-note scs-label" data-places-note hidden></p>
+  </section>
+
+  <ul class="places" data-places-grid hidden>
+    {
+      places.map((p) => (
+        <li class="place" data-place data-reveal={p.firstChapter} hidden>
+          <a class="place-body" href={`/places/${p.id.replace('place.', '')}`}>
+            <h2 class="place-name scs-title">{p.name}</h2>
+            {p.kind && <p class="place-kind scs-label">{p.kind}</p>}
+            {p.address && <p class="place-where">{p.address}</p>}
+            {p.hours && <p class="place-hours scs-label">{p.hours}</p>}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  {/* A wall of identical redaction bars is still an empty page. Before the
+      reader has been anywhere, give them the way in instead. */}
+  <section class="places-empty" data-places-empty hidden>
+    <span class="sealed-bar" aria-hidden="true"></span>
+    <p class="pe-line">
+      You haven't been anywhere yet. Every market, shop and kitchen the case turns
+      through opens up as you reach it.
+    </p>
+    <a class="pe-cta scs-label" href="/read/1" data-places-cta>Start reading</a>
+  </section>
+
+  <p class="places-more scs-label" data-places-more hidden></p>
+</Base>
+
+<style>
+  .places-intro {
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  .eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.7rem;
+  }
+  .places-title {
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    margin: 0;
+  }
+  .places-sub {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    max-width: 42ch;
+    margin: 0.6rem auto 0;
+  }
+  .places-note {
+    color: var(--scs-accent);
+    margin: 1rem 0 0;
+  }
+
+  .places {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 0.9rem;
+  }
+  .place {
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    background: var(--scs-surface);
+  }
+  /* an author `display` beats the UA rule for [hidden], so anything toggled
+     from script needs an explicit guard or it renders regardless */
+  .places[hidden],
+  .place[hidden],
+  .places-empty[hidden] {
+    display: none;
+  }
+
+  .places-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2.4rem 1.2rem;
+    border: 1px dashed var(--scs-line);
+    border-radius: var(--scs-radius);
+  }
+  .pe-line {
+    font-family: var(--scs-font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+    max-width: 40ch;
+    margin: 0;
+  }
+  .pe-cta {
+    padding: 0.65em 1.35em;
+    background: var(--scs-accent);
+    color: var(--scs-linen);
+    border-radius: var(--scs-radius);
+    text-decoration: none;
+  }
+  :global([data-theme='night']) .pe-cta {
+    color: var(--scs-bottle);
+  }
+
+  .places-more {
+    color: var(--scs-ink-muted);
+    text-align: center;
+    margin: 1.4rem 0 0;
+  }
+
+  .sealed-bar {
+    display: inline-block;
+    width: 3.2rem;
+    height: 0.85rem;
+    border-radius: 2px;
+    background: var(--scs-redaction);
+    opacity: 0.6;
+    flex: none;
+  }
+  .place-body {
+    display: block;
+    padding: 1.2rem 1.1rem;
+    text-decoration: none;
+    color: var(--scs-ink);
+    transition: background-color 0.15s ease;
+    border-radius: var(--scs-radius);
+  }
+  .place-body:hover {
+    background: var(--scs-linen-deep);
+  }
+  :global([data-theme='night']) .place-body:hover {
+    background: rgba(241, 232, 212, 0.06);
+  }
+  .place-name {
+    font-size: 1.2rem;
+    margin: 0;
+    overflow-wrap: break-word;
+  }
+  .place-kind {
+    color: var(--scs-ornament);
+    margin: 0.5rem 0 0;
+  }
+  .place-where {
+    font-family: var(--scs-font-body);
+    font-size: 0.95rem;
+    color: var(--scs-ink-muted);
+    margin: 0.5rem 0 0;
+  }
+  .place-hours {
+    color: var(--scs-accent);
+    margin: 0.5rem 0 0;
+  }
+</style>
+
+<script>
+  import { resolveHorizon, BOOK } from '../../lib/horizon';
+
+  import { TOTAL_CHAPTERS } from '../../lib/horizon';
+
+  const horizon = resolveHorizon(BOOK);
+  const cards = [...document.querySelectorAll<HTMLElement>('[data-place]')];
+  const total = cards.length;
+  let unlocked = 0;
+
+  for (const el of cards) {
+    const at = Number.parseInt(el.dataset.reveal ?? '', 10);
+    if (!Number.isFinite(at) || horizon < at) continue;
+    el.hidden = false;
+    unlocked += 1;
+  }
+
+  const grid = document.querySelector<HTMLElement>('[data-places-grid]');
+  const empty = document.querySelector<HTMLElement>('[data-places-empty]');
+  const cta = document.querySelector<HTMLAnchorElement>('[data-places-cta]');
+  const note = document.querySelector<HTMLElement>('[data-places-note]');
+  const more = document.querySelector<HTMLElement>('[data-places-more]');
+
+  if (unlocked === 0) {
+    if (empty) empty.hidden = false;
+    if (cta && horizon > 0 && horizon < TOTAL_CHAPTERS) {
+      // mid-book with nothing unlocked shouldn't send them back to chapter 1
+      cta.textContent = `Continue · Chapter ${horizon + 1}`;
+      cta.href = `/read/${horizon + 1}`;
+    }
+  } else {
+    if (grid) grid.hidden = false;
+    if (note) {
+      note.hidden = false;
+      note.textContent = `${unlocked} of ${total} found, through Chapter ${horizon}.`;
+    }
+    const remaining = total - unlocked;
+    if (more && remaining > 0) {
+      more.hidden = false;
+      more.textContent =
+        remaining === 1
+          ? 'One more corner opens up as you read on.'
+          : `${remaining} more corners open up as you read on.`;
+    }
+  }
+</script>
