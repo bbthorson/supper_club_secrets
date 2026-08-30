@@ -107,7 +107,9 @@ const courseSpans = courses
   type Span = { name: string; first: number; last: number };
 
   const cover = document.querySelector<HTMLElement>('[data-cover]');
-  if (cover) {
+
+  function renderCover() {
+    if (!cover) return;
     const book = cover.dataset.book ?? '';
     const total = Number.parseInt(cover.dataset.total ?? '', 10) || 0;
     const horizon = resolveHorizon(book);
@@ -147,4 +149,8 @@ const courseSpans = courses
       }
     }
   }
+
+  renderCover();
+  // the host stand can set a horizon after this script has already run
+  window.addEventListener('scs:horizon', renderCover);
 </script>

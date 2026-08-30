@@ -75,6 +75,40 @@ export function setHorizon(book: string, chapter: number): number {
   return next;
 }
 
+/* ---- the host stand ---- */
+
+const CHECKIN_KEY = 'scs:checkin';
+/** How a reader came in. Stored so the host stand is asked once, not nightly. */
+export type CheckIn = 'guest' | 'resumed';
+
+export function getCheckIn(): CheckIn | null {
+  if (!hasStorage()) return null;
+  try {
+    const v = localStorage.getItem(CHECKIN_KEY);
+    return v === 'guest' || v === 'resumed' ? v : null;
+  } catch {
+    return null;
+  }
+}
+
+export function setCheckIn(how: CheckIn): void {
+  if (!hasStorage()) return;
+  try {
+    localStorage.setItem(CHECKIN_KEY, how);
+  } catch {
+    /* private mode / quota — the reader just gets asked again */
+  }
+}
+
+export function clearCheckIn(): void {
+  if (!hasStorage()) return;
+  try {
+    localStorage.removeItem(CHECKIN_KEY);
+  } catch {
+    /* non-fatal */
+  }
+}
+
 /**
  * Forget stored progress — for a reader who wants to start over, or who simply
  * wants the number gone. Named `clear` rather than `reset` because it deletes

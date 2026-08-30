@@ -60,7 +60,7 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
           Forget what I've read
         </button>
         <p class="hb-note" data-forget-note hidden>
-          This only clears your reading progress. Your day/night setting stays.
+          This clears your reading progress and hands you back to the host stand. Your day/night setting stays.
         </p>
       </div>
     </section>
@@ -214,7 +214,7 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
 </style>
 
 <script>
-  import { getHorizon, clearProgress } from '../lib/horizon';
+  import { getHorizon, clearProgress, clearCheckIn } from '../lib/horizon';
 
   const root = document.querySelector<HTMLElement>('[data-kitchen]');
   const BOOK = root?.dataset.book ?? '';
@@ -260,6 +260,9 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
     }
     armed = false;
     clearProgress(BOOK);
+    // forgetting what you've read makes you a stranger again, so the host
+    // stand should greet you on the way back in
+    clearCheckIn();
     btn.textContent = 'Forget what I’ve read';
     btn.classList.remove('is-confirming');
     render();

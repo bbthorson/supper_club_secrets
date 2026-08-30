@@ -1,12 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
 import BookMenu from '../components/BookMenu.astro';
+import HostStand from '../components/HostStand.astro';
 import { currentBook, bookHref } from '../lib/books';
 
 // The front door serves the current book rather than hardcoding Book One: when
 // the next book opens, `current` moves in the registry and this follows. The
 // canonical URL is the book's own page, since both render the same menu — the
 // shelf and the nav link there, and `/` is the shortcut.
+//
+// The menu is server-rendered even for a reader who will be shown the host
+// stand instead, so a visitor without JavaScript gets the menu rather than a
+// wall. The pre-paint script decides which of the two is displayed, before
+// first paint, so neither flashes.
 const book = currentBook();
 ---
 
@@ -16,5 +22,25 @@ const book = currentBook();
   canonical={bookHref(book)}
   book={book}
 >
-  <BookMenu book={book} />
+  <div class="front-door" data-front-door data-book={book.id}>
+    <HostStand book={book} />
+    <div data-menu-wrap>
+      <BookMenu book={book} />
+    </div>
+  </div>
 </Base>
+
+<style is:global>
+  /* The switch the pre-paint script throws. Absent attribute — no JS, storage
+     unavailable, a reader who has already checked in — shows the menu, which is
+     the right way to fail. */
+  [data-host-stand] {
+    display: none;
+  }
+  :root[data-checkin='pending'] [data-host-stand] {
+    display: block;
+  }
+  :root[data-checkin='pending'] [data-menu-wrap] {
+    display: none;
+  }
+</style>

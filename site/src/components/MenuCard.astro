@@ -227,7 +227,9 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
 
   const card = document.querySelector<HTMLElement>('[data-menu]');
   const link = document.querySelector<HTMLAnchorElement>('[data-continue]');
-  if (card && link) {
+
+  function renderContinue() {
+    if (!card || !link) return;
     const base = card.dataset.readBase ?? '';
     const total = Number.parseInt(card.dataset.total ?? '', 10) || 0;
     const horizon = getHorizon(card.dataset.book ?? '');
@@ -243,4 +245,8 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
       link.href = `${base}/${next}`;
     }
   }
+
+  renderContinue();
+  // the host stand can set a horizon after this script has already run
+  window.addEventListener('scs:horizon', renderContinue);
 </script>

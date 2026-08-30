@@ -1,0 +1,223 @@
+---
+// The host stand — what a first-time visitor meets instead of the menu.
+//
+// This is not a splash page. A splash costs a click and gives nothing back;
+// this asks the one question the site actually needs answered, and gives back
+// the thing a static site otherwise can't offer: progress that isn't lost when
+// you pick up a different device. It is shown once, then never again.
+//
+// The menu is still server-rendered underneath (see index.astro), so a visitor
+// without JavaScript gets the menu rather than a wall. The pre-paint script
+// hides it only when there is a stored reason to.
+import { type Book } from '../lib/books';
+
+interface Props {
+  book: Book;
+}
+const { book } = Astro.props;
+const chapters = Array.from({ length: book.totalChapters }, (_, i) => i + 1);
+---
+
+<section class="stand" data-host-stand aria-labelledby="stand-title">
+  <p class="stand-eyebrow scs-label">Good evening</p>
+  <h1 class="stand-title scs-poster" id="stand-title">Have you dined with us before?</h1>
+  <p class="stand-sub scs-romance">
+    The table only shows what you've already read, so it helps to know where you are.
+  </p>
+
+  <div class="stand-options">
+    <button class="opt opt--primary scs-label" type="button" data-guest>
+      First time — seat me
+    </button>
+
+    <div class="opt-returning">
+      <button class="opt scs-label" type="button" data-returning-toggle aria-expanded="false">
+        I've read some of this before
+      </button>
+      <div class="resume" data-resume hidden>
+        <label class="resume-label scs-label" for="resume-chapter">
+          I've read through chapter
+        </label>
+        <div class="resume-row">
+          <select class="resume-select" id="resume-chapter" data-resume-select>
+            {chapters.map((n) => <option value={n}>{n}</option>)}
+          </select>
+          <button class="opt opt--primary scs-label" type="button" data-resume-go>
+            Pick up there
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="opt-atproto">
+      <button class="opt opt--disabled scs-label" type="button" disabled data-atproto>
+        Sign in with an AT Protocol handle
+      </button>
+      <p class="opt-note">
+        Not open yet. When it is, your place in the book follows you between
+        devices instead of living in one browser.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .stand {
+    max-width: 34rem;
+    margin: clamp(1rem, 6vh, 4rem) auto;
+    padding: clamp(1.6rem, 5vw, 2.8rem);
+    background: var(--scs-surface);
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    text-align: center;
+  }
+  .stand-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.8rem;
+  }
+  .stand-title {
+    font-size: clamp(1.8rem, 5.5vw, 2.7rem);
+    margin: 0;
+  }
+  .stand-sub {
+    color: var(--scs-ink-muted);
+    font-size: 1.15rem;
+    max-width: 32ch;
+    margin: 0.9rem auto 0;
+  }
+
+  .stand-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-top: 2rem;
+    padding-top: 1.6rem;
+    border-top: var(--scs-leader);
+  }
+
+  .opt {
+    display: block;
+    width: 100%;
+    padding: 0.85em 1.2em;
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: var(--scs-text-label);
+    letter-spacing: var(--scs-label-tracking);
+    text-transform: uppercase;
+    color: var(--scs-ink);
+    background: none;
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .opt:hover:not(:disabled) {
+    border-color: var(--scs-ornament);
+    color: var(--scs-accent);
+  }
+  .opt:focus-visible {
+    outline: 2px solid var(--scs-accent);
+    outline-offset: 2px;
+  }
+  .opt--primary {
+    background: var(--scs-accent);
+    border-color: var(--scs-accent);
+    color: var(--scs-linen);
+  }
+  .opt--primary:hover:not(:disabled) {
+    color: var(--scs-linen);
+    filter: brightness(1.06);
+  }
+  :global([data-theme='night']) .opt--primary {
+    color: var(--scs-bottle);
+  }
+  :global([data-theme='night']) .opt--primary:hover:not(:disabled) {
+    color: var(--scs-bottle);
+  }
+  .opt--disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+  }
+
+  .resume {
+    margin-top: 0.9rem;
+  }
+  .resume[hidden] {
+    display: none;
+  }
+  .resume-label {
+    display: block;
+    color: var(--scs-ornament);
+    margin-bottom: 0.6rem;
+  }
+  .resume-row {
+    display: flex;
+    gap: 0.6rem;
+    align-items: stretch;
+  }
+  .resume-select {
+    flex: 0 0 6rem;
+    padding: 0.6em 0.7em;
+    font-family: var(--scs-font-body);
+    font-size: 1rem;
+    color: var(--scs-ink);
+    background: var(--scs-bg);
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+  }
+  .resume-row .opt {
+    flex: 1 1 auto;
+  }
+
+  .opt-note {
+    font-family: var(--scs-font-body);
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--scs-ink-muted);
+    margin: 0.7rem 0 0;
+  }
+</style>
+
+<script>
+  import { setCheckIn, setHorizon } from '../lib/horizon';
+
+  const stand = document.querySelector<HTMLElement>('[data-host-stand]');
+  const front = document.querySelector<HTMLElement>('[data-front-door]');
+
+  // Dropping the attribute is what swaps the host stand for the menu — the same
+  // switch the pre-paint script threw, thrown back.
+  function seat() {
+    document.documentElement.removeAttribute('data-checkin');
+    // the cover and the menu's continue link rendered while the horizon was
+    // still zero; tell them to look again rather than reloading the page
+    window.dispatchEvent(new CustomEvent('scs:horizon'));
+    front?.scrollIntoView({ block: 'start' });
+  }
+
+  if (stand && front) {
+    const bookId = front.dataset.book ?? '';
+
+    stand.querySelector<HTMLButtonElement>('[data-guest]')?.addEventListener('click', () => {
+      setCheckIn('guest');
+      seat();
+    });
+
+    const toggle = stand.querySelector<HTMLButtonElement>('[data-returning-toggle]');
+    const resume = stand.querySelector<HTMLElement>('[data-resume]');
+    toggle?.addEventListener('click', () => {
+      const open = resume?.hidden ?? true;
+      if (resume) resume.hidden = !open;
+      toggle.setAttribute('aria-expanded', String(open));
+      if (open) stand.querySelector<HTMLSelectElement>('[data-resume-select]')?.focus();
+    });
+
+    stand.querySelector<HTMLButtonElement>('[data-resume-go]')?.addEventListener('click', () => {
+      const sel = stand.querySelector<HTMLSelectElement>('[data-resume-select]');
+      const n = Number.parseInt(sel?.value ?? '', 10);
+      // setHorizon is monotonic, so this can only ever move a reader forward
+      if (Number.isFinite(n) && n > 0) setHorizon(bookId, n);
+      setCheckIn('resumed');
+      seat();
+    });
+  }
+</script>
