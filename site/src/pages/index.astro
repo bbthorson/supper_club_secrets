@@ -23,6 +23,17 @@ const mealMeta: Record<number, { ordinal: string; name: string; tagline: string;
   },
 };
 
+// Chapter span per course, so the cover can name where a returning reader is
+// without shipping the whole chapter list to the client.
+const courseSpans = [1, 2, 3, 4]
+  .map((meal) => {
+    const chs = all.filter((c) => c.data.meal === meal).map((c) => c.data.chapter);
+    return chs.length
+      ? { name: mealMeta[meal].name, first: Math.min(...chs), last: Math.max(...chs) }
+      : null;
+  })
+  .filter(Boolean);
+
 const courses: Course[] = [1, 2, 3, 4].map((meal) => {
   const meta = mealMeta[meal];
   return {
@@ -35,6 +46,18 @@ const courses: Course[] = [1, 2, 3, 4].map((meal) => {
 ---
 
 <Base title="Supper Club Secrets — The Case of the Missing Hot Sauce">
+  <section class="service-note" data-cover data-courses={JSON.stringify(courseSpans)}>
+    <p class="sn-eyebrow scs-label" data-cover-eyebrow>Thursdays in Williamsburg, Brooklyn</p>
+    <p class="sn-logline scs-romance" data-cover-line>
+      Every Thursday, six friends eat at Emma's table. The Sunday the hot sauce man
+      doesn't show up at the market, dinner becomes a case.
+    </p>
+    <p class="sn-rule" data-cover-rule>
+      Served in courses — nothing here spoils past where you've read. The timeline,
+      the cast and the neighborhood fill in as you go.
+    </p>
+  </section>
+
   <MenuCard
     eyebrow="Book One"
     title="The Case of the Missing Hot Sauce"
@@ -43,3 +66,84 @@ const courses: Course[] = [1, 2, 3, 4].map((meal) => {
     courses={courses}
   />
 </Base>
+
+<style>
+  /* The cover work happens here rather than on a splash page in front of the
+     site: a cold visitor gets the premise and the one rule of the place, and
+     the menu card below stays the thing they came for. */
+  .service-note {
+    text-align: center;
+    max-width: 46ch;
+    margin: 0 auto 2.2rem;
+  }
+  .sn-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.8rem;
+  }
+  .sn-logline {
+    font-size: clamp(1.2rem, 3.4vw, 1.5rem);
+    line-height: 1.45;
+    color: var(--scs-ink);
+    margin: 0;
+  }
+  /* body type, not tracked caps — this runs to three lines on a phone, and
+     caps at that length stop being a label and start being a wall */
+  .sn-rule[hidden] {
+    display: none;
+  }
+  .sn-rule {
+    font-family: var(--scs-font-body);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+    max-width: 40ch;
+    margin: 1.1rem auto 0;
+  }
+</style>
+
+<script>
+  import { resolveHorizon, BOOK, TOTAL_CHAPTERS } from '../lib/horizon';
+
+  // The cover pitches the book to someone who hasn't started, and tells a
+  // returning reader where they left off. Same page, no splash in front of it.
+  type Span = { name: string; first: number; last: number };
+
+  const cover = document.querySelector<HTMLElement>('[data-cover]');
+  if (cover) {
+    const horizon = resolveHorizon(BOOK);
+    if (horizon > 0) {
+      const eyebrow = cover.querySelector<HTMLElement>('[data-cover-eyebrow]');
+      const line = cover.querySelector<HTMLElement>('[data-cover-line]');
+      const rule = cover.querySelector<HTMLElement>('[data-cover-rule]');
+
+      let spans: Span[] = [];
+      try {
+        spans = JSON.parse(cover.dataset.courses ?? '[]') as Span[];
+      } catch {
+        /* malformed payload — fall back to the chapter count alone */
+      }
+      const course = spans.find((s) => horizon >= s.first && horizon <= s.last);
+
+      if (horizon >= TOTAL_CHAPTERS) {
+        if (eyebrow) eyebrow.textContent = 'The case is closed';
+        if (line) line.textContent = "You've read the whole of Book One.";
+        if (rule) {
+          rule.textContent =
+            'Everything is unlocked — the timeline, the cast and the neighborhood, end to end.';
+        }
+      } else {
+        const left = TOTAL_CHAPTERS - horizon;
+        if (eyebrow) eyebrow.textContent = 'Back at the table';
+        const read = `${horizon} ${horizon === 1 ? 'chapter' : 'chapters'} in`;
+        if (line) {
+          line.textContent = course
+            ? `You're ${read}, partway through ${course.name}.`
+            : `You're ${read}.`;
+        }
+        if (rule) {
+          rule.textContent = `${left} ${left === 1 ? 'chapter' : 'chapters'} left, and everything on the site is open through Chapter ${horizon}.`;
+        }
+      }
+    }
+  }
+</script>

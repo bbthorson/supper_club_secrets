@@ -112,6 +112,7 @@ How the repo's existing files project onto record types. The key insight: most o
 | `stories/*/tracking/subplot_threads.md` | `item` + `custodyEvent` | Medium. Powers clue-tracing |
 | `stories/*/chapters/*.md` | Astro content (public read) + optional standard.site `document` record | Reuse the community lexicon for the atproto mirror |
 | (to be written) backstage chat | `message` (gated — see §6.6) | New content, new schema |
+| (to be written) in-world posts | `character.post` (see §6.7) | New content, new schema |
 | `stories/*/tracking/interiority/*.md` | **none, ever** | Author-only. Never published |
 
 ### 6.1 character.profile
@@ -154,6 +155,42 @@ The durable rules, restated for the new lane:
 4. **Never publish backstage records to a *public* repo expecting them to be private.** Unchanged, and still the failure mode to design against.
 
 Mechanics, tier shapes, and the reason read access can't do per-chapter drip gating are in [`SPACES.md`](SPACES.md) §5.1.
+
+### 6.7 character.post (shape reserved — no records yet)
+
+In-world posts written *as* the characters: the thing that turns a character hub from a dossier into a feed, and the reason the six regulars already carry a `handle` and a first-person `personaPublic` in their frontmatter.
+
+**It is a distinct type from `character.stateEvent`, and the distinction is the register.** A stateEvent is authored *about* a character — third person, craft vocabulary, "public → private (hostess persona softening as the soup lands)". A post is authored *as* the character, in the voice `personaPublic` establishes. Conflating them would put the writer's analysis in the character's mouth, which is the same failure the `## Overview` scrape caused on the cast page.
+
+It is also distinct from `message` (§6.6): a post is public by definition. Backstage content stays `message`. Whether a *given* post is served publicly or held for members is a publishing decision, not a field — see below.
+
+NSID reserved: `site.supperclub.character.post`.
+
+Fields (sketch):
+
+| Field | What |
+|---|---|
+| `id` | stable, e.g. `post.book1.ch12.emma.1` |
+| `author` | character id (`char.emma`) |
+| `text` | the post body, in the character's voice |
+| `storyDate` | in-world date; also the backdated `createdAt` (§8) |
+| `chapterRef` | `book1#ch12` — the chapter the post sits against |
+| `publishDate` | real-world date the post becomes servable |
+| `inReplyTo` | optional post id, so a thread reads as a thread |
+| `mentions` | optional character ids — the personas already @-mention each other |
+| `placeRef` | optional place id, so a post also surfaces on that location |
+| `sourceFile` | provenance, as every record carries |
+
+**Two gates, and both must pass.** This is the part that is easy to get wrong.
+
+- `publishDate` is the **release** gate: whether the post exists on the site yet. Absent means published, matching the chapter rule ("inert until dates are populated") already implemented in `site/src/pages/index.astro` and `read/[chapter].astro`.
+- `chapterRef` is the **reveal** gate: whether *this reader* has earned it, resolved against the canon horizon like every other lens.
+
+During a live serialized run the two coincide — everyone is reading along, so what has shipped is roughly what has been read. They diverge the moment the run ends: a reader starting the archive at chapter 1 must not see a chapter-12 post merely because it was published months ago. Time decides what exists; the horizon decides what is shown.
+
+**Authoring and derivation.** Posts are new content, so they are authored rather than extracted — but the derived-layer discipline holds: they are written in the creative layer and compiled, never typed into a client. The natural home is a `posts/` directory beside `chapters/` in a book, one file per chapter, compiled to `records/book1/character_posts.json`. The pinakes compiler does not know this type yet; teaching it is the work that unblocks the first record.
+
+**Lane deliberately left open.** Because the record is derived and carries no visibility field, the same post can be served on the public site, mirrored to atproto, or published into a permissioned space without a rewrite. That is the whole point of reserving the shape now (see [`SPACES.md`](SPACES.md) §9 and §12.8 below).
 
 ---
 
@@ -245,7 +282,7 @@ The reader surfaces are renderings of the repo's public content (chapters plus t
 
 ## 12. Open Decisions
 
-Status as of 2026-08-29: three resolved, two deferred with trigger conditions, one new (12.6).
+Status as of 2026-08-30: three resolved, two deferred with trigger conditions, two explored without decision (12.6, 12.7), one new (12.8).
 
 1. **NSID namespace domain — DEFERRED until Phase 4 starts.** Nothing is blocked until a lexicon is actually published. The root now lives in exactly one place — `pinakes.yaml`'s `project.nsid` (`site.supperclub`) — so the eventual swap is a one-line change. Trigger to decide: the first Phase 4 publish step. Note that a space type NSID is published to the same root and inherits this decision.
 2. **Identity model for v1 — RESOLVED (2026-07-12): the graduation ladder.** Local stable IDs → one repo with multiple record collections → promote an individual character to its own DID only when a concrete portability use-case appears. For a single writer's prose this is the sensible default; per-character DIDs from day one remain the right model for *multiplayer/interactive* universes (Bardcast keys characters on player DIDs because cross-campaign portability is its core thesis).
@@ -256,6 +293,17 @@ Status as of 2026-08-29: three resolved, two deferred with trigger conditions, o
 6. **Permissioned spaces — NOT ADOPTED, EVALUATED (2026-08-29).** Spaces are alpha: breaking changes are expected, the reference dev PDS is disposable, and nothing reader-facing should run on them. We adopt nothing now and take the two pieces of prep that cost nothing and are useful regardless (reserve the space type NSIDs; keep authoring backstage content as derivable `message` records with stable ids). Trigger to revisit: spaces leave alpha, **or** a concrete need lands first — a paid/gated tier, or cross-device reading progress becoming a real complaint. Full evaluation in [`SPACES.md`](SPACES.md).
 
 7. **Characters as runnable checkpoints — EXPLORED, no decision (2026-08-29).** Publishing `character.stateEvent` as a horizon-versioned conditioning artifact rather than only as timeline data. Written up in [`CHARACTER_WEIGHTS.md`](CHARACTER_WEIGHTS.md), including the one rule that would have to hold if it were ever built: **generated output is never canon** (Principle 2). Nothing is scheduled; Book 1 is locked and Book 2 is unwritten. Trigger to revisit: the day-long two-checkpoint experiment in that doc's §8 is run and horizon-versioning either holds or does not — and no earlier than Book 2. It shares §12.2's trigger: this is the portability use-case that would justify a per-character DID.
+
+
+8. **Character posts, and whether the cast belongs in a space — SHAPE RESERVED, LANE OPEN (2026-08-30).** The record type is defined in §6.7 and its NSID reserved; no records exist yet. Three sub-questions, answered separately because they kept getting conflated:
+
+   - **Do the six characters need their own DIDs?** No, and not for this. §12.2's ladder promotes a character to its own DID only when a concrete portability use-case appears; posts rendering on our own site is not one, because nothing needs to move between systems. §12.7 still names the only live candidate.
+   - **Should posts live in a permissioned space?** No, by default. Public posts are meant to be found, and [`SPACES.md`](SPACES.md) §7 is explicit that a space is the wrong home for that. Since the record carries no visibility field, this costs nothing to defer — the lane is chosen at publish time.
+   - **Should there be a space readers can *join*?** This is the strongest near-term case and it is a different question from where posts live. The version worth wanting is **single-writer** — join the club, we publish, members read — which is the §5.1 shape [`SPACES.md`](SPACES.md) already ranks first and which needs no syncer. The multi-writer reader forum (§5.4) is a service with uptime attached to an architecture whose virtue is a static site that keeps working; it stays a separate, later decision.
+
+   Serialized release changes one thing materially: posts drip-published alongside chapters are time-gated, so the "spaces can't express a horizon" objection (§7) does not bite the way it does for the archive. Both gates are still required — see §6.7.
+
+   Trigger to revisit: unchanged from §12.6 — spaces leaving alpha with a stable spec and a PDS that outlives it. **Confirm the current alpha status against the latest permissioned-data diary before acting on this entry**; it was written without that confirmation.
 
 ---
 

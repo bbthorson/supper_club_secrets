@@ -184,6 +184,27 @@ const { eyebrow, title, subline, footnote, courses } = Astro.props;
     white-space: nowrap;
   }
 
+  /* On a phone the dotted leader and a long day label ("Wednesday → Thursday")
+     out-compete the title for width, and the title — the only shrinkable item —
+     collapses to one word per line. Below this width the row becomes two lines:
+     number + title, then the day beneath, and the leader steps out. */
+  @media (max-width: 34rem) {
+    .chapter-link {
+      flex-wrap: wrap;
+      row-gap: 0.1rem;
+    }
+    .chapter-link .scs-leader {
+      display: none;
+    }
+    .chapter-title {
+      flex: 1 1 auto;
+    }
+    .chapter-day {
+      flex: 1 0 100%;
+      padding-left: 1.7rem; /* clears .chapter-no, so the day hangs under the title */
+    }
+  }
+
   .mc-foot {
     text-align: center;
     color: var(--scs-ink-muted);

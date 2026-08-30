@@ -29,8 +29,8 @@ export function chapterRangeLabel(chapters: number[]): string {
   return lo === hi ? `Chapter ${lo}` : `Chapters ${lo}–${hi}`;
 }
 
-const placeHref = (id: string) => `/places/${id.replace('place.', '')}`;
-const charHref = (id: string) => `/characters/${id.replace('char.', '')}`;
+export const placeHref = (id: string) => `/places/${id.replace('place.', '')}`;
+export const charHref = (id: string) => `/characters/${id.replace('char.', '')}`;
 
 /** Place/one-off + participant chips for an entry. `omit` skips the entity whose
  *  own feed we're on (no self-link). */

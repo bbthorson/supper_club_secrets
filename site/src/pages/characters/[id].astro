@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import CallingCard from '../../components/CallingCard.astro';
 import FeedLens from '../../components/FeedLens.astro';
 import { characterHubs, ANTAGONIST, HANDLE_DOMAIN } from '../../lib/records';
 
@@ -12,58 +13,32 @@ export function getStaticPaths() {
 
 const { hub } = Astro.props;
 const { name, id, profile } = hub;
-const club = profile ? profile.id !== ANTAGONIST : false;
-const eyebrow = club ? 'A Regular' : 'In the Case';
-const persona = profile?.personaPublic ?? profile?.oneLine ?? null;
+const club = profile ? profile.club : false;
+const eyebrow = club ? 'A Regular' : id === ANTAGONIST ? 'In the Case' : 'At the Table';
+
+// Only the six regulars carry an authored public persona. For everyone else the
+// card is a name and a handle at most: the compiler's `oneLine` is a craft note
+// that states their function in the plot, so there is nothing safe to print.
+const bio = profile?.personaPublic ?? null;
 ---
 
-<Base title={`${name} — Supper Club Secrets`} description={persona ?? name}>
+<Base title={`${name} — Supper Club Secrets`} description={bio ?? `${name} — Supper Club Secrets`}>
   <article class="hub">
-    <header class="hub-head">
-      <p class="eyebrow scs-label">{eyebrow}</p>
-      <h1 class="hub-name scs-poster">{name}</h1>
-      {
-        profile?.handle && (
-          <p class="hub-handle"><span>@{profile.handle}</span><span class="hub-handle-dom">.{HANDLE_DOMAIN}</span></p>
-        )
-      }
-      {persona && <p class="hub-persona">{persona}</p>}
-    </header>
+    <CallingCard
+      eyebrow={eyebrow}
+      name={name}
+      handle={profile?.handle ?? null}
+      handleDomain={HANDLE_DOMAIN}
+      bio={bio}
+      tagline={profile?.keyContradiction ?? null}
+    />
 
-    <FeedLens kind="character" entityId={id} bare threadLabel="Through the case" />
+    <FeedLens
+      kind="character"
+      entityId={id}
+      bare
+      relations
+      threadLabel="Through the case"
+    />
   </article>
 </Base>
-
-<style>
-  .hub-head {
-    text-align: center;
-    max-width: 46ch;
-    margin: 0 auto 2.4rem;
-  }
-  .eyebrow {
-    color: var(--scs-ornament);
-    margin: 0 0 0.7rem;
-  }
-  .hub-name {
-    font-size: clamp(2.4rem, 7vw, 4rem);
-    margin: 0;
-  }
-  .hub-handle {
-    font-family: var(--scs-font-label);
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.03em;
-    color: var(--scs-accent);
-    margin: 0.6rem 0 0;
-  }
-  .hub-handle-dom {
-    color: var(--scs-ink-muted);
-  }
-  .hub-persona {
-    font-family: var(--scs-font-body);
-    font-size: 1.08rem;
-    line-height: 1.6;
-    color: var(--scs-ink);
-    margin: 1rem 0 0;
-  }
-</style>

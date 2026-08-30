@@ -10,12 +10,24 @@ type Props = {
   subtitle?: string;
   /** Label for the compact header in bare mode. */
   threadLabel?: string;
+  /** Render the entity's connections (who they're seen with, where they turn
+   *  up) as chip rows above the feed — the "links" of a link-in-bio page.
+   *  Derived from the same horizon-bounded fragments, so it gates for free. */
+  relations?: boolean;
 } & (
   | { bare: true; title?: string; eyebrow?: string }
   | { bare?: false; title: string; eyebrow: string }
 );
-const { kind, entityId, title, subtitle, eyebrow, bare = false, threadLabel = 'Their thread' } =
-  Astro.props;
+const {
+  kind,
+  entityId,
+  title,
+  subtitle,
+  eyebrow,
+  bare = false,
+  threadLabel = 'Their thread',
+  relations = false,
+} = Astro.props;
 import '../styles/lens.css';
 ---
 
@@ -23,10 +35,14 @@ import '../styles/lens.css';
   {
     bare ? (
       <div class="feed-barehead">
-        <div class="course-head">
-          <span class="course-label scs-label">{threadLabel}</span>
-          <span class="scs-leader" aria-hidden="true" />
-        </div>
+        {/* with relations on, the thread heading moves down to sit directly
+            above the feed, and the barehead carries only the horizon note */}
+        {!relations && (
+          <div class="course-head">
+            <span class="course-label scs-label">{threadLabel}</span>
+            <span class="scs-leader" aria-hidden="true" />
+          </div>
+        )}
         <p class="feed-note scs-label" data-feed-note />
       </div>
     ) : (
@@ -39,8 +55,33 @@ import '../styles/lens.css';
     )
   }
 
-  <div data-feed-list>
-    <p class="feed-empty scs-label">Loading what you've read…</p>
+  {
+    relations && (
+      <div class="feed-relations" data-feed-relations hidden>
+        <div class="rel-group" data-rel-group="people" hidden>
+          <p class="rel-label scs-label" data-rel-label="people" />
+          <div class="detail-meta" data-rel-list="people" />
+        </div>
+        <div class="rel-group" data-rel-group="places" hidden>
+          <p class="rel-label scs-label" data-rel-label="places" />
+          <div class="detail-meta" data-rel-list="places" />
+        </div>
+      </div>
+    )
+  }
+
+  <div class="feed-thread">
+    {
+      relations && (
+        <div class="course-head">
+          <span class="course-label scs-label">{threadLabel}</span>
+          <span class="scs-leader" aria-hidden="true" />
+        </div>
+      )
+    }
+    <div data-feed-list>
+      <p class="feed-empty">Loading what you've read…</p>
+    </div>
   </div>
 
   <div class="feed-states" data-feed-states hidden>
@@ -80,8 +121,23 @@ import '../styles/lens.css';
 
   /* feed-card / chip / state-row (client-injected) styles live in
      styles/lens.css — scoped styles don't reach innerHTML-injected nodes. */
-  .feed-empty {
-    color: var(--scs-ink-muted);
+  /* .feed-empty is re-injected client-side, so its rule lives in
+     styles/lens.css with the other innerHTML-rendered nodes. */
+  .feed-barehead {
+    margin-bottom: 1.6rem;
+  }
+  .feed-relations {
+    margin-bottom: 2rem;
+  }
+  .rel-group + .rel-group {
+    margin-top: 1.1rem;
+  }
+  .rel-label {
+    color: var(--scs-ornament);
+    margin: 0 0 0.55rem;
+  }
+  .feed-thread {
+    margin-top: 1.6rem;
   }
   .feed-states {
     margin-top: 2rem;
@@ -113,7 +169,8 @@ import '../styles/lens.css';
 <script>
   import { resolveHorizon, BOOK } from '../lib/horizon';
   import { loadUpToHorizon, allEntries } from '../lib/lens-data';
-  import { entryCard, esc } from '../lib/lens-render';
+  import { entryCard, esc, chip, charHref, placeHref } from '../lib/lens-render';
+  import type { NamedRef } from '../lib/records';
 
   const root = document.querySelector<HTMLElement>('[data-feed]');
   if (root) {
@@ -128,9 +185,7 @@ import '../styles/lens.css';
       const horizon = resolveHorizon(BOOK);
       if (noteEl) {
         noteEl.textContent =
-          horizon <= 0
-            ? 'Begin reading to unlock this feed.'
-            : `Showing through Chapter ${horizon}.`;
+          horizon <= 0 ? 'Nothing unlocked yet.' : `Showing through Chapter ${horizon}.`;
       }
 
       const entries = allEntries(await loadUpToHorizon(horizon));
@@ -140,9 +195,55 @@ import '../styles/lens.css';
           : entries.filter((e) => e.participants.some((p) => p.id === id));
 
       if (listEl) {
+        // The note above already says nothing is unlocked, so don't say it
+        // twice — at horizon 0 this line explains what will appear instead.
+        const empty =
+          horizon <= 0
+            ? 'Every scene they appear in shows up here, a chapter at a time, as you read.'
+            : 'Nothing new here yet — read on and this fills in.';
         listEl.innerHTML = matched.length
           ? matched.map((e) => entryCard(e, id)).join('')
-          : '<p class="feed-empty scs-label">Nothing to show yet — read further to unlock this feed.</p>';
+          : `<p class="feed-empty">${empty}</p>`;
+      }
+
+      // Connections, from the same horizon-bounded entries the feed just used —
+      // so they unlock in step with the reader and never name someone from a
+      // chapter they haven't reached.
+      const relRoot = root.querySelector<HTMLElement>('[data-feed-relations]');
+      if (relRoot && matched.length) {
+        const dedupe = (refs: NamedRef[]) => {
+          const seen = new Map<string, NamedRef>();
+          for (const r of refs) if (r.id !== id && !seen.has(r.id)) seen.set(r.id, r);
+          return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
+        };
+        const people = dedupe(matched.flatMap((e) => e.participants));
+        const places = dedupe(matched.flatMap((e) => e.places));
+
+        const fill = (group: 'people' | 'places', label: string, refs: NamedRef[]) => {
+          if (!refs.length) return false;
+          const wrap = relRoot.querySelector<HTMLElement>(`[data-rel-group="${group}"]`);
+          const labelEl = relRoot.querySelector<HTMLElement>(`[data-rel-label="${group}"]`);
+          const list = relRoot.querySelector<HTMLElement>(`[data-rel-list="${group}"]`);
+          if (!wrap || !labelEl || !list) return false;
+          labelEl.textContent = label;
+          list.innerHTML = refs
+            .map((r) =>
+              group === 'people'
+                ? chip(r.name, charHref(r.id))
+                : chip(r.name, placeHref(r.id), 'place'),
+            )
+            .join('');
+          wrap.hidden = false;
+          return true;
+        };
+
+        const shownPeople = fill(
+          'people',
+          kind === 'place' ? "Who you've seen here" : 'Seen with',
+          people,
+        );
+        const shownPlaces = kind === 'character' && fill('places', 'Where they turn up', places);
+        relRoot.hidden = !(shownPeople || shownPlaces);
       }
 
       if (kind === 'character') {
