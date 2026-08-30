@@ -76,6 +76,29 @@ export function setHorizon(book: string, chapter: number): number {
 }
 
 /**
+ * Forget stored progress — for a reader who wants to start over, or who simply
+ * wants the number gone. Named `clear` rather than `reset` because it deletes
+ * rather than zeroing: with no entry, `getHorizon` falls back to ANON_HORIZON
+ * and every lens re-locks. Pass a book to forget just that one; omit it to drop
+ * the whole store. The theme is stored separately and is deliberately untouched.
+ */
+export function clearProgress(book?: string): void {
+  if (!hasStorage()) return;
+  try {
+    if (!book) {
+      localStorage.removeItem(PROGRESS_KEY);
+      return;
+    }
+    const store = readStore();
+    delete store.books[book];
+    if (Object.keys(store.books).length === 0) localStorage.removeItem(PROGRESS_KEY);
+    else localStorage.setItem(PROGRESS_KEY, JSON.stringify(store));
+  } catch {
+    /* private mode / quota — non-fatal */
+  }
+}
+
+/**
  * The horizon a lens should render at: an explicit `?h=` pin (shareable views)
  * wins, then stored progress, then the anonymous default.
  */

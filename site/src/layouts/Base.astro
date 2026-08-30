@@ -50,7 +50,10 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
     {
       !bare && (
         <footer class="site-footer scs-label">
-          <span>Williamsburg, Brooklyn · Thursdays</span>
+          <span class="foot-where">
+            Williamsburg, Brooklyn · Thursdays
+            <a class="foot-link" href="/kitchen">The Kitchen</a>
+          </span>
           <span class="foot-note">Please inform your host of any secrets before dining.</span>
         </footer>
       )
@@ -115,6 +118,22 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
     padding: 1.4rem clamp(1rem, 4vw, 2.5rem) 2.6rem;
     border-top: var(--scs-leader);
     color: var(--scs-ink-muted);
+  }
+  .foot-where {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1.1rem;
+  }
+  .foot-link {
+    color: var(--scs-ink-muted);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--scs-ornament);
+    padding-bottom: 0.1em;
+  }
+  .foot-link:hover {
+    color: var(--scs-accent);
+    border-bottom-color: var(--scs-accent);
   }
   .site-footer .foot-note {
     font-family: var(--scs-font-display);
