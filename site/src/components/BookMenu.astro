@@ -5,7 +5,7 @@
 // a second, subtly different page.
 import { getCollection } from 'astro:content';
 import MenuCard, { type Course } from './MenuCard.astro';
-import type { Book } from '../lib/books';
+import { SERIES_TAGLINE, type Book } from '../lib/books';
 
 interface Props {
   book: Book;
@@ -46,8 +46,8 @@ const courseSpans = courses
   data-read-base={`/books/${book.slug}/read`}
   data-courses={JSON.stringify(courseSpans)}
 >
-  <p class="sn-eyebrow scs-label" data-cover-eyebrow>A weekly supper club in Williamsburg, Brooklyn</p>
-  <p class="sn-logline scs-romance" data-cover-line>{book.logline}</p>
+  <p class="sn-eyebrow scs-label" data-cover-eyebrow>A weekly supper club in Williamsburg</p>
+  <p class="sn-logline scs-romance" data-cover-line>{SERIES_TAGLINE}</p>
   <p class="sn-rule" data-cover-rule>
     Served in courses — nothing here spoils past where you've read. The timeline,
     the cast and the neighborhood fill in as you go.

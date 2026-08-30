@@ -3,7 +3,7 @@ import '../../../protocol/brand/tokens.css';
 import '../styles/base.css';
 import { inlineHeadScript } from '../lib/horizon-inline';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import { bookHref, timelineHref, type Book } from '../lib/books';
+import { SERIES_TAGLINE, bookHref, timelineHref, type Book } from '../lib/books';
 
 interface Props {
   title: string;
@@ -20,7 +20,7 @@ interface Props {
 }
 const {
   title,
-  description = 'A cozy-crime supper club mystery, served in courses.',
+  description = SERIES_TAGLINE,
   bare = false,
   book,
   canonical,
