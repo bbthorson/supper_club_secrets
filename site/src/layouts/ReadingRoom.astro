@@ -3,6 +3,8 @@
 // long-form reading: Literata at a 65–70ch measure, generous leading, the
 // chapter header in front-of-house type. Night is just the theme.
 import Base from './Base.astro';
+import { chapterEntities, TOTAL_CHAPTERS } from '../lib/records';
+import '../styles/lens.css';
 
 interface Props {
   chapter: number;
@@ -15,13 +17,19 @@ interface Props {
 }
 const { chapter, title, meal, day, date, prev, next } = Astro.props;
 const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
+const { places, placeText, participants } = chapterEntities(chapter);
+const hasEntities = places.length + placeText.length + participants.length > 0;
 ---
 
 <Base title={`Chapter ${chapter} · ${title} — Supper Club Secrets`}>
+  {/* how far through this chapter you are — the one bit of feedback the
+      reading room never gave. Purely decorative, so it's aria-hidden. */}
+  <div class="read-progress" aria-hidden="true"><span data-progress-bar></span></div>
+
   <article class="chapter" data-chapter={chapter}>
     <header class="chapter-head">
       <p class="chapter-eyebrow scs-label">
-        Meal {mealNames[meal] ?? meal} · Chapter {chapter}
+        Meal {mealNames[meal] ?? meal} · Chapter {chapter} of {TOTAL_CHAPTERS}
       </p>
       <h1 class="chapter-title scs-title">{title}</h1>
       {
@@ -36,6 +44,40 @@ const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
     <div class="prose">
       <slot />
     </div>
+
+    {
+      hasEntities && (
+        <section class="in-chapter">
+          <div class="course-head">
+            <span class="course-label scs-label">In this chapter</span>
+            <span class="scs-leader" aria-hidden="true" />
+          </div>
+          <div class="detail-meta">
+            {places.map((p) => (
+              <a class="chip place" href={`/places/${p.id.replace('place.', '')}`}>
+                {p.name}
+              </a>
+            ))}
+            {placeText.map((t) => (
+              <span class="chip place">{t}</span>
+            ))}
+            {participants.map((c) => (
+              <a class="chip" href={`/characters/${c.id.replace('char.', '')}`}>
+                {c.name}
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {/* Reaching a chapter silently moved the horizon and unlocked the lenses.
+        Say so once, on the read that actually advanced it. */}
+    <p class="unlocked" data-unlocked hidden>
+      Chapter {chapter} read — the <a href="/timeline">timeline</a>,
+      <a href="/characters">cast</a> and <a href="/places">neighborhood</a> now show
+      through here.
+    </p>
 
     <nav class="chapter-nav scs-label" aria-label="Chapter navigation">
       {
@@ -116,6 +158,63 @@ const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
     letter-spacing: 0.5em;
   }
 
+  .read-progress {
+    position: fixed;
+    inset: 0 0 auto 0;
+    height: 2px;
+    z-index: 10;
+    background: transparent;
+    pointer-events: none;
+  }
+  .read-progress span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--scs-ornament);
+    transform-origin: left center;
+  }
+
+  .in-chapter {
+    margin-top: 3rem;
+  }
+  .course-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    margin-bottom: 0.8rem;
+  }
+  .course-label {
+    color: var(--scs-accent);
+    white-space: nowrap;
+  }
+
+  /* a sentence, so body type — this is the one place the site explains its own
+     gating, and tracked caps make it read as a warning label instead */
+  .unlocked {
+    margin: 1.8rem 0 0;
+    padding: 0.85rem 1.1rem;
+    border-left: 3px solid var(--scs-ornament);
+    background: var(--scs-linen-deep);
+    border-radius: 0 var(--scs-radius) var(--scs-radius) 0;
+    font-family: var(--scs-font-body);
+    font-size: 0.97rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+  }
+  .unlocked[hidden] {
+    display: none;
+  }
+  :global([data-theme='night']) .unlocked {
+    background: rgba(241, 232, 212, 0.06);
+  }
+  .unlocked a {
+    color: var(--scs-accent);
+    text-decoration: none;
+  }
+  .unlocked a:hover {
+    text-decoration: underline;
+  }
+
   .chapter-nav {
     display: flex;
     justify-content: space-between;
@@ -149,14 +248,43 @@ const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
 </style>
 
 <script>
-  import { setHorizon, applyGates, BOOK } from '../lib/horizon';
+  import { getHorizon, setHorizon, applyGates, BOOK } from '../lib/horizon';
 
   const el = document.querySelector<HTMLElement>('.chapter[data-chapter]');
   const n = Number.parseInt(el?.dataset.chapter ?? '', 10);
   if (Number.isFinite(n)) {
+    // read the old horizon first — the note below only makes sense on the read
+    // that actually moved it, not on a re-read of a chapter already behind you
+    const before = getHorizon(BOOK);
     // reaching a chapter advances the reader's horizon
     setHorizon(BOOK, n);
     // and re-resolves any redaction now earned
     applyGates(document);
+
+    if (n > before) {
+      const note = document.querySelector<HTMLElement>('[data-unlocked]');
+      if (note) note.hidden = false;
+    }
+  }
+
+  // Scroll position through the chapter body, as a hairline at the top.
+  const bar = document.querySelector<HTMLElement>('[data-progress-bar]');
+  if (bar && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    let ticking = false;
+    const update = () => {
+      ticking = false;
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      // a chapter shorter than the viewport has nothing to track
+      const pct = scrollable > 0 ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0;
+      bar.style.width = `${pct * 100}%`;
+    };
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(update);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    update();
   }
 </script>

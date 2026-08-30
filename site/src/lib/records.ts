@@ -274,6 +274,33 @@ export function timelineScaffold(): ScaffoldRow[] {
   }));
 }
 
+export interface ChapterEntities {
+  places: NamedRef[];
+  /** One-off locations named in prose but not registered as entities. */
+  placeText: string[];
+  participants: NamedRef[];
+}
+/**
+ * The places and people in one chapter's scenes — for the reading room's
+ * "in this chapter" strip. Spoiler-safe by construction: reaching a chapter
+ * sets the reader's horizon to it, so nothing here is ahead of them.
+ */
+export function chapterEntities(chapter: number): ChapterEntities {
+  const places: NamedRef[] = [];
+  const placeText: string[] = [];
+  const participants: NamedRef[] = [];
+  const push = (arr: NamedRef[], r: NamedRef) => {
+    if (!arr.some((x) => x.id === r.id)) arr.push(r);
+  };
+  for (const s of scenes) {
+    if (sceneChapter(s) !== chapter) continue;
+    for (const p of s.placeRefs ?? []) push(places, namedPlace(p));
+    for (const t of s.placeText ?? []) if (!placeText.includes(t)) placeText.push(t);
+    for (const p of s.participants ?? []) push(participants, namedChar(p));
+  }
+  return { places, placeText, participants };
+}
+
 /* ---- listings for feed getStaticPaths ---- */
 
 /** The chapter a place is first revealed = min chapter of scenes referencing it. */
