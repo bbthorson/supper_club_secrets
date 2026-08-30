@@ -1,0 +1,82 @@
+{
+  "lexicon": 1,
+  "id": "site.supperclub.place",
+  "description": "A location in the universe.",
+  "defs": {
+    "main": {
+      "type": "record",
+      "key": "any",
+      "description": "A place record.",
+      "record": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "status",
+          "sourceFile"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable place id, e.g. `place.mcgolrick-market`.",
+            "maxLength": 256
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name.",
+            "maxLength": 640
+          },
+          "status": {
+            "type": "string",
+            "description": "Lifecycle of the location within the series.",
+            "maxLength": 64
+          },
+          "region": {
+            "type": "string",
+            "description": "Neighborhood, district, or region containing the place.",
+            "maxLength": 256
+          },
+          "firstAppearance": {
+            "type": "string",
+            "description": "Where the place first appears, e.g. `Book 1, Chapter 8`.",
+            "maxLength": 256
+          },
+          "schedule": {
+            "type": "ref",
+            "description": "Opening hours, when the place keeps any.",
+            "ref": "#schedule"
+          },
+          "sourceFile": {
+            "type": "string",
+            "description": "Repository-relative codex path.",
+            "maxLength": 1024
+          }
+        }
+      }
+    },
+    "schedule": {
+      "type": "object",
+      "description": "When a location is open.",
+      "properties": {
+        "days": {
+          "type": "array",
+          "description": "Days of the week the place operates.",
+          "items": {
+            "type": "string",
+            "maxLength": 32
+          }
+        },
+        "hours": {
+          "type": "string",
+          "description": "Human-readable hours.",
+          "maxLength": 256
+        },
+        "note": {
+          "type": "string",
+          "description": "Caveat or seasonal exception.",
+          "maxLength": 512
+        }
+      }
+    }
+  }
+}

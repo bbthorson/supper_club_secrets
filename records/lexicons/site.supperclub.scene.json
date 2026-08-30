@@ -1,0 +1,124 @@
+{
+  "lexicon": 1,
+  "id": "site.supperclub.scene",
+  "description": "A dated scene in the narrative timeline, projected from one or more chapters.",
+  "defs": {
+    "main": {
+      "type": "record",
+      "key": "any",
+      "description": "A scene record.",
+      "record": {
+        "type": "object",
+        "required": [
+          "id",
+          "storyDate",
+          "chapterRefs",
+          "title",
+          "createdAt",
+          "sourceFile"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable scene id, e.g. `scene.book1.ch1`. Doubles as the record key.",
+            "maxLength": 256
+          },
+          "storyDate": {
+            "type": "string",
+            "description": "In-story calendar date, `YYYY-MM-DD`. Story time, not wall-clock time.",
+            "maxLength": 10
+          },
+          "storyDateEnd": {
+            "type": "string",
+            "description": "End of the in-story span when the scene covers more than one date.",
+            "maxLength": 10
+          },
+          "chapterRefs": {
+            "type": "array",
+            "description": "Chapters this scene is projected from, e.g. `book1#ch1`.",
+            "items": {
+              "type": "string",
+              "maxLength": 256
+            },
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "description": "Chapter or scene title.",
+            "maxLength": 512
+          },
+          "part": {
+            "type": "integer",
+            "description": "Structural part / act number.",
+            "minimum": 0
+          },
+          "sequence": {
+            "type": "integer",
+            "description": "The sequence within the book that this scene belongs to — the grouping between book and chapter. Sourced from the frontmatter key named by `project.sequenceField`.",
+            "minimum": 0
+          },
+          "beat": {
+            "type": "string",
+            "description": "Story beat label.",
+            "maxLength": 512
+          },
+          "placeRefs": {
+            "type": "array",
+            "description": "Registry ids of resolved locations.",
+            "items": {
+              "type": "string",
+              "description": "A place id.",
+              "maxLength": 256
+            }
+          },
+          "placeText": {
+            "type": "array",
+            "description": "Unresolved location names kept as prose (known non-entities).",
+            "items": {
+              "type": "string",
+              "maxLength": 512
+            }
+          },
+          "pov": {
+            "type": "string",
+            "description": "Registry id of the point-of-view character.",
+            "maxLength": 256
+          },
+          "participants": {
+            "type": "array",
+            "description": "Characters physically present in the scene.",
+            "items": {
+              "type": "string",
+              "description": "A character id.",
+              "maxLength": 256
+            }
+          },
+          "referenced": {
+            "type": "array",
+            "description": "Characters mentioned but not present.",
+            "items": {
+              "type": "string",
+              "description": "A character id.",
+              "maxLength": 256
+            }
+          },
+          "primaryEvent": {
+            "type": "string",
+            "description": "One-line summary of what the scene accomplishes.",
+            "maxLength": 3000
+          },
+          "createdAt": {
+            "type": "string",
+            "description": "Story time as an RFC3339 datetime (midnight UTC on `storyDate`). Fictional records are ordered by story time, not authoring time.",
+            "format": "datetime"
+          },
+          "sourceFile": {
+            "type": "string",
+            "description": "Repository-relative path of the chapter this was projected from.",
+            "maxLength": 1024
+          }
+        }
+      }
+    }
+  }
+}

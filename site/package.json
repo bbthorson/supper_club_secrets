@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
-    "@bbthorson/pinakes": "^0.1.0",
+    "@bbthorson/pinakes": "^0.2.0",
     "typescript": "^5.9.3"
   }
 }

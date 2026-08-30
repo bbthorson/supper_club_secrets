@@ -4,6 +4,7 @@
     "id": "profile.emma",
     "subject": "char.emma",
     "displayName": "Emma Hartley",
+    "handle": "emmacooks",
     "oneLine": "A grounded and creative chef with a bubbly, optimistic energy, who is learning to trust her intuition.",
     "sourceFile": "codex/characters/emma.md"
   },
@@ -12,6 +13,7 @@
     "id": "profile.elijah",
     "subject": "char.elijah",
     "displayName": "Elijah Miller",
+    "handle": "elijahmiller",
     "oneLine": "The rigid analyst with a pragmatic approach and a quietly empathetic nature.",
     "sourceFile": "codex/characters/elijah.md"
   },
@@ -20,6 +22,7 @@
     "id": "profile.noah",
     "subject": "char.noah",
     "displayName": "Noah",
+    "handle": "noahbuilds",
     "oneLine": "An idealistic and sometimes naive techie who believes technology can solve any problem.",
     "sourceFile": "codex/characters/noah.md"
   },
@@ -28,6 +31,7 @@
     "id": "profile.oliver",
     "subject": "char.oliver",
     "displayName": "Oliver",
+    "handle": "oliverreads",
     "oneLine": "A fastidious and bookish introvert, married to Olivia, with a fascination for urban development and city regulations.",
     "sourceFile": "codex/characters/oliver.md"
   },
@@ -36,6 +40,7 @@
     "id": "profile.olivia",
     "subject": "char.olivia",
     "displayName": "Olivia",
+    "handle": "oliviaknows",
     "oneLine": "A social butterfly and entrepreneur who effortlessly gathers neighborhood gossip.",
     "sourceFile": "codex/characters/olivia.md"
   },
@@ -44,6 +49,7 @@
     "id": "profile.jasper",
     "subject": "char.jasper",
     "displayName": "Jasper",
+    "handle": "jasper",
     "oneLine": "The wildcard of the group, a free spirit with a mysterious job and a love for chaos.",
     "sourceFile": "codex/characters/jasper.md"
   },
