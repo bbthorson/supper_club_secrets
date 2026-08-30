@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.mcgolrick-market
 status: recurring
 first_appearance: "Book 1, Chapter 1"
+blurbPublic: "A smaller, community-feel market run by Down to Earth: local farmers and area food and craft makers. In autumn, glossy squash and dirt-dusted root vegetables, herb bundles tied with twine, and the smell of apples, fresh bread and smoke off the grill vendor."
 ---
 
 # McGolrick Park Farmers Market (Down to Earth)

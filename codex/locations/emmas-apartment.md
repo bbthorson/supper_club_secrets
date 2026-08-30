@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.emmas-apartment
 status: recurring
 first_appearance: "Book 1, Chapter 1"
+blurbPublic: "A small railroad apartment where the cramped kitchen is the heart of it and the table seats six with effort. Furnished in hand-me-downs and street finds — a loveseat rescued from a Greenpoint stoop, folding chairs, milk crates doing double duty."
 ---
 
 # Emma's Apartment

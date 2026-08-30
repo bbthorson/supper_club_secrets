@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.meadowlight-collective
 status: story-specific
 first_appearance: "Book 1, Chapter 23"
+blurbPublic: "A cluster of weathered buildings around a central farmhouse, with gardens and a greenhouse, at the end of a dirt driveway marked by a hand-painted sign."
 ---
 
 # Meadowlight Collective

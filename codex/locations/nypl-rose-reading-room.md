@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.nypl-rose-reading-room
 status: story-specific
 first_appearance: "Book 1, Chapter 6"
+blurbPublic: "Vast and cathedral-like under the iconic green lamps, smelling of old wood and aging paper. Oliver has a regular desk — third row from the back, second seat from the aisle, near a power outlet."
 ---
 
 # NYPL — Rose Main Reading Room

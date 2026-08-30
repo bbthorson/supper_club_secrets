@@ -13,11 +13,13 @@
     "lint": "pinakes lint --root .."
   },
   "dependencies": {
-    "astro": "^5.6.0"
+    "@astrojs/markdown-remark": "^7.2.4",
+    "astro": "^7.2.9",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.9",
+    "@astrojs/check": "^0.9.10",
     "@bbthorson/pinakes": "^0.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   }
 }

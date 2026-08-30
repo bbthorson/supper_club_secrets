@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.mccarren-market
 status: recurring
 first_appearance: "Book 1, Chapter 11"
+blurbPublic: "The bigger Saturday market — larger and more crowded than McGolrick, and a fifteen-minute walk from Sofia's."
 ---
 
 # McCarren Park Greenmarket

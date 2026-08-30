@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import remarkStripLeadingHeadings from './src/lib/remark-strip-leading-headings.mjs';
 
 // The site reads its brand tokens directly from ../protocol/brand/tokens.css
@@ -25,10 +26,14 @@ export default defineConfig({
     ...legacyChapterRedirects,
     '/timeline': `/books/${LEGACY_BOOK}/timeline`,
   },
+  // Astro 7 makes Sätteri the default Markdown processor; the unified/remark
+  // pipeline is opt-in through @astrojs/markdown-remark. Chapter prose carries
+  // its own title/meal headings and the reading room renders those from
+  // frontmatter, so the leading ones are stripped here.
   markdown: {
-    // Chapter prose carries its own title/meal headings; the reading room
-    // renders those from frontmatter, so drop the leading ones.
-    remarkPlugins: [remarkStripLeadingHeadings],
+    processor: unified({
+      remarkPlugins: [remarkStripLeadingHeadings],
+    }),
   },
   vite: {
     server: {

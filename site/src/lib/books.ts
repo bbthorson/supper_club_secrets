@@ -17,6 +17,14 @@
  * one book would say the opposite of what the series is.
  */
 
+/**
+ * The series in one line. Series-level on purpose: it describes the whole
+ * anthology, not this case, so it belongs beside BOOKS rather than inside one.
+ * The book's own `logline` says what a particular case is about.
+ */
+export const SERIES_TAGLINE =
+  'Six friends exploring the mysteries of Brooklyn, one meal at a time.';
+
 export interface Meal {
   ordinal: string; // "First", "Second", …
   name: string;
@@ -34,8 +42,8 @@ export interface Book {
   title: string;
   month: string;
   host: string;
-  /** The premise, for a reader who has never heard of the book. Placeholder
-   *  copy until it is written properly — it is marketing, not canon. */
+  /** What this case is about, for search results and link previews. The cover
+   *  shows SERIES_TAGLINE; this is the per-book line underneath it. */
   logline: string;
   totalChapters: number;
   /** The book the site opens on, and the one series-level lenses read from. */
@@ -52,7 +60,7 @@ export const BOOKS: Book[] = [
     month: 'October',
     host: 'Emma',
     logline:
-      "Every Thursday, six friends eat at Emma's table. The Sunday the hot sauce man doesn't show up at the market, dinner becomes a case.",
+      "The Sunday the hot sauce man doesn't show up at the market, dinner becomes a case.",
     totalChapters: 25,
     current: true,
     meals: [

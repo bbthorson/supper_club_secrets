@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.the-gilded-fern
 status: recurring
 first_appearance: "Book 1, Chapter 7"
+blurbPublic: "Artisanal soaps, hand-poured candles and curated local pantry goods on Bedford Avenue. Lavender, bergamot and cedar in the air; linen tea towels and glass jars of fig jam."
 ---
 
 # The Gilded Fern

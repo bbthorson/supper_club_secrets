@@ -7,6 +7,7 @@ timestamp: 2026-07-05T00:00:00Z
 id: place.elijahs-apartment
 status: story-specific
 first_appearance: "Book 1, Chapter 8"
+blurbPublic: "A quiet, orderly one-bedroom in Bed-Stuy near the Classon Ave G stop, kept spare on purpose. Streetlights along Classon Avenue, brownstones out the window."
 ---
 
 # Elijah's Apartment

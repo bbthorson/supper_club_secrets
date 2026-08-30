@@ -1,5 +1,8 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
+// zod directly rather than the `z` re-export from astro:content, which Astro 7
+// deprecates. Declared as a dependency so this doesn't rely on hoisting.
+import { z } from 'zod';
 
 // Chapters live OUTSIDE the site project, in the creative layer. We read them in
 // place with a glob loader (single source of truth — no copy step). The base
@@ -14,8 +17,11 @@ const chapters = defineCollection({
     pattern: 'm[0-9]*_*.md',
     base: '../stories/01. The Case of the Missing Hot Sauce/chapters',
   }),
+  // z.looseObject rather than .object().passthrough(): zod 4 deprecates
+  // passthrough, and loose is the same behaviour — validate what the site
+  // uses, keep the rest, never fight the prose.
   schema: z
-    .object({
+    .looseObject({
       chapter: z.number().int(),
       title: z.string(),
       meal: z.number().int(),
@@ -31,8 +37,7 @@ const chapters = defineCollection({
       // Drip serialization is config, not a feature build: when populated, the
       // chapter is only published on/after this date (see pages filtering).
       publishDate: z.coerce.date().optional(),
-    })
-    .passthrough(),
+    }),
 });
 
 export const collections = { chapters };
