@@ -57,11 +57,12 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
                 <a href={timelineHref(book)}>Timeline</a>
               </span>
             )}
-            <span class="nav-group">
-              <a href="/shelf">Shelf</a>
-              <a href="/characters">Cast</a>
-              <a href="/places">Places</a>
-            </span>
+            {/* Series level is just the shelf. The cast and the neighborhood
+                are surfaces you discover by reading — chips at the end of every
+                chapter, on the timeline, on every hub — and they sit in the
+                footer. They earned nav space back when /places was orphaned;
+                it isn't any more. */}
+            <a href="/shelf">Shelf</a>
           </nav>
           <div class="toggle-slot">
             <ThemeToggle />
