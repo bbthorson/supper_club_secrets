@@ -25,9 +25,12 @@ interface SceneRec {
   storyDate: string;
   chapterRefs: string[];
   title: string;
-  sourceFile?: string;
-  /** Not emitted by the compiler today — see sceneMeal(). */
-  meal?: number;
+  /** Which meal (1-4) the scene belongs to. The compiler emits the neutral
+   *  `sequence`; a "sequence" in this series is a meal (pinakes.yaml declares
+   *  `sequenceField: "meal"`). Required rather than optional on purpose: if it
+   *  ever stops being emitted, the cast below fails at build instead of the
+   *  timeline silently rendering empty, which is exactly what happened before. */
+  sequence: number;
   placeRefs?: string[];
   placeText?: string[] | null;
   participants?: string[];
@@ -48,6 +51,7 @@ interface PlaceRec {
 interface ProfileRec {
   subject: string;
   displayName: string;
+  handle?: string;
   /** Scraped from the source file's `## Overview` by the compiler. This is
    *  CRAFT copy — it states a character's function in the plot, and for the
    *  supporting cast it gives away the ending ("…turns the tide in their
@@ -107,20 +111,6 @@ export function chapterNumFromRef(ref: string | undefined | null): number {
   return m ? Number.parseInt(m[1], 10) : 0;
 }
 const sceneChapter = (s: SceneRec) => chapterNumFromRef(s.chapterRefs?.[0]);
-
-/**
- * Which meal (1–4) a scene belongs to.
- *
- * `scene` records carry no `meal` field — the compiler doesn't emit one — so it
- * comes from the chapter filename, which encodes it: `m2_07_gathering…md` is
- * Meal 2. Without this every entry's meal was 0, and the timeline's per-meal
- * filter matched nothing, so the page rendered four headings and no days.
- */
-export function sceneMeal(s: SceneRec): number {
-  if (typeof s.meal === 'number' && s.meal > 0) return s.meal;
-  const m = /\/m(\d)_/.exec(s.sourceFile ?? '');
-  return m ? Number.parseInt(m[1], 10) : 0;
-}
 
 /** All chapter numbers that carry at least one scene, ascending. */
 export function allChapters(): number[] {
@@ -192,7 +182,7 @@ function buildEntries(): TimelineEntry[] {
   for (const s of scenes) {
     const ch = sceneChapter(s);
     const e = ensure(s.storyDate);
-    if (!e.meal) e.meal = sceneMeal(s);
+    if (!e.meal) e.meal = s.sequence;
     if (!e.chapters.includes(ch)) e.chapters.push(ch);
     if (s.primaryEvent && !e.events.includes(s.primaryEvent)) e.events.push(s.primaryEvent);
     for (const p of s.placeRefs ?? []) pushRef(e.places, namedPlace(p));
@@ -398,7 +388,7 @@ function toProfile(p: ProfileRec): Profile {
   return {
     id: p.subject,
     name: p.displayName,
-    handle: codex?.handle ?? null,
+    handle: p.handle ?? null,
     personaPublic: codex?.personaPublic ?? null,
     keyContradiction: codex?.keyContradiction ?? null,
     firstChapter: charFirstChapter.get(p.subject) ?? 0,

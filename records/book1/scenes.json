@@ -7,13 +7,12 @@
       "book1#ch1"
     ],
     "title": "The Missing Hot Sauce",
-    "part": null,
+    "sequence": 1,
     "beat": "Opening Image / Theme Stated",
     "placeRefs": [
       "place.mcgolrick-market",
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -23,7 +22,7 @@
       "char.hank"
     ],
     "primaryEvent": "Open on the empty stall and Dorothy's 'just in case' bottle — the loss that makes the mystery personal, and the theme that a community protects its own.",
-    "createdAt": "2026-10-04",
+    "createdAt": "2026-10-04T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md"
   },
   {
@@ -34,12 +33,11 @@
       "book1#ch2"
     ],
     "title": "The First Supper",
-    "part": null,
+    "sequence": 1,
     "beat": "Set-Up",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -54,7 +52,7 @@
       "char.dorothy"
     ],
     "primaryEvent": "Serve the soup — the group tastes what's at stake, and Hank's disappearance stops being Emma's alone.",
-    "createdAt": "2026-10-04",
+    "createdAt": "2026-10-04T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
@@ -65,12 +63,11 @@
       "book1#ch3"
     ],
     "title": "A Simmering Suspicion",
-    "part": null,
+    "sequence": 1,
     "beat": "Catalyst",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -85,7 +82,7 @@
       "char.hank"
     ],
     "primaryEvent": "Marcus's 'man running from something' is the catalyst — it turns dinner-party curiosity into a real question.",
-    "createdAt": "2026-10-04",
+    "createdAt": "2026-10-04T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
@@ -96,12 +93,11 @@
       "book1#ch4"
     ],
     "title": "Stirring the Pot",
-    "part": null,
+    "sequence": 1,
     "beat": "Debate",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -111,9 +107,8 @@
       "char.olivia",
       "char.jasper"
     ],
-    "referenced": [],
     "primaryEvent": "The theory competition — every character's frame is characterization and misdirection; Emma's joke is the truth no one takes seriously.",
-    "createdAt": "2026-10-04",
+    "createdAt": "2026-10-04T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
@@ -124,12 +119,11 @@
       "book1#ch5"
     ],
     "title": "Mise en Place",
-    "part": null,
+    "sequence": 1,
     "beat": "Debate → The Plan",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -143,7 +137,7 @@
       "char.hank"
     ],
     "primaryEvent": "The club commits to investigating and reconvening with a potluck — assignments drawn — turning a dinner into a case.",
-    "createdAt": "2026-10-04",
+    "createdAt": "2026-10-04T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
@@ -154,12 +148,11 @@
       "book1#ch6"
     ],
     "title": "A Fine Sieve",
-    "part": null,
+    "sequence": 2,
     "beat": "Break into Two",
     "placeRefs": [
       "place.nypl-rose-reading-room"
     ],
-    "placeText": null,
     "pov": "char.oliver",
     "participants": [
       "char.oliver"
@@ -169,7 +162,7 @@
       "char.hank"
     ],
     "primaryEvent": "Oliver's methodical library dig turns idle theory into a documented lead — the case breaks into Act 2.",
-    "createdAt": "2026-10-05",
+    "createdAt": "2026-10-05T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_06_a_fine_sieve.md"
   },
   {
@@ -180,22 +173,20 @@
       "book1#ch7"
     ],
     "title": "Gathering the Ingredients",
-    "part": null,
+    "sequence": 2,
     "beat": "Fun and Games",
     "placeRefs": [
       "place.the-gilded-fern",
       "place.olivia-oliver-place"
     ],
-    "placeText": null,
     "pov": "char.olivia",
     "participants": [
       "char.olivia",
       "char.marcus",
       "char.oliver"
     ],
-    "referenced": [],
     "primaryEvent": "Olivia works Marcus for texture and pulls the LLC out of Oliver at home — surfacing what he'd keep to himself.",
-    "createdAt": "2026-10-06",
+    "createdAt": "2026-10-06T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_07_gathering_the_ingredients.md"
   },
   {
@@ -206,12 +197,11 @@
       "book1#ch8"
     ],
     "title": "The Bottom Line",
-    "part": null,
+    "sequence": 2,
     "beat": "Fun and Games",
     "placeRefs": [
       "place.elijahs-apartment"
     ],
-    "placeText": null,
     "pov": "char.elijah",
     "participants": [
       "char.elijah",
@@ -222,7 +212,7 @@
       "char.noah"
     ],
     "primaryEvent": "Elijah quietly makes the LLC the group's problem and starts modeling the money — the case gains a spine.",
-    "createdAt": "2026-10-07",
+    "createdAt": "2026-10-07T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_08_the_bottom_line.md"
   },
   {
@@ -233,12 +223,11 @@
       "book1#ch9"
     ],
     "title": "A Pinch Too Much",
-    "part": null,
+    "sequence": 2,
     "beat": "Fun and Games",
     "placeRefs": [
       "place.noahs-apartment"
     ],
-    "placeText": null,
     "pov": "char.noah",
     "participants": [
       "char.noah"
@@ -248,7 +237,7 @@
       "char.hank"
     ],
     "primaryEvent": "Noah converts the analog dead-end into a data trail — the patents show what the scheme is actually for.",
-    "createdAt": "2026-10-08",
+    "createdAt": "2026-10-08T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_09_a_pinch_too_much.md"
   },
   {
@@ -259,7 +248,7 @@
       "book1#ch10"
     ],
     "title": "Loose Lips",
-    "part": null,
+    "sequence": 2,
     "beat": "Fun and Games (the breach seeded)",
     "placeRefs": [
       "place.jaspers-apartment"
@@ -276,7 +265,7 @@
       "char.emma"
     ],
     "primaryEvent": "Jasper's need to contribute causes the breach — the call that quietly turns the developer's attention on the group.",
-    "createdAt": "2026-10-09",
+    "createdAt": "2026-10-09T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_10_loose_lips.md"
   },
   {
@@ -287,13 +276,12 @@
       "book1#ch11"
     ],
     "title": "The Empty Stall",
-    "part": null,
+    "sequence": 2,
     "beat": "Fun and Games",
     "placeRefs": [
       "place.mccarren-market",
       "place.sofias-cheese-shop"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -304,7 +292,7 @@
       "char.paolo-ferrante"
     ],
     "primaryEvent": "The empty Saturday stall plus the Paolo precedent turn one disappearance into a pattern — someone is doing this on purpose.",
-    "createdAt": "2026-10-10",
+    "createdAt": "2026-10-10T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_11_the_empty_stall.md"
   },
   {
@@ -315,13 +303,12 @@
       "book1#ch12"
     ],
     "title": "Coming to a Boil",
-    "part": null,
+    "sequence": 2,
     "beat": "Midpoint / False Victory",
     "placeRefs": [
       "place.mcgolrick-market",
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -332,26 +319,25 @@
       "char.jasper",
       "char.dorothy"
     ],
-    "referenced": [],
     "primaryEvent": "The potluck 'solves' the case — false victory — while the seeds of the reversal (Dorothy's brisk stranger, Jasper's unseen warning) sit in plain sight.",
-    "createdAt": "2026-10-11",
+    "createdAt": "2026-10-11T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
     "$type": "site.supperclub.scene",
     "id": "scene.book1.ch13",
     "storyDate": "2026-10-12",
+    "storyDateEnd": "2026-10-14",
     "chapterRefs": [
       "book1#ch13"
     ],
     "title": "Service for One",
-    "part": null,
+    "sequence": 3,
     "beat": "Bad Guys Close In",
     "placeRefs": [
       "place.emmas-apartment",
       "place.mcgolrick-market"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -363,9 +349,8 @@
       "char.dorothy"
     ],
     "primaryEvent": "Bring the threat home and put a face on it. The pressure is economic and personal, not an exposed secret. Pike reveals himself with a charm that reads as menace.",
-    "createdAt": "2026-10-12",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md",
-    "storyDateEnd": "2026-10-14"
+    "createdAt": "2026-10-12T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md"
   },
   {
     "$type": "site.supperclub.scene",
@@ -375,12 +360,11 @@
       "book1#ch14"
     ],
     "title": "The Seamless Supper",
-    "part": null,
+    "sequence": 3,
     "beat": "All Is Lost (part 1)",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -394,7 +378,7 @@
       "char.garrett-pike"
     ],
     "primaryEvent": "Emergency dinner rallies the group around the C&D; privately, Emma finally lets Olivia see how precarious things really are.",
-    "createdAt": "2026-10-14",
+    "createdAt": "2026-10-14T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
@@ -405,12 +389,11 @@
       "book1#ch15"
     ],
     "title": "A Bitter Taste",
-    "part": null,
+    "sequence": 3,
     "beat": "All Is Lost (part 2) / Dark Night of the Soul",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -420,25 +403,24 @@
       "char.olivia",
       "char.jasper"
     ],
-    "referenced": [],
     "primaryEvent": "Noah traces the breach to Jasper; the group's sharpest fight — then Oliver stands up and turns despair into a plan.",
-    "createdAt": "2026-10-14",
+    "createdAt": "2026-10-14T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
     "$type": "site.supperclub.scene",
     "id": "scene.book1.ch16",
     "storyDate": "2026-10-14",
+    "storyDateEnd": "2026-10-15",
     "chapterRefs": [
       "book1#ch16"
     ],
     "title": "The Recipe for Revenge",
-    "part": null,
+    "sequence": 3,
     "beat": "Break into Three",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -448,28 +430,25 @@
       "char.olivia",
       "char.jasper"
     ],
-    "referenced": [],
     "primaryEvent": "The swarm plan and roles come together; Jasper quietly takes the find-Hank mission and leaves.",
-    "createdAt": "2026-10-14",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md",
-    "storyDateEnd": "2026-10-15"
+    "createdAt": "2026-10-14T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
     "$type": "site.supperclub.scene",
     "id": "scene.book1.ch17",
     "storyDate": "2026-10-14",
+    "storyDateEnd": "2026-10-16",
     "chapterRefs": [
       "book1#ch17"
     ],
     "title": "Sharpening the Knives",
-    "part": null,
+    "sequence": 3,
     "beat": "Break into Three (preparation montage)",
-    "placeRefs": [],
     "placeText": [
       "Distributed — ensemble prep montage",
       "Amtrak to Philadelphia"
     ],
-    "pov": null,
     "participants": [
       "char.noah",
       "char.olivia",
@@ -478,11 +457,9 @@
       "char.emma",
       "char.jasper"
     ],
-    "referenced": [],
     "primaryEvent": "Alone-but-connected, each member builds their piece of the campaign; Jasper quietly pockets Dorothy's bottle for the road.",
-    "createdAt": "2026-10-14",
-    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md",
-    "storyDateEnd": "2026-10-16"
+    "createdAt": "2026-10-14T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
     "$type": "site.supperclub.scene",
@@ -492,12 +469,11 @@
       "book1#ch18"
     ],
     "title": "Turning Up the Heat",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale — Hope (campaign launch)",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -510,7 +486,7 @@
       "char.jasper"
     ],
     "primaryEvent": "The coordinated campaign launches and hope builds — the club acts as one team instead of six investigators.",
-    "createdAt": "2026-10-16",
+    "createdAt": "2026-10-16T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
@@ -521,9 +497,8 @@
       "book1#ch19"
     ],
     "title": "The Ridgeline Diner",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale (from the road)",
-    "placeRefs": [],
     "placeText": [
       "The Ridgeline Diner"
     ],
@@ -535,7 +510,7 @@
       "char.hank"
     ],
     "primaryEvent": "From the road: Jasper's first night of dead-end calls — he keeps going anyway; the loneliness under the performance surfaces alone.",
-    "createdAt": "2026-10-16",
+    "createdAt": "2026-10-16T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_19_the_diner.md"
   },
   {
@@ -546,12 +521,11 @@
       "book1#ch20"
     ],
     "title": "Ghost Kitchen",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale — Doubt (the counterpunch)",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -564,7 +538,7 @@
       "char.jasper"
     ],
     "primaryEvent": "The counterattack lands — a glib commentator, blog takedowns, and a close call with a traced account leave the group doubting they've made things worse.",
-    "createdAt": "2026-10-17",
+    "createdAt": "2026-10-17T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
@@ -575,9 +549,8 @@
       "book1#ch21"
     ],
     "title": "The Starlite Drive-In",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale (from the road)",
-    "placeRefs": [],
     "placeText": [
       "The Starlite Drive-In"
     ],
@@ -589,7 +562,7 @@
       "char.noah"
     ],
     "primaryEvent": "From the road: Noah's pruned spreadsheet narrows the search and a seed supplier names a collective 'out past the city' — the first real lead.",
-    "createdAt": "2026-10-17",
+    "createdAt": "2026-10-17T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_21_the_drive_in.md"
   },
   {
@@ -600,9 +573,8 @@
       "book1#ch22"
     ],
     "title": "Murph's",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale (from the road — the low point)",
-    "placeRefs": [],
     "placeText": [
       "Murph's"
     ],
@@ -616,7 +588,7 @@
       "char.hank"
     ],
     "primaryEvent": "From the road: the low point — Jasper nearly drives home, then a bartender names Meadowlight and the door cracks open.",
-    "createdAt": "2026-10-18",
+    "createdAt": "2026-10-18T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_22_the_dive.md"
   },
   {
@@ -627,12 +599,11 @@
       "book1#ch23"
     ],
     "title": "Farm to Table",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale — Redemption",
     "placeRefs": [
       "place.meadowlight-collective"
     ],
-    "placeText": null,
     "pov": "char.jasper",
     "participants": [
       "char.jasper",
@@ -642,7 +613,7 @@
       "char.noah"
     ],
     "primaryEvent": "Jasper finds Hank in the Meadowlight greenhouse and shows him the bottle — his quiet, un-performed redemption, and Hank agrees to come home.",
-    "createdAt": "2026-10-20",
+    "createdAt": "2026-10-20T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_23_farm_to_table.md"
   },
   {
@@ -653,7 +624,7 @@
       "book1#ch24"
     ],
     "title": "The Proof",
-    "part": null,
+    "sequence": 4,
     "beat": "Finale — Breakthrough",
     "placeRefs": [
       "place.emmas-apartment"
@@ -675,7 +646,7 @@
       "char.jasper"
     ],
     "primaryEvent": "Oliver's sourced rebuttal arms a hundred small voices; a food critic adopts the framing, sentiment flips, investors pull, and the C&D is withdrawn.",
-    "createdAt": "2026-10-20",
+    "createdAt": "2026-10-20T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
@@ -686,12 +657,11 @@
       "book1#ch25"
     ],
     "title": "Family Meal",
-    "part": null,
+    "sequence": 4,
     "beat": "Final Image",
     "placeRefs": [
       "place.emmas-apartment"
     ],
-    "placeText": null,
     "pov": "char.emma",
     "participants": [
       "char.emma",
@@ -709,7 +679,7 @@
       "char.garrett-pike"
     ],
     "primaryEvent": "Family Meal — Hank returns with Jasper, the bottle's arc closes, the economic squeeze lifts, and the club commits to continuing with rotating hosts.",
-    "createdAt": "2026-10-25",
+    "createdAt": "2026-10-25T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   }
 ]

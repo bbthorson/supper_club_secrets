@@ -3,14 +3,17 @@
  *
  * WHY THIS FILE EXISTS. `records/` is the derived record set and stays the
  * source for everything relational (scenes, state events, custody). But the
- * *authored, reader-facing* identity fields — a character's handle and public
- * persona, a location's type/address/hours — live in `codex/` frontmatter and
- * bodies, and the pinakes compiler currently emits only `displayName` and
- * `oneLine` (scraped from `## Overview`). So the site reads them here, the same
+ * *authored, reader-facing* identity fields — a character's public persona,
+ * a location's type/address/hours — live in `codex/` frontmatter and
+ * bodies, and the pinakes compiler does not emit them — as of 0.2.0 the profile
+ * Lexicon covers `displayName`, `handle` and `oneLine`, and no more. So the site
+ * reads the rest here, the same
  * way it reads chapter prose in place (content.config.ts): single source of
  * truth, no copy step. When these fields move into the compiler, delete this
  * file and drop the values into records.ts — the Profile/PlaceListing shapes
- * are unchanged by design.
+ * are unchanged by design. `handle` already made that move in 0.2.0; when
+ * `personaPublic` and `keyContradiction` join the profile Lexicon, and the
+ * place Lexicon gains the location facts, this whole file goes away.
  *
  * SPOILER RULE — the important part. Not every authored field is reader copy.
  * `## Overview` (characters) and frontmatter `description` (locations) are
@@ -18,8 +21,10 @@
  * story significance, and several give away Book 1's ending ("where Hank takes
  * refuge", "Garrett Pike's planned legacy restaurant"). They are deliberately
  * NOT read here. Only these are treated as public:
- *   - characters: `handle`, `personaPublic`, `keyContradiction` (frontmatter,
- *     authored in first-person bio voice — written to be seen)
+ *   - characters: `personaPublic`, `keyContradiction` (frontmatter, authored in
+ *     first-person bio voice — written to be seen). `handle` is NOT read here:
+ *     the compiler emits it and the profile Lexicon validates it, so it comes
+ *     from the record set like every other validated field.
  *   - locations:  `**Type:**`, `**Address:**`/`**Location:**`, `**Owner:**`,
  *     and the first sentence of `**Operating rule:**` — in-world facts
  * `**Details:**` and `**Story Significance:**` are never read.
@@ -96,8 +101,6 @@ function firstSentence(s: string | null): string | null {
 /* ---- characters ---- */
 
 export interface CharacterCodex {
-  /** atproto-style handle, e.g. "emmacooks". */
-  handle: string | null;
   /** First-person public bio — authored to be read by readers. */
   personaPublic: string | null;
   /** The one-line tension under the persona. */
@@ -111,7 +114,6 @@ function buildCharacterCodex(): Map<string, CharacterCodex> {
     const id = str(fm.id);
     if (!id) continue; // 00_character_template.md and anything unregistered
     out.set(id, {
-      handle: str(fm.handle),
       personaPublic: str(fm.personaPublic),
       keyContradiction: str(fm.keyContradiction),
     });

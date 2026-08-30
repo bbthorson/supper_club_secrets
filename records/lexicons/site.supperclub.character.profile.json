@@ -1,0 +1,53 @@
+{
+  "lexicon": 1,
+  "id": "site.supperclub.character.profile",
+  "description": "The public-facing identity of a character in the universe.",
+  "defs": {
+    "main": {
+      "type": "record",
+      "key": "any",
+      "description": "A character profile record.",
+      "record": {
+        "type": "object",
+        "required": [
+          "id",
+          "subject",
+          "displayName",
+          "sourceFile"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable profile id, e.g. `profile.emma`.",
+            "maxLength": 256
+          },
+          "subject": {
+            "type": "string",
+            "description": "Registry id of the character, e.g. `char.emma`.",
+            "maxLength": 256
+          },
+          "displayName": {
+            "type": "string",
+            "description": "Name as readers see it.",
+            "maxLength": 640
+          },
+          "handle": {
+            "type": "string",
+            "description": "The character's handle, without an `@`. A bare label such as `emmacooks` until the universe is bound to a domain; consumers qualify it themselves.",
+            "maxLength": 253
+          },
+          "oneLine": {
+            "type": "string",
+            "description": "One-line character summary, lifted from the codex file's Overview.",
+            "maxLength": 3000
+          },
+          "sourceFile": {
+            "type": "string",
+            "description": "Repository-relative codex path.",
+            "maxLength": 1024
+          }
+        }
+      }
+    }
+  }
+}

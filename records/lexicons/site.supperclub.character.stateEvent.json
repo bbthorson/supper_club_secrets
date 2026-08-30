@@ -1,0 +1,83 @@
+{
+  "lexicon": 1,
+  "id": "site.supperclub.character.stateEvent",
+  "description": "A change in a character's emotional or social register at a point in story time.",
+  "defs": {
+    "main": {
+      "type": "record",
+      "key": "any",
+      "description": "A character state event record.",
+      "record": {
+        "type": "object",
+        "required": [
+          "id",
+          "subject",
+          "storyDate",
+          "register",
+          "state",
+          "chapterRef",
+          "sceneRef",
+          "createdAt",
+          "sourceFile"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable event id, e.g. `stateEvent.emma.book1.ch1`.",
+            "maxLength": 256
+          },
+          "subject": {
+            "type": "string",
+            "description": "Registry id of the character this event describes.",
+            "maxLength": 256
+          },
+          "storyDate": {
+            "type": "string",
+            "description": "In-story date, `YYYY-MM-DD`.",
+            "maxLength": 10
+          },
+          "storyDateEnd": {
+            "type": "string",
+            "description": "End of the in-story span.",
+            "maxLength": 10
+          },
+          "register": {
+            "type": "string",
+            "description": "The register the character is in — the first term of the expression.",
+            "maxLength": 128
+          },
+          "registerExpr": {
+            "type": "string",
+            "description": "Full register expression when it encodes a transition, e.g. `guarded -> open`.",
+            "maxLength": 512
+          },
+          "state": {
+            "type": "string",
+            "description": "Verbatim register annotation from the chapter frontmatter.",
+            "maxLength": 1024
+          },
+          "chapterRef": {
+            "type": "string",
+            "description": "Source chapter, e.g. `book1#ch1`.",
+            "maxLength": 256
+          },
+          "sceneRef": {
+            "type": "string",
+            "description": "Scene record this event belongs to.",
+            "maxLength": 256
+          },
+          "createdAt": {
+            "type": "string",
+            "description": "Story time as an RFC3339 datetime.",
+            "format": "datetime"
+          },
+          "sourceFile": {
+            "type": "string",
+            "description": "Repository-relative chapter path.",
+            "maxLength": 1024
+          }
+        }
+      }
+    }
+  }
+}
