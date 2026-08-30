@@ -1,6 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import Stamp from '../components/Stamp.astro';
+import { currentBook, bookHref } from '../lib/books';
+
+const book = currentBook();
 
 // Books 2–6 are real (the series is planned Oct 2026 → Mar 2027), but their
 // menus aren't public — so they sit on the shelf as redaction-sealed spines.
@@ -14,18 +17,18 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
     <p class="shelf-sub scs-romance">Six suppers, October through March. One is served.</p>
   </section>
 
-  <article class="book book--one" data-book1>
+  <article class="book book--one" data-book={book.id} data-total={book.totalChapters} data-read-base={`/books/${book.slug}/read`}>
     <div class="book-face">
-      <p class="book-eyebrow scs-label">Book One · October</p>
-      <h2 class="book-name scs-title">The Case of the Missing Hot Sauce</h2>
-      <p class="book-line scs-romance">Hosted by Emma · 25 chapters</p>
+      <p class="book-eyebrow scs-label">Book {book.ordinal} · {book.month}</p>
+      <h2 class="book-name scs-title">{book.title}</h2>
+      <p class="book-line scs-romance">Hosted by {book.host} · {book.totalChapters} chapters</p>
       <div class="book-status">
         <span class="status-text scs-label" data-status>In the kitchen…</span>
         <span class="stamp-slot" data-stamp hidden>
           <Stamp text="Case Closed" />
         </span>
       </div>
-      <a class="book-cta scs-label" href="/" data-cta>Open the menu</a>
+      <a class="book-cta scs-label" href={bookHref(book)} data-cta>Open the menu</a>
     </div>
   </article>
 
@@ -133,29 +136,33 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
 </style>
 
 <script>
-  import { getHorizon, TOTAL_CHAPTERS } from '../lib/horizon';
+  import { getHorizon } from '../lib/horizon';
 
-  const horizon = getHorizon();
+  const card = document.querySelector<HTMLElement>('[data-book]');
+  const total = Number.parseInt(card?.dataset.total ?? '', 10) || 0;
+  const readBase = card?.dataset.readBase ?? '';
+  const horizon = getHorizon(card?.dataset.book ?? '');
   const statusEl = document.querySelector<HTMLElement>('[data-status]');
   const stampEl = document.querySelector<HTMLElement>('[data-stamp]');
   const ctaEl = document.querySelector<HTMLAnchorElement>('[data-cta]');
 
   if (statusEl) {
-    if (horizon >= TOTAL_CHAPTERS) {
+    if (horizon >= total) {
       statusEl.hidden = true;
       if (stampEl) stampEl.hidden = false;
       if (ctaEl) ctaEl.textContent = 'Read it again';
     } else if (horizon > 0) {
       statusEl.textContent = `In progress · Chapter ${horizon}`;
       if (ctaEl) {
-        ctaEl.textContent = `Continue · Chapter ${Math.min(horizon + 1, TOTAL_CHAPTERS)}`;
-        ctaEl.href = `/read/${Math.min(horizon + 1, TOTAL_CHAPTERS)}`;
+        const next = Math.min(horizon + 1, total);
+        ctaEl.textContent = `Continue · Chapter ${next}`;
+        ctaEl.href = `${readBase}/${next}`;
       }
     } else {
       statusEl.textContent = 'Not started';
       if (ctaEl) {
         ctaEl.textContent = 'Start reading';
-        ctaEl.href = '/read/1';
+        ctaEl.href = `${readBase}/1`;
       }
     }
   }

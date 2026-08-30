@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { clubListings, HANDLE_DOMAIN } from '../../lib/records';
+import { currentBook } from '../../lib/books';
 import '../../styles/lens.css';
 
 // Only the supper club is server-rendered. Everyone else the reader meets by
@@ -10,6 +11,9 @@ import '../../styles/lens.css';
 // from horizon-gated fragments, which name only characters the reader has
 // actually met on the page.
 const club = clubListings();
+// The roster is series-level, but 'everyone else you've met' is drawn from a
+// book's scenes, so the section is told which book to read.
+const book = currentBook();
 ---
 
 <Base
@@ -44,7 +48,7 @@ const club = clubListings();
     }
   </ul>
 
-  <section class="met" data-met data-club={club.map((c) => c.id).join(',')}>
+  <section class="met" data-met data-book={book.id} data-club={club.map((c) => c.id).join(',')}>
     <div class="course-head">
       <span class="course-label scs-label">Everyone else you've met</span>
       <span class="scs-leader" aria-hidden="true"></span>
@@ -165,7 +169,7 @@ const club = clubListings();
 </style>
 
 <script>
-  import { resolveHorizon, BOOK } from '../../lib/horizon';
+  import { resolveHorizon } from '../../lib/horizon';
   import { loadUpToHorizon, allEntries } from '../../lib/lens-data';
   import { chip, charHref } from '../../lib/lens-render';
 
@@ -176,8 +180,9 @@ const club = clubListings();
     const listEl = root.querySelector<HTMLElement>('[data-met-list]');
 
     (async () => {
-      const horizon = resolveHorizon(BOOK);
-      const entries = allEntries(await loadUpToHorizon(horizon));
+      const bookId = root.dataset.book ?? '';
+      const horizon = resolveHorizon(bookId);
+      const entries = allEntries(await loadUpToHorizon(horizon, bookId));
 
       // Everyone who has shared a scene with the reader, minus the six already
       // listed above. Sourced from the fetched fragments, so a character the

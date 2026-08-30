@@ -1,0 +1,52 @@
+---
+import { getCollection, render } from 'astro:content';
+import ReadingRoom from '../../../../layouts/ReadingRoom.astro';
+import { publishedBooks, type Book } from '../../../../lib/books';
+
+export async function getStaticPaths() {
+  const now = new Date();
+  const chapters = (await getCollection('chapters'))
+    // same drip filter as the menu: an unpublished chapter must not be
+    // reachable by URL or by the previous chapter's "next" link. Filtering
+    // before computing prev/next keeps navigation inside the published set.
+    .filter((c) => !c.data.publishDate || c.data.publishDate <= now)
+    .sort((a, b) => a.data.chapter - b.data.chapter);
+
+  // One chapter set today. The collection is still globbed from Book 1's
+  // folder (content.config.ts), so a second book needs that loader extended
+  // before this fans out — the route shape is ready, the content isn't.
+  return publishedBooks().flatMap((book) =>
+    chapters.map((entry, i) => ({
+      params: { book: book.slug, chapter: String(entry.data.chapter) },
+      props: {
+        book,
+        entry,
+        prev: chapters[i - 1]?.data.chapter ?? null,
+        next: chapters[i + 1]?.data.chapter ?? null,
+      },
+    })),
+  );
+}
+
+const { book, entry, prev, next } = Astro.props as {
+  book: Book;
+  entry: Awaited<ReturnType<typeof getCollection<'chapters'>>>[number];
+  prev: number | null;
+  next: number | null;
+};
+const { Content } = await render(entry);
+const { chapter, title, meal, day, date } = entry.data;
+---
+
+<ReadingRoom
+  book={book}
+  chapter={chapter}
+  title={title}
+  meal={meal}
+  day={day}
+  date={date}
+  prev={prev}
+  next={next}
+>
+  <Content />
+</ReadingRoom>

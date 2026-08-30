@@ -3,15 +3,29 @@ import '../../../protocol/brand/tokens.css';
 import '../styles/base.css';
 import { inlineHeadScript } from '../lib/horizon-inline';
 import ThemeToggle from '../components/ThemeToggle.astro';
+import { bookHref, timelineHref, type Book } from '../lib/books';
 
 interface Props {
   title: string;
   description?: string;
   /** Hide the site chrome (header/footer) for full-bleed pages if ever needed. */
   bare?: boolean;
+  /** Set on a book-scoped page, which adds that book's own nav (its menu and
+   *  timeline) alongside the series-level links. Series pages — the shelf, the
+   *  cast, the neighborhood — leave it unset. */
+  book?: Book;
+  /** Overrides the canonical URL. `/` sets it to the current book's page,
+   *  since both render the same menu. */
+  canonical?: string;
 }
-const { title, description = 'A cozy-crime supper club mystery, served in courses.', bare = false } =
-  Astro.props;
+const {
+  title,
+  description = 'A cozy-crime supper club mystery, served in courses.',
+  bare = false,
+  book,
+  canonical,
+} = Astro.props;
+const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astro.url.origin);
 ---
 
 <!doctype html>
@@ -21,6 +35,7 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL.href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <!-- pre-paint: apply stored theme + load progress, no flash -->
     <script is:inline set:html={inlineHeadScript} />
@@ -34,11 +49,20 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
             <span class="wm-pop">Secrets</span>
           </a>
           <nav class="site-nav scs-label" aria-label="Primary">
-            <a href="/">Menu</a>
-            <a href="/timeline">Timeline</a>
+            {/* book-scoped first, then the series-level surfaces. The cast and
+                the neighborhood are series records, so they never nest. */}
+            {book && (
+              <>
+                <a href={bookHref(book)}>Menu</a>
+                <a href={timelineHref(book)}>Timeline</a>
+                <span class="nav-div" aria-hidden="true">
+                  ·
+                </span>
+              </>
+            )}
+            <a href="/shelf">Shelf</a>
             <a href="/characters">Cast</a>
             <a href="/places">Places</a>
-            <a href="/shelf">Shelf</a>
           </nav>
           <ThemeToggle />
         </header>
@@ -85,6 +109,9 @@ const { title, description = 'A cozy-crime supper club mystery, served in course
   }
   .site-nav a:hover {
     color: var(--scs-accent);
+  }
+  .nav-div {
+    color: var(--scs-line);
   }
   .wordmark {
     font-family: var(--scs-font-display);

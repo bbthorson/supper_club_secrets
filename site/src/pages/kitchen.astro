@@ -1,5 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+import { currentBook } from '../lib/books';
+
+const book = currentBook();
 
 // The colophon, in the brand's own vocabulary. It answers the two questions a
 // curious reader actually has — "how does this site know what I've read?" and
@@ -12,7 +15,7 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
   title="The Kitchen — Supper Club Secrets"
   description="How the book becomes this site, and what the site knows about you."
 >
-  <article class="kitchen">
+  <article class="kitchen" data-kitchen data-book={book.id} data-total={book.totalChapters} data-ordinal={book.ordinal}>
     <header class="k-head">
       <p class="k-eyebrow scs-label">Behind the Pass</p>
       <h1 class="k-title scs-poster">The Kitchen</h1>
@@ -211,7 +214,11 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
 </style>
 
 <script>
-  import { getHorizon, clearProgress, BOOK, TOTAL_CHAPTERS } from '../lib/horizon';
+  import { getHorizon, clearProgress } from '../lib/horizon';
+
+  const root = document.querySelector<HTMLElement>('[data-kitchen]');
+  const BOOK = root?.dataset.book ?? '';
+  const TOTAL_CHAPTERS = Number.parseInt(root?.dataset.total ?? '', 10) || 0;
 
   const stateEl = document.querySelector<HTMLElement>('[data-horizon-state]');
   const btn = document.querySelector<HTMLButtonElement>('[data-forget]');
@@ -228,7 +235,7 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
     }
     stateEl.textContent =
       horizon >= TOTAL_CHAPTERS
-        ? `This browser has you at the end of Book One — all ${TOTAL_CHAPTERS} chapters.`
+        ? `This browser has you at the end of Book ${root?.dataset.ordinal ?? 'One'} — all ${TOTAL_CHAPTERS} chapters.`
         : `This browser has you at Chapter ${horizon} of ${TOTAL_CHAPTERS}.`;
     if (btn) btn.hidden = false;
     if (note) note.hidden = false;

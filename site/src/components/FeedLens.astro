@@ -4,6 +4,8 @@
 // public); scene detail is fetched client-side up to the reader's horizon.
 // title / eyebrow drive the poster intro, so they're required in the default
 // mode and optional when `bare` suppresses that intro (e.g. under a hub header).
+import { currentBook, timelineHref } from '../lib/books';
+import '../styles/lens.css';
 type Props = {
   kind: 'place' | 'character';
   entityId: string; // full id, e.g. place.mcgolrick-market / char.emma
@@ -28,10 +30,15 @@ const {
   threadLabel = 'Their thread',
   relations = false,
 } = Astro.props;
-import '../styles/lens.css';
+
+// Threads are book-scoped even though the hubs are series-level, so the lens is
+// told which book's fragments to read. Today that is the current book; when a
+// second book ships, a hub loads each book at its own horizon and labels the
+// sections.
+const book = currentBook();
 ---
 
-<section class="feed" data-feed data-feed-kind={kind} data-feed-id={entityId}>
+<section class="feed" data-feed data-feed-kind={kind} data-feed-id={entityId} data-feed-book={book.id}>
   {
     bare ? (
       <div class="feed-barehead">
@@ -92,7 +99,7 @@ import '../styles/lens.css';
     <div data-feed-states-list></div>
   </div>
 
-  <p class="feed-foot scs-label"><a href="/timeline">← The whole timeline</a></p>
+  <p class="feed-foot scs-label"><a href={timelineHref(book)}>← The whole timeline</a></p>
 </section>
 
 <style>
@@ -167,7 +174,7 @@ import '../styles/lens.css';
 </style>
 
 <script>
-  import { resolveHorizon, BOOK } from '../lib/horizon';
+  import { resolveHorizon } from '../lib/horizon';
   import { loadUpToHorizon, allEntries } from '../lib/lens-data';
   import { entryCard, esc, chip, charHref, placeHref } from '../lib/lens-render';
   import type { NamedRef } from '../lib/records';
@@ -182,13 +189,14 @@ import '../styles/lens.css';
     const statesList = root.querySelector<HTMLElement>('[data-feed-states-list]');
 
     (async () => {
-      const horizon = resolveHorizon(BOOK);
+      const bookId = root.dataset.feedBook ?? '';
+      const horizon = resolveHorizon(bookId);
       if (noteEl) {
         noteEl.textContent =
           horizon <= 0 ? 'Nothing unlocked yet.' : `Showing through Chapter ${horizon}.`;
       }
 
-      const entries = allEntries(await loadUpToHorizon(horizon));
+      const entries = allEntries(await loadUpToHorizon(horizon, bookId));
       const matched =
         kind === 'place'
           ? entries.filter((e) => e.places.some((p) => p.id === id))
