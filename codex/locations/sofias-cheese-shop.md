@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.sofias-cheese-shop
 status: recurring
 first_appearance: "Book 1, Chapter 11"
+blurbPublic: "A Williamsburg fixture for twenty years, which survived three waves of gentrification by being too good and too stubborn to close. Narrow and deep, one full-length glass case, sharp cheddar and funky blue and yeasty bread from the back."
 ---
 
 # Sofia's Cheese Shop

@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.jaspers-apartment
 status: recurring
 first_appearance: "Book 1, Chapter 10"
+blurbPublic: "Mismatched furniture, leaning stacks of books from urban beekeeping to Cold War espionage, a half-finished Williamsburg Bridge jigsaw on the table. The only organized thing is the vinyl, alphabetized in milk crates with hand-written dividers."
 ---
 
 # Jasper's Apartment

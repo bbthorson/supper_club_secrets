@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.olivia-oliver-place
 status: recurring
 first_appearance: "Book 1, Chapter 7"
+blurbPublic: "Olivia decorated and Oliver keeps it organized — warm personality meeting systematic order. A standard rental turned shelter-magazine-worthy on thrift finds and an unerring eye for color."
 ---
 
 # Olivia & Oliver's Place

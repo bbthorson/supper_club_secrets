@@ -7,6 +7,7 @@ timestamp: 2026-06-15T00:00:00Z
 id: place.noahs-apartment
 status: recurring
 first_appearance: "Book 1, Chapter 9"
+blurbPublic: "Orderly and sparse: an air purifier humming, floor-to-ceiling windows over the East River, a grey sofa. Everything optimized."
 ---
 
 # Noah's Apartment
