@@ -1,0 +1,150 @@
+---
+// A book's front page: the stateful cover, then the menu card. Rendered by both
+// `/` (for the current book) and `/books/<slug>` (for any book), so the two
+// never drift — `/` declares the book URL as canonical rather than duplicating
+// a second, subtly different page.
+import { getCollection } from 'astro:content';
+import MenuCard, { type Course } from './MenuCard.astro';
+import type { Book } from '../lib/books';
+
+interface Props {
+  book: Book;
+}
+const { book } = Astro.props;
+
+const now = new Date();
+const all = (await getCollection('chapters'))
+  // drip serialization: a chapter with a future publishDate isn't served yet.
+  // Inert until dates are populated, so serialization stays pure config.
+  .filter((c) => !c.data.publishDate || c.data.publishDate <= now)
+  .sort((a, b) => a.data.chapter - b.data.chapter);
+
+const courses: Course[] = book.meals.map((meal, i) => ({
+  ...meal,
+  chapters: all
+    .filter((c) => c.data.meal === i + 1)
+    .map((c) => ({ chapter: c.data.chapter, title: c.data.title, day: c.data.day })),
+}));
+
+// Chapter span per course, so the cover can name where a returning reader is
+// without shipping the whole chapter list to the client.
+const courseSpans = courses
+  .filter((c) => c.chapters.length > 0)
+  .map((c) => ({
+    name: c.name,
+    first: c.chapters[0].chapter,
+    last: c.chapters[c.chapters.length - 1].chapter,
+  }));
+---
+
+<section
+  class="service-note"
+  data-cover
+  data-book={book.id}
+  data-ordinal={book.ordinal}
+  data-total={book.totalChapters}
+  data-read-base={`/books/${book.slug}/read`}
+  data-courses={JSON.stringify(courseSpans)}
+>
+  <p class="sn-eyebrow scs-label" data-cover-eyebrow>Thursdays in Williamsburg, Brooklyn</p>
+  <p class="sn-logline scs-romance" data-cover-line>{book.logline}</p>
+  <p class="sn-rule" data-cover-rule>
+    Served in courses — nothing here spoils past where you've read. The timeline,
+    the cast and the neighborhood fill in as you go.
+  </p>
+</section>
+
+<MenuCard
+  eyebrow={`Book ${book.ordinal}`}
+  title={book.title}
+  subline={`${book.month} · hosted by ${book.host} · ${book.totalChapters} chapters`}
+  footnote="Please inform your host of any secrets before dining."
+  courses={courses}
+  readBase={`/books/${book.slug}/read`}
+  bookId={book.id}
+  totalChapters={book.totalChapters}
+/>
+
+<style>
+  /* The cover work happens here rather than on a splash page in front of the
+     site: a cold visitor gets the premise and the one rule of the place, and
+     the menu card below stays the thing they came for. */
+  .service-note {
+    text-align: center;
+    max-width: 46ch;
+    margin: 0 auto 2.2rem;
+  }
+  .sn-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.8rem;
+  }
+  .sn-logline {
+    font-size: clamp(1.2rem, 3.4vw, 1.5rem);
+    line-height: 1.45;
+    color: var(--scs-ink);
+    margin: 0;
+  }
+  .sn-rule[hidden] {
+    display: none;
+  }
+  /* body type, not tracked caps — this runs to three lines on a phone, and
+     caps at that length stop being a label and start being a wall */
+  .sn-rule {
+    font-family: var(--scs-font-body);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+    max-width: 40ch;
+    margin: 1.1rem auto 0;
+  }
+</style>
+
+<script>
+  import { resolveHorizon } from '../lib/horizon';
+
+  // The cover pitches the book to someone who hasn't started, and tells a
+  // returning reader where they left off. Same page, no splash in front of it.
+  type Span = { name: string; first: number; last: number };
+
+  const cover = document.querySelector<HTMLElement>('[data-cover]');
+  if (cover) {
+    const book = cover.dataset.book ?? '';
+    const total = Number.parseInt(cover.dataset.total ?? '', 10) || 0;
+    const horizon = resolveHorizon(book);
+
+    if (horizon > 0) {
+      const eyebrow = cover.querySelector<HTMLElement>('[data-cover-eyebrow]');
+      const line = cover.querySelector<HTMLElement>('[data-cover-line]');
+      const rule = cover.querySelector<HTMLElement>('[data-cover-rule]');
+
+      let spans: Span[] = [];
+      try {
+        spans = JSON.parse(cover.dataset.courses ?? '[]') as Span[];
+      } catch {
+        /* malformed payload — fall back to the chapter count alone */
+      }
+      const course = spans.find((s) => horizon >= s.first && horizon <= s.last);
+
+      if (horizon >= total) {
+        if (eyebrow) eyebrow.textContent = 'The case is closed';
+        if (line) line.textContent = `You've read the whole of Book ${cover.dataset.ordinal ?? 'One'}.`;
+        if (rule) {
+          rule.textContent =
+            'Everything is unlocked — the timeline, the cast and the neighborhood, end to end.';
+        }
+      } else {
+        const left = total - horizon;
+        const read = `${horizon} ${horizon === 1 ? 'chapter' : 'chapters'} in`;
+        if (eyebrow) eyebrow.textContent = 'Back at the table';
+        if (line) {
+          line.textContent = course
+            ? `You're ${read}, partway through ${course.name}.`
+            : `You're ${read}.`;
+        }
+        if (rule) {
+          rule.textContent = `${left} ${left === 1 ? 'chapter' : 'chapters'} left, and everything on the site is open through Chapter ${horizon}.`;
+        }
+      }
+    }
+  }
+</script>

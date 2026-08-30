@@ -3,10 +3,12 @@
 // long-form reading: Literata at a 65–70ch measure, generous leading, the
 // chapter header in front-of-house type. Night is just the theme.
 import Base from './Base.astro';
-import { chapterEntities, TOTAL_CHAPTERS } from '../lib/records';
+import { chapterEntities } from '../lib/records';
+import { bookHref, readHref, timelineHref, type Book } from '../lib/books';
 import '../styles/lens.css';
 
 interface Props {
+  book: Book;
   chapter: number;
   title: string;
   meal: number;
@@ -15,21 +17,21 @@ interface Props {
   prev: number | null;
   next: number | null;
 }
-const { chapter, title, meal, day, date, prev, next } = Astro.props;
+const { book, chapter, title, meal, day, date, prev, next } = Astro.props;
 const mealNames = ['', 'One', 'Two', 'Three', 'Four'];
 const { places, placeText, participants } = chapterEntities(chapter);
 const hasEntities = places.length + placeText.length + participants.length > 0;
 ---
 
-<Base title={`Chapter ${chapter} · ${title} — Supper Club Secrets`}>
+<Base title={`Chapter ${chapter} · ${title} — ${book.title}`} book={book}>
   {/* how far through this chapter you are — the one bit of feedback the
       reading room never gave. Purely decorative, so it's aria-hidden. */}
   <div class="read-progress" aria-hidden="true"><span data-progress-bar></span></div>
 
-  <article class="chapter" data-chapter={chapter}>
+  <article class="chapter" data-chapter={chapter} data-book={book.id}>
     <header class="chapter-head">
       <p class="chapter-eyebrow scs-label">
-        Meal {mealNames[meal] ?? meal} · Chapter {chapter} of {TOTAL_CHAPTERS}
+        Meal {mealNames[meal] ?? meal} · Chapter {chapter} of {book.totalChapters}
       </p>
       <h1 class="chapter-title scs-title">{title}</h1>
       {
@@ -74,7 +76,7 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
     {/* Reaching a chapter silently moved the horizon and unlocked the lenses.
         Say so once, on the read that actually advanced it. */}
     <p class="unlocked" data-unlocked hidden>
-      Chapter {chapter} read — the <a href="/timeline">timeline</a>,
+      Chapter {chapter} read — the <a href={timelineHref(book)}>timeline</a>,
       <a href="/characters">cast</a> and <a href="/places">neighborhood</a> now show
       through here.
     </p>
@@ -82,12 +84,12 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
     <nav class="chapter-nav scs-label" aria-label="Chapter navigation">
       {
         prev !== null ? (
-          <a class="nav-prev" href={`/read/${prev}`}>
+          <a class="nav-prev" href={readHref(book, prev)}>
             <span class="nav-dir">Previous course</span>
             <span class="nav-ch">Chapter {prev}</span>
           </a>
         ) : (
-          <a class="nav-prev" href="/">
+          <a class="nav-prev" href={bookHref(book)}>
             <span class="nav-dir">Back to</span>
             <span class="nav-ch">The menu</span>
           </a>
@@ -95,12 +97,12 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
       }
       {
         next !== null ? (
-          <a class="nav-next" href={`/read/${next}`}>
+          <a class="nav-next" href={readHref(book, next)}>
             <span class="nav-dir">Next course</span>
             <span class="nav-ch">Chapter {next}</span>
           </a>
         ) : (
-          <a class="nav-next" href="/">
+          <a class="nav-next" href={bookHref(book)}>
             <span class="nav-dir">The end · back to</span>
             <span class="nav-ch">The menu</span>
           </a>
@@ -248,18 +250,19 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
 </style>
 
 <script>
-  import { getHorizon, setHorizon, applyGates, BOOK } from '../lib/horizon';
+  import { getHorizon, setHorizon, applyGates } from '../lib/horizon';
 
   const el = document.querySelector<HTMLElement>('.chapter[data-chapter]');
   const n = Number.parseInt(el?.dataset.chapter ?? '', 10);
   if (Number.isFinite(n)) {
     // read the old horizon first — the note below only makes sense on the read
     // that actually moved it, not on a re-read of a chapter already behind you
-    const before = getHorizon(BOOK);
+    const bookId = el?.dataset.book ?? '';
+    const before = getHorizon(bookId);
     // reaching a chapter advances the reader's horizon
-    setHorizon(BOOK, n);
+    setHorizon(bookId, n);
     // and re-resolves any redaction now earned
-    applyGates(document);
+    applyGates(document, bookId);
 
     if (n > before) {
       const note = document.querySelector<HTMLElement>('[data-unlocked]');

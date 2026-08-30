@@ -1,8 +1,15 @@
 ---
-import Base from '../layouts/Base.astro';
-import { timelineScaffold } from '../lib/records';
-import { fmtDate, chapterRangeLabel } from '../lib/lens-render';
-import '../styles/lens.css';
+import Base from '../../../layouts/Base.astro';
+import { timelineScaffold } from '../../../lib/records';
+import { fmtDate, chapterRangeLabel } from '../../../lib/lens-render';
+import { publishedBooks, type Book } from '../../../lib/books';
+import '../../../styles/lens.css';
+
+export function getStaticPaths() {
+  return publishedBooks().map((book) => ({ params: { book: book.slug }, props: { book } }));
+}
+
+const { book } = Astro.props as { book: Book };
 
 // Scaffold = dates + chapter ranges only (no event text) — spoiler-free. Record
 // detail is fetched client-side, and each dated beat only unlocks once the
@@ -15,7 +22,11 @@ const byMeal = [1, 2, 3, 4].map((meal) => ({
 }));
 ---
 
-<Base title="The Timeline — Supper Club Secrets" description="Scrub the case day by day — safe up to how far you've read.">
+<Base
+  title={`The Timeline — ${book.title}`}
+  description="Scrub the case day by day — safe up to how far you've read."
+  book={book}
+>
   <section class="lens-intro">
     <p class="eyebrow scs-label">The Case, Day by Day</p>
     <h1 class="lens-title scs-poster">The Timeline</h1>
@@ -26,7 +37,7 @@ const byMeal = [1, 2, 3, 4].map((meal) => ({
     <p class="horizon-note scs-label" data-horizon-note hidden></p>
   </section>
 
-  <div class="timeline">
+  <div class="timeline" data-timeline data-book={book.id}>
     {
       byMeal.map((group) => (
         <section class="course" data-meal={group.meal}>
@@ -149,12 +160,14 @@ const byMeal = [1, 2, 3, 4].map((meal) => ({
 </style>
 
 <script>
-  import { resolveHorizon, BOOK } from '../lib/horizon';
-  import { loadUpToHorizon, allEntries } from '../lib/lens-data';
-  import { entryDetailHTML } from '../lib/lens-render';
+  import { resolveHorizon } from '../../../lib/horizon';
+  import { loadUpToHorizon, allEntries } from '../../../lib/lens-data';
+  import { entryDetailHTML } from '../../../lib/lens-render';
 
   async function render() {
-    const horizon = resolveHorizon(BOOK);
+    const root = document.querySelector<HTMLElement>('[data-timeline]');
+    const bookId = root?.dataset.book ?? '';
+    const horizon = resolveHorizon(bookId);
     const note = document.querySelector<HTMLElement>('[data-horizon-note]');
     if (note) {
       note.hidden = false;
@@ -164,7 +177,7 @@ const byMeal = [1, 2, 3, 4].map((meal) => ({
           : `Showing through Chapter ${horizon}.`;
     }
 
-    const entries = allEntries(await loadUpToHorizon(horizon));
+    const entries = allEntries(await loadUpToHorizon(horizon, bookId));
     for (const entry of entries) {
       const host = document.querySelector<HTMLElement>(`[data-detail="${entry.date}"]`);
       if (host) host.innerHTML = entryDetailHTML(entry);

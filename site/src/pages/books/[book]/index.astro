@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/Base.astro';
+import BookMenu from '../../../components/BookMenu.astro';
+import { publishedBooks, type Book } from '../../../lib/books';
+
+export function getStaticPaths() {
+  return publishedBooks().map((book) => ({ params: { book: book.slug }, props: { book } }));
+}
+
+const { book } = Astro.props as { book: Book };
+---
+
+<Base
+  title={`${book.title} — Supper Club Secrets`}
+  description={book.logline}
+  book={book}
+>
+  <BookMenu book={book} />
+</Base>

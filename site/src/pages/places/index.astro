@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { placeListings } from '../../lib/records';
+import { currentBook, readHref } from '../../lib/books';
 
 // The neighborhood fills in as the reader walks it: each place unlocks at the
 // chapter it first appears in, and shows a sealed card until then. A place's
@@ -8,6 +9,8 @@ import { placeListings } from '../../lib/records';
 // print once reached — the location file's `description` and story-significance
 // notes are craft copy and are never read (see lib/codex.ts).
 const places = placeListings();
+// Places are series records, but they unlock against a book's chapters.
+const book = currentBook();
 ---
 
 <Base
@@ -23,7 +26,7 @@ const places = placeListings();
     <p class="places-note scs-label" data-places-note hidden></p>
   </section>
 
-  <ul class="places" data-places-grid hidden>
+  <ul class="places" data-places-grid hidden data-book={book.id}>
     {
       places.map((p) => (
         <li class="place" data-place data-reveal={p.firstChapter} hidden>
@@ -40,13 +43,13 @@ const places = placeListings();
 
   {/* A wall of identical redaction bars is still an empty page. Before the
       reader has been anywhere, give them the way in instead. */}
-  <section class="places-empty" data-places-empty hidden>
+  <section class="places-empty" data-places-empty hidden data-read-base={`/books/${book.slug}/read`} data-total={book.totalChapters}>
     <span class="sealed-bar" aria-hidden="true"></span>
     <p class="pe-line">
       You haven't been anywhere yet. Every market, shop and kitchen the case turns
       through opens up as you reach it.
     </p>
-    <a class="pe-cta scs-label" href="/read/1" data-places-cta>Start reading</a>
+    <a class="pe-cta scs-label" href={readHref(book, 1)} data-places-cta>Start reading</a>
   </section>
 
   <p class="places-more scs-label" data-places-more hidden></p>
@@ -177,11 +180,11 @@ const places = placeListings();
 </style>
 
 <script>
-  import { resolveHorizon, BOOK } from '../../lib/horizon';
+  import { resolveHorizon } from '../../lib/horizon';
 
-  import { TOTAL_CHAPTERS } from '../../lib/horizon';
-
-  const horizon = resolveHorizon(BOOK);
+  const grid0 = document.querySelector<HTMLElement>('[data-places-grid]');
+  const bookId = grid0?.dataset.book ?? '';
+  const horizon = resolveHorizon(bookId);
   const cards = [...document.querySelectorAll<HTMLElement>('[data-place]')];
   const total = cards.length;
   let unlocked = 0;
@@ -201,10 +204,12 @@ const places = placeListings();
 
   if (unlocked === 0) {
     if (empty) empty.hidden = false;
-    if (cta && horizon > 0 && horizon < TOTAL_CHAPTERS) {
+    const readBase = empty?.dataset.readBase ?? '';
+    const bookTotal = Number.parseInt(empty?.dataset.total ?? '', 10) || 0;
+    if (cta && horizon > 0 && horizon < bookTotal) {
       // mid-book with nothing unlocked shouldn't send them back to chapter 1
       cta.textContent = `Continue · Chapter ${horizon + 1}`;
-      cta.href = `/read/${horizon + 1}`;
+      cta.href = `${readBase}/${horizon + 1}`;
     }
   } else {
     if (grid) grid.hidden = false;

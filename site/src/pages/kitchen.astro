@@ -1,0 +1,270 @@
+---
+import Base from '../layouts/Base.astro';
+import { currentBook } from '../lib/books';
+
+const book = currentBook();
+
+// The colophon, in the brand's own vocabulary. It answers the two questions a
+// curious reader actually has — "how does this site know what I've read?" and
+// "are these people real?" — and only then talks about the machinery. Anything
+// aimed at developers belongs in the compiler's own docs, not here.
+const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
+---
+
+<Base
+  title="The Kitchen — Supper Club Secrets"
+  description="How the book becomes this site, and what the site knows about you."
+>
+  <article class="kitchen" data-kitchen data-book={book.id} data-total={book.totalChapters} data-ordinal={book.ordinal}>
+    <header class="k-head">
+      <p class="k-eyebrow scs-label">Behind the Pass</p>
+      <h1 class="k-title scs-poster">The Kitchen</h1>
+      <p class="k-sub scs-romance">
+        How the book becomes this site, and what the site knows about you.
+      </p>
+    </header>
+
+    <section class="k-section">
+      <div class="course-head">
+        <span class="course-label scs-label">What you're reading</span>
+        <span class="scs-leader" aria-hidden="true"></span>
+      </div>
+      <p>
+        The manuscript is the source. Every page here is built from it, plus a set of
+        records derived from it — each scene, each place, the state a character is in at
+        a given moment, the path a certain bottle takes through the case. Nothing is
+        written twice. Change a chapter, rebuild, and the timeline changes with it.
+      </p>
+    </section>
+
+    <section class="k-section">
+      <div class="course-head">
+        <span class="course-label scs-label">The canon horizon</span>
+        <span class="scs-leader" aria-hidden="true"></span>
+      </div>
+      <p>
+        The site keeps one number about you: the furthest chapter you've reached. Every
+        other page is rendered against it — the timeline, the cast, the neighborhood —
+        so nothing arrives before you've earned it. That's why a character's page fills
+        in as you go, and why some of it is still under a black bar.
+      </p>
+      <p>
+        The number never leaves your browser. There's no account and no sign-in, and
+        your progress isn't sent anywhere. Clearing your browser data clears it, and so
+        does the button below.
+      </p>
+
+      <div class="horizon-box">
+        <p class="hb-state" data-horizon-state>Checking what you've read…</p>
+        <button class="hb-button scs-label" data-forget type="button" hidden>
+          Forget what I've read
+        </button>
+        <p class="hb-note" data-forget-note hidden>
+          This only clears your reading progress. Your day/night setting stays.
+        </p>
+      </div>
+    </section>
+
+    <section class="k-section">
+      <div class="course-head">
+        <span class="course-label scs-label">The record set</span>
+        <span class="scs-leader" aria-hidden="true"></span>
+      </div>
+      <p>
+        Behind the prose, every scene, place and character is compiled into a record with
+        a permanent identity and a published schema — the same shape the AT Protocol uses
+        for portable data. It's why the timeline can be assembled out of parts rather
+        than maintained by hand, and why a character's page knows who they were last seen
+        with. It also means this story isn't locked to this website.
+      </p>
+      <p>
+        The compiler that does it is called <a href={PINAKES_URL}>Pinakes</a>, and it's
+        open source. The manuscript itself stays private until it's served.
+      </p>
+    </section>
+
+    <section class="k-section">
+      <div class="course-head">
+        <span class="course-label scs-label">The cast is fiction</span>
+        <span class="scs-leader" aria-hidden="true"></span>
+      </div>
+      <p>
+        Emma, Elijah, Noah, Oliver, Olivia and Jasper are characters in a novel. The
+        handles on their pages are part of the story — they aren't accounts, and there's
+        nobody at the other end of them. The same goes for everyone else in the case, and
+        for the businesses: some of the neighborhood is real, but the people in it are
+        invented. If any of that ever changes, it will say so here first.
+      </p>
+    </section>
+
+    <p class="k-foot scs-label">
+      <a href="/">← Back to the menu</a>
+    </p>
+  </article>
+</Base>
+
+<style>
+  .kitchen {
+    max-width: 60ch;
+    margin: 0 auto;
+  }
+  .k-head {
+    text-align: center;
+    margin-bottom: 2.8rem;
+  }
+  .k-eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 0.7rem;
+  }
+  .k-title {
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    margin: 0;
+  }
+  .k-sub {
+    color: var(--scs-ink-muted);
+    font-size: var(--scs-text-romance);
+    max-width: 40ch;
+    margin: 0.7rem auto 0;
+  }
+
+  .k-section {
+    margin-top: 2.4rem;
+  }
+  .course-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    margin-bottom: 0.9rem;
+  }
+  .course-label {
+    color: var(--scs-accent);
+    white-space: nowrap;
+  }
+  .k-section p {
+    font-family: var(--scs-font-body);
+    font-size: 1.05rem;
+    line-height: var(--scs-leading-reading);
+    margin: 0 0 1rem;
+  }
+
+  .horizon-box {
+    margin-top: 1.4rem;
+    padding: 1.1rem 1.2rem;
+    border-left: 3px solid var(--scs-ornament);
+    background: var(--scs-linen-deep);
+    border-radius: 0 var(--scs-radius) var(--scs-radius) 0;
+  }
+  :global([data-theme='night']) .horizon-box {
+    background: rgba(241, 232, 212, 0.06);
+  }
+  .horizon-box p {
+    margin: 0;
+  }
+  .hb-state {
+    font-family: var(--scs-font-body);
+    font-size: 1.02rem;
+  }
+  .hb-button {
+    margin-top: 0.9rem;
+    padding: 0.6em 1.2em;
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: var(--scs-text-label);
+    letter-spacing: var(--scs-label-tracking);
+    text-transform: uppercase;
+    color: var(--scs-ink);
+    background: none;
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    cursor: pointer;
+  }
+  .hb-button:hover {
+    border-color: var(--scs-accent);
+    color: var(--scs-accent);
+  }
+  .hb-button[hidden] {
+    display: none;
+  }
+  .hb-button.is-confirming {
+    border-color: var(--scs-accent);
+    color: var(--scs-accent);
+  }
+  .hb-note {
+    margin-top: 0.7rem !important;
+    font-family: var(--scs-font-body);
+    font-size: 0.92rem;
+    color: var(--scs-ink-muted);
+  }
+  .hb-note[hidden] {
+    display: none;
+  }
+
+  .k-foot {
+    margin-top: 3rem;
+    padding-top: 1.4rem;
+    border-top: var(--scs-leader);
+  }
+  .k-foot a {
+    color: var(--scs-ink-muted);
+    text-decoration: none;
+  }
+  .k-foot a:hover {
+    color: var(--scs-accent);
+  }
+</style>
+
+<script>
+  import { getHorizon, clearProgress } from '../lib/horizon';
+
+  const root = document.querySelector<HTMLElement>('[data-kitchen]');
+  const BOOK = root?.dataset.book ?? '';
+  const TOTAL_CHAPTERS = Number.parseInt(root?.dataset.total ?? '', 10) || 0;
+
+  const stateEl = document.querySelector<HTMLElement>('[data-horizon-state]');
+  const btn = document.querySelector<HTMLButtonElement>('[data-forget]');
+  const note = document.querySelector<HTMLElement>('[data-forget-note]');
+
+  function render() {
+    const horizon = getHorizon(BOOK);
+    if (!stateEl) return;
+    if (horizon <= 0) {
+      stateEl.textContent = "Nothing stored yet — you haven't started reading in this browser.";
+      if (btn) btn.hidden = true;
+      if (note) note.hidden = true;
+      return;
+    }
+    stateEl.textContent =
+      horizon >= TOTAL_CHAPTERS
+        ? `This browser has you at the end of Book ${root?.dataset.ordinal ?? 'One'} — all ${TOTAL_CHAPTERS} chapters.`
+        : `This browser has you at Chapter ${horizon} of ${TOTAL_CHAPTERS}.`;
+    if (btn) btn.hidden = false;
+    if (note) note.hidden = false;
+  }
+
+  // Two taps rather than a browser confirm() dialog: the first arms it, the
+  // second does it. Clearing re-locks every lens, so it shouldn't be one click
+  // away from a reader who only meant to read the page.
+  let armed = false;
+  btn?.addEventListener('click', () => {
+    if (!armed) {
+      armed = true;
+      btn.textContent = 'Tap again to forget';
+      btn.classList.add('is-confirming');
+      window.setTimeout(() => {
+        if (!armed) return;
+        armed = false;
+        btn.textContent = 'Forget what I’ve read';
+        btn.classList.remove('is-confirming');
+      }, 5000);
+      return;
+    }
+    armed = false;
+    clearProgress(BOOK);
+    btn.textContent = 'Forget what I’ve read';
+    btn.classList.remove('is-confirming');
+    render();
+    if (stateEl) stateEl.textContent = 'Forgotten. The site is back to knowing nothing about you.';
+  });
+
+  render();
+</script>
