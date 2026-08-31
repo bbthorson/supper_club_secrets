@@ -29,6 +29,7 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
   book={book}
   ogType="article"
   documentUri={documentUri(chapter)}
+  footer="bare"
 >
   {/* how far through this chapter you are — the one bit of feedback the
       reading room never gave. Purely decorative, so it's aria-hidden. */}
@@ -79,38 +80,47 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
       )
     }
 
-    {/* Reaching a chapter silently moved the horizon and unlocked the lenses.
-        Say so once, on the read that actually advanced it. */}
+    {/* Reaching a chapter silently moves the horizon and unlocks the lenses.
+        The house says so exactly once per book — on the first read that
+        advances it — because it explains a mechanism, and a mechanism only
+        needs explaining the first time. See tellOnce() in lib/horizon. */}
     <p class="unlocked" data-unlocked hidden>
-      Chapter {chapter} read — the <a href={timelineHref(book)}>timeline</a>,
-      <a href="/characters">cast</a> and <a href="/places">neighborhood</a> now show
-      through here.
+      {/* {' '} where a line breaks before a link: the compiler trims the
+          trailing space and the words run together without it. */}
+      Chapter {chapter} read. The <a href={timelineHref(book)}>timeline</a>, the{' '}
+      <a href="/characters">cast</a> and the <a href="/places">neighborhood</a> now show
+      everything up to here — and they'll keep pace as you read on.
     </p>
 
-    <nav class="chapter-nav scs-label" aria-label="Chapter navigation">
+    {/* The end of a chapter has one job. Onward is the button and it is the
+        only pop on the page; the way back is a quiet line under it, because a
+        reader who wants the previous chapter knows they want it and a reader
+        who doesn't should not have to read past it. On the last chapter
+        onward is the menu — that is still the forward direction. */}
+    <nav class="chapter-nav" aria-label="Chapter navigation">
       {
-        prev !== null ? (
-          <a class="nav-prev" href={readHref(book, prev)}>
-            <span class="nav-dir">Previous course</span>
-            <span class="nav-ch">Chapter {prev}</span>
+        next !== null ? (
+          <a class="nav-onward scs-label" href={readHref(book, next)}>
+            Next course · Chapter {next}
           </a>
         ) : (
-          <a class="nav-prev" href={bookHref(book)}>
-            <span class="nav-dir">Back to</span>
-            <span class="nav-ch">The menu</span>
+          <a class="nav-onward scs-label" href={bookHref(book)}>
+            The end · Back to the menu
           </a>
         )
       }
       {
-        next !== null ? (
-          <a class="nav-next" href={readHref(book, next)}>
-            <span class="nav-dir">Next course</span>
-            <span class="nav-ch">Chapter {next}</span>
+        prev !== null ? (
+          <a
+            class="nav-back scs-label"
+            href={readHref(book, prev)}
+            aria-label={`Back to chapter ${prev}`}
+          >
+            ← Chapter {prev}
           </a>
         ) : (
-          <a class="nav-next" href={bookHref(book)}>
-            <span class="nav-dir">The end · back to</span>
-            <span class="nav-ch">The menu</span>
+          <a class="nav-back scs-label" href={bookHref(book)}>
+            ← The menu
           </a>
         )
       }
@@ -225,38 +235,46 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
 
   .chapter-nav {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
     margin-top: 3.5rem;
-    padding-top: 1.6rem;
+    padding-top: 2rem;
     border-top: var(--scs-leader);
   }
-  .chapter-nav a {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+  /* The same accent button the menu card serves — the next course is the next
+     course wherever it's offered. Full width on a phone, where a centred pill
+     is a small target at the end of a long scroll. */
+  .nav-onward {
+    display: block;
+    width: 100%;
+    max-width: 22rem;
+    padding: 0.9em 1.4em;
+    background: var(--scs-accent);
+    color: var(--scs-linen);
+    border-radius: var(--scs-radius);
+    text-align: center;
     text-decoration: none;
-    color: var(--scs-ink);
+    transition: filter 0.18s ease;
   }
-  .chapter-nav .nav-next {
-    text-align: right;
+  .nav-onward:hover {
+    filter: brightness(1.06);
   }
-  .chapter-nav .nav-dir {
+  :global([data-theme='night']) .nav-onward {
+    color: var(--scs-bottle);
+  }
+  .nav-back {
+    margin-top: 1.1rem;
+    padding: 0.4em 0.2em;
     color: var(--scs-ink-muted);
+    text-decoration: none;
   }
-  .chapter-nav .nav-ch {
-    font-family: var(--scs-font-display);
-    font-weight: 600;
-    font-variation-settings: 'opsz' 40;
-    font-size: 1.15rem;
-    letter-spacing: 0;
-    text-transform: none;
+  .nav-back:hover {
     color: var(--scs-accent);
   }
 </style>
 
 <script>
-  import { getHorizon, setHorizon, applyGates } from '../lib/horizon';
+  import { getHorizon, setHorizon, applyGates, tellOnce } from '../lib/horizon';
 
   const el = document.querySelector<HTMLElement>('.chapter[data-chapter]');
   const n = Number.parseInt(el?.dataset.chapter ?? '', 10);
@@ -270,7 +288,9 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
     // and re-resolves any redaction now earned
     applyGates(document, bookId);
 
-    if (n > before) {
+    // Only on a read that actually advanced the horizon, and only the first
+    // time this book ever does it — after that the reader knows.
+    if (n > before && tellOnce(`unlocked:${bookId}`)) {
       const note = document.querySelector<HTMLElement>('[data-unlocked]');
       if (note) note.hidden = false;
     }
