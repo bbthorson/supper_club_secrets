@@ -5,6 +5,7 @@
 import Base from './Base.astro';
 import { chapterEntities } from '../lib/records';
 import { bookHref, readHref, timelineHref, type Book } from '../lib/books';
+import { documentUri } from '../lib/standard-site';
 import '../styles/lens.css';
 
 interface Props {
@@ -23,7 +24,12 @@ const { places, placeText, participants } = chapterEntities(chapter);
 const hasEntities = places.length + placeText.length + participants.length > 0;
 ---
 
-<Base title={`Chapter ${chapter} · ${title} — ${book.title}`} book={book} ogType="article">
+<Base
+  title={`Chapter ${chapter} · ${title} — ${book.title}`}
+  book={book}
+  ogType="article"
+  documentUri={documentUri(chapter)}
+>
   {/* how far through this chapter you are — the one bit of feedback the
       reading room never gave. Purely decorative, so it's aria-hidden. */}
   <div class="read-progress" aria-hidden="true"><span data-progress-bar></span></div>

@@ -65,6 +65,37 @@ you. Three panels ship in one document (stranger / seated / returning) and the
 pre-paint script picks one before anything is painted. With no JavaScript the
 greeting shows, which is true for everyone.
 
+## standard.site (AT Protocol)
+
+The series is a `site.standard.publication`; each chapter is a
+`site.standard.document`. The records live on a PDS, so the site only owns the
+two verification artifacts, both derived from `src/lib/standard-site.ts`:
+
+| Artifact | Where |
+|---|---|
+| `/.well-known/site.standard.publication` | `src/pages/.well-known/[...file].ts` — the publication's AT-URI |
+| `<link rel="site.standard.document">` | `Base.astro`, per chapter, via `ReadingRoom.astro` |
+
+Both are **silent until configured**. With no DID the well-known route emits no
+file at all and the link tag doesn't render — a placeholder AT-URI is a failed
+verification, which is worse than an absent one on a standard built on proving
+that a domain and a record belong together.
+
+To turn it on: get an AT Protocol identity, take the record bodies built at
+`/data/standard-site.json`, create them on your PDS, then paste the DID and the
+rkeys into `src/lib/standard-site.ts`. That payload's `ready` / `unresolved`
+fields say whether it can be published as-is and what's missing if not.
+
+Two decisions worth knowing about, both in `standard-site.ts`:
+
+- **`includeTextContent` is off.** Putting the prose in the records publishes all
+  twenty-five chapters as public data, which makes the canon horizon a
+  website-only courtesy. Metadata federates; the prose stays here. Flip it on
+  purpose or not at all.
+- **Every document's `description` is the book's logline**, never a per-chapter
+  summary — a description of Chapter 19 is a spoiler wherever it's syndicated,
+  and the horizon can't reach into someone else's feed.
+
 ## Deploy to Cloudflare Workers
 
 The site is fully static (Astro SSG, no adapter), so Workers serves `dist/`

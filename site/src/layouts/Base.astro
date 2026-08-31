@@ -22,6 +22,9 @@ interface Props {
   nav?: boolean;
   /** Open Graph type. `article` on a chapter; everything else is a `website`. */
   ogType?: 'website' | 'article';
+  /** This page's `site.standard.document` AT-URI, when it has a record. Ties
+   *  the page to its record — the other half of standard.site verification. */
+  documentUri?: string | null;
 }
 const {
   title,
@@ -31,6 +34,7 @@ const {
   canonical,
   nav = true,
   ogType = 'website',
+  documentUri = null,
 } = Astro.props;
 const site = Astro.site ?? Astro.url.origin;
 const canonicalURL = new URL(canonical ?? Astro.url.pathname, site);
@@ -61,6 +65,9 @@ const ogImage = new URL('/og.png', site);
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Supper Club Secrets — a weekly supper club in Williamsburg, Brooklyn" />
+    {/* standard.site: this page's record, when it has one. Rendered only for a
+        chapter whose rkey is in the config — never as a placeholder. */}
+    {documentUri && <link rel="site.standard.document" href={documentUri} />}
     <!-- pre-paint: stored theme + which front door this reader gets, no flash -->
     <script is:inline set:html={inlineHeadScript(currentBook().id)} />
   </head>
