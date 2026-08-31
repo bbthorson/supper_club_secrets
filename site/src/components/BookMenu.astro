@@ -1,10 +1,13 @@
 ---
-// A book's front page: the stateful cover, then the menu card. Lives at
+// A book's front page: the menu card, and nothing in front of it. Lives at
 // `/books/<slug>`, and only there. `/` is the host stand — a check-in, not a
-// menu — and it links here the way a host hands the menu over.
+// menu — and it links here the way a host hands the menu over, so by the time
+// you're on this page you've already been told what the house is; repeating
+// the series pitch above the card only pushes the card down the screen. The
+// card carries its own state (its one button names the chapter you're on).
 import { getCollection } from 'astro:content';
 import MenuCard, { type Course } from './MenuCard.astro';
-import { SERIES_TAGLINE, type Book } from '../lib/books';
+import { timelineHref, type Book } from '../lib/books';
 
 interface Props {
   book: Book;
@@ -26,19 +29,6 @@ const courses: Course[] = book.meals.map((meal, i) => ({
 }));
 ---
 
-<section
-  class="service-note"
-  data-cover
-  data-book={book.id}
-  data-ordinal={book.ordinal}
-  data-total={book.totalChapters}
-  data-read-base={`/books/${book.slug}/read`}
->
-  <p class="sn-eyebrow scs-label" data-cover-eyebrow>A weekly supper club in Williamsburg</p>
-  <p class="sn-logline scs-romance" data-cover-line>{SERIES_TAGLINE}</p>
-  <p class="sn-rule">Served in courses — nothing here spoils past where you've read.</p>
-</section>
-
 <MenuCard
   eyebrow={`Book ${book.ordinal}`}
   title={book.title}
@@ -50,61 +40,24 @@ const courses: Course[] = book.meals.map((meal, i) => ({
   totalChapters={book.totalChapters}
 />
 
+{/* The timeline used to sit in the header, a tab over every page. It belongs
+    here instead: it's a way of re-reading the case, so it's offered from the
+    book's own page (and from the foot of every lens) rather than standing over
+    the prose. It's spoiler-safe on its own — it shows only what you've read. */}
+<p class="menu-aside scs-label">
+  <a href={timelineHref(book)}>The case, day by day →</a>
+</p>
+
 <style>
-  /* The cover work happens here rather than on a splash page in front of the
-     site: a cold visitor gets the premise and the one rule of the place, and
-     the menu card below stays the thing they came for. */
-  .service-note {
+  .menu-aside {
     text-align: center;
-    max-width: 46ch;
-    margin: 0 auto 2.2rem;
+    margin: 1.4rem 0 0;
   }
-  .sn-eyebrow {
-    color: var(--scs-ornament);
-    margin: 0 0 0.8rem;
-  }
-  .sn-logline {
-    font-size: clamp(1.2rem, 3.4vw, 1.5rem);
-    line-height: 1.45;
-    color: var(--scs-ink);
-    margin: 0;
-  }
-  /* body type, not tracked caps — this runs to three lines on a phone, and
-     caps at that length stop being a label and start being a wall */
-  .sn-rule {
-    font-family: var(--scs-font-body);
-    font-size: 0.95rem;
-    line-height: 1.6;
+  .menu-aside a {
     color: var(--scs-ink-muted);
-    max-width: 40ch;
-    margin: 1.1rem auto 0;
+    text-decoration: none;
+  }
+  .menu-aside a:hover {
+    color: var(--scs-accent);
   }
 </style>
-
-<script>
-  import { resolveHorizon } from '../lib/horizon';
-
-  // The cover pitches the book to someone who hasn't started, and greets someone
-  // who's already at the table. It doesn't tally chapters at them: the menu card
-  // below is the tally, and its one button already names the chapter they're on.
-  const cover = document.querySelector<HTMLElement>('[data-cover]');
-
-  function renderCover() {
-    if (!cover) return;
-    const total = Number.parseInt(cover.dataset.total ?? '', 10) || 0;
-    const horizon = resolveHorizon(cover.dataset.book ?? '');
-    if (horizon <= 0) return;
-
-    const eyebrow = cover.querySelector<HTMLElement>('[data-cover-eyebrow]');
-    const line = cover.querySelector<HTMLElement>('[data-cover-line]');
-
-    if (horizon >= total) {
-      if (eyebrow) eyebrow.textContent = 'The case is closed';
-      if (line) line.textContent = `You've read the whole of Book ${cover.dataset.ordinal ?? 'One'}.`;
-    } else if (eyebrow) {
-      eyebrow.textContent = 'Back at the table';
-    }
-  }
-
-  renderCover();
-</script>

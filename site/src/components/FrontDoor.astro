@@ -7,9 +7,12 @@
 // book's own page — the door links to it the way a host offers it, rather than
 // dealing all twenty-five chapters onto the doormat.
 //
-// The door offers exactly one thing per panel. It carries no row of its own
-// elsewhere-links: the footer under it already holds the cellar and the kitchen,
-// and a second copy of them turns a host stand back into a menu.
+// The stranger panel offers exactly one thing: the check-in. Once a reader is
+// seated the door does name the two other ways to go — the menu, and the cellar
+// for a different vintage — because that's the moment a host would, and being
+// pointed at chapter one with no way to see the whole card is a narrower
+// welcome than the house means. Neither is the pop: one accent button per
+// screen (BRAND.md §4), and it stays on "begin".
 //
 // Three panels ship in one document, and the pre-paint script in <head> decides
 // which is displayed before anything is painted, so no reader watches the page
@@ -96,13 +99,23 @@ const menuHref = bookHref(book);
 
     <div class="actions">
       <a class="btn btn--primary scs-label" href={readHref(book, 1)}>Begin · Chapter One</a>
-      {/* The host misheard, or this reader has read Book One on another device.
-          Without this, a seated reader can never reach the chapter picker
-          again — the check-in is stored, and nothing else offers to undo it. */}
-      <button class="plain scs-label" type="button" data-not-first>
-        Not your first time?
-      </button>
+      {/* What a host says next, in the order they'd say it: here's the first
+          course, here's the menu if you'd rather look first, and the cellar is
+          through there if this isn't the vintage you came for. */}
+      <a class="btn scs-label" href={menuHref}>See the menu</a>
     </div>
+
+    <p class="aside">
+      Not the vintage you were after? <a href="/cellar">Step down to the cellar</a> —
+      the whole series is laid down there.
+    </p>
+
+    {/* The host misheard, or this reader has read Book One on another device.
+        Without this, a seated reader can never reach the chapter picker
+        again — the check-in is stored, and nothing else offers to undo it. */}
+    <button class="plain scs-label" type="button" data-not-first>
+      Not your first time?
+    </button>
   </section>
 
   <section class="panel" data-panel="returning" aria-labelledby="door-back">
@@ -244,7 +257,7 @@ const menuHref = bookHref(book);
   .plain {
     display: block;
     width: fit-content;
-    margin: 0.3rem auto 0;
+    margin: 1.2rem auto 0;
     padding: 0.4em 0.2em;
     font-family: var(--scs-font-label);
     font-weight: 600;
@@ -293,6 +306,26 @@ const menuHref = bookHref(book);
   }
   .resume-row .btn {
     flex: 1 1 auto;
+  }
+
+  /* An offer, not fine print — sits a size up from .fine and closer to the
+     buttons it follows, so the cellar reads as a third way to go rather than as
+     a footnote about one. */
+  .aside {
+    font-family: var(--scs-font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+    max-width: 34ch;
+    margin: 1.1rem auto 0;
+  }
+  .aside a {
+    color: var(--scs-ink-muted);
+    text-decoration-color: var(--scs-ornament);
+    text-underline-offset: 0.18em;
+  }
+  .aside a:hover {
+    color: var(--scs-accent);
   }
 
   /* Body type, not tracked caps: this is the fine print at the foot of a menu,
