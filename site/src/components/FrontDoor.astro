@@ -159,11 +159,13 @@ const menuHref = bookHref(book);
   /* The door is the page: one panel, centred in the height it's given, with the
      air a host stand has. Everything else the site can do is a quiet line at the
      bottom — offered, not pushed. */
+  /* No min-height of its own: `/` makes main fill the viewport (see index.astro)
+     and this stretches into whatever that leaves, so the door is centred in the
+     real space between the header and the footer rather than in a guess at it. */
   .door {
     display: grid;
     place-items: center;
-    min-height: min(62vh, 34rem);
-    padding: clamp(0.5rem, 4vh, 3rem) 0;
+    padding: clamp(0.25rem, 3vh, 2.5rem) 0;
   }
 
   .panel {

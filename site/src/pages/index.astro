@@ -18,11 +18,49 @@ const book = currentBook();
   title="Supper Club Secrets"
   description="A weekly supper club in Williamsburg, and the cases that come with it."
   nav={false}
+  bodyClass="front-door"
 >
   <FrontDoor book={book} />
 </Base>
 
 <style is:global>
+  /* The front door is one screen: header, the door, footer, nothing below the
+     fold. dvh rather than vh because on a phone `vh` is the *largest* viewport,
+     so the footer sits under the browser chrome until you scroll — which is
+     exactly the scroll this is meant to remove.
+
+     `flex: 1 0 auto` and min-height, not height: when a panel is taller than the
+     space (a short landscape phone, large text), main grows and the page scrolls
+     normally rather than centring content off the top of the screen. */
+  body.front-door {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+  /* An auto cross-axis margin cancels `align-items: stretch`, and the header,
+     main and footer all centre themselves with `margin: 0 auto` — so as flex
+     children they collapse to shrink-to-fit and the chrome stops matching its
+     width on every other page. Full width here; their own max-width still does
+     the centring. */
+  body.front-door > * {
+    width: 100%;
+  }
+  body.front-door .site-main {
+    flex: 1 0 auto;
+    display: grid;
+    /* The door does its own breathing; main's usual page padding on top of that
+       is what pushed the footer under the fold. */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* A shorter tail than an article page needs — the door is not something you
+     read to the end of. */
+  body.front-door .site-footer {
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+  }
+
   /* The switch the pre-paint script throws. Every panel is in the document;
      exactly one is displayed. With no attribute at all — JavaScript off,
      storage unavailable — the greeting shows, which is true for everyone. */

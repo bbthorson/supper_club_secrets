@@ -25,6 +25,11 @@ interface Props {
   /** This page's `site.standard.document` AT-URI, when it has a record. Ties
    *  the page to its record — the other half of standard.site verification. */
   documentUri?: string | null;
+  /** Class on <body>, for a page that needs to reshape the chrome around it.
+   *  Astro scopes this layout's own selectors, which out-specify a bare global
+   *  rule from a page — so a page overriding `.site-main` needs a hook with
+   *  more weight than the class alone, not a louder guess. */
+  bodyClass?: string;
 }
 const {
   title,
@@ -35,6 +40,7 @@ const {
   nav = true,
   ogType = 'website',
   documentUri = null,
+  bodyClass,
 } = Astro.props;
 const site = Astro.site ?? Astro.url.origin;
 const canonicalURL = new URL(canonical ?? Astro.url.pathname, site);
@@ -71,7 +77,7 @@ const ogImage = new URL('/og.png', site);
     <!-- pre-paint: stored theme + which front door this reader gets, no flash -->
     <script is:inline set:html={inlineHeadScript(currentBook().id)} />
   </head>
-  <body>
+  <body class={bodyClass}>
     {
       !bare && (
         <header class="site-header">
@@ -141,8 +147,12 @@ const ogImage = new URL('/og.png', site);
   /* A wrapper, not `.theme-toggle` directly: Astro scopes styles to a
      component's own template, so a selector here never reaches the button
      inside ThemeToggle. */
+  /* Last track, counted from the end: the header is two columns on a phone and
+     three once the nav fits between, and on the front door there is no nav at
+     all. `grid-column: 2` was right for exactly one of those three and left the
+     toggle stranded mid-header on the others. */
   .toggle-slot {
-    grid-column: 2;
+    grid-column: -2 / -1;
     grid-row: 1;
     justify-self: end;
   }
