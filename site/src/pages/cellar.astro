@@ -36,7 +36,7 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
       {/* The menu, not chapter one: the cellar is where you choose a book, and
           the menu is how a house hands one over. Only a reader who is already
           mid-book gets pointed straight at a chapter. */}
-      <a class="book-cta scs-label" href={bookHref(book)} data-cta>
+      <a class="book-cta scs-btn scs-label" href={bookHref(book)} data-cta>
         See the menu
       </a>
     </div>
@@ -103,17 +103,9 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
   .status-text {
     color: var(--scs-ink-muted);
   }
+  /* layout only — see .scs-btn in base.css */
   .book-cta {
-    display: inline-block;
     margin-top: 0.6rem;
-    padding: 0.6em 1.3em;
-    border: 1px solid var(--scs-line);
-    border-radius: var(--scs-radius);
-    text-decoration: none;
-    color: var(--scs-ink);
-  }
-  .book-cta:hover {
-    border-color: var(--scs-ornament);
   }
 
   .upcoming {

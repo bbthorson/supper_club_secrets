@@ -29,6 +29,11 @@
   --scs-surface: var(--scs-card);
   --scs-line: var(--scs-hairline);
   --scs-redaction: var(--scs-espresso);
+  /* a recessed well: the tint behind a hovered row, a pull-quote, a note box.
+     Night can't reuse linen-deep — on bottle green a linen panel is a hole in
+     the page — so it lifts the ground with cream at 6% instead. Both services
+     answer to one name so a component never writes the night value by hand. */
+  --scs-well: var(--scs-linen-deep);
 
   /* ---- typography ---- */
   --scs-font-display: "Fraunces", Georgia, serif;
@@ -71,4 +76,5 @@
   --scs-surface: #163027;
   --scs-line: rgba(241, 232, 212, 0.16);
   --scs-redaction: var(--scs-cream);
+  --scs-well: rgba(241, 232, 212, 0.06); /* --scs-cream at 6% */
 }

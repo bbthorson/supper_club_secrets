@@ -58,11 +58,11 @@ const menuHref = bookHref(book);
     <span class="rule" aria-hidden="true"></span>
 
     <div class="actions">
-      <button class="btn btn--primary scs-label" type="button" data-guest>
+      <button class="btn scs-btn scs-btn--pop scs-label" type="button" data-guest>
         First time — seat me
       </button>
       <button
-        class="btn scs-label"
+        class="btn scs-btn scs-label"
         type="button"
         data-resume-toggle
         aria-expanded="false"
@@ -79,7 +79,7 @@ const menuHref = bookHref(book);
           <select class="resume-select" id="resume-chapter" data-resume-select>
             {servedChapters.map((n) => <option value={n}>{n}</option>)}
           </select>
-          <button class="btn btn--primary scs-label" type="button" data-resume-go>
+          <button class="btn scs-btn scs-btn--pop scs-label" type="button" data-resume-go>
             Pick up there
           </button>
         </div>
@@ -98,11 +98,11 @@ const menuHref = bookHref(book);
     <span class="rule" aria-hidden="true"></span>
 
     <div class="actions">
-      <a class="btn btn--primary scs-label" href={readHref(book, 1)}>Begin · Chapter One</a>
+      <a class="btn scs-btn scs-btn--pop scs-label" href={readHref(book, 1)}>Begin · Chapter One</a>
       {/* What a host says next, in the order they'd say it: here's the first
           course, here's the menu if you'd rather look first, and the cellar is
           through there if this isn't the vintage you came for. */}
-      <a class="btn scs-label" href={menuHref}>See the menu</a>
+      <a class="btn scs-btn scs-label" href={menuHref}>See the menu</a>
     </div>
 
     <p class="aside">
@@ -128,7 +128,7 @@ const menuHref = bookHref(book);
     <div class="actions">
       {/* href defaults to the menu — never wrong, only less specific — so a
           click landing before the script does still goes somewhere sensible. */}
-      <a class="btn btn--primary scs-label" href={menuHref} data-continue>Continue reading</a>
+      <a class="btn scs-btn scs-btn--pop scs-label" href={menuHref} data-continue>Continue reading</a>
     </div>
   </section>
 </div>
@@ -196,49 +196,20 @@ const menuHref = bookHref(book);
     max-width: 22rem;
   }
 
+  /* Layout only — .scs-btn and .scs-btn--pop in base.css are the buttons. The
+     door stacks them full width, which is the only thing that is true here and
+     nowhere else. */
   .btn {
     display: block;
     width: 100%;
-    padding: 0.9em 1.3em;
-    font-family: var(--scs-font-label);
-    font-weight: 600;
-    font-size: var(--scs-text-label);
-    letter-spacing: var(--scs-label-tracking);
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    color: var(--scs-ink);
-    background: none;
-    border: 1px solid var(--scs-line);
-    border-radius: var(--scs-radius);
-    cursor: pointer;
-    transition: border-color 0.15s ease, color 0.15s ease, filter 0.15s ease;
-  }
-  .btn:hover {
-    border-color: var(--scs-ornament);
-    color: var(--scs-accent);
-  }
-  .btn:focus-visible {
-    outline: 2px solid var(--scs-accent);
-    outline-offset: 2px;
-  }
-  .btn--primary,
-  .btn--primary:hover {
-    background: var(--scs-accent);
-    border-color: var(--scs-accent);
-    color: var(--scs-linen);
-  }
-  .btn--primary:hover {
-    filter: brightness(1.06);
-  }
-  :global([data-theme='night']) .btn--primary,
-  :global([data-theme='night']) .btn--primary:hover {
-    color: var(--scs-bottle);
   }
 
   /* Once a reader says they've been here, the house stops pushing the other
-     door. Two accent buttons stacked is the host talking over themselves — and
-     the seasoning rule (BRAND.md §4) says there's only ever one pop. */
+     door: the greeting's pop moves to "pick up there". Two accent buttons
+     stacked is the host talking over themselves — and the seasoning rule
+     (BRAND.md §4) says there's only ever one pop. Demoting a .scs-btn--pop
+     back to an outline is the one thing a call site may say about the button
+     itself, so it out-specifies base.css on purpose. */
   .actions.is-resuming [data-guest],
   .actions.is-resuming [data-guest]:hover {
     background: none;

@@ -100,11 +100,11 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
     <nav class="chapter-nav" aria-label="Chapter navigation">
       {
         next !== null ? (
-          <a class="nav-onward scs-label" href={readHref(book, next)}>
+          <a class="nav-onward scs-btn scs-btn--pop scs-label" href={readHref(book, next)}>
             Next course · Chapter {next}
           </a>
         ) : (
-          <a class="nav-onward scs-label" href={bookHref(book)}>
+          <a class="nav-onward scs-btn scs-btn--pop scs-label" href={bookHref(book)}>
             The end · Back to the menu
           </a>
         )
@@ -195,16 +195,6 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
   .in-chapter {
     margin-top: 3rem;
   }
-  .course-head {
-    display: flex;
-    align-items: baseline;
-    gap: 0.7rem;
-    margin-bottom: 0.8rem;
-  }
-  .course-label {
-    color: var(--scs-accent);
-    white-space: nowrap;
-  }
 
   /* a sentence, so body type — this is the one place the site explains its own
      gating, and tracked caps make it read as a warning label instead */
@@ -212,7 +202,7 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
     margin: 1.8rem 0 0;
     padding: 0.85rem 1.1rem;
     border-left: 3px solid var(--scs-ornament);
-    background: var(--scs-linen-deep);
+    background: var(--scs-well);
     border-radius: 0 var(--scs-radius) var(--scs-radius) 0;
     font-family: var(--scs-font-body);
     font-size: 0.97rem;
@@ -221,9 +211,6 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
   }
   .unlocked[hidden] {
     display: none;
-  }
-  :global([data-theme='night']) .unlocked {
-    background: rgba(241, 232, 212, 0.06);
   }
   .unlocked a {
     color: var(--scs-accent);
@@ -241,26 +228,14 @@ const hasEntities = places.length + placeText.length + participants.length > 0;
     padding-top: 2rem;
     border-top: var(--scs-leader);
   }
-  /* The same accent button the menu card serves — the next course is the next
-     course wherever it's offered. Full width on a phone, where a centred pill
-     is a small target at the end of a long scroll. */
+  /* Layout only; the button is .scs-btn--pop in base.css — the next course is
+     the same offer here as on the menu card, so it is the same button. Full
+     width on a phone, where a centred pill is a small target at the end of a
+     long scroll. */
   .nav-onward {
     display: block;
     width: 100%;
     max-width: 22rem;
-    padding: 0.9em 1.4em;
-    background: var(--scs-accent);
-    color: var(--scs-linen);
-    border-radius: var(--scs-radius);
-    text-align: center;
-    text-decoration: none;
-    transition: filter 0.18s ease;
-  }
-  .nav-onward:hover {
-    filter: brightness(1.06);
-  }
-  :global([data-theme='night']) .nav-onward {
-    color: var(--scs-bottle);
   }
   .nav-back {
     margin-top: 1.1rem;
