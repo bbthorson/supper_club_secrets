@@ -5,16 +5,21 @@ import { currentBook, bookHref } from '../lib/books';
 
 const book = currentBook();
 
-// Books 2–6 are real (the series is planned Oct 2026 → Mar 2027), but their
-// menus aren't public — so they sit on the shelf as redaction-sealed spines.
+// The cellar — the series list, named the way a restaurant names the document
+// that sits beside the menu. Books 2–6 are real (the series is planned
+// Oct 2026 → Mar 2027) but their menus aren't public, so they're laid down here
+// as redaction-sealed spines rather than absent.
 const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
 ---
 
-<Base title="The Shelf — Supper Club Secrets" description="The series shelf — what's served and what's still in the kitchen.">
-  <section class="shelf-intro">
+<Base
+  title="The Cellar — Supper Club Secrets"
+  description="The series cellar — what's served, and what's still laid down."
+>
+  <section class="cellar-intro">
     <p class="eyebrow scs-label">The Series</p>
-    <h1 class="shelf-title scs-poster">The Shelf</h1>
-    <p class="shelf-sub scs-romance">Six suppers, October through March. One is served.</p>
+    <h1 class="cellar-title scs-poster">The Cellar</h1>
+    <p class="cellar-sub scs-romance">Six suppers, October through March. One is served.</p>
   </section>
 
   <article class="book book--one" data-book={book.id} data-total={book.totalChapters} data-read-base={`/books/${book.slug}/read`}>
@@ -38,7 +43,7 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
         <article class="book book--sealed">
           <p class="book-eyebrow scs-label">Book {n}</p>
           <span class="sealed-title" aria-label="Title not yet revealed" />
-          <p class="book-line scs-label">Still in the kitchen</p>
+          <p class="book-line scs-label">Still laid down</p>
         </article>
       ))
     }
@@ -46,7 +51,7 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
 </Base>
 
 <style>
-  .shelf-intro {
+  .cellar-intro {
     text-align: center;
     margin-bottom: 2.6rem;
   }
@@ -54,11 +59,11 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
     color: var(--scs-ornament);
     margin: 0 0 0.7rem;
   }
-  .shelf-title {
+  .cellar-title {
     font-size: clamp(2.4rem, 7vw, 4rem);
     margin: 0;
   }
-  .shelf-sub {
+  .cellar-sub {
     color: var(--scs-ink-muted);
     font-size: var(--scs-text-romance);
     margin: 0.6rem 0 0;

@@ -6,7 +6,7 @@ and no atproto dependency — the primary way readers meet the book.
 
 **This is Milestone 1: the reading experience itself** — the menu, the reading
 room, the canon horizon, and the redaction. The record-set lenses (Timeline
-Explorer, character profiles, feeds, the shelf) are a later pass.
+Explorer, character profiles, feeds, the cellar) are a later pass.
 
 ## Run
 
@@ -49,7 +49,7 @@ npm run check    # astro + TypeScript diagnostics
 | Route | What |
 |---|---|
 | `/` | The front door — the host stand: have you dined with us before, and the one way in that follows from the answer |
-| `/shelf` | The series shelf — what's served, what's still in the kitchen |
+| `/cellar` | The series cellar — what's served, what's still laid down (`/shelf` redirects here) |
 | `/books/[book]` | The menu — a book as a four-course menu card, every served chapter |
 | `/books/[book]/read/[chapter]` | The reading room — one page per chapter, day/night |
 | `/books/[book]/timeline` | The case timeline, drawn at your horizon |
@@ -135,7 +135,7 @@ canonical/sitemap URLs are correct.
 ## Deferred (next pass)
 
 Timeline Explorer, horizon-gated character profiles, location/character feeds, the
-CASE CLOSED shelf. These need three cheap, additive data changes in the pipeline
+CASE CLOSED in the cellar. These need three cheap, additive data changes in the pipeline
 first (noted in the plan): populate chapter `publishDate`, add per-field
 `revealedBy` provenance to `character.profile` records, and normalize a numeric
 `firstRevealedChapter` onto `place`/`item` records.

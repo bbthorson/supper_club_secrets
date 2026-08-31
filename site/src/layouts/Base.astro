@@ -11,7 +11,7 @@ interface Props {
   /** Hide the site chrome (header/footer) for full-bleed pages if ever needed. */
   bare?: boolean;
   /** Set on a book-scoped page, which adds that book's own nav (its menu and
-   *  timeline) alongside the series-level links. Series pages — the shelf, the
+   *  timeline) alongside the series-level links. Series pages — the cellar, the
    *  cast, the neighborhood — leave it unset. */
   book?: Book;
   /** Overrides the canonical URL. */
@@ -95,12 +95,12 @@ const ogImage = new URL('/og.png', site);
                   <a href={timelineHref(book)}>Timeline</a>
                 </span>
               )}
-              {/* Series level is just the shelf. The cast and the neighborhood
+              {/* Series level is just the cellar. The cast and the neighborhood
                   are surfaces you discover by reading — chips at the end of every
                   chapter, on the timeline, on every hub — and they sit in the
                   footer. They earned nav space back when /places was orphaned;
                   it isn't any more. */}
-              <a href="/shelf">Shelf</a>
+              <a href="/cellar">Cellar</a>
             </nav>
           )}
           <div class="toggle-slot">
@@ -117,7 +117,7 @@ const ogImage = new URL('/og.png', site);
         <footer class="site-footer">
           <p class="foot-note">Please inform your host of any secrets before dining.</p>
           <nav class="foot-nav scs-label" aria-label="Secondary">
-            <a href="/shelf">The Shelf</a>
+            <a href="/cellar">The Cellar</a>
             <a href="/characters">The Regulars</a>
             <a href="/places">The Neighborhood</a>
             <a href="/kitchen">The Kitchen</a>

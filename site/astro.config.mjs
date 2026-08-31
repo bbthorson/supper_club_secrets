@@ -25,6 +25,9 @@ export default defineConfig({
   redirects: {
     ...legacyChapterRedirects,
     '/timeline': `/books/${LEGACY_BOOK}/timeline`,
+    // The shelf became the cellar — a restaurant's name for the list that sits
+    // beside the menu. Same page, and the old URL is already out there.
+    '/shelf': '/cellar',
   },
   // Astro 7 makes Sätteri the default Markdown processor; the unified/remark
   // pipeline is opt-in through @astrojs/markdown-remark. Chapter prose carries
