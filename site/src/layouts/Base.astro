@@ -3,7 +3,7 @@ import '../../../protocol/brand/tokens.css';
 import '../styles/base.css';
 import { inlineHeadScript } from '../lib/horizon-inline';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import { SERIES_TAGLINE, bookHref, timelineHref, type Book } from '../lib/books';
+import { SERIES_TAGLINE, bookHref, currentBook, timelineHref, type Book } from '../lib/books';
 
 interface Props {
   title: string;
@@ -14,9 +14,12 @@ interface Props {
    *  timeline) alongside the series-level links. Series pages — the shelf, the
    *  cast, the neighborhood — leave it unset. */
   book?: Book;
-  /** Overrides the canonical URL. `/` sets it to the current book's page,
-   *  since both render the same menu. */
+  /** Overrides the canonical URL. */
   canonical?: string;
+  /** Set false on the front door: the host stand *is* the navigation, and a row
+   *  of links beside the wordmark undoes the quiet it's built on. The footer
+   *  still carries the way to everything. */
+  nav?: boolean;
 }
 const {
   title,
@@ -24,6 +27,7 @@ const {
   bare = false,
   book,
   canonical,
+  nav = true,
 } = Astro.props;
 const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astro.url.origin);
 ---
@@ -37,8 +41,8 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL.href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <!-- pre-paint: apply stored theme + load progress, no flash -->
-    <script is:inline set:html={inlineHeadScript} />
+    <!-- pre-paint: stored theme + which front door this reader gets, no flash -->
+    <script is:inline set:html={inlineHeadScript(currentBook().id)} />
   </head>
   <body>
     {
@@ -48,22 +52,24 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
             <span class="wm-plain">Supper&nbsp;Club</span>
             <span class="wm-pop">Secrets</span>
           </a>
-          <nav class="site-nav scs-label" aria-label="Primary">
-            {/* book-scoped first, then the series-level surfaces. The cast and
-                the neighborhood are series records, so they never nest. */}
-            {book && (
-              <span class="nav-group">
-                <a href={bookHref(book)}>Menu</a>
-                <a href={timelineHref(book)}>Timeline</a>
-              </span>
-            )}
-            {/* Series level is just the shelf. The cast and the neighborhood
-                are surfaces you discover by reading — chips at the end of every
-                chapter, on the timeline, on every hub — and they sit in the
-                footer. They earned nav space back when /places was orphaned;
-                it isn't any more. */}
-            <a href="/shelf">Shelf</a>
-          </nav>
+          {nav && (
+            <nav class="site-nav scs-label" aria-label="Primary">
+              {/* book-scoped first, then the series-level surfaces. The cast and
+                  the neighborhood are series records, so they never nest. */}
+              {book && (
+                <span class="nav-group">
+                  <a href={bookHref(book)}>Menu</a>
+                  <a href={timelineHref(book)}>Timeline</a>
+                </span>
+              )}
+              {/* Series level is just the shelf. The cast and the neighborhood
+                  are surfaces you discover by reading — chips at the end of every
+                  chapter, on the timeline, on every hub — and they sit in the
+                  footer. They earned nav space back when /places was orphaned;
+                  it isn't any more. */}
+              <a href="/shelf">Shelf</a>
+            </nav>
+          )}
           <div class="toggle-slot">
             <ThemeToggle />
           </div>

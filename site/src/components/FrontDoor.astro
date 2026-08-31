@@ -1,0 +1,422 @@
+---
+// The front door — the whole of `/`.
+//
+// The homepage is a host stand, not a menu. You arrive, someone asks whether
+// you've dined here before, and you're pointed at exactly one next thing: begin,
+// or pick up where you left off. The menu card still exists, in full, at the
+// book's own page — the door links to it the way a host offers it, rather than
+// dealing all twenty-five chapters onto the doormat.
+//
+// Three panels ship in one document, and the pre-paint script in <head> decides
+// which is displayed before anything is painted, so no reader watches the page
+// change its mind. Without JavaScript no attribute is set and the stranger panel
+// shows, which is the right way to fail: the greeting is true for everyone.
+import { getCollection } from 'astro:content';
+import { SERIES_TAGLINE, bookHref, readHref, type Book } from '../lib/books';
+
+interface Props {
+  book: Book;
+}
+const { book } = Astro.props;
+
+const now = new Date();
+const served = (await getCollection('chapters'))
+  // drip serialization: a chapter with a future publishDate isn't served yet
+  .filter((c) => !c.data.publishDate || c.data.publishDate <= now)
+  .sort((a, b) => a.data.chapter - b.data.chapter);
+
+// Chapter span per course, so a returning reader can be told which course
+// they're in the middle of without shipping the chapter list to the client.
+const courseSpans = book.meals
+  .map((meal, i) => {
+    const inCourse = served.filter((c) => c.data.meal === i + 1);
+    if (inCourse.length === 0) return null;
+    return {
+      name: meal.name,
+      first: inCourse[0].data.chapter,
+      last: inCourse[inCourse.length - 1].data.chapter,
+    };
+  })
+  .filter((s): s is { name: string; first: number; last: number } => s !== null);
+
+// The picker offers what's actually served, not the book's eventual length.
+const servedChapters = served.map((c) => c.data.chapter);
+// The client builds "continue" links by appending a chapter, so it's handed the
+// base rather than a formatter. Same shape readHref() produces.
+const readBase = `/books/${book.slug}/read`;
+const menuHref = bookHref(book);
+---
+
+<div
+  class="door"
+  data-door-root
+  data-book={book.id}
+  data-ordinal={book.ordinal}
+  data-total={book.totalChapters}
+  data-read-base={readBase}
+  data-courses={JSON.stringify(courseSpans)}
+>
+  {/* Each panel carries its own h1 — only one is ever displayed, and the two
+      that aren't are display:none, so assistive tech never meets them. */}
+
+  <section class="panel" data-panel="stranger" aria-labelledby="door-first">
+    <p class="eyebrow scs-label">Good evening</p>
+    <h1 class="headline scs-poster" id="door-first">Have you dined with us before?</h1>
+    <p class="romance scs-romance">{SERIES_TAGLINE}</p>
+    <span class="rule" aria-hidden="true"></span>
+
+    <div class="actions">
+      <button class="btn btn--primary scs-label" type="button" data-guest>
+        First time — seat me
+      </button>
+      <button
+        class="btn scs-label"
+        type="button"
+        data-resume-toggle
+        aria-expanded="false"
+        aria-controls="door-resume"
+      >
+        I've read some of this before
+      </button>
+
+      <div class="resume" id="door-resume" data-resume hidden>
+        <label class="resume-label scs-label" for="resume-chapter">
+          I've read through chapter
+        </label>
+        <div class="resume-row">
+          <select class="resume-select" id="resume-chapter" data-resume-select>
+            {servedChapters.map((n) => <option value={n}>{n}</option>)}
+          </select>
+          <button class="btn btn--primary scs-label" type="button" data-resume-go>
+            Pick up there
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p class="fine">
+      No account and no sign-in. Your place is kept in this browser, and the site
+      shows only what you've already read.
+    </p>
+
+    <nav class="aside scs-label" aria-label="Elsewhere">
+      <a href={menuHref}>See the menu</a>
+      <a href="/shelf">The shelf</a>
+    </nav>
+  </section>
+
+  <section class="panel" data-panel="seated" aria-labelledby="door-seated">
+    <p class="eyebrow scs-label">Your table is ready</p>
+    <h1 class="headline scs-poster" id="door-seated">{book.title}</h1>
+    <p class="romance scs-romance">
+      Book {book.ordinal} · {book.month} · hosted by {book.host}
+    </p>
+    <span class="rule" aria-hidden="true"></span>
+
+    <div class="actions">
+      <a class="btn btn--primary scs-label" href={readHref(book, 1)}>Begin · Chapter One</a>
+    </div>
+
+    <p class="fine">Four courses, {book.totalChapters} chapters. Nothing spoils ahead of you.</p>
+
+    <nav class="aside scs-label" aria-label="Elsewhere">
+      <a href={menuHref}>See the menu</a>
+      <a href="/shelf">The shelf</a>
+    </nav>
+  </section>
+
+  <section class="panel" data-panel="returning" aria-labelledby="door-back">
+    <p class="eyebrow scs-label" data-back-eyebrow>Welcome back</p>
+    <h1 class="headline scs-poster" id="door-back">Right where you left it.</h1>
+    {/* Filled in by the script below. The server can't know the number, so the
+        markup carries a line that is true before it's made specific. */}
+    <p class="romance scs-romance" data-back-line>Your table is as you left it.</p>
+    <span class="rule" aria-hidden="true"></span>
+
+    <div class="actions">
+      {/* href defaults to the menu — never wrong, only less specific — so a
+          click landing before the script does still goes somewhere sensible. */}
+      <a class="btn btn--primary scs-label" href={menuHref} data-continue>Continue reading</a>
+    </div>
+
+    <p class="fine" data-back-fine></p>
+
+    <nav class="aside scs-label" aria-label="Elsewhere">
+      <a href={menuHref}>The full menu</a>
+      <a href="/shelf">The shelf</a>
+      <a href="/kitchen">Forget my place</a>
+    </nav>
+  </section>
+</div>
+
+<style>
+  /* The door is the page: one panel, centred in the height it's given, with the
+     air a host stand has. Everything else the site can do is a quiet line at the
+     bottom — offered, not pushed. */
+  .door {
+    display: grid;
+    place-items: center;
+    min-height: min(62vh, 34rem);
+    padding: clamp(0.5rem, 4vh, 3rem) 0;
+  }
+
+  .panel {
+    max-width: 34rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .eyebrow {
+    color: var(--scs-ornament);
+    margin: 0 0 1rem;
+  }
+  .headline {
+    font-size: clamp(2rem, 6.4vw, 3.1rem);
+    color: var(--scs-ink);
+    margin: 0;
+    text-wrap: balance;
+  }
+  .romance {
+    font-size: clamp(1.1rem, 3.2vw, 1.35rem);
+    line-height: 1.45;
+    color: var(--scs-ink-muted);
+    max-width: 30ch;
+    margin: 1rem auto 0;
+  }
+
+  /* One short brass rule instead of a card border. A box around the greeting
+     makes it a form; the rule makes it a menu. */
+  .rule {
+    display: block;
+    width: 4.5rem;
+    margin: 2rem auto 0;
+    border-bottom: var(--scs-leader);
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin: 2rem auto 0;
+    max-width: 22rem;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.9em 1.3em;
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: var(--scs-text-label);
+    letter-spacing: var(--scs-label-tracking);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: var(--scs-ink);
+    background: none;
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease, filter 0.15s ease;
+  }
+  .btn:hover {
+    border-color: var(--scs-ornament);
+    color: var(--scs-accent);
+  }
+  .btn:focus-visible {
+    outline: 2px solid var(--scs-accent);
+    outline-offset: 2px;
+  }
+  .btn--primary,
+  .btn--primary:hover {
+    background: var(--scs-accent);
+    border-color: var(--scs-accent);
+    color: var(--scs-linen);
+  }
+  .btn--primary:hover {
+    filter: brightness(1.06);
+  }
+  :global([data-theme='night']) .btn--primary,
+  :global([data-theme='night']) .btn--primary:hover {
+    color: var(--scs-bottle);
+  }
+
+  /* Once a reader says they've been here, the house stops pushing the other
+     door. Two accent buttons stacked is the host talking over themselves — and
+     the seasoning rule (BRAND.md §4) says there's only ever one pop. */
+  .actions.is-resuming [data-guest],
+  .actions.is-resuming [data-guest]:hover {
+    background: none;
+    border-color: var(--scs-line);
+    color: var(--scs-ink);
+    filter: none;
+  }
+  .actions.is-resuming [data-guest]:hover {
+    border-color: var(--scs-ornament);
+    color: var(--scs-accent);
+  }
+
+  .resume[hidden] {
+    display: none;
+  }
+  .resume {
+    margin-top: 0.4rem;
+    text-align: left;
+  }
+  .resume-label {
+    display: block;
+    color: var(--scs-ornament);
+    margin-bottom: 0.6rem;
+  }
+  .resume-row {
+    display: flex;
+    gap: 0.6rem;
+    align-items: stretch;
+  }
+  .resume-select {
+    flex: 0 0 6rem;
+    padding: 0.6em 0.7em;
+    font-family: var(--scs-font-body);
+    font-size: 1rem;
+    color: var(--scs-ink);
+    background: var(--scs-bg);
+    border: 1px solid var(--scs-line);
+    border-radius: var(--scs-radius);
+  }
+  .resume-row .btn {
+    flex: 1 1 auto;
+  }
+
+  /* Body type, not tracked caps: this is the fine print at the foot of a menu,
+     and caps at this length stop reading as a label and start reading as a wall. */
+  .fine {
+    font-family: var(--scs-font-body);
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--scs-ink-muted);
+    max-width: 38ch;
+    margin: 1.6rem auto 0;
+  }
+  .fine:empty {
+    display: none;
+  }
+
+  .aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.6rem;
+    margin-top: 1.8rem;
+    padding-top: 1.4rem;
+    border-top: var(--scs-leader);
+  }
+  .aside a {
+    color: var(--scs-ink-muted);
+    text-decoration: none;
+  }
+  .aside a:hover {
+    color: var(--scs-accent);
+  }
+</style>
+
+<script>
+  import { setCheckIn, setHorizon, resolveHorizon } from '../lib/horizon';
+
+  type Span = { name: string; first: number; last: number };
+  type Door = 'stranger' | 'seated' | 'returning';
+
+  const el = document.querySelector<HTMLElement>('[data-door-root]');
+  if (el) openDoor(el);
+
+  function openDoor(root: HTMLElement) {
+    const book = root.dataset.book ?? '';
+    const ordinal = root.dataset.ordinal ?? 'One';
+    const total = Number.parseInt(root.dataset.total ?? '', 10) || 0;
+    const readBase = root.dataset.readBase ?? '';
+
+    let spans: Span[] = [];
+    try {
+      spans = JSON.parse(root.dataset.courses ?? '[]') as Span[];
+    } catch {
+      /* malformed payload — the chapter count alone still tells the truth */
+    }
+
+    // The same switch the pre-paint script threw, thrown again from in here.
+    const show = (state: Door) => {
+      document.documentElement.dataset.door = state;
+    };
+
+    /** The returning panel, filled in with the one number the site keeps. */
+    function renderReturning() {
+      const horizon = resolveHorizon(book);
+      if (horizon <= 0) return;
+
+      const eyebrow = root.querySelector<HTMLElement>('[data-back-eyebrow]');
+      const line = root.querySelector<HTMLElement>('[data-back-line]');
+      const fine = root.querySelector<HTMLElement>('[data-back-fine]');
+      const cont = root.querySelector<HTMLAnchorElement>('[data-continue]');
+
+      if (horizon >= total) {
+        if (eyebrow) eyebrow.textContent = 'The case is closed';
+        if (line) line.textContent = `You've read the whole of Book ${ordinal}.`;
+        if (fine) {
+          fine.textContent =
+            'Everything is unlocked — the timeline, the cast and the neighborhood, end to end.';
+        }
+        if (cont) {
+          cont.textContent = 'Read it again from the top';
+          cont.href = `${readBase}/1`;
+        }
+        return;
+      }
+
+      const course = spans.find((s) => horizon >= s.first && horizon <= s.last);
+      const read = `${horizon} ${horizon === 1 ? 'chapter' : 'chapters'} in`;
+      const left = total - horizon;
+      if (eyebrow) eyebrow.textContent = 'Welcome back';
+      if (line) {
+        line.textContent = course
+          ? `You're ${read}, partway through ${course.name}.`
+          : `You're ${read}.`;
+      }
+      if (fine) {
+        fine.textContent = `${left} ${left === 1 ? 'chapter' : 'chapters'} left, and the site is open through Chapter ${horizon}.`;
+      }
+      if (cont) {
+        cont.textContent = `Continue · Chapter ${horizon + 1}`;
+        cont.href = `${readBase}/${horizon + 1}`;
+      }
+    }
+
+    renderReturning();
+
+    root.querySelector<HTMLButtonElement>('[data-guest]')?.addEventListener('click', () => {
+      setCheckIn('guest');
+      show('seated');
+    });
+
+    const toggle = root.querySelector<HTMLButtonElement>('[data-resume-toggle]');
+    const resume = root.querySelector<HTMLElement>('[data-resume]');
+    const actions = root.querySelector<HTMLElement>('[data-panel="stranger"] .actions');
+    toggle?.addEventListener('click', () => {
+      // Boolean(): `hidden` is typed `boolean | 'until-found'` in current DOM
+      // lib, and this is a plain open/closed flag either way.
+      const open = Boolean(resume?.hidden ?? true);
+      if (resume) resume.hidden = !open;
+      toggle.setAttribute('aria-expanded', String(open));
+      actions?.classList.toggle('is-resuming', open);
+      if (open) root.querySelector<HTMLSelectElement>('[data-resume-select]')?.focus();
+    });
+
+    root.querySelector<HTMLButtonElement>('[data-resume-go]')?.addEventListener('click', () => {
+      const sel = root.querySelector<HTMLSelectElement>('[data-resume-select]');
+      const n = Number.parseInt(sel?.value ?? '', 10);
+      // setHorizon is monotonic, so this can only ever move a reader forward
+      if (Number.isFinite(n) && n > 0) setHorizon(book, n);
+      setCheckIn('resumed');
+      renderReturning();
+      // a picker that stored nothing usable leaves them seated, not stranded
+      show(resolveHorizon(book) > 0 ? 'returning' : 'seated');
+    });
+  }
+</script>

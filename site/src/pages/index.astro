@@ -1,46 +1,43 @@
 ---
 import Base from '../layouts/Base.astro';
-import BookMenu from '../components/BookMenu.astro';
-import HostStand from '../components/HostStand.astro';
-import { currentBook, bookHref } from '../lib/books';
+import FrontDoor from '../components/FrontDoor.astro';
+import { currentBook } from '../lib/books';
 
-// The front door serves the current book rather than hardcoding Book One: when
-// the next book opens, `current` moves in the registry and this follows. The
-// canonical URL is the book's own page, since both render the same menu — the
-// shelf and the nav link there, and `/` is the shortcut.
+// The front door — a host stand, not a menu. It asks the one question the site
+// needs answered ("have you dined with us before?") and hands back the one
+// thing a static site otherwise can't offer: a place that's still yours when
+// you come back. The menu card lives at the book's own page; this links to it
+// rather than dealing twenty-five chapters onto the doormat.
 //
-// The menu is server-rendered even for a reader who will be shown the host
-// stand instead, so a visitor without JavaScript gets the menu rather than a
-// wall. The pre-paint script decides which of the two is displayed, before
-// first paint, so neither flashes.
+// It serves the current book rather than hardcoding Book One: when the next
+// book opens, `current` moves in the registry and this follows.
 const book = currentBook();
 ---
 
 <Base
-  title="Supper Club Secrets — The Case of the Missing Hot Sauce"
-  description={book.logline}
-  canonical={bookHref(book)}
-  book={book}
+  title="Supper Club Secrets"
+  description="A weekly supper club in Williamsburg, and the cases that come with it."
+  nav={false}
 >
-  <div class="front-door" data-front-door data-book={book.id}>
-    <HostStand book={book} />
-    <div data-menu-wrap>
-      <BookMenu book={book} />
-    </div>
-  </div>
+  <FrontDoor book={book} />
 </Base>
 
 <style is:global>
-  /* The switch the pre-paint script throws. Absent attribute — no JS, storage
-     unavailable, a reader who has already checked in — shows the menu, which is
-     the right way to fail. */
-  [data-host-stand] {
+  /* The switch the pre-paint script throws. Every panel is in the document;
+     exactly one is displayed. With no attribute at all — JavaScript off,
+     storage unavailable — the greeting shows, which is true for everyone. */
+  [data-panel] {
     display: none;
   }
-  :root[data-checkin='pending'] [data-host-stand] {
+  [data-panel='stranger'] {
     display: block;
   }
-  :root[data-checkin='pending'] [data-menu-wrap] {
+  :root[data-door] [data-panel='stranger'] {
     display: none;
+  }
+  :root[data-door='stranger'] [data-panel='stranger'],
+  :root[data-door='seated'] [data-panel='seated'],
+  :root[data-door='returning'] [data-panel='returning'] {
+    display: block;
   }
 </style>

@@ -30,9 +30,10 @@ npm run check    # astro + TypeScript diagnostics
   self-hosted in `public/fonts/` (see that folder's README); no CDN.
 - **The canon horizon** (`src/lib/horizon.ts`) is the core object: a per-reader
   bookmark in localStorage (`scs:progress`, versioned + per-book), monotonic by
-  chapter number. The menu's "continue reading" and the redaction's auto-reveal
-  both read it. A pre-paint head script (`src/lib/horizon-inline.ts`) applies the
-  stored theme + progress with no flash. Designed to attach to an identity later
+  chapter number. The front door, the menu's "continue reading" and the
+  redaction's auto-reveal all read it. A pre-paint head script
+  (`src/lib/horizon-inline.ts`) applies the stored theme and picks the front-door
+  panel with no flash. Designed to attach to an identity later
   with no change to this contract.
 - **Redaction** (`src/components/Redaction.astro`) is the spoiler bar: manual
   click/keyboard reveal, plus horizon-driven auto-reveal via `data-revealed-by`.
@@ -41,9 +42,22 @@ npm run check    # astro + TypeScript diagnostics
 
 | Route | What |
 |---|---|
-| `/` | The menu — Book 1 as a four-course menu card, all 25 chapters |
-| `/read/[chapter]` | The reading room — one page per chapter, day/night |
+| `/` | The front door — the host stand: have you dined with us before, and the one way in that follows from the answer |
+| `/shelf` | The series shelf — what's served, what's still in the kitchen |
+| `/books/[book]` | The menu — a book as a four-course menu card, every served chapter |
+| `/books/[book]/read/[chapter]` | The reading room — one page per chapter, day/night |
+| `/books/[book]/timeline` | The case timeline, drawn at your horizon |
+| `/characters`, `/characters/[id]` | The regulars (series-scoped) |
+| `/places`, `/places/[id]` | The neighborhood (series-scoped) |
+| `/kitchen` | The colophon — how the book becomes the site, and how to make it forget you |
 | `/404` | Off-menu |
+
+`/` is deliberately **not** the menu. The site gates everything on how far you've
+read, so the first thing it does is ask — and give something back for answering:
+a place that's still yours when you come back, on a device that has never seen
+you. Three panels ship in one document (stranger / seated / returning) and the
+pre-paint script picks one before anything is painted. With no JavaScript the
+greeting shows, which is true for everyone.
 
 ## Deploy to Cloudflare Workers
 

@@ -1,5 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
+import { currentBook, bookHref } from '../lib/books';
+
+// `/` is the host stand now, so "back to the menu" has to mean the menu —
+// the current book's own page — rather than the front door.
+const book = currentBook();
 ---
 
 <Base title="Not on tonight's menu — Supper Club Secrets">
@@ -9,7 +14,7 @@ import Base from '../layouts/Base.astro';
     <p class="nf-body scs-romance">
       That dish isn't being served. The kitchen suggests starting from the menu.
     </p>
-    <a class="nf-link scs-label" href="/">Back to the menu</a>
+    <a class="nf-link scs-label" href={bookHref(book)}>Back to the menu</a>
   </section>
 </Base>
 

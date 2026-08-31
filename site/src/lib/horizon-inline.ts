@@ -4,26 +4,51 @@
  * <head>. Deliberately minimal: only what has to be resolved before paint.
  *
  * Two things qualify. The theme, so the page doesn't flash light before going
- * dark. And whether the reader has checked in, because the front door renders
- * the menu server-side (so a visitor without JS gets the menu rather than a
- * wall) and the host stand has to replace it without the menu showing first.
+ * dark. And which front-door panel a reader gets, because `/` ships all three
+ * in one document and swapping them after paint would show every visitor the
+ * site changing its mind about who they are.
  *
- * `data-checkin="pending"` is set only for a reader with no stored choice AND
- * no stored progress — someone mid-book who cleared the flag is not a stranger.
- * If the attribute is absent, for any reason including storage throwing, the
- * menu shows. Failing open is the right way round here.
+ * `data-door` is set to one of:
+ *   returning — stored progress in the current book: pick up where they left off
+ *   seated    — checked in, nothing read yet: begin at Chapter One
+ *   stranger  — never been here: the greeting, and the way in
+ *
+ * An explicit `?h=` pin wins over stored progress, mirroring resolveHorizon().
+ *
+ * If the attribute is absent, for any reason including storage throwing or
+ * JavaScript being off, the stranger panel shows. Failing open to the greeting
+ * is the right way round: it's true for everyone.
  *
  * The keys mirror horizon.ts.
  */
-export const inlineHeadScript = `(function(){
+export function inlineHeadScript(book: string): string {
+  return `(function(){
   var d = document.documentElement;
   try {
     var t = localStorage.getItem('scs:theme');
     d.dataset.theme = (t === 'night') ? 'night' : 'day';
-    if (!localStorage.getItem('scs:checkin') && !localStorage.getItem('scs:progress')) {
-      d.dataset.checkin = 'pending';
-    }
   } catch (e) {
     d.dataset.theme = 'day';
   }
+  try {
+    var h = 0;
+    var raw = localStorage.getItem('scs:progress');
+    if (raw) {
+      var p = JSON.parse(raw);
+      var b = p && p.books && p.books[${JSON.stringify(book)}];
+      if (b && typeof b.chapter === 'number') h = b.chapter;
+    }
+    // an explicit ?h= pin wins, the same as resolveHorizon() — a shared link
+    // shows the door the sender's link asks for, not this browser's history
+    var q = new URLSearchParams(location.search).get('h');
+    if (q !== null) {
+      var n = parseInt(q, 10);
+      if (isFinite(n) && n >= 0) h = n;
+    }
+    d.dataset.door = h > 0 ? 'returning'
+      : (localStorage.getItem('scs:checkin') ? 'seated' : 'stranger');
+  } catch (e) {
+    d.dataset.door = 'stranger';
+  }
 })();`;
+}
