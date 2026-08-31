@@ -81,10 +81,27 @@ file at all and the link tag doesn't render — a placeholder AT-URI is a failed
 verification, which is worse than an absent one on a standard built on proving
 that a domain and a record belong together.
 
-To turn it on: get an AT Protocol identity, take the record bodies built at
-`/data/standard-site.json`, create them on your PDS, then paste the DID and the
-rkeys into `src/lib/standard-site.ts`. That payload's `ready` / `unresolved`
-fields say whether it can be published as-is and what's missing if not.
+The identity exists — **`supperclubsecrets.bsky.social`**, recorded as `handle`
+in `standard-site.ts`. Three steps are left, and `/data/standard-site.json`
+reports which are still outstanding in its `unresolved` list:
+
+1. **Resolve the handle to its DID** and set `STANDARD_SITE.did`. A handle can
+   move between accounts, so the standard verifies against the DID and nothing
+   here is derived from the handle:
+   ```
+   curl 'https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=supperclubsecrets.bsky.social'
+   ```
+2. **Set `STANDARD_SITE.publishedAt`** to the date the book went live. It's
+   required on every document record, and drip serialization leaves the
+   per-chapter `publishDate` frontmatter empty until a chapter is actually
+   served — so without the fallback all 25 payloads carry a null.
+3. **Create the records** on the PDS from the bodies at
+   `/data/standard-site.json` — one `site.standard.publication`, then one
+   `site.standard.document` per chapter — and paste the rkeys those writes
+   return into `publicationRkey` and `documentRkeys`.
+
+Nothing in this repo performs those writes: they need credentials for the
+account, which don't belong in a static site's build.
 
 Two decisions worth knowing about, both in `standard-site.ts`:
 
