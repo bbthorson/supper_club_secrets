@@ -61,7 +61,7 @@ const menuHref = bookHref(book);
 
   <section class="panel" data-panel="stranger" aria-labelledby="door-first">
     <p class="eyebrow scs-label">Good evening</p>
-    <h1 class="headline scs-poster" id="door-first">Have you dined with us before?</h1>
+    <h1 class="headline scs-poster" id="door-first" tabindex="-1">Have you dined with us before?</h1>
     <p class="romance scs-romance">{SERIES_TAGLINE}</p>
     <span class="rule" aria-hidden="true"></span>
 
@@ -107,7 +107,7 @@ const menuHref = bookHref(book);
 
   <section class="panel" data-panel="seated" aria-labelledby="door-seated">
     <p class="eyebrow scs-label">Your table is ready</p>
-    <h1 class="headline scs-poster" id="door-seated">{book.title}</h1>
+    <h1 class="headline scs-poster" id="door-seated" tabindex="-1">{book.title}</h1>
     <p class="romance scs-romance">
       Book {book.ordinal} · {book.month} · hosted by {book.host}
     </p>
@@ -115,6 +115,12 @@ const menuHref = bookHref(book);
 
     <div class="actions">
       <a class="btn btn--primary scs-label" href={readHref(book, 1)}>Begin · Chapter One</a>
+      {/* The host misheard, or this reader has read Book One on another device.
+          Without this, a seated reader can never reach the chapter picker
+          again — the check-in is stored, and nothing else offers to undo it. */}
+      <button class="plain scs-label" type="button" data-not-first>
+        Not your first time?
+      </button>
     </div>
 
     <p class="fine">Four courses, {book.totalChapters} chapters. Nothing spoils ahead of you.</p>
@@ -127,7 +133,7 @@ const menuHref = bookHref(book);
 
   <section class="panel" data-panel="returning" aria-labelledby="door-back">
     <p class="eyebrow scs-label" data-back-eyebrow>Welcome back</p>
-    <h1 class="headline scs-poster" id="door-back">Right where you left it.</h1>
+    <h1 class="headline scs-poster" id="door-back" tabindex="-1">Right where you left it.</h1>
     {/* Filled in by the script below. The server can't know the number, so the
         markup carries a line that is true before it's made specific. */}
     <p class="romance scs-romance" data-back-line>Your table is as you left it.</p>
@@ -175,6 +181,16 @@ const menuHref = bookHref(book);
     color: var(--scs-ink);
     margin: 0;
     text-wrap: balance;
+  }
+  /* Swapping a panel moves focus to its heading, so the change is announced
+     rather than silently rearranging the page under a keyboard reader. The
+     ring is for keyboard only — a programmatic focus shouldn't draw a box. */
+  .headline:focus {
+    outline: none;
+  }
+  .headline:focus-visible {
+    outline: 2px solid var(--scs-accent);
+    outline-offset: 4px;
   }
   .romance {
     font-size: clamp(1.1rem, 3.2vw, 1.35rem);
@@ -254,6 +270,31 @@ const menuHref = bookHref(book);
   .actions.is-resuming [data-guest]:hover {
     border-color: var(--scs-ornament);
     color: var(--scs-accent);
+  }
+
+  /* A text button, not a third box: it's the host correcting themselves, and
+     it must not compete with the one thing they just offered. */
+  .plain {
+    display: block;
+    width: fit-content;
+    margin: 0.3rem auto 0;
+    padding: 0.4em 0.2em;
+    font-family: var(--scs-font-label);
+    font-weight: 600;
+    font-size: var(--scs-text-label);
+    letter-spacing: var(--scs-label-tracking);
+    text-transform: uppercase;
+    color: var(--scs-ink-muted);
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+  .plain:hover {
+    color: var(--scs-accent);
+  }
+  .plain:focus-visible {
+    outline: 2px solid var(--scs-accent);
+    outline-offset: 2px;
   }
 
   .resume[hidden] {
@@ -342,8 +383,13 @@ const menuHref = bookHref(book);
     }
 
     // The same switch the pre-paint script threw, thrown again from in here.
+    // Focus follows the swap: the button that was clicked is now inside a
+    // display:none subtree, so without this a keyboard reader is dropped at the
+    // top of the document with nothing announced. Focusing the new panel's
+    // heading is the standard way to say "the page is somewhere else now".
     const show = (state: Door) => {
       document.documentElement.dataset.door = state;
+      root.querySelector<HTMLElement>(`[data-panel="${state}"] .headline`)?.focus();
     };
 
     /** The returning panel, filled in with the one number the site keeps. */
@@ -398,14 +444,24 @@ const menuHref = bookHref(book);
     const toggle = root.querySelector<HTMLButtonElement>('[data-resume-toggle]');
     const resume = root.querySelector<HTMLElement>('[data-resume]');
     const actions = root.querySelector<HTMLElement>('[data-panel="stranger"] .actions');
-    toggle?.addEventListener('click', () => {
-      // Boolean(): `hidden` is typed `boolean | 'until-found'` in current DOM
-      // lib, and this is a plain open/closed flag either way.
-      const open = Boolean(resume?.hidden ?? true);
+
+    function setPicker(open: boolean) {
       if (resume) resume.hidden = !open;
-      toggle.setAttribute('aria-expanded', String(open));
+      toggle?.setAttribute('aria-expanded', String(open));
       actions?.classList.toggle('is-resuming', open);
       if (open) root.querySelector<HTMLSelectElement>('[data-resume-select]')?.focus();
+    }
+
+    // Boolean(): `hidden` is typed `boolean | 'until-found'` in current DOM
+    // lib, and this is a plain open/closed flag either way.
+    toggle?.addEventListener('click', () => setPicker(Boolean(resume?.hidden ?? true)));
+
+    // Seated by mistake, or seated here having read the book somewhere else.
+    // Back to the greeting with the picker already open — that's the only
+    // thing they came back for.
+    root.querySelector<HTMLButtonElement>('[data-not-first]')?.addEventListener('click', () => {
+      show('stranger');
+      setPicker(true);
     });
 
     root.querySelector<HTMLButtonElement>('[data-resume-go]')?.addEventListener('click', () => {
