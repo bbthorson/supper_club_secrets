@@ -58,8 +58,8 @@ body {
   font-family: var(--scs-font-body);
   font-size: var(--scs-text-body);
   line-height: var(--scs-leading-body);
-  /* the same restaurant, day or night — theme transition is a candle being lit */
-  transition: background-color 0.35s ease, color 0.35s ease;
+  /* the same restaurant, day or night — see --scs-motion-service */
+  transition: background-color var(--scs-motion-service), color var(--scs-motion-service);
 }
 img {
   max-width: 100%;
@@ -117,7 +117,8 @@ a {
   border: 1px solid var(--scs-line);
   border-radius: var(--scs-radius);
   cursor: pointer;
-  transition: border-color 0.15s ease, color 0.15s ease, filter 0.15s ease;
+  transition: border-color var(--scs-motion-hover), color var(--scs-motion-hover),
+    filter var(--scs-motion-hover);
 }
 .scs-btn:hover {
   border-color: var(--scs-ornament);
@@ -172,9 +173,5 @@ a {
   min-width: 1.5rem;
 }
 
-/* honor reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  body {
-    transition: none;
-  }
-}
+/* Reduced motion is handled once, in tokens.css, by zeroing the motion tokens —
+   which reaches every transition here rather than only the body's. */
