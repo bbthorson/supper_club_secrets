@@ -25,6 +25,12 @@ interface Props {
   /** This page's `site.standard.document` AT-URI, when it has a record. Ties
    *  the page to its record — the other half of standard.site verification. */
   documentUri?: string | null;
+  /** How much footer a page gets. `full` is the house default. `lean` drops the
+   *  cast and the neighborhood and the where-line, for a page that is already a
+   *  destination rather than a place you pass through — the book's own page.
+   *  `quiet` drops the house note as well, for a page whose body already says it.
+   *  The cellar and the kitchen never leave: they are the way back. */
+  footer?: 'full' | 'lean' | 'quiet';
   /** Class on <body>, for a page that needs to reshape the chrome around it.
    *  Astro scopes this layout's own selectors, which out-specify a bare global
    *  rule from a page — so a page overriding `.site-main` needs a hook with
@@ -40,6 +46,7 @@ const {
   nav = true,
   ogType = 'website',
   documentUri = null,
+  footer = 'full',
   bodyClass,
 } = Astro.props;
 const site = Astro.site ?? Astro.url.origin;
@@ -115,14 +122,18 @@ const ogImage = new URL('/og.png', site);
     {
       !bare && (
         <footer class="site-footer">
-          <p class="foot-note">Please inform your host of any secrets before dining.</p>
+          {footer !== 'quiet' && (
+            <p class="foot-note">Please inform your host of any secrets before dining.</p>
+          )}
           <nav class="foot-nav scs-label" aria-label="Secondary">
             <a href="/cellar">The Cellar</a>
-            <a href="/characters">The Regulars</a>
-            <a href="/places">The Neighborhood</a>
+            {footer === 'full' && <a href="/characters">The Regulars</a>}
+            {footer === 'full' && <a href="/places">The Neighborhood</a>}
             <a href="/kitchen">The Kitchen</a>
           </nav>
-          <p class="foot-where scs-label">Williamsburg, Brooklyn · a weekly supper club</p>
+          {footer === 'full' && (
+            <p class="foot-where scs-label">Williamsburg, Brooklyn · a weekly supper club</p>
+          )}
         </footer>
       )
     }
@@ -227,6 +238,11 @@ const ogImage = new URL('/og.png', site);
     align-items: baseline;
     gap: 0.5rem 1.6rem;
     margin: 1.3rem 0 1.1rem;
+  }
+  /* On the front door the nav is the entire footer, and the margins that held
+     it off the note and the where-line become a lean toward the top. */
+  .foot-nav:only-child {
+    margin: 0;
   }
   .foot-nav a {
     color: var(--scs-ink-muted);
