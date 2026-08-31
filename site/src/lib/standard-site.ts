@@ -61,6 +61,16 @@ export interface StandardSiteConfig {
    * empty until a book is actually being served, so this is the date the book
    * went live. Empty = the payload reports the chapter as unresolved rather
    * than inventing a timestamp.
+   *
+   * DELIBERATELY EMPTY, and it stays that way until we mean it. Setting this is
+   * what unblocks creating the document records, and those records — with
+   * `showInDiscover` on the publication — are how the series announces itself to
+   * the network. That is a launch, and it should happen on purpose.
+   *
+   * Note what this does *not* gate: the website. No chapter carries a
+   * `publishDate`, so all of them are served today to anyone with the URL. The
+   * lever for holding chapters back from readers is per-chapter `publishDate`
+   * frontmatter, not this field.
    */
   publishedAt: string;
   /**
