@@ -81,24 +81,27 @@ file at all and the link tag doesn't render — a placeholder AT-URI is a failed
 verification, which is worse than an absent one on a standard built on proving
 that a domain and a record belong together.
 
-The identity exists — **`supperclubsecrets.bsky.social`**, recorded as `handle`
-in `standard-site.ts`. Three steps are left, and `/data/standard-site.json`
-reports which are still outstanding in its `unresolved` list:
+The identity is set up: **`supperclubsecrets.bsky.social`**,
+`did:plc:zvimgmqci4atuvxye2olyn7c`. Both are in `standard-site.ts` — the handle
+only so a reader knows whose publication this is, since a handle can move
+between accounts and the standard verifies against the DID.
 
-1. **Resolve the handle to its DID** and set `STANDARD_SITE.did`. A handle can
-   move between accounts, so the standard verifies against the DID and nothing
-   here is derived from the handle:
-   ```
-   curl 'https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=supperclubsecrets.bsky.social'
-   ```
-2. **Set `STANDARD_SITE.publishedAt`** to the date the book went live. It's
+Two steps are left, and `/data/standard-site.json` reports which are still
+outstanding in its `unresolved` list:
+
+1. **Set `STANDARD_SITE.publishedAt`** to the date the book went live. It's
    required on every document record, and drip serialization leaves the
    per-chapter `publishDate` frontmatter empty until a chapter is actually
-   served — so without the fallback all 25 payloads carry a null.
-3. **Create the records** on the PDS from the bodies at
+   served — so without the fallback all 25 payloads carry a null and can't be
+   created.
+2. **Create the records** on the PDS from the bodies at
    `/data/standard-site.json` — one `site.standard.publication`, then one
    `site.standard.document` per chapter — and paste the rkeys those writes
    return into `publicationRkey` and `documentRkeys`.
+
+Until the publication record exists the site stays silent even with the DID in
+place: the well-known route still emits no file and no chapter renders a link
+tag, because there is no record for either to point at.
 
 Nothing in this repo performs those writes: they need credentials for the
 account, which don't belong in a static site's build.

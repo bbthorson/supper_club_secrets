@@ -18,11 +18,12 @@
  * AT-URI would be worse than an absent one — it claims a record that isn't
  * there, on a standard whose whole point is verification.
  *
- * WHAT A HUMAN HAS TO DO. The account is made; three steps are left. Resolve the
- * handle to its DID and paste it below. Create the publication record and one
- * document record per chapter — the payloads are built for you at
- * `/data/standard-site.json`. Paste the rkeys those writes return in here.
- * `/data/standard-site.json` reports which of the three are still outstanding.
+ * WHAT A HUMAN HAS TO DO. The account is made and the DID is resolved. What's
+ * left is the writes: create the publication record and one document record per
+ * chapter — the payloads are built for you at `/data/standard-site.json` — and
+ * paste the rkeys those writes return in here. Set `publishedAt` first; a
+ * document record can't be created without one. `/data/standard-site.json`
+ * reports what's still outstanding.
  *
  * The series is the publication and a chapter is a document. That's the mapping
  * the standard is shaped for — a chapter is the serialized unit that gets
@@ -39,11 +40,14 @@ export interface StandardSiteConfig {
    */
   handle: string;
   /**
-   * `did:plc:…` for the identity that owns the records — the stable half of
-   * the pair above, and the only one the AT-URIs are built from. Empty = the
-   * handle hasn't been resolved yet, and the site stays silent.
+   * `did:plc:…` for the identity that owns the records — the stable half of the
+   * pair above, and the only one the AT-URIs are built from. Empty = the handle
+   * hasn't been resolved yet. Resolved with:
    *
    *     curl 'https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=<handle>'
+   *
+   * A DID being present is not on its own enough to render anything: both
+   * verification artifacts also need a record to point at.
    */
   did: string;
   /** rkey of the `site.standard.publication` record. */
@@ -74,7 +78,7 @@ export interface StandardSiteConfig {
 
 export const STANDARD_SITE: StandardSiteConfig = {
   handle: 'supperclubsecrets.bsky.social',
-  did: '',
+  did: 'did:plc:zvimgmqci4atuvxye2olyn7c',
   publicationRkey: '',
   documentRkeys: {},
   publishedAt: '',
