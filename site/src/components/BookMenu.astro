@@ -24,16 +24,6 @@ const courses: Course[] = book.meals.map((meal, i) => ({
     .filter((c) => c.data.meal === i + 1)
     .map((c) => ({ chapter: c.data.chapter, title: c.data.title, day: c.data.day })),
 }));
-
-// Chapter span per course, so the cover can name where a returning reader is
-// without shipping the whole chapter list to the client.
-const courseSpans = courses
-  .filter((c) => c.chapters.length > 0)
-  .map((c) => ({
-    name: c.name,
-    first: c.chapters[0].chapter,
-    last: c.chapters[c.chapters.length - 1].chapter,
-  }));
 ---
 
 <section
@@ -43,14 +33,10 @@ const courseSpans = courses
   data-ordinal={book.ordinal}
   data-total={book.totalChapters}
   data-read-base={`/books/${book.slug}/read`}
-  data-courses={JSON.stringify(courseSpans)}
 >
   <p class="sn-eyebrow scs-label" data-cover-eyebrow>A weekly supper club in Williamsburg</p>
   <p class="sn-logline scs-romance" data-cover-line>{SERIES_TAGLINE}</p>
-  <p class="sn-rule" data-cover-rule>
-    Served in courses — nothing here spoils past where you've read. The timeline,
-    the cast and the neighborhood fill in as you go.
-  </p>
+  <p class="sn-rule">Served in courses — nothing here spoils past where you've read.</p>
 </section>
 
 <MenuCard
@@ -83,9 +69,6 @@ const courseSpans = courses
     color: var(--scs-ink);
     margin: 0;
   }
-  .sn-rule[hidden] {
-    display: none;
-  }
   /* body type, not tracked caps — this runs to three lines on a phone, and
      caps at that length stop being a label and start being a wall */
   .sn-rule {
@@ -101,51 +84,25 @@ const courseSpans = courses
 <script>
   import { resolveHorizon } from '../lib/horizon';
 
-  // The cover pitches the book to someone who hasn't started, and tells a
-  // returning reader where they left off. Same page, no splash in front of it.
-  type Span = { name: string; first: number; last: number };
-
+  // The cover pitches the book to someone who hasn't started, and greets someone
+  // who's already at the table. It doesn't tally chapters at them: the menu card
+  // below is the tally, and its one button already names the chapter they're on.
   const cover = document.querySelector<HTMLElement>('[data-cover]');
 
   function renderCover() {
     if (!cover) return;
-    const book = cover.dataset.book ?? '';
     const total = Number.parseInt(cover.dataset.total ?? '', 10) || 0;
-    const horizon = resolveHorizon(book);
+    const horizon = resolveHorizon(cover.dataset.book ?? '');
+    if (horizon <= 0) return;
 
-    if (horizon > 0) {
-      const eyebrow = cover.querySelector<HTMLElement>('[data-cover-eyebrow]');
-      const line = cover.querySelector<HTMLElement>('[data-cover-line]');
-      const rule = cover.querySelector<HTMLElement>('[data-cover-rule]');
+    const eyebrow = cover.querySelector<HTMLElement>('[data-cover-eyebrow]');
+    const line = cover.querySelector<HTMLElement>('[data-cover-line]');
 
-      let spans: Span[] = [];
-      try {
-        spans = JSON.parse(cover.dataset.courses ?? '[]') as Span[];
-      } catch {
-        /* malformed payload — fall back to the chapter count alone */
-      }
-      const course = spans.find((s) => horizon >= s.first && horizon <= s.last);
-
-      if (horizon >= total) {
-        if (eyebrow) eyebrow.textContent = 'The case is closed';
-        if (line) line.textContent = `You've read the whole of Book ${cover.dataset.ordinal ?? 'One'}.`;
-        if (rule) {
-          rule.textContent =
-            'Everything is unlocked — the timeline, the cast and the neighborhood, end to end.';
-        }
-      } else {
-        const left = total - horizon;
-        const read = `${horizon} ${horizon === 1 ? 'chapter' : 'chapters'} in`;
-        if (eyebrow) eyebrow.textContent = 'Back at the table';
-        if (line) {
-          line.textContent = course
-            ? `You're ${read}, partway through ${course.name}.`
-            : `You're ${read}.`;
-        }
-        if (rule) {
-          rule.textContent = `${left} ${left === 1 ? 'chapter' : 'chapters'} left, and everything on the site is open through Chapter ${horizon}.`;
-        }
-      }
+    if (horizon >= total) {
+      if (eyebrow) eyebrow.textContent = 'The case is closed';
+      if (line) line.textContent = `You've read the whole of Book ${cover.dataset.ordinal ?? 'One'}.`;
+    } else if (eyebrow) {
+      eyebrow.textContent = 'Back at the table';
     }
   }
 

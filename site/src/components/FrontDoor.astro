@@ -7,6 +7,10 @@
 // book's own page — the door links to it the way a host offers it, rather than
 // dealing all twenty-five chapters onto the doormat.
 //
+// The door offers exactly one thing per panel. It carries no row of its own
+// elsewhere-links: the footer under it already holds the cellar and the kitchen,
+// and a second copy of them turns a host stand back into a menu.
+//
 // Three panels ship in one document, and the pre-paint script in <head> decides
 // which is displayed before anything is painted, so no reader watches the page
 // change its mind. Without JavaScript no attribute is set and the stranger panel
@@ -25,20 +29,6 @@ const served = (await getCollection('chapters'))
   .filter((c) => !c.data.publishDate || c.data.publishDate <= now)
   .sort((a, b) => a.data.chapter - b.data.chapter);
 
-// Chapter span per course, so a returning reader can be told which course
-// they're in the middle of without shipping the chapter list to the client.
-const courseSpans = book.meals
-  .map((meal, i) => {
-    const inCourse = served.filter((c) => c.data.meal === i + 1);
-    if (inCourse.length === 0) return null;
-    return {
-      name: meal.name,
-      first: inCourse[0].data.chapter,
-      last: inCourse[inCourse.length - 1].data.chapter,
-    };
-  })
-  .filter((s): s is { name: string; first: number; last: number } => s !== null);
-
 // The picker offers what's actually served, not the book's eventual length.
 const servedChapters = served.map((c) => c.data.chapter);
 // The client builds "continue" links by appending a chapter, so it's handed the
@@ -54,7 +44,6 @@ const menuHref = bookHref(book);
   data-ordinal={book.ordinal}
   data-total={book.totalChapters}
   data-read-base={readBase}
-  data-courses={JSON.stringify(courseSpans)}
 >
   {/* Each panel carries its own h1 — only one is ever displayed, and the two
       that aren't are display:none, so assistive tech never meets them. */}
@@ -95,11 +84,6 @@ const menuHref = bookHref(book);
     </div>
 
     <p class="fine">Please inform your host of any secrets before dining.</p>
-
-    <nav class="aside scs-label" aria-label="Elsewhere">
-      <a href={menuHref}>See the menu</a>
-      <a href="/cellar">The cellar</a>
-    </nav>
   </section>
 
   <section class="panel" data-panel="seated" aria-labelledby="door-seated">
@@ -119,11 +103,6 @@ const menuHref = bookHref(book);
         Not your first time?
       </button>
     </div>
-
-    <nav class="aside scs-label" aria-label="Elsewhere">
-      <a href={menuHref}>See the menu</a>
-      <a href="/cellar">The cellar</a>
-    </nav>
   </section>
 
   <section class="panel" data-panel="returning" aria-labelledby="door-back">
@@ -139,21 +118,12 @@ const menuHref = bookHref(book);
           click landing before the script does still goes somewhere sensible. */}
       <a class="btn btn--primary scs-label" href={menuHref} data-continue>Continue reading</a>
     </div>
-
-    <p class="fine" data-back-fine></p>
-
-    <nav class="aside scs-label" aria-label="Elsewhere">
-      <a href={menuHref}>The full menu</a>
-      <a href="/cellar">The cellar</a>
-      <a href="/kitchen">Forget my place</a>
-    </nav>
   </section>
 </div>
 
 <style>
   /* The door is the page: one panel, centred in the height it's given, with the
-     air a host stand has. Everything else the site can do is a quiet line at the
-     bottom — offered, not pushed. */
+     air a host stand has. Everything else the site can do is in the footer. */
   /* No min-height of its own: `/` makes main fill the viewport (see index.astro)
      and this stretches into whatever that leaves, so the door is centred in the
      real space between the header and the footer rather than in a guess at it. */
@@ -335,32 +305,11 @@ const menuHref = bookHref(book);
     max-width: 38ch;
     margin: 1.6rem auto 0;
   }
-  .fine:empty {
-    display: none;
-  }
-
-  .aside {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem 1.6rem;
-    margin-top: 1.8rem;
-    padding-top: 1.4rem;
-    border-top: var(--scs-leader);
-  }
-  .aside a {
-    color: var(--scs-ink-muted);
-    text-decoration: none;
-  }
-  .aside a:hover {
-    color: var(--scs-accent);
-  }
 </style>
 
 <script>
   import { setCheckIn, setHorizon, resolveHorizon } from '../lib/horizon';
 
-  type Span = { name: string; first: number; last: number };
   type Door = 'stranger' | 'seated' | 'returning';
 
   const el = document.querySelector<HTMLElement>('[data-door-root]');
@@ -371,13 +320,6 @@ const menuHref = bookHref(book);
     const ordinal = root.dataset.ordinal ?? 'One';
     const total = Number.parseInt(root.dataset.total ?? '', 10) || 0;
     const readBase = root.dataset.readBase ?? '';
-
-    let spans: Span[] = [];
-    try {
-      spans = JSON.parse(root.dataset.courses ?? '[]') as Span[];
-    } catch {
-      /* malformed payload — the chapter count alone still tells the truth */
-    }
 
     // The same switch the pre-paint script threw, thrown again from in here.
     // Focus follows the swap: the button that was clicked is now inside a
@@ -396,16 +338,11 @@ const menuHref = bookHref(book);
 
       const eyebrow = root.querySelector<HTMLElement>('[data-back-eyebrow]');
       const line = root.querySelector<HTMLElement>('[data-back-line]');
-      const fine = root.querySelector<HTMLElement>('[data-back-fine]');
       const cont = root.querySelector<HTMLAnchorElement>('[data-continue]');
 
       if (horizon >= total) {
         if (eyebrow) eyebrow.textContent = 'The case is closed';
         if (line) line.textContent = `You've read the whole of Book ${ordinal}.`;
-        if (fine) {
-          fine.textContent =
-            'Everything is unlocked — the timeline, the cast and the neighborhood, end to end.';
-        }
         if (cont) {
           cont.textContent = 'Read it again from the top';
           cont.href = `${readBase}/1`;
@@ -413,18 +350,7 @@ const menuHref = bookHref(book);
         return;
       }
 
-      const course = spans.find((s) => horizon >= s.first && horizon <= s.last);
-      const read = `${horizon} ${horizon === 1 ? 'chapter' : 'chapters'} in`;
-      const left = total - horizon;
       if (eyebrow) eyebrow.textContent = 'Welcome back';
-      if (line) {
-        line.textContent = course
-          ? `You're ${read}, partway through ${course.name}.`
-          : `You're ${read}.`;
-      }
-      if (fine) {
-        fine.textContent = `${left} ${left === 1 ? 'chapter' : 'chapters'} left, and the site is open through Chapter ${horizon}.`;
-      }
       if (cont) {
         cont.textContent = `Continue · Chapter ${horizon + 1}`;
         cont.href = `${readBase}/${horizon + 1}`;
