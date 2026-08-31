@@ -109,6 +109,35 @@ export function clearCheckIn(): void {
   }
 }
 
+/* ---- things the house says exactly once ---- */
+
+const TOLD_KEY = 'scs:told';
+
+/**
+ * The house explaining itself is onboarding, not furniture. A note that fires
+ * on every chapter is the same sentence twenty-five times a book, so anything
+ * that is only true the first time goes through here: `tellOnce` returns true
+ * the first time it's asked about a note and false forever after, so a caller
+ * gates on the call itself.
+ *
+ * Keyed by note, and callers scope a per-book note by putting the book id in
+ * the key. Storage unavailable means the note is simply never shown twice in a
+ * session and may return — which is the right way for a nicety to fail.
+ */
+export function tellOnce(note: string): boolean {
+  if (!hasStorage()) return true;
+  try {
+    const told = new Set((localStorage.getItem(TOLD_KEY) ?? '').split(',').filter(Boolean));
+    if (told.has(note)) return false;
+    told.add(note);
+    localStorage.setItem(TOLD_KEY, [...told].join(','));
+    return true;
+  } catch {
+    /* private mode / quota — say it, rather than swallowing it forever */
+    return true;
+  }
+}
+
 /**
  * Forget stored progress — for a reader who wants to start over, or who simply
  * wants the number gone. Named `clear` rather than `reset` because it deletes
@@ -121,6 +150,9 @@ export function clearProgress(book?: string): void {
   try {
     if (!book) {
       localStorage.removeItem(PROGRESS_KEY);
+      // starting over means starting over: a reader at chapter zero again has
+      // not been told how the gating works
+      localStorage.removeItem(TOLD_KEY);
       return;
     }
     const store = readStore();

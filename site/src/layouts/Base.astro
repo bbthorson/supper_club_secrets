@@ -3,22 +3,23 @@ import '../../../protocol/brand/tokens.css';
 import '../styles/base.css';
 import { inlineHeadScript } from '../lib/horizon-inline';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import { SERIES_TAGLINE, bookHref, currentBook, timelineHref, type Book } from '../lib/books';
+import { SERIES_TAGLINE, bookHref, currentBook, type Book } from '../lib/books';
 
 interface Props {
   title: string;
   description?: string;
   /** Hide the site chrome (header/footer) for full-bleed pages if ever needed. */
   bare?: boolean;
-  /** Set on a book-scoped page, which adds that book's own nav (its menu and
-   *  timeline) beside the wordmark. Series pages — the cellar, the cast, the
-   *  neighborhood — leave it unset and get the cellar link alone. */
+  /** Set on a book-scoped page. It turns the one header link into the way back
+   *  to that book's menu — the only elsewhere a reader mid-book wants. Series
+   *  pages — the cellar, the cast, the neighborhood — leave it unset and get
+   *  the cellar. */
   book?: Book;
   /** Overrides the canonical URL. */
   canonical?: string;
-  /** Set false on the front door: the host stand *is* the navigation, and a row
-   *  of links beside the wordmark undoes the quiet it's built on. The footer
-   *  still carries the way to everything. */
+  /** Set false on the front door: the host stand *is* the navigation, and a
+   *  link beside the wordmark undoes the quiet it's built on. The footer still
+   *  carries the way to everything. */
   nav?: boolean;
   /** Open Graph type. `article` on a chapter; everything else is a `website`. */
   ogType?: 'website' | 'article';
@@ -27,9 +28,12 @@ interface Props {
   documentUri?: string | null;
   /** How much footer a page gets. `full` is the house default. `lean` drops the
    *  cast and the neighborhood, for a page that is already a destination rather
-   *  than a place you pass through — the book's own page, the front door. The
-   *  cellar and the kitchen never leave: they are the way back. */
-  footer?: 'full' | 'lean';
+   *  than a place you pass through — the book's own page, the front door; the
+   *  cellar and the kitchen stay, as the way back. `bare` drops the house nav
+   *  altogether and leaves only the service toggle: in the reading room the one
+   *  thing a reader wants is the next chapter, and four more doors under it is
+   *  the house interrupting the book. The header's "Menu" is the way out. */
+  footer?: 'full' | 'lean' | 'bare';
   /** Class on <body>, for a page that needs to reshape the chrome around it.
    *  Astro scopes this layout's own selectors, which out-specify a bare global
    *  rule from a page — so a page overriding `.site-main` needs a hook with
@@ -53,6 +57,21 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, site);
 // One card for the whole site, set in the real faces from the locked tokens —
 // see scripts/og-card.html. Absolute, because a share crawler has no base URL.
 const ogImage = new URL('/og.png', site);
+
+// The header carries exactly one link, and what it should be depends on where
+// you are. Mid-book — a chapter, the timeline — the one elsewhere a reader
+// wants is the menu they came in through, so that's what it offers. On the
+// menu itself (and on every series page) the menu is where you already are,
+// and the link becomes the cellar: the way out of this book and into the rest.
+const bookMenuHref = book ? bookHref(book) : null;
+const onBookMenu = bookMenuHref !== null && Astro.url.pathname.replace(/\/+$/, '') === bookMenuHref;
+const wayOut =
+  bookMenuHref && !onBookMenu
+    ? { href: bookMenuHref, label: 'Menu' }
+    : { href: '/cellar', label: 'Cellar' };
+// On the cellar itself the link points at the page you're standing on — there
+// is no further out. Say so rather than offering it as somewhere to go.
+const wayOutIsHere = Astro.url.pathname.replace(/\/+$/, '') === wayOut.href;
 ---
 
 <!doctype html>
@@ -91,21 +110,14 @@ const ogImage = new URL('/og.png', site);
             <span class="wm-plain">Supper&nbsp;Club</span>
             <span class="wm-pop">Secrets</span>
           </a>
-          {/* Book-scoped links only. The cast and the neighborhood are surfaces
-              you discover by reading — chips at the end of every chapter, on the
-              timeline, on every hub — and they sit in the footer. */}
-          {nav && book && (
-            <nav class="site-nav scs-label" aria-label="Primary">
-              <a href={bookHref(book)}>Menu</a>
-              <a href={timelineHref(book)}>Timeline</a>
-            </nav>
-          )}
-          {/* The one series-level link, on the right where the service toggle
-              used to sit: the cellar is the way out of a book and into the rest
-              of them, which is the only thing the top bar owes a reader. */}
+          {/* One link, on the right where the service toggle used to sit. The
+              cast, the neighborhood and the timeline are surfaces you discover
+              by reading — chips at the end of every chapter, on the timeline,
+              on every hub — and they sit in the footer and on the menu, not in
+              a row of tabs over the prose. */}
           {nav && (
-            <a class="nav-cellar scs-label" href="/cellar">
-              Cellar
+            <a class="nav-out scs-label" href={wayOut.href} aria-current={wayOutIsHere ? 'page' : undefined}>
+              {wayOut.label}
             </a>
           )}
         </header>
@@ -117,12 +129,14 @@ const ogImage = new URL('/og.png', site);
     {
       !bare && (
         <footer class="site-footer">
-          <nav class="foot-nav scs-label" aria-label="Secondary">
-            <a href="/cellar">The Cellar</a>
-            {footer === 'full' && <a href="/characters">The Regulars</a>}
-            {footer === 'full' && <a href="/places">The Neighborhood</a>}
-            <a href="/kitchen">The Kitchen</a>
-          </nav>
+          {footer !== 'bare' && (
+            <nav class="foot-nav scs-label" aria-label="Secondary">
+              <a href="/cellar">The Cellar</a>
+              {footer === 'full' && <a href="/characters">The Regulars</a>}
+              {footer === 'full' && <a href="/places">The Neighborhood</a>}
+              <a href="/kitchen">The Kitchen</a>
+            </nav>
+          )}
           {/* After hours is a nice thing to find, not a thing to be offered on
               the way in — so it sits at the foot of the page with the rest of
               what the house can do. */}
@@ -136,55 +150,27 @@ const ogImage = new URL('/og.png', site);
 </html>
 
 <style>
-  /* Two rows on a phone — the wordmark and the cellar are the sign and the door
-     to the rest of the house, so they share the top row — collapsing to one row
-     once there is width for the book's own links between them. */
+  /* The sign and the one door out, on a single row at every width. */
   .site-header {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
     gap: 0.9rem 1.6rem;
     max-width: 62rem;
     margin: 0 auto;
     padding: 1.4rem clamp(1rem, 4vw, 2.5rem);
     border-bottom: var(--scs-leader);
   }
-  /* Last track, counted from the end: the header is two columns on a phone and
-     three once the nav fits between, and on the front door there is no nav at
-     all. `grid-column: 2` would be right for exactly one of those three. */
-  .nav-cellar {
-    grid-column: -2 / -1;
-    grid-row: 1;
-    justify-self: end;
+  .nav-out {
     color: var(--scs-ink-muted);
     text-decoration: none;
+    white-space: nowrap;
   }
-  .nav-cellar:hover {
+  .nav-out:hover {
     color: var(--scs-accent);
   }
-  .site-nav {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.5rem 1.1rem;
-  }
-  @media (min-width: 48rem) {
-    .site-header {
-      grid-template-columns: auto 1fr auto;
-    }
-    .site-nav {
-      grid-column: 2;
-      grid-row: 1;
-      margin-left: 0.6rem;
-    }
-  }
-  .site-nav a {
-    color: var(--scs-ink-muted);
-    text-decoration: none;
-  }
-  .site-nav a:hover {
-    color: var(--scs-accent);
+  .nav-out[aria-current='page'] {
+    color: var(--scs-ornament);
   }
   .wordmark {
     font-family: var(--scs-font-display);

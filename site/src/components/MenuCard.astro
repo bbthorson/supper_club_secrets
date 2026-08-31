@@ -40,7 +40,9 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
   <h1 class="mc-title scs-poster">{title}</h1>
   <p class="mc-sub scs-romance">{subline}</p>
 
-  <a class="mc-continue scs-label" href={`${readBase}/1`} data-continue>Start reading</a>
+  <a class="mc-continue scs-btn scs-btn--pop scs-label" href={`${readBase}/1`} data-continue>
+    Start reading
+  </a>
 
   <div class="mc-courses">
     {
@@ -105,22 +107,11 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
     color: var(--scs-ink-muted);
     margin: 0.6rem 0 1.6rem;
   }
+  /* layout only — the button itself is .scs-btn--pop in base.css */
   .mc-continue {
     display: block;
     width: fit-content;
     margin: 0 auto 2.2rem;
-    padding: 0.7em 1.4em;
-    background: var(--scs-accent);
-    color: var(--scs-linen);
-    border-radius: var(--scs-radius);
-    text-decoration: none;
-    transition: filter 0.18s ease;
-  }
-  .mc-continue:hover {
-    filter: brightness(1.06);
-  }
-  :global([data-theme='night']) .mc-continue {
-    color: var(--scs-bottle);
   }
 
   .course {
@@ -128,11 +119,6 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
   }
   .course:first-child {
     margin-top: 0;
-  }
-  .course-head {
-    display: flex;
-    align-items: baseline;
-    gap: 0.7rem;
   }
   .course-ordinal {
     color: var(--scs-accent);
@@ -142,6 +128,10 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
     font-size: var(--scs-text-title);
     margin: 0;
     white-space: nowrap;
+  }
+  /* the tagline carries its own top gap — see base.css .course-head */
+  .course-head {
+    margin-bottom: 0;
   }
   .course-tagline {
     color: var(--scs-ink-muted);
@@ -165,13 +155,10 @@ const { eyebrow, title, subline, footnote, courses, readBase, bookId, totalChapt
     color: var(--scs-ink);
     padding: 0.4rem 0.3rem;
     border-radius: var(--scs-radius);
-    transition: background-color 0.15s ease;
+    transition: background-color var(--scs-motion-hover);
   }
   .chapter-link:hover {
-    background: var(--scs-linen-deep);
-  }
-  :global([data-theme='night']) .chapter-link:hover {
-    background: rgba(241, 232, 212, 0.06);
+    background: var(--scs-well);
   }
   .chapter-no {
     font-family: var(--scs-font-display);

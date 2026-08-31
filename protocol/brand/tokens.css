@@ -29,6 +29,11 @@
   --scs-surface: var(--scs-card);
   --scs-line: var(--scs-hairline);
   --scs-redaction: var(--scs-espresso);
+  /* a recessed well: the tint behind a hovered row, a pull-quote, a note box.
+     Night can't reuse linen-deep — on bottle green a linen panel is a hole in
+     the page — so it lifts the ground with cream at 6% instead. Both services
+     answer to one name so a component never writes the night value by hand. */
+  --scs-well: var(--scs-linen-deep);
 
   /* ---- typography ---- */
   --scs-font-display: "Fraunces", Georgia, serif;
@@ -55,6 +60,19 @@
   --scs-leading-body: 1.62;
   --scs-leading-reading: 1.7;
 
+  /* ---- motion ----
+   * The house moves at two speeds, and each token carries its easing with its
+   * duration so the pair can never drift apart at a call site.
+   *
+   *   hover   — anything under a cursor or a finger: a button, a menu row, a
+   *             redaction lifting. Fast enough to read as response, not travel.
+   *   service — day to night and back. Slower on purpose: the one change that
+   *             is the room itself changing, and it should feel like a candle
+   *             being lit rather than a switch being thrown.
+   */
+  --scs-motion-hover: 0.15s ease;
+  --scs-motion-service: 0.35s ease;
+
   /* ---- ornament ---- */
   --scs-leader: 2px dotted var(--scs-ornament); /* menu rows, section heads */
   --scs-radius: 3px;                            /* cards; this brand is not rounded */
@@ -71,4 +89,15 @@
   --scs-surface: #163027;
   --scs-line: rgba(241, 232, 212, 0.16);
   --scs-redaction: var(--scs-cream);
+  --scs-well: rgba(241, 232, 212, 0.06); /* --scs-cream at 6% */
+}
+
+/* A reader who asks for less motion gets none. Zeroing the tokens reaches every
+ * transition in the site at once — which is the point of their being tokens; the
+ * alternative is remembering to name each animated component here. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --scs-motion-hover: 0s;
+    --scs-motion-service: 0s;
+  }
 }

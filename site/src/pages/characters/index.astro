@@ -93,13 +93,10 @@ const book = currentBook();
     padding: 1.3rem 0.3rem;
     text-decoration: none;
     color: var(--scs-ink);
-    transition: background-color 0.15s ease;
+    transition: background-color var(--scs-motion-hover);
   }
   .regular-link:hover {
-    background: var(--scs-linen-deep);
-  }
-  :global([data-theme='night']) .regular-link:hover {
-    background: rgba(241, 232, 212, 0.06);
+    background: var(--scs-well);
   }
   .regular-head {
     display: flex;
@@ -139,16 +136,6 @@ const book = currentBook();
 
   .met {
     margin-top: 2.6rem;
-  }
-  .course-head {
-    display: flex;
-    align-items: baseline;
-    gap: 0.7rem;
-    margin-bottom: 0.8rem;
-  }
-  .course-label {
-    color: var(--scs-accent);
-    white-space: nowrap;
   }
   .met-note {
     display: flex;
