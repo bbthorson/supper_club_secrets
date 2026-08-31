@@ -37,6 +37,12 @@ npm run check    # astro + TypeScript diagnostics
   with no change to this contract.
 - **Redaction** (`src/components/Redaction.astro`) is the spoiler bar: manual
   click/keyboard reveal, plus horizon-driven auto-reveal via `data-revealed-by`.
+- **Link previews** are Open Graph only (`og:*` in `Base.astro`) — X, Slack,
+  iMessage, Discord and Bluesky all read those, so a parallel `twitter:*` set
+  would be the same strings maintained twice. The card is `public/og.png`,
+  rendered from `scripts/og-card.html` by `node scripts/make-og.mjs` so it is set
+  in the real self-hosted faces from the locked tokens; edit the HTML, re-run,
+  commit the PNG.
 
 ## Pages
 

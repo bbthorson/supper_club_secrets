@@ -20,6 +20,8 @@ interface Props {
    *  of links beside the wordmark undoes the quiet it's built on. The footer
    *  still carries the way to everything. */
   nav?: boolean;
+  /** Open Graph type. `article` on a chapter; everything else is a `website`. */
+  ogType?: 'website' | 'article';
 }
 const {
   title,
@@ -28,8 +30,13 @@ const {
   book,
   canonical,
   nav = true,
+  ogType = 'website',
 } = Astro.props;
-const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const site = Astro.site ?? Astro.url.origin;
+const canonicalURL = new URL(canonical ?? Astro.url.pathname, site);
+// One card for the whole site, set in the real faces from the locked tokens —
+// see scripts/og-card.html. Absolute, because a share crawler has no base URL.
+const ogImage = new URL('/og.png', site);
 ---
 
 <!doctype html>
@@ -41,6 +48,19 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL.href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {/* Open Graph only. Twitter/X falls back to these, and Slack, iMessage,
+        Discord, Bluesky and the rest read og: directly — a parallel set of
+        twitter:* tags would be the same four strings maintained twice. */}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Supper Club Secrets" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.href} />
+    <meta property="og:image" content={ogImage.href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Supper Club Secrets — a weekly supper club in Williamsburg, Brooklyn" />
     <!-- pre-paint: stored theme + which front door this reader gets, no flash -->
     <script is:inline set:html={inlineHeadScript(currentBook().id)} />
   </head>

@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- Source for public/og.png — the link preview card. Rendered to PNG by
+     scripts/make-og.mjs, which loads the real self-hosted fonts and the locked
+     brand tokens, so this never re-derives a hex value or a font axis by hand.
+     BRAND.md §2: the primary lockup, minus the Thursdays the series doesn't
+     claim. Edit here, re-run the script, commit the PNG. -->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../protocol/brand/tokens.css" />
+<style>
+  @font-face {
+    font-family: 'Fraunces'; font-style: normal; font-weight: 100 900;
+    src: url('../public/fonts/Fraunces-roman-var.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Fraunces'; font-style: italic; font-weight: 100 900;
+    src: url('../public/fonts/Fraunces-italic-var.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Literata'; font-style: italic; font-weight: 400;
+    src: url('../public/fonts/Literata-400-italic.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Archivo'; font-style: normal; font-weight: 600;
+    src: url('../public/fonts/Archivo-600.woff2') format('woff2');
+  }
+
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    width: 1200px; height: 630px;
+    background: var(--scs-linen);
+    display: flex; align-items: center; justify-content: center;
+  }
+  /* the inset rule is the edge of a menu card, not a border on an image */
+  .card {
+    width: 1128px; height: 558px;
+    border: 1px solid var(--scs-hairline);
+    border-radius: var(--scs-radius);
+    background: var(--scs-card);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 0 72px;
+  }
+  .lockup {
+    font-family: var(--scs-font-display);
+    font-weight: var(--scs-type-poster-weight);
+    font-variation-settings: var(--scs-type-poster-variation);
+    font-size: 112px; line-height: 0.98;
+    color: var(--scs-espresso);
+  }
+  .pop { color: var(--scs-hotsauce); font-style: italic; }
+  /* the asterisk is brand grammar: it marks a secret and always pays off in a
+     footnote on the same surface (BRAND.md §2) */
+  .star { color: var(--scs-brass); font-style: normal; }
+
+  .leader {
+    width: 132px; margin: 36px 0 30px;
+    border-bottom: 3px dotted var(--scs-brass);
+  }
+  .where {
+    font-family: var(--scs-font-label);
+    font-weight: 600; font-size: 19px;
+    letter-spacing: var(--scs-label-tracking);
+    text-transform: uppercase;
+    color: rgba(42, 33, 28, 0.58);
+  }
+  .tagline {
+    font-family: var(--scs-font-display);
+    font-style: italic;
+    font-weight: var(--scs-type-romance-weight);
+    font-variation-settings: var(--scs-type-romance-variation);
+    font-size: 36px; line-height: 1.4;
+    color: var(--scs-espresso);
+    margin-top: 32px; max-width: 30ch;
+  }
+  .footnote {
+    font-family: var(--scs-font-body);
+    font-style: italic; font-size: 21px;
+    color: var(--scs-hotsauce);
+    margin-top: 36px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="lockup">Supper&nbsp;Club</div>
+    <div class="lockup"><span class="pop">Secrets</span><span class="star">*</span></div>
+    <div class="leader"></div>
+    <p class="where">Williamsburg, Brooklyn · a weekly supper club</p>
+    <p class="tagline">Six friends exploring the mysteries of Brooklyn, one meal at a time.</p>
+    <p class="footnote">*served family style</p>
+  </div>
+</body>
+</html>
