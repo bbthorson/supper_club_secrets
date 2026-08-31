@@ -11,8 +11,8 @@ interface Props {
   /** Hide the site chrome (header/footer) for full-bleed pages if ever needed. */
   bare?: boolean;
   /** Set on a book-scoped page, which adds that book's own nav (its menu and
-   *  timeline) alongside the series-level links. Series pages — the cellar, the
-   *  cast, the neighborhood — leave it unset. */
+   *  timeline) beside the wordmark. Series pages — the cellar, the cast, the
+   *  neighborhood — leave it unset and get the cellar link alone. */
   book?: Book;
   /** Overrides the canonical URL. */
   canonical?: string;
@@ -26,11 +26,10 @@ interface Props {
    *  the page to its record — the other half of standard.site verification. */
   documentUri?: string | null;
   /** How much footer a page gets. `full` is the house default. `lean` drops the
-   *  cast and the neighborhood and the where-line, for a page that is already a
-   *  destination rather than a place you pass through — the book's own page.
-   *  `quiet` drops the house note as well, for a page whose body already says it.
-   *  The cellar and the kitchen never leave: they are the way back. */
-  footer?: 'full' | 'lean' | 'quiet';
+   *  cast and the neighborhood, for a page that is already a destination rather
+   *  than a place you pass through — the book's own page, the front door. The
+   *  cellar and the kitchen never leave: they are the way back. */
+  footer?: 'full' | 'lean';
   /** Class on <body>, for a page that needs to reshape the chrome around it.
    *  Astro scopes this layout's own selectors, which out-specify a bare global
    *  rule from a page — so a page overriding `.site-main` needs a hook with
@@ -92,27 +91,23 @@ const ogImage = new URL('/og.png', site);
             <span class="wm-plain">Supper&nbsp;Club</span>
             <span class="wm-pop">Secrets</span>
           </a>
-          {nav && (
+          {/* Book-scoped links only. The cast and the neighborhood are surfaces
+              you discover by reading — chips at the end of every chapter, on the
+              timeline, on every hub — and they sit in the footer. */}
+          {nav && book && (
             <nav class="site-nav scs-label" aria-label="Primary">
-              {/* book-scoped first, then the series-level surfaces. The cast and
-                  the neighborhood are series records, so they never nest. */}
-              {book && (
-                <span class="nav-group">
-                  <a href={bookHref(book)}>Menu</a>
-                  <a href={timelineHref(book)}>Timeline</a>
-                </span>
-              )}
-              {/* Series level is just the cellar. The cast and the neighborhood
-                  are surfaces you discover by reading — chips at the end of every
-                  chapter, on the timeline, on every hub — and they sit in the
-                  footer. They earned nav space back when /places was orphaned;
-                  it isn't any more. */}
-              <a href="/cellar">Cellar</a>
+              <a href={bookHref(book)}>Menu</a>
+              <a href={timelineHref(book)}>Timeline</a>
             </nav>
           )}
-          <div class="toggle-slot">
-            <ThemeToggle />
-          </div>
+          {/* The one series-level link, on the right where the service toggle
+              used to sit: the cellar is the way out of a book and into the rest
+              of them, which is the only thing the top bar owes a reader. */}
+          {nav && (
+            <a class="nav-cellar scs-label" href="/cellar">
+              Cellar
+            </a>
+          )}
         </header>
       )
     }
@@ -122,18 +117,18 @@ const ogImage = new URL('/og.png', site);
     {
       !bare && (
         <footer class="site-footer">
-          {footer !== 'quiet' && (
-            <p class="foot-note">Please inform your host of any secrets before dining.</p>
-          )}
           <nav class="foot-nav scs-label" aria-label="Secondary">
             <a href="/cellar">The Cellar</a>
             {footer === 'full' && <a href="/characters">The Regulars</a>}
             {footer === 'full' && <a href="/places">The Neighborhood</a>}
             <a href="/kitchen">The Kitchen</a>
           </nav>
-          {footer === 'full' && (
-            <p class="foot-where scs-label">Williamsburg, Brooklyn · a weekly supper club</p>
-          )}
+          {/* After hours is a nice thing to find, not a thing to be offered on
+              the way in — so it sits at the foot of the page with the rest of
+              what the house can do. */}
+          <div class="toggle-slot">
+            <ThemeToggle />
+          </div>
         </footer>
       )
     }
@@ -141,10 +136,9 @@ const ogImage = new URL('/og.png', site);
 </html>
 
 <style>
-  /* Two rows on a phone — the wordmark and the service toggle belong together
-     at the top, the way a sign and a light switch do — collapsing to one row
-     once there is width for the nav between them. The old single flex row let
-     the nav's auto margin fight space-between, so the toggle wrapped alone. */
+  /* Two rows on a phone — the wordmark and the cellar are the sign and the door
+     to the rest of the house, so they share the top row — collapsing to one row
+     once there is width for the book's own links between them. */
   .site-header {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -155,31 +149,24 @@ const ogImage = new URL('/og.png', site);
     padding: 1.4rem clamp(1rem, 4vw, 2.5rem);
     border-bottom: var(--scs-leader);
   }
-  /* A wrapper, not `.theme-toggle` directly: Astro scopes styles to a
-     component's own template, so a selector here never reaches the button
-     inside ThemeToggle. */
   /* Last track, counted from the end: the header is two columns on a phone and
      three once the nav fits between, and on the front door there is no nav at
-     all. `grid-column: 2` was right for exactly one of those three and left the
-     toggle stranded mid-header on the others. */
-  .toggle-slot {
+     all. `grid-column: 2` would be right for exactly one of those three. */
+  .nav-cellar {
     grid-column: -2 / -1;
     grid-row: 1;
     justify-self: end;
+    color: var(--scs-ink-muted);
+    text-decoration: none;
+  }
+  .nav-cellar:hover {
+    color: var(--scs-accent);
   }
   .site-nav {
     grid-column: 1 / -1;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    /* the wider column gap is what separates book-scoped links from
-       series-scoped ones — a separator glyph strands at the end of a line
-       whenever the row wraps */
-    gap: 0.5rem 1.9rem;
-  }
-  .nav-group {
-    display: flex;
-    flex-wrap: wrap;
     gap: 0.5rem 1.1rem;
   }
   @media (min-width: 48rem) {
@@ -220,9 +207,9 @@ const ogImage = new URL('/og.png', site);
     margin: 0 auto;
     padding: clamp(1.5rem, 5vw, 3.5rem) clamp(1rem, 4vw, 2.5rem);
   }
-  /* Stacked and centred, like the foot of a menu card: the house note as the
-     signature, then the way back to everything, then where you are. The old
-     two-column split wrapped into an L on a phone. */
+  /* Stacked and centred, like the foot of a menu card: the way back to
+     everything, then the service toggle under it. The old two-column split
+     wrapped into an L on a phone. */
   .site-footer {
     max-width: 62rem;
     margin: 2rem auto 0;
@@ -237,12 +224,7 @@ const ogImage = new URL('/og.png', site);
     justify-content: center;
     align-items: baseline;
     gap: 0.5rem 1.6rem;
-    margin: 1.3rem 0 1.1rem;
-  }
-  /* On the front door the nav is the entire footer, and the margins that held
-     it off the note and the where-line become a lean toward the top. */
-  .foot-nav:only-child {
-    margin: 0;
+    margin: 0 0 1.3rem;
   }
   .foot-nav a {
     color: var(--scs-ink-muted);
@@ -251,18 +233,11 @@ const ogImage = new URL('/og.png', site);
   .foot-nav a:hover {
     color: var(--scs-accent);
   }
-  .foot-where {
-    margin: 0;
-  }
-  .site-footer .foot-note {
-    font-family: var(--scs-font-display);
-    font-style: italic;
-    font-weight: var(--scs-type-romance-weight);
-    font-variation-settings: var(--scs-type-romance-variation);
-    letter-spacing: 0;
-    text-transform: none;
-    font-size: 1.08rem;
-    color: var(--scs-ink-muted);
-    margin: 0;
+  /* A wrapper, not `.theme-toggle` directly: Astro scopes styles to a
+     component's own template, so a selector here never reaches the button
+     inside ThemeToggle. */
+  .toggle-slot {
+    display: flex;
+    justify-content: center;
   }
 </style>

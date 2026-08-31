@@ -81,10 +81,30 @@ file at all and the link tag doesn't render — a placeholder AT-URI is a failed
 verification, which is worse than an absent one on a standard built on proving
 that a domain and a record belong together.
 
-To turn it on: get an AT Protocol identity, take the record bodies built at
-`/data/standard-site.json`, create them on your PDS, then paste the DID and the
-rkeys into `src/lib/standard-site.ts`. That payload's `ready` / `unresolved`
-fields say whether it can be published as-is and what's missing if not.
+The identity is set up: **`supperclubsecrets.bsky.social`**,
+`did:plc:zvimgmqci4atuvxye2olyn7c`. Both are in `standard-site.ts` — the handle
+only so a reader knows whose publication this is, since a handle can move
+between accounts and the standard verifies against the DID.
+
+Two steps are left, and `/data/standard-site.json` reports which are still
+outstanding in its `unresolved` list:
+
+1. **Set `STANDARD_SITE.publishedAt`** to the date the book went live. It's
+   required on every document record, and drip serialization leaves the
+   per-chapter `publishDate` frontmatter empty until a chapter is actually
+   served — so without the fallback all 25 payloads carry a null and can't be
+   created.
+2. **Create the records** on the PDS from the bodies at
+   `/data/standard-site.json` — one `site.standard.publication`, then one
+   `site.standard.document` per chapter — and paste the rkeys those writes
+   return into `publicationRkey` and `documentRkeys`.
+
+Until the publication record exists the site stays silent even with the DID in
+place: the well-known route still emits no file and no chapter renders a link
+tag, because there is no record for either to point at.
+
+Nothing in this repo performs those writes: they need credentials for the
+account, which don't belong in a static site's build.
 
 Two decisions worth knowing about, both in `standard-site.ts`:
 
@@ -134,8 +154,22 @@ canonical/sitemap URLs are correct.
 
 ## Deferred (next pass)
 
-Timeline Explorer, horizon-gated character profiles, location/character feeds, the
-CASE CLOSED in the cellar. These need three cheap, additive data changes in the pipeline
-first (noted in the plan): populate chapter `publishDate`, add per-field
-`revealedBy` provenance to `character.profile` records, and normalize a numeric
-`firstRevealedChapter` onto `place`/`item` records.
+Most of what this section used to list has shipped: the Timeline Explorer
+(`/books/<slug>/timeline` — a spoiler-free scaffold of dates and chapter ranges,
+with each beat's detail unlocking at the horizon), the location and character
+feeds (`FeedLens` on `/places/<id>` and `/characters/<id>`, both drawn through
+`loadUpToHorizon`), and the CASE CLOSED stamp in the cellar. One of the three
+data prerequisites it named turned out not to be needed either: first appearance
+is derived from scene participants at build time (`records.ts`), so nothing has
+to carry a normalized `firstRevealedChapter`.
+
+Two things are actually left:
+
+- **Per-field `revealedBy` provenance on `character.profile`.** A character hub's
+  *feed* is horizon-gated; the persona block above it isn't. `personaPublic` and
+  `keyContradiction` read the same at Chapter 1 as at Chapter 25. Gating them one
+  field at a time needs the records to say which chapter each field is safe from.
+- **Populate chapter `publishDate`.** Drip serialization is built and inert: with
+  no dates in frontmatter, every chapter is served. See the note on `publishedAt`
+  in `standard-site.ts` — holding chapters back from readers is this lever, and
+  it's a launch decision rather than a config default.

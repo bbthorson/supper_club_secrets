@@ -2,9 +2,10 @@
  * standard.site — the AT Protocol lexicons for long-form publishing
  * (`site.standard.*`). This file is the site's half of that contract.
  *
- * WHAT THIS IS AND ISN'T. The records themselves live on a PDS under an
- * identity we don't have yet, so nothing here creates or publishes anything.
- * What the *website* owes the standard is two verification artifacts:
+ * WHAT THIS IS AND ISN'T. The identity exists (see `handle` below), but the
+ * records themselves live on a PDS and are created by an authenticated write —
+ * so nothing in this repo creates or publishes anything. What the *website*
+ * owes the standard is two verification artifacts:
  *
  *   1. `/.well-known/site.standard.publication` returning the publication's
  *      AT-URI, which proves the domain and the record belong together.
@@ -17,9 +18,12 @@
  * AT-URI would be worse than an absent one — it claims a record that isn't
  * there, on a standard whose whole point is verification.
  *
- * WHAT A HUMAN HAS TO DO. Get an AT Protocol identity, create the publication
- * record and one document record per chapter (the payloads are built for you at
- * `/data/standard-site.json`), then paste the DID and the rkeys in here.
+ * WHAT A HUMAN HAS TO DO. The account is made and the DID is resolved. What's
+ * left is the writes: create the publication record and one document record per
+ * chapter — the payloads are built for you at `/data/standard-site.json` — and
+ * paste the rkeys those writes return in here. Set `publishedAt` first; a
+ * document record can't be created without one. `/data/standard-site.json`
+ * reports what's still outstanding.
  *
  * The series is the publication and a chapter is a document. That's the mapping
  * the standard is shaped for — a chapter is the serialized unit that gets
@@ -27,7 +31,24 @@
  */
 
 export interface StandardSiteConfig {
-  /** `did:plc:…` for the identity that owns the records. Empty = not set up. */
+  /**
+   * The account the records belong to. Nothing is derived from it — a handle is
+   * a rented name and can move, which is exactly why the standard verifies
+   * against a DID instead. It's recorded here so a reader of this repo knows
+   * whose publication this is, and so whoever creates the records knows which
+   * account to sign in as.
+   */
+  handle: string;
+  /**
+   * `did:plc:…` for the identity that owns the records — the stable half of the
+   * pair above, and the only one the AT-URIs are built from. Empty = the handle
+   * hasn't been resolved yet. Resolved with:
+   *
+   *     curl 'https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=<handle>'
+   *
+   * A DID being present is not on its own enough to render anything: both
+   * verification artifacts also need a record to point at.
+   */
   did: string;
   /** rkey of the `site.standard.publication` record. */
   publicationRkey: string;
@@ -40,6 +61,16 @@ export interface StandardSiteConfig {
    * empty until a book is actually being served, so this is the date the book
    * went live. Empty = the payload reports the chapter as unresolved rather
    * than inventing a timestamp.
+   *
+   * DELIBERATELY EMPTY, and it stays that way until we mean it. Setting this is
+   * what unblocks creating the document records, and those records — with
+   * `showInDiscover` on the publication — are how the series announces itself to
+   * the network. That is a launch, and it should happen on purpose.
+   *
+   * Note what this does *not* gate: the website. No chapter carries a
+   * `publishDate`, so all of them are served today to anyone with the URL. The
+   * lever for holding chapters back from readers is per-chapter `publishDate`
+   * frontmatter, not this field.
    */
   publishedAt: string;
   /**
@@ -56,7 +87,8 @@ export interface StandardSiteConfig {
 }
 
 export const STANDARD_SITE: StandardSiteConfig = {
-  did: '',
+  handle: 'supperclubsecrets.bsky.social',
+  did: 'did:plc:zvimgmqci4atuvxye2olyn7c',
   publicationRkey: '',
   documentRkeys: {},
   publishedAt: '',

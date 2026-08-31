@@ -33,7 +33,12 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
           <Stamp text="Case Closed" />
         </span>
       </div>
-      <a class="book-cta scs-label" href={bookHref(book)} data-cta>Open the menu</a>
+      {/* The menu, not chapter one: the cellar is where you choose a book, and
+          the menu is how a house hands one over. Only a reader who is already
+          mid-book gets pointed straight at a chapter. */}
+      <a class="book-cta scs-label" href={bookHref(book)} data-cta>
+        See the menu
+      </a>
     </div>
   </article>
 
@@ -156,6 +161,7 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
       statusEl.hidden = true;
       if (stampEl) stampEl.hidden = false;
       if (ctaEl) ctaEl.textContent = 'Read it again';
+      /* href stays on the menu: someone re-reading picks their chapter */
     } else if (horizon > 0) {
       statusEl.textContent = `In progress · Chapter ${horizon}`;
       if (ctaEl) {
@@ -165,10 +171,8 @@ const upcoming = ['Two', 'Three', 'Four', 'Five', 'Six'];
       }
     } else {
       statusEl.textContent = 'Not started';
-      if (ctaEl) {
-        ctaEl.textContent = 'Start reading';
-        ctaEl.href = `${readBase}/1`;
-      }
+      /* the server-rendered CTA — "See the menu", pointed at the menu — is
+         already right for a reader who hasn't started */
     }
   }
 </script>
