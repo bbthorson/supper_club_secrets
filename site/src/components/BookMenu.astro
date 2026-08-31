@@ -1,8 +1,7 @@
 ---
-// A book's front page: the stateful cover, then the menu card. Rendered by both
-// `/` (for the current book) and `/books/<slug>` (for any book), so the two
-// never drift — `/` declares the book URL as canonical rather than duplicating
-// a second, subtly different page.
+// A book's front page: the stateful cover, then the menu card. Lives at
+// `/books/<slug>`, and only there. `/` is the host stand — a check-in, not a
+// menu — and it links here the way a host hands the menu over.
 import { getCollection } from 'astro:content';
 import MenuCard, { type Course } from './MenuCard.astro';
 import { SERIES_TAGLINE, type Book } from '../lib/books';
@@ -151,6 +150,4 @@ const courseSpans = courses
   }
 
   renderCover();
-  // the host stand can set a horizon after this script has already run
-  window.addEventListener('scs:horizon', renderCover);
 </script>

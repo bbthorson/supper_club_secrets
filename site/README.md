@@ -6,7 +6,7 @@ and no atproto dependency — the primary way readers meet the book.
 
 **This is Milestone 1: the reading experience itself** — the menu, the reading
 room, the canon horizon, and the redaction. The record-set lenses (Timeline
-Explorer, character profiles, feeds, the shelf) are a later pass.
+Explorer, character profiles, feeds, the cellar) are a later pass.
 
 ## Run
 
@@ -30,20 +30,71 @@ npm run check    # astro + TypeScript diagnostics
   self-hosted in `public/fonts/` (see that folder's README); no CDN.
 - **The canon horizon** (`src/lib/horizon.ts`) is the core object: a per-reader
   bookmark in localStorage (`scs:progress`, versioned + per-book), monotonic by
-  chapter number. The menu's "continue reading" and the redaction's auto-reveal
-  both read it. A pre-paint head script (`src/lib/horizon-inline.ts`) applies the
-  stored theme + progress with no flash. Designed to attach to an identity later
+  chapter number. The front door, the menu's "continue reading" and the
+  redaction's auto-reveal all read it. A pre-paint head script
+  (`src/lib/horizon-inline.ts`) applies the stored theme and picks the front-door
+  panel with no flash. Designed to attach to an identity later
   with no change to this contract.
 - **Redaction** (`src/components/Redaction.astro`) is the spoiler bar: manual
   click/keyboard reveal, plus horizon-driven auto-reveal via `data-revealed-by`.
+- **Link previews** are Open Graph only (`og:*` in `Base.astro`) — X, Slack,
+  iMessage, Discord and Bluesky all read those, so a parallel `twitter:*` set
+  would be the same strings maintained twice. The card is `public/og.png`,
+  rendered from `scripts/og-card.html` by `node scripts/make-og.mjs` so it is set
+  in the real self-hosted faces from the locked tokens; edit the HTML, re-run,
+  commit the PNG.
 
 ## Pages
 
 | Route | What |
 |---|---|
-| `/` | The menu — Book 1 as a four-course menu card, all 25 chapters |
-| `/read/[chapter]` | The reading room — one page per chapter, day/night |
+| `/` | The front door — the host stand: have you dined with us before, and the one way in that follows from the answer |
+| `/cellar` | The series cellar — what's served, what's still laid down (`/shelf` redirects here) |
+| `/books/[book]` | The menu — a book as a four-course menu card, every served chapter |
+| `/books/[book]/read/[chapter]` | The reading room — one page per chapter, day/night |
+| `/books/[book]/timeline` | The case timeline, drawn at your horizon |
+| `/characters`, `/characters/[id]` | The regulars (series-scoped) |
+| `/places`, `/places/[id]` | The neighborhood (series-scoped) |
+| `/kitchen` | The colophon — how the book becomes the site, and how to make it forget you |
 | `/404` | Off-menu |
+
+`/` is deliberately **not** the menu. The site gates everything on how far you've
+read, so the first thing it does is ask — and give something back for answering:
+a place that's still yours when you come back, on a device that has never seen
+you. Three panels ship in one document (stranger / seated / returning) and the
+pre-paint script picks one before anything is painted. With no JavaScript the
+greeting shows, which is true for everyone.
+
+## standard.site (AT Protocol)
+
+The series is a `site.standard.publication`; each chapter is a
+`site.standard.document`. The records live on a PDS, so the site only owns the
+two verification artifacts, both derived from `src/lib/standard-site.ts`:
+
+| Artifact | Where |
+|---|---|
+| `/.well-known/site.standard.publication` | `src/pages/.well-known/[...file].ts` — the publication's AT-URI |
+| `<link rel="site.standard.document">` | `Base.astro`, per chapter, via `ReadingRoom.astro` |
+
+Both are **silent until configured**. With no DID the well-known route emits no
+file at all and the link tag doesn't render — a placeholder AT-URI is a failed
+verification, which is worse than an absent one on a standard built on proving
+that a domain and a record belong together.
+
+To turn it on: get an AT Protocol identity, take the record bodies built at
+`/data/standard-site.json`, create them on your PDS, then paste the DID and the
+rkeys into `src/lib/standard-site.ts`. That payload's `ready` / `unresolved`
+fields say whether it can be published as-is and what's missing if not.
+
+Two decisions worth knowing about, both in `standard-site.ts`:
+
+- **`includeTextContent` is off.** Putting the prose in the records publishes all
+  twenty-five chapters as public data, which makes the canon horizon a
+  website-only courtesy. Metadata federates; the prose stays here. Flip it on
+  purpose or not at all.
+- **Every document's `description` is the book's logline**, never a per-chapter
+  summary — a description of Chapter 19 is a spoiler wherever it's syndicated,
+  and the horizon can't reach into someone else's feed.
 
 ## Deploy to Cloudflare Workers
 
@@ -84,7 +135,7 @@ canonical/sitemap URLs are correct.
 ## Deferred (next pass)
 
 Timeline Explorer, horizon-gated character profiles, location/character feeds, the
-CASE CLOSED shelf. These need three cheap, additive data changes in the pipeline
+CASE CLOSED in the cellar. These need three cheap, additive data changes in the pipeline
 first (noted in the plan): populate chapter `publishDate`, add per-field
 `revealedBy` provenance to `character.profile` records, and normalize a numeric
 `firstRevealedChapter` onto `place`/`item` records.

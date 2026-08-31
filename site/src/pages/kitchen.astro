@@ -214,7 +214,7 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
 </style>
 
 <script>
-  import { getHorizon, clearProgress, clearCheckIn } from '../lib/horizon';
+  import { getHorizon, getCheckIn, clearProgress, clearCheckIn } from '../lib/horizon';
 
   const root = document.querySelector<HTMLElement>('[data-kitchen]');
   const BOOK = root?.dataset.book ?? '';
@@ -224,19 +224,34 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
   const btn = document.querySelector<HTMLButtonElement>('[data-forget]');
   const note = document.querySelector<HTMLElement>('[data-forget-note]');
 
+  // The check-in is stored too, and it's what decides which front door you get.
+  // A reader who was seated but hasn't read anything used to be told nothing was
+  // stored — untrue, and it left them no way to undo a mis-tap at the door.
+  function restingLabel() {
+    return getHorizon(BOOK) > 0 ? 'Forget what I’ve read' : 'Forget that I’ve been here';
+  }
+
   function render() {
     const horizon = getHorizon(BOOK);
+    const checkIn = getCheckIn();
     if (!stateEl) return;
-    if (horizon <= 0) {
+    if (btn) btn.textContent = restingLabel();
+
+    if (horizon <= 0 && !checkIn) {
       stateEl.textContent = "Nothing stored yet — you haven't started reading in this browser.";
       if (btn) btn.hidden = true;
       if (note) note.hidden = true;
       return;
     }
-    stateEl.textContent =
-      horizon >= TOTAL_CHAPTERS
-        ? `This browser has you at the end of Book ${root?.dataset.ordinal ?? 'One'} — all ${TOTAL_CHAPTERS} chapters.`
-        : `This browser has you at Chapter ${horizon} of ${TOTAL_CHAPTERS}.`;
+    if (horizon <= 0) {
+      stateEl.textContent =
+        'This browser has you checked in, and nothing read yet — so the front door seats you rather than asking again.';
+    } else {
+      stateEl.textContent =
+        horizon >= TOTAL_CHAPTERS
+          ? `This browser has you at the end of Book ${root?.dataset.ordinal ?? 'One'} — all ${TOTAL_CHAPTERS} chapters.`
+          : `This browser has you at Chapter ${horizon} of ${TOTAL_CHAPTERS}.`;
+    }
     if (btn) btn.hidden = false;
     if (note) note.hidden = false;
   }
@@ -253,7 +268,7 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
       window.setTimeout(() => {
         if (!armed) return;
         armed = false;
-        btn.textContent = 'Forget what I’ve read';
+        btn.textContent = restingLabel();
         btn.classList.remove('is-confirming');
       }, 5000);
       return;
@@ -263,7 +278,6 @@ const PINAKES_URL = 'https://www.npmjs.com/package/@bbthorson/pinakes';
     // forgetting what you've read makes you a stranger again, so the host
     // stand should greet you on the way back in
     clearCheckIn();
-    btn.textContent = 'Forget what I’ve read';
     btn.classList.remove('is-confirming');
     render();
     if (stateEl) stateEl.textContent = 'Forgotten. The site is back to knowing nothing about you.';

@@ -3,7 +3,7 @@ import '../../../protocol/brand/tokens.css';
 import '../styles/base.css';
 import { inlineHeadScript } from '../lib/horizon-inline';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import { SERIES_TAGLINE, bookHref, timelineHref, type Book } from '../lib/books';
+import { SERIES_TAGLINE, bookHref, currentBook, timelineHref, type Book } from '../lib/books';
 
 interface Props {
   title: string;
@@ -11,12 +11,25 @@ interface Props {
   /** Hide the site chrome (header/footer) for full-bleed pages if ever needed. */
   bare?: boolean;
   /** Set on a book-scoped page, which adds that book's own nav (its menu and
-   *  timeline) alongside the series-level links. Series pages — the shelf, the
+   *  timeline) alongside the series-level links. Series pages — the cellar, the
    *  cast, the neighborhood — leave it unset. */
   book?: Book;
-  /** Overrides the canonical URL. `/` sets it to the current book's page,
-   *  since both render the same menu. */
+  /** Overrides the canonical URL. */
   canonical?: string;
+  /** Set false on the front door: the host stand *is* the navigation, and a row
+   *  of links beside the wordmark undoes the quiet it's built on. The footer
+   *  still carries the way to everything. */
+  nav?: boolean;
+  /** Open Graph type. `article` on a chapter; everything else is a `website`. */
+  ogType?: 'website' | 'article';
+  /** This page's `site.standard.document` AT-URI, when it has a record. Ties
+   *  the page to its record — the other half of standard.site verification. */
+  documentUri?: string | null;
+  /** Class on <body>, for a page that needs to reshape the chrome around it.
+   *  Astro scopes this layout's own selectors, which out-specify a bare global
+   *  rule from a page — so a page overriding `.site-main` needs a hook with
+   *  more weight than the class alone, not a louder guess. */
+  bodyClass?: string;
 }
 const {
   title,
@@ -24,8 +37,16 @@ const {
   bare = false,
   book,
   canonical,
+  nav = true,
+  ogType = 'website',
+  documentUri = null,
+  bodyClass,
 } = Astro.props;
-const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const site = Astro.site ?? Astro.url.origin;
+const canonicalURL = new URL(canonical ?? Astro.url.pathname, site);
+// One card for the whole site, set in the real faces from the locked tokens —
+// see scripts/og-card.html. Absolute, because a share crawler has no base URL.
+const ogImage = new URL('/og.png', site);
 ---
 
 <!doctype html>
@@ -37,10 +58,26 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL.href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <!-- pre-paint: apply stored theme + load progress, no flash -->
-    <script is:inline set:html={inlineHeadScript} />
+    {/* Open Graph only. Twitter/X falls back to these, and Slack, iMessage,
+        Discord, Bluesky and the rest read og: directly — a parallel set of
+        twitter:* tags would be the same four strings maintained twice. */}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Supper Club Secrets" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.href} />
+    <meta property="og:image" content={ogImage.href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Supper Club Secrets — a weekly supper club in Williamsburg, Brooklyn" />
+    {/* standard.site: this page's record, when it has one. Rendered only for a
+        chapter whose rkey is in the config — never as a placeholder. */}
+    {documentUri && <link rel="site.standard.document" href={documentUri} />}
+    <!-- pre-paint: stored theme + which front door this reader gets, no flash -->
+    <script is:inline set:html={inlineHeadScript(currentBook().id)} />
   </head>
-  <body>
+  <body class={bodyClass}>
     {
       !bare && (
         <header class="site-header">
@@ -48,22 +85,24 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
             <span class="wm-plain">Supper&nbsp;Club</span>
             <span class="wm-pop">Secrets</span>
           </a>
-          <nav class="site-nav scs-label" aria-label="Primary">
-            {/* book-scoped first, then the series-level surfaces. The cast and
-                the neighborhood are series records, so they never nest. */}
-            {book && (
-              <span class="nav-group">
-                <a href={bookHref(book)}>Menu</a>
-                <a href={timelineHref(book)}>Timeline</a>
-              </span>
-            )}
-            {/* Series level is just the shelf. The cast and the neighborhood
-                are surfaces you discover by reading — chips at the end of every
-                chapter, on the timeline, on every hub — and they sit in the
-                footer. They earned nav space back when /places was orphaned;
-                it isn't any more. */}
-            <a href="/shelf">Shelf</a>
-          </nav>
+          {nav && (
+            <nav class="site-nav scs-label" aria-label="Primary">
+              {/* book-scoped first, then the series-level surfaces. The cast and
+                  the neighborhood are series records, so they never nest. */}
+              {book && (
+                <span class="nav-group">
+                  <a href={bookHref(book)}>Menu</a>
+                  <a href={timelineHref(book)}>Timeline</a>
+                </span>
+              )}
+              {/* Series level is just the cellar. The cast and the neighborhood
+                  are surfaces you discover by reading — chips at the end of every
+                  chapter, on the timeline, on every hub — and they sit in the
+                  footer. They earned nav space back when /places was orphaned;
+                  it isn't any more. */}
+              <a href="/cellar">Cellar</a>
+            </nav>
+          )}
           <div class="toggle-slot">
             <ThemeToggle />
           </div>
@@ -78,7 +117,7 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
         <footer class="site-footer">
           <p class="foot-note">Please inform your host of any secrets before dining.</p>
           <nav class="foot-nav scs-label" aria-label="Secondary">
-            <a href="/shelf">The Shelf</a>
+            <a href="/cellar">The Cellar</a>
             <a href="/characters">The Regulars</a>
             <a href="/places">The Neighborhood</a>
             <a href="/kitchen">The Kitchen</a>
@@ -108,8 +147,12 @@ const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site ?? Astr
   /* A wrapper, not `.theme-toggle` directly: Astro scopes styles to a
      component's own template, so a selector here never reaches the button
      inside ThemeToggle. */
+  /* Last track, counted from the end: the header is two columns on a phone and
+     three once the nav fits between, and on the front door there is no nav at
+     all. `grid-column: 2` was right for exactly one of those three and left the
+     toggle stranded mid-header on the others. */
   .toggle-slot {
-    grid-column: 2;
+    grid-column: -2 / -1;
     grid-row: 1;
     justify-self: end;
   }

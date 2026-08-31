@@ -89,7 +89,7 @@ export const BOOKS: Book[] = [
   },
 ];
 
-/** Books whose menus are public. Books 2–6 exist as sealed spines on the shelf
+/** Books whose menus are public. Books 2–6 exist as sealed spines in the cellar
  *  and are deliberately not registered here until they have content. */
 export function publishedBooks(): Book[] {
   return BOOKS;
