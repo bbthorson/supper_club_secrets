@@ -154,8 +154,22 @@ canonical/sitemap URLs are correct.
 
 ## Deferred (next pass)
 
-Timeline Explorer, horizon-gated character profiles, location/character feeds, the
-CASE CLOSED in the cellar. These need three cheap, additive data changes in the pipeline
-first (noted in the plan): populate chapter `publishDate`, add per-field
-`revealedBy` provenance to `character.profile` records, and normalize a numeric
-`firstRevealedChapter` onto `place`/`item` records.
+Most of what this section used to list has shipped: the Timeline Explorer
+(`/books/<slug>/timeline` — a spoiler-free scaffold of dates and chapter ranges,
+with each beat's detail unlocking at the horizon), the location and character
+feeds (`FeedLens` on `/places/<id>` and `/characters/<id>`, both drawn through
+`loadUpToHorizon`), and the CASE CLOSED stamp in the cellar. One of the three
+data prerequisites it named turned out not to be needed either: first appearance
+is derived from scene participants at build time (`records.ts`), so nothing has
+to carry a normalized `firstRevealedChapter`.
+
+Two things are actually left:
+
+- **Per-field `revealedBy` provenance on `character.profile`.** A character hub's
+  *feed* is horizon-gated; the persona block above it isn't. `personaPublic` and
+  `keyContradiction` read the same at Chapter 1 as at Chapter 25. Gating them one
+  field at a time needs the records to say which chapter each field is safe from.
+- **Populate chapter `publishDate`.** Drip serialization is built and inert: with
+  no dates in frontmatter, every chapter is served. See the note on `publishedAt`
+  in `standard-site.ts` — holding chapters back from readers is this lever, and
+  it's a launch decision rather than a config default.
