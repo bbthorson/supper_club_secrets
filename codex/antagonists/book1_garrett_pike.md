@@ -92,7 +92,7 @@ This is the key irony: Garrett's entire model is built on understanding markets,
 
 ## After Book 1
 
-The waterfront restaurant is on indefinite hold. Investors pulled back. The patent filing is being challenged. Garrett's reputation took a hit, but he's not destroyed — he's regrouping. He still has three operating restaurants, money in the bank, and lawyers on retainer.
+The waterfront restaurant is on indefinite hold. Investors pulled back. The heritage-pepper patent claims were abandoned under that pressure — a public non-enforcement pledge, the filings dropped (Ch. 24–25) — which cost him the weapon but not the war chest. Garrett's reputation took a hit, but he's not destroyed — he's regrouping. He still has three operating restaurants, money in the bank, and lawyers on retainer.
 
 He will surface again. Not as a direct antagonist (that story is told), but as part of the ecosystem. His name might come up in Book 2 (the bureaucratic squeeze — did his lawyers pioneer that playbook?). He might be seen at a restaurant opening in Book 4. By Book 6, someone in Jasper's family's orbit might know him socially.
 

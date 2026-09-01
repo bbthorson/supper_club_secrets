@@ -95,5 +95,8 @@ He relies on her. He knows he relies on her. Sometimes this worries him—what w
 - Reflects on Olivia as his "anchor" while at the library — wonders whether that's a compliment or a limitation (Ch. 6)
 - Habit of pushing his glasses up when thinking or processing new information (multiple chapters)
 - Paces during his crisis speech in Ch. 15 and his rebuttal strategy in Ch. 16 — something none of them had ever seen him do
-- Reveals he's "talked strangers down from panic attacks" and "managed crises that would make this look like a parking ticket" through his online moderator experience (Ch. 15)
+- The narration frames the reveal: "the respected moderator who'd talked strangers down from panic and coordinated real responses to real harassment" (Ch. 15) — he never brags in dialogue; the scale of the online life stays understated
+- Olivia's reception of the reveal is stillness, not surprise (Ch. 15) — she knew the shape, never the specifics (see `continuity.md`)
+- Asks the procedural question at the midpoint dinner — "Would the patents survive a challenge?" — teeing up Elijah's cost-of-litigation hedge (Ch. 12)
+- Corrects the commentator's instrument error in the rebuttal: "You can't trademark a recipe… Pike patented the category itself" (Ch. 24)
 - Growth: Emerges from his shell under pressure; the group sees a glimpse of his confident online persona
