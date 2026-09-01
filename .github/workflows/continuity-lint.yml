@@ -1,0 +1,49 @@
+# Continuity lint — runs on every PR before merge.
+#
+# Two deterministic gates:
+#   1. `pinakes lint`    — story continuity + entity resolution must pass.
+#   2. records drift     — `pinakes compile` must reproduce the committed
+#                          `records/` exactly. Stale records were a recurring
+#                          audit finding class; this makes them unmergeable.
+#
+# Pinakes comes from npm at a PINNED version. To upgrade: bump PINAKES_VERSION,
+# run `npx @bbthorson/pinakes@<new> compile` locally, and commit the regenerated
+# records/ in the same PR so the drift gate stays green.
+#
+# What this deliberately does NOT do: prose-level checks (canon-check,
+# story-audit) are judgment passes, not deterministic lints — they stay in the
+# editorial workflow, not CI.
+
+name: continuity-lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  PINAKES_VERSION: 0.2.1
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout story repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Continuity lint
+        run: npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} lint
+
+      - name: Records drift gate
+        run: |
+          npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile
+          if ! git diff --exit-code -- records/; then
+            echo '::error::records/ is stale — run `npx @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile` locally and commit the regenerated records.'
+            exit 1
+          fi
