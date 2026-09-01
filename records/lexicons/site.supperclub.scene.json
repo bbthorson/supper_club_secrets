@@ -62,6 +62,14 @@
             "description": "Story beat label.",
             "maxLength": 512
           },
+          "tags": {
+            "type": "array",
+            "description": "Labels from the chapter's `tags` frontmatter.",
+            "items": {
+              "type": "string",
+              "maxLength": 128
+            }
+          },
           "placeRefs": {
             "type": "array",
             "description": "Registry ids of resolved locations.",

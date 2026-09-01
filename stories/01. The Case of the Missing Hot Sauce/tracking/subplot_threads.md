@@ -20,7 +20,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 9 | developing | Noah traces shell entities, finds patent filings on "shelf-stable capsicum-based flavor enhancers." | Corporate trace |
 | 10 | complicated | Jasper calls Brenda. Brenda recognizes LLC. **Inadvertent breach:** Brenda calls the mogul's people. | Phone call + missed warning text |
 | 11 | developing | Sofia tells Emma about Hank's "big offer to go legit" + Paolo precedent (same playbook). | Sofia conversation |
-| 12 | paid off (false victory) | Findings converge. The mogul identified structurally — "We just don't have a face yet" (Elijah, Ch12); Sofia had called him "a restaurant guy who's been buying up properties" (Ch11). The name (Garrett Pike) lands in Ch13. | Dinner debrief |
+| 12 | paid off (false victory) | Findings converge. The mogul identified structurally — "We just don't have a face yet" (Elijah, Ch12); Sofia had called him "a restaurant guy who's been buying up properties" (Ch11). The name (Garrett Pike) lands in Ch13. **Patent-troll economics planted** (2026-09-01): Oliver asks if the patents would survive; Elijah's prior-art/cost hedge — "They don't have to be right. They have to be unaffordable" — is the thesis Oliver cites in the Ch24 toolkit. | Dinner debrief |
 | 13 | complicated | Pike confronts Emma on-page; the economic squeeze + C&D land. The letter names no secrets. | Pike market confrontation (Ch13) |
 | 14 | developing | Group reads C&D. Elijah declares it "toothless" but acknowledges intimidation is real. | Emergency dinner |
 | 15 | complicated | Information flow traced back to Jasper's Brenda call. Group fractures briefly. | Jasper's confession |
@@ -28,7 +28,7 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 17 | developing | Each character prepares their piece. | Vignettes |
 | 18 | developing | Campaign launches. First small blogs pick up. Hope. | Friday morning launch |
 | 20 | complicated | Counterpunch: conservative commentator, takedown notices, anonymous account traced. Doubt. | Ch20 (drafted) |
-| 24 | paid off | Oliver's rebuttal lands. Food critic picks up the story. Sentiment flips. Investors pull. C&D withdrawn. | Ch24 (drafted) |
+| 24 | paid off | Oliver's rebuttal lands (patent-troll economics + Paolo precedent + ghost-kitchen evidence). Food critic picks up the story. Sentiment flips. Investors pull. Patent claims abandoned; C&D withdrawal follows off-page (Fri Oct 23, reported Ch25). | Ch24 (revised 2026-09-01) |
 | 25 | paid off (final) | Hank returns. Filed proper trademark with pro bono lawyer. Bottle on the table. | "So I filed the application this morning. Felt like a formality." |
 
 ---
@@ -88,10 +88,10 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 | 10 | complicated | Calls Brenda from a place of competitive itch (everyone else has contributed). The chaos has a motive: feeling left out. | "Watching the group chat all week" |
 | 15 | complicated (peak) | Confesses. "All I've got is knowing people. And I thought, for once, that would be enough." Noah lashes out. The reversal — Jasper goes quiet. | Confession + Noah fight |
 | 16 | developing | Assigned redemption mission: find Hank. "I know somebody" — quiet resolve: "no performance in it — just a man who owed his friends something he couldn't pay back with words." | Mission assignment |
-| 17 | complicated (planted twist) | Takes Dorothy's original bottle from Emma's counter on his way out. Doesn't tell her. Packs it for the PA journey. | Ch17 packing scene |
-| 19 | developing (road) | *From the road (Fri).* First night of nursery calls at a Route 30 diner. Dead ends; the loneliness under the performance surfaces alone. | Ch19 diner |
-| 21 | developing (road) | *From the road (Sat).* Noah turns his list into a pruned spreadsheet (conduit pattern forming); a seed supplier names a collective "out past the city." First real lead. | Ch21 drive-in |
-| 22 | complicated (road, low point) | *From the road (Sun).* Lead cold a day and a half; 20+ calls, a bad motel; he nearly drives home — then a bartender names Meadowlight. | Ch22 dive |
+| 17 | complicated (planted twist) | Takes Dorothy's original bottle from Emma's counter on his way out. Doesn't tell her. Packs it for the PA journey. **Origin of the collective thread:** carries the nursery woman's rumor out of Brooklyn — "no name, no address, a rumor of a place." | Ch17 packing scene |
+| 19 | developing (road) | *From the road (Fri).* First night of nursery calls at a Route 30 diner. The Ch17 rumor is downgraded on the page (nursery woman adds only provenance — a growers' swap, no name, no town); Jasper's text to Noah names the collective, briefing the conduit. Dead ends; the loneliness under the performance surfaces alone. | Ch19 diner |
+| 21 | developing (road) | *From the road (Sat).* Noah turns his list into a pruned spreadsheet (conduit pattern forming); a seed supplier confirms the Ch17 rumor and gives it a name fragment ("meadow-something"). The rumor firms up. | Ch21 drive-in |
+| 22 | complicated (road, low point) | *From the road (Sun).* Lead cold a day and a half; 20+ calls, a bad motel; he nearly drives home — then a bartender names Meadowlight and Murph's cousin starts the vouch-in (Monday spent waiting, off-page). | Ch22 dive |
 | 23 | paid off (action) | Finds Hank at Meadowlight after 20+ calls and a 5-day search. Shows him the bottle. Tells him the full truth, including his mistake. Texts Noah directly with updates (not the group) — establishes conduit pattern. | Greenhouse scene + Noah text exchange |
 | 25 | paid off (return) | Returns the bottle to Emma with an apology. Brings Hank. Reversion to performative chaos (Red Hook theory) is now earned — he gave back what he took, kept his word, owned the conduit pattern with Noah explicitly. The performance is a choice now, not armor. | Final scene |
 
@@ -118,9 +118,10 @@ Every thread tracked chapter-by-chapter. Status values: `introduced`, `developin
 |----|--------|--------------|----------------|
 | 7 | introduced (subtly) | Olivia coaxes Oliver to share the LLC finding with the group. He won't. She files it away. | "She pushes him: 'Tell the group.' He won't." |
 | 14 | developing (subtly) | Olivia stress-organizing Emma's spice rack three times during campaign wait. Stress projection. | Spice rack |
+| 15 | developing (subtly, added 2026-09-01) | During Oliver's speech: the hostessing stops — stillness, not surprise, in Emma's POV ("It looked like a suspicion coming home"). Recognition of the *shape* of his online life, never the specifics (per `oliver.md` — she suspects, has never asked). | Ch15 speech beat |
 | 25 | **⚠ NOT PAID OFF (correctly)** | Olivia's anxiety about Oliver's dependence is supposed to surface in Book 4. In Book 1 it should be a faint signal only. Currently it's faint — which is correct. | See series_plan.md |
 
-**Action needed:** None for Book 1. Confirm the seed is light enough that it doesn't pre-empt the Book 4 arc. Currently it reads correctly.
+**Action needed:** None for Book 1. Confirm the seed is light enough that it doesn't pre-empt the Book 4 arc. Currently it reads correctly. **2026-09-01 assessment of the new Ch15 row:** the beat is about Oliver's hidden *independence*, not Olivia's needed-vs-loved fear — the other half of the "symbiosis with cracks" pairing — so it does not pre-empt Book 4; it plants the antecedent for her unsurprised "He's being humble" in Ch25. Flagged for author sign-off.
 
 ### Noah — Tradition vs. tech, recognizing intuition
 
@@ -234,13 +235,27 @@ This is the dropped-thread early warning system. Every thread above with ⚠ fla
 
 ---
 
+## Ghost kitchen / Brooklyn Heritage Provisions (mid-book discovery, tactical ammunition)
+
+**Thread:** Pike's shell-brand stable — a dozen "artisanal" labels (*Nonna's Table, The Daily Loaf, Brooklyn Heritage Provisions*) run out of one industrial commissary in Long Island City. Discovered as the machine behind the man; classified **tactical ammunition**, so it must fire in the climax (Twist Ammunition Rule).
+
+| Ch | Status | What happens | Cited evidence |
+|----|--------|--------------|----------------|
+| 20 | introduced | Oliver surfaces the brand list; Noah IDs the LIC commissary; Emma names what *Brooklyn Heritage Provisions* was for ("eleven other fake grandmothers"). | Ghost-kitchen reveal scene |
+| 23 | touched (rhetoric) | Jasper's greenhouse pitch to Hank invokes the warehouse ("run the sauce out of a warehouse… and call it heritage"). | Greenhouse speech |
+| 24 | paid off (2026-09-01) | Deployed as **evidence**: point three of Oliver's toolkit (labels, commissary, delivery-app listings, screenshots) and a clause in the critic's viral quote ("a dozen invented brands in one Long Island City warehouse"). The warehouse metaphor ("can't out-shout a warehouse") pays off in the same chapter. | Toolkit + critic quote |
+
+*History note: introduced 2026-07 draft but never tracked here — which is why no audit caught the evidence going unfired until the 2026-09-01 editorial pass.*
+
+---
+
 ## Jasper's bottle (new thread, planted twist)
 
 **Thread:** The original "just in case" bottle Dorothy gave Emma in Ch1. Carried by Jasper to Meadowlight. Returned in Ch25. The book's physical totem completes its arc.
 
 | Ch | Status | What happens | Cited evidence |
 |----|--------|--------------|----------------|
-| 1 | introduced | Dorothy gives Emma the bottle. "Just in case." | Market scene |
+| 1 | introduced | Dorothy gives Emma the bottle. "Just in case." **Label detail planted (2026-09-01):** in one corner, in an older hand, *FP* over a year too worn to read; Emma half-decodes it ("Fish Pepper, probably; a grower's note"). Classified **World Texture** — the mark's meaning is guessed, the hand is intentionally never identified (Ch25 keeps it to "his great-grandmother, or a hand even further back"; Hank's thumb knows it in Ch23). Do not decode further; do not re-flag as unfired ammunition. | Market scene |
 | 2 | developing | Group tastes the sauce from the bottle. The bottle on the counter throughout dinner. | Soup reveal |
 | 5, 12 | developing | The bottle remains on Emma's counter — visible touchstone across Meals 1–2. | Repeated visual anchor |
 | 17 | complicated (planted) | Jasper palms the bottle from Emma's counter on his way out of the emergency dinner. Packs it for the PA journey. | Packing scene |

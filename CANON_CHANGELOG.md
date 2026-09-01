@@ -4,6 +4,22 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-01 — Book 1 editorial pass: legal instrument standardized on patents; ghost-kitchen evidence fired; chronology and prop fixes
+
+**Trigger:** External editorial feedback, verified claim-by-claim against the manuscript (four parallel passes; ~⅓ confirmed, ⅓ partial, ⅓ refuted — the verification itself surfaced five defects nobody had flagged). Executed per the approved revision plan.
+
+**The instrument decision (canon-level):** Pike's weapon is **patents**, full stop — the Ch12 category-patents discovery is the fair-play clue, the Ch25 resolution abandons *patent* claims, and Hank's trademark references are only the lowball **buyout** of his family name (backstory) and his new **defensive filing** (resolution). The prior text drifted to "trademark trolling / trademark claims" in Ch20/24/25 — retracting claims never asserted on-page. Chosen for craft, not convenience: only patents can threaten Hank's right to sell his own sauce; the patents' legal fragility is now stated on-page (new Ch12 Elijah hedge: prior art vs. the seven-figure cost of proving it) and *is* the theme — the weapon is cost, not merit. Matches `codex/antagonists/book1_garrett_pike.md` (unchanged). The Ch20 commentator's "should have trademarked his recipe" stays as a pundit error; Oliver corrects it in Ch24 ("You can't trademark a recipe… he patented the category").
+
+**Prose changed:** Ch1 (FP-inscription planted on the label — pays off Ch25's close-up), Ch12 (Oliver's prior-art question + Elijah's cost hedge), Ch15 (Olivia's stillness beat during Oliver's speech — suspects-but-never-asked per `oliver.md`, so recognition-not-surprise), Ch19 (nursery-woman rumor closed as dead end), Ch21 (collective lead reframed discovery→confirmation of the Ch17 rumor), Ch22 (group text: "driving out the second they'll have me" replaces "at first light" — the missing Monday is now the vouch-in), Ch23 (a few ripening red Fish Peppers among the striped), Ch24 (toolkit rewritten: patent economics + Paolo docket + ghost-kitchen evidence as point three; commentator correction; critic quote now "patent trolling" + LIC-warehouse clause; headline now patent claims; Monday clause; text-quote sync), Ch25 (Pike statement → patents; Hank names the patents plainly; quit-date "three months"→"six weeks"; client-callback mechanism "they'd seen the story"; double-bread beat — Noah's aesthete slip, boule served and eaten).
+
+**Tracking/records:** Ch13 audit-note corrected (the Ch12 stall man is deliberately unresolved — never claimed as Pike); new subplot thread row for the ghost-kitchen discovery (Twist Ammunition, paid off Ch24); ledger/matrix/outline solution grid synced; records regenerated with Pinakes (clean lint; diff includes tool-version field additions — `tags`/`description` on places and profiles — beyond the intended Ch21 scene delta).
+
+**Process (skills):** `story-audit` gains a **Domain-mechanics pass** (Symmetrical Weapon Test: the Act-2 instrument must be the Act-4 instrument, or an on-page beat explains the mutation) and the **Twist Ammunition Rule**; `canon-check` gains the competency & intimacy cross-check; tracking READMEs now require mid-book discoveries to enter `subplot_threads.md` when written (the ghost-kitchen miss was untrackable by the no-silent-disappearance rule because it never had a row).
+
+**Explicitly declined from the feedback:** Brenda-leak timing change (no causal gap on-page), Ch17 POV restructure (feed-based POV is canon), Ch12/13 recognition change (deliberate), Elijah family-money closure (recorded author decision — Book 3), trade-dress framing (instrument never appears in the manuscript).
+
+---
+
 ## 2026-08-29 — Publishing approach updated for atproto spaces (permissioned data)
 
 **Trigger:** Atproto shipped a permissioned-data protocol — *spaces* — in public alpha (August 2026). Our publishing docs were written against a protocol that was public-by-default, and one of them no longer existed.
