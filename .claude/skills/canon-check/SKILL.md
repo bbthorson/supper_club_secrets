@@ -48,6 +48,13 @@ chapter (and adjacent chapters):
 - **Established facts** — no contradiction of background, relationships, or secrets in the
   character file or `continuity.md` (e.g. who knows about Emma's Kinky Kitchen account at
   this point in the timeline; what is still hidden).
+- **Competency & intimacy cross-check** — when a character displays an unexpected
+  competency or reveals a formative fact: (a) it must trace to habits/backstory already in
+  their character file (an archivist arbitrates citations; he doesn't suddenly run PR
+  campaigns), and (b) check each *listener's* canonical knowledge — an intimate who
+  canonically knows or suspects should not react with bewilderment, and one who canonically
+  doesn't know should not react with recognition (e.g. `oliver.md`: Olivia suspects the
+  online life but has never asked, so her Ch15 beat is stillness, not surprise).
 
 ### 2. Timeline & travel
 Cross-check `tracking/timeline_ledger.md`:
