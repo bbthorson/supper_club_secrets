@@ -333,7 +333,43 @@ Tier A is the committed design; B and C are content-authoring costs more than
 engineering costs — B for six characters over 25 days is roughly 60–100 short posts
 to write and lint.
 
-## Open questions for the author
+## To-dos toward Oct 1
+
+Deadline-driven: the calendar alignment only exists in 2026, so everything below has
+a hard ceiling of **Oct 1, 2026** (and the account/domain items block the rest).
+
+### Author decisions (blocking)
+- [ ] **Buy the project domain** — blocks account creation, which blocks everything
+      downstream. Also decide `@jasper`'s handle (codex handle is bare `jasper`).
+- [ ] **Pick the launch tier:** A (records only) / A+B (in-character posts) / A+B+C
+      (antagonist artifact accounts).
+- [ ] **Oct 2 LLC-filing teaser: in or out** (review `m2_06:66` + "Pike's side").
+- [ ] **Tier C artifact accounts** (commentator, critic, Pike's group): in or out.
+- [ ] **Space-lane timing:** wait for spaces' full launch (recommended) vs. ride the
+      alpha accepting data-loss risk. Plus single-writer topology sign-off.
+
+### Build (Claude, once unblocked)
+- [ ] Create project + six cast accounts; domain handles via DNS; bot self-labels +
+      fiction bios; app passwords into author-held credential storage.
+- [ ] Establish the dedicated project DID (record + space authority); reserve
+      `site.supperclub.groupchat` alongside the existing space-type NSIDs.
+- [ ] Publish script: canon-horizon filter, subject routing (stateEvents/profiles →
+      character repos; scenes/places → project repo), scene-field stripping
+      (`beat`/`primaryEvent`), post scheduler.
+- [ ] Oct 1 front-matter payload: profiles (`oneLine` bios) + standing places.
+
+### Content (author + Claude, voice-linted)
+- [ ] If Tier B: author the in-character post files
+      (`stories/<book>/posts/<char>.md`, ~60–100 posts, storyDate-keyed), run
+      canon-check (knowledge-state + voice) on each.
+- [ ] Author the group-chat `message` records (derivable, single-writer with
+      in-record character attribution) — content cost paid now regardless of
+      space-lane timing.
+- [ ] If Tier C: stage the three artifact accounts' feeds (the Ch 20/24/25 posts are
+      already written verbatim in the prose; backfill bland ambient posts for
+      Pike's group).
+
+## Resolved questions (log)
 
 1. The Oct 2 LLC-filing teaser: in or out (pending review of `m2_06:66` and "Pike's
    side" above)?
