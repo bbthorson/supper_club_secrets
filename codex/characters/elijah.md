@@ -80,7 +80,8 @@ He's not sure how he ended up with a group of friends who solve neighborhood mys
 - Builds a financial model during his lunch break showing artisanal hot sauce could be valued low-to-mid six figures (Ch. 8)
 - Texts the group: "That's serious money" — the message that convinces Noah to take the investigation seriously
 - Draws second course (fennel-citrus salad) for Meal 2 potluck; group begs him not to make bland quinoa
-- Analyzes the cease and desist letter — declares it "toothless" but acknowledges the intimidation is real (Ch. 13)
+- Delivers the patent-troll economics hedge at the midpoint: prior art means the patents probably wouldn't survive, but "They don't have to be right. They have to be unaffordable" — the thesis Oliver cites in the Ch. 24 toolkit (Ch. 12)
+- Analyzes the cease and desist letter — declares it "toothless" but acknowledges the intimidation is real (Ch. 14)
 - Pushes back hardest on Pike's "mercy"/meritocracy logic at the emergency dinner, from lived experience — an early seam of the success/who-earns-their-place debate that becomes central in his own book (Ch. 14)
 - Partners with Oliver to build the evidence press kit for the swarm strategy (Ch. 16–17)
 - Described as "expensive enough at compartmentalizing" his stress that no one can tell (Ch. 16)

@@ -76,7 +76,7 @@ She pressed the button. For a moment nothing happened — just the soft whir of 
 
 Emma's phone buzzed. The group chat. Jasper, from somewhere with one bar of signal:
 
-*Made it to Philly. Rented a car that smells like wet dog and freedom. Working the phones. Go get 'em without me — save me a plate.*
+*Made it to Philly yesterday. Rented a car that smells like wet dog and freedom. Working the phones. Go get 'em without me — save me a plate.*
 
 A beat, then a second message, from Noah of all people: *Find Hank. We've got the rest.* He didn't look up from his screen when he sent it, and nobody said anything, but Emma saw Olivia notice, and file it away.
 

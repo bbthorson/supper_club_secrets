@@ -32,7 +32,7 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 - He has been quiet in a high-stakes moment (Ch15). He didn't deflect.
 - He has acted strategically — the search was patient, methodical, the opposite of chaos.
 - He has admitted he doesn't always know how to be useful.
-- He has stayed quiet in a long car ride. Talked about family recipes (someone else's family, but still). Allowed himself to be a listener.
+- He has allowed himself to be a listener — Hank tells his story in the greenhouse and "Hank listened without interrupting" is Jasper out of performance (Ch23:84). (No shared car ride exists: Hank refuses the lift — "I need to do this part on my own" — and Jasper drives east alone, per Ch23 and this file's own Ch23 note. Corrected 2026-09-01.)
 
 **Doesn't shift:**
 - The chaos persona. By Ch25 he's back to performative theory-pitching. **Resolved:** this is intentional and is now marked — the performance reads as earned rather than undercooked (see Ch25 frontmatter + subplot resolution).

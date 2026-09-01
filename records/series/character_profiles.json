@@ -6,6 +6,7 @@
     "displayName": "Emma Hartley",
     "handle": "emmacooks",
     "oneLine": "A grounded and creative chef with a bubbly, optimistic energy, who is learning to trust her intuition.",
+    "status": "active",
     "sourceFile": "codex/characters/emma.md"
   },
   {
@@ -15,6 +16,7 @@
     "displayName": "Elijah Miller",
     "handle": "elijahmiller",
     "oneLine": "The rigid analyst with a pragmatic approach and a quietly empathetic nature.",
+    "status": "active",
     "sourceFile": "codex/characters/elijah.md"
   },
   {
@@ -24,6 +26,7 @@
     "displayName": "Noah",
     "handle": "noahbuilds",
     "oneLine": "An idealistic and sometimes naive techie who believes technology can solve any problem.",
+    "status": "active",
     "sourceFile": "codex/characters/noah.md"
   },
   {
@@ -33,6 +36,7 @@
     "displayName": "Oliver",
     "handle": "oliverreads",
     "oneLine": "A fastidious and bookish introvert, married to Olivia, with a fascination for urban development and city regulations.",
+    "status": "active",
     "sourceFile": "codex/characters/oliver.md"
   },
   {
@@ -42,6 +46,7 @@
     "displayName": "Olivia",
     "handle": "oliviaknows",
     "oneLine": "A social butterfly and entrepreneur who effortlessly gathers neighborhood gossip.",
+    "status": "active",
     "sourceFile": "codex/characters/olivia.md"
   },
   {
@@ -51,6 +56,7 @@
     "displayName": "Jasper",
     "handle": "jasper",
     "oneLine": "The wildcard of the group, a free spirit with a mysterious job and a love for chaos.",
+    "status": "active",
     "sourceFile": "codex/characters/jasper.md"
   },
   {
@@ -59,6 +65,7 @@
     "subject": "char.garrett-pike",
     "displayName": "Garrett Pike",
     "oneLine": "Garrett Pike is not a cartoon villain. He's a mid-forties hospitality entrepreneur who genuinely believes he's revitalizing neglected neighborhoods. He sees himself as a builder — someone who creates beautiful spaces, employs local workers, and brings economic energy to places that were stagnating. The fact that he displaces the people who made those neighborhoods worth investing in is, to him, an unfortunate externality. Collateral damage in the service of progress.",
+    "status": "active",
     "sourceFile": "codex/antagonists/book1_garrett_pike.md"
   },
   {
@@ -67,6 +74,7 @@
     "subject": "char.hank",
     "displayName": "Hank",
     "oneLine": "A charismatic hot sauce artisan and storyteller whose family recipe and theatrical personality make him a beloved fixture of the McGolrick Park farmers market — and the central figure of the group's first mystery.",
+    "status": "active",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/hank.md"
   },
   {
@@ -75,6 +83,7 @@
     "subject": "char.dorothy",
     "displayName": "Dorothy",
     "oneLine": "A no-nonsense honey vendor at the McGolrick Park farmers market who provides Emma with a crucial piece of physical evidence — a bottle of Hank's heritage hot sauce — and emotional context about his state of mind before he disappeared.",
+    "status": "active",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/dorothy.md"
   },
   {
@@ -83,6 +92,7 @@
     "subject": "char.sofia",
     "displayName": "Sofia",
     "oneLine": "A veteran Williamsburg cheesemonger who provides Emma with the first real clue about what happened to Hank — that he received \"a big offer\" to \"go legit.\"",
+    "status": "active",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/sofia.md"
   },
   {
@@ -91,6 +101,7 @@
     "subject": "char.marcus",
     "displayName": "Marcus",
     "oneLine": "The stylish owner of a Williamsburg boutique who serves as one of Olivia's key neighborhood contacts and an early source of intel about Hank's strange behavior.",
+    "status": "active",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/marcus.md"
   },
   {
@@ -99,6 +110,7 @@
     "subject": "char.brenda-marquez",
     "displayName": "Brenda Marquez",
     "oneLine": "A sharp commercial real estate professional and old acquaintance of Jasper's who inadvertently becomes the bridge between the group's investigation and the mogul's retaliation.",
+    "status": "active",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/brenda-marquez.md"
   },
   {
@@ -107,6 +119,7 @@
     "subject": "char.food-critic",
     "displayName": "The Food Critic",
     "oneLine": "An influential and respected national food critic whose endorsement of the group's story turns the tide in their campaign against the mogul.",
+    "status": "active",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/food-critic.md"
   }
 ]

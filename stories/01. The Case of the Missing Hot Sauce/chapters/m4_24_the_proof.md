@@ -29,22 +29,23 @@ registers:
 clues:
   planted: []
   revealed:
-    - "Oliver's rebuttal framework deployed; the food critic adopts the framing; investors pull; the C&D is withdrawn (Keystone payoff)"
+    - "Oliver's rebuttal framework deployed (patent-troll economics, Paolo precedent, ghost-kitchen evidence); the food critic adopts the framing; investors pull; the patent claims are abandoned (Keystone payoff). C&D withdrawal follows off-page, Fri Oct 23 — reported in Ch25"
 threads:
   active:
-    - "Main mystery: the tide turns — rebuttal lands, critic amplifies, investors pull, C&D withdrawn"
+    - "Main mystery: the tide turns — rebuttal lands, critic amplifies, investors pull, patent claims abandoned (C&D withdrawal follows off-page)"
+    - "Ghost kitchen / Brooklyn Heritage Provisions (paid off — deployed as evidence in the toolkit and the critic's quote)"
     - "Oliver emerging from his shell (paid off — the quiet, systematic victory)"
   touched:
     - "Pike under pressure (goes quiet; no playbook for a hundred small voices)"
     - "Jasper found Hank (texts the group)"
-beat_purpose: "Oliver's sourced rebuttal arms a hundred small voices; a food critic adopts the framing, sentiment flips, investors pull, and the C&D is withdrawn."
+beat_purpose: "Oliver's sourced rebuttal — patent-troll economics, the Paolo precedent, and the ghost-kitchen evidence — arms a hundred small voices; a food critic adopts the framing, sentiment flips, investors pull, and the patent claims fall (the C&D withdrawal follows off-page, Fri Oct 23)."
 ---
 
 ### Chapter Twenty-Four - The Proof
 
-The doubt sat in the apartment all weekend like weather.
+The doubt sat in the apartment all weekend and through Monday like weather.
 
-The blogs kept folding, one cowardly retraction at a time. The commentator's "just capitalism" framing kept spreading. Noah rebuilt his burned accounts in grim silence, trusting none of them now. Emma's inbox kept not refilling. The one counterweight was the piece Emma had baited out of the pettiest man in food media — spiteful, gleeful, constitutionally immune to lawyer letters — which dropped Sunday night and kept the story's pulse going while everything else folded. And every few hours the group chat lit up with Jasper, somewhere in Pennsylvania, striking out — until Sunday night, when it lit up differently: *FOUND IT. Driving out at first light.* It was the first good thing in two days, and nobody quite let themselves believe it.
+The blogs kept folding, one cowardly retraction at a time. The commentator's "just capitalism" framing kept spreading. Noah rebuilt his burned accounts in grim silence, trusting none of them now. Emma's inbox kept not refilling. The one counterweight was the piece Emma had baited out of the pettiest man in food media — spiteful, gleeful, constitutionally immune to lawyer letters — which dropped Sunday night and kept the story's pulse going while everything else folded. And every few hours Noah passed along another of Jasper's strikeouts from Pennsylvania — the updates came through him now, and nobody remarked on it — until Sunday night, when the group chat itself lit up: *FOUND IT. Driving out the second they'll have me.* It was the first good thing in two days, and nobody quite let themselves believe it.
 
 It was Oliver who broke the holding pattern, Tuesday morning, the way he broke most things — quietly, after everyone else had given up on the silence. He'd barely spoken since Saturday. He'd been reading, and building something, and now he turned his laptop around.
 
@@ -52,7 +53,9 @@ It was Oliver who broke the holding pattern, Tuesday morning, the way he broke m
 
 On his screen was the thing he'd spent the weekend assembling: not a rebuttal *to* the commentator, but a toolkit *for* everyone else. Talking points, cited sources, pre-written answers to every counter-argument, all built so that a food blogger with a phone and an opinion could pick it up and sound airtight.
 
-"We don't engage with him. We arm the hundred people who already want to be on Hank's side," Oliver said. "Point one: the cost of trademark litigation for an independent — three hundred fifty dollars a class to file, two hundred seventy-five an hour for a lawyer, against a vendor grossing under fifty thousand a year. A barrier built to be insurmountable. Point two: documented trademark-trolling by large restaurant groups in three boroughs in the last decade. This isn't competition. It's a business model." He looked up. "We don't fight one battle. We start a hundred, all running the same script."
+"We don't engage with him. We arm the hundred people who already want to be on Hank's side," Oliver said. "Point one: what fighting a patent claim actually costs an independent — six figures before you ever see the inside of a courtroom, against a vendor grossing under fifty thousand a year. The claims don't have to hold up. The price of finding out is the weapon — Elijah's math, from the night we found the filings. Point two: documented cases of large restaurant groups running the same play — patents, trade-secret suits, lawyer letters — against small food businesses in three boroughs in the last decade. *Paolo Ferrante v. Riverview Hospitality Group, LLC* is public record. This isn't competition. It's a business model. Point three: the 'artisanal' brands Pike's group already operates — a dozen labels, one industrial commissary in Long Island City, no dining rooms, no addresses. *Brooklyn Heritage Provisions* is a shelf waiting for Hank's great-grandmother's face. Every delivery-app listing is public, and I have all of them."
+
+He paused — and then, mildly, in the tone of a man correcting a citation: "The commentator says Hank should have trademarked his recipe. You can't trademark a recipe. That's how you know he never read the filings: Pike patented the category itself. The name was never the point." He looked up. "We don't fight one battle. We start a hundred, all running the same script."
 
 Elijah studied the document. "You solved a PR crisis with a Wikipedia-editing strategy."
 
@@ -66,7 +69,7 @@ For a few hours, nothing. Emma cooked, because her hands needed it. Noah refresh
 
 It was one of the most respected food critics in the country — three hundred thousand followers, a devastating pen, a known soft spot for small artisans. She hadn't just shared the story. She'd taken their argument, rewritten it in her own voice, and aimed it at her audience like a scalpel:
 
-*"What's happening to this Brooklyn hot sauce vendor is not capitalism. It's a textbook case of predatory trademark trolling, designed to strangle the artisans who make our food culture worth anything. The cost of fighting back is the weapon — and it's being wielded by people who've conveniently forgotten they were once small, too."*
+*"What's happening to this Brooklyn hot sauce vendor is not capitalism. It's a textbook case of predatory patent trolling, designed to strangle the artisans who make our food culture worth anything. The cost of fighting back is the weapon — wielded, in this case, by a group that sells 'heritage' out of a dozen invented brands in one Long Island City warehouse, and that has conveniently forgotten it was once small, too."*
 
 "She used our words," Oliver said, and there was wonder in it. Emma thought of what he'd admitted to them — years of careful arguments written in corners of the internet where no one knew his name — and here was someone with real reach, firing them at the world. "Our exact framing."
 
@@ -76,7 +79,7 @@ Noah spun his laptop around. The sentiment graph, a muddy gray-green swirl for d
 
 Emma watched the green climb and understood, finally, what she was looking at. They hadn't beaten Pike by being louder. Given the actual choice — the faceless warehouse brand or the man with the striped peppers and the four generations — people kept choosing the man. A hundred of them, then a thousand. Pike had stood in an empty market and told her it was inevitable, that someone was always going to do legally what Hank couldn't fight, that the market simply *worked this way.* It didn't. It worked the other way too, when people got to choose. She'd said exactly that to his face and hadn't been sure she believed it until right now.
 
-The closure came the way the whole campaign had — as links in the group chat. Olivia dropped the first: a trade-press headline, *Investors Distance From Williamsburg Waterfront Project Amid Backlash.* Then the restaurant group's PR statement, a small masterpiece of saying nothing at all. Then Elijah, who'd been refreshing a business wire, posted a third without comment — *Hospitality Group Withdraws Trademark Claims on Heritage Pepper Products* — and added, after a beat: *They folded. Quietly, so nobody gets to dunk on them. But they folded.*
+The closure came the way the whole campaign had — as links in the group chat. Olivia dropped the first: a trade-press headline, *Investors Distance From Williamsburg Waterfront Project Amid Backlash.* Then the restaurant group's PR statement, a small masterpiece of saying nothing at all. Then Elijah, who'd been refreshing a business wire, posted a third without comment — *Hospitality Group Abandons Heritage Pepper Patent Claims* — and added, after a beat: *They folded. Quietly, so nobody gets to dunk on them. But they folded.*
 
 "Economic consequences," he said aloud, with grim satisfaction. "The only language these people actually speak. Investors don't like being the bully in someone else's story." Nobody had to see Pike to know how it looked on his end: a man who could command any room going very quiet, calling his lawyers first, then his PR person, then his accountant — and finding that not one of them had a playbook for a hundred strangers who owed him nothing.
 

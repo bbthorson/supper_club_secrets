@@ -22,6 +22,7 @@ clues:
   planted:
     - "Hank's empty stall (Foundation)"
     - "Dorothy's 'just in case' heritage bottle (Foundation / Keystone)"
+    - "Label corner mark: *FP* + worn year, in an older hand; Emma half-decodes it (World Texture — pays off as Ch25 close-up; hand intentionally never identified)"
     - "Dorothy: Hank jittery, checking his phone (Foundation)"
     - "A well-dressed, out-of-place man at the market — Pike seed (Foundation)"
   revealed:
@@ -110,7 +111,7 @@ Dorothy's hands paused on the honeycomb. "He seemed... off. Kept checking his ph
 
 She pressed the bottle into Emma's hands without being asked, a transfer that felt oddly ceremonial. "You're a cook, right? I've seen you here, the way you handle the produce. You know what this is."
 
-Emma looked at the bottle, at the handwritten label with its careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*. Such a simple thing. A glass bottle, a homemade label, a few ounces of sauce. But holding it, she could feel the weight of what it represented. A lineage in a glass bottle. Seeds carried north from Virginia in the 1920s, planted in a tiny Philadelphia plot, tended through four generations, brought to Brooklyn by a man who loved the story as much as the sauce.
+Emma looked at the bottle, at the handwritten label with its careful cursive: *Heritage Pepper Sauce - Small Batch - Hank*—and, tucked into one corner in an older hand, two small letters, *FP*, over a year too worn to read. Fish Pepper, probably; a grower's note. Such a simple thing. A glass bottle, a homemade label, a few ounces of sauce. But holding it, she could feel the weight of what it represented. A lineage in a glass bottle. Seeds carried north from Virginia in the 1920s, planted in a tiny Philadelphia plot, tended through four generations, brought to Brooklyn by a man who loved the story as much as the sauce.
 
 "Thank you," Emma said. "I'll make it count."
 

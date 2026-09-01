@@ -88,6 +88,7 @@ She met Emma about four years ago at the McGolrick Park farmers market. Emma was
 - First person Emma calls after Elijah when the C&D arrives — drops everything, rallies the group (Ch. 13–14)
 - Fierce and protective: the private kitchen confide — hears Emma's financial precarity ("one bad month from my parents' basement") and answers with a hug, not a plan: "You just don't have to carry it by yourself anymore" (Ch. 14). Emma's secret income source is never named to Olivia or the group in Book 1 (opaque-secret canon — see continuity.md)
 - Orders Thai food for the emergency dinner with zero tolerance for debate (Ch. 14)
+- Goes still during Oliver's rally speech — the hostessing stops; Emma reads it as "a suspicion coming home," not surprise (Ch. 15). She knew the shape of his online life, never the specifics
 - Identifies local bloggers and neighborhood tastemakers for the swarm strategy (Ch. 16–17)
 - Brings beet-and-goat-cheese tart to the final dinner; Marcus gave her a discount on the goat cheese (Ch. 25)
 - Met Emma at the farmers market ~4 years before Book 1 (asking about heirloom tomatoes)

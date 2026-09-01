@@ -26,6 +26,24 @@
             "description": "Display name.",
             "maxLength": 640
           },
+          "kind": {
+            "type": "string",
+            "description": "What sort of place this is — home, shop, public space — from the `**Type:**` line in the location file's body. Frontmatter `type:` is the knowledge-graph document type and is always `Location`.",
+            "maxLength": 256
+          },
+          "description": {
+            "type": "string",
+            "description": "One-line summary from the location file's `description` frontmatter.",
+            "maxLength": 3000
+          },
+          "tags": {
+            "type": "array",
+            "description": "Labels from the location file's `tags` frontmatter.",
+            "items": {
+              "type": "string",
+              "maxLength": 128
+            }
+          },
           "status": {
             "type": "string",
             "description": "Lifecycle of the location within the series.",

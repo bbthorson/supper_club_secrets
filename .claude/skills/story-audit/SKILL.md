@@ -39,6 +39,13 @@ Divide the work into independent read-only passes and run them as parallel subag
    solvable by end of Meal 3 — check the clue tracker and chapter `clues:` frontmatter)?
    Do the four menus match their emotional mapping (`ai_instructions.md` §9)? Does every
    ensemble member get an on-page micro-arc or an explicit series-plan carry-forward?
+   **Twist Ammunition Rule:** classify every mid-book discovery as *World Texture* or
+   *Tactical Ammunition*. Ammunition (a fact framed as usable against the antagonist —
+   Book 1's ghost-kitchen commissary is the canonical case) must fire in the climax as
+   evidence, not just echo as metaphor; if it never fires, the finding is either "deploy
+   it" (Tier 2) or "reframe it as texture" (author call). A discovery that isn't tracked
+   in `subplot_threads.md` can't be caught by the no-thread-ends-in-silence check — flag
+   untracked discoveries as Tier 4 hygiene even when they do pay off.
 3. **Tracking-fidelity pass.** Do `character_matrix.md`, `timeline_ledger.md`, and
    `subplot_threads.md` actually match the prose, chapter by chapter? Stale tracking is a
    finding even when the prose is fine — the tracking layer is what every future book
@@ -63,6 +70,28 @@ Divide the work into independent read-only passes and run them as parallel subag
    make. Do **not** re-flag catalogued voice tics (Emma's dialect, Jasper's breathlessness) —
    their overuse is already the continuity passes' §3 voice check; this pass covers
    *uncatalogued* tells.
+
+6. **Domain-mechanics pass** (whole book, prose + outline + antagonist codex). Identify
+   the real-world operational systems the plot runs on (IP law, corporate structures,
+   municipal permits, finance, food-safety codes) and stress-test them:
+   - **One instrument per threat.** Name the specific instrument behind every threat or
+     scheme (a patent is not a trademark is not a trade secret is not a defamation C&D).
+     Where the story deliberately uses several (a buyout offer *and* a litigation threat),
+     the prose must keep them distinct and characters must use the terms consistently.
+   - **Symmetrical Weapon Test.** The instrument the antagonist attacks with in Act 2 must
+     be the instrument that becomes unviable in Act 4 — or an on-page beat must explain
+     why the strategy mutated. A resolution that retracts a claim never asserted on the
+     page is a 🔴 finding. (Book 1's patent→trademark drift, caught 2026-09-01, is the
+     canonical case: Ch 12 discovered patents, Ch 24–25 originally withdrew "trademark
+     claims" no one had filed.)
+   - **Three-way consistency:** prose vs. `chapters/00_story_outline.md` (solution grid)
+     vs. the antagonist's codex file. Instrument drift between layers is a finding even
+     when each layer is internally consistent.
+   - Accuracy flags that would require a domain expert go to Tier 3 with a "verify with
+     research" note; a mechanism that is *load-bearing and wrong* (the plot needs it to
+     work and it can't) is Tier 1. A legally shaky instrument is fine when the prose
+     itself acknowledges the shakiness and stakes the threat on cost/attrition instead
+     (Book 1's Ch 12 prior-art hedge is the pattern).
 
 ## Severity and tiers
 

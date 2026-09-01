@@ -21,7 +21,7 @@ registers:
   Elijah: "private (pragmatic resignation — 'maybe the smart thing is to stop'; 'we all make mistakes')"
   Noah: "under-pressure (anger — asks the right questions to surface the leak, then lashes out at Jasper)"
   Oliver: "under-pressure → public (knowledge-bomb — the longest speech of his life)"
-  Olivia: "private (watching the fight)"
+  Olivia: "private (watching the fight; during Oliver's speech the hostessing stops — stillness, not surprise: recognition-without-specifics per oliver.md)"
   Jasper: "under-pressure (the reversal — goes quiet; 'All I've got is knowing people. And I thought, for once, that would be enough.')"
 clues:
   planted: []
@@ -122,6 +122,8 @@ He gestured at the lawyer's letter on the table. "Elijah's right that the letter
 Noah had the decency to look away.
 
 "The counter-strategy is also always the same," Oliver went on, his voice gathering strength as if some internal flywheel were building momentum. "Refuse to be afraid. Refuse to fight each other. Make the fight collective. Make the information impossible to suppress." He stood there, glasses slightly crooked, shirt untucked from when he'd rushed over, and for the first time his friends saw not just shy, bookish Oliver but the person he was in the spaces they never saw — the respected moderator who'd talked strangers down from panic and coordinated real responses to real harassment.
+
+Emma glanced at Olivia, expecting the same astonishment she felt herself — and didn't find it. Olivia had gone still, the hand-on-shoulder hostessing suspended, her face quiet in a way Emma had never seen at any of their tables. It looked like a suspicion coming home.
 
 "We are not going to be scared," he said, quiet but filling the room. "We are not going to fight each other. We are going to fight *him.*"
 

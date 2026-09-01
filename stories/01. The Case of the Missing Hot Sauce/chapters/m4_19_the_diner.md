@@ -24,6 +24,8 @@ threads:
     - "Jasper's redemption journey (from the road — the first night of calls)"
   touched:
     - "Jasper's chaos, now pointed at something"
+    - "Ch17 collective rumor → downgraded on-page (nursery woman adds only provenance; no name, no town) — makes Ch21 a confirmation, not a discovery"
+    - "Noah briefed on the collective (Jasper's 'nobody can put a name to that collective' text) — grounds Ch21's 'THE COLLECTIVE' text"
 beat_purpose: "From the road: Jasper's first night of dead-end calls — he keeps going anyway; the loneliness under the performance surfaces alone."
 ---
 
@@ -34,6 +36,8 @@ beat_purpose: "From the road: Jasper's first night of dead-end calls — he keep
 The rental smelled like wet dog, the radio pulled in exactly one station, and Jasper had been driving in silence for an hour when the gas light came on and he pulled into a diner that looked like it had been the same diner since 1974.
 
 He took a booth by the window, ordered coffee and a slice of pie he mostly wouldn't eat, and spread his notes across the Formica: a list of nurseries, seed suppliers, and agricultural co-ops he'd cobbled together at midnight out of the same manic research energy that usually got him into trouble.
+
+The thread that had launched the whole trip was already frayed. The nursery woman, when he'd called her back from the train, had nothing new to add but provenance: she'd heard about the collective secondhand, years ago, at a growers' swap. No name, no town. Hence the list.
 
 He started calling. Most didn't pick up — it was Friday night. The ones who did had never heard of a Fish Pepper, or had, but only as "that striped thing nobody bothers with," or wanted to talk about peppers at great length without actually knowing anything. Dead end, dead end, dead end. He drew a neat line through each name, which felt like the only orderly thing he'd done in weeks.
 
@@ -51,7 +55,7 @@ Then a separate text, just to him. Noah: *You good out there?*
 
 Jasper stared at it. Noah didn't send texts like that. Noah, who four days ago had stood in Emma's kitchen and called him the liability and hadn't been wrong.
 
-*Striking out,* Jasper typed back. *But I'll find him.*
+*Striking out,* Jasper typed back. *Nobody can put a name to that collective everybody's half-heard of. But I'll find him.*
 
 *Send me what you've got,* Noah wrote. *Nurseries, names, all of it. I'll run them while you drive. Faster with two.*
 

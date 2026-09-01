@@ -23,13 +23,14 @@ registers:
   Emma: "public → private (morning market stop; hostess, then crystallizing the picture)"
   Elijah: "private (presents the financial model fresh; drier than usual)"
   Noah: "private (the patents discovery)"
-  Oliver: "private (more present than usual; lets Elijah lead)"
+  Oliver: "private (more present than usual; lets Elijah lead; asks the procedural question — would the patents survive?)"
   Olivia: "public (opens the dinner: 'We all saw the group chat. Who's got more?')"
   Jasper: "private (the Brenda reveal — triumphant; doesn't see her third-since-Friday text until Monday)"
   Dorothy: "public (closed-with-customer — brisk; reads as 'busy' to Emma)"
 clues:
   planted:
     - "Dorothy brisk with an out-of-place man in the wrong coat — Pike-adjacent seed (Foundation; reinforces the Ch1 sighting)"
+    - "Patent-troll economics (Connective): Elijah's prior-art/cost hedge — 'They don't have to be right. They have to be unaffordable' — cited by Oliver's Ch24 toolkit"
   revealed:
     - "Findings converge: corporate predation targeting artisan vendors"
     - "Jasper's Brenda reveal (deflated) — 'a restaurant mogul buying up Williamsburg', but NO name yet"
@@ -116,7 +117,11 @@ The room was electric. The scattered threads of their week—Oliver's data point
 
 "Can they do that?" Olivia asked, her theatrical energy gone, replaced by something rawer.
 
-"The patent system protects innovation, not tradition," Elijah said, leaning forward. "A heritage recipe isn't automatically protected. If Hank never filed a trademark, never documented his process in a legal framework—then yes. Someone with better lawyers could claim the commercial rights to what his family has been making for four generations."
+"The patent system protects innovation, not tradition," Elijah said, leaning forward. "A heritage recipe isn't automatically protected. If Hank never trademarked so much as his name, never documented his process anywhere a lawyer could point to—then yes. Someone with better lawyers could claim the commercial rights to what his family has been making for four generations."
+
+"Would the patents survive a challenge?" Oliver asked, pushing his glasses up.
+
+"Probably not. Four generations of prior art is a hell of an exhibit." Elijah didn't soften. "But challenging a patent takes lawyers, expert witnesses, years—and Hank runs a folding table at a farmers market. They don't have to be right. They have to be unaffordable."
 
 Emma looked at the patent filing on Noah's screen and thought about Dorothy's bottle, the handwritten label, the seeds from Virginia. She thought about Hank's face when he told the Fish Pepper story, the way his voice softened when he talked about his great-grandmother. And she thought about some faceless corporate entity filing paperwork to turn all of that into a line item on a balance sheet.
 

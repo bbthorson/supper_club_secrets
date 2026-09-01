@@ -23,3 +23,4 @@ Per-book working files that keep timeline, character interiority, and subplot th
 - The matrix is the **snapshot**. Interiority docs are the **depth**. Don't duplicate.
 - A character with no cell in a chapter row is offstage or unmentioned. A character with a cell but no register listed is a flag — they may be reduced to a body in the scene.
 - A thread in `subplot_threads.md` with status "dropped" requires a note explaining why. Threads should not silently disappear.
+- **Mid-book discoveries enter `subplot_threads.md` the day they're written** — not just planted clues. Classify each as *World Texture* or *Tactical Ammunition* in the thread description; Ammunition must fire in the climax (Twist Ammunition Rule, see `story-audit`). A discovery that never gets a thread row is invisible to the no-silent-disappearance check — that's how Book 1's ghost-kitchen evidence went unfired through two audits.
