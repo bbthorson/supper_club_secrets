@@ -339,8 +339,14 @@ Deadline-driven: the calendar alignment only exists in 2026, so everything below
 a hard ceiling of **Oct 1, 2026** (and the account/domain items block the rest).
 
 ### Author decisions (blocking)
-- [ ] **Buy the project domain** — blocks account creation, which blocks everything
-      downstream. Also decide `@jasper`'s handle (codex handle is bare `jasper`).
+- [x] **Buy the project domain** — **done 2026-09-01: `supperclubsecrets.com`**,
+      registered via Cloudflare (same account as the Workers deploy — DNS, domain,
+      and hosting in one place; records scriptable via the Cloudflare API). Handle
+      scheme: project = `@supperclubsecrets.com`, cast = codex handles as
+      subdomains (`@emmacooks.supperclubsecrets.com`, `@oliverreads.…`,
+      `@oliviaknows.…`, `@noahbuilds.…`, `@elijahmiller.…`, `@jasper.…` — the bare
+      `jasper` question dissolves under domain handles). Verification per handle:
+      `_atproto.<subdomain>` TXT `did=did:plc:…` once each account's DID exists.
 - [ ] **Pick the launch tier:** A (records only) / A+B (in-character posts) / A+B+C
       (antagonist artifact accounts).
 - [ ] **Oct 2 LLC-filing teaser: in or out** (review `m2_06:66` + "Pike's side").
@@ -348,9 +354,16 @@ a hard ceiling of **Oct 1, 2026** (and the account/domain items block the rest).
 - [ ] **Space-lane timing:** wait for spaces' full launch (recommended) vs. ride the
       alpha accepting data-loss risk. Plus single-writer topology sign-off.
 
-### Build (Claude, once unblocked)
-- [ ] Create project + six cast accounts; domain handles via DNS; bot self-labels +
-      fiction bios; app passwords into author-held credential storage.
+### Build (once unblocked)
+- [ ] **Author:** create the project + six cast accounts (account creation and
+      credential handling are author actions — Claude never creates accounts or
+      touches password values); generate an app password per account and store
+      them in author-held storage (e.g. `.env`, never committed; values never
+      pasted into chat).
+- [ ] **Claude, after that:** DNS TXT records for the seven handles (via Cloudflare
+      API with an author-provided scoped token in env, or hand the author the
+      exact records to paste); switch each account's handle to its domain handle;
+      bot self-labels + fiction bios via the API.
 - [ ] Establish the dedicated project DID (record + space authority); reserve
       `site.supperclub.groupchat` alongside the existing space-type NSIDs.
 - [ ] Publish script: canon-horizon filter, subject routing (stateEvents/profiles →
