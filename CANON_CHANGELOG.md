@@ -4,6 +4,20 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-01 — Serialized real-date publishing with a canon horizon (design, no decision)
+
+**Trigger:** Author question — publish Book 1 on its real dates (launching Oct 1, 2026), with an internal register about characters/plot whose changes publish to the characters' lexicons as the book releases.
+
+**Added:** `protocol/SERIALIZED_PUBLISHING.md`. The core: the book's internal calendar (Oct 2–25, 2026, Sunday-anchored) aligns with the real calendar **this year only** — publish each chapter on the day it takes place and the book happens in real time, with the record layer (stateEvents, scenes, places) publishing on the same clock behind a **canon horizon** (a record publishes iff `storyDate` ≤ horizon; horizon monotonic; published records carry only on-page-derivable facts). The "internal register vs. published lexicon" split is the existing two-lane architecture extended one step: tracking/interiority/authorial metadata never publish; Pinakes-compiled records do, horizon-filtered.
+
+**Verified against `records/`:** profiles and stateEvents are already reader-safe at horizon; **scene records leak** (`beat` Save-the-Cat labels and `primaryEvent`/beat_purpose name reversals being seeded) — the publish profile must strip or replace them. Mechanism is a filter over compiled records (~50 lines or a Pinakes flag), not a new compiler; no Pinakes repo changes required.
+
+**Time-sensitive:** the weekday alignment is unique to 2026 (Oct 4, 2027 is a Monday). If real-date publishing is wanted, this October is the window.
+
+**No decision made** — four open author questions listed in the doc (multi-chapter-day handling, prose surface, reader-safe summaries vs. field omission, the Oct 2 LLC-filing teaser).
+
+---
+
 ## 2026-09-01 — Book 1 editorial pass: legal instrument standardized on patents; ghost-kitchen evidence fired; chronology and prop fixes
 
 **Trigger:** External editorial feedback, verified claim-by-claim against the manuscript (four parallel passes; ~⅓ confirmed, ⅓ partial, ⅓ refuted — the verification itself surfaced five defects nobody had flagged). Executed per the approved revision plan.
