@@ -14,7 +14,7 @@ A running log of significant changes to canon — location names, character fact
 
 **Time-sensitive:** the weekday alignment is unique to 2026 (Oct 4, 2027 is a Monday). If real-date publishing is wanted, this October is the window.
 
-**No decision made** — four open author questions listed in the doc (multi-chapter-day handling, prose surface, reader-safe summaries vs. field omission, the Oct 2 LLC-filing teaser).
+**Author decisions, same day:** multi-chapter same-day drops approved; the surface split decided in principle — the book/community handle publishes prose, and **each character is their own AT Protocol identity** (own PDS repo for their lexicon records, ideally with authored in-character posts). The doc gained a full "Character accounts" section: domain handles from the codex `handle:` fields, record routing by `subject`, posts as a new *authored-and-linted* canon surface (never live-generated; knowledge-state checked; fiction disclosure on every account non-negotiable; the swarm campaign is not re-enacted with real accounts), Pike's-side artifact accounts, the optional Oliver pseudonymous-account easter egg, and three build tiers. Scene records publish as bare index cards (`beat`/`primaryEvent` stay internal) per the author's "publishing too narrowly" reframe. Still open: the Oct 2 teaser (pending author review), which tier ships Oct 1, domain, reply policy, Hank/Dorothy accounts.
 
 ---
 

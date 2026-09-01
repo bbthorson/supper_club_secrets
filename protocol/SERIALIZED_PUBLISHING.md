@@ -100,13 +100,140 @@ the window**, and the decision needs to be made with roughly Oct 1 lead time.
   this pipeline is the substrate they'd sit on — but nothing model-facing is in scope.
 - **Interiority never leaves, in any lane.** Unchanged.
 
+## Decisions (author, 2026-09-01)
+
+1. **Same-day multi-chapter drops: fine.** No staggering required (staggering by the
+   chapters' `time:` fields remains available if wanted later).
+2. **Surface split decided in principle:** the book/community handle publishes the
+   prose; **each character is their own AT Protocol identity** — their own PDS repo
+   holds their lexicon records, and ideally they also post in-character. Design below.
+
+3. **Q3 dissolved by reframe.** The narrow question was what to do with the scene
+   record's two spoiler fields (`beat`, `primaryEvent`). The author's response —
+   "we may be thinking about publishing too narrowly" — points at the right v1: in
+   the character-account architecture the story's public voice is the prose plus the
+   cast's own records and posts, so the scene record doesn't narrate anything. It
+   publishes as a **bare factual index card** (title, storyDate, placeRefs,
+   participants); `beat` and `primaryEvent` stay internal. Nothing to author,
+   nothing to spoil.
+4. **Pending author review.** The referent is the manuscript's one dated fact —
+   "Filed on October 2nd—exactly two days after Hank had given up his stall"
+   (`m2_06_a_fine_sieve.md:66`) — proposed as the pre-launch teaser in "Pike's side"
+   below.
+
+---
+
+## Character accounts — each character as an AT Protocol identity
+
+This is *more* protocol-native than the single-repo design: the subject owns their
+data. The `handle:` field already in every core character's codex frontmatter
+(`emmacooks`, `oliverreads`, `oliviaknows`, `noahbuilds`, `elijahmiller`, `jasper`)
+becomes real.
+
+### Identity & infrastructure
+
+- **Handles:** domain handles under an author-owned domain —
+  `@emmacooks.supperclubsecrets.com`-style (or subdomains of whatever the project
+  domain is). Domain verification means nobody can squat the cast's names, and the
+  domain itself signals the fiction. The project/community handle
+  (`@supperclubsecrets.…`) publishes prose, scene records, and place records.
+- **Hosting:** v1 needs **no self-hosted PDS**. Accounts on bsky.social accept custom
+  lexicon records via `com.atproto.repo.putRecord`, so `site.supperclub.character.stateEvent`
+  and `profile` records can live in each character's repo from day one. A self-hosted
+  PDS (all cast on project infrastructure, one key-custody story) is a later
+  consolidation, not a prerequisite.
+- **Key custody:** the author holds all credentials; one publish script sessions into
+  each account. Cast accounts are operated, never autonomous.
+
+### Record routing (replaces the single-repo publish)
+
+The compiled records already carry `subject`. The publish profile routes by it:
+
+| Record | Destination repo |
+|---|---|
+| `character.profile`, `character.stateEvent` | that character's PDS repo |
+| `scene`, `place`, book/front-matter | the project handle's repo |
+
+Same canon-horizon filter, same spoiler-field stripping, applied per-repo. A reader
+following @emmacooks sees *Emma's* state history accumulate; the project handle
+carries the story spine.
+
+### In-character posts — a new canon surface, with rules
+
+Posts ("Weird vibes at the farmers market today") are **new in-world content**, not
+derived from prose. That makes them canon-bearing, so they get the full apparatus:
+
+1. **Authored, never live-generated.** House rule carries over: *generated output is
+   never canon* — every post is written in the repo first (a new per-character posts
+   file under the story, e.g. `stories/<book>/posts/emma.md`, each post with
+   `storyDate`, optional `time`, and text), reviewed like prose, then published on
+   schedule. Replies from real users do **not** get generated in-character answers.
+2. **Linted like prose.** Every post must pass canon-check: the character's knowledge
+   state *on that date* (the info-flow/reverse-causality machinery from the
+   2026-09-01 skill upgrade applies directly), voice guide register, tone ceiling.
+   Posts are by definition the character's **public register** — which is itself
+   characterization (what Elijah won't post says more than what he would).
+3. **In-world posting behavior must match the book.** This is the subtle one. The
+   plot *turns on* information discipline: the group runs the campaign anonymously,
+   and Emma is targeted precisely because she was visible asking questions. So:
+   - Emma posting is canon-consistent — she's explicitly "building her brand"
+     freelance (Ch 1). Food content, yes; investigation content, never.
+   - The interesting texture is **negative space**: feeds go oblique or quiet during
+     the crisis weeks (Oct 12–16), Jasper's feed goes dark during the PA search,
+     Emma's "weird vibes" post on Oct 4 is exactly the level of specificity she'd
+     later regret. Observant readers can read the feeds *as* story.
+   - The swarm campaign itself (Ch 17–24) is **not** re-enacted through the cast
+     accounts — in-world it's anonymous, and out-of-world simulating a viral exposé
+     with real accounts shades into fabricated-news territory (below).
+4. **Fiction disclosure, non-negotiable.** Every cast account bio labels itself as a
+   character in Supper Club Secrets (with a link). Real-feeling local posts from
+   unlabeled "Brooklyn residents" would deceive real people, and the Pike storyline
+   (a development scandal, an investor exodus) must never read as actual news about
+   actual Williamsburg. Fictional accounts, clearly fictional — the ARG lives inside
+   the label, not by hiding it.
+
+### Pike's side (answers open question 4)
+
+The antagonist ecosystem publishes too, on the same horizon, all fiction-labeled:
+- **Oct 2:** LLC #2847's restaurant-permit filing surfaces from the project handle —
+  the teaser, now diegetic.
+- The **commentator's #FreeMarketFriday post** (Ch 20, quoted verbatim in prose) and
+  the **critic's post** (Ch 24) can exist as real posts on their real dates from
+  labeled fictional accounts — the two loudest artifacts of the book, readable in
+  the wild on the day the chapters drop.
+- Pike's restaurant group account posts the **non-apology statement** (Ch 25 text) on
+  Oct 22–23. Its earlier feed is bland hospitality PR — which *is* his
+  characterization.
+
+### The Oliver easter egg (optional, flagged not decided)
+
+Oliver's pseudonymous zoning account is canon (3,000 followers, dry commentary,
+nobody knows). It could exist as a real, separately-named account — never linked to
+`@oliverreads` — so readers who make the connection after Ch 15/24 get the payoff
+themselves. High delight, real ops burden, and one hard rule if attempted: nothing
+may link the two accounts before the book does.
+
+### Scope tiers (build order)
+
+- **Tier A (the original ask):** project handle + prose + horizon-filtered records
+  routed to per-character repos. Six cast accounts + project account.
+- **Tier B:** authored in-character posts for the cast, posts file + lint + scheduler.
+- **Tier C:** antagonist-ecosystem accounts (commentator, critic, Pike's group),
+  Oliver easter egg.
+
+Tier A is the committed design; B and C are content-authoring costs more than
+engineering costs — B for six characters over 25 days is roughly 60–100 short posts
+to write and lint.
+
 ## Open questions for the author
 
-1. Same-day multi-chapter days: drop together, or stagger by time of day (frontmatter
-   has `time:` fields — Ch1–5 could release morning→late evening across Oct 4)?
-2. Does prose publish on the same surface as records (site/ reads from the PDS), or
-   does the site publish prose and the PDS carry records only?
-3. Reader-safe `summary` per scene (more work, richer feed) vs. omitting
-   `primaryEvent` entirely (safe, thinner) for v1?
-4. Is Oct 2's LLC-filing teaser in — and if so, as a `scene`-less standalone record
-   or a site post?
+1. The Oct 2 LLC-filing teaser: in or out (pending review of `m2_06:66` and "Pike's
+   side" above)?
+2. Which tier ships Oct 1? (A alone is real; B is the magic; C is the flourish.)
+3. Domain: what's the project domain for handles, and does `@jasper` need a
+   distinguishing handle (his codex handle is bare `jasper`)?
+4. Reply policy for cast accounts: silence (recommended v1), or authored replies
+   allowed case-by-case?
+5. Do Hank and Dorothy get accounts? (Hank has no handle in canon — arguably right:
+   the man has a landing page and a voicemail. His *absence* from the network is
+   story-accurate.)
