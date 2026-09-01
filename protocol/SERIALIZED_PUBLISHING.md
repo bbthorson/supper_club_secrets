@@ -253,6 +253,22 @@ wild. The split that keeps both:
   `SPACES.md` 5.1's backstage concept with the six characters as the in-world
   authors.
 
+**Confirmed by the author (2026-09-01):**
+- **The split stands:** the cast posts publicly *outside* the group chat; the group
+  chat lives in the space. Requiring an atproto identity for the full experience is
+  acceptable — the public lane is the free ambient layer, the space is the
+  logged-in layer.
+- **Accounts: the core six only.** No Hank, no Dorothy, no other side characters.
+  The in-world logic is exact: the space *is* the supper club's group chat, and
+  they wouldn't invite outsiders in. Space membership maps to club membership;
+  external readers aren't "in the chat" — they're granted read credentials by the
+  *publisher* (the space authority is the project DID, not a character), flies on
+  the wall rather than participants. Hank's absence from the network stays
+  story-accurate (a landing page and a voicemail).
+- Corollary to check: Tier C's antagonist-ecosystem accounts (commentator, critic,
+  Pike's group) are *not* covered by "just our main crew" one way or the other —
+  they'd be public-lane artifact accounts, not space members. Needs its own yes/no.
+
 **Writer topology:** six real writer repos means running a syncer (no relay exists
 for permissioned repos). Since *we* author all six characters anyway, the
 alpha-pragmatic shape is **single-writer**: the project DID holds the only
@@ -327,9 +343,15 @@ to write and lint.
 4. ~~Reply policy~~ — settled by the bot-tutorial rule (opt-in only: cast accounts
    never initiate; authored replies only to users who tagged them; v1 may ship with
    replies off entirely).
-6. The spaces group-chat lane: confirm the split (public posts → public lane; group
-   chat → space, authored now, published when spaces are stable) and the
-   single-writer topology.
+5. ~~Hank/Dorothy accounts~~ — settled: **core six only**; the space is the club's
+   group chat and they wouldn't invite outsiders in.
+6. ~~The spaces split~~ — settled: public posts on the public lane, group chat in
+   the space; readers wanting the full experience need an atproto identity.
+   Remaining sub-questions: single-writer topology sign-off, and whether the space
+   lane waits for spaces' full launch (recommended — the alpha PDS runs no backups)
+   or rides the alpha with an accepted data-loss risk.
+7. Tier C artifact accounts (commentator, critic, Pike's group — public lane, not
+   space members): in or out?
 5. Do Hank and Dorothy get accounts? (Hank has no handle in canon — arguably right:
    the man has a landing page and a voicemail. His *absence* from the network is
    story-accurate.)
