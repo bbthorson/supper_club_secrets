@@ -205,6 +205,98 @@ The antagonist ecosystem publishes too, on the same horizon, all fiction-labeled
   Oct 22–23. Its earlier feed is bland hospitality PR — which *is* his
   characterization.
 
+### Bot declaration (author decision 2026-09-01: required)
+
+Cast accounts are built as declared bots per the
+[atproto bot tutorial](https://atproto.com/guides/bot-tutorial):
+
+- **Self-label:** every cast account's profile carries the standard bot self-label —
+  `labels: { $type: 'com.atproto.label.defs#selfLabels', values: [{ val: 'bot' }] }` —
+  in addition to the fiction disclosure in the bio. Two independent signals: the
+  machine-readable label says *automated*, the bio says *fictional*.
+- **Opt-in interaction only:** the tutorial's rule — a bot interacts (like, repost,
+  reply) only when tagged — is adopted wholesale, and it settles open question 4
+  from the protocol side: cast accounts never initiate interaction; any reply is
+  authored, in-repo, and only ever to someone who tagged the character. v1 can still
+  ship with replies off entirely.
+- **Mechanics:** app passwords per account (author-held), posting via the SDK
+  (`app.bsky.feed.post`), network rate limits respected — trivially, since the whole
+  book is ~100 scheduled posts over 25 days.
+
+### The spaces question — core-six posts in an AT Protocol Space (under consideration)
+
+The author is considering putting the core six characters' posts into a space,
+hoping it supports view-only access for external readers. Grounding this against
+`SPACES.md` (2026-08-29) and the alpha announcement (re-checked 2026-09-01):
+
+**Can external readers get view-only access?** Per proposal 0016: yes in shape —
+space read policies include **`public`** ("authorize anyone who asks"), and reading
+is inherently view-only for non-members-with-repos. But two qualifiers:
+1. "Public" is not *web-public*: a reader needs an atproto identity and must OAuth
+   through an **admitted application** (ours) to obtain the ~2-hour read credential.
+   No anonymous drive-by reading, no Google indexing.
+2. Space records **do not appear in the Bluesky app** — no feeds, no discovery, no
+   real replies. A post in a space is gated content readable through our surface,
+   not a post in the world.
+
+**Which means the register model decides what goes where.** If the six characters'
+*public* posts live only in a space, we lose exactly what makes the idea magical —
+ambient discovery, feeds that feel real, the commentator artifacts existing in the
+wild. The split that keeps both:
+
+- **Public register → public lane.** In-character posts publish as ordinary
+  (bot-labeled) Bluesky posts. This is Tier B, unchanged.
+- **Private register → the space.** The thing a space is *for* here is the
+  **supper club group chat** — the book is full of it (the theory threads, the
+  campaign coordination, *FOUND IT*), it's the cast's private register, and "get
+  access to the group chat" is a genuinely compelling reader unlock. This is
+  `SPACES.md` 5.1's backstage concept with the six characters as the in-world
+  authors.
+
+**Writer topology:** six real writer repos means running a syncer (no relay exists
+for permissioned repos). Since *we* author all six characters anyway, the
+alpha-pragmatic shape is **single-writer**: the project DID holds the only
+permissioned repo and writes every `message` record with in-record character
+attribution (`author: char.emma`). Cheapest possible space, no syncer, and consistent
+with the derived-records discipline. Per-character permissioned repos are the
+protocol-pure end state, worth revisiting when spaces are stable.
+
+**Alpha risk vs. the Oct 1 launch (this is the hard constraint).** The alpha
+announcement is blunt: no security review, *"we are not running backups, and we may
+do destructive data migrations,"* schema not final, and the hosted alpha PDS's data
+is "neither permanent nor stable." §12.6's recorded decision — nothing reader-facing
+on spaces while alpha — was written for exactly this. The launch date is immovable
+(the 2026 calendar alignment), so the launch cannot depend on alpha infrastructure.
+The reconciliation:
+
+1. **Oct 1 ships without the space.** Public lane (prose, records, posts) only.
+2. **The group chat is authored anyway, now, as derivable `message` records** in the
+   repo — same discipline as everything else. Content cost is paid once; where it's
+   served is a publishing decision, not a rewrite (this is `SPACES.md` §9 prep #2,
+   already recommended).
+3. **The space lane targets spaces' full launch** — the announcement says "later
+   this year," i.e. plausibly *during or just after the book's run*. If it lands
+   mid-run, unlocking the group chat becomes a mid-season event; if not, the chat
+   waits for the re-read audience or Book 2, or ships through our own surface's
+   gate. Either way nothing published to readers can be destroyed by an alpha
+   migration.
+4. Space type NSID to reserve now, per §9 prep #1: `site.supperclub.groupchat`
+   (alongside the already-reserved `backstage`, `horizon`, `club`), rooted in the
+   dedicated project DID (§6 — decided in principle, now becomes real when the
+   domain/accounts are set up).
+
+### Launch checklist (new, launch-critical)
+
+1. **Buy the project domain** — blocks everything: handles derive from it
+   (`@emmacooks.<domain>` etc.), so it must exist before account creation. Then DNS
+   TXT records (or `.well-known`) per handle.
+2. Create the project account + six cast accounts; set domain handles; apply bot
+   self-labels + fiction bios; store app passwords in author-held credential storage.
+3. Establish the dedicated project DID (space authority + record authority).
+4. Publish profiles + standing places (Oct 1 front-matter payload).
+5. Publish script: horizon filter + subject routing + scene-field stripping + post
+   scheduler.
+
 ### The Oliver easter egg (optional, flagged not decided)
 
 Oliver's pseudonymous zoning account is canon (3,000 followers, dry commentary,
@@ -232,8 +324,12 @@ to write and lint.
 2. Which tier ships Oct 1? (A alone is real; B is the magic; C is the flourish.)
 3. Domain: what's the project domain for handles, and does `@jasper` need a
    distinguishing handle (his codex handle is bare `jasper`)?
-4. Reply policy for cast accounts: silence (recommended v1), or authored replies
-   allowed case-by-case?
+4. ~~Reply policy~~ — settled by the bot-tutorial rule (opt-in only: cast accounts
+   never initiate; authored replies only to users who tagged them; v1 may ship with
+   replies off entirely).
+6. The spaces group-chat lane: confirm the split (public posts → public lane; group
+   chat → space, authored now, published when spaces are stable) and the
+   single-writer topology.
 5. Do Hank and Dorothy get accounts? (Hank has no handle in canon — arguably right:
    the man has a landing page and a voicemail. His *absence* from the network is
    story-accurate.)
