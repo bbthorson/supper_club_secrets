@@ -6,11 +6,9 @@
 #                          `records/` exactly. Stale records were a recurring
 #                          audit finding class; this makes them unmergeable.
 #
-# Pinakes is built from source at a PINNED commit, NOT from npm: the published
-# @bbthorson/pinakes 0.2.0 predates the compiler-fields change (bbthorson/pinakes
-# 7103d59) that the committed records depend on. To upgrade Pinakes here:
-# bump PINAKES_REF, run compile locally, commit the regenerated records/ in the
-# same PR so the drift gate stays green.
+# Pinakes comes from npm at a PINNED version. To upgrade: bump PINAKES_VERSION,
+# run `npx @bbthorson/pinakes@<new> compile` locally, and commit the regenerated
+# records/ in the same PR so the drift gate stays green.
 #
 # What this deliberately does NOT do: prose-level checks (canon-check,
 # story-audit) are judgment passes, not deterministic lints — they stay in the
@@ -25,7 +23,7 @@ on:
   workflow_dispatch:
 
 env:
-  PINAKES_REF: fcd950057de340a99ce9b0bcfe75d1dec979fcf8  # bbthorson/pinakes main @ 2026-09-01 (carries the compiler-fields change)
+  PINAKES_VERSION: 0.2.1
 
 jobs:
   lint:
@@ -34,31 +32,18 @@ jobs:
       - name: Checkout story repo
         uses: actions/checkout@v4
 
-      - name: Checkout pinakes (pinned)
-        uses: actions/checkout@v4
-        with:
-          repository: bbthorson/pinakes
-          ref: ${{ env.PINAKES_REF }}
-          path: .pinakes
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Build pinakes
-        working-directory: .pinakes/cli
-        run: |
-          npm ci
-          npm run build
-
       - name: Continuity lint
-        run: node .pinakes/cli/dist/cli.js lint
+        run: npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} lint
 
       - name: Records drift gate
         run: |
-          node .pinakes/cli/dist/cli.js compile
+          npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile
           if ! git diff --exit-code -- records/; then
-            echo '::error::records/ is stale — run `pinakes compile` locally and commit the regenerated records.'
+            echo '::error::records/ is stale — run `npx @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile` locally and commit the regenerated records.'
             exit 1
           fi
