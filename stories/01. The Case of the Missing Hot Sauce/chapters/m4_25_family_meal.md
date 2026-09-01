@@ -54,7 +54,7 @@ audit_notes:
 
 The following Sunday, Emma stood in her kitchen, staring at the array of ingredients spread across her counter. For the first time in months, she wasn't cooking out of anxiety or financial desperation. She wasn't performing for a client or testing a recipe for an article or trying to prove something to a voice in her head that sounded like her former boss. She was cooking because she wanted to. Because her friends were coming, and they deserved something beautiful.
 
-The cease and desist letter had been formally withdrawn three days after the story went viral. Pike's lawyers had sent a terse, one-paragraph retraction with all the warmth of an autopsy report. Pike himself had posted a statement on social media—the kind of carefully worded non-apology that lawyers approve and PR teams deploy when the alternative is silence: *"We never intended to stifle small businesses or the artisans who make Brooklyn's food scene vibrant. Moving forward, we will not enforce any trademark claims related to heritage pepper products. We apologize for any confusion our legal actions may have caused."*
+The cease and desist letter had been formally withdrawn three days after the story went viral. Pike's lawyers had sent a terse, one-paragraph retraction with all the warmth of an autopsy report. Pike himself had posted a statement on social media—the kind of carefully worded non-apology that lawyers approve and PR teams deploy when the alternative is silence: *"We never intended to stifle small businesses or the artisans who make Brooklyn's food scene vibrant. Moving forward, we will not enforce any patent claims related to heritage pepper products, and we have abandoned the related filings. We apologize for any confusion our legal actions may have caused."*
 
 Olivia had screenshotted it and texted it to the group chat with a single word: *"Confusion."* Emma had printed out the withdrawal email and taped it to her fridge, where it sat next to a takeout menu and a photo of her grandmother's kitchen.
 
@@ -94,6 +94,12 @@ Emma raised an eyebrow. "Who are you and what have you done with Noah?"
 
 The bread, when he unwrapped it, was a beautiful thing—a crusty artisan boule with a dark, crackled crust and a soft, airy interior that smelled faintly of sourdough and good intentions. He'd also brought butter. Real butter, in a dish, not the whipped kind in a tub that he usually considered the superior option due to its spreadability index.
 
+Emma nodded at the wire rack, where the focaccia sat cooling in plain sight. "You do realize you brought bread to a bread house."
+
+Noah looked at the rack. Looked at the boule. "I picked it because it was the best-look—" He stopped himself. "It had an objectively superior crumb."
+
+Emma caught the slip, and decided to be merciful. "It did," she said, and cleared a spot on the counter for it, right next to hers.
+
 The group settled into their spots—the geography of Emma's furniture now as familiar as a map of their own apartments. Olivia and Oliver on the loveseat. Noah on the structurally questionable end of the couch. Elijah on the milk crate, which he'd long since stopped complaining about. And a new chair—a real chair, borrowed from Olivia's apartment—sitting empty by the door.
 
 "Jasper said he'd be a little late," Emma said, noting the empty seat. "He said he's bringing a guest."
@@ -102,7 +108,7 @@ The group settled into their spots—the geography of Emma's furniture now as fa
 
 "That was one time," Olivia said. "And the raccoon was very well-behaved."
 
-They ate in waves, passing plates and bowls across the cramped space with the practiced choreography of people who'd done this enough times to know the angles. Emma's soup came out first—velvety, golden, with a swirl of cream and a sprinkle of smoked paprika. She served it with her focaccia, and the table went quiet in that specific way that meant the food was good enough to stop conversation. Oliver's gratin followed, rich and decadent, the kind of dish that made you close your eyes. Elijah's salad provided a bright, clean counterpoint—the fennel crisp, the citrus sharp, the pomegranate seeds bursting with a tartness that cut through the heavier dishes.
+They ate in waves, passing plates and bowls across the cramped space with the practiced choreography of people who'd done this enough times to know the angles. Emma's soup came out first—velvety, golden, with a swirl of cream and a sprinkle of smoked paprika. She served it with her focaccia and thick slices of Noah's boule, and the table went quiet in that specific way that meant the food was good enough to stop conversation. Oliver's gratin followed, rich and decadent, the kind of dish that made you close your eyes. Elijah's salad provided a bright, clean counterpoint—the fennel crisp, the citrus sharp, the pomegranate seeds bursting with a tartness that cut through the heavier dishes.
 
 "We did good," Olivia said, surveying the table.
 
@@ -112,7 +118,7 @@ It was Olivia who raised the subject hovering in the room—but not the one Emma
 
 Emma turned from the stove. A week ago she'd stood right here and told Olivia how thin it had all gotten—the proud exit from Bistro Lavande, the math she did in the grocery line, the fear she'd kept from everyone. Olivia was the only one who knew the whole shape of it, and she was asking now without giving an inch of it away in front of the others, which was its own kind of love.
 
-"Better," Emma said, and found she meant it. "Two of the clients who cancelled on me called back this week. The editor who killed my squash piece wants it after all—and a piece on Hank, if I'll write it." She wiped her hands on her apron. "I'm not suddenly fine. The scared doesn't leave just because the threat does. But the work's coming back. And it turns out the part I'd been getting wrong this whole time was thinking I had to do any of it alone."
+"Better," Emma said, and found she meant it. "Two of the clients who cancelled on me called back this week — both said the same thing: they'd seen the story. The editor who killed my squash piece wants it after all—and a piece on Hank, if I'll write it." She wiped her hands on her apron. "I'm not suddenly fine. The scared doesn't leave just because the threat does. But the work's coming back. And it turns out the part I'd been getting wrong this whole time was thinking I had to do any of it alone."
 
 "That's the whole thing," Olivia said, and squeezed her hand, and didn't make a speech about it—which, from Olivia, was the loudest thing she could have done.
 
@@ -146,7 +152,7 @@ A stunned silence fell over the room.
 
 "Surprise?" Jasper said weakly, his voice cracking on the word. He held the bottle out toward her, suddenly looking like he was about to confess something. "I, uh. I owe you. This was on your counter the night before I left. I figured if I was going to ask him to come back, I should bring proof that the bottle had already done the thing it was supposed to do. I should've asked first. I'm sorry."
 
-Emma took it from him. The glass was warm from his pocket. She turned it once, looking at the smudged corner of the label where someone — Hank, three weeks ago, or his great-grandmother, or a hand even further back — had written *FP* and a year she couldn't quite read. Then she set it on the counter, right where it had lived since that first Sunday, and her face did something complicated.
+Emma took it from him. The glass was warm from his pocket. She turned it once, looking at the smudged corner of the label where someone — his great-grandmother, or a hand even further back — had written *FP* and a year she couldn't quite read. Then she set it on the counter, right where it had lived since that first Sunday, and her face did something complicated.
 
 "It went where it needed to go," she said.
 
@@ -170,13 +176,13 @@ Noah nodded once, then turned back to the group as if nothing had happened. But 
 
 ---
 
-Later, after the initial shock had subsided and another place had been set and a glass of wine had been pressed into Hank's hand, he sat on the loveseat with a plate balanced on his knees. Oliver's gratin. Elijah's salad. A thick slice of Emma's focaccia. He looked around at the faces watching him—these strangers who had become his champions—and began to tell his story.
+Later, after the initial shock had subsided and another place had been set and a glass of wine had been pressed into Hank's hand, he sat on the loveseat with a plate balanced on his knees. Oliver's gratin. Elijah's salad. A thick slice of Emma's focaccia, and a heel of Noah's boule, buttered past all reason. He looked around at the faces watching him—these strangers who had become his champions—and began to tell his story.
 
 "It started small," he said, his voice quiet but steady. "Sales dipping at the shops. Owners telling me they were being pressured to carry fewer local brands. Then came the letter."
 
 He described the offer from the restaurant group—a painfully low sum, not for his recipe, but for the trademark to his family's name. They didn't want his craft. They didn't want his story. They wanted to own the name so that nobody else could use it—especially him.
 
-"When I tried to negotiate, the offer disappeared," Hank continued. "Suddenly it was a threat instead of a deal. Stop selling, or they'd bury me in legal fees I couldn't afford. And they made it clear they had the resources to do it." He shook his head, his hand tightening around the wine glass. "I felt broken. Like this story my family built—four generations, from Virginia to Philly to Brooklyn—didn't matter anymore. Like I was just an obstacle in someone's business plan. So I ran. Went to Meadowlight, where they still grow the old-stripe Fish Peppers. Figured I'd just let it die quietly."
+"When I tried to negotiate, the offer disappeared," Hank continued. "Suddenly it was a threat instead of a deal. Stop selling, or they'd bury me in legal fees I couldn't afford. Patents, their lawyer kept saying. On the whole idea of sauce like mine—the pepper, the process, all of it. And they made it clear they had the resources to do it." He shook his head, his hand tightening around the wine glass. "I felt broken. Like this story my family built—four generations, from Virginia to Philly to Brooklyn—didn't matter anymore. Like I was just an obstacle in someone's business plan. So I ran. Went to Meadowlight, where they still grow the old-stripe Fish Peppers. Figured I'd just let it die quietly."
 
 He paused.
 
@@ -276,7 +282,7 @@ Outside Emma's window, the October night had grown cold, but inside, the apartme
 
 Olivia was mediating. Oliver was taking notes. Hank was watching with the quiet delight of a man who'd found, unexpectedly, a place where he belonged.
 
-And Emma, standing in her kitchen doorway with a glass of wine and flour still on her jeans, realized something she hadn't expected to realize tonight. She'd quit her job three months ago, terrified she'd made a mistake. She'd been scrambling and hiding and carrying secrets and trying to prove she could survive on her own.
+And Emma, standing in her kitchen doorway with a glass of wine and flour still on her jeans, realized something she hadn't expected to realize tonight. She'd quit her job six weeks ago, terrified she'd made a mistake. She'd been scrambling and hiding and carrying secrets and trying to prove she could survive on her own.
 
 She hadn't needed to survive on her own. She'd needed this—right here—this exact combination of people and food and chaos and warmth.
 

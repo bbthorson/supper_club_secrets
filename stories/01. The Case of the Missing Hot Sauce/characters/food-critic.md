@@ -21,9 +21,9 @@ An influential and respected national food critic whose endorsement of the group
 She's one of the country's "most respected and feared food critics." She writes for a major outlet (unspecified) and has built a reputation on championing small producers against corporate consolidation. She's exactly the kind of voice the group's swarm strategy was designed to reach — not someone they contacted directly, but someone who picked up the story because it aligned with her values.
 
 ### The Endorsement
-After Oliver's talking points document circulated through the group's network of food bloggers and influencers, the critic saw the story and recognized it for what it was: a textbook case of predatory trademark trolling. Her post reframed the narrative from a local curiosity into a national conversation.
+After Oliver's talking points document circulated through the group's network of food bloggers and influencers, the critic saw the story and recognized it for what it was: a textbook case of predatory patent trolling. Her post reframed the narrative from a local curiosity into a national conversation.
 
-She used the group's exact phrasing — "the prohibitive cost of litigation is a weapon" — which Oliver noticed with quiet wonder. Her post was shared over a thousand times in the first ten minutes, flipping the social media sentiment from mixed to overwhelmingly positive.
+She used the group's exact framing — "The cost of fighting back is the weapon," echoing Oliver's "The price of finding out is the weapon" — which Oliver noticed with quiet wonder. Her post was shared over a thousand times in the first ten minutes, flipping the social media sentiment from mixed to overwhelmingly positive.
 
 ### What She Represents
 The food critic is the tipping point — the moment the group's grassroots effort achieves critical mass. She's not a character so much as a narrative device: the proof that the swarm strategy worked, that good information finds the right amplifier.
@@ -46,7 +46,7 @@ None — she's a single-scene catalyst. Her intervention is the external validat
 ## Notes
 * **Intentionally unnamed.** Like the mogul, she works better as a force than a person. Naming her would invite questions about her backstory that don't serve the narrative.
 * She could recur in future books as a background presence — someone whose reviews or columns intersect with the group's investigations in the food world.
-* Her post is quoted directly in Chapter 24: "What's happening to this Brooklyn hot sauce vendor is not 'capitalism.' It is a textbook case of predatory trademark trolling..."
+* Her post is quoted directly in Chapter 24: "What's happening to this Brooklyn hot sauce vendor is not capitalism. It's a textbook case of predatory patent trolling..." — including the ghost-kitchen clause ("a dozen invented brands in one Long Island City warehouse").
 
 ## Lore Tracking (Book 1)
 * Appears: Chapter 24 ("The Proof") — her post turns the tide of public sentiment

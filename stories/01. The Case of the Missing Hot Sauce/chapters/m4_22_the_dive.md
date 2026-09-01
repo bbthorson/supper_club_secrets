@@ -23,13 +23,14 @@ clues:
   planted: []
   revealed:
     - "A bartender names the Meadowlight Collective — the lead that breaks the search open"
+    - "Gatekeeping established: Murph's cousin starts the vouch-in that night; Jasper drives out 'the second they'll have me' (Monday spent waiting, off-page — paid off by Ch23's Tuesday arrival)"
 threads:
   active:
     - "Jasper's redemption journey (from the road — the low point, then the break)"
   touched:
     - "The performance stripped away — just the guy who caused it all, running out of road"
     - "Brooklyn counterpunch visible from the road (group-chat pulse between Ch20 and Ch24)"
-beat_purpose: "From the road: the low point — Jasper nearly drives home, then a bartender names Meadowlight and the door cracks open."
+beat_purpose: "From the road: the low point — Jasper nearly drives home, then a bartender names Meadowlight; Murph's cousin starts the vouch-in, and the door cracks open."
 ---
 
 ### Chapter Twenty-Two - Murph's
@@ -56,6 +57,6 @@ The water sat there, sweating, untouched. Jasper's heart was going like a fist o
 
 "Murph," he said. "Can I buy you and your cousin a truly unreasonable number of beers?"
 
-He texted the group from the parking lot, hands shaking a little in the cold: *FOUND IT. Meadowlight Collective, ~2 hrs west. A guy showed up this fall and lives in the greenhouse. Driving out at first light. It's him. I know it's him.*
+He texted the group from the parking lot, hands shaking a little in the cold: *FOUND IT. Meadowlight Collective, ~2 hrs west. A guy showed up this fall and lives in the greenhouse. Murph's calling his cousin tonight to vouch me in — driving out the second they'll have me. It's him. I know it's him.*
 
 The replies came fast — a pile-up of caps and exclamation points. But it was Noah's that he looked at longest: *Go get him. We'll hold the line here.*

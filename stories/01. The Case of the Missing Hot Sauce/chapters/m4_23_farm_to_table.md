@@ -57,7 +57,7 @@ A long pause. She looked at him the way you look at someone when you're deciding
 
 ---
 
-The greenhouse was humid and warm, a different world from the crisp air outside. The smell hit first — rich earth and green, living things, the specific scent of plants working hard to grow. Rows of peppers stretched toward the glass, leaves broad and glossy, and among them, unmistakable, the Fish Peppers: small fruits striped green and white, the pattern so vivid it looked painted on.
+The greenhouse was humid and warm, a different world from the crisp air outside. The smell hit first — rich earth and green, living things, the specific scent of plants working hard to grow. Rows of peppers stretched toward the glass, leaves broad and glossy, and among them, unmistakable, the Fish Peppers: small fruits striped green and white, the pattern so vivid it looked painted on — and, on the older plants, a few fruits already turning.
 
 At the far end, a man was bent over a row of them, pinching spent blossoms, checking the undersides of leaves, his touch as careful as a parent's. Old jeans, flannel with the sleeves rolled, forearms dark with sun and soil.
 
@@ -91,7 +91,7 @@ Then Jasper reached into his jacket and drew out the thing he'd carried two stat
 
 A small bottle. Deep red, the handwritten label gone soft at one corner.
 
-Hank went still. He took it in both hands — the way you handle something you'd made your peace with never seeing again — and turned it until his own careful cursive caught the light. *Heritage Pepper Sauce — Small Batch — Hank.*
+Hank went still. He took it in both hands — the way you handle something you'd made your peace with never seeing again — and turned it until his own careful cursive caught the light, his thumb finding the older mark in the corner without needing to look. *Heritage Pepper Sauce — Small Batch — Hank.*
 
 "Where'd you get this?"
 

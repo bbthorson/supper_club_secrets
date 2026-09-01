@@ -146,7 +146,7 @@
 
 ### From the Road — The Starlite Drive-In (Ch. 21)
 * Saturday. A drive-in in Lancaster County. Noah — texting individually now — has turned Jasper's list into a pruned spreadsheet (the conduit pattern forming).
-* A seed supplier who knows the Fish Pepper points him toward a collective "out past the city." "Meadow-something." The first real lead.
+* A seed supplier who knows the Fish Pepper confirms the collective rumor Jasper carried out of Brooklyn (Ch17) and gives it a name fragment: "Meadow-something." The rumor firms up.
 
 ### From the Road — Murph's (Ch. 22)
 * Sunday night. The lead has gone cold for a day and a half; Jasper is twenty-some calls and one bad motel deep, nursing a beer at the end of a dive bar. The low point — he nearly drives home.
@@ -181,11 +181,11 @@
 
 | Question | Answer |
 |---|---|
-| **What really happened?** | Restaurant mogul **Garrett Pike** used an anonymous LLC to file patents on Hank's hot sauce recipe category and pressure him out of the market. When Hank refused a lowball trademark buyout, the mogul threatened to bury him in legal fees. |
+| **What really happened?** | Restaurant mogul **Garrett Pike** used an anonymous LLC to file broad patents on Hank's hot sauce recipe *category* — the weapon. He first offered a lowball buyout of the trademark to Hank's family name — the acquisition attempt. When Hank refused, Pike's lawyers threatened to bury him in patent litigation he couldn't afford. The patents likely wouldn't survive a prior-art challenge; the weapon is the *cost* of finding out (established on-page in Ch12). |
 | **Who is responsible?** | Garrett Pike, operating through LLC #2847 and a larger hospitality group. |
-| **Why did they do it?** | Hank's artisanal brand was a rising competitor. Pike wanted to acquire the trademark cheaply and own the heritage hot sauce category. |
+| **Why did they do it?** | Hank's artisanal brand was a rising competitor and the intended crown jewel of Pike's ghost-kitchen brand stable (*Brooklyn Heritage Provisions*). Pike wanted the name cheap and the category locked up by patents. |
 | **How was it discovered?** | Oliver found the anonymous LLC filing. Noah traced it to the hospitality group and its hot sauce patents. Elijah's financial model confirmed the motive. Brenda's frightened reaction (via Jasper) confirmed the scale and danger — not the name. Pike introduced himself to Emma (Ch13); Noah confirmed his identity via the press-release/org-chart match (Ch14). |
-| **How was it resolved?** | Anonymous, distributed social media campaign exposing Pike. A major food critic amplified the story. Investor pressure forced Pike to withdraw the C&D and shelve the waterfront restaurant. Hank filed a proper trademark with pro bono legal help. |
+| **How was it resolved?** | Anonymous, distributed social media campaign exposing Pike — Oliver's toolkit deployed the patent-troll economics AND the ghost-kitchen commissary evidence. A major food critic amplified both. Investor pressure forced Pike to abandon the patent claims, withdraw the C&D, and shelve the waterfront restaurant. The instrument that attacked (patents) is the instrument that fell — symmetrical weapon. Hank filed a proper *defensive* trademark with pro bono legal help (protects the name; distinct from Pike's patents). |
 | **Fair play check** | Yes — all clues available to reader by end of Meal 3. The LLC, the patents, the financial motive, and the mogul's identity are all established before the resolution. |
 
 ---

@@ -36,7 +36,7 @@ threads:
 beat_purpose: "Bring the threat home and put a face on it. The pressure is economic and personal, not an exposed secret. Pike reveals himself with a charm that reads as menace."
 audit_notes:
   - "Economic squeeze (cancelled assignments) spreads across Mon–Wed, which resolves the old day-jump compression and fills the Tuesday void."
-  - "Pike's appearance pays off the well-dressed man seeded in Ch1 and the out-of-place man at Dorothy's stall in Ch12."
+  - "Pike's appearance pays off the well-dressed man seeded in Ch1 ONLY. The out-of-place man at Dorothy's stall in Ch12 is deliberately unresolved — one of Pike's people per the ledger, never claimed as Pike himself (see Ch12's audit note; Ch13's recognition beat ties textually to the Ch1 sighting alone)."
   - "Opaque-secret direction: no OnlyFans exposure. Emma's vulnerability is economic/precarity, confided privately to Olivia in Ch14."
 ---
 

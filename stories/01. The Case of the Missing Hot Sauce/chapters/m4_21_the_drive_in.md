@@ -19,12 +19,12 @@ registers:
 clues:
   planted: []
   revealed:
-    - "A seed supplier names a collective 'out past the city' — 'meadow-something' (the first real lead)"
+    - "A seed supplier confirms the collective rumor from Ch17 and gives it a name fragment — 'meadow-something' (the rumor firms up)"
 threads:
   active:
-    - "Jasper's redemption journey (from the road — the first real lead)"
+    - "Jasper's redemption journey (from the road — the Ch17 rumor firms up: Fish Pepper confirmation + a name fragment)"
     - "Noah/Jasper conduit pattern (forming — Jasper routes updates through Noah)"
-beat_purpose: "From the road: Noah's pruned spreadsheet narrows the search and a seed supplier names a collective 'out past the city' — the first real lead."
+beat_purpose: "From the road: Noah's pruned spreadsheet narrows the search and a seed supplier confirms the collective is real, growing Fish Peppers, named 'meadow-something' — the rumor Jasper carried out of Brooklyn finally firms up."
 ---
 
 ### Chapter Twenty-One - The Starlite Drive-In
@@ -39,11 +39,11 @@ He'd sent Noah the whole tangled list the night before, and Noah — who did not
 
 The first starred number was a seed supplier outside Lancaster. The woman who answered knew exactly what a Fish Pepper was. "Green and white stripes, goes red? Nearly-lost variety. We don't carry it — hardly anybody grows it anymore." A pause. "There's a place that does. Some collective, out past the city. Share the land, grow the old seeds. I sent them a few packets a couple seasons back."
 
-Jasper sat up so fast he nearly upended the tray. "Do you have a name? An address?"
+Jasper sat up so fast he nearly upended the tray. The collective — the rumor he'd carried out of Brooklyn, suddenly real enough to have received a seed shipment. "Do you have a name? An address?"
 
 "Somewhere. Meadow-something. Let me dig up the invoice."
 
-He texted Noah before he'd even hung up: *LEAD. a collective, grows fish peppers, "meadow-something." running it down.*
+He texted Noah before he'd even hung up: *THE COLLECTIVE. it's real. grows fish peppers, "meadow-something." running it down.*
 
 Noah, instantly: *On it.*
 
