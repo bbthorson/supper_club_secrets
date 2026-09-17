@@ -59,7 +59,7 @@ Oliver listened patiently, a small smile on his face. When she was finished, he 
 
 "Those are subjective interpretations of his emotional state," Oliver said, but there was no malice in his voice—just the gentle precision of a man who processed the world differently than his wife and had long since stopped apologizing for it. "I, on the other hand, have found a piece of objective data." He turned his laptop toward her, showing her the screen. "An anonymous LLC has filed a permit for a new restaurant on the waterfront. The filing date was two days after Hank gave up his stall."
 
-Olivia leaned in, her playful, public persona melting away. This was the version of Olivia that only Oliver saw regularly—the one without the performance, the one that was genuinely, quietly brilliant in ways she rarely got credit for because people were too distracted by her charm. She scanned the screen, her eyes moving quickly.
+Olivia leaned in, her playful, public persona melting away. This was the version of Olivia that only Oliver saw regularly—the one without the performance, the one that was genuinely brilliant in ways she rarely got credit for because people were too distracted by her charm. She scanned the screen, her eyes moving quickly.
 
 "Okay," she said, her voice soft and encouraging. "So, what does that mean? Walk me through it. What's the hypothetical scenario here?"
 

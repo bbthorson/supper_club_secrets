@@ -164,7 +164,7 @@ For a moment, neither said anything. The noise of the reunion swirled around the
 
 Then Noah walked over, hands in his pockets.
 
-"What you said the other night," Noah said quietly, so only Jasper could hear. "About being the liability. About not fitting." He paused, uncomfortable with the words but pushing through them the way you push through a door you've been standing in front of for too long. "That wasn't true. And what I said—about your chaos being exhausting—" He shook his head. "I was scared and I took it out on you. I'm sorry."
+"What you said the other night," Noah said, pitched so only Jasper could hear. "About being the liability. About not fitting." He paused, uncomfortable with the words but pushing through them the way you push through a door you've been standing in front of for too long. "That wasn't true. And what I said—about your chaos being exhausting—" He shook his head. "I was scared and I took it out on you. I'm sorry."
 
 Jasper blinked, clearly not expecting this. "Noah, you don't have to—"
 
@@ -230,7 +230,7 @@ It was Olivia who said it. "So... do we do this again?"
 
 "Who cares?" Jasper said, his old grin returning, not manic but genuine. "The getting together is the point. The food, the friendship, the—"
 
-"The feeling that you have people," Emma said quietly, and the room went still. She looked at them—Olivia's warmth, Oliver's quiet depth, Elijah's steady presence, Noah's reluctant heart, Jasper's beautiful chaos, and Hank, this stranger who trusted them enough to come back.
+"The feeling that you have people," Emma said, and the room went still. She looked at them—Olivia's warmth, Oliver's quiet depth, Elijah's steady presence, Noah's reluctant heart, Jasper's beautiful chaos, and Hank, this stranger who trusted them enough to come back.
 
 "Okay," she said. "But I'm not cooking every time."
 

@@ -16,7 +16,7 @@ The other, surface-readable tension: Jasper presents as the chaos agent who conn
 
 **Ch10 (his Friday):** Walks Chelsea. Scrolls contacts. Calls Brenda. The competitive itch is the cover — everyone else has contributed to the group chat, he wants to too. Underneath: he's been waiting for the chance to be the one who broke the case. He plays the call light. Brenda warns him. He misses her warning text that night. Crack #1: he's chasing recognition, not solving the problem.
 
-**Ch12 → Ch13:** Triumphant at the dinner. Drives the Brenda reveal. Gets the validation. Doesn't see the warning text until morning. By then it's too late.
+**Ch12 → Ch13:** Triumphant at the dinner. Drives the Brenda reveal. Gets the validation. Doesn't see the warning text until morning, reads it, and lets the day carry him past it — the breach is already made off-page in Ch10, so the cost is his inattention, not his timing.
 
 **Ch14 → Ch15 (the confession):** The fight. Noah lashes out. Jasper does the reversal — goes quiet. Not the deflection chaos, not the "okay but hear me out" chaos. Actual quiet. "All I've got is knowing people. And I thought, for once, that would be enough." This is the deepest crack of the book. The chaos isn't identity, it's strategy — and the strategy just failed. He doesn't have a backup self.
 

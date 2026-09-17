@@ -119,6 +119,6 @@ Jasper shook it — the calluses, the strength, the soil still on the palm. "Tha
 
 Jasper drove east alone, the sun going down behind him, the Subaru complaining the whole way. Somewhere past Allentown his phone started buzzing and wouldn't stop — the group chat, lighting up with something too fast to read at seventy miles an hour. Whatever was happening back in Brooklyn was happening *now.*
 
-But for once he didn't need the score to know he'd won something. He'd found Hank. He'd told the truth about his own mistakes, out loud, to the person they'd hurt. And he'd asked, plainly, for nothing but a seat at a table.
+But he didn't need the score to know he'd won something. He'd found Hank. He'd told the truth about his own mistakes, out loud, to the person they'd hurt. And he'd asked, plainly, for nothing but a seat at a table.
 
 For once, his chaos had pointed in exactly the right direction.
