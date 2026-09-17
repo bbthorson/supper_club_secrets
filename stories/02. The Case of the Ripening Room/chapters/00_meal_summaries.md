@@ -2,11 +2,11 @@
 
 Quick-reference overview of each meal's arc, key events, menu, and group dynamics. For the full chapter-by-chapter breakdown, see [00_story_outline.md](00_story_outline.md).
 
-**Chapter → Meal mapping (24 chapters):**
-- **Meal 1 (Setup):** Chapters 1–5 (`m1_*`)
-- **Meal 2 (Investigation):** Chapters 6–12 (`m2_*`)
-- **Meal 3 (Crisis):** Chapters 13–17 (`m3_*`)
-- **Meal 4 (Resolution):** Chapters 18–24 (`m4_*`)
+**Chapter → Meal mapping (25 chapters):**
+- **Meal 1 (Setup):** Chapters 1–6 (`m1_*`)
+- **Meal 2 (Investigation):** Chapters 7–13 (`m2_*`)
+- **Meal 3 (Crisis):** Chapters 14–18 (`m3_*`)
+- **Meal 4 (Resolution):** Chapters 19–25 (`m4_*`)
 
 **Hosting:** Olivia & Oliver (Clinton Hill) for Meals 1, 2 and 4 — the first turn of the rotation agreed at the end of Book 1. Meal 3 is displaced to Sofia's dark, red-tagged shop.
 
@@ -14,17 +14,17 @@ Quick-reference overview of each meal's arc, key events, menu, and group dynamic
 
 ---
 
-## Meal 1: The Setup (Chapters 1–5)
+## Meal 1: The Setup (Chapters 1–6)
 
 **Saturday Oct 31 – Sunday Nov 1.**
 
 ### Key Events
-- **Opening Image:** Emma keeps the Saturday appointment Sofia made at the end of Book 1. An orange Department of Buildings notice is taped inside the glass — Sofia's first violation in twenty years, citing the cellar ripening room. Sofia is giving cheese away because what's in the sealed room won't keep.
-- **Theme Stated:** Sofia told the inspector she'd never had a violation. Emma asks whether he wrote that down. He didn't. *Being right isn't the same as being heard.*
+- **Opening Image (Ch1, Olivia's feed — the one chapter that opens outside Emma):** Olivia is running a one-day pop-up of thrifted glassware from a folding table in the front of Sofia's shop when an inspector comes in and writes an Order to Correct on the cellar ripening room. It is deliberately not a big deal: he's polite, Sofia is annoyed more than frightened, Olivia keeps selling glassware eight feet away. Sofia asks where Danny is — it isn't the district inspector of nine years — and nobody thinks about it again. Then Olivia tells Sofia the Hank story, slightly improved, mentions she's seeing her friends that night, and offers to have them look into how inspections work. **"Oliver will love this."** She's right, and she has no idea how right.
+- **Theme Stated (Ch2, Emma's feed, same Saturday afternoon):** Emma keeps the appointment Sofia made at the end of Book 1 and walks into the aftermath. This is where the notice stops being small: the room is sealed, and Sofia is giving cheese away because what's in it won't keep. Sofia told the inspector she'd never had a violation in twenty years; Emma asks whether he wrote that down. He didn't. *Being right isn't the same as being heard.* Two chapters, two feeds, one Saturday — the pattern the whole book runs on.
 - **Set-up:** The first supper club meal that isn't at Emma's. Olivia hosts at full wattage; Oliver does logistics and retreats to the kitchen. The group disclaims the premise out loud: they're not detectives, October was weird.
 - **Catalyst:** Oliver reads the notice and the cited code section is wrong for Sofia's use group. He says so, then says more than he meant to. Same scene: a Promenade Group leasing card was left at Sofia's counter *weeks before* the inspection.
 - **Debate:** Theories, shorter and soberer than Book 1's. Elijah argues the landlord. Emma and Noah converge on Garrett Pike. Olivia says there's no villain, just the wave. Jasper performs, then goes quiet at the words "anonymous complaint." Elijah refuses to judge.
-- **The Plan:** They pair up instead of taking solo days. Closing beat is a feed excursion into Oliver: he's been tracking this for five weeks, and not as Oliver.
+- **The Plan:** They pair up instead of taking solo days. Closing beat is a feed excursion into Oliver: he's been tracking this for five weeks, and not as Oliver. Olivia thinks she gave him a fun puzzle.
 
 ### Menu
 - Cider-braised chicken thighs with schmaltz potatoes (main)
@@ -35,23 +35,23 @@ Quick-reference overview of each meal's arc, key events, menu, and group dynamic
 
 ---
 
-## Meal 2: Investigation (Chapters 6–12)
+## Meal 2: Investigation (Chapters 7–13)
 
 **Monday Nov 2 – Sunday Nov 8.** Paired investigation, not one character per day — the structural break from Book 1.
 
 ### Chapter Structure
-- **Ch6 (Monday):** Oliver — his feed in full. The account, the archive, the rezoning overlay. Files a FOIL request under his own name.
-- **Ch7 (Tuesday):** Oliver & Jasper at the DOB office — the canon city-office encounter. Jasper extracts "reassigned" from clerk Nadia Reyes. Lena sees them leave together.
-- **Ch8 (Wednesday):** Elijah & Olivia — the landlord theory worked properly and eliminated. Aaron Feld produces his own violations.
-- **Ch9 (Thursday):** Noah — the Pike theory worked properly and eliminated. Shared law firm, not shared ownership.
-- **Ch10 (Friday):** Emma & Olivia at a tenant association meeting. Roz Okonkwo: "You're the hot sauce people." Names the missing question.
-- **Ch11 (Saturday):** Jasper alone in the 311 intake log. Finds the complaint-timing pattern. Tells exactly one person.
-- **Ch12 (Sunday):** Meal 2 — ambitious potluck, findings converge, false victory.
+- **Ch7 (Monday):** Oliver — his feed in full. The account, the archive, the rezoning overlay. Files a FOIL request under his own name.
+- **Ch8 (Tuesday):** Oliver & Jasper at the DOB office — the canon city-office encounter. Jasper extracts "reassigned" from clerk Nadia Reyes. Lena sees them leave together.
+- **Ch9 (Wednesday):** Elijah & Olivia — the landlord theory worked properly and eliminated. Aaron Feld produces his own violations.
+- **Ch10 (Thursday):** Noah — the Pike theory worked properly and eliminated. Shared law firm, not shared ownership.
+- **Ch11 (Friday):** Emma & Olivia at a tenant association meeting. Roz Okonkwo: "You're the hot sauce people." Names the missing question.
+- **Ch12 (Saturday):** Jasper alone in the 311 intake log. Finds the complaint-timing pattern. Tells exactly one person.
+- **Ch13 (Sunday):** Meal 2 — ambitious potluck, findings converge, false victory.
 
 ### Key Events
 - **Break into Act 2:** The reader gets inside Oliver's real life for the first time in the series, and knows something the table doesn't for seven straight chapters.
 - **Fun and Games:** Two legitimate leads get real page-time and die by evidence — the fix for the Book 1 audit's carried-forward red-herring note.
-- **Connective clue:** Reassignment (Ch7) and complaint timing (Ch11) are two halves of one mechanism, planted four chapters apart and joined at the table.
+- **Connective clue:** Reassignment (Ch8) and complaint timing (Ch12) are two halves of one mechanism, planted four chapters apart and joined at the table.
 - **Midpoint (False Victory):** They conclude it's a rogue inspector — tidy, satisfying, and wrong about *who*. Being wrong this way is what makes them act in the open.
 - **Setback (hidden):** Lena's office traces the FOIL request to Oliver's consultancy. He filed under his own name because it never occurred to him to hide.
 
@@ -71,19 +71,19 @@ Quick-reference overview of each meal's arc, key events, menu, and group dynamic
 
 ---
 
-## Meal 3: Crisis (Chapters 13–17)
+## Meal 3: Crisis (Chapters 14–18)
 
 **Monday Nov 9 – Friday Nov 20.** Fastest tempo in the book. Short chapters, more white space, characters interrupted.
 
 ### Chapter Structure
-- **Ch13:** Lena Torrance on-page and unfailingly pleasant. Sofia's order escalates to a full vacate; the ripening room goes dark.
-- **Ch14:** Oliver put on leave pending a conflict-of-interest review. A preservation letter narrows the leak to four people, one of them Nadia.
-- **Ch15:** The crisis meal in Sofia's dark shop. Oliver tells them about the leave, not the account. Olivia's line.
-- **Ch16:** Oliver alone with the unusable archive. Jasper reveals he knows — and holds it.
-- **Ch17:** The plan: one room, one record, one name. Roz agrees, and calls it a loan.
+- **Ch14:** Lena Torrance on-page and unfailingly pleasant. Sofia's order escalates to a full vacate; the ripening room goes dark.
+- **Ch15:** Oliver put on leave pending a conflict-of-interest review. A preservation letter narrows the leak to four people, one of them Nadia.
+- **Ch16:** The crisis meal in Sofia's dark shop. Oliver tells them about the leave, not the account. Olivia's line.
+- **Ch17:** Oliver alone with the unusable archive. Jasper reveals he knows — and holds it.
+- **Ch18:** The plan: one room, one record, one name. Roz agrees, and calls it a loan.
 
 ### Key Events
-- **Bad Guys Close In:** Nothing in Ch13 is a threat and everything in it is. Lena hands Oliver exactly what he asked for and nothing he needs, cites him chapter and verse, and mentions his firm's three city contracts with genuine warmth.
+- **Bad Guys Close In:** Nothing in Ch14 is a threat and everything in it is. Lena hands Oliver exactly what he asked for and nothing he needs, cites him chapter and verse, and mentions his firm's three city contracts with genuine warmth.
 - **All Is Lost:** The professional blow (leave pending review) and the moral one (his hobby is about to cost a stranger her job) land the same day. Then the marriage cracks in a room small enough that everyone hears it.
 - **Dark Night of the Soul:** The only proof of the pattern over time belongs to a person who doesn't exist. Using it means becoming him.
 - **Break into Three:** The deliberate opposite of Book 1's swarm. Not a hundred anonymous voices — one name, on the record, in the correct room.
@@ -99,18 +99,18 @@ Standing in Sofia's shop with the power cut. Cold cheese going soft, bread from 
 
 ---
 
-## Meal 4: Resolution (Chapters 18–24)
+## Meal 4: Resolution (Chapters 19–25)
 
 **Saturday Nov 21 – Thursday Nov 26 (Thanksgiving).**
 
 ### Chapter Structure
-- **Ch18:** The override log and the internal intake codes. The mechanism, entire.
-- **Ch19:** Nadia gives up the notebook and keeps her name — which leaves Oliver as the only name on the record.
-- **Ch20:** The hearing. Roz first with two years, Oliver last with three minutes.
-- **Ch21:** Motion to strike; the item is tabled. Despair as a calendar.
-- **Ch22:** The inspector general complaint bites. Stay granted; the room passes reinspection.
-- **Ch23:** The power back on. Elijah leaves for Philadelphia. Olivia and Oliver, alone.
-- **Ch24:** Thanksgiving. Oliver's parents. Sofia's first wheel. Roz at the door with a folder.
+- **Ch19:** The override log and the internal intake codes. The mechanism, entire.
+- **Ch20:** Nadia gives up the notebook and keeps her name — which leaves Oliver as the only name on the record.
+- **Ch21:** The hearing. Roz first with two years, Oliver last with three minutes.
+- **Ch22:** Motion to strike; the item is tabled. Despair as a calendar.
+- **Ch23:** The inspector general complaint bites. Stay granted; the room passes reinspection.
+- **Ch24:** The power back on. Elijah leaves for Philadelphia. Olivia and Oliver, alone.
+- **Ch25:** Thanksgiving. Oliver's parents. Sofia's first wheel. Roz at the door with a folder.
 
 ### Key Events
 - **Keystone:** Every targeted inspection was reassigned off the district inspector by supervisory override, and the "anonymous" complaints carry an internal intake code. The department generated its own risk signal and then responded to it. Lena never broke a rule; she wrote the model that made every step correct.
