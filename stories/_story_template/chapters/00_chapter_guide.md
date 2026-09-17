@@ -34,6 +34,11 @@ registers:                                # voice register per PRESENT character
   Garrett Pike: "public (charm-as-menace)"
   Olivia: "private (protective)"
 clues:                                     # optional; powers clue-tracing
+  # NOT the ai_instructions.md §6 count. This block tags every seeded or paid-off
+  # element in the chapter — character and thread beats included — so a book's
+  # entries will legitimately outnumber five. §6's "5 key clues maximum" caps the
+  # deductive chain a reader needs to solve the mystery, which is counted from the
+  # outline's Mystery Solution Grid, not from these blocks.
   planted: []                              # Foundation / Misdirection / Connective / Confirmation / Keystone
   revealed:
     - "C&D arrives"

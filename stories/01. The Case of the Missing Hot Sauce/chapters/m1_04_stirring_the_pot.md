@@ -79,7 +79,7 @@ Oliver blinked. He was clearly wrestling with himself—the part of him that fou
 
 Emma was already on her way to the kitchen, passing Oliver at the threshold. She hugged him and whispered, "That was great," before lightly pushing him back to the living room. Oliver retreated to the loveseat with visible relief, and Olivia immediately reached for his hand.
 
-Emma positioned herself under the fluorescent light and placed both hands on the counter behind her, leaning against it the way she'd seen chefs do on cooking shows—casual authority, or at least the appearance of it. She'd been thinking about this since the market. Not a theory, exactly, but a feeling—the kind of gut-level conviction she used to trust in the kitchen before Bistro Lavande taught her not to.
+Emma positioned herself under the fluorescent light and placed both hands on the counter behind her, leaning against it the way she'd seen chefs do on cooking shows—casual authority, or at least the appearance of it. She'd been thinking about this since the market—a feeling more than a theory, the kind of gut-level conviction she used to trust in the kitchen before Bistro Lavande taught her not to.
 
 "While Oliver has dreamt up a very believable fiction, it is still that!" Emma opened, adding "Fiction!" after a pause that was just too long, ruining the dramatic effect. Jasper gave her an encouraging thumbs up anyway. "Unlike Oliver, I know what really happened to Hottie McHot Sauce."
 

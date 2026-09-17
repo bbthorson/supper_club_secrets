@@ -49,7 +49,7 @@ audit_notes:
 
 ### Chapter Twelve - Coming to a Boil
 
-The following Sunday, Emma's apartment was transformed. Not physically—it was still the same narrow railroad kitchen, the same hand-me-down furniture, the same overhead fluorescent that made everyone look slightly criminal. But the energy was different. Last week had been a dinner party. This week was a war room that happened to smell incredible.
+The following Sunday, Emma's apartment was transformed, though nothing in it had changed—the same narrow railroad kitchen, the same hand-me-down furniture, the same overhead fluorescent that made everyone look slightly criminal. The energy was different. Last week had been a dinner party. This week was a war room that happened to smell incredible.
 
 She'd been to McGolrick that morning, her first market visit since the bottle. The fall produce had thinned — squash and apples and the last of the soft herbs — and she'd taken her time picking through what was left for the polenta and the crumble. Dorothy was at her usual spot, surrounded by honey jars catching the early light. Emma had drifted over, full of the previous night's victory and the dangerous urge to overshare. But Dorothy was already busy with a customer — a man Emma didn't recognize, in a coat that didn't fit the Sunday-morning McGolrick crowd. Dorothy's smile was the practiced kind, the one she gave first-timers who hadn't yet earned anything else. When Emma caught her eye, Dorothy nodded once and turned back to the jar she was packing. It happened so quickly Emma almost convinced herself she'd imagined the briskness. The market was busy. Dorothy was working. And Emma had been about to say *we figured out what happened to Hank* in the middle of a public space, which, on reflection, she should not do. She bought her sage from the herb vendor two stalls down and went home to start the polenta.
 
@@ -165,4 +165,4 @@ None of them noticed Jasper's phone buzz as he walked home that night, his hands
 
 Riding high on the evening's success and three glasses of wine, he didn't see it until the next morning. He read it twice, frowned — she didn't usually use caps — and then got distracted by a notification about a raccoon in a bodega.
 
-By then, it was already too late.
+He meant to call her back after lunch. By lunch he'd forgotten there was anything to call about.

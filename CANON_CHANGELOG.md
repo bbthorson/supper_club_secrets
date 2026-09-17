@@ -4,6 +4,35 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-17 — Book 1 Tier 3 polish closed out; the optional list is now empty
+
+**Trigger:** Sweep of every optional item still open from the two Book 1 audits (`tracking/audit_2026-07-11.md`, `tracking/audit_2026-07-12.md`) and the 2026-09-01 editorial pass, to decide which were worth doing before the book locks.
+
+**State found:** the 07-11 audit is fully closed (all four tiers, plus its own post-fix re-audit). The 07-12 audit's **Tier 1, Tier 2 and Tier 4 are also all closed** — verified item by item against the current files, not taken from the audit's own notes. The Ch17 apartment relocation (1.1), both POV head-hops (2.1, 2.2), the Ch8→Ch9 message-timing wording (2.3), both outline syncs (2.4, 2.5) and the full 30-item tracking-hygiene batch all landed in the September editorial pass. What remained was **Tier 3 craft only** — subjective, none of it blocking.
+
+**Prose changed (10 edits, stylistic only — no fact, date, location, custody or clue moved):**
+- *Negative parallelism (3.1).* Trimmed the five genuinely reflexive uses, not the device: Ch1's "Not just because X … but because Y" opener; Dorothy's second "Not like him" four lines after her first; Ch4's "Not a theory, exactly" (the same construction as Ch5's better-earned toast beat); Ch12's "Not physically—" opener; Ch18's third standalone "Not yet." The earned uses stay — Oliver's Ch15 "Not for Emma. Not for Hank. Not for Paolo," Noah's Ch14 "Not to me. Not to Oliver," Emma's Ch12 "Not the technique, not the plating," Ch1's "Not repurposed, not filled by another vendor" — all of which are anaphora doing rhetorical work or dialogue in a character's voice. Book-wide count 42 → 34; the audit's explicit guidance was that it "doesn't need to hit zero."
+- *Chapter buttons (3.5).* Two of the seven rewritten, five left. Ch12's "By then, it was already too late." was the real defect — an omniscient narrator button in a feed-POV book, and a thing Jasper's feed cannot know; replaced with a beat inside his own experience that keeps the dread ("He meant to call her back after lunch. By lunch he'd forgotten there was anything to call about."). Ch23's closer had "For once" twice in three sentences; the earlier one is cut so the closing one lands.
+- *"Quietly" clustering (3.4).* Cut three uses doing generic "this matters" work where the sentence already carried it — Noah's Ch25 apology ("quietly, so only Jasper could hear" → "pitched so only Jasper could hear"), Emma's Ch25 line (the room going still does the work), and Olivia's Ch7 "genuinely, quietly brilliant" (redundant with "the one without the performance"). 24 → 21 book-wide; Oliver's catalogued quiet register and the diegetic uses (Hank's "let it die quietly") are untouched.
+
+**Tracking/canon changed:**
+- `00_story_outline.md`, Ch12 Setback bullet — quoted a pre-rewrite version of Brenda's text; synced to the shipped line and to the revised ending. (Citation drift neither audit caught.)
+- `timeline_ledger.md`, "Ch18 → investor pullout" — the one row parked on **HOLD per author feedback** pending the Meal 3–4 changes. Revisited and marked **Resolved**: the shipped Ch24 never depicts a capital withdrawal, only reputational distancing on a press clock (a trade headline and a say-nothing PR statement), which is a four-day move. No board call is claimed on-page, so no prose change. **Reversible author call** — this was the author's hold to lift.
+- `interiority/jasper_book1.md`, Ch12→Ch13 note — "By then it's too late" aligned to what the prose now shows (the breach is already made off-page in Ch10; the cost is his inattention, not his timing).
+- `stories/_story_template/chapters/00_chapter_guide.md` — the 07-12 structure pass's documentation-clarity note, recorded at the schema: the `clues:` block tags every seeded or paid-off element, so entries legitimately outnumber five; §6's "5 key clues maximum" caps the deductive chain, counted from the outline's Mystery Solution Grid.
+
+**Deliberately left, with reasons:**
+- **3.7 red herrings** and **3.8 Olivia's thin runway** — both already carried forward in `codex/series_plan.md` § Craft Notes; neither asks for a Book 1 change.
+- **3.10 spice-named accounts** — judged a non-issue rather than a softened novelty. Noah names the accounts alone at 3 AM and never shows anyone; Ch18's "Did you just use a food metaphor?" is the first time Emma hears him do it out loud. The private version earns the public one.
+- **3.2 Elijah's jaw, 3.3 "the version of himself," 3.6 "shoulders dropped", 3.9 Pike's tone-ceiling line, 3.11 Hank's "three weeks", 3.12 "since spring", 3.13 the Gilded Fern hours, 3.14 Ch10's feed-excursion frontmatter, 3.15 the meal-header level** — all verified already fixed in the September pass.
+- **The five remaining chapter buttons** (Ch5, Ch6, Ch20, Ch21, Ch24) — each is a flowing sentence or an earned beat, not a fragment, and cozy crime wants forward momentum at a chapter break.
+
+**Machine layer:** `pinakes lint` clean; `pinakes compile` reproduces `records/` with no drift (every edit was prose body — no frontmatter touched).
+
+**Status: Book 1's optional-polish list is empty.** Nothing is open against the manuscript from either audit or the editorial pass.
+
+---
+
 ## 2026-09-01 — Serialized real-date publishing with a canon horizon (design, no decision)
 
 **Trigger:** Author question — publish Book 1 on its real dates (launching Oct 1, 2026), with an internal register about characters/plot whose changes publish to the characters' lexicons as the book releases.

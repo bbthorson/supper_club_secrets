@@ -71,7 +71,7 @@ She was still thinking about that comment, actually. Three weeks out, and his vo
 
 Something was missing from the menu, though. She needed a final element, something to tie it all together—a story, not just a flavor. That's when she'd thought of Hank.
 
-Hank's hot sauce stall was always her first stop at the market. Not just because his product was good—though it was, genuinely, the best she'd ever tasted—but because he made every bottle feel like an event. He'd greet customers with this theatrical pitch about his "secret family recipe," performing it like a carnival barker who genuinely loved his craft, his voice carrying over the crowd noise while he waved a tasting spoon like a conductor's baton. The sauce itself was remarkable: a deep, complex heat that bloomed slowly, with a smoky sweetness underneath that she'd never been able to identify. The secret, he'd told her once with conspiratorial delight, was a rare heirloom pepper his great-grandmother had brought north from Virginia to Philadelphia back in the 1920s. A Fish Pepper, he called it—green-and-white striped, historically significant, and impossible to find commercially.
+Hank's hot sauce stall was always her first stop at the market. His product was good—genuinely, the best she'd ever tasted—but she came back every week because he made every bottle feel like an event. He'd greet customers with this theatrical pitch about his "secret family recipe," performing it like a carnival barker who genuinely loved his craft, his voice carrying over the crowd noise while he waved a tasting spoon like a conductor's baton. The sauce itself was remarkable: a deep, complex heat that bloomed slowly, with a smoky sweetness underneath that she'd never been able to identify. The secret, he'd told her once with conspiratorial delight, was a rare heirloom pepper his great-grandmother had brought north from Virginia to Philadelphia back in the 1920s. A Fish Pepper, he called it—green-and-white striped, historically significant, and impossible to find commercially.
 
 Emma had always imagined using his hot sauce in a rich squash soup, the heat cutting through the sweetness, and telling his story when she served it. Tonight was supposed to be the night she finally did that.
 
@@ -97,7 +97,7 @@ Dorothy shook her head slowly, her expression settling into careful concern. "Ha
 
 "I am. Was." Emma hesitated. "Did he seem okay to you? The last time you saw him?"
 
-Dorothy's hands paused on the honeycomb. "He seemed... off. Kept checking his phone the whole day. Not like him at all—usually he's out in front of the table, practically doing a one-man show. But that last Sunday he was just standing there. Staring at that phone." She lowered her voice. "Gave up his stall the next week. No explanation, no notice. Just done."
+Dorothy's hands paused on the honeycomb. "He seemed... off. Kept checking his phone the whole day. Usually he's out in front of the table, practically doing a one-man show. But that last Sunday he was just standing there. Staring at that phone." She lowered her voice. "Gave up his stall the next week. No explanation, no notice. Just done."
 
 "Gave it up?" Emma repeated. "Like, permanently?"
 
