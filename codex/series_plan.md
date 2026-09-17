@@ -46,7 +46,7 @@ Six friends along Brooklyn's G line solve neighborhood mysteries over weekly din
 | Book | Focal | Month | One-line | File |
 |------|-------|-------|----------|------|
 | 1 — The Case of the Missing Hot Sauce | Emma | Oct | A vendor vanishes; the group uncovers developer Garrett Pike's land grab | [book1.md](books/book1.md) |
-| 2 — TBD | Oliver | Nov | A bureaucratic squeeze forces G-line businesses out; Oliver's secret online life is key | [book2.md](books/book2.md) |
+| 2 — The Case of the Ripening Room | Oliver | Nov | A bureaucratic squeeze forces G-line businesses out; Oliver's secret online life is key | [book2.md](books/book2.md) |
 | 3 — TBD | Elijah | Dec | A community credit union is being asset-stripped | [book3.md](books/book3.md) |
 | 4 — TBD | Olivia | Jan | A past contact is accused of art fraud; rotating-home dinners | [book4.md](books/book4.md) |
 | 5 — TBD | Noah | Feb | A beloved neighborhood app is being weaponized | [book5.md](books/book5.md) |

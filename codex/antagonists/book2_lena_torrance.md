@@ -1,7 +1,7 @@
 # Lena Torrance
 
 ## Role
-Primary antagonist, Book 2: [Working Title TBD] (Oliver, November)
+Primary antagonist, Book 2: The Case of the Ripening Room (Oliver, November)
 Not a traditional villain — more of a systemic operator who believes she's fixing a broken system
 
 ---

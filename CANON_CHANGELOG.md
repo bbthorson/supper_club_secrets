@@ -4,6 +4,28 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-17 — Book 2 outlined: *The Case of the Ripening Room*
+
+**Trigger:** Turn the Book 2 concept document into a working outline at the level of detail Book 1 has.
+
+**Added:** `stories/02. The Case of the Ripening Room/chapters/00_story_outline.md` (24 chapters across 4 meals, 5+7+5+7; Sat Oct 31 – Thu Nov 26, Thanksgiving; solution grid, beat sheet, timeline, clue tracker, secret-reveal and reputation tables) and `chapters/00_meal_summaries.md`. No prose drafted; no story scaffold copied from `_story_template/` yet.
+
+**Title (working, pending author sign-off):** *The Case of the Ripening Room*. Sofia's cellar aging room is the pretext for the shutdown; "case" runs double all book (display case / legal case). Alternates considered and rejected: *The Case of the Sealed Cellar* (collides with the site's existing `cellar` surface), *The Case of the Quiet Inspection*.
+
+**Canon correction:** `codex/books/book2.md` said Olivia & Oliver host in a "Williamsburg one-bedroom." `codex/characters/oliver.md`, `codex/locations/olivia-oliver-place.md` and the geography facts in `codex/locations/index.md` all say **Clinton Hill**. Clinton Hill wins; the book file is corrected and carries a note.
+
+**Mechanism locked (fair play):** internally generated anonymous complaints 6–10 days ahead of each inspection, inspections reassigned off the district inspector by supervisory override, violations escalated to shutdown rather than a correction timeline. Lena Torrance never breaks a rule — she authored the risk model that makes each step defensible. Confirmation clue = the internal intake codes (Meal 3); keystone = the override log (Meal 4). Resolution runs through Roz Okonkwo's standing, Oliver's public testimony under his own name, and an inspector-general complaint the committee can't table. Consistent with the "After Book 2" section of `codex/antagonists/book2_lena_torrance.md` (Lena reassigned laterally, Promenade slowed not stopped).
+
+**Craft note from the Book 1 audit, discharged:** two red herrings get full investigation chapters and die by evidence — the landlord (Ch8, Aaron Feld is being fined himself) and Garrett Pike (Ch9, shared law firm rather than shared ownership). The Pike answer also settles series-plan Open Question 5 for Book 2: loose thread, not conspiracy.
+
+**Secret schedule advanced:** Oliver's online life is disclosed three ways and never to the group — Jasper discovers it and stays silent (Ch7 plant → Ch16), Olivia gets the specifics privately (Ch23), the group sees only the man testifying (Ch20). Two unpaid Jasper deposits (Ch11, Ch16). Olivia's Book 4 anxiety gets its first crack and is deliberately re-sealed. Elijah's Book 3 family thread stays ambient. Emma stays opaque.
+
+**Files touched:** `codex/books/book2.md` (title, host, structure, outline links, secret/reputation sections, new minor characters), `codex/series_plan.md` (index row), `codex/locations/index.md` (Book 2 rotation row), `codex/antagonists/book2_lena_torrance.md` (title reference).
+
+**Not done, and flagged in the outline's open questions:** no `00_book_metadata.md` story bible; no codex files for Roz Okonkwo, Nadia Reyes or Aaron Feld; no `entities.yaml` IDs; Sofia's cellar ripening room is new and not yet in `codex/locations/sofias-cheese-shop.md`; the NYC DOB/OATH procedural detail is plausible but unverified and wants a research pass before drafting, since Lena's whole character is that she's never technically wrong.
+
+---
+
 ## 2026-09-01 — Serialized real-date publishing with a canon horizon (design, no decision)
 
 **Trigger:** Author question — publish Book 1 on its real dates (launching Oct 1, 2026), with an internal register about characters/plot whose changes publish to the characters' lexicons as the book releases.

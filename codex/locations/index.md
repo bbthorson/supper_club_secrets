@@ -15,7 +15,7 @@ One concept per location file in this folder. Add a new file here as new locatio
 | Book | Meal 1 | Meal 2 | Meal 3 | Meal 4 |
 |------|--------|--------|--------|--------|
 | 1 — The Case of the Missing Hot Sauce | Emma's | Emma's | Emma's | Emma's |
-| 2 — TBD | — | — | — | — |
+| 2 — The Case of the Ripening Room | Olivia & Oliver's | Olivia & Oliver's | Sofia's Cheese Shop *(dark, vacate order)* | Olivia & Oliver's *(Thanksgiving)* |
 | 3 — TBD | — | — | — | — |
 | 4 — TBD | Emma's | Noah's | Jasper's | Olivia & Oliver's |
 
