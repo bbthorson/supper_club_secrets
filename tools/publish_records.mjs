@@ -154,6 +154,7 @@ function plan({ horizon, book }) {
   const writes = [];
   const skipped = [];
   const held = [];
+  const clubHeld = [];
 
   const add = (target, rec) => {
     const type = rec.$type.replace(/^[^.]+\.[^.]+\./, '');
@@ -176,6 +177,25 @@ function plan({ horizon, book }) {
     add(PROJECT, p);
   }
   for (const rec of [...profiles, ...events, ...posts]) {
+    // The club lane never touches the open network. A message in the supper
+    // club's group chat is the private register — it is the content the public
+    // feed is silent about — and publishing one to a cast account's public repo
+    // would release a spoiler under a permanent identity, where it cannot be
+    // taken back.
+    //
+    // The lane rides in `tags` because the pinned compiler has no lane field and
+    // the lexicons are generated, so it cannot be given one from this repo (see
+    // protocol/CHARACTER_ACCOUNTS.md). tools/lint_posts.mjs guarantees every post
+    // carries exactly one lane tag; this check does not trust that and fails
+    // closed anyway. A post is published only if it is POSITIVELY marked public —
+    // an absent, misspelled or doubled tag is held, never guessed.
+    if (rec.$type.endsWith('.character.post')) {
+      const tags = rec.tags ?? [];
+      if (!(tags.includes('lane-public') && !tags.includes('lane-club'))) {
+        clubHeld.push(`${rec.id} (tags: ${tags.join(' ') || 'none'})`);
+        continue;
+      }
+    }
     const subject = rec.subject ?? rec.author;
     const acct = accounts.get(subject);
     if (!acct) { skipped.push(`${rec.id} (${subject} has no account)`); continue; }
@@ -185,12 +205,12 @@ function plan({ horizon, book }) {
     add(acct, rec);
   }
 
-  return { writes, skipped, held, accounts };
+  return { writes, skipped, held, clubHeld, accounts };
 }
 
 /* ----------------------------------------------------------------- reports */
 
-function report({ writes, skipped, held }, { horizon, execute }) {
+function report({ writes, skipped, held, clubHeld }, { horizon, execute }) {
   const byTarget = new Map();
   for (const w of writes) {
     if (!byTarget.has(w.target.handle)) byTarget.set(w.target.handle, []);
@@ -207,6 +227,9 @@ function report({ writes, skipped, held }, { horizon, execute }) {
   }
   console.log(`\n  ${writes.length} writes across ${byTarget.size} repos.`);
   console.log(`  ${held.length} records held back by the horizon.`);
+  if (clubHeld?.length) {
+    console.log(`  ${clubHeld.length} held back by lane — the club never leaves the space.`);
+  }
   if (skipped.length) {
     console.log(`\n  ${skipped.length} NOT PUBLISHED — no destination:`);
     for (const s of skipped.slice(0, 12)) console.log(`      ${s}`);

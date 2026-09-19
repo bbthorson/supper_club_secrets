@@ -202,8 +202,50 @@ This also divides the lanes cleanly:
 | **Our site's character hubs** | `publishDate` + `chapterRef` | The same posts, plus stateEvents, scenes, relations — everything horizon-gated |
 | **The group chat (space, later)** | membership | `message` records, the private register, unlocked deliberately |
 
-The same authored post serves all three without a rewrite, which is why the record
-carries no visibility field.
+The same authored post serves all three without a rewrite.
+
+### Amended 2026-09-19: the record carries a lane
+
+This section previously ended "which is why the record carries no visibility field."
+That was right about the *public* posts and wrong about everything a character says
+that is not one.
+
+The register table above is the argument against the old wording. Of 97 state events,
+**72 are `private`** — and under a public-lane-only design every one of those produces
+**silence**, because silence was the only output available. That is why the feed
+budget kept coming out at "under twenty short posts": not because the characters have
+little to say, but because the only microphone was the wrong one.
+
+So `com.supperclubsecrets.character.post` now carries a required **`lane`**:
+
+| `lane` | Destination | Register it may draw on |
+|---|---|---|
+| `public` | The character's own repo — a real post in the world, permanently | `public` only |
+| `club` | The supper club's group chat, in the space, when spaces leave alpha | `private`, and `public` |
+
+Three consequences worth stating:
+
+1. **The public-register rule is unchanged and still load-bearing.** `lane: public`
+   obeys it exactly as before. The club lane is not a loophole in it — it is the
+   destination for everything the rule was already excluding.
+2. **The crisis week gets its voice back.** Oct 12–17 must read as near-silent in
+   public, and it now can be *loud in the club* at the same time, which is precisely
+   what the book depicts: the theory threads, the campaign coordination, *FOUND IT*.
+   The silence stops being a hole and becomes a contrast the reader can see both
+   sides of.
+3. **Lane has no default, and the publish path fails closed.** `tools/lint_posts.mjs`
+   rejects a post carrying zero or two lane tags; `tools/publish_records.mjs` publishes
+   a post only if it is *positively* marked public, and withholds anything absent,
+   doubled or misspelled. A club message on the open network is a spoiler released
+   under a permanent DID, so neither tool is permitted to guess.
+
+**Where the lane actually lives, and why it is a tag.** Pinakes has no lane field, and
+`records/lexicons/` is *generated* — a field added there by hand is wiped on the next
+compile, which is how this was discovered. So the lane rides in `tags` as
+`lane-public` / `lane-club`, which the compiler passes through unchanged, with a
+`lane:` frontmatter key kept beside it for the human reading the file and checked
+against the tag. **A first-class `lane` is a Pinakes change**, the same shape as the
+post pass itself, and worth making before Book 2.
 
 ### After Oct 25
 
@@ -288,6 +330,24 @@ Being precise about what that does and does not block here:
 That is the real version of "close the record gaps first." Not *items and custody
 must be fixed before bots* — those are parallel work. **The post type must exist as a
 lexicon and a compiler output before the first post is authored.**
+
+**Closed 2026-09-19, and the premise was wrong.** Pinakes 0.4.0 — the version already
+pinned in the continuity-lint workflow — *does* have a post pass. It compiles
+`stories/<book>/posts/*.md` (one file per post) to `records/book1/character_posts.json`,
+resolves authors, places and mentions against the registry, generates the lexicon, and
+enforces the public-register rule itself as the `post-register` rule, reading each
+chapter's `registers:` block. The records drift gate has therefore covered posts all
+along.
+
+So the gap this section named was already closed by the tooling, and the real risk was
+the opposite one: **writing posts in a format the compiler did not expect.** A first
+attempt used one aggregate file per character with per-post blocks; Pinakes read each
+whole file as a single post and compiled the authoring notes into the published text.
+It validated as far as length, and it would have published editorial commentary under
+six permanent identities.
+
+What remains genuinely outside the compiler is the lane (§3 above), which
+`tools/lint_posts.mjs` covers, wired into the same workflow.
 
 ---
 

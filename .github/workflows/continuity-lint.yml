@@ -40,6 +40,14 @@ jobs:
       - name: Continuity lint
         run: npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} lint
 
+      # Posts are authored in the creative layer and compiled, never typed into a
+      # client. Pinakes compiles them and enforces the public-register rule
+      # itself (`post-register`); the lane is the part it has no field for, and
+      # a club message reaching the public lane is unrecoverable, so it gets its
+      # own gate. Preflight item 6 in protocol/CHARACTER_ACCOUNTS.md.
+      - name: Post lane lint
+        run: node tools/lint_posts.mjs
+
       - name: Records drift gate
         run: |
           npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile
@@ -52,3 +60,4 @@ jobs:
             echo '::error::records/ is stale — run `npx @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile` locally and commit the regenerated records.'
             exit 1
           fi
+
