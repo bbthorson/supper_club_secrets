@@ -23,7 +23,7 @@ on:
   workflow_dispatch:
 
 env:
-  PINAKES_VERSION: 0.2.1
+  PINAKES_VERSION: 0.4.0
 
 jobs:
   lint:
@@ -43,7 +43,12 @@ jobs:
       - name: Records drift gate
         run: |
           npx -y @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile
-          if ! git diff --exit-code -- records/; then
+          # `git diff` sees modifications to tracked files but not NEW ones, and a
+          # version bump that starts emitting a record type is exactly the case
+          # where the new file is the thing you forgot to commit. Check the
+          # porcelain status so an untracked record fails the gate too.
+          if [ -n "$(git status --porcelain -- records/)" ]; then
+            git status --porcelain -- records/
             echo '::error::records/ is stale — run `npx @bbthorson/pinakes@${{ env.PINAKES_VERSION }} compile` locally and commit the regenerated records.'
             exit 1
           fi

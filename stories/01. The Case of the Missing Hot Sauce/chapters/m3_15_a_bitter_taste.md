@@ -91,7 +91,7 @@ Jasper flinched like he'd been struck.
 
 "Is it?" But the edge had already cracked, the cruelty curdling into something closer to fear.
 
-Jasper stood to face him, and the hurt in his eyes wasn't defensive and it wasn't performance. It was the genuine, deep-seated kind that lives in a place you've been trying not to look at. "You think I don't know I'm the liability?" His voice barely held. "The one who's never quite smart enough, never quite serious enough, who's always trying too hard — because connecting people is the only thing I've got. I don't have your tools, or Oliver's records, or Elijah's models. All I've got is knowing people. And I thought, for once, that would be enough."
+Jasper stood to face him, and the performance was gone. "You think I don't know I'm the liability?" His voice barely held. "The one who's never quite smart enough, never quite serious enough, who's always trying too hard — because connecting people is the only thing I've got. I don't have your tools, or Oliver's records, or Elijah's models. All I've got is knowing people. And I thought, for once, that would be enough."
 
 The room went very quiet. The fluorescent light buzzed. A car horn sounded outside, distant and irrelevant.
 

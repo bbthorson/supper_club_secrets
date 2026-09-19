@@ -81,7 +81,7 @@ So he told him. All of it. The investigation that started as a drunken game over
 
 He told Hank about the swarm — Oliver's talking points, Noah's infrastructure, Olivia's network, Emma's map of every grudge in the food world. He said it was working, that strangers who'd never met him were arguing on his behalf, that it was a near thing and not finished yet. He didn't spare himself, and he didn't oversell the ending, because the ending wasn't written.
 
-Hank listened without interrupting, hands resting on the edge of the bench. When Jasper ran out of words, the greenhouse held its breath.
+Hank listened without interrupting, hands resting on the edge of the bench. When Jasper ran out of words, he let the silence stand.
 
 "They did all that?" Hank said finally, his voice rough. "For me?"
 
