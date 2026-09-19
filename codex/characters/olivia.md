@@ -5,6 +5,7 @@ fullName: "Olivia Brennan"
 id: char.olivia
 status: active
 handle: liv-living
+did: did:plc:5sa2xdsjuh52xjpmvl57wo4h
 personaPublic: "So — I know everyone, and everyone tells me things. The flower shop, the tailor, the market. I host, I connect, I never forget a detail. Married to @ollie-oxen-free."
 keyContradiction: "Effortlessly social; the glue that holds the group together."
 ---
