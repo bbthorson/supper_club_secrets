@@ -87,11 +87,11 @@ site/                      The public reading surface (Astro), builds from recor
 
 ## 5. Lexicon Namespace (NSID)
 
-AT Protocol identifies record types with reverse-DNS names (NSIDs), for example `site.supperclub.character.profile`. The namespace root must be a domain we control.
+AT Protocol identifies record types with reverse-DNS names (NSIDs), for example `com.supperclubsecrets.character.profile`. The namespace root must be a domain we control.
 
-The root is pinned in one place — `pinakes.yaml`'s `project.nsid`, currently `site.supperclub` — so the eventual swap to whatever domain we actually own stays a one-line change. It still must be finalized before any lexicon is *published*, because the NSID threads through every schema and every record.
+The root is pinned in one place — `pinakes.yaml`'s `project.nsid` — and is **`com.supperclubsecrets`**, the reverse-DNS form of the project domain bought on 2026-09-01 and already serving the Astro site. Settled 2026-09-19, ahead of the first publish, because the NSID threads through every schema and every record and a root we do not control is not verifiable. See §12.1.
 
-Spaces add a second kind of NSID under the same root: a **space type** is itself a lexicon (`"type": "space"`) and names a modality rather than a record shape — e.g. `site.supperclub.backstage`, `site.supperclub.horizon`. See [`SPACES.md`](SPACES.md) §4.
+Spaces add a second kind of NSID under the same root: a **space type** is itself a lexicon (`"type": "space"`) and names a modality rather than a record shape — e.g. `com.supperclubsecrets.backstage`, `com.supperclubsecrets.horizon`. See [`SPACES.md`](SPACES.md) §4.
 
 Where a community lexicon already exists, we reuse it rather than minting our own. *If* we project chapters onto atproto at all, they use **standard.site** — the shared long-form lexicon (`site.standard.publication` / `site.standard.document`) that Leaflet, pckt.blog, and Offprint converged on in 2026. Its whole premise fits our model: keep the content on our own site and *also* emit records so a chapter is portable and discoverable on atproto **without that being its reading surface**. The public site (e.g. Astro) remains the actual reading experience; standard.site records are an optional mirror.
 
@@ -164,7 +164,7 @@ In-world posts written *as* the characters: the thing that turns a character hub
 
 It is also distinct from `message` (§6.6): a post is public by definition. Backstage content stays `message`. Whether a *given* post is served publicly or held for members is a publishing decision, not a field — see below.
 
-NSID reserved: `site.supperclub.character.post`.
+NSID reserved: `com.supperclubsecrets.character.post`.
 
 Fields (sketch):
 
@@ -282,9 +282,11 @@ The reader surfaces are renderings of the repo's public content (chapters plus t
 
 ## 12. Open Decisions
 
-Status as of 2026-08-30: three resolved, two deferred with trigger conditions, two explored without decision (12.6, 12.7), one new (12.8).
+Status as of 2026-09-19: four resolved, one deferred with a trigger condition, two explored without decision (12.6, 12.7), one lane open (12.8).
 
-1. **NSID namespace domain — DEFERRED until Phase 4 starts.** Nothing is blocked until a lexicon is actually published. The root now lives in exactly one place — `pinakes.yaml`'s `project.nsid` (`site.supperclub`) — so the eventual swap is a one-line change. Trigger to decide: the first Phase 4 publish step. Note that a space type NSID is published to the same root and inherits this decision.
+1. **NSID namespace domain — RESOLVED (2026-09-19): `com.supperclubsecrets`.** The trigger this entry named, "the first Phase 4 publish step," fired with the Oct 2 serialized launch. The prior root `site.supperclub` implied ownership of `supperclub.site`, which the project does not hold; the domain it does hold is `supperclubsecrets.com`, bought 2026-09-01 and serving the Astro site. Reverse-DNS gives `com.supperclubsecrets`.
+
+   Decided before the launch rather than after because the cost is asymmetric: a one-line change in `pinakes.yaml` today against a breaking change to records published under seven permanent DIDs tomorrow. Space type NSIDs inherit this root, so the `SPACES.md` §9 reservations resolve to `com.supperclubsecrets.backstage`, `.horizon` and `.club`.
 2. **Identity model for v1 — RESOLVED (2026-07-12): the graduation ladder.** Local stable IDs → one repo with multiple record collections → promote an individual character to its own DID only when a concrete portability use-case appears. For a single writer's prose this is the sensible default; per-character DIDs from day one remain the right model for *multiplayer/interactive* universes (Bardcast keys characters on player DIDs because cross-campaign portability is its core thesis).
 3. **Public reading surface — RESOLVED (2026-07-12): Astro, confirmed** as the primary reader (Phase 3 is unblocked). Whether to *also* emit standard.site records for atproto discoverability — and which PDS holds them — rides with Phase 4 and stays open until then.
 4. **Backstage gating — STILL DEFERRED, but the mechanism question is answered.** The `message` content still doesn't exist. What changed is that "there is no native way to do this" is no longer true: a permissioned space is the native shape (§6.6, [`SPACES.md`](SPACES.md) §5.1). The durable rules are unchanged — our own surface layer is the default gate, and backstage records are never published to a *public* PDS. Trigger to decide: backstage content is written **and** spaces are out of alpha.

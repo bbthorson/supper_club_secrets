@@ -360,10 +360,12 @@ export function charListings(): CharListing[] {
 export const ANTAGONIST = 'char.garrett-pike';
 
 // The domain suffix for atproto-style handles (e.g. @emmacooks → the canonical
-// emmacooks.supperclub.secrets). Placeholder pending the real domain — the same
-// deferred decision as the lexicon namespace (ARCHITECTURE.md §12.1). Kept in
-// one place so the eventual swap is a one-liner.
-export const HANDLE_DOMAIN = 'supperclub.secrets';
+// emmacooks.supperclubsecrets.com). No longer a placeholder: the project domain
+// was bought 2026-09-01 and the lexicon namespace resolved to match on
+// 2026-09-19 (ARCHITECTURE.md §12.1). These are the handles the cast accounts
+// will actually verify under, so what the roster renders is now the real thing
+// rather than a stand-in.
+export const HANDLE_DOMAIN = 'supperclubsecrets.com';
 
 /**
  * The supper club itself — the characters with a `codex/characters/` file, as

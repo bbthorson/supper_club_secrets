@@ -1,6 +1,6 @@
 [
   {
-    "$type": "site.supperclub.custodyEvent",
+    "$type": "com.supperclubsecrets.custodyEvent",
     "id": "custodyEvent.heritage-bottle.ch1",
     "item": "item.heritage-bottle",
     "storyDate": "2026-10-04",
@@ -11,7 +11,7 @@
     "createdAt": "2026-10-04"
   },
   {
-    "$type": "site.supperclub.custodyEvent",
+    "$type": "com.supperclubsecrets.custodyEvent",
     "id": "custodyEvent.heritage-bottle.ch17",
     "item": "item.heritage-bottle",
     "storyDate": "2026-10-15",
@@ -22,7 +22,7 @@
     "createdAt": "2026-10-15"
   },
   {
-    "$type": "site.supperclub.custodyEvent",
+    "$type": "com.supperclubsecrets.custodyEvent",
     "id": "custodyEvent.heritage-bottle.ch25",
     "item": "item.heritage-bottle",
     "storyDate": "2026-10-25",

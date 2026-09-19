@@ -1,6 +1,6 @@
 [
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch1",
     "storyDate": "2026-10-04",
     "chapterRefs": [
@@ -26,7 +26,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch2",
     "storyDate": "2026-10-04",
     "chapterRefs": [
@@ -56,7 +56,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch3",
     "storyDate": "2026-10-04",
     "chapterRefs": [
@@ -86,7 +86,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch4",
     "storyDate": "2026-10-04",
     "chapterRefs": [
@@ -112,7 +112,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch5",
     "storyDate": "2026-10-04",
     "chapterRefs": [
@@ -141,7 +141,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch6",
     "storyDate": "2026-10-05",
     "chapterRefs": [
@@ -166,7 +166,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_06_a_fine_sieve.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch7",
     "storyDate": "2026-10-06",
     "chapterRefs": [
@@ -190,7 +190,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_07_gathering_the_ingredients.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch8",
     "storyDate": "2026-10-07",
     "chapterRefs": [
@@ -216,7 +216,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_08_the_bottom_line.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch9",
     "storyDate": "2026-10-08",
     "chapterRefs": [
@@ -241,7 +241,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_09_a_pinch_too_much.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch10",
     "storyDate": "2026-10-09",
     "chapterRefs": [
@@ -269,7 +269,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_10_loose_lips.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch11",
     "storyDate": "2026-10-10",
     "chapterRefs": [
@@ -296,7 +296,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_11_the_empty_stall.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch12",
     "storyDate": "2026-10-11",
     "chapterRefs": [
@@ -324,7 +324,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch13",
     "storyDate": "2026-10-12",
     "storyDateEnd": "2026-10-14",
@@ -353,7 +353,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch14",
     "storyDate": "2026-10-14",
     "chapterRefs": [
@@ -382,7 +382,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch15",
     "storyDate": "2026-10-14",
     "chapterRefs": [
@@ -408,7 +408,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch16",
     "storyDate": "2026-10-14",
     "storyDateEnd": "2026-10-15",
@@ -435,7 +435,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch17",
     "storyDate": "2026-10-14",
     "storyDateEnd": "2026-10-16",
@@ -462,7 +462,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch18",
     "storyDate": "2026-10-16",
     "chapterRefs": [
@@ -490,7 +490,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch19",
     "storyDate": "2026-10-16",
     "chapterRefs": [
@@ -514,7 +514,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_19_the_diner.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch20",
     "storyDate": "2026-10-17",
     "chapterRefs": [
@@ -542,7 +542,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch21",
     "storyDate": "2026-10-17",
     "chapterRefs": [
@@ -566,7 +566,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_21_the_drive_in.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch22",
     "storyDate": "2026-10-18",
     "chapterRefs": [
@@ -592,7 +592,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_22_the_dive.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch23",
     "storyDate": "2026-10-20",
     "chapterRefs": [
@@ -617,7 +617,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_23_farm_to_table.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch24",
     "storyDate": "2026-10-20",
     "chapterRefs": [
@@ -650,7 +650,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
-    "$type": "site.supperclub.scene",
+    "$type": "com.supperclubsecrets.scene",
     "id": "scene.book1.ch25",
     "storyDate": "2026-10-25",
     "chapterRefs": [

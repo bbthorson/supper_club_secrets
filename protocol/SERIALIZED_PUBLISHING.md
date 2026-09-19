@@ -138,7 +138,7 @@ becomes real.
   domain itself signals the fiction. The project/community handle
   (`@supperclubsecrets.…`) publishes prose, scene records, and place records.
 - **Hosting:** v1 needs **no self-hosted PDS**. Accounts on bsky.social accept custom
-  lexicon records via `com.atproto.repo.putRecord`, so `site.supperclub.character.stateEvent`
+  lexicon records via `com.atproto.repo.putRecord`, so `com.supperclubsecrets.character.stateEvent`
   and `profile` records can live in each character's repo from day one. A self-hosted
   PDS (all cast on project infrastructure, one key-custody story) is a later
   consolidation, not a prerequisite.
@@ -296,7 +296,7 @@ The reconciliation:
    waits for the re-read audience or Book 2, or ships through our own surface's
    gate. Either way nothing published to readers can be destroyed by an alpha
    migration.
-4. Space type NSID to reserve now, per §9 prep #1: `site.supperclub.groupchat`
+4. Space type NSID to reserve now, per §9 prep #1: `com.supperclubsecrets.groupchat`
    (alongside the already-reserved `backstage`, `horizon`, `club`), rooted in the
    dedicated project DID (§6 — decided in principle, now becomes real when the
    domain/accounts are set up).
@@ -365,7 +365,7 @@ a hard ceiling of **Oct 1, 2026** (and the account/domain items block the rest).
       exact records to paste); switch each account's handle to its domain handle;
       bot self-labels + fiction bios via the API.
 - [ ] Establish the dedicated project DID (record + space authority); reserve
-      `site.supperclub.groupchat` alongside the existing space-type NSIDs.
+      `com.supperclubsecrets.groupchat` alongside the existing space-type NSIDs.
 - [ ] Publish script: canon-horizon filter, subject routing (stateEvents/profiles →
       character repos; scenes/places → project repo), scene-field stripping
       (`beat`/`primaryEvent`), post scheduler.
