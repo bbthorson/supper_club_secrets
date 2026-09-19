@@ -227,8 +227,10 @@ def report_tells(chapters: list[dict]) -> str:
         "Counts are **inputs, not verdicts** (`ai_tells.md` §mechanical pre-pass).",
         "The judgment pass decides which are genre-legitimate and which are fingerprints.",
         "",
-        "| Ch | Words | em-dash /1k | neg-par | kicker | filler | adverbs | somatic |",
-        "| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
+        # Built from SIGNALS, not hardcoded: a signal added to the list has to
+        # appear in the table too, or the totals line and the table disagree.
+        "| Ch | Words | em-dash /1k | " + " | ".join(lbl for lbl, _, _ in SIGNALS) + " |",
+        "| ---: | ---: | ---: | " + " | ".join("---:" for _ in SIGNALS) + " |",
     ]
     totals: dict[str, int] = defaultdict(int)
     total_words = 0
@@ -248,16 +250,7 @@ def report_tells(chapters: list[dict]) -> str:
             counts[label] = n
             totals[label] += n
 
-        row = [
-            ch["num"],
-            words,
-            em_density,
-            counts["negative-parallelism"],
-            counts["here's-the-kicker"],
-            counts["corporate-filler"],
-            counts["magic-adverbs"],
-            counts["somatic-beats"],
-        ]
+        row = [ch["num"], words, em_density] + [counts[lbl] for lbl, _, _ in SIGNALS]
         lines.append("| " + " | ".join(str(v) for v in row) + " |")
         if counts["corporate-filler"] or counts["here's-the-kicker"]:
             flagged.append(f"Ch {ch['num']}")
@@ -337,7 +330,7 @@ def report_tells(chapters: list[dict]) -> str:
     seen: dict[str, set[int]] = defaultdict(set)
     pos: dict[str, dict[int, int]] = defaultdict(dict)
     for ch in chapters:
-        ws = re.findall(r"[a-z']+", ch["body"].lower())
+        ws = re.findall(r"[\w']+", ch["body"].lower())
         words_by_ch[ch["num"]] = ws
         for i in range(len(ws) - N + 1):
             gram = " ".join(ws[i : i + N])
