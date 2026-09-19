@@ -153,7 +153,7 @@ puts the whole of Tier B at **under twenty posts**, all of them short.
 
 ### Scenes do not map to posts at all
 
-`site.supperclub.scene` publishes to the project repo as a bare factual index card
+`com.supperclubsecrets.scene` publishes to the project repo as a bare factual index card
 (title, storyDate, placeRefs, participants) with `beat` and `primaryEvent` stripped —
 this was settled on 2026-09-01. Nothing in a scene record becomes a post. A post that
 narrated a scene would be the character reporting the plot, which is the failure the
@@ -262,7 +262,7 @@ Being precise about what that does and does not block here:
 - **It does block the claim that the record layer is validated**, which is the claim
   the whole one-source-many-surfaces architecture rests on.
 - **And it names exactly the mistake about to be repeated at higher stakes.**
-  `site.supperclub.character.post` has no lexicon file, and the Pinakes compiler
+  `com.supperclubsecrets.character.post` has no lexicon file, and the Pinakes compiler
   emits four record types — `scene`, `character.stateEvent`, `place`,
   `character.profile` — and knows nothing about posts. Author posts today and they
   are hand-maintained JSON outside validation, exactly like `custody_events.json`,
@@ -287,7 +287,7 @@ In order. Nothing below is optional.
 3. PLC recovery keys exported and stored for all seven accounts (§4).
 
 **Validation**
-4. `site.supperclub.character.post` lexicon committed to `records/lexicons/`.
+4. `com.supperclubsecrets.character.post` lexicon committed to `records/lexicons/`.
 5. Pinakes compiles `stories/<book>/posts/*.md` to
    `records/book1/character_posts.json`. Posts are authored in the creative layer and
    compiled, never typed into a client.

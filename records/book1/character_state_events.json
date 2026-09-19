@@ -1,6 +1,6 @@
 [
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.brenda-marquez.book1.ch10",
     "subject": "char.brenda-marquez",
     "storyDate": "2026-10-09",
@@ -13,7 +13,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_10_loose_lips.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.dorothy.book1.ch1",
     "subject": "char.dorothy",
     "storyDate": "2026-10-04",
@@ -25,7 +25,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.dorothy.book1.ch12",
     "subject": "char.dorothy",
     "storyDate": "2026-10-11",
@@ -37,7 +37,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch3",
     "subject": "char.elijah",
     "storyDate": "2026-10-04",
@@ -49,7 +49,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch4",
     "subject": "char.elijah",
     "storyDate": "2026-10-04",
@@ -61,7 +61,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch5",
     "subject": "char.elijah",
     "storyDate": "2026-10-04",
@@ -73,7 +73,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch8",
     "subject": "char.elijah",
     "storyDate": "2026-10-07",
@@ -85,7 +85,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_08_the_bottom_line.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch12",
     "subject": "char.elijah",
     "storyDate": "2026-10-11",
@@ -97,7 +97,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch14",
     "subject": "char.elijah",
     "storyDate": "2026-10-14",
@@ -109,7 +109,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch15",
     "subject": "char.elijah",
     "storyDate": "2026-10-14",
@@ -121,7 +121,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch16",
     "subject": "char.elijah",
     "storyDate": "2026-10-14",
@@ -134,7 +134,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch17",
     "subject": "char.elijah",
     "storyDate": "2026-10-14",
@@ -147,7 +147,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch18",
     "subject": "char.elijah",
     "storyDate": "2026-10-16",
@@ -159,7 +159,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch20",
     "subject": "char.elijah",
     "storyDate": "2026-10-17",
@@ -171,7 +171,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch24",
     "subject": "char.elijah",
     "storyDate": "2026-10-20",
@@ -183,7 +183,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.elijah.book1.ch25",
     "subject": "char.elijah",
     "storyDate": "2026-10-25",
@@ -195,7 +195,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch1",
     "subject": "char.emma",
     "storyDate": "2026-10-04",
@@ -207,7 +207,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch2",
     "subject": "char.emma",
     "storyDate": "2026-10-04",
@@ -220,7 +220,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch3",
     "subject": "char.emma",
     "storyDate": "2026-10-04",
@@ -232,7 +232,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch4",
     "subject": "char.emma",
     "storyDate": "2026-10-04",
@@ -244,7 +244,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch5",
     "subject": "char.emma",
     "storyDate": "2026-10-04",
@@ -257,7 +257,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch11",
     "subject": "char.emma",
     "storyDate": "2026-10-10",
@@ -269,7 +269,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_11_the_empty_stall.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch12",
     "subject": "char.emma",
     "storyDate": "2026-10-11",
@@ -282,7 +282,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch13",
     "subject": "char.emma",
     "storyDate": "2026-10-12",
@@ -296,7 +296,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch14",
     "subject": "char.emma",
     "storyDate": "2026-10-14",
@@ -309,7 +309,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch15",
     "subject": "char.emma",
     "storyDate": "2026-10-14",
@@ -321,7 +321,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch16",
     "subject": "char.emma",
     "storyDate": "2026-10-14",
@@ -334,7 +334,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch17",
     "subject": "char.emma",
     "storyDate": "2026-10-14",
@@ -347,7 +347,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch18",
     "subject": "char.emma",
     "storyDate": "2026-10-16",
@@ -359,7 +359,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch20",
     "subject": "char.emma",
     "storyDate": "2026-10-17",
@@ -372,7 +372,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch24",
     "subject": "char.emma",
     "storyDate": "2026-10-20",
@@ -384,7 +384,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.emma.book1.ch25",
     "subject": "char.emma",
     "storyDate": "2026-10-25",
@@ -396,7 +396,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.garrett-pike.book1.ch13",
     "subject": "char.garrett-pike",
     "storyDate": "2026-10-12",
@@ -409,7 +409,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.hank.book1.ch23",
     "subject": "char.hank",
     "storyDate": "2026-10-20",
@@ -421,7 +421,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_23_farm_to_table.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.hank.book1.ch25",
     "subject": "char.hank",
     "storyDate": "2026-10-25",
@@ -433,7 +433,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch2",
     "subject": "char.jasper",
     "storyDate": "2026-10-04",
@@ -445,7 +445,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch3",
     "subject": "char.jasper",
     "storyDate": "2026-10-04",
@@ -457,7 +457,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch4",
     "subject": "char.jasper",
     "storyDate": "2026-10-04",
@@ -469,7 +469,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch5",
     "subject": "char.jasper",
     "storyDate": "2026-10-04",
@@ -481,7 +481,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch10",
     "subject": "char.jasper",
     "storyDate": "2026-10-09",
@@ -494,7 +494,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_10_loose_lips.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch12",
     "subject": "char.jasper",
     "storyDate": "2026-10-11",
@@ -506,7 +506,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch14",
     "subject": "char.jasper",
     "storyDate": "2026-10-14",
@@ -518,7 +518,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch15",
     "subject": "char.jasper",
     "storyDate": "2026-10-14",
@@ -530,7 +530,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch16",
     "subject": "char.jasper",
     "storyDate": "2026-10-14",
@@ -543,7 +543,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch17",
     "subject": "char.jasper",
     "storyDate": "2026-10-14",
@@ -556,7 +556,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch19",
     "subject": "char.jasper",
     "storyDate": "2026-10-16",
@@ -568,7 +568,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_19_the_diner.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch21",
     "subject": "char.jasper",
     "storyDate": "2026-10-17",
@@ -580,7 +580,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_21_the_drive_in.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch22",
     "subject": "char.jasper",
     "storyDate": "2026-10-18",
@@ -592,7 +592,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_22_the_dive.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch23",
     "subject": "char.jasper",
     "storyDate": "2026-10-20",
@@ -604,7 +604,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_23_farm_to_table.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.jasper.book1.ch25",
     "subject": "char.jasper",
     "storyDate": "2026-10-25",
@@ -617,7 +617,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.marcus.book1.ch7",
     "subject": "char.marcus",
     "storyDate": "2026-10-06",
@@ -629,7 +629,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_07_gathering_the_ingredients.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch2",
     "subject": "char.noah",
     "storyDate": "2026-10-04",
@@ -641,7 +641,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch3",
     "subject": "char.noah",
     "storyDate": "2026-10-04",
@@ -653,7 +653,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch4",
     "subject": "char.noah",
     "storyDate": "2026-10-04",
@@ -665,7 +665,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch5",
     "subject": "char.noah",
     "storyDate": "2026-10-04",
@@ -677,7 +677,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch9",
     "subject": "char.noah",
     "storyDate": "2026-10-08",
@@ -689,7 +689,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_09_a_pinch_too_much.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch12",
     "subject": "char.noah",
     "storyDate": "2026-10-11",
@@ -701,7 +701,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch14",
     "subject": "char.noah",
     "storyDate": "2026-10-14",
@@ -713,7 +713,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch15",
     "subject": "char.noah",
     "storyDate": "2026-10-14",
@@ -725,7 +725,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch16",
     "subject": "char.noah",
     "storyDate": "2026-10-14",
@@ -738,7 +738,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch17",
     "subject": "char.noah",
     "storyDate": "2026-10-14",
@@ -751,7 +751,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch18",
     "subject": "char.noah",
     "storyDate": "2026-10-16",
@@ -763,7 +763,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch20",
     "subject": "char.noah",
     "storyDate": "2026-10-17",
@@ -775,7 +775,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch24",
     "subject": "char.noah",
     "storyDate": "2026-10-20",
@@ -787,7 +787,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.noah.book1.ch25",
     "subject": "char.noah",
     "storyDate": "2026-10-25",
@@ -799,7 +799,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch2",
     "subject": "char.oliver",
     "storyDate": "2026-10-04",
@@ -811,7 +811,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch3",
     "subject": "char.oliver",
     "storyDate": "2026-10-04",
@@ -823,7 +823,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch4",
     "subject": "char.oliver",
     "storyDate": "2026-10-04",
@@ -836,7 +836,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch5",
     "subject": "char.oliver",
     "storyDate": "2026-10-04",
@@ -848,7 +848,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch6",
     "subject": "char.oliver",
     "storyDate": "2026-10-05",
@@ -860,7 +860,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_06_a_fine_sieve.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch7",
     "subject": "char.oliver",
     "storyDate": "2026-10-06",
@@ -872,7 +872,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_07_gathering_the_ingredients.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch12",
     "subject": "char.oliver",
     "storyDate": "2026-10-11",
@@ -884,7 +884,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch14",
     "subject": "char.oliver",
     "storyDate": "2026-10-14",
@@ -896,7 +896,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch15",
     "subject": "char.oliver",
     "storyDate": "2026-10-14",
@@ -909,7 +909,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch16",
     "subject": "char.oliver",
     "storyDate": "2026-10-14",
@@ -922,7 +922,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch17",
     "subject": "char.oliver",
     "storyDate": "2026-10-14",
@@ -935,7 +935,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch18",
     "subject": "char.oliver",
     "storyDate": "2026-10-16",
@@ -947,7 +947,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch20",
     "subject": "char.oliver",
     "storyDate": "2026-10-17",
@@ -959,7 +959,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch24",
     "subject": "char.oliver",
     "storyDate": "2026-10-20",
@@ -971,7 +971,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.oliver.book1.ch25",
     "subject": "char.oliver",
     "storyDate": "2026-10-25",
@@ -983,7 +983,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch2",
     "subject": "char.olivia",
     "storyDate": "2026-10-04",
@@ -995,7 +995,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_02_the_first_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch3",
     "subject": "char.olivia",
     "storyDate": "2026-10-04",
@@ -1007,7 +1007,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_03_a_simmering_suspicion.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch4",
     "subject": "char.olivia",
     "storyDate": "2026-10-04",
@@ -1019,7 +1019,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_04_stirring_the_pot.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch5",
     "subject": "char.olivia",
     "storyDate": "2026-10-04",
@@ -1031,7 +1031,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_05_mise_en_place.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch7",
     "subject": "char.olivia",
     "storyDate": "2026-10-06",
@@ -1043,7 +1043,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_07_gathering_the_ingredients.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch8",
     "subject": "char.olivia",
     "storyDate": "2026-10-07",
@@ -1055,7 +1055,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_08_the_bottom_line.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch12",
     "subject": "char.olivia",
     "storyDate": "2026-10-11",
@@ -1067,7 +1067,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m2_12_coming_to_a_boil.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch13",
     "subject": "char.olivia",
     "storyDate": "2026-10-12",
@@ -1080,7 +1080,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_13_service_for_one.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch14",
     "subject": "char.olivia",
     "storyDate": "2026-10-14",
@@ -1092,7 +1092,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_14_the_seamless_supper.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch15",
     "subject": "char.olivia",
     "storyDate": "2026-10-14",
@@ -1104,7 +1104,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_15_a_bitter_taste.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch16",
     "subject": "char.olivia",
     "storyDate": "2026-10-14",
@@ -1117,7 +1117,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_16_the_recipe_for_revenge.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch17",
     "subject": "char.olivia",
     "storyDate": "2026-10-14",
@@ -1130,7 +1130,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch18",
     "subject": "char.olivia",
     "storyDate": "2026-10-16",
@@ -1142,7 +1142,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_18_turning_up_the_heat.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch20",
     "subject": "char.olivia",
     "storyDate": "2026-10-17",
@@ -1154,7 +1154,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_20_ghost_kitchen.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch24",
     "subject": "char.olivia",
     "storyDate": "2026-10-20",
@@ -1166,7 +1166,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_24_the_proof.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.olivia.book1.ch25",
     "subject": "char.olivia",
     "storyDate": "2026-10-25",
@@ -1178,7 +1178,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   },
   {
-    "$type": "site.supperclub.character.stateEvent",
+    "$type": "com.supperclubsecrets.character.stateEvent",
     "id": "stateEvent.sofia.book1.ch11",
     "subject": "char.sofia",
     "storyDate": "2026-10-10",

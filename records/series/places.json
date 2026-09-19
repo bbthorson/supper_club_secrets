@@ -1,6 +1,6 @@
 [
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.elijahs-apartment",
     "name": "Elijah's Apartment",
     "description": "Elijah's quiet, orderly one-bedroom in Bed-Stuy; appears in Ch8, but the group has never been inside — a deliberate seed for the Book 6 hosting payoff.",
@@ -15,7 +15,7 @@
     "sourceFile": "codex/locations/elijahs-apartment.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.elijahs-office",
     "name": "Elijah's Midtown Office",
     "kind": "Mid-tier investment bank; glass-walled conference room, 40th floor",
@@ -32,7 +32,7 @@
     "sourceFile": "codex/locations/elijahs-office.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.emmas-apartment",
     "name": "Emma's Apartment",
     "kind": "Railroad apartment, small but character-filled",
@@ -48,7 +48,7 @@
     "sourceFile": "codex/locations/emmas-apartment.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.jaspers-apartment",
     "name": "Jasper's Apartment",
     "kind": "Chaotic one-bedroom — \"looks like a thrift store and a bookstore had a fight\"",
@@ -65,7 +65,7 @@
     "sourceFile": "codex/locations/jaspers-apartment.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.mccarren-market",
     "name": "McCarren Park Greenmarket",
     "kind": "Weekly farmers market",
@@ -82,7 +82,7 @@
     "sourceFile": "codex/locations/mccarren-market.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.mcgolrick-market",
     "name": "McGolrick Park Farmers Market (Down to Earth)",
     "kind": "Weekly farmers market",
@@ -99,7 +99,7 @@
     "sourceFile": "codex/locations/mcgolrick-market.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.meadowlight-collective",
     "name": "Meadowlight Collective",
     "kind": "Intentional community, ~2 hours west of Philadelphia (Brooklyn ↔ Meadowlight ≈ 4 hrs driving)",
@@ -115,7 +115,7 @@
     "sourceFile": "codex/locations/meadowlight-collective.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.noahs-apartment",
     "name": "Noah's Apartment",
     "kind": "Minimalist home office",
@@ -131,7 +131,7 @@
     "sourceFile": "codex/locations/noahs-apartment.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.nypl-rose-reading-room",
     "name": "NYPL — Rose Main Reading Room",
     "kind": "Research location (New York Public Library)",
@@ -148,7 +148,7 @@
     "sourceFile": "codex/locations/nypl-rose-reading-room.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.olivia-oliver-place",
     "name": "Olivia & Oliver's Place",
     "kind": "One-bedroom apartment",
@@ -163,7 +163,7 @@
     "sourceFile": "codex/locations/olivia-oliver-place.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.sofias-cheese-shop",
     "name": "Sofia's Cheese Shop",
     "kind": "Neighborhood cheese shop (Williamsburg, near McCarren)",
@@ -180,7 +180,7 @@
     "sourceFile": "codex/locations/sofias-cheese-shop.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.the-coffee-hole",
     "name": "The Coffee Hole",
     "kind": "Local coffee shop",
@@ -195,7 +195,7 @@
     "sourceFile": "codex/locations/the-coffee-hole.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.the-gilded-fern",
     "name": "The Gilded Fern",
     "kind": "Boutique on Bedford Avenue",
@@ -212,7 +212,7 @@
     "sourceFile": "codex/locations/the-gilded-fern.md"
   },
   {
-    "$type": "site.supperclub.place",
+    "$type": "com.supperclubsecrets.place",
     "id": "place.waterfront-property",
     "name": "Waterfront Property (Williamsburg)",
     "kind": "Vacant commercial space",
