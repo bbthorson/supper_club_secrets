@@ -95,6 +95,71 @@ The G line corridor changes across six months. Track: what opens, what closes, w
 - **Red herrings need real page-time.** Book 1's false leads (the Ch4 theory competition) were comically dismissed in-chapter; every investigated thread turned out correct. Accepted for Book 1 as a howdunit/whydunit — but from Book 2 on, give at least one mid-book lead a plausible wrong turn that gets investigated and cleanly eliminated by evidence (per ai_instructions.md §6's 2–3 legitimate red herrings).
 - **Olivia's Book 4 payoff must land harder for the runway she got.** Her Book 1 micro-arc intentionally ran in service of others (comforting Emma, managing Oliver, running the network) with only one crack of vulnerability (Ch20) — she is the least visibly changed of the six by book's end. Book 4 needs to convert that restraint into payoff.
 
+### Added 2026-09-19, from a mechanical prose pre-pass over the locked Book 1
+
+Book 1 is locked and none of these asks for a Book 1 change. All four are
+suggestions for Book 2 onward, and all four are Tier 3 — the author's call.
+Carve-outs checked against `lore/02_character_voice_guide.md` and
+`codex/characters/*.md` before flagging anything; where a beat turned out to be
+catalogued it is named below as *not* a finding.
+
+- **Half the chapters close on the narrator explaining what the scene meant.**
+  The 2026-09-17 pass named seven "chapter buttons" and rewrote two. Read by
+  *move* rather than by length, the count is higher: roughly twelve of
+  twenty-five closers end with the narrator summarising emotional significance
+  (Ch4, 5, 6, 8, 9, 11, 16, 18, 21, 23, 24, 25), against eight that close on
+  dialogue and five on a concrete image or an in-scene action. Cozy crime wants
+  a satisfying beat at a chapter break and none of these is wrong on its own —
+  but at half the book it is a rhythm, and the taxonomy's "perfect symmetry"
+  entry is about exactly this. Ch12's rewrite is the model: it kept the dread
+  and moved it inside Jasper's own experience. **For Book 2: aim for a third of
+  closers on the summarising move, not half, and prefer the concrete image —
+  Ch19's "the car that smelled like wet dog and freedom" carries more than any
+  of the summaries do.**
+
+- **The same temporal frame announces nine turning points.** `For the first time
+  since/in …` appears six times (Ch6, 9, 14, 18, 21, 25), `For once` twice (Ch12,
+  23), `For one evening` once (Ch18) — and four of the nine are the final beat of
+  their chapter (Ch9, 18, 21, 23). It is one rhetorical gesture, "this is the
+  moment something changed," reused as the default way to mark a turn. No
+  word-level grep predicts it, because the words differ every time; only reading
+  the closers together shows it. Ch21 stacks it with a negative-parallelism close
+  in the same paragraph ("For the first time since Brooklyn … it didn't feel like
+  trouble. It felt like use."), which makes it the most formula-shaped closer in
+  the book. **For Book 2: treat `For the first time…` as spent. Let the turn show
+  in what the character does next.**
+
+- **An uncatalogued somatic default carries Emma's warmth beat, twice, nearly
+  verbatim.** Ch2: "Emma watched them eat and felt something loosen in her chest.
+  This was the reaction she'd been hoping for." Ch12: "Emma watched her friends
+  eat and felt something loosen in her chest. This was why she cooked." Same
+  subject, same action, same somatic carrier, same `This was…` follow-on, ten
+  chapters apart, both at a supper. Ch19 uses the chest a third time for Jasper.
+  Not in the voice guide and not in any character file, so the carve-out does not
+  apply — this is the "recycled physical tell" the SCS calibration calls the
+  highest-value thing to watch, and with six recurring characters eating together
+  every few chapters it is the easiest one to spread. A second pair: the
+  greenhouse "held its breath" in Ch23 and the apartment was "holding its breath"
+  in Ch24, one chapter apart, the same personification. **For Book 2: give each
+  character a different physical vocabulary for relief, and keep a running list
+  of which one has already been used for it.**
+  *Checked and NOT a finding:* Oliver pushing his glasses up (Ch3, Ch25) is
+  catalogued at `codex/characters/oliver.md:96` and is designed. Oliver's
+  `quietly` register accounts for four of Ch25's seven magic adverbs and is
+  likewise designed.
+
+- **Ch15 is the book's negative-parallelism cluster.** Four distinct instances in
+  2,177 words — "not because it was bad, but because it wasn't theirs. It was
+  someone else's cooking", "Not loud, but clear", "wasn't defensive and it wasn't
+  performance. It was the genuine…", "This wasn't a mystery anymore. This was
+  their friendship…". Book-wide the device is well short of a tic, and the
+  2026-09-17 pass was right to leave the earned uses alone; the finding is the
+  local density, and the taxonomy tiers a device "clustered heavily in one"
+  chapter as a slip. Ch15 is the emotional low point, so the reach for a
+  corrective cadence is understandable. **For Book 2: at the equivalent beat,
+  keep one and let the others be plain statements — the device loses its force
+  when the chapter around it is already built from it.**
+
 ---
 
 ## Future Concept: South Slope Sleuths (Post–Book 2 Spinoff)

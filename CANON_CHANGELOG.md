@@ -4,6 +4,57 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-19 — Book 1 prose pre-pass run; four craft notes carried to Book 2 (no prose change)
+
+**Trigger:** `tools/prose_check.py` made the mechanical half of the AI-tells pass
+cheap enough to run outside a full `story-audit`, so it was run over the locked
+Book 1 and the output was actually read. Book 1 is locked; **no prose changed and
+none of this asks for a Book 1 change.** Everything landed in
+`codex/series_plan.md` § Craft Notes as Book 2 guidance.
+
+**What the read found (all Tier 3, all suggestions):**
+- *Closing move.* Read by move rather than by length, ~12 of 25 chapters close on
+  the narrator summarising emotional significance, against 8 on dialogue and 5 on
+  a concrete image. The 2026-09-17 pass named seven buttons by hand; the higher
+  figure is the same phenomenon counted by what the sentence does rather than how
+  short it is. Ch12's rewrite remains the model.
+- *A reused turning-point frame.* `For the first time since/in …` ×6, `For once`
+  ×2, `For one evening` ×1 — nine uses of one gesture, four of them as a
+  chapter's final beat. Ch21 stacks it with a negative-parallelism close in the
+  same paragraph.
+- *An uncatalogued somatic default.* Ch2 and Ch12 both run "Emma watched [them /
+  her friends] eat and felt something loosen in her chest. This was …" ten
+  chapters apart, both at a supper; Ch19 uses the chest a third time for Jasper.
+  Separately, the greenhouse "held its breath" (Ch23) and the apartment was
+  "holding its breath" (Ch24). Neither pair is in the voice guide, so the
+  designed-tic carve-out does not cover them.
+- *Ch15 negative-parallelism cluster.* Four distinct instances in 2,177 words.
+  Book-wide the device remains well short of a tic; the finding is local density.
+
+**Carve-outs checked and explicitly NOT flagged:** Oliver pushing his glasses up
+(Ch3, Ch25) is catalogued at `codex/characters/oliver.md:96`. Oliver's `quietly`
+register accounts for four of Ch25's seven magic adverbs. Both are designed.
+
+**Two defects the read found in the tool, since fixed:**
+- The repeated-construction scan was ranked by how many chapters a phrase appears
+  in, which surfaces deliberate refrains and buries near-verbatim reuse at two
+  beats — the exact thing the scan exists to catch, and what 3.3 was. It now
+  reports the longest maximal repeat per chapter-pair. The Ch2/Ch12 chest beat
+  above is the first thing the fixed ranking surfaces; the old ranking had it
+  below the cutoff behind four refrains.
+- `ai_tells.md` asks for negative parallelism in two forms and only the
+  corrective one was implemented, so the split form (`It wasn't X. It was Y.`)
+  read zero by omission. Now counted — and **labelled unclassified**, because the
+  raw regex finds 9 in Book 1 where hand-classification gives 6. Reporting 9
+  beside the hand-classified 12 would repeat the counting error this changelog
+  recorded on 2026-09-17.
+
+**Machine layer:** untouched. No frontmatter, records, or canon files changed;
+`pinakes lint` clean and `pinakes compile` reproduces `records/` with no drift.
+
+---
+
+
 ## 2026-09-17 — Book 1 Tier 3 polish closed out; the optional list is now empty
 
 **Trigger:** Sweep of every optional item still open from the two Book 1 audits (`tracking/audit_2026-07-11.md`, `tracking/audit_2026-07-12.md`) and the 2026-09-01 editorial pass, to decide which were worth doing before the book locks.
