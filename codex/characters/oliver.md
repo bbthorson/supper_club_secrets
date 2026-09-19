@@ -5,6 +5,7 @@ fullName: "Oliver Keller"
 id: char.oliver
 status: active
 handle: ollie-oxen-free
+did: did:plc:b4xqf5g2j52z3y7mcnk6jtms
 personaPublic: "I don't say much here. Ask me about zoning variances or how a block got rezoned in '87 and that changes fast. Married to @liv-living, who handles the talking."
 keyContradiction: "Shy in company, and happy to let Olivia speak for them both."
 ---

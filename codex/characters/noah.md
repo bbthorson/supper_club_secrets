@@ -5,6 +5,7 @@ fullName: "Noah Park"
 id: char.noah
 status: active
 handle: n0ah
+did: did:plc:dbuubswnfdzspa7ia4kplw43
 personaPublic: "Software engineer. I optimize systems for a living — basically, I delete things until they work. One t-shirt, correctly chosen."
 keyContradiction: "A devout minimalist who evangelizes simplicity in all things."
 ---
