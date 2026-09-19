@@ -4,6 +4,70 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-19 — Book 1 lock reopened for three repeated-beat edits (stylistic only)
+
+**Trigger:** the prose pre-pass earlier the same day recorded four craft findings
+and carried all four to Book 2 on the grounds that Book 1 was locked. On review
+the author reopened the lock for the three that are repetition rather than taste,
+and left the two that are structural.
+
+**Prose changed (3 edits, stylistic only — no fact, date, location, custody or
+clue moved; no frontmatter touched):**
+- *Ch2, the repeated warmth beat.* "Emma watched them eat and felt something
+  loosen in her chest. This was the reaction she'd been hoping for." → "Emma
+  watched them eat and **stopped rehearsing the apology she'd had ready**." Ch12
+  ran the same beat near-verbatim ("Emma watched her friends eat and felt
+  something loosen in her chest. This was why she cooked.") ten chapters later,
+  same character, same situation, same somatic carrier. **Ch12 is the one left
+  alone:** its follow-on is the thematic "Not the technique, not the plating,
+  not the Instagram photo", which the 2026-09-17 pass explicitly kept as earned
+  anaphora, and it is the stronger of the two. The replacement is on-voice for
+  Emma (§ self-deprecating, quick to deflect) and pays off her own "Try it
+  before I tell you anything" two paragraphs earlier.
+- *Ch23, the repeated personification.* "When Jasper ran out of words, the
+  greenhouse held its breath." → "When Jasper ran out of words, **he let the
+  silence stand**." Ch24's "The apartment, which had been holding its breath for
+  days, finally let it out" is one chapter later and is the fuller, load-bearing
+  use, so Ch23 gave way. Moving the pause onto Hank rather than the room also
+  avoids doubling the greenhouse personification that the same chapter's closer
+  already carries ("the greenhouse hummed with the quiet work of living things").
+- *Ch15, the negative-parallelism cluster.* Four distinct instances in ~2,180
+  words. The most mannered — "the hurt in his eyes wasn't defensive and it wasn't
+  performance. It was the genuine, deep-seated kind that lives in a place you've
+  been trying not to look at." — became "**and the performance was gone.**"
+  Jasper's speech immediately after ("never quite smart enough, never quite
+  serious enough, who's always trying too hard") already names the hurt better
+  than the narration did, so the narration was redundant as well as doubled. The
+  short version preserves what the line was for: his chaos is a performance per
+  the voice guide, and this is it absent. Three instances remain, all earned.
+
+**Deliberately NOT changed, with reasons:**
+- *The `For the first time since…` frame* (9 uses, 4 at chapter close). Each use
+  is defensible in its own chapter — Ch6's is an honest turn. The defect is that
+  it is the only device the book reaches for to mark a change, and that is not
+  fixable by deletion; inventing nine alternatives retroactively would move the
+  voice more than it fixed the rhythm. Book 2 guidance.
+- *The closing-move distribution* (~12 of 25 chapters close on the narrator
+  summarising meaning). Structural. A distribution cannot be edited by words,
+  only by rewriting endings. Book 2 guidance.
+
+**Still open, noted not fixed:** Ch12 ("loosen in her chest", Emma) and Ch19
+("loosening in his chest", Jasper) reuse the same carrier seven chapters apart
+with different subjects. Weaker than the pair that was fixed; left for the author.
+
+**Carve-outs re-confirmed and untouched:** Oliver's glasses-push (catalogued at
+`codex/characters/oliver.md:96`) and his `quietly` register.
+
+**Verified:** each replacement phrase occurs exactly once in Book 1, so no new
+repetition was introduced. `pinakes lint` clean. `pinakes compile` at the pinned
+0.2.1 reproduces `records/` with no drift — every edit was prose body, so no
+record could change. Ch2 and Ch23 somatic-beat counts drop to 0; Ch15's split
+negative-parallelism count drops 3 → 2. Neither the chest pair nor the breath
+pair appears in the repeated-construction scan any more.
+
+---
+
+
 ## 2026-09-19 — Book 1 prose pre-pass run; four craft notes carried to Book 2 (no prose change)
 
 **Trigger:** `tools/prose_check.py` made the mechanical half of the AI-tells pass
