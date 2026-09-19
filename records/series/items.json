@@ -1,0 +1,8 @@
+[
+  {
+    "$type": "site.supperclub.item",
+    "id": "item.heritage-bottle",
+    "displayName": "Heritage Hot Sauce Bottle",
+    "status": "active"
+  }
+]
