@@ -6,7 +6,7 @@ id: char.jasper
 status: active
 handle: j-a-s-p-e-r
 did: did:plc:erx3brciaamivm4zynilpvxg
-personaPublic: "okay hear me out — hot sauce, shell companies, a guy who got into a car that wasn't his … it's all connected. what do i do for work? unclear. what do i know? too much. theories on request."
+personaPublic: "i have been asked to stop bringing things up at dinner. i have not stopped bringing things up at dinner."
 keyContradiction: "A chaos agent who treats every mystery as a wild, connect-everything adventure."
 ---
 
