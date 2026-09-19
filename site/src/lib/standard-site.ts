@@ -87,7 +87,7 @@ export interface StandardSiteConfig {
 }
 
 export const STANDARD_SITE: StandardSiteConfig = {
-  handle: 'supperclubsecrets.bsky.social',
+  handle: 'supperclubsecrets.com',
   did: 'did:plc:zvimgmqci4atuvxye2olyn7c',
   publicationRkey: '',
   documentRkeys: {},
