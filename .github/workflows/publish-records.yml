@@ -66,6 +66,12 @@ jobs:
 
       - name: Publish records
         env:
+          # inputs.horizon is attacker-controlled text. Interpolating it into
+          # the script below would splice it into this shell — with every cast
+          # password in scope. Through env it is only ever a string, and
+          # publish_records.mjs re-checks the YYYY-MM-DD shape itself.
+          HORIZON: ${{ inputs.horizon }}
+          EXECUTE: ${{ steps.mode.outputs.execute }}
           BSKY_PASSWORD_PROJECT: ${{ secrets.BSKY_PASSWORD_PROJECT }}
           BSKY_PASSWORD_EMMA: ${{ secrets.BSKY_PASSWORD_EMMA }}
           BSKY_PASSWORD_ELIJAH: ${{ secrets.BSKY_PASSWORD_ELIJAH }}
@@ -74,11 +80,11 @@ jobs:
           BSKY_PASSWORD_OLIVIA: ${{ secrets.BSKY_PASSWORD_OLIVIA }}
           BSKY_PASSWORD_JASPER: ${{ secrets.BSKY_PASSWORD_JASPER }}
         run: |
-          ARGS=""
-          [ -n "${{ inputs.horizon }}" ] && ARGS="--horizon ${{ inputs.horizon }}"
-          [ "${{ steps.mode.outputs.execute }}" = "true" ] && ARGS="$ARGS --execute"
-          echo "Running: node tools/publish_records.mjs $ARGS"
-          node tools/publish_records.mjs $ARGS
+          ARGS=()
+          [ -n "$HORIZON" ] && ARGS+=(--horizon "$HORIZON")
+          [ "$EXECUTE" = "true" ] && ARGS+=(--execute)
+          echo "Running: node tools/publish_records.mjs ${ARGS[*]}"
+          node tools/publish_records.mjs "${ARGS[@]}"
 
       - name: Upload the manifest for review
         if: always()
