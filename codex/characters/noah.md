@@ -1,6 +1,7 @@
 ---
 type: Character
 title: "Noah"
+fullName: "Noah Park"
 id: char.noah
 status: active
 handle: n0ah

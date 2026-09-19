@@ -1,6 +1,7 @@
 ---
 type: Character
 title: "Olivia"
+fullName: "Olivia Brennan"
 id: char.olivia
 status: active
 handle: liv-living
@@ -38,6 +39,8 @@ Oliver happened freshman year of college. Olivia sat next to him in an introduct
 She was fascinated by him—his quietness, his precision, the way he'd say one perfect thing after an hour of listening. He was so different from her, and she found herself wanting to understand how his mind worked. By sophomore year, she'd worn him down. By senior year, she couldn't imagine marrying anyone else.
 
 They got married at 25, after nearly seven years together. A small wedding—his preference. She made it feel like a celebration anyway.
+
+She kept Brennan. Not as a statement — by the time they married she had already run a half-dozen small businesses under that name, and her parents' catering van had carried it around the Philadelphia suburbs before that. Changing it would have meant starting the introductions over, and Olivia does not start introductions over.
 
 ### The Serial Entrepreneur
 Olivia has started more businesses than she can count. Candle-making. A neighborhood newsletter. Pop-up vintage sales. Cooking classes. Community event planning. A brief stint selling vintage jewelry on Etsy.

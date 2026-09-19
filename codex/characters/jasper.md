@@ -1,6 +1,7 @@
 ---
 type: Character
 title: "Jasper"
+fullName: "Jasper Calloway"
 id: char.jasper
 status: active
 handle: j-a-s-p-e-r
