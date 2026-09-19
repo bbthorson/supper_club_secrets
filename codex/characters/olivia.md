@@ -3,8 +3,8 @@ type: Character
 title: "Olivia"
 id: char.olivia
 status: active
-handle: oliviaknows
-personaPublic: "So — I know everyone, and everyone tells me things. The flower shop, the tailor, the woman at the market. I host, I connect, I never forget a detail. Married to @oliverreads."
+handle: liv-living
+personaPublic: "So — I know everyone, and everyone tells me things. The flower shop, the tailor, the market. I host, I connect, I never forget a detail. Married to @ollie-oxen-free."
 keyContradiction: "Effortlessly social; the glue that holds the group together."
 ---
 
