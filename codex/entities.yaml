@@ -72,28 +72,28 @@ characters:
   - id: char.noah
     type: character
     displayName: Noah
-    aliases: ["Noah"]
+    aliases: ["Noah", "Noah Park"]
     sourceFile: codex/characters/noah.md
     status: active
 
   - id: char.oliver
     type: character
     displayName: Oliver
-    aliases: ["Oliver"]
+    aliases: ["Oliver", "Oliver Keller"]
     sourceFile: codex/characters/oliver.md
     status: active
 
   - id: char.olivia
     type: character
     displayName: Olivia
-    aliases: ["Olivia"]
+    aliases: ["Olivia", "Olivia Brennan"]
     sourceFile: codex/characters/olivia.md
     status: active
 
   - id: char.jasper
     type: character
     displayName: Jasper
-    aliases: ["Jasper"]
+    aliases: ["Jasper", "Jasper Calloway"]
     sourceFile: codex/characters/jasper.md
     status: active
 
