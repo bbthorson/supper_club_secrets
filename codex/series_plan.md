@@ -97,11 +97,15 @@ The G line corridor changes across six months. Track: what opens, what closes, w
 
 ### Added 2026-09-19, from a mechanical prose pre-pass over the locked Book 1
 
-Book 1 is locked and none of these asks for a Book 1 change. All four are
-suggestions for Book 2 onward, and all four are Tier 3 — the author's call.
-Carve-outs checked against `lore/02_character_voice_guide.md` and
-`codex/characters/*.md` before flagging anything; where a beat turned out to be
-catalogued it is named below as *not* a finding.
+All four are Tier 3 — the author's call. Carve-outs were checked against
+`lore/02_character_voice_guide.md` and `codex/characters/*.md` before flagging
+anything; where a beat turned out to be catalogued it is named below as *not* a
+finding.
+
+**Three were acted on in Book 1** (author reopened the lock on 2026-09-19); each
+is marked *Addressed* below, with the edit. The other two are structural or
+diffuse and are Book 2 guidance only — deleting instances would not fix either,
+and would move the voice more than it fixed the rhythm.
 
 - **Half the chapters close on the narrator explaining what the scene meant.**
   The 2026-09-17 pass named seven "chapter buttons" and rewrote two. Read by
@@ -115,7 +119,8 @@ catalogued it is named below as *not* a finding.
   and moved it inside Jasper's own experience. **For Book 2: aim for a third of
   closers on the summarising move, not half, and prefer the concrete image —
   Ch19's "the car that smelled like wet dog and freedom" carries more than any
-  of the summaries do.**
+  of the summaries do.** *Not addressed in Book 1, deliberately: a closing-move
+  distribution cannot be changed by word edits, only by rewriting endings.*
 
 - **The same temporal frame announces nine turning points.** `For the first time
   since/in …` appears six times (Ch6, 9, 14, 18, 21, 25), `For once` twice (Ch12,
@@ -127,7 +132,11 @@ catalogued it is named below as *not* a finding.
   in the same paragraph ("For the first time since Brooklyn … it didn't feel like
   trouble. It felt like use."), which makes it the most formula-shaped closer in
   the book. **For Book 2: treat `For the first time…` as spent. Let the turn show
-  in what the character does next.**
+  in what the character does next.** *Not addressed in Book 1, deliberately:
+  each of the nine is defensible in its own chapter — Ch6's is an honest turn.
+  The defect is that it is the only tool the book reaches for to mark a change,
+  and inventing nine alternatives retroactively would move the voice more than
+  it fixed the rhythm.*
 
 - **An uncatalogued somatic default carries Emma's warmth beat, twice, nearly
   verbatim.** Ch2: "Emma watched them eat and felt something loosen in her chest.
@@ -143,6 +152,15 @@ catalogued it is named below as *not* a finding.
   in Ch24, one chapter apart, the same personification. **For Book 2: give each
   character a different physical vocabulary for relief, and keep a running list
   of which one has already been used for it.**
+  *Addressed in Book 1:* Ch2's instance became "stopped rehearsing the apology
+  she'd had ready" — Ch12's was left alone because it carries the thematic "This
+  was why she cooked. Not the technique, not the plating" that the 2026-09-17
+  pass kept as earned anaphora. Ch23's "the greenhouse held its breath" became
+  "he let the silence stand", which also avoids doubling the greenhouse
+  personification the same chapter's closer already uses. **Still open:** Ch12
+  ("loosen in her chest", Emma) and Ch19 ("loosening in his chest", Jasper) are
+  seven chapters apart with different subjects — weaker than the pair that was
+  fixed, but the same carrier twice.
   *Checked and NOT a finding:* Oliver pushing his glasses up (Ch3, Ch25) is
   catalogued at `codex/characters/oliver.md:96` and is designed. Oliver's
   `quietly` register accounts for four of Ch25's seven magic adverbs and is
@@ -159,6 +177,13 @@ catalogued it is named below as *not* a finding.
   corrective cadence is understandable. **For Book 2: at the equivalent beat,
   keep one and let the others be plain statements — the device loses its force
   when the chapter around it is already built from it.**
+  *Addressed in Book 1:* the most mannered of the four — "the hurt in his eyes
+  wasn't defensive and it wasn't performance. It was the genuine, deep-seated
+  kind…" — became "and the performance was gone." Jasper's speech immediately
+  after ("never quite smart enough, never quite serious enough") already names
+  the hurt better than the narration did, and the short version keeps what the
+  line was actually for: his chaos is a performance, and this is it absent.
+  Three remain, all earned.
 
 ---
 
