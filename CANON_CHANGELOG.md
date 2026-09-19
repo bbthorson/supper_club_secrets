@@ -4,6 +4,56 @@ A running log of significant changes to canon — location names, character fact
 
 ---
 
+## 2026-09-19 — Ch15 edit reverted; the `For…` count corrected upward (no net prose change in Ch15)
+
+**Trigger:** review of the three edits made earlier the same day. Two stand. The
+third was wrong and is reverted, and a count reported in the same pass was too
+low.
+
+**Reverted:** Ch15's "the hurt in his eyes wasn't defensive and it wasn't
+performance. It was the genuine, deep-seated kind that lives in a place you've
+been trying not to look at." had been shortened to "and the performance was
+gone." Restored verbatim. Two reasons, the second the important one:
+- Ch16 already lands "Jasper said, and for once there was no performance in it"
+  **one chapter later**. The shortened Ch15 line created a tighter repeat than the
+  ten-chapter one it was meant to help, and spent Ch16's payoff a chapter early.
+- **"The performance stripped away" is a tracked arc beat, not loose phrasing.**
+  `m4_19`'s `registers:` carries "the loneliness under the performance", `m4_22`'s
+  `threads:` carries "The performance stripped away — just the guy who caused it
+  all", and `00_story_outline.md` tracks the same motif. The arc strips Jasper's
+  performance in the back half (Ch19 → Ch22 → Ch23); Ch15 is where it *cracks
+  under pressure*, which is a different beat. Firing the motif at Ch15 front-ran
+  the arc.
+
+  Ch15's four negative-parallelism instances therefore all stand. The density
+  remains a Book 2 note; on reflection it may also be earned, since a corrective
+  cadence is what people reach for when they are re-drawing what something *is*
+  mid-argument, and that is the chapter's whole subject.
+
+**Corrected count — the `For…` frame is 22, not 9.** The figure reported earlier
+counted only sentence-initial, capital-`For` uses. Thirteen more run mid-sentence
+in lowercase (Ch15 ×3, Ch16 ×3, Ch18, Ch20, Ch22, Ch23 ×2, Ch24, Ch25). True
+total 22 in ~41,700 words, one every 1,900. The finding is stronger than
+reported, not weaker; the guidance is unchanged and still Book 2 only.
+
+**Unchanged and re-verified:** the Ch2 warmth-beat edit and the Ch23 greenhouse
+edit both stand. Neither touches a motif tracked in frontmatter or the outline —
+checked explicitly this time.
+
+**Method note worth keeping.** The Ch15 error was not caught by the check that
+was run, which confirmed each new phrase appeared exactly once in the book. That
+catches literal duplication and is blind to a near-synonym a chapter away, which
+is the actual defect class. **Before changing a repeated phrase, grep the concept
+across chapter frontmatter and the outline, not just the prose** — a motif the
+tracking is steering looks identical to an accidental repeat when you only read
+the prose.
+
+**Machine layer:** `pinakes lint` clean at the pinned 0.4.0; `compile` reproduces
+`records/` with no drift. Prose body only; no frontmatter touched.
+
+---
+
+
 ## 2026-09-19 — Book 1 lock reopened for three repeated-beat edits (stylistic only)
 
 **Trigger:** the prose pre-pass earlier the same day recorded four craft findings
