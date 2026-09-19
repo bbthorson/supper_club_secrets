@@ -61,6 +61,13 @@ SIGNALS = [
         "the corrective form; this is the classified count",
     ),
     (
+        "negative-parallelism-split",
+        r"\b(it|that|this|he|she|they)\s+(wasn'?t|weren'?t|isn'?t|aren'?t|didn'?t\s+\w+)\b[^.!?]{0,60}[.!?]\s+(it|that|this|he|she|they)\s+(was|were|is|are|felt|did|had)\b",
+        'the split form ("It wasn\'t X. It was Y.") the taxonomy names alongside '
+        "the corrective one. UNCLASSIFIED: a sentence-pair regex cannot tell a "
+        "correction from two adjacent sentences, so every hit is quoted below",
+    ),
+    (
         "here's-the-kicker",
         r"here'?s (the|where) (the )?(thing|kicker|catch|interesting|deal)|but here'?s",
         "",
@@ -270,7 +277,7 @@ def report_tells(chapters: list[dict]) -> str:
     hard = []
     for ch in chapters:
         for label, pattern, _ in SIGNALS:
-            if label not in ("corporate-filler", "here's-the-kicker"):
+            if label not in ("corporate-filler", "here's-the-kicker", "negative-parallelism-split"):
                 continue
             for m in re.finditer(pattern, ch["body"], re.IGNORECASE):
                 a, b = max(0, m.start() - 90), min(len(ch["body"]), m.end() + 90)
@@ -287,6 +294,12 @@ def report_tells(chapters: list[dict]) -> str:
         "## Negative parallelism: the counting note",
         "",
         f"- **{classified}** matches of the corrective form (`not X — it's Y`). This is the count that means something.",
+        f"- **{totals['negative-parallelism-split']}** raw matches of the split form",
+        "  (`It wasn't X. It was Y.`), which `ai_tells.md` names alongside the corrective form",
+        "  and which this tool did not implement until now. **Unclassified, and it over-reports:**",
+        "  a sentence-pair regex cannot tell a correction from two adjacent sentences that merely",
+        "  start that way. Hand-classifying Book 1's matches gave 6 real out of 9 raw. Every hit is",
+        "  quoted under hard signals above — classify there, do not quote this number.",
         f"- **{bare}** sentence-initial `Not …` overall. This is **unclassified** and is not a tell count.",
         "",
         "The 2026-09-17 changelog records a pass that reported 42 → 34 from a bare",
@@ -309,22 +322,70 @@ def report_tells(chapters: list[dict]) -> str:
     lines.append(f"`quietly` in Oliver-naming paragraphs: **{oliver_quietly}**.")
     lines.append("")
 
-    # Repeated-construction scan: the taxonomy calls this a worthwhile optional
-    # extension and notes no fixed regex predicts it. Distinctive 6-grams that
-    # recur across different chapters are the mechanical shadow of it.
+    # Repeated-construction scan. The taxonomy calls this a worthwhile optional
+    # extension and notes no fixed regex predicts it: the motivating example was
+    # one distinctive phrase reused near-verbatim at two big beats.
+    #
+    # Ranking by how many chapters a phrase appears in gets that exactly
+    # backwards. A phrase in four chapters is usually a deliberate refrain (the
+    # book's thematic line, a running gag, a text message quoted twice); the
+    # accidental reuse the scan exists to find is long, near-verbatim, and in
+    # precisely TWO places. So the scan reports the longest maximal repeat per
+    # chapter-pair, longest first, and leaves judging deliberateness to the read.
+    N = 8
+    words_by_ch: dict[int, list[str]] = {}
     seen: dict[str, set[int]] = defaultdict(set)
+    pos: dict[str, dict[int, int]] = defaultdict(dict)
     for ch in chapters:
-        words = re.findall(r"[a-z']+", ch["body"].lower())
-        for i in range(len(words) - 5):
-            seen[" ".join(words[i : i + 6])].add(ch["num"])
-    repeats = sorted(
-        ((g, chs) for g, chs in seen.items() if len(chs) > 1),
-        key=lambda kv: (-len(kv[1]), kv[0]),
-    )[:15]
-    lines += ["## Repeated six-word constructions across chapters", ""]
+        ws = re.findall(r"[a-z']+", ch["body"].lower())
+        words_by_ch[ch["num"]] = ws
+        for i in range(len(ws) - N + 1):
+            gram = " ".join(ws[i : i + N])
+            seen[gram].add(ch["num"])
+            pos[gram].setdefault(ch["num"], i)
+
+    # Sliding windows over one repeated passage yield dozens of overlapping
+    # grams, and same-length grams cannot contain one another, so they have to
+    # be stitched by position rather than by substring. Group by the exact set of
+    # chapters, walk the start indices in the earliest chapter, and merge
+    # consecutive runs — one reused sentence then reports as one finding at its
+    # full length instead of as twenty near-duplicates.
+    groups: dict[tuple, list[str]] = defaultdict(list)
+    for gram, chs in seen.items():
+        if len(chs) > 1:
+            groups[tuple(sorted(chs))].append(gram)
+
+    repeats: list[tuple[str, tuple]] = []
+    for chs, grams in groups.items():
+        first = chs[0]
+        starts = sorted({pos[g][first] for g in grams if first in pos[g]})
+        ws = words_by_ch[first]
+        run_start = None
+        prev = None
+        for i in starts:
+            if run_start is None:
+                run_start, prev = i, i
+            elif i == prev + 1:
+                prev = i
+            else:
+                repeats.append((" ".join(ws[run_start : prev + N]), chs))
+                run_start, prev = i, i
+        if run_start is not None:
+            repeats.append((" ".join(ws[run_start : prev + N]), chs))
+    repeats.sort(key=lambda kv: (-len(kv[0].split()), kv[1]))
+
+    lines += [
+        f"## Longest repeated constructions ({N}+ words, maximal, longest first)",
+        "",
+        "A long phrase in exactly **two** chapters is the interesting case — that is",
+        "accidental reuse at two beats. A phrase in four chapters is usually a refrain,",
+        "a running gag, or one message quoted twice, all of which are deliberate. Check",
+        "the chapter list before reading any of these as a defect.",
+        "",
+    ]
     if repeats:
-        for gram, chs in repeats:
-            lines.append(f"- `{gram}` — ch {', '.join(str(c) for c in sorted(chs))}")
+        for gram, chs in repeats[:20]:
+            lines.append(f"- ch {', '.join(str(c) for c in chs)} — `{gram}`")
     else:
         lines.append("_None._")
     lines.append("")
