@@ -228,12 +228,28 @@ operated, never autonomous. That stands. Four operational points it does not cov
    sessions in with a per-account app password read from the environment. App
    passwords are individually revocable; the account password never enters the
    pipeline, a committed file, or a chat message.
-2. **Export the PLC recovery key for each account at creation, before publishing
-   anything.** A DID is permanent, and once records are published under a cast
-   account's DID that identity *is* the canon record. Losing the credentials without
-   a recovery key means losing the identity — not the posts alone, the subject they
-   were published by. This is the one irreversible mistake available here, and the
-   window to prevent it is at account creation.
+2. **Add an author-held PLC recovery key to each account.** A DID is permanent,
+   and once records are published under a cast account's DID that identity *is* the
+   canon record. Losing the credentials without a recovery key means losing the
+   identity — not the posts alone, the subject they were published by.
+
+   **Corrected 2026-09-19: there is nothing to "export".** The earlier wording sent
+   a reader looking for a button that does not exist. Each DID document carries an
+   *ordered* list of rotation keys, and today every account's list holds exactly
+   one — Bluesky's. That is how they change your handle for you. A recovery key is a
+   keypair you generate yourself and **prepend** to that list; ranked above the
+   PDS's, it can reverse an operation signed by a lower-priority key inside the
+   72-hour PLC window, and can move the DID to another PDS without the current one's
+   cooperation. Bluesky's key must stay in the list — strip it and they can no longer
+   manage the identity at all.
+
+   Mechanism: `requestPlcOperationSignature` → `signPlcOperation` →
+   `submitPlcOperation`, scripted at `tools/plc_recovery.mjs`.
+
+   **It is not a launch blocker.** A rotation key can be added at any time and is
+   equally effective from the moment it lands. Doing it before the first publish only
+   closes the gap in which a compromise would be unrecoverable. Do it early because
+   it is cheap, not because Oct 2 depends on it.
 3. **Seven identities, one custodian.** Project account plus six cast accounts, all
    author-held, all in one credential store. There is no second operator and no
    delegation. That is correct for v1 and should be stated rather than assumed.
