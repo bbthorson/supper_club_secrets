@@ -506,6 +506,10 @@ def report_voice(book: str, chapters: list[dict], only_char=None, only_ch=None) 
         "cannot tell who is speaking without the tag, the voices are not differentiated,",
         "which is the finding.",
         "",
+        "Only quote-marked dialogue is collected at all. Dash-led speech (`— Like this.`)",
+        "is invisible to this report, not merely unattributed; see",
+        "`tools/test_attribution.py` for what else this cast is too tidy to expose.",
+        "",
         "@@SUMMARY@@",
         "",
     ]
