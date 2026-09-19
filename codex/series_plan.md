@@ -102,8 +102,9 @@ All four are Tier 3 — the author's call. Carve-outs were checked against
 anything; where a beat turned out to be catalogued it is named below as *not* a
 finding.
 
-**Three were acted on in Book 1** (author reopened the lock on 2026-09-19); each
-is marked *Addressed* below, with the edit. The other two are structural or
+**Two were acted on in Book 1** (author reopened the lock on 2026-09-19); each is
+marked *Addressed* below, with the edit. A third was attempted and reverted — see
+the negative-parallelism note for why, because the reason generalises. The other two are structural or
 diffuse and are Book 2 guidance only — deleting instances would not fix either,
 and would move the voice more than it fixed the rhythm.
 
@@ -122,10 +123,13 @@ and would move the voice more than it fixed the rhythm.
   of the summaries do.** *Not addressed in Book 1, deliberately: a closing-move
   distribution cannot be changed by word edits, only by rewriting endings.*
 
-- **The same temporal frame announces nine turning points.** `For the first time
-  since/in …` appears six times (Ch6, 9, 14, 18, 21, 25), `For once` twice (Ch12,
-  23), `For one evening` once (Ch18) — and four of the nine are the final beat of
-  their chapter (Ch9, 18, 21, 23). It is one rhetorical gesture, "this is the
+- **The same temporal frame announces twenty-two turning points.** Sentence-initial
+  uses number nine — `For the first time since/in …` six times (Ch6, 9, 14, 18,
+  21, 25), `For once` twice (Ch12, 23), `For one evening` once (Ch18) — and four
+  of those nine are the final beat of their chapter (Ch9, 18, 21, 23). A further
+  **thirteen** run mid-sentence in lowercase (Ch15 ×3, Ch16 ×3, Ch18, Ch20, Ch22,
+  Ch23 ×2, Ch24, Ch25), which the first count missed because it only matched a
+  capital `For`. Twenty-two uses in ~41,700 words is one every 1,900. It is one rhetorical gesture, "this is the
   moment something changed," reused as the default way to mark a turn. No
   word-level grep predicts it, because the words differ every time; only reading
   the closers together shows it. Ch21 stacks it with a negative-parallelism close
@@ -177,13 +181,20 @@ and would move the voice more than it fixed the rhythm.
   corrective cadence is understandable. **For Book 2: at the equivalent beat,
   keep one and let the others be plain statements — the device loses its force
   when the chapter around it is already built from it.**
-  *Addressed in Book 1:* the most mannered of the four — "the hurt in his eyes
-  wasn't defensive and it wasn't performance. It was the genuine, deep-seated
-  kind…" — became "and the performance was gone." Jasper's speech immediately
-  after ("never quite smart enough, never quite serious enough") already names
-  the hurt better than the narration did, and the short version keeps what the
-  line was actually for: his chaos is a performance, and this is it absent.
-  Three remain, all earned.
+  *Attempted and reverted in Book 1, deliberately:* the "wasn't defensive and it
+  wasn't performance" sentence was briefly shortened to "and the performance was
+  gone", and that was wrong on two counts. Ch16 already lands "for once there was
+  no performance in it" one chapter later, so it created a tighter repeat than
+  the one being fixed *and* spent Ch16's payoff early. More importantly,
+  **Jasper's performance dropping away is a tracked arc beat, not loose
+  phrasing** — Ch19's `registers:` carries "the loneliness under the
+  performance", Ch22's threads carry "The performance stripped away", and the
+  outline tracks it too. The arc strips the performance in the back half; Ch15 is
+  where it *cracks under pressure*, which is a different beat. All four
+  instances stand. **For Book 2 the guidance above still holds — but check any
+  repeated phrase against chapter frontmatter before cutting it, because a motif
+  the tracking is steering reads exactly like an accidental repeat from the
+  prose alone.**
 
 ---
 
