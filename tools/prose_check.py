@@ -14,10 +14,13 @@ Three reports, each answering a question a regex alone cannot:
   tells    per-chapter counts for the signals the taxonomy lists, with the
            negative-parallelism trap the 2026-09-17 changelog documented kept
            open rather than papered over.
-  closers  every chapter's final paragraph in one file. The changelog records
-           that the epiphany-button close was the highest-yield Book 1 finding
-           AND had zero mechanical signal, because catching it needs all the
-           closers read together.
+  closers  every chapter's final paragraph in one file, to be read together.
+           The changelog records that the epiphany-button close was the
+           highest-yield Book 1 finding AND had zero mechanical signal. This
+           report is therefore a reading aid, not a detector: scored against the
+           seven buttons the changelog names by hand, the short-closer proxy
+           agrees on three, and the ones it misses run up to 54 words. Assembly
+           is the value; the flag is a footnote on it.
   voice    dialogue per character per chapter, joined to that character's
            register in that chapter and to the voice guide's markers for that
            register. The mood is pre-planned and already compiled; this puts it
@@ -88,6 +91,49 @@ BARE_NOT = re.compile(r"(?:^|(?<=[.!?]\s))Not\s+\w", re.MULTILINE)
 
 # Frontmatter `registers:` is per character per chapter — the pre-planned mood.
 REGISTER_ORDER = ["public", "private", "under-pressure"]
+
+# Quoted speech. Used by two reports: `voice` collects it, `closers` excludes on
+# it. Book 1 is written with straight quotes throughout; the typographic pair is
+# accepted too so the tool does not silently go blind on a file that uses them.
+DIALOGUE = re.compile(r"[“\"]([^“”\"]{2,})[”\"]")
+
+
+def spoken(paragraph: str) -> list[str]:
+    """Quoted spans that are actually speech.
+
+    Quote marks alone do not mean dialogue: narration scare-quotes phrases too —
+    the apartment real estate agents called "charming", the state Olivia called
+    Oliver's "tunnel". Those were being filed as the character's own lines and
+    then compared against that character's register, which is the report lying.
+
+    A span is treated as narration when it carries no sentence-terminal
+    punctuation *and* does not end on the comma or dash that hands a fragment to
+    its dialogue tag. Speech either completes a sentence ("Sunday.") or breaks
+    off for the tag ("Yeah," / "Liv—"); a quoted noun phrase does neither — an
+    LLC name, a sign reading "Meadowlight", the state Olivia called Oliver's
+    "tunnel". Those were being filed as the character's own lines and compared
+    against that character's register, which is the report lying.
+
+    Trailing quote marks are stripped before the test, so a line ending on a
+    nested quotation — Oliver's "You can't say 'discounted cash flow
+    projection,'" — is still read as the speech it is.
+
+    Across Book 1 this drops 21 of 893 spans, all of them narration.
+    """
+    out = []
+    for m in DIALOGUE.finditer(paragraph):
+        s = m.group(1).strip()
+        if re.search(r"[.!?…]", s):
+            out.append(s)  # completes a sentence: speech
+            continue
+        tail = s.rstrip("'\"’”").rstrip()
+        # No terminal punctuation. It is still speech only if it breaks off for a
+        # tag AND opens like a sentence. A lowercase fragment ending in a comma is
+        # narration continuing its own sentence around a quoted phrase — "his
+        # 'secret family recipe,' performed like a carnival barker".
+        if re.search(r"[,;:—–-]$", tail) and not s[:1].islower():
+            out.append(s)
+    return out
 
 
 def _find_book(book: str) -> Path:
@@ -288,39 +334,53 @@ def report_tells(chapters: list[dict]) -> str:
 # ---------------------------------------------------------------- closers
 
 def report_closers(chapters: list[dict]) -> str:
+    """Every chapter's final paragraph, in order, in one file.
+
+    This report is a reading aid, not a detector. The taxonomy is explicit that
+    the epiphany-button close has **zero mechanical signal**, and the Book 1
+    numbers bear that out: scored against the seven buttons the changelog names
+    by hand (Ch5, 6, 12, 20, 21, 23, 24), the sub-12-word proxy agreed on three.
+    So the output is ordered for reading, and the flag is kept small and
+    honest rather than promoted into a summary line that would read as a verdict.
+    """
     lines = [
         "# Chapter closers",
         "",
-        "Every chapter's final paragraph, together. The taxonomy flags the",
-        "epiphany-button close as this genre's most likely symmetry tell, notes it has",
-        "**zero mechanical signal**, and records it as the highest-yield Book 1 finding.",
-        "It can only be caught by reading all of these in one sitting.",
+        "**Every chapter's final paragraph, in order, in one place — so they can be read",
+        "together.** That is the whole point of this file. The taxonomy names the",
+        "epiphany-button close as this genre's most likely symmetry tell, records it as the",
+        "highest-yield Book 1 finding, and states that it has **zero mechanical signal**:",
+        "no regex predicts it, because the tell is *sameness of move across chapters*, which",
+        "only exists at the level of the whole set. Read them in one sitting and ask whether",
+        "the book keeps landing the same tidy emotional bow.",
         "",
-        "`SHORT` marks a final paragraph under 12 words — the cheap proxy. A run of them",
-        "is the tell; one is just an ending.",
+        "### About the `SHORT` flag",
         "",
-        "@@SUMMARY@@",
+        "`SHORT` marks a closer that is **narration-only and under 12 words** — the cheap",
+        "proxy from `ai_tells.md`, narrowed. A button is the narrator summarising what a",
+        "scene meant, so a closer that ends on a line of speech is not one, whatever its",
+        "length; that filter removes three of the four Book 1 false alarms.",
+        "",
+        "**Do not read the flags as the finding.** Scored against the seven Book 1 buttons",
+        "the changelog identifies by hand (Ch5, 6, 12, 20, 21, 23, 24), this proxy finds",
+        "three. The four it misses run 19, 19, 38 and 54 words — the audit called a 54-word",
+        "closer a button — so length is simply not the axis the tell lives on, and no",
+        "threshold repairs that. The flag is a nudge toward one end of the list. The",
+        "judgment is the read.",
         "",
     ]
-    short = 0
     for ch in chapters:
         paras = [p.strip() for p in re.split(r"\n\s*\n", ch["body"]) if p.strip()]
         last = paras[-1] if paras else ""
         n = len(re.findall(r"\b\w+\b", last))
-        tag = " `SHORT`" if n < 12 else ""
-        if n < 12:
-            short += 1
+        # Narration-only: no quoted speech anywhere in the closing paragraph.
+        narration = not spoken(last)
+        tag = " `SHORT`" if narration and n < 12 else ""
         lines += [f"### Ch {ch['num']} — {ch['title']} ({n} words){tag}", "", f"> {last}", ""]
-    return "\n".join(lines).replace(
-        "@@SUMMARY@@",
-        f"**{short} of {len(chapters)}** chapters close on a sub-12-word paragraph.",
-    )
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------- voice
-
-DIALOGUE = re.compile(r"[“\"]([^“”\"]{2,})[”\"]")
-
 
 def load_registers(book: str) -> dict[tuple[int, str], dict]:
     """(chapter, character-slug) -> the compiled state event.
@@ -369,23 +429,66 @@ def load_voice_guide() -> dict[str, dict[str, str]]:
     return guide
 
 
-def attribute(paragraph: str, cast: list[str]) -> str | None:
+def load_character_names() -> dict[str, str]:
+    """Registered proper name -> the character slug it resolves to.
+
+    The entity registry is the only list of who exists that is guaranteed to be
+    complete — the voice guide covers the six principals, but Hank, Dorothy and
+    Brenda all speak. Attribution needs the complete list to know when a
+    paragraph is ambiguous, even though it can only ever *attribute* to the
+    principals. Lowercase epithets (`the mogul`, `the developer`) are skipped:
+    they are not name tokens and would decline half the book.
+    """
+    path = ROOT / "codex" / "entities.yaml"
+    if not path.exists():
+        return {}
+    names: dict[str, str] = {}
+    slug = None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^\s*-?\s*id:\s*char\.([\w-]+)", line)
+        if m:
+            slug = m.group(1)
+            continue
+        if slug and "aliases:" in line:
+            for alias in re.findall(r'"([^"]+)"', line):
+                if alias[:1].isupper() and not alias.startswith("The "):
+                    names[alias] = slug
+            slug = None
+    return names
+
+
+def attribute(paragraph: str, cast: list[str], others: dict[str, str] | None = None) -> str | None:
     """Name the speaker when exactly one cast member is named outside the quotes.
 
     Deliberately conservative. Ambiguous lines are better left unattributed and
     read blind — an unattributed pile is itself the voice-differentiation test —
     than confidently mislabelled, which would put the wrong register beside the
     wrong line and make the report lie.
+
+    `cast` is who may be attributed to (the present principals). `others` is every
+    other registered character name, and any of them appearing outside the quotes
+    declines the paragraph. Without that second list the narrowing to
+    `characters_present` backfires: scoped to one principal, a paragraph reads as
+    unambiguous even when someone else is plainly the speaker. Book 1 ch6 gave
+    Olivia's "You're my anchor" to Oliver, and ch23 gave Hank's "Take that back to
+    her" to Jasper, both for that reason.
     """
     outside = DIALOGUE.sub(" ", paragraph)
     hits = {c for c in cast if re.search(rf"\b{re.escape(c.title())}\b", outside)}
-    return hits.pop() if len(hits) == 1 else None
+    if len(hits) != 1:
+        return None
+    who = hits.pop()
+    for name, slug in (others or {}).items():
+        if slug != who and re.search(rf"\b{re.escape(name)}\b", outside):
+            return None
+    return who
 
 
 def report_voice(book: str, chapters: list[dict], only_char=None, only_ch=None) -> str:
     registers = load_registers(book)
     guide = load_voice_guide()
     cast = sorted(guide) or ["emma", "elijah", "noah", "oliver", "olivia", "jasper"]
+    everyone = load_character_names()
 
     lines = [
         "# Voice against pre-planned mood",
@@ -397,10 +500,11 @@ def report_voice(book: str, chapters: list[dict], only_char=None, only_ch=None) 
         "`character_state_events.json`, which is the same source every other surface",
         "reads. The question this answers: *do the lines sound like that register?*",
         "",
-        "Attribution is conservative — a line is attributed only when exactly one cast",
-        "member is named outside the quotes. Unattributed lines are collected per chapter",
-        "and are worth reading blind: if you cannot tell who is speaking without the tag,",
-        "the voices are not differentiated, which is the finding.",
+        "Attribution is conservative — a line is attributed only when exactly one present",
+        "principal is named outside the quotes **and** no other registered character is.",
+        "Unattributed lines are collected per chapter and are worth reading blind: if you",
+        "cannot tell who is speaking without the tag, the voices are not differentiated,",
+        "which is the finding.",
         "",
         "@@SUMMARY@@",
         "",
@@ -420,10 +524,10 @@ def report_voice(book: str, chapters: list[dict], only_char=None, only_ch=None) 
         by_char: dict[str, list[str]] = defaultdict(list)
         loose: list[str] = []
         for para in re.split(r"\n\s*\n", ch["body"]):
-            quotes = DIALOGUE.findall(para)
+            quotes = spoken(para)
             if not quotes:
                 continue
-            who = attribute(para, scene_cast)
+            who = attribute(para, scene_cast, everyone)
             for q in quotes:
                 if who:
                     by_char[who].append(q.strip())
