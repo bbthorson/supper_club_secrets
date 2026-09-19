@@ -3,8 +3,8 @@ type: Character
 title: "Oliver"
 id: char.oliver
 status: active
-handle: oliverreads
-personaPublic: "I don't say much here. Ask me about zoning variances or how a block got rezoned in '87 and that changes fast. Married to @oliviaknows, who handles the talking."
+handle: ollie-oxen-free
+personaPublic: "I don't say much here. Ask me about zoning variances or how a block got rezoned in '87 and that changes fast. Married to @liv-living, who handles the talking."
 keyContradiction: "Shy in company, and happy to let Olivia speak for them both."
 ---
 
