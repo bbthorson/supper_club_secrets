@@ -14,9 +14,10 @@ Thumbs.db
 # Claude Code local machine config (permission allowlists etc.)
 .claude/settings.local.json
 
-# Python cache from protocol/entities helper scripts
-protocol/entities/__pycache__/
-protocol/pipeline/__pycache__/
+# Python bytecode cache. Was pinned to protocol/entities and protocol/pipeline,
+# both of which went away when the pipeline moved to the pinakes package and
+# records/ replaced protocol/records/ — so tools/ was left uncovered.
+__pycache__/
 
 # Reader-experience site (Astro, Protocol Phase 3) build artifacts
 site/node_modules/
