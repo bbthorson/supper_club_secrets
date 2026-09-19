@@ -71,6 +71,12 @@ rkey, so corrections propagate.
 
 ## The release calendar falls out of the story
 
+> **Superseded in shape, 2026-09-19.** The chapter-a-day calendar below is the
+> original design. [`DROP_CADENCE.md`](DROP_CADENCE.md) proposes meal-sized drops
+> anchored to each meal's closing event instead, with the cast feeds carrying the
+> days between. The dates and the year-dependence warning below are unchanged and
+> still govern; only the grouping of chapters into drops is in question.
+
 - **Oct 1 (Thu)** — launch: front matter, cast profiles (`oneLine` bios), the
   standing places (markets, shops). No story yet.
 - **Oct 2 (Fri)** — the one dated fact in the book: LLC #2847's filing. Publishing
