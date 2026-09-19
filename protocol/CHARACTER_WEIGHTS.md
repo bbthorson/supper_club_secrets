@@ -107,7 +107,7 @@ This converts the standard failure of a talking-character gimmick into the featu
 
 ## 5. What a checkpoint record would carry
 
-Sketch only — `site.supperclub.character.checkpoint`:
+Sketch only — `com.supperclubsecrets.character.checkpoint`:
 
 | Field | Content |
 |---|---|

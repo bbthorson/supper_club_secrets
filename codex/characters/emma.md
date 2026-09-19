@@ -4,6 +4,7 @@ title: "Emma Hartley"
 id: char.emma
 status: active
 handle: emmacooks
+did: did:plc:qpijtash5pb5qp4f5zwgo5mr
 personaPublic: "Freelance food writer & private chef. I cook for the people I love — it's the one thing I'm sure of. Want to learn your way around a kitchen? Come hungry and ask."
 keyContradiction: "Trusts her gut, and urges everyone else to take the leap."
 ---

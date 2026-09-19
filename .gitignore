@@ -26,3 +26,9 @@ site/.astro/
 
 # Prose-check reports (regenerate with tools/prose_check.py)
 .prose/
+
+# Publish dry-run manifests (regenerate with tools/publish_records.mjs)
+.publish-manifest-*.tsv
+
+# PLC recovery keys — PRIVATE KEY MATERIAL. Never commit.
+.plc/

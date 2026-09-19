@@ -37,7 +37,7 @@ be gated." It is identified by a triple:
 | Component | What it is | Ours would look like |
 |---|---|---|
 | space authority | a DID at the root of the space, which issues read credentials | a dedicated project DID (§6) |
-| space type | an NSID naming the modality; itself a lexicon | `site.supperclub.backstage` |
+| space type | an NSID naming the modality; itself a lexicon | `com.supperclubsecrets.backstage` |
 | space key (`skey`) | a string distinguishing spaces of the same type under the same authority | `book1`, `self`, a tier slug |
 
 Records inside it are addressed by an `at://` URI with a fixed `space` segment:
@@ -105,13 +105,13 @@ A space type NSID resolves to a lexicon definition with `"type": "space"`:
 ```json
 {
   "lexicon": 1,
-  "id": "site.supperclub.backstage",
+  "id": "com.supperclubsecrets.backstage",
   "defs": {
     "main": {
       "type": "space",
       "key": "any",
       "name": "Supper Club backstage",
-      "collections": ["site.supperclub.message"]
+      "collections": ["com.supperclubsecrets.message"]
     }
   }
 }
@@ -125,7 +125,7 @@ backstage," not access to a specific space.
 The scope string an application would request looks like:
 
 ```
-space:site.supperclub.backstage?authority=did:plc:…&action=read
+space:com.supperclubsecrets.backstage?authority=did:plc:…&action=read
 ```
 
 This slots into the namespace decision we already have: the root is pinned in
@@ -185,7 +185,7 @@ directly (bookmarks, settings, drafts). A reader who signs in with their atproto
 gets continue-reading across devices, and we store nothing about them: the record lives in
 their repo, on their PDS, under a scope they can revoke.
 
-The scope is a bare `space:site.supperclub.horizon` (authority defaults to `self`). This
+The scope is a bare `space:com.supperclubsecrets.horizon` (authority defaults to `self`). This
 is the *lowest-risk* place to experiment, because it is per-reader, non-critical state
 with an obvious fallback: if the space is unreachable, `localStorage` still works. It is
 also the option most exposed to the alpha's disposable dev PDS, which is why it is behind
@@ -193,7 +193,7 @@ also the option most exposed to the alpha's disposable dev PDS, which is why it 
 
 ### 5.4 A reader community space
 
-A book-club space (`site.supperclub.club`) where readers post theories, meal photos, and
+A book-club space (`com.supperclubsecrets.club`) where readers post theories, meal photos, and
 spoiler-safe discussion — each reader's posts living in *their own* PDS repo, not our
 database. This is the multi-writer shape spaces were actually built for, and it is the one
 that requires real work: a syncer that holds a credential, maintains the writer set, and
@@ -267,7 +267,7 @@ is not wasted code, it is readers whose bookmarks or backstage access break.
 
 Free now, useful regardless:
 
-1. **Reserve the space type NSIDs** under `site.supperclub` alongside the record types —
+1. **Reserve the space type NSIDs** under `com.supperclubsecrets` alongside the record types —
    `backstage`, `horizon`, `club`. Naming costs nothing and prevents a collision with our
    own record NSIDs later.
 2. **Keep writing backstage content as derivable `message` records** with stable ids, the

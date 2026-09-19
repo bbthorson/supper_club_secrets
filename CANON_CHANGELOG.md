@@ -169,6 +169,29 @@ register accounts for four of Ch25's seven magic adverbs. Both are designed.
 ---
 
 
+## 2026-09-19 — Lexicon NSID root resolved to `com.supperclubsecrets`
+
+**Trigger:** Launch-readiness review ahead of the Oct 2 serialized release. `ARCHITECTURE.md` §12.1 deferred the NSID root with the trigger "the first Phase 4 publish step." That step is the Oct 2 publish, so the trigger fired.
+
+**Problem found:** the root was `site.supperclub`, which under reverse-DNS asserts ownership of `supperclub.site`. The project does not hold that domain. It holds `supperclubsecrets.com`, bought 2026-09-01 and already serving the Astro site. Publishing records under a root we do not control is not verifiable and is squattable, and the correction is asymmetric in cost: a one-line change in `pinakes.yaml` before launch, against a breaking change to records published under seven permanent DIDs after it.
+
+**Resolved:** root is now **`com.supperclubsecrets`**.
+
+**Changed:**
+- `pinakes.yaml` — `project.nsid`.
+- `records/lexicons/` — four files renamed and their `id` fields updated.
+- `records/book1/*.json`, `records/series/*.json` — `$type` on all 153 records. Verified against `pinakes compile` (0.2.1): the recompile reproduces these files exactly, so the CI drift gate stays green. `items.json` and `custody_events.json` were hand-edited because they remain outside the compiler, which is the known gap `CHARACTER_ACCOUNTS.md` §5 names.
+- `protocol/*.md` — forward-looking NSID references. `ARCHITECTURE.md` §5 and §12.1 rewritten from deferred to resolved. Space type NSIDs inherit the root, so the `SPACES.md` §9 reservations are now `com.supperclubsecrets.backstage`, `.horizon`, `.club`.
+- `site/src/lib/records.ts` — `HANDLE_DOMAIN` was the placeholder `supperclub.secrets`, tied by comment to this same deferred decision. Now `supperclubsecrets.com`, so the cast roster renders the handles the accounts will actually verify under.
+
+**Deliberately not changed:** prior changelog entries, which record `site.supperclub` as the root at the time they were written and stay accurate as history.
+
+**Verified:** `pinakes lint` clean, `pinakes compile` reproduces `records/` with no drift, Astro build clean at 57 pages.
+
+**Still open from this review:** §12.8's DID contradiction (flagged in `CHARACTER_ACCOUNTS.md` §1, still unamended), and the `character.post` lexicon plus compiler support, which must exist before the first post is authored.
+
+---
+
 ## 2026-09-17 — Book 1 Tier 3 polish closed out; the optional list is now empty
 
 **Trigger:** Sweep of every optional item still open from the two Book 1 audits (`tracking/audit_2026-07-11.md`, `tracking/audit_2026-07-12.md`) and the 2026-09-01 editorial pass, to decide which were worth doing before the book locks.

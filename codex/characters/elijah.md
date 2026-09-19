@@ -4,6 +4,7 @@ title: "Elijah Miller"
 id: char.elijah
 status: active
 handle: elijahmiller
+did: did:plc:6e2mponoe2pzkky4qlwi3jzt
 personaPublic: "Financial analyst. I read the numbers so you don't have to, and I won't pretend it's good news when it isn't. Mostly here to observe."
 keyContradiction: "A risk-averse pragmatist, focused on what's stable and sensible."
 ---

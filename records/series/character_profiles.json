@@ -1,6 +1,6 @@
 [
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.emma",
     "subject": "char.emma",
     "displayName": "Emma Hartley",
@@ -10,7 +10,7 @@
     "sourceFile": "codex/characters/emma.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.elijah",
     "subject": "char.elijah",
     "displayName": "Elijah Miller",
@@ -20,47 +20,47 @@
     "sourceFile": "codex/characters/elijah.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.noah",
     "subject": "char.noah",
     "displayName": "Noah",
-    "handle": "noahbuilds",
+    "handle": "n0ah",
     "oneLine": "An idealistic and sometimes naive techie who believes technology can solve any problem.",
     "status": "active",
     "sourceFile": "codex/characters/noah.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.oliver",
     "subject": "char.oliver",
     "displayName": "Oliver",
-    "handle": "oliverreads",
+    "handle": "ollie-oxen-free",
     "oneLine": "A fastidious and bookish introvert, married to Olivia, with a fascination for urban development and city regulations.",
     "status": "active",
     "sourceFile": "codex/characters/oliver.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.olivia",
     "subject": "char.olivia",
     "displayName": "Olivia",
-    "handle": "oliviaknows",
+    "handle": "liv-living",
     "oneLine": "A social butterfly and entrepreneur who effortlessly gathers neighborhood gossip.",
     "status": "active",
     "sourceFile": "codex/characters/olivia.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.jasper",
     "subject": "char.jasper",
     "displayName": "Jasper",
-    "handle": "jasper",
+    "handle": "j-a-s-p-e-r",
     "oneLine": "The wildcard of the group, a free spirit with a mysterious job and a love for chaos.",
     "status": "active",
     "sourceFile": "codex/characters/jasper.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.garrett-pike",
     "subject": "char.garrett-pike",
     "displayName": "Garrett Pike",
@@ -69,7 +69,7 @@
     "sourceFile": "codex/antagonists/book1_garrett_pike.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.hank",
     "subject": "char.hank",
     "displayName": "Hank",
@@ -78,7 +78,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/hank.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.dorothy",
     "subject": "char.dorothy",
     "displayName": "Dorothy",
@@ -87,7 +87,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/dorothy.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.sofia",
     "subject": "char.sofia",
     "displayName": "Sofia",
@@ -96,7 +96,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/sofia.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.marcus",
     "subject": "char.marcus",
     "displayName": "Marcus",
@@ -105,7 +105,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/marcus.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.brenda-marquez",
     "subject": "char.brenda-marquez",
     "displayName": "Brenda Marquez",
@@ -114,7 +114,7 @@
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/characters/brenda-marquez.md"
   },
   {
-    "$type": "site.supperclub.character.profile",
+    "$type": "com.supperclubsecrets.character.profile",
     "id": "profile.food-critic",
     "subject": "char.food-critic",
     "displayName": "The Food Critic",

@@ -153,7 +153,7 @@ puts the whole of Tier B at **under twenty posts**, all of them short.
 
 ### Scenes do not map to posts at all
 
-`site.supperclub.scene` publishes to the project repo as a bare factual index card
+`com.supperclubsecrets.scene` publishes to the project repo as a bare factual index card
 (title, storyDate, placeRefs, participants) with `beat` and `primaryEvent` stripped —
 this was settled on 2026-09-01. Nothing in a scene record becomes a post. A post that
 narrated a scene would be the character reporting the plot, which is the failure the
@@ -228,12 +228,28 @@ operated, never autonomous. That stands. Four operational points it does not cov
    sessions in with a per-account app password read from the environment. App
    passwords are individually revocable; the account password never enters the
    pipeline, a committed file, or a chat message.
-2. **Export the PLC recovery key for each account at creation, before publishing
-   anything.** A DID is permanent, and once records are published under a cast
-   account's DID that identity *is* the canon record. Losing the credentials without
-   a recovery key means losing the identity — not the posts alone, the subject they
-   were published by. This is the one irreversible mistake available here, and the
-   window to prevent it is at account creation.
+2. **Add an author-held PLC recovery key to each account.** A DID is permanent,
+   and once records are published under a cast account's DID that identity *is* the
+   canon record. Losing the credentials without a recovery key means losing the
+   identity — not the posts alone, the subject they were published by.
+
+   **Corrected 2026-09-19: there is nothing to "export".** The earlier wording sent
+   a reader looking for a button that does not exist. Each DID document carries an
+   *ordered* list of rotation keys, and today every account's list holds exactly
+   one — Bluesky's. That is how they change your handle for you. A recovery key is a
+   keypair you generate yourself and **prepend** to that list; ranked above the
+   PDS's, it can reverse an operation signed by a lower-priority key inside the
+   72-hour PLC window, and can move the DID to another PDS without the current one's
+   cooperation. Bluesky's key must stay in the list — strip it and they can no longer
+   manage the identity at all.
+
+   Mechanism: `requestPlcOperationSignature` → `signPlcOperation` →
+   `submitPlcOperation`, scripted at `tools/plc_recovery.mjs`.
+
+   **It is not a launch blocker.** A rotation key can be added at any time and is
+   equally effective from the moment it lands. Doing it before the first publish only
+   closes the gap in which a compromise would be unrecoverable. Do it early because
+   it is cheap, not because Oct 2 depends on it.
 3. **Seven identities, one custodian.** Project account plus six cast accounts, all
    author-held, all in one credential store. There is no second operator and no
    delegation. That is correct for v1 and should be stated rather than assumed.
@@ -262,7 +278,7 @@ Being precise about what that does and does not block here:
 - **It does block the claim that the record layer is validated**, which is the claim
   the whole one-source-many-surfaces architecture rests on.
 - **And it names exactly the mistake about to be repeated at higher stakes.**
-  `site.supperclub.character.post` has no lexicon file, and the Pinakes compiler
+  `com.supperclubsecrets.character.post` has no lexicon file, and the Pinakes compiler
   emits four record types — `scene`, `character.stateEvent`, `place`,
   `character.profile` — and knows nothing about posts. Author posts today and they
   are hand-maintained JSON outside validation, exactly like `custody_events.json`,
@@ -287,7 +303,7 @@ In order. Nothing below is optional.
 3. PLC recovery keys exported and stored for all seven accounts (§4).
 
 **Validation**
-4. `site.supperclub.character.post` lexicon committed to `records/lexicons/`.
+4. `com.supperclubsecrets.character.post` lexicon committed to `records/lexicons/`.
 5. Pinakes compiles `stories/<book>/posts/*.md` to
    `records/book1/character_posts.json`. Posts are authored in the creative layer and
    compiled, never typed into a client.

@@ -1,0 +1,113 @@
+name: publish-records
+
+# Publishes compiled records to the cast's AT Protocol repos at the current
+# story horizon, then rebuilds the site so the day's chapter actually appears.
+#
+# SAFE BY DEFAULT. The scheduled run is a DRY RUN unless the repository
+# variable PUBLISH_ENABLED is exactly "true". That gives a daily, reviewable
+# manifest of what *would* go out, for as long as you want, before anything
+# does — which is preflight item 8 in protocol/CHARACTER_ACCOUNTS.md.
+#
+# To go live: set the variable. To stop: unset it. No code change either way.
+#
+# The deploy step is separately gated on CLOUDFLARE_API_TOKEN. Until that
+# secret exists the job publishes records and says plainly that the site was
+# not rebuilt. That is the right default while chapters carry no publishDate
+# and all 25 are already served.
+
+on:
+  schedule:
+    # 08:00 America/New_York during the October run (EDT = UTC-4).
+    # GitHub cron is UTC and does not observe DST; after 2 Nov this drifts to
+    # 07:00 local, which does not matter for a book that ends 25 Oct.
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      horizon:
+        description: 'Story date to publish up to (YYYY-MM-DD). Defaults to today.'
+        required: false
+        type: string
+      execute:
+        description: 'Actually write to the PDS. Leave unchecked for a dry run.'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  # Two overlapping publishes would race on the same rkeys. Later wins, so let
+  # it queue rather than cancel — a half-applied horizon is worse than a slow one.
+  group: publish-records
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Decide dry run vs execute
+        id: mode
+        env:
+          ENABLED: ${{ vars.PUBLISH_ENABLED }}
+          MANUAL: ${{ inputs.execute }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            [ "$MANUAL" = "true" ] && echo "execute=true" >> "$GITHUB_OUTPUT" || echo "execute=false" >> "$GITHUB_OUTPUT"
+          else
+            [ "$ENABLED" = "true" ] && echo "execute=true" >> "$GITHUB_OUTPUT" || echo "execute=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish records
+        env:
+          # inputs.horizon is attacker-controlled text. Interpolating it into
+          # the script below would splice it into this shell — with every cast
+          # password in scope. Through env it is only ever a string, and
+          # publish_records.mjs re-checks the YYYY-MM-DD shape itself.
+          HORIZON: ${{ inputs.horizon }}
+          EXECUTE: ${{ steps.mode.outputs.execute }}
+          BSKY_PASSWORD_PROJECT: ${{ secrets.BSKY_PASSWORD_PROJECT }}
+          BSKY_PASSWORD_EMMA: ${{ secrets.BSKY_PASSWORD_EMMA }}
+          BSKY_PASSWORD_ELIJAH: ${{ secrets.BSKY_PASSWORD_ELIJAH }}
+          BSKY_PASSWORD_NOAH: ${{ secrets.BSKY_PASSWORD_NOAH }}
+          BSKY_PASSWORD_OLIVER: ${{ secrets.BSKY_PASSWORD_OLIVER }}
+          BSKY_PASSWORD_OLIVIA: ${{ secrets.BSKY_PASSWORD_OLIVIA }}
+          BSKY_PASSWORD_JASPER: ${{ secrets.BSKY_PASSWORD_JASPER }}
+        run: |
+          ARGS=()
+          [ -n "$HORIZON" ] && ARGS+=(--horizon "$HORIZON")
+          [ "$EXECUTE" = "true" ] && ARGS+=(--execute)
+          echo "Running: node tools/publish_records.mjs ${ARGS[*]}"
+          node tools/publish_records.mjs "${ARGS[@]}"
+
+      - name: Upload the manifest for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-manifest
+          path: .publish-manifest-*.tsv
+          if-no-files-found: ignore
+
+      # Chapters are gated on a build-time date, so records without a rebuild
+      # mean readers see nothing new. Skipped entirely until the token exists.
+      - name: Rebuild and deploy the site
+        if: steps.mode.outputs.execute == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::notice::CLOUDFLARE_API_TOKEN not set — records published, site NOT rebuilt."
+            echo "No chapter gated by publishDate will appear until the site builds again."
+            exit 0
+          fi
+          cd site
+          npm ci
+          npm run build
+          npx wrangler deploy

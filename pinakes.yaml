@@ -2,7 +2,7 @@
 spec: 0.1
 project:
   name: "Supper Club Secrets"
-  nsid: "site.supperclub"
+  nsid: "com.supperclubsecrets"
   # A "meal" is this series' sequence unit: several chapters share one dinner.
   sequenceField: "meal"
 paths:

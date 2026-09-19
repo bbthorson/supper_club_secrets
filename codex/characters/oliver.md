@@ -1,10 +1,12 @@
 ---
 type: Character
 title: "Oliver"
+fullName: "Oliver Keller"
 id: char.oliver
 status: active
-handle: oliverreads
-personaPublic: "I don't say much here. Ask me about zoning variances or how a block got rezoned in '87 and that changes fast. Married to @oliviaknows, who handles the talking."
+handle: ollie-oxen-free
+did: did:plc:b4xqf5g2j52z3y7mcnk6jtms
+personaPublic: "I don't say much here. Ask me about zoning variances or how a block got rezoned in '87 and that changes fast. Married to @liv-living, who handles the talking."
 keyContradiction: "Shy in company, and happy to let Olivia speak for them both."
 ---
 
@@ -36,6 +38,8 @@ At first, he was terrified of her. She was confident, social, and seemed to know
 By sophomore year, they were dating. By the time they graduated, he couldn't imagine life without her.
 
 They got married at 25, after nearly seven years together. It was a small wedding. Oliver planned the logistics; Olivia made it feel like a party.
+
+She kept Brennan; he is a Keller. It has never once bothered him, and he has had to explain it to his mother more than once.
 
 ### The Online Life
 Oliver's secret is that he's not actually quiet—he's quiet *in person*. Online, in the anonymous depths of niche communities, he thrives.
