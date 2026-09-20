@@ -27,8 +27,8 @@
  *       → submits the operation that was printed and reviewed
  *
  *   node tools/plc_recovery.mjs --store .plc/emma.json
- *       → files the private key in the macOS keychain and verifies the
- *         read-back, so the file can be deleted
+ *       → files the private key in the macOS keychain, verifies the read-back,
+ *         and deletes the file itself
  *
  * The three steps are separate on purpose. This edits a DID document, which is
  * not reversible, so the operation is written down and read by a human before
@@ -290,7 +290,15 @@ function store(file) {
     die('--store uses the macOS keychain. On another OS, copy recoveryKeyPrivatePem out by hand.');
   }
   const abs = path.resolve(ROOT, file);
-  if (!fs.existsSync(abs)) die(`no such file: ${file}`);
+  if (!fs.existsSync(abs)) {
+    die(
+      `no such file: ${file}\n\n` +
+        `         The private key existed only in that file. If it was deleted before\n` +
+        `         being stored, it is unrecoverable — but nothing is broken: a rotation\n` +
+        `         key nobody holds cannot be used by anyone, and Bluesky's keys are\n` +
+        `         untouched. Run --request / --token / --submit again to add a fresh key.`
+    );
+  }
   const saved = JSON.parse(fs.readFileSync(abs, 'utf8'));
   if (!saved.recoveryKeyPrivatePem) die('that file has no private key in it');
 
@@ -318,7 +326,11 @@ function store(file) {
   console.log(`      service  ${SERVICE}`);
   console.log(`\n  Retrieve later:`);
   console.log(`      security find-generic-password -a ${saved.did} -s ${SERVICE} -w`);
-  console.log(`\n  Safe to delete now:  rm ${path.relative(ROOT, abs)}\n`);
+  // Delete it here rather than telling the human to. The key exists in exactly
+  // two places at this moment and one of them is a plaintext file; leaving the
+  // cleanup as a separate instruction is how it gets skipped, or run early.
+  fs.rmSync(abs);
+  console.log(`  ${path.relative(ROOT, abs)} deleted — the keychain now holds the only copy.\n`);
 }
 
 /* ------------------------------------------------------------------- main */
