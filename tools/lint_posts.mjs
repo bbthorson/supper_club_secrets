@@ -24,6 +24,13 @@
  * permanent DID. So every post must be POSITIVELY marked, exactly once, and both
  * this lint and the publish path fail closed on anything else.
  *
+ * Also checked: the network's 300-grapheme post limit. The lexicon allows 3000,
+ * because a `character.post` record also feeds our own site where nothing is
+ * truncated — but a public post over 300 cannot be posted to Bluesky at all, and
+ * finding that out at publish time means finding it out on the day. The limit is
+ * graphemes, not characters: an emoji or an accented letter built from combining
+ * marks counts once, the way the network counts it.
+ *
  * Also checked: `note:` is authoring direction — image blocking, intent, the
  * thing a reviewer needs and a reader must not have. It is a frontmatter key the
  * compiler does not read, which is exactly why it is safe there and fatal in the
@@ -39,6 +46,8 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const STORIES = path.join(ROOT, 'stories');
 const LANES = ['lane-public', 'lane-club'];
+
+const segmenter = new Intl.Segmenter('en', { granularity: 'grapheme' });
 
 const problems = [];
 const fail = (where, msg) => problems.push(`${where}: ${msg}`);
@@ -113,6 +122,15 @@ for (const dir of postDirs()) {
     }
 
     if (!body.trim()) fail(rel, 'empty post body');
+
+    // Club messages are not bound by the network's limit — they are served
+    // through our own surface, where nothing truncates them.
+    if (marked[0] === 'lane-public') {
+      const n = [...segmenter.segment(body.trim())].length;
+      if (n > 300) {
+        fail(rel, `${n} graphemes. A public post over 300 cannot be posted at all — trim ${n - 300}.`);
+      }
+    }
   }
 }
 

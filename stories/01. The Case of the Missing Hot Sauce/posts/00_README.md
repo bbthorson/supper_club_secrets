@@ -86,7 +86,38 @@ content cost is paid once; where it is served is a publishing decision, not a re
 | Author, place and mention names resolve to the registry | `pinakes lint` / `compile` |
 | **Public-register rule** — a post's chapter must leave its author in the `public` register | `pinakes lint` (`post-register`) |
 | Records match the lexicon, and committed records match a fresh compile | `continuity-lint` workflow |
-| Exactly one lane tag; `lane:` agrees with it; no `note:` in the body; `time:` is a clock and not on the hour | `tools/lint_posts.mjs` |
+| Exactly one lane tag; `lane:` agrees with it; no `note:` in the body; `time:` is a clock and not on the hour; a public post fits the network's 300-grapheme limit | `tools/lint_posts.mjs` |
+
+**300 graphemes is a hard ceiling on the public lane only.** The lexicon allows 3000,
+because the record also feeds our own site, where nothing truncates. But a Bluesky post
+over 300 cannot be posted at all, and discovering that at publish time means
+discovering it on the day. Club messages are not bound by it — they are served through
+our own surface.
+
+## Publishing
+
+Two tools, because posts live on two clocks (`protocol/DROP_CADENCE.md` §2):
+
+| Tool | Writes | Clock |
+|---|---|---|
+| `tools/publish_records.mjs` | `com.supperclubsecrets.*` records, including `character.post` | The drop clock — the canon horizon |
+| `tools/publish_posts.mjs` | `app.bsky.feed.post` — the thing a human actually sees | The story clock — each post's own date and time |
+
+Both default to a dry run and both fail closed on the lane. The second one exists
+because **custom lexicon records do not render in the Bluesky app**: an account holding
+nothing but state events presents to a visitor as a dead account with a bio.
+
+```
+node tools/publish_posts.mjs                        # dry run, everything due today
+node tools/publish_posts.mjs --who emma             # one account
+node tools/publish_posts.mjs --through … --execute  # actually post
+```
+
+Each post's rkey is a TID derived from its own timestamp, so re-running overwrites
+instead of duplicating, and backdated posts sort into the repo at the right position
+rather than piling up at the moment the backfill ran. `@liv-living` in a body becomes a
+real mention through a facet, so the short form people actually write links correctly
+without anyone typing the full domain handle.
 
 Two things no lint can check, which is why a human reads every post before the run:
 

@@ -374,9 +374,13 @@ In order. Nothing below is optional.
    against the character's `personaPublic`.
 
 **Publishing**
-8. The publish script does a dry run that prints, for every date Oct 2–25, exactly
+8. The publish scripts do a dry run that prints, for every date Oct 2–25, exactly
    what would go to which repo. Reviewed end to end, once, by a human, before
-   anything goes out.
+   anything goes out. **Two scripts, added 2026-09-20:** `publish_records.mjs` for
+   the lexicon records at the canon horizon, and `publish_posts.mjs` for the
+   `app.bsky.feed.post` records on the story clock. §7's warning that custom
+   records do not render in the app is what the second one answers — without it
+   the accounts hold data nobody can see.
 9. Replies off. Opt-in interaction is the standing rule and v1 does not need to
    exercise it.
 10. The swarm campaign is not re-enacted; the antagonist ecosystem (Tier C) is either
