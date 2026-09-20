@@ -228,6 +228,18 @@ operated, never autonomous. That stands. Four operational points it does not cov
    sessions in with a per-account app password read from the environment. App
    passwords are individually revocable; the account password never enters the
    pipeline, a committed file, or a chat message.
+
+   **One documented exception, found 2026-09-20.** Adding a PLC recovery key
+   (item 2) cannot use an app password. A session created from one carries scope
+   `com.atproto.appPass`, and every identity operation requires the full
+   `com.atproto.access` scope, so the PDS answers `InvalidToken: Bad token scope`.
+   That boundary is the point of app passwords — it is what stops a leaked one
+   being used to take over an account — so the rule is working, not failing.
+
+   The exception is narrow and does not touch the rule above. `tools/plc_recovery.mjs`
+   is run by hand, once per account, reading `BSKY_ACCOUNT_PASSWORD` from the
+   environment and never from a file or repo secret. The publish path is
+   unaffected and still uses app passwords.
 2. **Add an author-held PLC recovery key to each account.** A DID is permanent,
    and once records are published under a cast account's DID that identity *is* the
    canon record. Losing the credentials without a recovery key means losing the

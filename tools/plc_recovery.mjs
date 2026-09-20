@@ -89,13 +89,23 @@ async function xrpc(method, { body, token, query } = {}) {
     ...(body !== undefined ? { body: JSON.stringify(body) } : {}),
   });
   const text = await res.text();
-  if (!res.ok) die(`${method} ${res.status}: ${text.slice(0, 400)}`);
+  if (!res.ok) {
+    if (text.includes('Bad token scope')) {
+      die(
+        `${method} rejected the session's scope.\n\n` +
+          `         You are signed in with an APP password. Identity operations need the\n` +
+          `         account password — app passwords are scoped out of them on purpose.\n` +
+          `         Set BSKY_ACCOUNT_PASSWORD to the real account password and retry.`
+      );
+    }
+    die(`${method} ${res.status}: ${text.slice(0, 400)}`);
+  }
   return text ? JSON.parse(text) : {};
 }
 
 function account(slug) {
   if (slug === 'project') {
-    return { slug, handle: DOMAIN, did: 'did:plc:zvimgmqci4atuvxye2olyn7c', secret: 'BSKY_PASSWORD_PROJECT' };
+    return { slug, handle: DOMAIN, did: 'did:plc:zvimgmqci4atuvxye2olyn7c' };
   }
   const file = path.join(ROOT, `codex/characters/${slug}.md`);
   if (!fs.existsSync(file)) die(`no such character file: codex/characters/${slug}.md`);
@@ -103,12 +113,36 @@ function account(slug) {
   const pick = (k) => (fm.match(new RegExp(`^${k}:\\s*(.+)$`, 'm')) ?? [])[1]?.trim();
   const handle = pick('handle'), did = pick('did');
   if (!handle || !did) die(`${slug} is missing handle: or did: in frontmatter`);
-  return { slug, handle: `${handle}.${DOMAIN}`, did, secret: `BSKY_PASSWORD_${slug.toUpperCase()}` };
+  return { slug, handle: `${handle}.${DOMAIN}`, did };
 }
 
+/**
+ * Signs in with the ACCOUNT password, not an app password.
+ *
+ * This is forced, not a choice. A session created from an app password carries
+ * scope `com.atproto.appPass`, and every identity operation here requires the
+ * full `com.atproto.access` scope — the PDS answers an app-password session with
+ * `InvalidToken: Bad token scope`. That boundary is deliberate and good: it is
+ * what stops a leaked app password being used to take over an account.
+ *
+ * It does NOT loosen the standing rule in CHARACTER_ACCOUNTS.md §4 that app
+ * passwords, never account passwords, go in the pipeline. This is a one-off
+ * manual operation run by hand; the publish path still uses app passwords and is
+ * unaffected. The account password must never reach a file, a repo secret, or a
+ * chat message — read it into the environment and unset it when you are done.
+ */
 async function login(acct) {
-  const password = process.env[acct.secret];
-  if (!password) die(`${acct.secret} is not set in the environment`);
+  const password = process.env.BSKY_ACCOUNT_PASSWORD;
+  if (!password) {
+    die(
+      `BSKY_ACCOUNT_PASSWORD is not set.\n\n` +
+        `         This step needs @${acct.handle}'s ACCOUNT password, not its app password.\n` +
+        `         App-password sessions are scoped out of identity operations by design.\n\n` +
+        `         zsh:   read -s "?Account password for @${acct.handle}: " BSKY_ACCOUNT_PASSWORD; export BSKY_ACCOUNT_PASSWORD\n` +
+        `         bash:  read -rsp "Account password for @${acct.handle}: " BSKY_ACCOUNT_PASSWORD; export BSKY_ACCOUNT_PASSWORD`
+    );
+  }
+  console.log(`  Signing in as @${acct.handle} …`);
   const resolved = await xrpc('com.atproto.identity.resolveHandle', { query: { handle: acct.handle } });
   if (resolved.did !== acct.did) {
     die(`DID mismatch for @${acct.handle}\n         codex: ${acct.did}\n         live:  ${resolved.did}`);
