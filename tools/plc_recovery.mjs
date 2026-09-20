@@ -26,6 +26,10 @@
  *   node tools/plc_recovery.mjs --submit .plc/emma.json
  *       → submits the operation that was printed and reviewed
  *
+ *   node tools/plc_recovery.mjs --store .plc/emma.json
+ *       → files the private key in the macOS keychain and verifies the
+ *         read-back, so the file can be deleted
+ *
  * The three steps are separate on purpose. This edits a DID document, which is
  * not reversible, so the operation is written down and read by a human before
  * it goes anywhere. Do one account end to end, verify it at
@@ -37,6 +41,7 @@
  */
 
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -266,12 +271,64 @@ async function submit(file) {
   console.log(`  Expect your key first: ${saved.recoveryKeyPublic}\n`);
 }
 
+/**
+ * Stores the private key in the macOS login keychain.
+ *
+ * A recovery key you cannot find is the same as one you never made, and a
+ * multiline PEM copied by hand six more times is an error waiting to happen.
+ * The keychain is already on the machine, already encrypted at rest, and already
+ * unlocked by the login password.
+ *
+ * Keyed by DID rather than handle, because the handle is the part that can move.
+ *
+ * Uses execFileSync rather than a shell, so nothing lands in shell history.
+ * The value is briefly visible in the process list, which on a personal machine
+ * is a reasonable trade against the alternative of hand-copying it.
+ */
+function store(file) {
+  if (process.platform !== 'darwin') {
+    die('--store uses the macOS keychain. On another OS, copy recoveryKeyPrivatePem out by hand.');
+  }
+  const abs = path.resolve(ROOT, file);
+  if (!fs.existsSync(abs)) die(`no such file: ${file}`);
+  const saved = JSON.parse(fs.readFileSync(abs, 'utf8'));
+  if (!saved.recoveryKeyPrivatePem) die('that file has no private key in it');
+
+  const SERVICE = 'supperclub-plc-recovery';
+  execFileSync('security', [
+    'add-generic-password',
+    '-a', saved.did,
+    '-s', SERVICE,
+    '-l', `${saved.handle} PLC recovery`,
+    '-j', `PLC rotation key for ${saved.handle}. Public: ${saved.recoveryKeyPublic}`,
+    '-w', saved.recoveryKeyPrivatePem,
+    '-U',
+  ]);
+
+  // Read it back. A write nobody verified is not a backup.
+  const got = execFileSync('security', [
+    'find-generic-password', '-a', saved.did, '-s', SERVICE, '-w',
+  ]).toString();
+  if (got.trim() !== saved.recoveryKeyPrivatePem.trim()) {
+    die('keychain read-back did not match what was written — do NOT delete the file');
+  }
+
+  console.log(`\n  Stored in the login keychain and read back clean.`);
+  console.log(`      account  ${saved.did}`);
+  console.log(`      service  ${SERVICE}`);
+  console.log(`\n  Retrieve later:`);
+  console.log(`      security find-generic-password -a ${saved.did} -s ${SERVICE} -w`);
+  console.log(`\n  Safe to delete now:  rm ${path.relative(ROOT, abs)}\n`);
+}
+
 /* ------------------------------------------------------------------- main */
 
 const a = process.argv.slice(2);
 const flag = (f) => { const i = a.indexOf(f); return i === -1 ? undefined : a[i + 1]; };
 
-if (a.includes('--submit')) {
+if (a.includes('--store')) {
+  store(flag('--store') ?? die('--store needs a file path'));
+} else if (a.includes('--submit')) {
   await submit(flag('--submit') ?? die('--submit needs a file path'));
 } else {
   const slug = flag('--account') ?? die('--account <slug> is required');
