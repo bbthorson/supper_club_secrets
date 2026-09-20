@@ -228,6 +228,18 @@ operated, never autonomous. That stands. Four operational points it does not cov
    sessions in with a per-account app password read from the environment. App
    passwords are individually revocable; the account password never enters the
    pipeline, a committed file, or a chat message.
+
+   **One documented exception, found 2026-09-20.** Adding a PLC recovery key
+   (item 2) cannot use an app password. A session created from one carries scope
+   `com.atproto.appPass`, and every identity operation requires the full
+   `com.atproto.access` scope, so the PDS answers `InvalidToken: Bad token scope`.
+   That boundary is the point of app passwords — it is what stops a leaked one
+   being used to take over an account — so the rule is working, not failing.
+
+   The exception is narrow and does not touch the rule above. `tools/plc_recovery.mjs`
+   is run by hand, once per account, reading `BSKY_ACCOUNT_PASSWORD` from the
+   environment and never from a file or repo secret. The publish path is
+   unaffected and still uses app passwords.
 2. **Add an author-held PLC recovery key to each account.** A DID is permanent,
    and once records are published under a cast account's DID that identity *is* the
    canon record. Losing the credentials without a recovery key means losing the
@@ -244,7 +256,30 @@ operated, never autonomous. That stands. Four operational points it does not cov
    manage the identity at all.
 
    Mechanism: `requestPlcOperationSignature` → `signPlcOperation` →
-   `submitPlcOperation`, scripted at `tools/plc_recovery.mjs`.
+   `submitPlcOperation`, scripted at `tools/plc_recovery.mjs`. Per account:
+
+   ```
+   read -s "?ACCOUNT password: " BSKY_ACCOUNT_PASSWORD; export BSKY_ACCOUNT_PASSWORD
+   node tools/plc_recovery.mjs --account <slug> --request
+   node tools/plc_recovery.mjs --account <slug> --token <TOKEN>
+   node tools/plc_recovery.mjs --submit .plc/<slug>.json
+   node tools/plc_recovery.mjs --store  .plc/<slug>.json
+   ```
+
+   The slug is the character name (`oliver`), not the handle
+   (`ollie-oxen-free`). `--token` prints the before/after rotation lists and two
+   checks that must both read YES before submitting. `--store` files the key in
+   the macOS keychain, verifies the read-back, and deletes the local file itself
+   — there is no separate cleanup step, deliberately.
+
+   **First run, 2026-09-20 (Jasper):** done, and it cost six fixes to the tool.
+   Two of them matter as precedent. A private key was lost to a `rm` pasted from
+   a two-line block whose first line failed — the account stayed fully functional,
+   because a rotation key nobody holds cannot be used by anyone, and the fix was
+   to run the flow again. And the keychain read-back genuinely mismatched, because
+   `security` does not preserve the newlines in a PEM; the value is stored base64
+   now. Both failures stopped safely rather than silently, which is the property
+   to preserve in anything added here later.
 
    **It is not a launch blocker.** A rotation key can be added at any time and is
    equally effective from the moment it lands. Doing it before the first publish only
