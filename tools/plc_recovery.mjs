@@ -303,29 +303,44 @@ function store(file) {
   if (!saved.recoveryKeyPrivatePem) die('that file has no private key in it');
 
   const SERVICE = 'supperclub-plc-recovery';
+
+  // Stored base64, not as the raw PEM. `security` does not round-trip embedded
+  // newlines reliably, and a PEM is four lines. Base64 makes the value a single
+  // ASCII line, which removes the whole class of problem.
+  const encoded = Buffer.from(saved.recoveryKeyPrivatePem, 'utf8').toString('base64');
+
   execFileSync('security', [
     'add-generic-password',
     '-a', saved.did,
     '-s', SERVICE,
     '-l', `${saved.handle} PLC recovery`,
-    '-j', `PLC rotation key for ${saved.handle}. Public: ${saved.recoveryKeyPublic}`,
-    '-w', saved.recoveryKeyPrivatePem,
+    '-j', `PLC rotation key for ${saved.handle} (base64 PEM). Public: ${saved.recoveryKeyPublic}`,
+    '-w', encoded,
     '-U',
   ]);
 
-  // Read it back. A write nobody verified is not a backup.
-  const got = execFileSync('security', [
+  // Read it back and decode. A write nobody verified is not a backup.
+  const raw = execFileSync('security', [
     'find-generic-password', '-a', saved.did, '-s', SERVICE, '-w',
-  ]).toString();
-  if (got.trim() !== saved.recoveryKeyPrivatePem.trim()) {
-    die('keychain read-back did not match what was written — do NOT delete the file');
+  ]).toString().trim();
+  const decoded = Buffer.from(raw, 'base64').toString('utf8');
+
+  if (decoded.trim() !== saved.recoveryKeyPrivatePem.trim()) {
+    die(
+      `keychain read-back did not match what was written — do NOT delete the file\n\n` +
+        `         wrote  ${encoded.length} chars of base64\n` +
+        `         read   ${raw.length} chars back\n` +
+        `         decoded to ${decoded.length} chars, expected ${saved.recoveryKeyPrivatePem.length}\n` +
+        `         first 40 decoded: ${JSON.stringify(decoded.slice(0, 40))}\n` +
+        `         first 40 wanted : ${JSON.stringify(saved.recoveryKeyPrivatePem.slice(0, 40))}`
+    );
   }
 
   console.log(`\n  Stored in the login keychain and read back clean.`);
   console.log(`      account  ${saved.did}`);
   console.log(`      service  ${SERVICE}`);
   console.log(`\n  Retrieve later:`);
-  console.log(`      security find-generic-password -a ${saved.did} -s ${SERVICE} -w`);
+  console.log(`      security find-generic-password -a ${saved.did} -s ${SERVICE} -w | base64 -d`);
   // Delete it here rather than telling the human to. The key exists in exactly
   // two places at this moment and one of them is a plaintext file; leaving the
   // cleanup as a separate instruction is how it gets skipped, or run early.
