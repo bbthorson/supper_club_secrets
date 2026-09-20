@@ -77,11 +77,16 @@ function didKey(publicKey) {
 
 /* ------------------------------------------------------------------- xrpc */
 
-async function xrpc(method, { body, token, query } = {}) {
+/**
+ * `post: true` forces a POST with no request body. Some procedures take no
+ * input at all and reject `{}` with "A request body was provided when none was
+ * expected", so absence of a body cannot be used to infer the verb.
+ */
+async function xrpc(method, { body, token, query, post } = {}) {
   const url = new URL(`/xrpc/${method}`, PDS);
   for (const [k, v] of Object.entries(query ?? {})) url.searchParams.set(k, v);
   const res = await fetch(url, {
-    method: body === undefined ? 'GET' : 'POST',
+    method: post || body !== undefined ? 'POST' : 'GET',
     headers: {
       ...(body !== undefined ? { 'content-type': 'application/json' } : {}),
       ...(token ? { authorization: `Bearer ${token}` } : {}),
@@ -157,7 +162,7 @@ async function login(acct) {
 
 async function requestToken(acct) {
   const jwt = await login(acct);
-  await xrpc('com.atproto.identity.requestPlcOperationSignature', { token: jwt, body: {} });
+  await xrpc('com.atproto.identity.requestPlcOperationSignature', { token: jwt, post: true });
   console.log(`\n  Token emailed for @${acct.handle}.`);
   console.log(`  Next:  node tools/plc_recovery.mjs --account ${acct.slug} --token <TOKEN>\n`);
 }
