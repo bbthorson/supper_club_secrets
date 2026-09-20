@@ -259,7 +259,10 @@ async function submit(file) {
     body: { operation: saved.operation },
   });
   console.log(`\n  Submitted for @${saved.handle}.`);
-  console.log(`  Verify:  curl https://plc.directory/${saved.did} | jq .rotationKeys`);
+  // /<did> returns the W3C DID document, which deliberately does not expose
+  // rotation keys — they are PLC-internal state. /data returns the current
+  // operation state, which does.
+  console.log(`  Verify:  curl -s https://plc.directory/${saved.did}/data | jq .rotationKeys`);
   console.log(`  Expect your key first: ${saved.recoveryKeyPublic}\n`);
 }
 
