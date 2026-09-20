@@ -249,7 +249,15 @@ async function submit(file) {
   if (saved.rotationKeysAfter[0] !== saved.recoveryKeyPublic) {
     die('refusing to submit: your key is not ranked first');
   }
-  await xrpc('com.atproto.identity.submitPlcOperation', { body: { operation: saved.operation } });
+  // submitPlcOperation is authenticated like every other identity call, so this
+  // step signs in again rather than being a pure file-to-network hand-off.
+  const acct = account(saved.account);
+  if (acct.did !== saved.did) die(`file is for ${saved.did} but ${saved.account} now records ${acct.did}`);
+  const jwt = await login(acct);
+  await xrpc('com.atproto.identity.submitPlcOperation', {
+    token: jwt,
+    body: { operation: saved.operation },
+  });
   console.log(`\n  Submitted for @${saved.handle}.`);
   console.log(`  Verify:  curl https://plc.directory/${saved.did} | jq .rotationKeys`);
   console.log(`  Expect your key first: ${saved.recoveryKeyPublic}\n`);
