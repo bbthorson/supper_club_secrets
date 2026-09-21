@@ -3,6 +3,12 @@ name: publish-records
 # Publishes compiled records to the cast's AT Protocol repos at the current
 # story horizon, then rebuilds the site so the day's chapter actually appears.
 #
+# The daily schedule is right even though chapters release weekly. This is a
+# horizon publish, not a delta: each run makes the repos match a date, so most
+# mornings are a no-op that rewrites nothing, release Sundays carry the meal,
+# and the in-character posts — which do drip daily — go out on their own clock.
+# Running every day is also what makes a missed run self-heal.
+#
 # SAFE BY DEFAULT. The scheduled run is a DRY RUN unless the repository
 # variable PUBLISH_ENABLED is exactly "true". That gives a daily, reviewable
 # manifest of what *would* go out, for as long as you want, before anything
@@ -23,8 +29,12 @@ on:
     - cron: '0 12 * * *'
   workflow_dispatch:
     inputs:
+      as_of:
+        description: 'Pretend it is this real date (YYYY-MM-DD). Rehearses a given morning of the run. Defaults to today.'
+        required: false
+        type: string
       horizon:
-        description: 'Story date to publish up to (YYYY-MM-DD). Defaults to today.'
+        description: 'Override the story horizon (YYYY-MM-DD). Normally derived from the release calendar — set this only for a backfill or correction.'
         required: false
         type: string
       execute:
@@ -66,10 +76,12 @@ jobs:
 
       - name: Publish records
         env:
-          # inputs.horizon is attacker-controlled text. Interpolating it into
-          # the script below would splice it into this shell — with every cast
-          # password in scope. Through env it is only ever a string, and
-          # publish_records.mjs re-checks the YYYY-MM-DD shape itself.
+          # inputs.horizon and inputs.as_of are attacker-controlled text.
+          # Interpolating either into the script below would splice it into this
+          # shell — with every cast password in scope. Through env they are only
+          # ever strings, and publish_records.mjs re-checks the YYYY-MM-DD shape
+          # of both itself.
+          AS_OF: ${{ inputs.as_of }}
           HORIZON: ${{ inputs.horizon }}
           EXECUTE: ${{ steps.mode.outputs.execute }}
           BSKY_PASSWORD_PROJECT: ${{ secrets.BSKY_PASSWORD_PROJECT }}
@@ -81,6 +93,7 @@ jobs:
           BSKY_PASSWORD_JASPER: ${{ secrets.BSKY_PASSWORD_JASPER }}
         run: |
           ARGS=()
+          [ -n "$AS_OF" ] && ARGS+=(--as-of "$AS_OF")
           [ -n "$HORIZON" ] && ARGS+=(--horizon "$HORIZON")
           [ "$EXECUTE" = "true" ] && ARGS+=(--execute)
           echo "Running: node tools/publish_records.mjs ${ARGS[*]}"
