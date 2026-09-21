@@ -8,12 +8,33 @@
  * an editorial correction all resolve by running it again. Records are mutable
  * by rkey, so a re-publish overwrites rather than duplicates.
  *
- *   node tools/publish_records.mjs                      # dry run at today
- *   node tools/publish_records.mjs --horizon 2026-10-11 # dry run at a date
- *   node tools/publish_records.mjs --horizon … --execute # actually write
+ *   node tools/publish_records.mjs                      # dry run, horizon from today
+ *   node tools/publish_records.mjs --as-of 2026-10-18   # dry run as if it were that day
+ *   node tools/publish_records.mjs --horizon 2026-10-14 # dry run at an explicit horizon
+ *   node tools/publish_records.mjs --as-of … --execute  # actually write
  *
  * DRY RUN IS THE DEFAULT AND --execute IS THE ONLY WAY PAST IT. Preflight item 8
  * requires a human to read every intended write, once, before anything goes out.
+ *
+ * TWO CLOCKS, AND CONFLATING THEM LEAKS PLOT (this is the part to read twice).
+ *
+ * The real date is not the story horizon. Chapters release *weekly*, after the
+ * meal they belong to has finished in the timeline, so a meal's last chapters
+ * sit written-and-unreleased for days. Meal 3 ends Wednesday 14 Oct in-story and
+ * reaches readers Sunday 18 Oct; between those dates a horizon of "today" would
+ * publish Ch13–17's scene and stateEvent records — plot content — ahead of the
+ * prose describing it. So:
+ *
+ *   real date  --as-of --> RELEASE calendar --> story horizon --> what is visible
+ *
+ * The horizon is the story date of the latest *released* chapter, derived from
+ * the release calendar below, never from the wall clock. ARCHITECTURE.md §6.7:
+ * time decides what exists, the horizon decides what is shown.
+ *
+ * POSTS ARE THE OTHER LANE AND ARE DELIBERATELY NOT WEEKLY-GATED. They drip on
+ * the real clock, ahead of the chapters they are anchored to, because every one
+ * is anchored to a public-register moment and carries no plot. That rule is
+ * exactly what buys the feed permission to run ahead of the book.
  *
  * NO DEPENDENCIES. Three XRPC endpoints are all this needs (createSession,
  * resolveHandle, putRecord), and Node's built-in fetch covers them. A publish
@@ -43,6 +64,30 @@ const PDS = 'https://bsky.social';
 const CAST = ['emma', 'elijah', 'noah', 'oliver', 'olivia', 'jasper'];
 
 /**
+ * The release calendar: meal -> the real-world date its chapters reach readers.
+ *
+ * A "meal" is this series' sequence unit (pinakes.yaml `sequenceField: meal`) —
+ * several chapters share one dinner, and the meal is what ships, because
+ * releasing half a dinner ends a drop mid-conversation.
+ *
+ * This is the one genuinely editorial number here and the only reason this table
+ * is hand-written. Everything else — which chapters are in a meal, and how far
+ * into the story a meal reaches — is derived from the records below, so the
+ * table cannot drift out of step with the manuscript without failing loudly.
+ *
+ * Meal 3 is the case worth understanding: it ends Wednesday 14 Oct in-story but
+ * releases Sunday 18 Oct, because the weekly rhythm matters more than matching
+ * the in-world weekday. Its horizon is therefore 14 Oct from 18 Oct onward — the
+ * real date and the story date diverge by four days and that is correct.
+ */
+const RELEASE = {
+  1: '2026-10-04', // Sun — Ch1–5
+  2: '2026-10-11', // Sun — Ch6–12
+  3: '2026-10-18', // Sun — Ch13–17, which finish in-story on Wed 14 Oct
+  4: '2026-10-25', // Sun — Ch18–25, the finale
+};
+
+/**
  * Fields stripped before a record leaves the repo.
  *
  * `beat` and `primaryEvent` on a scene are the craft layer — what the chapter is
@@ -67,15 +112,25 @@ const die = (msg) => {
   process.exit(1);
 };
 
+const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s);
+
 function args() {
   const a = process.argv.slice(2);
   const get = (flag, fallback) => {
     const i = a.indexOf(flag);
     return i === -1 ? fallback : a[i + 1];
   };
-  const horizon = get('--horizon', new Date().toISOString().slice(0, 10));
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(horizon)) die(`--horizon must be YYYY-MM-DD, got '${horizon}'`);
-  return { horizon, book: get('--book', 'book1'), execute: a.includes('--execute') };
+  // The real date. Overridable so a dry run can rehearse any day of the run —
+  // it moves the release calendar and the post lane together, which is the only
+  // way to see what a given morning actually sends.
+  const asOf = get('--as-of', new Date().toISOString().slice(0, 10));
+  if (!isDate(asOf)) die(`--as-of must be YYYY-MM-DD, got '${asOf}'`);
+  // The story horizon. Normally derived from --as-of via RELEASE; an explicit
+  // value overrides the calendar for a one-off (a backfill, a correction, or
+  // simply asking "what does horizon X look like" without inventing a date).
+  const horizon = get('--horizon', null);
+  if (horizon !== null && !isDate(horizon)) die(`--horizon must be YYYY-MM-DD, got '${horizon}'`);
+  return { asOf, horizon, book: get('--book', 'book1'), execute: a.includes('--execute') };
 }
 
 const readJson = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
@@ -116,6 +171,51 @@ const PROJECT = {
 /* --------------------------------------------------------------- selection */
 
 /**
+ * meal -> the last story date that meal reaches, read off the scene records.
+ *
+ * Derived rather than declared so the release calendar can only ever be wrong
+ * about *when readers get a meal*, never about *how much story that meal is*.
+ * Re-cut a chapter into a different meal and this follows automatically.
+ */
+function mealEnds(scenes) {
+  const ends = new Map();
+  for (const s of scenes) {
+    const meal = s.sequence;
+    if (meal === undefined || meal === null) {
+      die(`${s.id} has no 'sequence' (meal) — the release calendar cannot place it`);
+    }
+    const prev = ends.get(meal);
+    if (!prev || s.storyDate > prev) ends.set(meal, s.storyDate);
+  }
+  return ends;
+}
+
+/**
+ * The story horizon on a given real date: how far into the story the released
+ * chapters reach.
+ *
+ * Every meal whose release date has arrived contributes the story date it ends
+ * on, and the horizon is the furthest of them. Taking the max rather than the
+ * last entry means an out-of-order or backfilled calendar still cannot walk the
+ * horizon backwards — an un-publish is a breaking event, not a normal one
+ * (SERIALIZED_PUBLISHING.md, invariant 1).
+ *
+ * Returns null before the first release, when the honest answer is that no
+ * chapter exists yet and nothing derived from prose should be visible.
+ */
+function deriveHorizon(asOf, scenes) {
+  const ends = mealEnds(scenes);
+  let horizon = null;
+  for (const [meal, end] of ends) {
+    const release = RELEASE[meal];
+    if (!release) die(`meal ${meal} appears in the records but has no date in RELEASE`);
+    if (release > asOf) continue;
+    if (!horizon || end > horizon) horizon = end;
+  }
+  return horizon;
+}
+
+/**
  * Builds the horizon map: entity id -> the earliest story date it is visible.
  *
  * Scenes and state events carry their own `storyDate`, so they gate themselves.
@@ -140,9 +240,10 @@ function firstSeen(scenes) {
   return seen;
 }
 
-function plan({ horizon, book }) {
+function plan({ asOf, horizon: override, book }) {
   const accounts = readAccounts();
   const scenes = readJson(`records/${book}/scenes.json`);
+  const horizon = override ?? deriveHorizon(asOf, scenes);
   const events = readJson(`records/${book}/character_state_events.json`);
   const places = readJson('records/series/places.json');
   const profiles = readJson('records/series/character_profiles.json');
@@ -162,42 +263,67 @@ function plan({ horizon, book }) {
     writes.push({ target, collection: rec.$type, rkey: rec.id, body });
   };
 
+  // Before the first meal releases there is no horizon, and every prose-derived
+  // record is held. `null > anything` is false, so the comparisons below would
+  // quietly publish the lot; gate on the null explicitly instead.
+  const beyond = (date) => horizon === null || date > horizon;
+
   // Scenes and places -> the project repo. Profiles, state events and posts ->
   // the subject's own repo, which is what makes each character the author of
   // their own history rather than a field inside someone else's.
   for (const s of scenes) {
-    if (s.storyDate > horizon) { held.push(s.id); continue; }
+    if (beyond(s.storyDate)) { held.push(s.id); continue; }
     add(PROJECT, s);
   }
   for (const p of places) {
     const date = seen.get(p.id);
     if (!date) { skipped.push(`${p.id} (never appears in a scene)`); continue; }
-    if (date > horizon) { held.push(p.id); continue; }
+    if (beyond(date)) { held.push(p.id); continue; }
     add(PROJECT, p);
   }
-  for (const rec of [...profiles, ...events, ...posts]) {
+  for (const rec of [...profiles, ...events]) {
     const subject = rec.subject ?? rec.author;
     const acct = accounts.get(subject);
     if (!acct) { skipped.push(`${rec.id} (${subject} has no account)`); continue; }
     const date = rec.storyDate ?? seen.get(subject);
     if (!date) { skipped.push(`${rec.id} (no date and subject never on-page)`); continue; }
-    if (date > horizon) { held.push(rec.id); continue; }
+    if (beyond(date)) { held.push(rec.id); continue; }
     add(acct, rec);
   }
 
-  return { writes, skipped, held, accounts };
+  // The post lane, on the real clock. `publishDate` is the release gate the
+  // lexicon defines; where a post does not carry one the story date stands in,
+  // which is what produces the daily drip — the anchored posts are written to
+  // land on the day they happen in-world. Note this is NOT the lexicon's
+  // "absent means released": that rule is for the site, where the reveal gate
+  // (chapterRef vs. the reader's own horizon) still holds a post back. A repo
+  // has no reveal gate, so falling back to "immediately" here would empty all
+  // eight posts onto the feed on day one instead of dripping them.
+  for (const rec of posts) {
+    const acct = accounts.get(rec.author);
+    if (!acct) { skipped.push(`${rec.id} (${rec.author} has no account)`); continue; }
+    const date = rec.publishDate ?? rec.storyDate;
+    if (!date) { skipped.push(`${rec.id} (no publishDate and no storyDate)`); continue; }
+    if (date > asOf) { held.push(rec.id); continue; }
+    add(acct, rec);
+  }
+
+  return { writes, skipped, held, accounts, horizon };
 }
 
 /* ----------------------------------------------------------------- reports */
 
-function report({ writes, skipped, held }, { horizon, execute }) {
+function report({ writes, skipped, held, horizon }, { asOf, horizon: override, execute }) {
   const byTarget = new Map();
   for (const w of writes) {
     if (!byTarget.has(w.target.handle)) byTarget.set(w.target.handle, []);
     byTarget.get(w.target.handle).push(w);
   }
+  const source = override ? 'explicit --horizon' : 'from the release calendar';
   console.log(`\n${'='.repeat(74)}`);
-  console.log(`  ${execute ? 'PUBLISH' : 'DRY RUN'} — horizon ${horizon}`);
+  console.log(`  ${execute ? 'PUBLISH' : 'DRY RUN'}`);
+  console.log(`  real date     ${asOf}   (posts release on this clock)`);
+  console.log(`  story horizon ${horizon ?? '— nothing released yet'}   (${source})`);
   console.log('='.repeat(74));
   for (const [handle, ws] of [...byTarget].sort()) {
     console.log(`\n  @${handle}  (${ws.length} records)`);
@@ -330,7 +456,10 @@ async function deploy() {
 const opts = args();
 const p = plan(opts);
 report(p, opts);
-manifest(p, path.join(ROOT, `.publish-manifest-${opts.horizon}.tsv`));
+// Keyed on the real date: a run is identified by the morning it went out, and
+// two runs on one day (say a correction at an explicit horizon) should overwrite
+// rather than litter the directory. The workflow globs `.publish-manifest-*`.
+manifest(p, path.join(ROOT, `.publish-manifest-${opts.asOf}.tsv`));
 
 if (!opts.execute) {
   console.log('  Dry run. Nothing was written. Re-run with --execute to publish.\n');
