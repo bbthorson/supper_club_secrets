@@ -71,6 +71,27 @@ rkey, so corrections propagate.
 
 ## The release calendar falls out of the story
 
+> **Superseded 2026-09-21 — releases are weekly, by the meal.** The daily calendar
+> below was written when a chapter dropped on the day it happens, which made the
+> story date and the release date the same number. They are no longer the same
+> number. Chapters now ship one **meal** at a time, on the Sunday after that meal
+> finishes in the timeline: Meal 1 Oct 4, Meal 2 Oct 11, Meal 3 Oct 18, Meal 4
+> Oct 25.
+>
+> The consequence worth carrying forward is that **the record horizon is no longer
+> "today"**. Meal 3 ends Wednesday Oct 14 in-story but reaches readers Sunday Oct
+> 18, so from Oct 18 the horizon is Oct 14 — four days behind the wall clock, and
+> deliberately so. Publishing at "today" during that gap put Ch13–17's scene and
+> stateEvent records out ahead of the prose; across the full run it leaked 71
+> records early. The horizon now derives from the release calendar in
+> `tools/publish_records.mjs`, which is the authority. The day-by-day list below
+> is kept as the record of the original design, not as a schedule.
+>
+> **In-character posts are unaffected and still drip daily**, on their own clock,
+> ahead of the chapters they are anchored to. That is safe only because every post
+> is anchored to a public-register moment and carries no plot — the rule in "In-character
+> posts" below is what buys the feed permission to run ahead of the book.
+
 - **Oct 1 (Thu)** — launch: front matter, cast profiles (`oneLine` bios), the
   standing places (markets, shops). No story yet.
 - **Oct 2 (Fri)** — the one dated fact in the book: LLC #2847's filing. Publishing
