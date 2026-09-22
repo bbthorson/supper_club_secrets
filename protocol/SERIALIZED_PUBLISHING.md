@@ -18,20 +18,42 @@ that chapter* publish to the lexicon. Readers (and anything built on the AT Prot
 data) watch the characters' states update as the story unfolds — the "internal
 register → published lexicon" split the author asked for.
 
-## The two lanes (this is the whole design)
+## The lanes (this is the whole design)
 
-| Lane | Contents | Where it lives | Gate |
-|---|---|---|---|
-| **Internal register** | Tracking layer (`character_matrix`, `timeline_ledger`, `subplot_threads`, `interiority/`), codex secrets, chapter frontmatter's authorial metadata (clues, beats, audit notes), full compiled records | This repo, never published | — |
-| **Published lexicon** | Prose chapters + reader-safe records derived from *published* prose | PDS / site | **Canon horizon**: a record publishes iff its `storyDate` ≤ horizon date, and only reader-safe fields |
+Three lanes, and **the two published ones run on different clocks.** That is the
+part to hold onto: the story lane moves weekly, the post lane moves daily, and
+collapsing them is what caused the 2026-09-21 leak.
+
+| Lane | Contents | Where it lives | Cadence | Gate |
+|---|---|---|---|---|
+| **Internal register** | Tracking layer (`character_matrix`, `timeline_ledger`, `subplot_threads`, `interiority/`), codex secrets, chapter frontmatter's authorial metadata (clues, beats, audit notes), full compiled records | This repo, never published | — | never |
+| **Story lane** | Prose chapters + the records derived from them: `scene`, `character.stateEvent`, `place`, `character.profile` | PDS / site | **Weekly, by the meal** — Sundays 4, 11, 18, 25 Oct | **Canon horizon**: publishes iff `storyDate` ≤ the horizon, where the horizon is the story date of the latest *released* chapter. Reader-safe fields only |
+| **Post lane** | `character.post` — in-character posts, authored not derived | PDS / site | **Daily, on the real clock** | Own date (`publishDate ?? storyDate`) ≤ today. **Not weekly-gated** |
+
+**Why the post lane is allowed to run ahead of the book.** A post published on 6
+Oct is anchored to Ch7, which readers do not get until 11 Oct — the feed is five
+days ahead of the prose and that is the intended effect. It is safe for exactly
+one reason: **every post is anchored to a public-register moment and carries no
+plot.** Olivia can say she spent an hour at the Gilded Fern not eating, because
+that is what she would post; she cannot say what she worked out there. That rule
+is not a nicety about tone. It is the entire licence for the second clock, and a
+post that breaks it turns the feed into a spoiler channel.
+
+So the two cadences answer two different questions. The story lane asks *what has
+been released*; the post lane asks *what day is it*. A record that describes the
+plot belongs in the first. A record in a character's own voice, about something
+they were publicly seen doing, belongs in the second.
 
 Two invariants, both already house rules extended one step:
 1. **Horizon rule:** nothing derived from an unpublished chapter is visible. The
    horizon only moves forward (monotonic) — an un-publish is a breaking event, not a
-   normal operation.
+   normal operation. This governs the story lane; the post lane is gated by the
+   calendar instead, and the on-page rule below is what keeps that safe.
 2. **On-page rule:** a published record may contain only facts a reader of the
    published chapters could know. This is the Golden Rule's public face: prose is
-   truth, and *published* prose is the only truth readers get.
+   truth, and *published* prose is the only truth readers get. For posts, read
+   "published chapters" as *released* chapters — the standard a post must meet is
+   what a reader who is up to date on the **weekly** release could already know.
 
 ## What's already safe vs. what leaks (verified against `records/`, 2026-09-01)
 
@@ -87,10 +109,9 @@ rkey, so corrections propagate.
 > `tools/publish_records.mjs`, which is the authority. The day-by-day list below
 > is kept as the record of the original design, not as a schedule.
 >
-> **In-character posts are unaffected and still drip daily**, on their own clock,
-> ahead of the chapters they are anchored to. That is safe only because every post
-> is anchored to a public-register moment and carries no plot — the rule in "In-character
-> posts" below is what buys the feed permission to run ahead of the book.
+> **This changed the story lane only. In-character posts still drip daily**, on
+> their own clock, ahead of the chapters they are anchored to. The two cadences
+> are set out in "The lanes" above.
 
 - **Oct 1 (Thu)** — launch: front matter, cast profiles (`oneLine` bios), the
   standing places (markets, shops). No story yet.
