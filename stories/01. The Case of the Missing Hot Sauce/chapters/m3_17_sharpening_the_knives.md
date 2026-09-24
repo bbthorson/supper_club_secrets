@@ -38,6 +38,14 @@ beat_purpose: "Alone-but-connected, each member builds their piece of the campai
 audit_notes:
   - "Montage spans ~36 hrs (Wed night → Fri morning); anchored with 'by Friday morning'-style beats."
   - "2026-07-12 audit fix: Oliver/Elijah press-kit session relocated from Elijah's apartment to Olivia & Oliver's place, preserving the locked Book 6 seed (no one has ever been inside Elijah's apartment). Olivia is off-page during the session (phone work from a friend's couch), so her own montage section stays a separate night."
+custody:
+  # Jasper palmed it from Emma's counter the night before (after Ch16), but the
+  # narrative withholds that until he packs it here — so the hand-off is
+  # recorded in the chapter the reader learns it, not the one it happened in.
+  - item: "the bottle"
+    holder: "Jasper"
+    from: "Emma"
+    event: "Jasper packs the bottle for the journey, wrapped in a sock; he palmed it from Emma's counter the night before and told no one."
 ---
 
 ### Chapter Seventeen — Sharpening the Knives

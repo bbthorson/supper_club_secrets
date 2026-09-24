@@ -320,8 +320,9 @@ places:
 items:
 
   # The heritage hot-sauce bottle Dorothy gives Emma "just in case." The one
-  # tracked object; its custody path Ch1 -> 17 -> 20/23 -> 25 powers the future
-  # custodyEvent demo (tracking/subplot_threads.md -> "Jasper's bottle").
+  # tracked object; its custody path Ch1 -> 17 -> 25 is recorded in the
+  # `custody:` block of each of those chapters and compiles to custodyEvent
+  # records (see tracking/subplot_threads.md -> "Jasper's bottle").
   - id: item.heritage-bottle
     type: item
     displayName: Heritage Hot Sauce Bottle

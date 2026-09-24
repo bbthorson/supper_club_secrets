@@ -63,7 +63,9 @@ interface ProfileRec {
 interface CustodyRec {
   item: string;
   holder: string;
-  fromHolder: string | null;
+  /** Absent — not null — when the object enters the story, per the AT Protocol
+   *  data model. These records are compiled now, so read it with `?`. */
+  fromHolder?: string;
   chapterRef: string;
   storyDate: string;
   event: string;

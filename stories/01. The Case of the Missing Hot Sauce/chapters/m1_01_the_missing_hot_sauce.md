@@ -35,6 +35,11 @@ threads:
   touched:
     - "B-plot: Emma's precarity ('financial equivalent of closing your eyes on a roller coaster')"
 beat_purpose: "Open on the empty stall and Dorothy's 'just in case' bottle — the loss that makes the mystery personal, and the theme that a community protects its own."
+custody:
+  - item: "the bottle"
+    holder: "Emma"
+    from: "Dorothy"
+    event: "Dorothy presses Hank's last bottle into Emma's hands — he had told her to keep it, \"just in case.\""
 ---
 
 ## Meal One
