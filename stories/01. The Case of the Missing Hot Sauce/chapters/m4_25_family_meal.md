@@ -48,6 +48,11 @@ threads:
 beat_purpose: "Family Meal — Hank returns with Jasper, the bottle's arc closes, the economic squeeze lifts, and the club commits to continuing with rotating hosts."
 audit_notes:
   - "Emma's secret stays opaque/deferred; the aftermath is the squeeze lifting, not an exposure. 'The fear didn't end when the threat did' (via Dorothy)."
+custody:
+  - item: "the bottle"
+    holder: "Emma"
+    from: "Jasper"
+    event: "Jasper returns the bottle to Emma with an apology; it goes back on the counter where it started."
 ---
 
 ### Chapter Twenty-Five - Family Meal
