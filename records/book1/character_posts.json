@@ -1,14 +1,789 @@
 [
   {
     "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.1",
+    "author": "char.olivia",
+    "text": "Franco has repainted the awning and did NOT tell anyone he was going to, so half the\nblock walked past the shop this morning looking for a tailor that has been there for\nnineteen years.\n\nIt is green now. It was green before. It is a different green.",
+    "storyDate": "2026-08-04",
+    "storyTime": "08:12",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "neighbourhood"
+    ],
+    "createdAt": "2026-08-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.2",
+    "author": "char.olivia",
+    "text": "He says it is \"sage.\" Franco. Sage.\n\nI have been informed by his wife that it is the same paint.",
+    "storyDate": "2026-08-04",
+    "storyTime": "08:19",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "neighbourhood"
+    ],
+    "createdAt": "2026-08-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-02.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.1",
+    "author": "char.emma",
+    "text": "Family meal tonight was the trim off forty ducks, a bag of rice, and whatever was\nabout to turn. Fed fourteen people. I would put it against anything that left that\nkitchen on a plate tonight.",
+    "storyDate": "2026-08-06",
+    "storyTime": "23:18",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "kitchen",
+      "staff-meal"
+    ],
+    "createdAt": "2026-08-06T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.noah.1",
+    "author": "char.noah",
+    "text": "The correct number of browser tabs is the number you would be willing to have\nprinted out and handed to you.\n\nMost people are running a small book.",
+    "storyDate": "2026-08-07",
+    "storyTime": "10:53",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "tech"
+    ],
+    "createdAt": "2026-08-07T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/noah-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.noah.2",
+    "author": "char.noah",
+    "text": "And before anyone sends me their tab manager: a tool that makes a bad system\nsurvivable is the reason the bad system survives.",
+    "storyDate": "2026-08-07",
+    "storyTime": "11:06",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "tech"
+    ],
+    "createdAt": "2026-08-07T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/noah-02.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.2",
+    "author": "char.emma",
+    "text": "There is a man at McGolrick who makes a hot sauce with a pepper I cannot identify.\nThree years of asking. Three years of \"family recipe\" and that face he makes.\n\nI will get it out of him. I have nothing but time and no pride.",
+    "storyDate": "2026-08-09",
+    "storyTime": "10:24",
+    "chapterRef": "book1#ch0",
+    "placeRef": "place.mcgolrick-market",
+    "tags": [
+      "lane-public",
+      "market",
+      "haul"
+    ],
+    "createdAt": "2026-08-09T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-02.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.1",
+    "author": "char.jasper",
+    "text": "ok so there is scaffolding going up on a building that does not need scaffolding",
+    "storyDate": "2026-08-11",
+    "storyTime": "22:04",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "theory"
+    ],
+    "createdAt": "2026-08-11T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.2",
+    "author": "char.jasper",
+    "text": "and before anyone says \"facade inspection\" i KNOW about facade inspection, i have\nread the cycle, the cycle is not up until (",
+    "storyDate": "2026-08-11",
+    "storyTime": "22:31",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "theory"
+    ],
+    "createdAt": "2026-08-11T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-02.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.3",
+    "author": "char.jasper",
+    "text": "the building across from it sold in march. same week. i am not saying anything i am\njust saying the dates are the dates",
+    "storyDate": "2026-08-11",
+    "storyTime": "23:19",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "theory"
+    ],
+    "createdAt": "2026-08-11T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-03.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.4",
+    "author": "char.jasper",
+    "text": "made two calls about the scaffolding thing. one guy hung up which is basically a\nconfirmation",
+    "storyDate": "2026-08-12",
+    "storyTime": "18:47",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "theory"
+    ],
+    "createdAt": "2026-08-12T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-04.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.3",
+    "author": "char.olivia",
+    "text": "Dropped the autumn candles at Marcus's and stayed forty minutes, which is what\nhappens when you go to Marcus's.\n\nEverything that happens on Bedford happens in that shop first and roughly nine days\nbefore anyone else hears about it.",
+    "storyDate": "2026-08-12",
+    "storyTime": "17:44",
+    "chapterRef": "book1#ch0",
+    "mentions": [
+      "char.emma"
+    ],
+    "placeRef": "place.the-gilded-fern",
+    "tags": [
+      "lane-public",
+      "gilded-fern",
+      "candles"
+    ],
+    "createdAt": "2026-08-12T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-03.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.5",
+    "author": "char.jasper",
+    "text": "third call. a woman named Patrice has told me to stop calling, which i respect, and\nwhich i am choosing to read as a data point",
+    "storyDate": "2026-08-13",
+    "storyTime": "12:15",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "theory"
+    ],
+    "createdAt": "2026-08-13T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-05.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.elijah.1",
+    "author": "char.elijah",
+    "text": "The bad system is load-bearing. That is usually why it is still there.",
+    "storyDate": "2026-08-14",
+    "storyTime": "18:26",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.noah.2",
+    "mentions": [
+      "char.noah"
+    ],
+    "tags": [
+      "lane-public",
+      "reply"
+    ],
+    "createdAt": "2026-08-14T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/elijah-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.6",
+    "author": "char.jasper",
+    "text": "it was a sidewalk shed permit. it was always a sidewalk shed permit. patrice was\nright and i have sent her an apology she did not ask for\n\nanyway",
+    "storyDate": "2026-08-14",
+    "storyTime": "16:38",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "theory"
+    ],
+    "createdAt": "2026-08-14T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-06.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.3",
+    "author": "char.emma",
+    "text": "The key is building layers of flavour — you cannot rush caramelisation and you cannot\nfake it. Onions go sweet at their own pace and every shortcut you have read about is\nsomeone describing a different, worse dish.\n\nTwenty-five minutes. Low. Stir more than you want to.",
+    "storyDate": "2026-08-18",
+    "storyTime": "19:02",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "technique"
+    ],
+    "createdAt": "2026-08-18T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-03.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.4",
+    "author": "char.olivia",
+    "text": "twenty-five minutes!!! @emmacooks I have been making them for nine and calling it\ndinner",
+    "storyDate": "2026-08-19",
+    "storyTime": "21:30",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.emma.3",
+    "mentions": [
+      "char.emma"
+    ],
+    "tags": [
+      "lane-public",
+      "reply"
+    ],
+    "createdAt": "2026-08-19T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-04.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.oliver.1",
+    "author": "char.oliver",
+    "text": "It has been eighteen years. Not nineteen.",
+    "storyDate": "2026-08-20",
+    "storyTime": "21:47",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.olivia.3",
+    "mentions": [
+      "char.olivia"
+    ],
+    "tags": [
+      "lane-public",
+      "reply"
+    ],
+    "createdAt": "2026-08-20T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/oliver-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.5",
+    "author": "char.olivia",
+    "text": "Met a dog outside the coffee place today who is called Brisket and who has a\nLinkedIn, allegedly, per his owner, who would not elaborate and then left.",
+    "storyDate": "2026-08-23",
+    "storyTime": "13:07",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "dog",
+      "mundane"
+    ],
+    "createdAt": "2026-08-23T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-05.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.noah.3",
+    "author": "char.noah",
+    "text": "That is a beautiful piece of hardware.\n\nWhich is to say the weight distribution is correct and the thermals are honest.\nThere is no design decision in it that is only decoration, and that is why it looks\nlike that.",
+    "storyDate": "2026-08-25",
+    "storyTime": "20:14",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "hardware"
+    ],
+    "createdAt": "2026-08-25T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/noah-03.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.elijah.2",
+    "author": "char.elijah",
+    "text": "Every coffee place on this stretch has raised prices by the same amount in the same\nfortnight and all of them will tell you it was the beans.",
+    "storyDate": "2026-08-28",
+    "storyTime": "07:51",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "observation"
+    ],
+    "createdAt": "2026-08-28T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/elijah-02.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.4",
+    "author": "char.emma",
+    "text": "Sixtieth birthday for twenty-two people yesterday. Nine hours, one oven, a kitchen\nwith a single working burner and a host who kept opening the oven to look.\n\nI will not be disclosing the rate.",
+    "storyDate": "2026-08-30",
+    "storyTime": "08:55",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "catering"
+    ],
+    "createdAt": "2026-08-30T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-04.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.6",
+    "author": "char.olivia",
+    "text": "Maria's daughter is getting married in April and Maria has already chosen the\nflowers, the backup flowers in case the first are wrong, and the rehearsal\nflowers, which I did not know was a category.\n\nI love her. I will be exactly this bad when it is my turn to have opinions about\nsomeone else's day.",
+    "storyDate": "2026-09-02",
+    "storyTime": "09:41",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "neighbourhood",
+      "wedding"
+    ],
+    "createdAt": "2026-09-02T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-06.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.7",
+    "author": "char.jasper",
+    "text": "there is a man on eighth who sells one kind of sandwich and will not tell you what\nis in it and i think that is the correct way to run a business",
+    "storyDate": "2026-09-05",
+    "storyTime": "14:22",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "mundane"
+    ],
+    "createdAt": "2026-09-05T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-07.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.7",
+    "author": "char.olivia",
+    "text": "Someone asked me a genuinely serious question at the coffee place today and I\nhandled it beautifully for about nine seconds.\n\nSpeaking of disasters — did I tell you what happened to the man who bought the\nlaundromat?",
+    "storyDate": "2026-09-06",
+    "storyTime": "16:58",
+    "chapterRef": "book1#ch0",
+    "placeRef": "place.the-coffee-hole",
+    "tags": [
+      "lane-public",
+      "gossip",
+      "deflection"
+    ],
+    "createdAt": "2026-09-06T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-07.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.5",
+    "author": "char.emma",
+    "text": "Long one tonight.\n\nEverything I made today was somebody else's idea.",
+    "storyDate": "2026-09-08",
+    "storyTime": "22:47",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "kitchen"
+    ],
+    "createdAt": "2026-09-08T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-05.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.elijah.3",
+    "author": "char.elijah",
+    "text": "Nine seconds is longer than most people manage.",
+    "storyDate": "2026-09-11",
+    "storyTime": "22:09",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.olivia.7",
+    "mentions": [
+      "char.olivia"
+    ],
+    "tags": [
+      "lane-public",
+      "reply"
+    ],
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/elijah-03.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.noah.4",
+    "author": "char.noah",
+    "text": "Switched back. Six weeks of the other one and I have no data supporting the change,\nwhich is the only honest reason to reverse a decision.",
+    "storyDate": "2026-09-12",
+    "storyTime": "16:27",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "desk"
+    ],
+    "createdAt": "2026-09-12T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/noah-04.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.8",
+    "author": "char.olivia",
+    "text": "The bakery has put pumpkin things in the window and it is the fourteenth of\nSeptember, which I consider an act of aggression.\n\nI bought two.",
+    "storyDate": "2026-09-14",
+    "storyTime": "12:26",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "neighbourhood"
+    ],
+    "createdAt": "2026-09-14T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-08.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.oliver.2",
+    "author": "char.oliver",
+    "text": "The corner lot has been empty for eleven years. Someone is paying to keep it that\nway.",
+    "storyDate": "2026-09-17",
+    "storyTime": "19:08",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "observation"
+    ],
+    "createdAt": "2026-09-17T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/oliver-02.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.9",
+    "author": "char.olivia",
+    "text": "he says four words a month and they are the correct four @ollie-oxen-free",
+    "storyDate": "2026-09-17",
+    "storyTime": "19:13",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.oliver.2",
+    "mentions": [
+      "char.oliver"
+    ],
+    "tags": [
+      "lane-public",
+      "reply"
+    ],
+    "createdAt": "2026-09-17T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-09.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.6",
+    "author": "char.emma",
+    "text": "Back at McGolrick. Bought tomatoes for six people and I am one person.\n\nThis keeps happening and I have decided to stop calling it a mistake and start\ncalling it a personality trait.",
+    "storyDate": "2026-09-20",
+    "storyTime": "11:06",
+    "chapterRef": "book1#ch0",
+    "placeRef": "place.mcgolrick-market",
+    "tags": [
+      "lane-public",
+      "market"
+    ],
+    "createdAt": "2026-09-20T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-06.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.10",
+    "author": "char.olivia",
+    "text": "Marcus has started carrying a hot sauce from somewhere upstate and would not stop\ntalking about the label, which is beautiful, and which is doing a great deal of work\nfor a sauce that tastes like a candle.",
+    "storyDate": "2026-09-21",
+    "storyTime": "08:33",
+    "chapterRef": "book1#ch0",
+    "placeRef": "place.the-gilded-fern",
+    "tags": [
+      "lane-public",
+      "gilded-fern"
+    ],
+    "createdAt": "2026-09-21T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-10.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.8",
+    "author": "char.jasper",
+    "text": "reorganised the records again. chronological was a mistake. it is now by how i feel\nabout them which is unsearchable and correct",
+    "storyDate": "2026-09-22",
+    "storyTime": "23:41",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "mundane"
+    ],
+    "createdAt": "2026-09-22T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-08.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.9",
+    "author": "char.jasper",
+    "text": "(the feeling categories are on index cards. there are nineteen of them. i will not\nbe taking questions",
+    "storyDate": "2026-09-22",
+    "storyTime": "23:58",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "mundane"
+    ],
+    "createdAt": "2026-09-22T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-09.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.7",
+    "author": "char.emma",
+    "text": "Taking on private lessons this autumn. Knife skills, braising, how to read a recipe\nand then ignore it correctly.\n\nYou do not need better equipment. You need to stand closer to the pan and stop\napologising to it.",
+    "storyDate": "2026-09-23",
+    "storyTime": "14:31",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "lessons",
+      "brand"
+    ],
+    "createdAt": "2026-09-23T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-07.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.elijah.4",
+    "author": "char.elijah",
+    "text": "Drove past a place upstate with a barn on it and about nine acres and I did the\narithmetic on it in my head before I had finished passing it.\n\nAnyway.",
+    "storyDate": "2026-09-24",
+    "storyTime": "23:34",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "observation"
+    ],
+    "createdAt": "2026-09-24T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/elijah-04.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.11",
+    "author": "char.olivia",
+    "text": "Franco fixed a hem for me in eleven minutes while telling me about his nephew's\nlease, which he should not have told me, and which I will now be thinking about for\na week.",
+    "storyDate": "2026-09-26",
+    "storyTime": "15:02",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "neighbourhood"
+    ],
+    "createdAt": "2026-09-26T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-11.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.8",
+    "author": "char.emma",
+    "text": "Delicata are in and they are the one squash you do not have to peel, which makes\nthem the only honest squash.\n\nRoast them in rounds, high heat, until the edges go dark. That is the recipe. That\nis the whole recipe.",
+    "storyDate": "2026-09-27",
+    "storyTime": "10:12",
+    "chapterRef": "book1#ch0",
+    "placeRef": "place.mcgolrick-market",
+    "tags": [
+      "lane-public",
+      "market",
+      "squash"
+    ],
+    "createdAt": "2026-09-27T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-08.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.10",
+    "author": "char.jasper",
+    "text": "someone asked what my people do at thanksgiving and i have decided to go outside",
+    "storyDate": "2026-09-28",
+    "storyTime": "11:09",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "deflection"
+    ],
+    "createdAt": "2026-09-28T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-10.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.noah.5",
+    "author": "char.noah",
+    "text": "The building's package situation is not a fixable problem. There is no system that\nsurvives forty people who each believe they are the exception.\n\nMoving on.",
+    "storyDate": "2026-09-29",
+    "storyTime": "19:38",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "deflection"
+    ],
+    "createdAt": "2026-09-29T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/noah-05.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.12",
+    "author": "char.olivia",
+    "text": "Dinner at Emma's on Sunday. I have been instructed not to bring anything.\n\nI will be bringing something.",
+    "storyDate": "2026-09-30",
+    "storyTime": "20:47",
+    "chapterRef": "book1#ch0",
+    "mentions": [
+      "char.emma"
+    ],
+    "tags": [
+      "lane-public",
+      "supper-club"
+    ],
+    "createdAt": "2026-09-30T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-12.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.elijah.5",
+    "author": "char.elijah",
+    "text": "I have been told the tarte tatin has a fifty per cent failure rate and I intend to\nbe there for either outcome.",
+    "storyDate": "2026-10-01",
+    "storyTime": "20:02",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.emma.9",
+    "mentions": [
+      "char.emma"
+    ],
+    "tags": [
+      "lane-public",
+      "reply"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/elijah-05.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.elijah.6",
+    "author": "char.elijah",
+    "text": "in",
+    "storyDate": "2026-10-01",
+    "storyTime": "20:04",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-club"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/elijah-06.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.10",
+    "author": "char.emma",
+    "text": "sunday, my place, 7. do not bring anything. I mean it this time\n\n@liv-living I can see you typing",
+    "storyDate": "2026-10-01",
+    "storyTime": "18:52",
+    "chapterRef": "book1#ch0",
+    "mentions": [
+      "char.olivia",
+      "char.jasper"
+    ],
+    "tags": [
+      "lane-club"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-10.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.emma.9",
+    "author": "char.emma",
+    "text": "Cooking for my people on Sunday. The menu has been living in my head for days and\nhas been revised four times on the backs of receipts.\n\nSoup. Something with brown butter. A tarte tatin that will either work or be a\nstory.",
+    "storyDate": "2026-10-01",
+    "storyTime": "18:40",
+    "chapterRef": "book1#ch0",
+    "tags": [
+      "lane-public",
+      "supper-club"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/emma-09.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.jasper.11",
+    "author": "char.jasper",
+    "text": "emma i am bringing one (1) thing and it is not food so it does not count",
+    "storyDate": "2026-10-01",
+    "storyTime": "21:16",
+    "chapterRef": "book1#ch0",
+    "mentions": [
+      "char.emma"
+    ],
+    "tags": [
+      "lane-club"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/jasper-11.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.noah.6",
+    "author": "char.noah",
+    "text": "what time is actual dinner as distinct from stated dinner",
+    "storyDate": "2026-10-01",
+    "storyTime": "19:22",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.emma.10",
+    "mentions": [
+      "char.emma"
+    ],
+    "tags": [
+      "lane-club"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/noah-06.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch0.olivia.13",
+    "author": "char.olivia",
+    "text": "I'm bringing wine. Wine is not a thing. Wine is a condition of my attendance",
+    "storyDate": "2026-10-01",
+    "storyTime": "18:55",
+    "chapterRef": "book1#ch0",
+    "inReplyTo": "post.book1.ch0.emma.10",
+    "mentions": [
+      "char.emma"
+    ],
+    "tags": [
+      "lane-club"
+    ],
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-13.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
     "id": "post.book1.ch2.emma.1",
     "author": "char.emma",
     "text": "roast the squash, don't boil it. forty extra minutes and entirely the point. six bowls went out and the room went quiet, which is the only review I trust.",
     "storyDate": "2026-10-04",
-    "storyTime": "evening",
+    "storyTime": "20:41",
     "chapterRef": "book1#ch2",
     "placeRef": "place.emmas-apartment",
     "tags": [
+      "lane-public",
       "anchored",
       "meal1"
     ],
@@ -21,10 +796,11 @@
     "author": "char.noah",
     "text": "was informed my face \"did a thing\" when the wine came out. the closure is not the issue. the issue is a 14% fruit bomb served at ambient temperature in a kitchen running 78 degrees. bringing a thermometer next time.",
     "storyDate": "2026-10-04",
-    "storyTime": "evening",
+    "storyTime": "19:58",
     "chapterRef": "book1#ch2",
     "placeRef": "place.emmas-apartment",
     "tags": [
+      "lane-public",
       "anchored",
       "meal1"
     ],
@@ -37,10 +813,11 @@
     "author": "char.jasper",
     "text": "okay so i may have knocked a full glass of red across a table while explaining something and i stand by the theory AND the gesture. the table has notes. the table always has notes.",
     "storyDate": "2026-10-04",
-    "storyTime": "evening",
+    "storyTime": "21:27",
     "chapterRef": "book1#ch4",
     "placeRef": "place.emmas-apartment",
     "tags": [
+      "lane-public",
       "anchored",
       "meal1"
     ],
@@ -53,10 +830,11 @@
     "author": "char.olivia",
     "text": "put six adults in one room and somebody has to decide what happens next. tonight that was me, and it involved a baseball cap. don't ask. do come next time.",
     "storyDate": "2026-10-04",
-    "storyTime": "night",
+    "storyTime": "23:06",
     "chapterRef": "book1#ch5",
     "placeRef": "place.emmas-apartment",
     "tags": [
+      "lane-public",
       "anchored",
       "meal1"
     ],
@@ -69,10 +847,11 @@
     "author": "char.olivia",
     "text": "spent an hour at the gilded fern not eating, which marcus took personally, talking to four different people about nothing in particular. this is a skill. it is not on my résumé.",
     "storyDate": "2026-10-06",
-    "storyTime": "afternoon",
+    "storyTime": "16:22",
     "chapterRef": "book1#ch7",
     "placeRef": "place.the-gilded-fern",
     "tags": [
+      "lane-public",
       "anchored",
       "meal2"
     ],
@@ -85,10 +864,11 @@
     "author": "char.jasper",
     "text": "everyone i know has been productive this week and i have: one notebook, eleven open tabs, and a strong feeling. the feeling is load-bearing. i'm getting there.",
     "storyDate": "2026-10-09",
-    "storyTime": "evening",
+    "storyTime": "21:48",
     "chapterRef": "book1#ch10",
     "placeRef": "place.jaspers-apartment",
     "tags": [
+      "lane-public",
       "anchored",
       "meal2"
     ],
@@ -101,10 +881,11 @@
     "author": "char.emma",
     "text": "mcgolrick on a cold sunday. bought more delicata than one person can reasonably cook, and on sundays I am not one person anymore. that's the whole trick of it.",
     "storyDate": "2026-10-11",
-    "storyTime": "morning",
+    "storyTime": "10:15",
     "chapterRef": "book1#ch12",
     "placeRef": "place.mcgolrick-market",
     "tags": [
+      "lane-public",
       "anchored",
       "meal2"
     ],
@@ -117,10 +898,11 @@
     "author": "char.olivia",
     "text": "second sunday running. everyone brought something, two people brought the same something, and I have decided that makes it a tradition. you don't get to opt out of a tradition.",
     "storyDate": "2026-10-11",
-    "storyTime": "night",
+    "storyTime": "23:19",
     "chapterRef": "book1#ch12",
     "placeRef": "place.emmas-apartment",
     "tags": [
+      "lane-public",
       "anchored",
       "meal2"
     ],

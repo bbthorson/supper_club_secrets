@@ -112,6 +112,10 @@ rkey, so corrections propagate.
 > **This changed the story lane only. In-character posts still drip daily**, on
 > their own clock, ahead of the chapters they are anchored to. The two cadences
 > are set out in "The lanes" above.
+>
+> The meal-drop shape this note records was designed in
+> [`DROP_CADENCE.md`](DROP_CADENCE.md); that document is the reasoning, this note
+> is the decision.
 
 - **Oct 1 (Thu)** — launch: front matter, cast profiles (`oneLine` bios), the
   standing places (markets, shops). No story yet.

@@ -255,6 +255,7 @@ function plan({ asOf, horizon: override, book }) {
   const writes = [];
   const skipped = [];
   const held = [];
+  const clubHeld = [];
 
   const add = (target, rec) => {
     const type = rec.$type.replace(/^[^.]+\.[^.]+\./, '');
@@ -299,7 +300,25 @@ function plan({ asOf, horizon: override, book }) {
   // (chapterRef vs. the reader's own horizon) still holds a post back. A repo
   // has no reveal gate, so falling back to "immediately" here would empty all
   // eight posts onto the feed on day one instead of dripping them.
+  //
+  // The club lane never touches the open network. A message in the supper
+  // club's group chat is the private register — it is the content the public
+  // feed is silent about — and publishing one to a cast account's public repo
+  // would release a spoiler under a permanent identity, where it cannot be
+  // taken back.
+  //
+  // The lane rides in `tags` because the pinned compiler has no lane field and
+  // the lexicons are generated, so it cannot be given one from this repo (see
+  // protocol/CHARACTER_ACCOUNTS.md). tools/lint_posts.mjs guarantees every post
+  // carries exactly one lane tag; this check does not trust that and fails
+  // closed anyway. A post is published only if it is POSITIVELY marked public —
+  // an absent, misspelled or doubled tag is held, never guessed.
   for (const rec of posts) {
+    const tags = rec.tags ?? [];
+    if (!(tags.includes('lane-public') && !tags.includes('lane-club'))) {
+      clubHeld.push(`${rec.id} (tags: ${tags.join(' ') || 'none'})`);
+      continue;
+    }
     const acct = accounts.get(rec.author);
     if (!acct) { skipped.push(`${rec.id} (${rec.author} has no account)`); continue; }
     const date = rec.publishDate ?? rec.storyDate;
@@ -308,12 +327,12 @@ function plan({ asOf, horizon: override, book }) {
     add(acct, rec);
   }
 
-  return { writes, skipped, held, accounts, horizon };
+  return { writes, skipped, held, clubHeld, accounts, horizon };
 }
 
 /* ----------------------------------------------------------------- reports */
 
-function report({ writes, skipped, held, horizon }, { asOf, horizon: override, execute }) {
+function report({ writes, skipped, held, clubHeld, horizon }, { asOf, horizon: override, execute }) {
   const byTarget = new Map();
   for (const w of writes) {
     if (!byTarget.has(w.target.handle)) byTarget.set(w.target.handle, []);
@@ -333,6 +352,9 @@ function report({ writes, skipped, held, horizon }, { asOf, horizon: override, e
   }
   console.log(`\n  ${writes.length} writes across ${byTarget.size} repos.`);
   console.log(`  ${held.length} records held back by the horizon.`);
+  if (clubHeld?.length) {
+    console.log(`  ${clubHeld.length} held back by lane — the club never leaves the space.`);
+  }
   if (skipped.length) {
     console.log(`\n  ${skipped.length} NOT PUBLISHED — no destination:`);
     for (const s of skipped.slice(0, 12)) console.log(`      ${s}`);
