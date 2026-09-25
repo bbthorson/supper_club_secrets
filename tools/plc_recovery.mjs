@@ -26,6 +26,10 @@
  *   node tools/plc_recovery.mjs --submit .plc/emma.json
  *       → submits the operation that was printed and reviewed
  *
+ *   node tools/plc_recovery.mjs --store .plc/emma.json
+ *       → files the private key in the macOS keychain, verifies the read-back,
+ *         and deletes the file itself
+ *
  * The three steps are separate on purpose. This edits a DID document, which is
  * not reversible, so the operation is written down and read by a human before
  * it goes anywhere. Do one account end to end, verify it at
@@ -37,6 +41,7 @@
  */
 
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -77,11 +82,16 @@ function didKey(publicKey) {
 
 /* ------------------------------------------------------------------- xrpc */
 
-async function xrpc(method, { body, token, query } = {}) {
+/**
+ * `post: true` forces a POST with no request body. Some procedures take no
+ * input at all and reject `{}` with "A request body was provided when none was
+ * expected", so absence of a body cannot be used to infer the verb.
+ */
+async function xrpc(method, { body, token, query, post } = {}) {
   const url = new URL(`/xrpc/${method}`, PDS);
   for (const [k, v] of Object.entries(query ?? {})) url.searchParams.set(k, v);
   const res = await fetch(url, {
-    method: body === undefined ? 'GET' : 'POST',
+    method: post || body !== undefined ? 'POST' : 'GET',
     headers: {
       ...(body !== undefined ? { 'content-type': 'application/json' } : {}),
       ...(token ? { authorization: `Bearer ${token}` } : {}),
@@ -89,13 +99,23 @@ async function xrpc(method, { body, token, query } = {}) {
     ...(body !== undefined ? { body: JSON.stringify(body) } : {}),
   });
   const text = await res.text();
-  if (!res.ok) die(`${method} ${res.status}: ${text.slice(0, 400)}`);
+  if (!res.ok) {
+    if (text.includes('Bad token scope')) {
+      die(
+        `${method} rejected the session's scope.\n\n` +
+          `         You are signed in with an APP password. Identity operations need the\n` +
+          `         account password — app passwords are scoped out of them on purpose.\n` +
+          `         Set BSKY_ACCOUNT_PASSWORD to the real account password and retry.`
+      );
+    }
+    die(`${method} ${res.status}: ${text.slice(0, 400)}`);
+  }
   return text ? JSON.parse(text) : {};
 }
 
 function account(slug) {
   if (slug === 'project') {
-    return { slug, handle: DOMAIN, did: 'did:plc:zvimgmqci4atuvxye2olyn7c', secret: 'BSKY_PASSWORD_PROJECT' };
+    return { slug, handle: DOMAIN, did: 'did:plc:zvimgmqci4atuvxye2olyn7c' };
   }
   const file = path.join(ROOT, `codex/characters/${slug}.md`);
   if (!fs.existsSync(file)) die(`no such character file: codex/characters/${slug}.md`);
@@ -103,12 +123,36 @@ function account(slug) {
   const pick = (k) => (fm.match(new RegExp(`^${k}:\\s*(.+)$`, 'm')) ?? [])[1]?.trim();
   const handle = pick('handle'), did = pick('did');
   if (!handle || !did) die(`${slug} is missing handle: or did: in frontmatter`);
-  return { slug, handle: `${handle}.${DOMAIN}`, did, secret: `BSKY_PASSWORD_${slug.toUpperCase()}` };
+  return { slug, handle: `${handle}.${DOMAIN}`, did };
 }
 
+/**
+ * Signs in with the ACCOUNT password, not an app password.
+ *
+ * This is forced, not a choice. A session created from an app password carries
+ * scope `com.atproto.appPass`, and every identity operation here requires the
+ * full `com.atproto.access` scope — the PDS answers an app-password session with
+ * `InvalidToken: Bad token scope`. That boundary is deliberate and good: it is
+ * what stops a leaked app password being used to take over an account.
+ *
+ * It does NOT loosen the standing rule in CHARACTER_ACCOUNTS.md §4 that app
+ * passwords, never account passwords, go in the pipeline. This is a one-off
+ * manual operation run by hand; the publish path still uses app passwords and is
+ * unaffected. The account password must never reach a file, a repo secret, or a
+ * chat message — read it into the environment and unset it when you are done.
+ */
 async function login(acct) {
-  const password = process.env[acct.secret];
-  if (!password) die(`${acct.secret} is not set in the environment`);
+  const password = process.env.BSKY_ACCOUNT_PASSWORD;
+  if (!password) {
+    die(
+      `BSKY_ACCOUNT_PASSWORD is not set.\n\n` +
+        `         This step needs @${acct.handle}'s ACCOUNT password, not its app password.\n` +
+        `         App-password sessions are scoped out of identity operations by design.\n\n` +
+        `         zsh:   read -s "?Account password for @${acct.handle}: " BSKY_ACCOUNT_PASSWORD; export BSKY_ACCOUNT_PASSWORD\n` +
+        `         bash:  read -rsp "Account password for @${acct.handle}: " BSKY_ACCOUNT_PASSWORD; export BSKY_ACCOUNT_PASSWORD`
+    );
+  }
+  console.log(`  Signing in as @${acct.handle} …`);
   const resolved = await xrpc('com.atproto.identity.resolveHandle', { query: { handle: acct.handle } });
   if (resolved.did !== acct.did) {
     die(`DID mismatch for @${acct.handle}\n         codex: ${acct.did}\n         live:  ${resolved.did}`);
@@ -123,7 +167,7 @@ async function login(acct) {
 
 async function requestToken(acct) {
   const jwt = await login(acct);
-  await xrpc('com.atproto.identity.requestPlcOperationSignature', { token: jwt, body: {} });
+  await xrpc('com.atproto.identity.requestPlcOperationSignature', { token: jwt, post: true });
   console.log(`\n  Token emailed for @${acct.handle}.`);
   console.log(`  Next:  node tools/plc_recovery.mjs --account ${acct.slug} --token <TOKEN>\n`);
 }
@@ -210,10 +254,98 @@ async function submit(file) {
   if (saved.rotationKeysAfter[0] !== saved.recoveryKeyPublic) {
     die('refusing to submit: your key is not ranked first');
   }
-  await xrpc('com.atproto.identity.submitPlcOperation', { body: { operation: saved.operation } });
+  // submitPlcOperation is authenticated like every other identity call, so this
+  // step signs in again rather than being a pure file-to-network hand-off.
+  const acct = account(saved.account);
+  if (acct.did !== saved.did) die(`file is for ${saved.did} but ${saved.account} now records ${acct.did}`);
+  const jwt = await login(acct);
+  await xrpc('com.atproto.identity.submitPlcOperation', {
+    token: jwt,
+    body: { operation: saved.operation },
+  });
   console.log(`\n  Submitted for @${saved.handle}.`);
-  console.log(`  Verify:  curl https://plc.directory/${saved.did} | jq .rotationKeys`);
+  // /<did> returns the W3C DID document, which deliberately does not expose
+  // rotation keys — they are PLC-internal state. /data returns the current
+  // operation state, which does.
+  console.log(`  Verify:  curl -s https://plc.directory/${saved.did}/data | jq .rotationKeys`);
   console.log(`  Expect your key first: ${saved.recoveryKeyPublic}\n`);
+}
+
+/**
+ * Stores the private key in the macOS login keychain.
+ *
+ * A recovery key you cannot find is the same as one you never made, and a
+ * multiline PEM copied by hand six more times is an error waiting to happen.
+ * The keychain is already on the machine, already encrypted at rest, and already
+ * unlocked by the login password.
+ *
+ * Keyed by DID rather than handle, because the handle is the part that can move.
+ *
+ * Uses execFileSync rather than a shell, so nothing lands in shell history.
+ * The value is briefly visible in the process list, which on a personal machine
+ * is a reasonable trade against the alternative of hand-copying it.
+ */
+function store(file) {
+  if (process.platform !== 'darwin') {
+    die('--store uses the macOS keychain. On another OS, copy recoveryKeyPrivatePem out by hand.');
+  }
+  const abs = path.resolve(ROOT, file);
+  if (!fs.existsSync(abs)) {
+    die(
+      `no such file: ${file}\n\n` +
+        `         The private key existed only in that file. If it was deleted before\n` +
+        `         being stored, it is unrecoverable — but nothing is broken: a rotation\n` +
+        `         key nobody holds cannot be used by anyone, and Bluesky's keys are\n` +
+        `         untouched. Run --request / --token / --submit again to add a fresh key.`
+    );
+  }
+  const saved = JSON.parse(fs.readFileSync(abs, 'utf8'));
+  if (!saved.recoveryKeyPrivatePem) die('that file has no private key in it');
+
+  const SERVICE = 'supperclub-plc-recovery';
+
+  // Stored base64, not as the raw PEM. `security` does not round-trip embedded
+  // newlines reliably, and a PEM is four lines. Base64 makes the value a single
+  // ASCII line, which removes the whole class of problem.
+  const encoded = Buffer.from(saved.recoveryKeyPrivatePem, 'utf8').toString('base64');
+
+  execFileSync('security', [
+    'add-generic-password',
+    '-a', saved.did,
+    '-s', SERVICE,
+    '-l', `${saved.handle} PLC recovery`,
+    '-j', `PLC rotation key for ${saved.handle} (base64 PEM). Public: ${saved.recoveryKeyPublic}`,
+    '-w', encoded,
+    '-U',
+  ]);
+
+  // Read it back and decode. A write nobody verified is not a backup.
+  const raw = execFileSync('security', [
+    'find-generic-password', '-a', saved.did, '-s', SERVICE, '-w',
+  ]).toString().trim();
+  const decoded = Buffer.from(raw, 'base64').toString('utf8');
+
+  if (decoded.trim() !== saved.recoveryKeyPrivatePem.trim()) {
+    die(
+      `keychain read-back did not match what was written — do NOT delete the file\n\n` +
+        `         wrote  ${encoded.length} chars of base64\n` +
+        `         read   ${raw.length} chars back\n` +
+        `         decoded to ${decoded.length} chars, expected ${saved.recoveryKeyPrivatePem.length}\n` +
+        `         first 40 decoded: ${JSON.stringify(decoded.slice(0, 40))}\n` +
+        `         first 40 wanted : ${JSON.stringify(saved.recoveryKeyPrivatePem.slice(0, 40))}`
+    );
+  }
+
+  console.log(`\n  Stored in the login keychain and read back clean.`);
+  console.log(`      account  ${saved.did}`);
+  console.log(`      service  ${SERVICE}`);
+  console.log(`\n  Retrieve later:`);
+  console.log(`      security find-generic-password -a ${saved.did} -s ${SERVICE} -w | base64 -d`);
+  // Delete it here rather than telling the human to. The key exists in exactly
+  // two places at this moment and one of them is a plaintext file; leaving the
+  // cleanup as a separate instruction is how it gets skipped, or run early.
+  fs.rmSync(abs);
+  console.log(`  ${path.relative(ROOT, abs)} deleted — the keychain now holds the only copy.\n`);
 }
 
 /* ------------------------------------------------------------------- main */
@@ -221,7 +353,9 @@ async function submit(file) {
 const a = process.argv.slice(2);
 const flag = (f) => { const i = a.indexOf(f); return i === -1 ? undefined : a[i + 1]; };
 
-if (a.includes('--submit')) {
+if (a.includes('--store')) {
+  store(flag('--store') ?? die('--store needs a file path'));
+} else if (a.includes('--submit')) {
   await submit(flag('--submit') ?? die('--submit needs a file path'));
 } else {
   const slug = flag('--account') ?? die('--account <slug> is required');

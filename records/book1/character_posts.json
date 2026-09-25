@@ -339,7 +339,7 @@
     "$type": "com.supperclubsecrets.character.post",
     "id": "post.book1.ch0.olivia.6",
     "author": "char.olivia",
-    "text": "Maria's daughter is getting married in April and Maria has already chosen the\nflowers, the second set of flowers in case the first are wrong, and the flowers for\nthe rehearsal, which I did not know was a category.\n\nI love her. I will be doing the same thing when it is my turn to have an opinion\nabout someone else's wedding.",
+    "text": "Maria's daughter is getting married in April and Maria has already chosen the\nflowers, the backup flowers in case the first are wrong, and the rehearsal\nflowers, which I did not know was a category.\n\nI love her. I will be exactly this bad when it is my turn to have opinions about\nsomeone else's day.",
     "storyDate": "2026-09-02",
     "storyTime": "09:41",
     "chapterRef": "book1#ch0",
@@ -772,5 +772,141 @@
     ],
     "createdAt": "2026-10-01T00:00:00.000Z",
     "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/olivia-13.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch2.emma.1",
+    "author": "char.emma",
+    "text": "roast the squash, don't boil it. forty extra minutes and entirely the point. six bowls went out and the room went quiet, which is the only review I trust.",
+    "storyDate": "2026-10-04",
+    "storyTime": "20:41",
+    "chapterRef": "book1#ch2",
+    "placeRef": "place.emmas-apartment",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal1"
+    ],
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-04-emma-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch2.noah.1",
+    "author": "char.noah",
+    "text": "was informed my face \"did a thing\" when the wine came out. the closure is not the issue. the issue is a 14% fruit bomb served at ambient temperature in a kitchen running 78 degrees. bringing a thermometer next time.",
+    "storyDate": "2026-10-04",
+    "storyTime": "19:58",
+    "chapterRef": "book1#ch2",
+    "placeRef": "place.emmas-apartment",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal1"
+    ],
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-04-noah-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch4.jasper.1",
+    "author": "char.jasper",
+    "text": "okay so i may have knocked a full glass of red across a table while explaining something and i stand by the theory AND the gesture. the table has notes. the table always has notes.",
+    "storyDate": "2026-10-04",
+    "storyTime": "21:27",
+    "chapterRef": "book1#ch4",
+    "placeRef": "place.emmas-apartment",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal1"
+    ],
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-04-jasper-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch5.olivia.1",
+    "author": "char.olivia",
+    "text": "put six adults in one room and somebody has to decide what happens next. tonight that was me, and it involved a baseball cap. don't ask. do come next time.",
+    "storyDate": "2026-10-04",
+    "storyTime": "23:06",
+    "chapterRef": "book1#ch5",
+    "placeRef": "place.emmas-apartment",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal1"
+    ],
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-04-olivia-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch7.olivia.1",
+    "author": "char.olivia",
+    "text": "spent an hour at the gilded fern not eating, which marcus took personally, talking to four different people about nothing in particular. this is a skill. it is not on my résumé.",
+    "storyDate": "2026-10-06",
+    "storyTime": "16:22",
+    "chapterRef": "book1#ch7",
+    "placeRef": "place.the-gilded-fern",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal2"
+    ],
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-06-olivia-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch10.jasper.1",
+    "author": "char.jasper",
+    "text": "everyone i know has been productive this week and i have: one notebook, eleven open tabs, and a strong feeling. the feeling is load-bearing. i'm getting there.",
+    "storyDate": "2026-10-09",
+    "storyTime": "21:48",
+    "chapterRef": "book1#ch10",
+    "placeRef": "place.jaspers-apartment",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal2"
+    ],
+    "createdAt": "2026-10-09T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-09-jasper-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch12.emma.1",
+    "author": "char.emma",
+    "text": "mcgolrick on a cold sunday. bought more delicata than one person can reasonably cook, and on sundays I am not one person anymore. that's the whole trick of it.",
+    "storyDate": "2026-10-11",
+    "storyTime": "10:15",
+    "chapterRef": "book1#ch12",
+    "placeRef": "place.mcgolrick-market",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal2"
+    ],
+    "createdAt": "2026-10-11T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-11-emma-01.md"
+  },
+  {
+    "$type": "com.supperclubsecrets.character.post",
+    "id": "post.book1.ch12.olivia.1",
+    "author": "char.olivia",
+    "text": "second sunday running. everyone brought something, two people brought the same something, and I have decided that makes it a tradition. you don't get to opt out of a tradition.",
+    "storyDate": "2026-10-11",
+    "storyTime": "23:19",
+    "chapterRef": "book1#ch12",
+    "placeRef": "place.emmas-apartment",
+    "tags": [
+      "lane-public",
+      "anchored",
+      "meal2"
+    ],
+    "createdAt": "2026-10-11T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/posts/2026-10-11-olivia-01.md"
   }
 ]

@@ -1,35 +1,42 @@
 [
   {
     "$type": "com.supperclubsecrets.custodyEvent",
-    "id": "custodyEvent.heritage-bottle.ch1",
+    "id": "custodyEvent.heritage-bottle.book1.ch1",
     "item": "item.heritage-bottle",
     "storyDate": "2026-10-04",
     "holder": "char.emma",
-    "fromHolder": null,
-    "chapterRef": "book.1#ch1",
-    "event": "Dorothy gives Emma the bottle 'just in case'.",
-    "createdAt": "2026-10-04"
+    "fromHolder": "char.dorothy",
+    "event": "Dorothy presses Hank's last bottle into Emma's hands — he had told her to keep it, \"just in case.\"",
+    "chapterRef": "book1#ch1",
+    "sceneRef": "scene.book1.ch1",
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m1_01_the_missing_hot_sauce.md"
   },
   {
     "$type": "com.supperclubsecrets.custodyEvent",
-    "id": "custodyEvent.heritage-bottle.ch17",
+    "id": "custodyEvent.heritage-bottle.book1.ch17",
     "item": "item.heritage-bottle",
-    "storyDate": "2026-10-15",
+    "storyDate": "2026-10-14",
+    "storyDateEnd": "2026-10-16",
     "holder": "char.jasper",
     "fromHolder": "char.emma",
-    "chapterRef": "book.1#ch17",
-    "event": "Jasper palms the bottle from Emma's counter on his way to PA.",
-    "createdAt": "2026-10-15"
+    "event": "Jasper packs the bottle for the journey, wrapped in a sock; he palmed it from Emma's counter the night before and told no one.",
+    "chapterRef": "book1#ch17",
+    "sceneRef": "scene.book1.ch17",
+    "createdAt": "2026-10-14T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m3_17_sharpening_the_knives.md"
   },
   {
     "$type": "com.supperclubsecrets.custodyEvent",
-    "id": "custodyEvent.heritage-bottle.ch25",
+    "id": "custodyEvent.heritage-bottle.book1.ch25",
     "item": "item.heritage-bottle",
     "storyDate": "2026-10-25",
     "holder": "char.emma",
     "fromHolder": "char.jasper",
-    "chapterRef": "book.1#ch25",
-    "event": "Jasper returns the bottle to Emma; it goes back on the counter.",
-    "createdAt": "2026-10-25"
+    "event": "Jasper returns the bottle to Emma with an apology; it goes back on the counter where it started.",
+    "chapterRef": "book1#ch25",
+    "sceneRef": "scene.book1.ch25",
+    "createdAt": "2026-10-25T00:00:00.000Z",
+    "sourceFile": "stories/01. The Case of the Missing Hot Sauce/chapters/m4_25_family_meal.md"
   }
 ]
